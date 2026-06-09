@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Anton, Archivo, JetBrains_Mono } from "next/font/google";
+import "flag-icons/css/flag-icons.min.css";
 import "./globals.css";
 import { leagueMeta } from "@/lib/league";
 import { SiteHeader } from "@/components/SiteHeader";

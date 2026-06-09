@@ -1,6 +1,6 @@
 import type { ReactNode } from "react";
 import type { PlayerScore } from "@/lib/scoring";
-import { Pts, PositionBadge, ScoreLines, StatPill, signed } from "./ui";
+import { Flag, Pts, PositionBadge, ScoreLines, StatPill, signed } from "./ui";
 import { playerAnchor } from "./PitchFormation";
 import {
   BootIcon,
@@ -50,7 +50,8 @@ export function PlayerCard({ ps, rank }: { ps: PlayerScore; rank: number }) {
           <div className="min-w-0">
             <div className="mb-1 flex flex-wrap items-center gap-2">
               <PositionBadge position={player.position} />
-              <span className="text-xs font-semibold text-muted">
+              <span className="inline-flex items-center gap-1.5 text-xs font-semibold text-muted">
+                <Flag country={player.country} size={13} />
                 {player.country}
               </span>
             </div>

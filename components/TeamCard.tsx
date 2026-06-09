@@ -1,6 +1,6 @@
 import type { TeamScore } from "@/lib/scoring";
-import { Pts, RecordBadges, ScoreLines, signed } from "./ui";
-import { ChevronRight, ShieldIcon } from "./icons";
+import { Flag, Pts, RecordBadges, ScoreLines, signed } from "./ui";
+import { ChevronRight } from "./icons";
 
 function resultTone(r: "W" | "D" | "L"): string {
   return r === "W" ? "text-turf-bright" : r === "D" ? "text-muted" : "text-red";
@@ -13,9 +13,7 @@ export function TeamCard({ ts }: { ts: TeamScore }) {
     <article className="panel p-4">
       <header className="flex items-start justify-between gap-3">
         <div className="flex items-start gap-3">
-          <span className="grid h-10 w-10 place-items-center rounded-lg border border-line bg-bg-2 text-turf-bright">
-            <ShieldIcon size={20} />
-          </span>
+          <Flag country={team.country} size={30} className="mt-1" />
           <div>
             <h3 className="font-display text-xl leading-tight tracking-wide text-chalk">
               {team.country}

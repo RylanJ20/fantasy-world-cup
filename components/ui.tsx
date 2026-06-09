@@ -1,6 +1,40 @@
 import type { ReactNode } from "react";
 import type { Position } from "@/lib/types";
 import type { ScoreLine } from "@/lib/scoring";
+import { countryCode } from "@/lib/flags";
+
+/**
+ * Country flag (crisp SVG via flag-icons — renders on every platform, unlike
+ * flag emoji). Decorative: it always sits next to the country name, so it's
+ * hidden from screen readers. Falls back to a small dot for unknown countries.
+ */
+export function Flag({
+  country,
+  size = 14,
+  className = "",
+}: {
+  country: string;
+  size?: number;
+  className?: string;
+}) {
+  const code = countryCode(country);
+  if (!code) {
+    return (
+      <span
+        className={`inline-block shrink-0 rounded-full bg-turf/70 ${className}`}
+        style={{ width: size * 0.5, height: size * 0.5 }}
+        aria-hidden
+      />
+    );
+  }
+  return (
+    <span
+      className={`fi fi-${code} shrink-0 rounded-[3px] shadow-sm ring-1 ring-black/40 ${className}`}
+      style={{ width: Math.round(size * 1.34), height: size, backgroundSize: "cover" }}
+      aria-hidden
+    />
+  );
+}
 
 export const POSITION_LABEL: Record<Position, string> = {
   GK: "Goalkeeper",

@@ -71,7 +71,7 @@ const tm = (
 // ════════════════════════════════════════════════════════════════════════════
 
 export const league: League = {
-  name: "The Group of Death",
+  name: "Soccer Fantasy Drafts",
   season: "World Cup 2026",
   managers: [
     // ── Rylan ────────────────────────────────────────────────────────────
