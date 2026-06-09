@@ -1,36 +1,60 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Fantasy World Cup Tracker
 
-## Getting Started
+A soccer-themed website for our 8-manager fantasy World Cup. Homepage shows the
+standings; every manager has their own page with their drafted XI laid out on a
+pitch, their 6 national teams, and a full scoring breakdown for each.
 
-First, run the development server:
+Built with Next.js 16 + Tailwind v4. All scores come from **one data file**.
+
+## Run it locally
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm install
+npm run dev          # http://localhost:3000
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Updating scores — the only file you touch
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Everything lives in **[`data/league.ts`](data/league.ts)**. The site recomputes
+all points, breakdowns and standings automatically from the raw match stats.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+**Add a player match** (only list what happened — anything omitted is 0/none):
 
-## Learn More
+```ts
+pm("vs Brazil", { goals: 1, assists: 1, shotsOnGoal: 3, motm: true })
+```
 
-To learn more about Next.js, take a look at the following resources:
+Stat keys: `goals`, `assists`, `shotsOnGoal`, `saves`, `pkSaves`,
+`goalsConceded`, `result` (`"W" | "D" | "L"`), `motm` (`true`).
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- For the **GK and every defender** (CB / DEF / WB) set `goalsConceded` so
+  clean-sheet (+3) and one-goal-allowed (+1) bonuses are awarded.
+- `result: "W"` gives the **GK** the +3 win bonus.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+**Add a team match** (goals for, goals against — result is inferred):
 
-## Deploy on Vercel
+```ts
+tm("vs Brazil", 2, 0)              // 2–0 win
+tm("vs Spain", 1, 1, "W")          // drawn 1–1 but won on penalties
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+> The data currently in the file is **sample data** so the design is visible
+> before kickoff. Replace the names and stats with the real drafts and results.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Scoring
+
+| Who | Event | Pts |
+| --- | --- | --- |
+| All players | Goal / Assist / Shot on goal / MOTM | +10 / +5 / +1 / +2 |
+| GK only | Save / PK save / Win / Goal allowed | +2 / +5 / +3 / −2 |
+| GK + CB + DEF + WB | Clean sheet / Only one goal allowed | +3 / +1 |
+| Teams | Win / Tie / Shutout (stacks) | +3 / +1 / +5 |
+
+The full rulebook is also at `/rules` in the app.
+
+## Deploy
+
+Push to GitHub and import the repo at [vercel.com/new](https://vercel.com/new),
+or run `vercel` with the CLI. It's a static Next.js app — no environment
+variables or database needed. To update scores after deploy, edit
+`data/league.ts`, commit, and push; Vercel redeploys automatically.
