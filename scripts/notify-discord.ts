@@ -46,7 +46,7 @@ async function main() {
   }
 
   const body = {
-    username: "Fantasy Draft Bot",
+    username: "GORT",
     embeds: [
       {
         title: `📊 ${leagueMeta.name} — Standings`,
