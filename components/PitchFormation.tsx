@@ -29,10 +29,14 @@ function PlayerNode({ ps }: { ps: PlayerScore }) {
       >
         {ps.total}
       </span>
-      <span className="w-full truncate text-center text-[0.62rem] font-bold text-chalk sm:text-[0.7rem]">
-        {shirtName(player.name)}
+      {/* Reserve two lines so compound names (e.g. "Bruno Fernandes") wrap
+          instead of truncating, and the position labels below stay aligned. */}
+      <span className="flex min-h-[1.55rem] w-full items-center justify-center sm:min-h-[1.75rem]">
+        <span className="line-clamp-2 text-center text-[0.62rem] font-bold leading-tight text-chalk sm:text-[0.7rem]">
+          {shirtName(player.name)}
+        </span>
       </span>
-      <span className="-mt-0.5 text-[0.55rem] font-bold uppercase tracking-wider text-faint">
+      <span className="text-[0.55rem] font-bold uppercase tracking-wider text-faint">
         {player.position}
       </span>
     </a>
@@ -53,10 +57,12 @@ function BenchNode({ ps }: { ps: PlayerScore }) {
       >
         {ps.total}
       </span>
-      <span className="w-full truncate text-center text-[0.6rem] font-bold text-chalk">
-        {shirtName(player.name)}
+      <span className="flex min-h-[1.5rem] w-full items-center justify-center">
+        <span className="line-clamp-2 text-center text-[0.6rem] font-bold leading-tight text-chalk">
+          {shirtName(player.name)}
+        </span>
       </span>
-      <span className="-mt-0.5 text-[0.5rem] font-bold uppercase tracking-wider text-amber">
+      <span className="text-[0.5rem] font-bold uppercase tracking-wider text-amber">
         Sub
       </span>
     </a>

@@ -1,0 +1,59 @@
+name: Auto-import results
+
+# Periodically pulls fresh fixtures + group tables from football-data.org and,
+# if anything changed (scores, statuses, standings), commits and pushes — which
+# triggers a Vercel redeploy. That keeps live scores, finished results, team
+# points and group tables up to date hands-free.
+#
+# COST / "is it free?":
+#   • PUBLIC repo  → GitHub Actions minutes are UNLIMITED and free. Recommended
+#     if you want a tight interval for genuinely live scores.
+#   • PRIVATE repo → 2000 free minutes/month. Each run is ~1–2 min, so a 15-min
+#     cadence across June+July would exceed the free allowance. On private,
+#     either widen the interval below (e.g. "*/30" or "0 * * * *") or make the
+#     repo public.
+#
+# Requires the FOOTBALL_DATA_API_KEY repo secret (same place as DISCORD_WEBHOOK_URL).
+
+on:
+  schedule:
+    # Every 15 minutes during June & July (UTC). GitHub cron is best-effort and
+    # can be delayed a few minutes under load. Edit this line to change cadence.
+    - cron: "*/15 * * 6,7 *"
+  workflow_dispatch: {} # also runnable on-demand from the Actions tab
+
+permissions:
+  contents: write
+
+concurrency:
+  group: auto-import
+  cancel-in-progress: false
+
+jobs:
+  import:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci
+      - name: Import fixtures + group tables
+        env:
+          FOOTBALL_DATA_API_KEY: ${{ secrets.FOOTBALL_DATA_API_KEY }}
+        run: |
+          npm run import:fixtures
+          npm run import:groups
+      - name: Commit & push if anything changed
+        run: |
+          if [ -n "$(git status --porcelain data/fixtures.json data/groups.json)" ]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add data/fixtures.json data/groups.json
+            git commit -m "Auto-import: refresh fixtures & group tables"
+            git push
+            echo "Pushed updated results."
+          else
+            echo "No changes — nothing to push."
+          fi

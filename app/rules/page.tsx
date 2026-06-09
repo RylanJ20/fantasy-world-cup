@@ -140,18 +140,26 @@ export default function RulesPage() {
             <p className="eyebrow">Good to know</p>
             <ul className="space-y-2 text-sm text-muted">
               <li className="flex gap-2">
-                <span className="text-turf-bright">▸</span> Shutouts{" "}
-                <span className="text-chalk">stack</span> with the result — a 2–0
-                win is {signed(POINTS.TEAM_WIN + POINTS.TEAM_SHUTOUT)}.
+                <span className="mt-0.5 shrink-0 text-turf-bright">▸</span>
+                <span>
+                  Shutouts <span className="text-chalk">stack</span> with the
+                  result — a 2–0 win is{" "}
+                  {signed(POINTS.TEAM_WIN + POINTS.TEAM_SHUTOUT)}.
+                </span>
               </li>
               <li className="flex gap-2">
-                <span className="text-turf-bright">▸</span> Clean-sheet bonuses go
-                to the keeper <span className="text-chalk">and every defender</span>{" "}
-                (CB, DEF, WB).
+                <span className="mt-0.5 shrink-0 text-turf-bright">▸</span>
+                <span>
+                  Clean-sheet bonuses go to the keeper{" "}
+                  <span className="text-chalk">and every defender</span> (CB, DEF,
+                  WB).
+                </span>
               </li>
               <li className="flex gap-2">
-                <span className="text-turf-bright">▸</span> Only the GK takes the
-                win bonus and the −2 per goal conceded.
+                <span className="mt-0.5 shrink-0 text-turf-bright">▸</span>
+                <span>
+                  Only the GK takes the win bonus and the −2 per goal conceded.
+                </span>
               </li>
             </ul>
           </div>

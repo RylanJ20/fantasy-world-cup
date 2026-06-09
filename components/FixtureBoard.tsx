@@ -12,11 +12,16 @@ function localToday(): string {
   ).padStart(2, "0")}`;
 }
 
-function fmtTime(utc?: string | null): string | null {
+// `local=false` formats in UTC (a stable SSR/pre-hydration placeholder);
+// `local=true` (after mount) uses the viewer's own zone + its abbreviation,
+// e.g. "3:00 PM PST".
+function fmtTime(utc: string | null | undefined, local: boolean): string | null {
   if (!utc) return null;
   return new Date(utc).toLocaleTimeString(undefined, {
     hour: "numeric",
     minute: "2-digit",
+    timeZoneName: "short",
+    ...(local ? {} : { timeZone: "UTC" }),
   });
 }
 
@@ -62,7 +67,7 @@ function Team({ name, align }: { name: string; align: "left" | "right" }) {
   );
 }
 
-function StatusTag({ f }: { f: EnrichedFixture }) {
+function StatusTag({ f, mounted }: { f: EnrichedFixture; mounted: boolean }) {
   if (isLive(f.status))
     return (
       <span className="flex items-center gap-1.5 text-xs font-bold uppercase tracking-wider text-red">
@@ -72,10 +77,22 @@ function StatusTag({ f }: { f: EnrichedFixture }) {
     );
   if (isDone(f.status))
     return <span className="font-mono text-xs font-bold text-faint">FT</span>;
-  return <span className="font-mono text-xs text-faint">{fmtTime(f.utcDate) ?? "TBD"}</span>;
+  return (
+    <span className="font-mono text-xs text-faint">
+      {fmtTime(f.utcDate, mounted) ?? "TBD"}
+    </span>
+  );
 }
 
-function FixtureCard({ f, isNext }: { f: EnrichedFixture; isNext: boolean }) {
+function FixtureCard({
+  f,
+  isNext,
+  mounted,
+}: {
+  f: EnrichedFixture;
+  isNext: boolean;
+  mounted: boolean;
+}) {
   const showScore =
     (isLive(f.status) || isDone(f.status)) && f.homeScore != null && f.awayScore != null;
 
@@ -91,7 +108,7 @@ function FixtureCard({ f, isNext }: { f: EnrichedFixture; isNext: boolean }) {
             <span className="badge border-turf/40 bg-turf/12 text-turf-bright">Next</span>
           )}
         </span>
-        <StatusTag f={f} />
+        <StatusTag f={f} mounted={mounted} />
       </div>
 
       <div className="flex items-center gap-3">
@@ -156,7 +173,12 @@ export function FixtureBoard({ fixtures }: { fixtures: EnrichedFixture[] }) {
             </div>
             <div className="grid gap-3 md:grid-cols-2">
               {g.items.map((f, i) => (
-                <FixtureCard key={f.n ?? i} f={f} isNext={f.n != null && f.n === nextN} />
+                <FixtureCard
+                  key={f.n ?? i}
+                  f={f}
+                  isNext={f.n != null && f.n === nextN}
+                  mounted={today !== null}
+                />
               ))}
             </div>
           </section>
