@@ -26,11 +26,22 @@ const jbMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://fantasy-world-cup-five.vercel.app"),
   title: {
     default: leagueMeta.name,
     template: `%s · ${leagueMeta.name}`,
   },
   description: `Fantasy ${leagueMeta.season} standings, squads and scoring for ${leagueMeta.name}.`,
+  openGraph: {
+    title: leagueMeta.name,
+    description: `Live standings, squads and scoring for ${leagueMeta.name}.`,
+    images: ["/api/og/standings"],
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    images: ["/api/og/standings"],
+  },
 };
 
 export default function RootLayout({

@@ -1,4 +1,5 @@
 import type { PlayerScore } from "@/lib/scoring";
+import { shirtName } from "@/lib/shirtNames";
 import type { Position } from "@/lib/types";
 
 export function playerAnchor(name: string): string {
@@ -13,11 +14,6 @@ const NODE_TONE: Record<Position, string> = {
   MID: "border-turf/60 text-turf-bright",
   FWD: "border-rose-300/55 text-rose-300",
 };
-
-function lastName(name: string): string {
-  const parts = name.split(/\s+/);
-  return parts[parts.length - 1];
-}
 
 function PlayerNode({ ps }: { ps: PlayerScore }) {
   const { player } = ps;
@@ -34,7 +30,7 @@ function PlayerNode({ ps }: { ps: PlayerScore }) {
         {ps.total}
       </span>
       <span className="w-full truncate text-center text-[0.62rem] font-bold text-chalk sm:text-[0.7rem]">
-        {lastName(player.name)}
+        {shirtName(player.name)}
       </span>
       <span className="-mt-0.5 text-[0.55rem] font-bold uppercase tracking-wider text-faint">
         {player.position}
@@ -58,7 +54,7 @@ function BenchNode({ ps }: { ps: PlayerScore }) {
         {ps.total}
       </span>
       <span className="w-full truncate text-center text-[0.6rem] font-bold text-chalk">
-        {lastName(player.name)}
+        {shirtName(player.name)}
       </span>
       <span className="-mt-0.5 text-[0.5rem] font-bold uppercase tracking-wider text-amber">
         Sub

@@ -4,7 +4,8 @@
 // ──────────────────────────────────────────────────────────────────────────
 
 import { league } from "@/data/league";
-import { fixtures } from "./fixtures";
+import type { Manager } from "./types";
+import { fixtures, resultsForCountry } from "./fixtures";
 import {
   isDefender,
   scoreManager,
@@ -12,6 +13,20 @@ import {
   type PlayerScore,
   type TeamScore,
 } from "./scoring";
+
+/**
+ * Auto-fill each drafted team's results from the imported fixtures, unless the
+ * team already has manually-entered matches (manual always wins). So managers
+ * only need to list 6 country names — team points compute from real results.
+ */
+function withAutoResults(m: Manager): Manager {
+  return {
+    ...m,
+    teams: m.teams.map((t) =>
+      t.matches.length > 0 ? t : { ...t, matches: resultsForCountry(t.country) },
+    ),
+  };
+}
 
 /** Earliest imported fixture, or the data fallback if none are loaded. */
 function earliestKickoff(): string {
@@ -31,7 +46,7 @@ export const leagueMeta = {
 /** All managers, scored and sorted by total points (highest first). */
 export function getManagerScores(): ManagerScore[] {
   return league.managers
-    .map(scoreManager)
+    .map((m) => scoreManager(withAutoResults(m)))
     .sort((a, b) => b.total - a.total || a.manager.name.localeCompare(b.manager.name));
 }
 

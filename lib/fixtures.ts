@@ -6,6 +6,7 @@
 
 import fixturesData from "@/data/fixtures.json";
 import { league } from "@/data/league";
+import type { TeamMatch } from "./types";
 import { countryCode } from "./flags";
 
 export interface Fixture {
@@ -18,6 +19,8 @@ export interface Fixture {
   status?: string;
   homeScore?: number | null;
   awayScore?: number | null;
+  /** API winner: "HOME_TEAM" | "AWAY_TEAM" | "DRAW" | null (handles penalties). */
+  winner?: string | null;
 }
 
 export interface InvolvedAsset {
@@ -46,6 +49,35 @@ function sideOf(country: string, f: Fixture): "home" | "away" | null {
   if (sameCountry(country, f.home)) return "home";
   if (sameCountry(country, f.away)) return "away";
   return null;
+}
+
+/**
+ * Finished matches for a country, as TeamMatch[] for the scoring engine — so a
+ * drafted team's points compute automatically from real results. The API's
+ * `winner` field is used for the result (correct even on penalty shootouts);
+ * shutout still keys off goals against in regulation/ET.
+ */
+export function resultsForCountry(country: string): TeamMatch[] {
+  const out: TeamMatch[] = [];
+  for (const f of fixtures) {
+    if (f.status !== "FINISHED" || f.homeScore == null || f.awayScore == null) continue;
+    const side = sideOf(country, f);
+    if (!side) continue;
+    const goalsFor = side === "home" ? f.homeScore : f.awayScore;
+    const goalsAgainst = side === "home" ? f.awayScore : f.homeScore;
+    let result: "W" | "D" | "L";
+    if (f.winner === "DRAW") result = "D";
+    else if (f.winner === "HOME_TEAM") result = side === "home" ? "W" : "L";
+    else if (f.winner === "AWAY_TEAM") result = side === "away" ? "W" : "L";
+    else result = goalsFor > goalsAgainst ? "W" : goalsFor < goalsAgainst ? "L" : "D";
+    out.push({
+      opponent: side === "home" ? f.away : f.home,
+      goalsFor,
+      goalsAgainst,
+      result,
+    });
+  }
+  return out;
 }
 
 /** Every fixture, annotated with the drafted players/teams playing in it. */

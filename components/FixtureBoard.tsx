@@ -28,6 +28,9 @@ function fmtDay(date: string): string {
   });
 }
 
+const isLive = (s?: string) => s === "IN_PLAY" || s === "PAUSED";
+const isDone = (s?: string) => s === "FINISHED";
+
 function AssetChip({ a }: { a: InvolvedAsset }) {
   return (
     <Link
@@ -59,27 +62,42 @@ function Team({ name, align }: { name: string; align: "left" | "right" }) {
   );
 }
 
-function FixtureCard({ f }: { f: EnrichedFixture }) {
-  const finished = f.status === "FINISHED";
-  const time = fmtTime(f.utcDate);
+function StatusTag({ f }: { f: EnrichedFixture }) {
+  if (isLive(f.status))
+    return (
+      <span className="flex items-center gap-1.5 text-xs font-bold uppercase tracking-wider text-red">
+        <span className="h-2 w-2 animate-pulse rounded-full bg-red" />
+        Live
+      </span>
+    );
+  if (isDone(f.status))
+    return <span className="font-mono text-xs font-bold text-faint">FT</span>;
+  return <span className="font-mono text-xs text-faint">{fmtTime(f.utcDate) ?? "TBD"}</span>;
+}
+
+function FixtureCard({ f, isNext }: { f: EnrichedFixture; isNext: boolean }) {
+  const showScore =
+    (isLive(f.status) || isDone(f.status)) && f.homeScore != null && f.awayScore != null;
 
   return (
-    <div className="panel p-4">
+    <div
+      id={f.n != null ? `fx-${f.n}` : undefined}
+      className={`panel scroll-mt-24 p-4 ${isNext ? "border-turf/40 ring-1 ring-turf/30" : ""}`}
+    >
       <div className="mb-2 flex items-center justify-between">
-        <span className="badge pos-MID">{f.stage}</span>
-        <span className="font-mono text-xs text-faint">
-          {finished ? "Full time" : (time ?? "TBD")}
+        <span className="flex items-center gap-2">
+          <span className="badge pos-MID">{f.stage}</span>
+          {isNext && !isLive(f.status) && (
+            <span className="badge border-turf/40 bg-turf/12 text-turf-bright">Next</span>
+          )}
         </span>
+        <StatusTag f={f} />
       </div>
 
       <div className="flex items-center gap-3">
         <Team name={f.home} align="left" />
         <span className="shrink-0 font-mono text-lg font-bold tabular-nums text-chalk">
-          {finished && f.homeScore != null && f.awayScore != null ? (
-            `${f.homeScore}–${f.awayScore}`
-          ) : (
-            <span className="text-faint">v</span>
-          )}
+          {showScore ? `${f.homeScore}–${f.awayScore}` : <span className="text-faint">v</span>}
         </span>
         <Team name={f.away} align="right" />
       </div>
@@ -97,7 +115,19 @@ function FixtureCard({ f }: { f: EnrichedFixture }) {
 
 export function FixtureBoard({ fixtures }: { fixtures: EnrichedFixture[] }) {
   const [today, setToday] = useState<string | null>(null);
-  useEffect(() => setToday(localToday()), []);
+
+  // The "next" match = first one not yet finished (deterministic, no clock).
+  const nextFixture = fixtures.find((f) => !isDone(f.status));
+  const nextN = nextFixture?.n ?? null;
+
+  useEffect(() => {
+    setToday(localToday());
+    // Jump to the next match — only once some are already finished (mid-tournament).
+    const idx = fixtures.findIndex((f) => f.n === nextN);
+    if (nextN != null && idx > 0) {
+      document.getElementById(`fx-${nextN}`)?.scrollIntoView({ block: "center" });
+    }
+  }, [fixtures, nextN]);
 
   // Group consecutive fixtures by date (already sorted chronologically).
   const groups: { date: string; items: EnrichedFixture[] }[] = [];
@@ -113,11 +143,7 @@ export function FixtureBoard({ fixtures }: { fixtures: EnrichedFixture[] }) {
         const isToday = today === g.date;
         const isPast = today !== null && g.date < today;
         return (
-          <section
-            key={g.date}
-            className={`scroll-mt-20 ${isPast ? "opacity-60" : ""}`}
-            id={isToday ? "today" : undefined}
-          >
+          <section key={g.date} className={isPast ? "opacity-60" : ""}>
             <div className="mb-3 flex items-center gap-3">
               <h2 className="font-display text-xl tracking-wide text-chalk">
                 {fmtDay(g.date)}
@@ -130,7 +156,7 @@ export function FixtureBoard({ fixtures }: { fixtures: EnrichedFixture[] }) {
             </div>
             <div className="grid gap-3 md:grid-cols-2">
               {g.items.map((f, i) => (
-                <FixtureCard key={f.n ?? i} f={f} />
+                <FixtureCard key={f.n ?? i} f={f} isNext={f.n != null && f.n === nextN} />
               ))}
             </div>
           </section>

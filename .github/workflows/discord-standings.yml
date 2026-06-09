@@ -20,6 +20,8 @@ jobs:
           node-version: 24
           cache: npm
       - run: npm ci
+      # Give Vercel time to publish the new deploy so the share image is fresh.
+      - run: sleep 90
       - run: npm run notify:discord
         env:
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}

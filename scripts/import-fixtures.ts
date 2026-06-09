@@ -66,6 +66,7 @@ async function main() {
     status: m.status as string,
     homeScore: m.score?.fullTime?.home ?? null,
     awayScore: m.score?.fullTime?.away ?? null,
+    winner: m.score?.winner ?? null,
   }));
 
   fixtures.sort((a, b) => a.utcDate.localeCompare(b.utcDate));
