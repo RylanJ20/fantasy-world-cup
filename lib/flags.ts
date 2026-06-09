@@ -94,6 +94,11 @@ const CODES: Record<string, string> = {
   uae: "ae",
   "united arab emirates": "ae",
   "new zealand": "nz",
+  // football-data.org naming variants
+  "korea dpr": "kp",
+  "ir iran": "ir",
+  "united states of america": "us",
+  "china pr": "cn",
 };
 
 /** Returns the flag-icons country code for a name, or null if unknown. */

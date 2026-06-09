@@ -8,6 +8,7 @@ import { leagueMeta } from "@/lib/league";
 const NAV = [
   { href: "/", label: "Standings" },
   { href: "/leaderboards", label: "Leaders" },
+  { href: "/fixtures", label: "Fixtures" },
   { href: "/rules", label: "Scoring" },
 ];
 
