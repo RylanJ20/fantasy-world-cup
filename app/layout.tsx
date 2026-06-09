@@ -27,7 +27,7 @@ const jbMono = JetBrains_Mono({
 
 export const metadata: Metadata = {
   title: {
-    default: `${leagueMeta.name} · ${leagueMeta.season}`,
+    default: leagueMeta.name,
     template: `%s · ${leagueMeta.name}`,
   },
   description: `Fantasy ${leagueMeta.season} standings, squads and scoring for ${leagueMeta.name}.`,

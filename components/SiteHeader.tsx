@@ -3,7 +3,6 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { BallIcon } from "./icons";
-import { useCountdown } from "./Countdown";
 import { leagueMeta } from "@/lib/league";
 
 const NAV = [
@@ -14,12 +13,8 @@ const NAV = [
 
 export function SiteHeader() {
   const pathname = usePathname();
-  const { elapsed } = useCountdown(leagueMeta.kickoff);
   const isActive = (href: string) =>
     href === "/" ? pathname === "/" : pathname.startsWith(href);
-
-  // Show the countdown link only until kickoff (then it disappears for good).
-  const nav = elapsed ? NAV : [...NAV, { href: "/countdown", label: "Countdown" }];
 
   return (
     <header className="sticky top-0 z-40 border-b border-line bg-bg/80 backdrop-blur-xl">
@@ -28,18 +23,13 @@ export function SiteHeader() {
           <span className="grid h-9 w-9 place-items-center rounded-xl border border-line-strong bg-surface text-turf-bright transition-colors group-hover:text-turf">
             <BallIcon size={22} />
           </span>
-          <span className="flex flex-col leading-none">
-            <span className="font-display text-base tracking-wide text-chalk sm:text-lg">
-              {leagueMeta.name}
-            </span>
-            <span className="hidden text-[0.62rem] font-bold uppercase tracking-[0.2em] text-faint sm:block">
-              Fantasy League
-            </span>
+          <span className="font-display text-base leading-none tracking-wide text-chalk sm:text-lg">
+            {leagueMeta.name}
           </span>
         </Link>
 
         <nav className="-mr-2 flex items-center gap-0.5 overflow-x-auto pr-2 sm:gap-1">
-          {nav.map((item) => {
+          {NAV.map((item) => {
             const active = isActive(item.href);
             return (
               <Link

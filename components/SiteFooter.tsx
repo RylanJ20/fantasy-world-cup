@@ -8,9 +8,9 @@ export function SiteFooter() {
           <span className="font-display tracking-wide text-muted">
             {leagueMeta.name}
           </span>{" "}
-          · {leagueMeta.season} fantasy tracker
+          · fantasy tracker
         </p>
-        <p>Scores update as matches are played. Built for the group chat.</p>
+        <p>Scores update as matches are played. Marc is cute.</p>
       </div>
     </footer>
   );

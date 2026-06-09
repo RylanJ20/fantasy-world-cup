@@ -4,10 +4,10 @@ import { Podium } from "@/components/Podium";
 import { StandingsTable } from "@/components/StandingsTable";
 import { LeaderStrip } from "@/components/LeaderStrip";
 import { SectionTitle } from "@/components/ui";
+import { KickoffBanner } from "@/components/Countdown";
 import {
   BallIcon,
   BootIcon,
-  ChevronRight,
   ShieldIcon,
   StarIcon,
   TrophyIcon,
@@ -64,9 +64,7 @@ export default function Home() {
         </svg>
 
         <div className="relative max-w-2xl">
-          <p className="eyebrow">
-            {leagueMeta.season} · Fantasy League
-          </p>
+          <p className="eyebrow">8 managers · one trophy</p>
           <h1 className="mt-3 font-display text-5xl leading-[0.92] text-chalk sm:text-7xl">
             {leagueMeta.name}
           </h1>
@@ -89,17 +87,7 @@ export default function Home() {
               </span>
             </Link>
           ) : (
-            <Link
-              href="/countdown"
-              className="lift mt-6 inline-flex items-center gap-3 rounded-xl border border-gold/40 bg-gradient-to-r from-gold/15 to-transparent px-4 py-2.5"
-            >
-              <TrophyIcon size={22} className="text-gold-bright" />
-              <span className="text-sm text-muted">
-                <span className="font-bold text-gold-bright">Kicks off soon</span> —
-                see the countdown
-              </span>
-              <ChevronRight size={16} className="text-faint" />
-            </Link>
+            <KickoffBanner kickoff={leagueMeta.kickoff} />
           )}
 
           <div className="mt-8">

@@ -1,8 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import Link from "next/link";
-import { ChevronRight } from "./icons";
+import { TrophyIcon } from "./icons";
 
 type Remaining = { days: number; hours: number; mins: number; secs: number };
 
@@ -35,77 +34,40 @@ export function useCountdown(kickoff: string) {
   return { r, mounted, elapsed: mounted && r === null };
 }
 
-function Box({ value }: { value: string }) {
-  return (
-    <div className="panel flex min-w-[4.75rem] flex-col items-center px-3 py-4 sm:min-w-[7rem] sm:px-6 sm:py-7">
-      <span className="font-display text-5xl leading-none tabular-nums text-turf-bright sm:text-7xl">
-        {value}
-      </span>
-    </div>
-  );
-}
+const pad = (n: number) => String(n).padStart(2, "0");
 
-function Unit({ value, label }: { value: string; label: string }) {
-  return (
-    <div className="flex flex-col items-center gap-2">
-      <Box value={value} />
-      <span className="text-[0.62rem] font-bold uppercase tracking-[0.22em] text-faint sm:text-xs">
-        {label}
-      </span>
-    </div>
-  );
-}
-
-/** Big kickoff countdown. Renders an "underway" state once the time passes. */
-export function Countdown({ kickoff }: { kickoff: string }) {
+/** Homepage ribbon: "Kicks off soon" + a live countdown. Vanishes at kickoff. */
+export function KickoffBanner({ kickoff }: { kickoff: string }) {
   const { r, mounted, elapsed } = useCountdown(kickoff);
-
-  if (elapsed) {
-    return (
-      <div className="panel flex flex-col items-center gap-3 px-6 py-12 text-center">
-        <p className="eyebrow">The wait is over</p>
-        <h2 className="font-display text-4xl text-turf-bright sm:text-6xl">
-          We&apos;re underway
-        </h2>
-        <p className="max-w-sm text-muted">
-          The tournament has kicked off. Time to track some points.
-        </p>
-        <Link
-          href="/"
-          className="lift mt-3 inline-flex items-center gap-1.5 rounded-xl border border-line-strong bg-surface px-5 py-2.5 text-sm font-bold text-chalk"
-        >
-          View the standings <ChevronRight size={16} />
-        </Link>
-      </div>
-    );
-  }
-
-  const pad = (n: number) => String(n).padStart(2, "0");
-  const v = mounted && r ? r : null;
-  const localKickoff =
-    mounted &&
-    new Date(kickoff).toLocaleString(undefined, {
-      weekday: "long",
-      month: "long",
-      day: "numeric",
-      hour: "numeric",
-      minute: "2-digit",
-    });
+  if (elapsed) return null;
 
   return (
-    <div className="flex flex-col items-center gap-6">
-      <div className="flex flex-wrap items-start justify-center gap-3 sm:gap-5">
-        <Unit value={v ? String(v.days) : "—"} label="Days" />
-        <Unit value={v ? pad(v.hours) : "—"} label="Hours" />
-        <Unit value={v ? pad(v.mins) : "—"} label="Minutes" />
-        <Unit value={v ? pad(v.secs) : "—"} label="Seconds" />
-      </div>
-      {localKickoff && (
-        <p className="text-sm text-muted">
-          First match · <span className="text-chalk">{localKickoff}</span>{" "}
-          <span className="text-faint">(your local time)</span>
-        </p>
-      )}
+    <div className="mt-6 inline-flex flex-wrap items-center gap-x-4 gap-y-2 rounded-xl border border-gold/40 bg-gradient-to-r from-gold/15 to-transparent px-4 py-2.5">
+      <span className="flex items-center gap-2 text-sm">
+        <TrophyIcon size={20} className="text-gold-bright" />
+        <span className="font-bold text-gold-bright">Kicks off soon</span>
+      </span>
+      <span className="flex items-baseline gap-2 font-mono text-base tabular-nums text-chalk">
+        {mounted && r ? (
+          <>
+            <Tick value={r.days} label="d" />
+            <Tick value={r.hours} label="h" pad />
+            <Tick value={r.mins} label="m" pad />
+            <Tick value={r.secs} label="s" pad />
+          </>
+        ) : (
+          <span className="text-muted">soon</span>
+        )}
+      </span>
     </div>
+  );
+}
+
+function Tick({ value, label, pad: doPad }: { value: number; label: string; pad?: boolean }) {
+  return (
+    <span>
+      <span className="font-bold text-turf-bright">{doPad ? pad(value) : value}</span>
+      <span className="text-[0.7rem] text-faint">{label}</span>
+    </span>
   );
 }
