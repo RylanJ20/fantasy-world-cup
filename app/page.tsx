@@ -7,6 +7,7 @@ import { SectionTitle } from "@/components/ui";
 import {
   BallIcon,
   BootIcon,
+  ChevronRight,
   ShieldIcon,
   StarIcon,
   TrophyIcon,
@@ -88,13 +89,17 @@ export default function Home() {
               </span>
             </Link>
           ) : (
-            <div className="mt-6 inline-flex items-center gap-3 rounded-xl border border-gold/40 bg-gradient-to-r from-gold/15 to-transparent px-4 py-2.5">
+            <Link
+              href="/countdown"
+              className="lift mt-6 inline-flex items-center gap-3 rounded-xl border border-gold/40 bg-gradient-to-r from-gold/15 to-transparent px-4 py-2.5"
+            >
               <TrophyIcon size={22} className="text-gold-bright" />
               <span className="text-sm text-muted">
                 <span className="font-bold text-gold-bright">Kicks off soon</span> —
-                every squad starts level at 0.
+                see the countdown
               </span>
-            </div>
+              <ChevronRight size={16} className="text-faint" />
+            </Link>
           )}
 
           <div className="mt-8">

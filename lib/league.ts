@@ -5,13 +5,18 @@
 
 import { league } from "@/data/league";
 import {
+  isDefender,
   scoreManager,
   type ManagerScore,
   type PlayerScore,
   type TeamScore,
 } from "./scoring";
 
-export const leagueMeta = { name: league.name, season: league.season };
+export const leagueMeta = {
+  name: league.name,
+  season: league.season,
+  kickoff: league.kickoff,
+};
 
 /** All managers, scored and sorted by total points (highest first). */
 export function getManagerScores(): ManagerScore[] {
@@ -90,6 +95,76 @@ export function getLeagueLeaders() {
   }
 
   return { topScorer, topKeeper, topTeam, mostGoals };
+}
+
+// ── Leaderboards ─────────────────────────────────────────────────────────────
+
+export interface LeaderboardRow {
+  player: PlayerScore;
+  managerId: string;
+  managerName: string;
+  value: number;
+}
+
+export interface LeaderboardCategory {
+  key: string;
+  title: string;
+  unit: string;
+  rows: LeaderboardRow[];
+}
+
+/** Cross-league player leaderboards by category (each ranked, top `limit`). */
+export function getLeaderboards(limit = 8): LeaderboardCategory[] {
+  const all = getManagerScores().flatMap((m) =>
+    m.players.map((player) => ({
+      player,
+      managerId: m.manager.id,
+      managerName: m.manager.name,
+    })),
+  );
+
+  const make = (
+    key: string,
+    title: string,
+    unit: string,
+    valueFn: (ps: PlayerScore) => number,
+    filter: (ps: PlayerScore) => boolean = () => true,
+  ): LeaderboardCategory => ({
+    key,
+    title,
+    unit,
+    rows: all
+      .filter((x) => filter(x.player))
+      .map((x) => ({ ...x, value: valueFn(x.player) }))
+      .sort(
+        (a, b) =>
+          b.value - a.value ||
+          b.player.total - a.player.total ||
+          a.player.player.name.localeCompare(b.player.player.name),
+      )
+      .slice(0, limit),
+  });
+
+  return [
+    make("points", "Most Points", "pts", (p) => p.total),
+    make("goals", "Top Scorers", "goals", (p) => p.totals.goals),
+    make("assists", "Most Assists", "assists", (p) => p.totals.assists),
+    make("motm", "Man of the Match", "MOTM", (p) => p.totals.motm),
+    make(
+      "glove",
+      "Golden Glove",
+      "pts",
+      (p) => p.total,
+      (p) => p.player.position === "GK",
+    ),
+    make(
+      "defender",
+      "Best Defender",
+      "CS",
+      (p) => p.totals.cleanSheets,
+      (p) => isDefender(p.player.position) && p.player.position !== "GK",
+    ),
+  ];
 }
 
 /** Totals for the hero stat ticker. */

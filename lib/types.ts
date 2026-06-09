@@ -72,5 +72,7 @@ export interface Manager {
 export interface League {
   name: string;
   season: string;
+  /** ISO date-time of the first match. Drives the kickoff countdown. */
+  kickoff: string;
   managers: Manager[];
 }

@@ -87,8 +87,8 @@ export function PitchFormation({
   const byPos = (...pos: Position[]) =>
     players.filter((p) => pos.includes(p.player.position));
 
-  // Order the back line CB · CB · DEF · WB for a natural shape.
-  const back = [...byPos("CB"), ...byPos("DEF"), ...byPos("WB")];
+  // Order the back line WB · CB · CB · DEF.
+  const back = [...byPos("WB"), ...byPos("CB"), ...byPos("DEF")];
   const fwd = byPos("FWD");
   const mid = byPos("MID");
   const gk = byPos("GK");
