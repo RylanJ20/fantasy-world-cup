@@ -1,14 +1,14 @@
 name: Discord standings
 
-# Posts the standings to Discord whenever the data file changes (i.e. when you
-# update scores). UI-only commits don't trigger it, so the channel stays quiet
-# except for real updates.
+# Posts a daily standings card to Discord. Runs once a day on a schedule (not on
+# every deploy), so the channel gets one clean morning update.
 on:
-  push:
-    branches: [main]
-    paths:
-      - "data/league.ts"
-  workflow_dispatch: # lets you trigger a post manually from the Actions tab
+  schedule:
+    # 12:00 UTC = 8:00 AM Eastern during the World Cup (EDT). NOTE: GitHub cron
+    # is always UTC and does NOT follow daylight saving. Gated to June & July so
+    # it only posts during the tournament. Change the time/cadence on this line.
+    - cron: "0 12 * 6,7 *"
+  workflow_dispatch: # also runnable on demand from the Actions tab
 
 jobs:
   notify:
@@ -20,8 +20,6 @@ jobs:
           node-version: 24
           cache: npm
       - run: npm ci
-      # Give Vercel time to publish the new deploy so the share image is fresh.
-      - run: sleep 90
       - run: npm run notify:discord
         env:
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
