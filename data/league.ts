@@ -74,9 +74,9 @@ const tm = (
 export const league: League = {
   name: "2026 World Cup Fantasy Draft",
   season: "World Cup 2026",
-  // First match. The countdown auto-hides once this passes. Adjust to the exact
-  // opening-match kickoff (ISO 8601 with timezone offset).
-  kickoff: "2026-06-11T19:00:00-06:00",
+  // Fallback kickoff (used only if no fixtures are imported). The live countdown
+  // actually targets the earliest match in data/fixtures.json automatically.
+  kickoff: "2026-06-11T19:00:00Z",
   managers: [
     // ── Rylan ────────────────────────────────────────────────────────────
     {

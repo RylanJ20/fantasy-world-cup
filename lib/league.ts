@@ -4,6 +4,7 @@
 // ──────────────────────────────────────────────────────────────────────────
 
 import { league } from "@/data/league";
+import { fixtures } from "./fixtures";
 import {
   isDefender,
   scoreManager,
@@ -12,10 +13,19 @@ import {
   type TeamScore,
 } from "./scoring";
 
+/** Earliest imported fixture, or the data fallback if none are loaded. */
+function earliestKickoff(): string {
+  const times = fixtures
+    .map((f) => f.utcDate)
+    .filter((x): x is string => typeof x === "string" && x.length > 0)
+    .sort();
+  return times[0] ?? league.kickoff;
+}
+
 export const leagueMeta = {
   name: league.name,
   season: league.season,
-  kickoff: league.kickoff,
+  kickoff: earliestKickoff(),
 };
 
 /** All managers, scored and sorted by total points (highest first). */

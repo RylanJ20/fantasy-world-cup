@@ -15,8 +15,6 @@ import {
 
 function Ticker() {
   const totals = getLeagueTotals();
-  const players = totals.managers * 11;
-  const teams = totals.managers * 6;
   const items = [
     { icon: <StarIcon size={18} />, value: totals.managers, label: "Managers" },
     { icon: <BallIcon size={18} />, value: totals.goals, label: "Goals scored" },
@@ -36,10 +34,6 @@ function Ticker() {
           </dd>
         </div>
       ))}
-      {/* squad context line spans full width on its own subtle row */}
-      <p className="col-span-2 bg-surface px-4 pb-3 text-xs text-faint sm:col-span-4">
-        {players} drafted players across {teams} national teams.
-      </p>
     </dl>
   );
 }

@@ -99,6 +99,9 @@ const CODES: Record<string, string> = {
   "ir iran": "ir",
   "united states of america": "us",
   "china pr": "cn",
+  "bosnia-herzegovina": "ba",
+  "cape verde islands": "cv",
+  "congo dr": "cd",
 };
 
 /** Returns the flag-icons country code for a name, or null if unknown. */
