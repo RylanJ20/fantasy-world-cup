@@ -195,7 +195,7 @@ export const league: League = {
         p("Jude Bellingham", "MID", "England"),
         p("Declan Rice", "MID", "England"),
         p("Vitinha", "MID", "Portugal"),
-        p("Jeremie Frimpong", "WB", "Netherlands"), // "Jedi"
+        p("Antonee Robinson", "WB", "USA"), // "Jedi"
         p("Piero Hincapié", "CB", "Ecuador"),
         p("Willian Pacho", "CB", "Ecuador"),
         p("David Raum", "DEF", "Germany"),
