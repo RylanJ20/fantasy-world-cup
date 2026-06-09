@@ -167,17 +167,30 @@ export default async function ManagerPage({
             </span>
           }
         />
-        <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-          {m.teams.map((ts, i) => (
-            <div
-              key={ts.team.country}
-              className="reveal"
-              style={{ animationDelay: `${i * 45}ms` }}
-            >
-              <TeamCard ts={ts} />
-            </div>
-          ))}
-        </div>
+        {m.teams.length === 0 ? (
+          <div className="panel flex flex-col items-center gap-2 px-6 py-10 text-center">
+            <ShieldIcon size={28} className="text-faint" />
+            <p className="font-display text-xl tracking-wide text-muted">
+              Teams not added yet
+            </p>
+            <p className="max-w-sm text-sm text-faint">
+              Once the 6 drafted nations are in, their results and points show up
+              here automatically.
+            </p>
+          </div>
+        ) : (
+          <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+            {m.teams.map((ts, i) => (
+              <div
+                key={ts.team.country}
+                className="reveal"
+                style={{ animationDelay: `${i * 45}ms` }}
+              >
+                <TeamCard ts={ts} />
+              </div>
+            ))}
+          </div>
+        )}
       </section>
     </div>
   );

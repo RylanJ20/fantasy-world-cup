@@ -74,7 +74,7 @@ export default function Home() {
             manager to see their full squad and scoring breakdown.
           </p>
 
-          {champ && (
+          {champ && champ.total > 0 ? (
             <Link
               href={`/manager/${champ.manager.id}`}
               className="lift mt-6 inline-flex items-center gap-3 rounded-xl border border-gold/40 bg-gradient-to-r from-gold/15 to-transparent px-4 py-2.5"
@@ -87,6 +87,14 @@ export default function Home() {
                 <span className="text-muted"> pts</span>
               </span>
             </Link>
+          ) : (
+            <div className="mt-6 inline-flex items-center gap-3 rounded-xl border border-gold/40 bg-gradient-to-r from-gold/15 to-transparent px-4 py-2.5">
+              <TrophyIcon size={22} className="text-gold-bright" />
+              <span className="text-sm text-muted">
+                <span className="font-bold text-gold-bright">Kicks off soon</span> —
+                every squad starts level at 0.
+              </span>
+            </div>
           )}
 
           <div className="mt-8">
