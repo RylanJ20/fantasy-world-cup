@@ -10,7 +10,13 @@ import { PitchFormation } from "@/components/PitchFormation";
 import { PlayerCard } from "@/components/PlayerCard";
 import { TeamCard } from "@/components/TeamCard";
 import { Avatar, Pts, SectionTitle } from "@/components/ui";
-import { ArrowLeft, BootIcon, CrownIcon, ShieldIcon } from "@/components/icons";
+import {
+  ArrowLeft,
+  BootIcon,
+  CrownIcon,
+  ShieldIcon,
+  StarIcon,
+} from "@/components/icons";
 
 export function generateStaticParams() {
   return getAllManagerSlugs().map((slug) => ({ slug }));
@@ -154,6 +160,27 @@ export default async function ManagerPage({
           </div>
         </div>
       </section>
+
+      {/* ── Bench ──────────────────────────────────────────────────────── */}
+      {m.bench.length > 0 && (
+        <section className="mt-12">
+          <SectionTitle
+            eyebrow="Subs"
+            title="The Bench"
+            icon={<StarIcon size={24} />}
+            right={
+              <span className="hidden text-xs text-faint sm:block">
+                For the bit — doesn&apos;t count toward the total
+              </span>
+            }
+          />
+          <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+            {m.bench.map((ps) => (
+              <PlayerCard key={ps.player.name} ps={ps} rank={0} slotLabel="SUB" />
+            ))}
+          </div>
+        </section>
+      )}
 
       {/* ── Teams ──────────────────────────────────────────────────────── */}
       <section className="mt-12">

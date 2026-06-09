@@ -99,6 +99,8 @@ export interface ManagerScore {
   teamsTotal: number;
   players: PlayerScore[];
   teams: TeamScore[];
+  /** Bench picks — scored for display only; never added to totals. */
+  bench: PlayerScore[];
 }
 
 const line = (
@@ -251,14 +253,19 @@ export function scoreManager(manager: Manager): ManagerScore {
     .map(scorePlayer)
     .sort((a, b) => b.total - a.total);
   const teams = manager.teams.map(scoreTeam).sort((a, b) => b.total - a.total);
+  const bench = (manager.bench ?? [])
+    .map(scorePlayer)
+    .sort((a, b) => b.total - a.total);
   const playersTotal = players.reduce((s, p) => s + p.total, 0);
   const teamsTotal = teams.reduce((s, t) => s + t.total, 0);
   return {
     manager,
     players,
     teams,
+    bench,
     playersTotal,
     teamsTotal,
+    // Bench is intentionally excluded from the total.
     total: playersTotal + teamsTotal,
   };
 }

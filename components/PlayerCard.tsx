@@ -33,7 +33,16 @@ function pills(ps: PlayerScore): { icon: ReactNode; value: number; label: string
   return out.slice(0, 4);
 }
 
-export function PlayerCard({ ps, rank }: { ps: PlayerScore; rank: number }) {
+export function PlayerCard({
+  ps,
+  rank,
+  slotLabel,
+}: {
+  ps: PlayerScore;
+  rank: number;
+  /** Overrides the rank number, e.g. "SUB" for bench players. */
+  slotLabel?: string;
+}) {
   const { player } = ps;
   const statPills = pills(ps);
 
@@ -45,7 +54,7 @@ export function PlayerCard({ ps, rank }: { ps: PlayerScore; rank: number }) {
       <header className="flex items-start justify-between gap-3">
         <div className="flex min-w-0 items-start gap-3">
           <span className="mt-0.5 font-mono text-xs font-bold text-faint">
-            {String(rank).padStart(2, "0")}
+            {slotLabel ?? String(rank).padStart(2, "0")}
           </span>
           <div className="min-w-0">
             <div className="mb-1 flex flex-wrap items-center gap-2">
@@ -58,6 +67,9 @@ export function PlayerCard({ ps, rank }: { ps: PlayerScore; rank: number }) {
             <h3 className="truncate font-display text-xl leading-tight tracking-wide text-chalk">
               {player.name}
             </h3>
+            {player.note && (
+              <p className="mt-1 text-xs italic text-faint">{player.note}</p>
+            )}
           </div>
         </div>
         <div className="text-right">

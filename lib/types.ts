@@ -39,6 +39,8 @@ export interface Player {
   /** Real national team this player plays for. */
   country: string;
   matches: PlayerMatch[];
+  /** Optional flavour note shown under the player's name (e.g. an inside joke). */
+  note?: string;
 }
 
 /** One match for a drafted national team. */
@@ -63,6 +65,8 @@ export interface Manager {
   tagline?: string;
   players: Player[];
   teams: DraftedTeam[];
+  /** Optional bench / substitutes. Shown on the page but NOT counted in totals. */
+  bench?: Player[];
 }
 
 export interface League {

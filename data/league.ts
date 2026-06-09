@@ -44,7 +44,8 @@ const p = (
   position: Position,
   country: string,
   matches: PlayerMatch[] = [],
-): Player => ({ name, position, country, matches });
+  note?: string,
+): Player => ({ name, position, country, matches, ...(note ? { note } : {}) });
 
 const pm = (
   opponent: string,
@@ -93,6 +94,11 @@ export const league: League = {
       ],
       teams: [
         // TODO: add Rylan's 6 drafted national teams, e.g. t("Argentina")
+      ],
+      bench: [
+        // Inside joke — not at the World Cup, so he scores nothing, but he's
+        // on the squad in spirit. Bench picks never count toward the total.
+        p("Cole Palmer", "MID", "England", [], "The people's sub — not at the World Cup, scores nothing, beloved regardless."),
       ],
     },
 
