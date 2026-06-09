@@ -54,7 +54,17 @@ The full rulebook is also at `/rules` in the app.
 
 ## Deploy
 
-Push to GitHub and import the repo at [vercel.com/new](https://vercel.com/new),
-or run `vercel` with the CLI. It's a static Next.js app — no environment
-variables or database needed. To update scores after deploy, edit
-`data/league.ts`, commit, and push; Vercel redeploys automatically.
+This repo is connected to Vercel with **auto-deploy on push**:
+
+- **Repo:** https://github.com/RylanJ20/fantasy-world-cup
+- **Live:** https://fantasy-world-cup-five.vercel.app
+
+To update scores: edit `data/league.ts`, then
+
+```bash
+git add -A && git commit -m "Matchday results" && git push
+```
+
+Every push to `main` triggers a new production deployment automatically — no
+other steps. (You can still run `vercel --prod` to deploy manually.) It's a
+static Next.js app, so there are no environment variables or database to manage.
