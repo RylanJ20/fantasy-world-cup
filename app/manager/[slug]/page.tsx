@@ -141,7 +141,7 @@ export default async function ManagerPage({
 
         <div className="grid gap-6 lg:grid-cols-[minmax(0,22rem)_1fr]">
           <div className="lg:sticky lg:top-20 lg:self-start">
-            <PitchFormation players={m.players} />
+            <PitchFormation players={m.players} bench={m.bench} />
             <p className="mt-2 px-1 text-center text-xs text-faint">
               Numbers show each player&apos;s points. Tap to jump to their card.
             </p>

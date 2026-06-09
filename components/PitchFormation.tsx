@@ -52,7 +52,37 @@ function Row({ players }: { players: PlayerScore[] }) {
   );
 }
 
-export function PitchFormation({ players }: { players: PlayerScore[] }) {
+/** A substitute standing in the technical area beside the pitch. */
+function BenchNode({ ps }: { ps: PlayerScore }) {
+  const { player } = ps;
+  return (
+    <a
+      href={`#${playerAnchor(player.name)}`}
+      className="group flex w-full flex-col items-center gap-1"
+      title={`${player.name} — substitute`}
+    >
+      <span
+        className={`grid h-10 w-10 place-items-center rounded-full border-2 border-dashed bg-bg/85 font-mono text-xs font-bold shadow-lg backdrop-blur transition-transform group-hover:-translate-y-1 sm:h-12 sm:w-12 sm:text-sm ${NODE_TONE[player.position]}`}
+      >
+        {ps.total}
+      </span>
+      <span className="max-w-full truncate text-center text-[0.6rem] font-bold text-chalk sm:text-[0.68rem]">
+        {lastName(player.name)}
+      </span>
+      <span className="-mt-0.5 text-[0.52rem] font-bold uppercase tracking-wider text-amber">
+        Sub
+      </span>
+    </a>
+  );
+}
+
+export function PitchFormation({
+  players,
+  bench = [],
+}: {
+  players: PlayerScore[];
+  bench?: PlayerScore[];
+}) {
   const byPos = (...pos: Position[]) =>
     players.filter((p) => pos.includes(p.player.position));
 
@@ -63,42 +93,59 @@ export function PitchFormation({ players }: { players: PlayerScore[] }) {
   const gk = byPos("GK");
 
   return (
-    <div className="relative overflow-hidden rounded-2xl border border-line-strong">
-      {/* turf */}
-      <div className="absolute inset-0 bg-gradient-to-b from-[#0d2c1a] to-[#08200f]" />
-      <div
-        className="absolute inset-0 opacity-60"
-        style={{
-          backgroundImage:
-            "repeating-linear-gradient(0deg, rgba(255,255,255,0.035) 0 36px, transparent 36px 72px)",
-        }}
-      />
-      {/* chalk markings */}
-      <svg
-        className="absolute inset-0 h-full w-full"
-        viewBox="0 0 100 150"
-        preserveAspectRatio="none"
-        aria-hidden
-      >
-        <rect className="chalk" x="3" y="3" width="94" height="144" rx="1" />
-        <line className="chalk" x1="3" y1="75" x2="97" y2="75" />
-        <circle className="chalk" cx="50" cy="75" r="13" />
-        <circle cx="50" cy="75" r="1" fill="rgba(236,253,242,0.25)" />
-        {/* top box */}
-        <rect className="chalk" x="28" y="3" width="44" height="20" />
-        <rect className="chalk" x="40" y="3" width="20" height="8" />
-        {/* bottom box */}
-        <rect className="chalk" x="28" y="127" width="44" height="20" />
-        <rect className="chalk" x="40" y="139" width="20" height="8" />
-      </svg>
+    <div className="flex overflow-hidden rounded-2xl border border-line-strong">
+      {/* field */}
+      <div className="relative flex-1">
+        {/* turf */}
+        <div className="absolute inset-0 bg-gradient-to-b from-[#0d2c1a] to-[#08200f]" />
+        <div
+          className="absolute inset-0 opacity-60"
+          style={{
+            backgroundImage:
+              "repeating-linear-gradient(0deg, rgba(255,255,255,0.035) 0 36px, transparent 36px 72px)",
+          }}
+        />
+        {/* chalk markings */}
+        <svg
+          className="absolute inset-0 h-full w-full"
+          viewBox="0 0 100 150"
+          preserveAspectRatio="none"
+          aria-hidden
+        >
+          <rect className="chalk" x="3" y="3" width="94" height="144" rx="1" />
+          <line className="chalk" x1="3" y1="75" x2="97" y2="75" />
+          <circle className="chalk" cx="50" cy="75" r="13" />
+          <circle cx="50" cy="75" r="1" fill="rgba(236,253,242,0.25)" />
+          {/* top box */}
+          <rect className="chalk" x="28" y="3" width="44" height="20" />
+          <rect className="chalk" x="40" y="3" width="20" height="8" />
+          {/* bottom box */}
+          <rect className="chalk" x="28" y="127" width="44" height="20" />
+          <rect className="chalk" x="40" y="139" width="20" height="8" />
+        </svg>
 
-      {/* players */}
-      <div className="relative flex flex-col justify-between gap-5 px-3 py-6 sm:gap-6 sm:px-6 sm:py-8">
-        <Row players={fwd} />
-        <Row players={mid} />
-        <Row players={back} />
-        <Row players={gk} />
+        {/* players */}
+        <div className="relative flex flex-col justify-between gap-5 px-3 py-6 sm:gap-6 sm:px-6 sm:py-8">
+          <Row players={fwd} />
+          <Row players={mid} />
+          <Row players={back} />
+          <Row players={gk} />
+        </div>
       </div>
+
+      {/* technical area / subs bench, beside the touchline */}
+      {bench.length > 0 && (
+        <div className="relative flex w-[4.75rem] flex-col items-center gap-3 border-l border-dashed border-line-strong bg-[#04130b] px-1.5 py-5 sm:w-24">
+          <span className="text-[0.55rem] font-bold uppercase tracking-[0.18em] text-faint">
+            Subs
+          </span>
+          <div className="flex flex-1 flex-col items-center justify-center gap-4">
+            {bench.map((ps) => (
+              <BenchNode key={ps.player.name} ps={ps} />
+            ))}
+          </div>
+        </div>
+      )}
     </div>
   );
 }

@@ -98,7 +98,7 @@ export const league: League = {
       bench: [
         // Inside joke — not at the World Cup, so he scores nothing, but he's
         // on the squad in spirit. Bench picks never count toward the total.
-        p("Cole Palmer", "MID", "England", [], "The people's sub — not at the World Cup, scores nothing, beloved regardless."),
+        p("Cole Palmer", "MID", "England"),
       ],
     },
 
