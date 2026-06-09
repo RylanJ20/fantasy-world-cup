@@ -27,7 +27,7 @@ export function SiteHeader() {
               {leagueMeta.name}
             </span>
             <span className="text-[0.62rem] font-bold uppercase tracking-[0.2em] text-faint">
-              {leagueMeta.season}
+              Fantasy League
             </span>
           </span>
         </Link>

@@ -24,31 +24,22 @@ function PlayerNode({ ps }: { ps: PlayerScore }) {
   return (
     <a
       href={`#${playerAnchor(player.name)}`}
-      className="group flex w-16 flex-col items-center gap-1 sm:w-20"
+      // Flexible width so any row (incl. a 4-defender back line) always fits.
+      className="group flex min-w-0 max-w-[4.5rem] flex-1 flex-col items-center gap-1"
       title={`${player.name} — ${ps.total} pts`}
     >
       <span
-        className={`grid h-12 w-12 place-items-center rounded-full border-2 bg-bg/85 font-mono text-sm font-bold shadow-lg backdrop-blur transition-transform group-hover:-translate-y-1 group-hover:scale-105 sm:h-14 sm:w-14 ${NODE_TONE[player.position]}`}
+        className={`grid h-11 w-11 place-items-center rounded-full border-2 bg-bg/85 font-mono text-sm font-bold shadow-lg backdrop-blur transition-transform group-hover:-translate-y-1 group-hover:scale-105 sm:h-12 sm:w-12 ${NODE_TONE[player.position]}`}
       >
         {ps.total}
       </span>
-      <span className="max-w-full truncate text-center text-[0.66rem] font-bold text-chalk sm:text-xs">
+      <span className="w-full truncate text-center text-[0.62rem] font-bold text-chalk sm:text-[0.7rem]">
         {lastName(player.name)}
       </span>
-      <span className="-mt-0.5 text-[0.58rem] font-bold uppercase tracking-wider text-faint">
+      <span className="-mt-0.5 text-[0.55rem] font-bold uppercase tracking-wider text-faint">
         {player.position}
       </span>
     </a>
-  );
-}
-
-function Row({ players }: { players: PlayerScore[] }) {
-  return (
-    <div className="flex items-start justify-center gap-2 sm:gap-6">
-      {players.map((ps) => (
-        <PlayerNode key={ps.player.name} ps={ps} />
-      ))}
-    </div>
   );
 }
 
@@ -58,21 +49,31 @@ function BenchNode({ ps }: { ps: PlayerScore }) {
   return (
     <a
       href={`#${playerAnchor(player.name)}`}
-      className="group flex w-full flex-col items-center gap-1"
+      className="group flex w-full min-w-0 flex-col items-center gap-1"
       title={`${player.name} — substitute`}
     >
       <span
-        className={`grid h-10 w-10 place-items-center rounded-full border-2 border-dashed bg-bg/85 font-mono text-xs font-bold shadow-lg backdrop-blur transition-transform group-hover:-translate-y-1 sm:h-12 sm:w-12 sm:text-sm ${NODE_TONE[player.position]}`}
+        className={`grid h-10 w-10 place-items-center rounded-full border-2 border-dashed bg-bg/85 font-mono text-xs font-bold shadow-lg backdrop-blur transition-transform group-hover:-translate-y-1 sm:h-11 sm:w-11 sm:text-sm ${NODE_TONE[player.position]}`}
       >
         {ps.total}
       </span>
-      <span className="max-w-full truncate text-center text-[0.6rem] font-bold text-chalk sm:text-[0.68rem]">
+      <span className="w-full truncate text-center text-[0.6rem] font-bold text-chalk">
         {lastName(player.name)}
       </span>
-      <span className="-mt-0.5 text-[0.52rem] font-bold uppercase tracking-wider text-amber">
+      <span className="-mt-0.5 text-[0.5rem] font-bold uppercase tracking-wider text-amber">
         Sub
       </span>
     </a>
+  );
+}
+
+function Row({ players }: { players: PlayerScore[] }) {
+  return (
+    <div className="flex items-start justify-center gap-1.5 sm:gap-3">
+      {players.map((ps) => (
+        <PlayerNode key={ps.player.name} ps={ps} />
+      ))}
+    </div>
   );
 }
 
@@ -95,7 +96,7 @@ export function PitchFormation({
   return (
     <div className="flex overflow-hidden rounded-2xl border border-line-strong">
       {/* field */}
-      <div className="relative flex-1">
+      <div className="relative min-w-0 flex-1">
         {/* turf */}
         <div className="absolute inset-0 bg-gradient-to-b from-[#0d2c1a] to-[#08200f]" />
         <div
@@ -125,7 +126,7 @@ export function PitchFormation({
         </svg>
 
         {/* players */}
-        <div className="relative flex flex-col justify-between gap-5 px-3 py-6 sm:gap-6 sm:px-6 sm:py-8">
+        <div className="relative flex flex-col justify-between gap-5 px-2.5 py-6 sm:gap-6 sm:px-4 sm:py-8">
           <Row players={fwd} />
           <Row players={mid} />
           <Row players={back} />
@@ -135,7 +136,7 @@ export function PitchFormation({
 
       {/* technical area / subs bench, beside the touchline */}
       {bench.length > 0 && (
-        <div className="relative flex w-[4.75rem] flex-col items-center gap-3 border-l border-dashed border-line-strong bg-[#04130b] px-1.5 py-5 sm:w-24">
+        <div className="relative flex w-16 shrink-0 flex-col items-center gap-3 border-l border-dashed border-line-strong bg-[#04130b] px-1.5 py-5 sm:w-[4.75rem]">
           <span className="text-[0.55rem] font-bold uppercase tracking-[0.18em] text-faint">
             Subs
           </span>
