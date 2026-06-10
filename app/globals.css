@@ -131,6 +131,51 @@ body::after {
   stroke-width: 2;
 }
 
+/* ── "Wall of nations" backdrop — all 48 flags, whisper-quiet ──────────────── */
+.flag-backdrop {
+  position: fixed;
+  inset: 4rem 0 0;             /* start below the 4rem sticky header */
+  z-index: -1;                 /* above the pitch gradient (-2), below content */
+  pointer-events: none;
+  overflow: hidden;
+  /* two columns, each filling one gutter; content (72rem) sits between them */
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+  opacity: 0.14;
+  filter: saturate(0.85) brightness(0.95);
+}
+/* a gutter column: as wide as the gutter, with its pods centred in it so they
+   land halfway between the screen edge and the content */
+.flag-col {
+  width: calc((100vw - 72rem) / 2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+/* a 2×2 pod = one World Cup group of four nations */
+.flag-pod {
+  display: grid;
+  grid-template-columns: repeat(2, 56px);
+  grid-template-rows: repeat(2, 42px);
+  gap: 10px;
+}
+.flag-backdrop .fi {
+  display: block;
+  width: 56px;
+  height: 42px;
+  border-radius: 3px;
+  background-size: cover;
+}
+
+/* gutters vanish on narrower screens — don't let the pods crowd the content */
+@media (max-width: 1279px) {
+  .flag-backdrop {
+    display: none;
+  }
+}
+
 /* ── Score badges ─────────────────────────────────────────────────────────── */
 .badge {
   display: inline-flex;

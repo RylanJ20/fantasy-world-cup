@@ -5,6 +5,7 @@ import "./globals.css";
 import { leagueMeta } from "@/lib/league";
 import { SiteHeader } from "@/components/SiteHeader";
 import { SiteFooter } from "@/components/SiteFooter";
+import { FlagBackdrop } from "@/components/FlagBackdrop";
 
 const anton = Anton({
   variable: "--font-anton",
@@ -55,6 +56,7 @@ export default function RootLayout({
       className={`${anton.variable} ${archivo.variable} ${jbMono.variable} h-full`}
     >
       <body className="flex min-h-dvh flex-col">
+        <FlagBackdrop />
         <SiteHeader />
         <main className="flex-1">{children}</main>
         <SiteFooter />

@@ -43,3 +43,13 @@ export function draftedManagers(team: string): string[] {
   const c = countryCode(team);
   return c ? (draftedBy.get(c) ?? []) : [];
 }
+
+/**
+ * Each tournament group as its four flag-icons codes (Group A → L) — drives the
+ * grouped FlagBackdrop, where every 2×2 pod is a real World Cup group.
+ */
+export const tournamentGroups: string[][] = groups.map((g) =>
+  g.table
+    .map((r) => countryCode(r.team))
+    .filter((c): c is string => Boolean(c)),
+);

@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { getStandings, getLeagueTotals, leagueMeta } from "@/lib/league";
 import { Podium } from "@/components/Podium";
 import { StandingsTable } from "@/components/StandingsTable";
@@ -46,18 +47,41 @@ export default function Home() {
     <div className="mx-auto max-w-6xl px-4 pb-10 pt-8 sm:px-6 sm:pt-12">
       {/* ── Hero ───────────────────────────────────────────────────────── */}
       <section className="relative overflow-hidden rounded-2xl border border-line-strong panel p-6 sm:p-10">
-        {/* chalk pitch decoration */}
+        {/* faint chalk pitch arc for texture, behind the trophy */}
         <svg
-          className="pointer-events-none absolute right-0 top-1/2 hidden h-[140%] -translate-y-1/2 opacity-40 md:block"
+          className="pointer-events-none absolute right-0 top-1/2 hidden h-[140%] -translate-y-1/2 opacity-20 lg:block"
           viewBox="0 0 400 400"
           aria-hidden
         >
           <circle className="chalk" cx="400" cy="200" r="120" />
-          <circle className="chalk" cx="400" cy="200" r="3" fill="rgba(236,253,242,0.2)" />
           <path className="chalk" d="M400 40 V360 M280 110 H400 M280 110 V290 M280 290 H400" />
         </svg>
 
-        <div className="relative max-w-2xl">
+        {/* The World Cup trophy, raised under a spotlight */}
+        <div className="pointer-events-none absolute inset-y-0 right-0 z-0 flex items-center justify-end opacity-25 sm:opacity-40 lg:opacity-100">
+          <div className="reveal relative" style={{ animationDelay: "0.18s" }}>
+            {/* warm spotlight glow */}
+            <div
+              aria-hidden
+              className="absolute left-1/2 top-1/2 -z-10 h-[120%] w-[150%] -translate-x-1/2 -translate-y-1/2 rounded-full blur-2xl"
+              style={{
+                background:
+                  "radial-gradient(closest-side, rgba(255,201,77,0.28), rgba(255,201,77,0.07) 55%, transparent 78%)",
+              }}
+            />
+            <Image
+              src="/world-cup-trophy.png"
+              alt="The FIFA World Cup trophy"
+              width={415}
+              height={877}
+              priority
+              sizes="(min-width: 1024px) 320px, (min-width: 640px) 240px, 200px"
+              className="-mr-6 h-auto w-[200px] select-none drop-shadow-[0_28px_60px_rgba(0,0,0,0.65)] sm:-mr-4 sm:w-[240px] lg:mr-1 lg:w-[320px]"
+            />
+          </div>
+        </div>
+
+        <div className="relative z-10 max-w-2xl">
           <p className="eyebrow">8 managers · one trophy</p>
           <h1 className="mt-3 font-display text-5xl leading-[0.92] text-chalk sm:text-7xl">
             {leagueMeta.name}
