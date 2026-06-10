@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
+import type { Position } from "@/lib/types";
 import {
   getAllManagerSlugs,
   getManagerScore,
@@ -38,6 +39,14 @@ export async function generateMetadata({
 
 const ORDINAL = ["", "1st", "2nd", "3rd", "4th", "5th", "6th", "7th", "8th"];
 
+/** Squad cards are grouped by line, top of the pitch down — matching the formation. */
+const POSITION_GROUPS: { badge: Position; label: string; positions: Position[] }[] = [
+  { badge: "FWD", label: "Forwards", positions: ["FWD"] },
+  { badge: "MID", label: "Midfielders", positions: ["MID"] },
+  { badge: "DEF", label: "Defenders", positions: ["WB", "CB", "DEF"] },
+  { badge: "GK", label: "Goalkeeper", positions: ["GK"] },
+];
+
 export default async function ManagerPage({
   params,
 }: {
@@ -50,6 +59,19 @@ export default async function ManagerPage({
   const fieldSize = getManagerScores().length;
   const playerShare = m.total > 0 ? (m.playersTotal / m.total) * 100 : 50;
   const seed = getManagerScores().findIndex((s) => s.manager.id === slug);
+
+  // Group the squad by position line, carrying a running slot number (01–11).
+  let slot = 0;
+  const playerGroups = POSITION_GROUPS.map((g) => ({
+    ...g,
+    players: m.players.filter((ps) => g.positions.includes(ps.player.position)),
+  }))
+    .filter((g) => g.players.length > 0)
+    .map((g) => {
+      const start = slot;
+      slot += g.players.length;
+      return { ...g, start };
+    });
 
   return (
     <div className="mx-auto max-w-6xl px-4 pb-10 pt-6 sm:px-6 sm:pt-8">
@@ -147,14 +169,30 @@ export default async function ManagerPage({
             </p>
           </div>
 
-          <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-1 xl:grid-cols-2">
-            {m.players.map((ps, i) => (
-              <div
-                key={ps.player.name}
-                className="reveal"
-                style={{ animationDelay: `${i * 35}ms` }}
-              >
-                <PlayerCard ps={ps} rank={i + 1} />
+          <div className="space-y-8">
+            {playerGroups.map((g) => (
+              <div key={g.badge}>
+                <div className="mb-3 flex items-center gap-3">
+                  <span className={`badge pos-${g.badge}`}>{g.badge}</span>
+                  <h3 className="font-display text-lg tracking-wide text-chalk">
+                    {g.label}
+                  </h3>
+                  <span className="font-mono text-xs text-faint">
+                    {g.players.length}
+                  </span>
+                  <span className="h-px flex-1 bg-line" aria-hidden />
+                </div>
+                <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-1 xl:grid-cols-2">
+                  {g.players.map((ps, j) => (
+                    <div
+                      key={ps.player.name}
+                      className="reveal"
+                      style={{ animationDelay: `${(g.start + j) * 35}ms` }}
+                    >
+                      <PlayerCard ps={ps} rank={g.start + j + 1} />
+                    </div>
+                  ))}
+                </div>
               </div>
             ))}
           </div>
