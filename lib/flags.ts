@@ -108,3 +108,24 @@ const CODES: Record<string, string> = {
 export function countryCode(name: string): string | null {
   return CODES[name.trim().toLowerCase()] ?? null;
 }
+
+// ──────────────────────────────────────────────────────────────────────────
+//  Preferred display spellings. The football-data.org feed (and some older
+//  data) use names we'd rather not show — map them to the spelling we want on
+//  the site. The import scripts run every imported name through displayName()
+//  so re-imports keep these. Country matching is unaffected: countryCode()
+//  still resolves all of these via the alias map above.
+// ──────────────────────────────────────────────────────────────────────────
+const DISPLAY_NAMES: Record<string, string> = {
+  turkey: "Türkiye",
+  türkiye: "Türkiye",
+  turkiye: "Türkiye",
+  "cape verde": "Cabo Verde",
+  "cape verde islands": "Cabo Verde",
+  "cabo verde": "Cabo Verde",
+};
+
+/** Preferred display name for a country; returns the input unchanged if none. */
+export function displayName(name: string): string {
+  return DISPLAY_NAMES[name.trim().toLowerCase()] ?? name;
+}

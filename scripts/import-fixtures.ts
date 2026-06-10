@@ -10,7 +10,7 @@
 // ─────────────────────────────────────────────────────────────────────────────
 
 import { writeFileSync } from "node:fs";
-import { countryCode } from "@/lib/flags";
+import { countryCode, displayName } from "@/lib/flags";
 
 // Optionally load a local .env.local (Node 20.6+/24). Safe if it doesn't exist.
 try {
@@ -61,8 +61,8 @@ async function main() {
     date: (m.utcDate as string).slice(0, 10),
     utcDate: m.utcDate as string,
     stage: stageLabel(m.group ?? null, m.stage),
-    home: m.homeTeam?.name ?? "TBD",
-    away: m.awayTeam?.name ?? "TBD",
+    home: displayName(m.homeTeam?.name ?? "TBD"),
+    away: displayName(m.awayTeam?.name ?? "TBD"),
     status: m.status as string,
     homeScore: m.score?.fullTime?.home ?? null,
     awayScore: m.score?.fullTime?.away ?? null,

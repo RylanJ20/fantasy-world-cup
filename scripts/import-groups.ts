@@ -9,6 +9,7 @@
 // ─────────────────────────────────────────────────────────────────────────────
 
 import { writeFileSync } from "node:fs";
+import { displayName } from "@/lib/flags";
 
 try {
   (process as NodeJS.Process & { loadEnvFile?: (p: string) => void }).loadEnvFile?.(
@@ -45,7 +46,7 @@ async function main() {
       group: String(s.group).replace("GROUP_", "Group "),
       table: (s.table ?? []).map((r: any) => ({
         position: r.position,
-        team: r.team?.name ?? "TBD",
+        team: displayName(r.team?.name ?? "TBD"),
         played: r.playedGames ?? 0,
         won: r.won ?? 0,
         draw: r.draw ?? 0,

@@ -96,7 +96,12 @@ export const league: League = {
         p("Jordan Pickford", "GK", "England"),
       ],
       teams: [
-        // TODO: add Rylan's 6 drafted national teams, e.g. t("Argentina")
+        t("Argentina"),
+        t("Colombia"),
+        t("Czechia"),
+        t("Egypt"),
+        t("Iran"),
+        t("Jordan"),
       ],
       bench: [
         // Inside joke — not at the World Cup, so he scores nothing, but he's
@@ -145,7 +150,12 @@ export const league: League = {
         p("Diogo Costa", "GK", "Portugal"),
       ],
       teams: [
-        // TODO: add Terrick's 6 drafted national teams
+        t("France"),
+        t("United States"),
+        t("Senegal"),
+        t("Ghana"),
+        t("Bosnia-Herzegovina"),
+        t("Curaçao"),
       ],
     },
 
@@ -189,7 +199,12 @@ export const league: League = {
         p("Thibaut Courtois", "GK", "Belgium"),
       ],
       teams: [
-        // TODO: add Ben's 6 drafted national teams
+        t("Netherlands"),
+        t("Croatia"),
+        t("Austria"),
+        t("Canada"),
+        t("Australia"),
+        t("Tunisia"),
       ],
     },
 
@@ -233,7 +248,12 @@ export const league: League = {
         p("Emiliano Martínez", "GK", "Argentina"), // "Emi"
       ],
       teams: [
-        // TODO: add Travis's 6 drafted national teams
+        t("England"),
+        t("Ecuador"),
+        t("Türkiye"),
+        t("Sweden"),
+        t("Algeria"),
+        t("Cabo Verde"),
       ],
     },
 
@@ -255,7 +275,12 @@ export const league: League = {
         p("Manuel Neuer", "GK", "Germany"),
       ],
       teams: [
-        // TODO: add Alejandro's 6 drafted national teams
+        t("Germany"),
+        t("Belgium"),
+        t("Ivory Coast"),
+        t("South Korea"),
+        t("New Zealand"),
+        t("Haiti"),
       ],
     },
   ],
