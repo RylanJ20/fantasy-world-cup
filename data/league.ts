@@ -128,7 +128,12 @@ export const league: League = {
         p("Alisson", "GK", "Brazil"),
       ],
       teams: [
-        // TODO: add Marc's 6 drafted national teams
+        t("Portugal"),
+        t("Switzerland"),
+        t("Japan"),
+        t("Scotland"),
+        t("Saudi Arabia"),
+        t("Iraq"),
       ],
     },
 
@@ -177,7 +182,12 @@ export const league: League = {
         p("Mike Maignan", "GK", "France"),
       ],
       teams: [
-        // TODO: add Zach's 6 drafted national teams
+        t("Spain"),
+        t("Uruguay"),
+        t("Norway"),
+        t("Panama"),
+        t("Paraguay"),
+        t("Uzbekistan"),
       ],
     },
 
@@ -226,7 +236,12 @@ export const league: League = {
         p("David Raya", "GK", "Spain"),
       ],
       teams: [
-        // TODO: add Grayson's 6 drafted national teams
+        t("Mexico"),
+        t("Brazil"),
+        t("Morocco"),
+        t("South Africa"),
+        t("Congo DR"),
+        t("Qatar"),
       ],
     },
 
