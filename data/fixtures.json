@@ -7,9 +7,9 @@
     "home": "Mexico",
     "away": "South Africa",
     "status": "FINISHED",
-    "homeScore": null,
-    "awayScore": null,
-    "winner": null
+    "homeScore": 2,
+    "awayScore": 0,
+    "winner": "HOME_TEAM"
   },
   {
     "n": 537328,
