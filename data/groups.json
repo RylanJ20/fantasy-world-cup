@@ -4,31 +4,31 @@
     "table": [
       {
         "position": 1,
-        "team": "Czechia",
-        "played": 0,
+        "team": "Mexico",
+        "played": 1,
         "won": 0,
-        "draw": 0,
+        "draw": 1,
         "lost": 0,
         "gf": 0,
         "ga": 0,
         "gd": 0,
-        "points": 0
+        "points": 1
       },
       {
         "position": 2,
-        "team": "Mexico",
-        "played": 0,
+        "team": "South Africa",
+        "played": 1,
         "won": 0,
-        "draw": 0,
+        "draw": 1,
         "lost": 0,
         "gf": 0,
         "ga": 0,
         "gd": 0,
-        "points": 0
+        "points": 1
       },
       {
         "position": 3,
-        "team": "South Africa",
+        "team": "Czechia",
         "played": 0,
         "won": 0,
         "draw": 0,
