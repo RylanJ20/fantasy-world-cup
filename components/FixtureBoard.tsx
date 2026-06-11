@@ -36,6 +36,25 @@ function fmtDay(date: string): string {
 const isLive = (s?: string) => s === "IN_PLAY" || s === "PAUSED";
 const isDone = (s?: string) => s === "FINISHED";
 
+// The upstream free-tier API reports IN_PLAY slowly and unreliably, so a genuinely
+// live match can still read as "TIMED" for a long while. To surface the Live badge
+// in real time we also infer it from the clock: a fixture counts as live from
+// kickoff until a stage-dependent window later (groups ~130', knockouts ~180' to
+// cover extra time + penalties) — unless the API has already said FINISHED/IN_PLAY,
+// in which case we trust the API.
+const liveWindowMin = (stage: string) => (stage.startsWith("Group") ? 130 : 180);
+
+function isLiveNow(
+  f: { status?: string; utcDate?: string | null; stage: string },
+  now: number | null,
+): boolean {
+  if (isDone(f.status)) return false; // API says it's over — trust it
+  if (isLive(f.status)) return true; // API says in-play — trust it
+  if (now == null || !f.utcDate) return false; // pre-hydration / no kickoff time
+  const kickoff = new Date(f.utcDate).getTime();
+  return now >= kickoff && now < kickoff + liveWindowMin(f.stage) * 60_000;
+}
+
 function AssetChip({ a }: { a: InvolvedAsset }) {
   return (
     <Link
@@ -67,8 +86,16 @@ function Team({ name, align }: { name: string; align: "left" | "right" }) {
   );
 }
 
-function StatusTag({ f, mounted }: { f: EnrichedFixture; mounted: boolean }) {
-  if (isLive(f.status))
+function StatusTag({
+  f,
+  mounted,
+  live,
+}: {
+  f: EnrichedFixture;
+  mounted: boolean;
+  live: boolean;
+}) {
+  if (live)
     return (
       <span className="flex items-center gap-1.5 text-xs font-bold uppercase tracking-wider text-red">
         <span className="h-2 w-2 animate-pulse rounded-full bg-red" />
@@ -88,13 +115,15 @@ function FixtureCard({
   f,
   isNext,
   mounted,
+  live,
 }: {
   f: EnrichedFixture;
   isNext: boolean;
   mounted: boolean;
+  live: boolean;
 }) {
   const showScore =
-    (isLive(f.status) || isDone(f.status)) && f.homeScore != null && f.awayScore != null;
+    (live || isDone(f.status)) && f.homeScore != null && f.awayScore != null;
 
   return (
     <div
@@ -104,11 +133,11 @@ function FixtureCard({
       <div className="mb-2 flex items-center justify-between">
         <span className="flex items-center gap-2">
           <span className="badge pos-MID">{f.stage}</span>
-          {isNext && !isLive(f.status) && (
+          {isNext && !live && (
             <span className="badge border-turf/40 bg-turf/12 text-turf-bright">Next</span>
           )}
         </span>
-        <StatusTag f={f} mounted={mounted} />
+        <StatusTag f={f} mounted={mounted} live={live} />
       </div>
 
       <div className="flex items-center gap-3">
@@ -132,10 +161,20 @@ function FixtureCard({
 
 export function FixtureBoard({ fixtures }: { fixtures: EnrichedFixture[] }) {
   const [today, setToday] = useState<string | null>(null);
+  // Wall-clock (ms), refreshed on a timer so Live badges flip on/off without a
+  // reload. Null until mounted to keep SSR/first paint deterministic.
+  const [now, setNow] = useState<number | null>(null);
 
   // The "next" match = first one not yet finished (deterministic, no clock).
   const nextFixture = fixtures.find((f) => !isDone(f.status));
   const nextN = nextFixture?.n ?? null;
+
+  useEffect(() => {
+    const tick = () => setNow(Date.now());
+    tick();
+    const id = setInterval(tick, 60_000);
+    return () => clearInterval(id);
+  }, []);
 
   useEffect(() => {
     setToday(localToday());
@@ -178,6 +217,7 @@ export function FixtureBoard({ fixtures }: { fixtures: EnrichedFixture[] }) {
                   f={f}
                   isNext={f.n != null && f.n === nextN}
                   mounted={today !== null}
+                  live={isLiveNow(f, now)}
                 />
               ))}
             </div>
