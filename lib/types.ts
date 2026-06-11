@@ -23,8 +23,10 @@ export interface PlayerMatch {
   shotsOnGoal?: number;
   /** Goalkeeper saves (2 pts each). */
   saves?: number;
-  /** Penalty saves (5 pts each). */
+  /** Penalty saves in the run of play (5 pts each). */
   pkSaves?: number;
+  /** Penalty saves in a penalty shootout (3 pts each). */
+  shootoutSaves?: number;
   /** Goals the player's team conceded this match (drives clean-sheet logic). */
   goalsConceded?: number;
   /** Team result — used for the GK win bonus (+3). */

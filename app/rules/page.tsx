@@ -99,7 +99,8 @@ export default function RulesPage() {
             scope="GK only"
           >
             <RuleRow label="Save" value={POINTS.SAVE} />
-            <RuleRow label="Penalty save" value={POINTS.PK_SAVE} />
+            <RuleRow label="Penalty save (in play)" value={POINTS.PK_SAVE} />
+            <RuleRow label="Penalty save (shootout)" value={POINTS.SHOOTOUT_SAVE} />
             <RuleRow label="Team win" value={POINTS.GK_WIN} />
             <RuleRow label="Goal allowed (each)" value={POINTS.GOAL_ALLOWED} />
           </RuleCard>
@@ -159,6 +160,15 @@ export default function RulesPage() {
                 <span className="mt-0.5 shrink-0 text-turf-bright">▸</span>
                 <span>
                   Only the GK takes the win bonus and the −2 per goal conceded.
+                </span>
+              </li>
+              <li className="flex gap-2">
+                <span className="mt-0.5 shrink-0 text-turf-bright">▸</span>
+                <span>
+                  A penalty save in open play is{" "}
+                  {signed(POINTS.PK_SAVE)}, but a save in a{" "}
+                  <span className="text-chalk">penalty shootout</span> is worth{" "}
+                  {signed(POINTS.SHOOTOUT_SAVE)}.
                 </span>
               </li>
             </ul>

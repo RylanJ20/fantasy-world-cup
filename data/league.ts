@@ -10,7 +10,8 @@
 //  • Add a player match — put it in that player's `matches: [ ... ]` array:
 //      pm("vs Brazil", { goals: 1, shotsOnGoal: 3, motm: true })
 //      Only list what happened — anything you omit counts as 0 / none.
-//      Stat keys: goals, assists, shotsOnGoal, saves, pkSaves,
+//      Stat keys: goals, assists, shotsOnGoal, saves, pkSaves (in-play, +5),
+//                 shootoutSaves (penalty shootout, +3),
 //                 goalsConceded, result ("W" | "D" | "L"), motm (true).
 //      ▸ For the GK and every defender (CB / DEF / WB), set `goalsConceded`
 //        so clean-sheet (+3) and one-goal-allowed (+1) bonuses are awarded.

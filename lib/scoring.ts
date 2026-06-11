@@ -5,7 +5,8 @@
 //  RULES
 //  ─────
 //  All players      Goal +10 · Assist +5 · Shot on goal +1 · MOTM +2
-//  GK only          Save +2 · PK save +5 · Goal allowed -2 (each) · Win +3
+//  GK only          Save +2 · PK save +5 (in play) · Shootout PK save +3
+//                   · Goal allowed -2 (each) · Win +3
 //  GK + defenders   Clean sheet +3 · Only one goal allowed +1
 //                   (defenders = GK, CB, DEF, WB)
 //  Teams            Win +3 · Tie +1 · Shutout +5   (shutout STACKS with result)
@@ -27,6 +28,7 @@ export const POINTS = {
   MOTM: 2,
   SAVE: 2,
   PK_SAVE: 5,
+  SHOOTOUT_SAVE: 3,
   GOAL_ALLOWED: -2,
   GK_WIN: 3,
   CLEAN_SHEET: 3,
@@ -63,6 +65,7 @@ export interface PlayerTotals {
   shotsOnGoal: number;
   saves: number;
   pkSaves: number;
+  shootoutSaves: number;
   goalsConceded: number;
   cleanSheets: number;
   oneGoalGames: number;
@@ -128,6 +131,7 @@ function scorePlayerMatch(player: Player, m: PlayerMatch): PlayerMatchScore {
   const sog = m.shotsOnGoal ?? 0;
   const saves = m.saves ?? 0;
   const pkSaves = m.pkSaves ?? 0;
+  const shootoutSaves = m.shootoutSaves ?? 0;
   const gc = m.goalsConceded;
 
   if (goals) lines.push(line("Goal", goals, POINTS.GOAL));
@@ -138,6 +142,8 @@ function scorePlayerMatch(player: Player, m: PlayerMatch): PlayerMatchScore {
   if (gk) {
     if (saves) lines.push(line("Save", saves, POINTS.SAVE));
     if (pkSaves) lines.push(line("Penalty save", pkSaves, POINTS.PK_SAVE));
+    if (shootoutSaves)
+      lines.push(line("Shootout save", shootoutSaves, POINTS.SHOOTOUT_SAVE));
     if (typeof gc === "number" && gc > 0)
       lines.push(line("Goal allowed", gc, POINTS.GOAL_ALLOWED, "bad"));
     if (m.result === "W") lines.push(line("Win", 1, POINTS.GK_WIN));
@@ -166,6 +172,7 @@ export function scorePlayer(player: Player): PlayerScore {
     shotsOnGoal: 0,
     saves: 0,
     pkSaves: 0,
+    shootoutSaves: 0,
     goalsConceded: 0,
     cleanSheets: 0,
     oneGoalGames: 0,
@@ -179,6 +186,7 @@ export function scorePlayer(player: Player): PlayerScore {
     totals.shotsOnGoal += m.shotsOnGoal ?? 0;
     totals.saves += m.saves ?? 0;
     totals.pkSaves += m.pkSaves ?? 0;
+    totals.shootoutSaves += m.shootoutSaves ?? 0;
     totals.goalsConceded += m.goalsConceded ?? 0;
     if (m.motm) totals.motm += 1;
     if (gk && m.result === "W") totals.wins += 1;
@@ -198,6 +206,8 @@ export function scorePlayer(player: Player): PlayerScore {
   if (gk) {
     if (totals.saves) lines.push(line("Saves", totals.saves, POINTS.SAVE));
     if (totals.pkSaves) lines.push(line("Penalty saves", totals.pkSaves, POINTS.PK_SAVE));
+    if (totals.shootoutSaves)
+      lines.push(line("Shootout saves", totals.shootoutSaves, POINTS.SHOOTOUT_SAVE));
     if (totals.goalsConceded)
       lines.push(line("Goals allowed", totals.goalsConceded, POINTS.GOAL_ALLOWED, "bad"));
     if (totals.wins) lines.push(line("Wins", totals.wins, POINTS.GK_WIN));

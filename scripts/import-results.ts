@@ -102,7 +102,7 @@ async function main() {
   line("  • Goals & assists (aggregate via /scorers, per-match via match detail)");
   line("  • Goals conceded → clean-sheet / one-goal bonuses");
   line("NOT reliably available for free (hand-enter these):");
-  line("  • Shots on goal, saves, penalty saves");
+  line("  • Shots on goal, saves, penalty saves (in-play & shootout)");
   line("  • Man of the Match (subjective — APIs generally don't provide it)");
 }
 
