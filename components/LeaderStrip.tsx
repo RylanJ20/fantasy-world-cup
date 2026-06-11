@@ -3,6 +3,13 @@ import type { ReactNode } from "react";
 import { getLeagueLeaders } from "@/lib/league";
 import { BootIcon, GloveIcon, ShieldIcon, TargetIcon } from "./icons";
 
+const ICONS: Record<string, ReactNode> = {
+  points: <BootIcon size={22} />,
+  boot: <TargetIcon size={22} />,
+  glove: <GloveIcon size={22} />,
+  team: <ShieldIcon size={22} />,
+};
+
 function LeaderCard({
   icon,
   label,
@@ -19,15 +26,11 @@ function LeaderCard({
   meta: string;
   value: number;
   unit: string;
-  href: string;
+  href?: string;
   delay: number;
 }) {
-  return (
-    <Link
-      href={href}
-      className="lift panel reveal flex flex-col gap-3 p-4"
-      style={{ animationDelay: `${delay}ms` }}
-    >
+  const body = (
+    <>
       <div className="flex items-center justify-between">
         <span className="eyebrow">{label}</span>
         <span className="text-turf-bright">{icon}</span>
@@ -46,63 +49,40 @@ function LeaderCard({
           {unit}
         </span>
       </div>
+    </>
+  );
+  const className = "lift panel reveal flex flex-col gap-3 p-4";
+  const style = { animationDelay: `${delay}ms` };
+  return href ? (
+    <Link href={href} className={className} style={style}>
+      {body}
     </Link>
+  ) : (
+    <div className={className} style={style}>
+      {body}
+    </div>
   );
 }
 
 export function LeaderStrip() {
-  const { topScorer, topKeeper, topTeam, mostGoals } = getLeagueLeaders();
+  const cards = getLeagueLeaders();
+  if (cards.length === 0) return null;
 
   return (
     <div className="grid grid-cols-2 gap-3 lg:grid-cols-4">
-      {topScorer && (
+      {cards.map((c, i) => (
         <LeaderCard
-          icon={<BootIcon size={22} />}
-          label="Top points"
-          name={topScorer.subject.player.name}
-          meta={`${topScorer.subject.player.country} · ${topScorer.managerName}`}
-          value={topScorer.value}
-          unit="pts"
-          href={`/manager/${topScorer.managerId}`}
-          delay={0}
+          key={c.key}
+          icon={ICONS[c.key]}
+          label={c.label}
+          name={c.name}
+          meta={c.meta}
+          value={c.value}
+          unit={c.unit}
+          href={c.href}
+          delay={i * 70}
         />
-      )}
-      {mostGoals && mostGoals.value > 0 && (
-        <LeaderCard
-          icon={<TargetIcon size={22} />}
-          label="Golden boot"
-          name={mostGoals.subject.player.name}
-          meta={`${mostGoals.subject.player.country} · ${mostGoals.managerName}`}
-          value={mostGoals.value}
-          unit="goals"
-          href={`/manager/${mostGoals.managerId}`}
-          delay={70}
-        />
-      )}
-      {topKeeper && (
-        <LeaderCard
-          icon={<GloveIcon size={22} />}
-          label="Golden glove"
-          name={topKeeper.subject.player.name}
-          meta={`${topKeeper.subject.player.country} · ${topKeeper.managerName}`}
-          value={topKeeper.value}
-          unit="pts"
-          href={`/manager/${topKeeper.managerId}`}
-          delay={140}
-        />
-      )}
-      {topTeam && (
-        <LeaderCard
-          icon={<ShieldIcon size={22} />}
-          label="Best team pick"
-          name={topTeam.subject.team.country}
-          meta={`${topTeam.subject.record.w}W-${topTeam.subject.record.d}D-${topTeam.subject.record.l}L · ${topTeam.managerName}`}
-          value={topTeam.value}
-          unit="pts"
-          href={`/manager/${topTeam.managerId}`}
-          delay={210}
-        />
-      )}
+      ))}
     </div>
   );
 }

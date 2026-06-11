@@ -8,9 +8,10 @@
     "start": "next start",
     "lint": "eslint",
     "notify:discord": "tsx scripts/notify-discord.ts",
-    "import:check": "tsx scripts/import-results.ts",
     "import:fixtures": "tsx scripts/import-fixtures.ts",
-    "import:groups": "tsx scripts/import-groups.ts"
+    "import:groups": "tsx scripts/import-groups.ts",
+    "import:stats": "tsx scripts/import-stats.ts",
+    "import:all": "npm run import:fixtures && npm run import:groups && npm run import:stats"
   },
   "dependencies": {
     "flag-icons": "^7.5.0",

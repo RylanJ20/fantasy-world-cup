@@ -1,0 +1,80 @@
+{
+  "goals": [
+    {
+      "name": "Julián Quiñones",
+      "country": "Mexico",
+      "position": "MID",
+      "value": 1,
+      "managers": []
+    },
+    {
+      "name": "Raúl Jiménez",
+      "country": "Mexico",
+      "position": "FWD",
+      "value": 1,
+      "managers": []
+    }
+  ],
+  "assists": [
+    {
+      "name": "Érik Lira",
+      "country": "Mexico",
+      "position": "MID",
+      "value": 1,
+      "managers": []
+    },
+    {
+      "name": "Roberto Alvarado",
+      "country": "Mexico",
+      "position": "MID",
+      "value": 1,
+      "managers": []
+    }
+  ],
+  "saves": [
+    {
+      "name": "Raúl Rangel",
+      "country": "Mexico",
+      "position": "GK",
+      "value": 2,
+      "managers": []
+    },
+    {
+      "name": "Ronwen Williams",
+      "country": "South Africa",
+      "position": "GK",
+      "value": 2,
+      "managers": []
+    }
+  ],
+  "cleanSheets": [
+    {
+      "name": "César Montes",
+      "country": "Mexico",
+      "position": "DEF",
+      "value": 1,
+      "managers": []
+    },
+    {
+      "name": "Israel Reyes",
+      "country": "Mexico",
+      "position": "DEF",
+      "value": 1,
+      "managers": []
+    },
+    {
+      "name": "Jesús Gallardo",
+      "country": "Mexico",
+      "position": "DEF",
+      "value": 1,
+      "managers": []
+    },
+    {
+      "name": "Johan Vásquez",
+      "country": "Mexico",
+      "position": "DEF",
+      "value": 1,
+      "managers": []
+    }
+  ]
+}

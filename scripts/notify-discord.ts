@@ -29,18 +29,23 @@ async function main() {
   // Cache-bust the share image per deploy so Discord fetches a fresh render.
   const v = process.env.GITHUB_SHA?.slice(0, 8) ?? `${standings[0]?.total ?? 0}`;
 
+  // getLeagueLeaders() returns ready-to-render strip cards; "points" only appears
+  // once fantasy points exist, "boot" is the real tournament golden boot.
+  const card = (key: string) => leaders.find((c) => c.key === key);
   const fields: { name: string; value: string; inline?: boolean }[] = [];
-  if (leaders.topScorer && leaders.topScorer.value > 0) {
+  const topPts = card("points");
+  const boot = card("boot");
+  if (topPts) {
     fields.push({
       name: "🔥 Top points",
-      value: `${leaders.topScorer.subject.player.name} — ${leaders.topScorer.value} (${leaders.topScorer.managerName})`,
+      value: `${topPts.name} — ${topPts.value} (${topPts.meta})`,
       inline: true,
     });
   }
-  if (leaders.mostGoals && leaders.mostGoals.value > 0) {
+  if (boot) {
     fields.push({
       name: "⚽ Golden boot",
-      value: `${leaders.mostGoals.subject.player.name} — ${leaders.mostGoals.value} goals`,
+      value: `${boot.name} — ${boot.value} goals`,
       inline: true,
     });
   }

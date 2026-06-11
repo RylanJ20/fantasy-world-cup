@@ -2,27 +2,31 @@
 //  THE DATA FILE  —  this is the only file you need to edit to update scores.
 // ════════════════════════════════════════════════════════════════════════════
 //
-//  The 8 squads below are the real drafts. Match logs start EMPTY because the
-//  tournament hasn't kicked off — everyone sits at 0 until you add results.
+//  The 8 squads below are the real drafts. You mostly just list NAMES here —
+//  scores update hands-free from ESPN's free feed.
 //
-//  HOW TO EDIT
-//  ───────────
-//  • Add a player match — put it in that player's `matches: [ ... ]` array:
-//      pm("vs Brazil", { goals: 1, shotsOnGoal: 3, motm: true })
-//      Only list what happened — anything you omit counts as 0 / none.
-//      Stat keys: goals, assists, shotsOnGoal, saves, pkSaves (in-play, +5),
-//                 shootoutSaves (penalty shootout, +3),
-//                 goalsConceded, result ("W" | "D" | "L"), motm (true).
-//      ▸ For the GK and every defender (CB / DEF / WB), set `goalsConceded`
-//        so clean-sheet (+3) and one-goal-allowed (+1) bonuses are awarded.
-//      ▸ `result: "W"` gives the GK the +3 win bonus.
+//  HOW IT UPDATES (automatic)
+//  ──────────────────────────
+//  data/{fixtures,groups,player-stats}.json are refreshed from ESPN by
+//  .github/workflows/auto-import.yml, then merged in at read time:
+//    • Team points  → from real results, so a team just needs its country name.
+//    • Player points → goals, assists, shots on goal, saves, goals conceded and
+//                      result auto-import per drafted player (matched by name).
+//  So leave `matches: []` for almost everyone — it fills itself in.
 //
-//  • Add a team match — put it in that team's `matches: [ ... ]` array:
-//      tm("vs Brazil", 2, 0)            // goals for, goals against (result inferred)
-//      tm("vs Spain", 1, 1, "W")        // drawn 1–1 but won on penalties
+//  WHEN YOU STILL EDIT BY HAND (a thin overlay, merged onto the auto stats)
+//  ───────────────────────────
+//  ESPN can't give MOTM or penalty saves — add those as a pm() keyed by opponent:
+//      pm("Brazil", { motm: true })        // Man of the match (+2)
+//      pm("Brazil", { pkSaves: 1 })        // in-play penalty save (+5)
+//      pm("Brazil", { shootoutSaves: 2 })  // shootout save (+3)
+//    The overlay merges onto the auto-imported Brazil match (matched by opponent
+//    name); goals/assists/SoG/saves still come from ESPN. You can override an
+//    auto stat the same way if ESPN is ever wrong.
 //
-//  • Add the drafted teams — each manager's `teams: [ ... ]` is currently empty.
-//      Fill it with up to 6:   t("Argentina", [ /* matches */ ])
+//  • Drafted teams — each manager's `teams: [ ... ]`: just list up to 6 names:
+//      t("Argentina")                        // results auto-fill from fixtures
+//      t("Argentina", [ tm("Spain",1,1,"W") ])  // or hand-enter to override
 //
 //  Squad shape: 1 GK · 2 CB · 1 DEF · 1 WB · 3 MID · 3 FWD.
 // ════════════════════════════════════════════════════════════════════════════

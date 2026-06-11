@@ -33,6 +33,16 @@ function fmtDay(date: string): string {
   });
 }
 
+// The viewer's LOCAL calendar date (YYYY-MM-DD) for a kickoff. A 02:00 UTC match
+// is the previous evening in the Americas, so the schedule must group by this —
+// grouping by the UTC date shows late-UTC games a day late.
+function localDateStr(utc: string): string {
+  const d = new Date(utc);
+  return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}-${String(
+    d.getDate(),
+  ).padStart(2, "0")}`;
+}
+
 const isLive = (s?: string) => s === "IN_PLAY" || s === "PAUSED";
 const isDone = (s?: string) => s === "FINISHED";
 
@@ -185,12 +195,18 @@ export function FixtureBoard({ fixtures }: { fixtures: EnrichedFixture[] }) {
     }
   }, [fixtures, nextN]);
 
-  // Group consecutive fixtures by date (already sorted chronologically).
+  // Group consecutive fixtures by day (already sorted chronologically). Use the
+  // viewer's LOCAL date once mounted; fall back to the UTC date for SSR so the
+  // first client render matches and hydration stays clean.
+  const mounted = today !== null;
+  const dayKey = (f: EnrichedFixture) =>
+    mounted && f.utcDate ? localDateStr(f.utcDate) : f.date;
   const groups: { date: string; items: EnrichedFixture[] }[] = [];
   for (const f of fixtures) {
+    const key = dayKey(f);
     const last = groups[groups.length - 1];
-    if (last && last.date === f.date) last.items.push(f);
-    else groups.push({ date: f.date, items: [f] });
+    if (last && last.date === key) last.items.push(f);
+    else groups.push({ date: key, items: [f] });
   }
 
   return (

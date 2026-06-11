@@ -1,9 +1,12 @@
 name: Auto-import results
 
-# Periodically pulls fresh fixtures + group tables from football-data.org and,
-# if anything changed (scores, statuses, standings), commits and pushes — which
-# triggers a Vercel redeploy. That keeps live scores, finished results, team
-# points and group tables up to date hands-free.
+# Periodically pulls fresh fixtures, group tables + drafted-player stats from
+# ESPN's free feed and, if anything changed (scores, statuses, standings, player
+# stats), commits and pushes — which triggers a Vercel redeploy. That keeps live
+# scores, finished results, team points, player points and group tables up to
+# date hands-free.
+#
+# No API key needed — ESPN's public endpoints are key-free.
 #
 # COST / "is it free?":
 #   • PUBLIC repo  → GitHub Actions minutes are UNLIMITED and free. Recommended
@@ -12,8 +15,6 @@ name: Auto-import results
 #     cadence across June+July would exceed the free allowance. On private,
 #     either widen the interval below (e.g. "*/30" or "0 * * * *") or make the
 #     repo public.
-#
-# Requires the FOOTBALL_DATA_API_KEY repo secret (same place as DISCORD_WEBHOOK_URL).
 
 on:
   schedule:
@@ -39,19 +40,16 @@ jobs:
           node-version: 24
           cache: npm
       - run: npm ci
-      - name: Import fixtures + group tables
-        env:
-          FOOTBALL_DATA_API_KEY: ${{ secrets.FOOTBALL_DATA_API_KEY }}
-        run: |
-          npm run import:fixtures
-          npm run import:groups
+      - name: Import fixtures, standings, player stats + tournament leaders from ESPN
+        run: npm run import:all
       - name: Commit & push if anything changed
         run: |
-          if [ -n "$(git status --porcelain data/fixtures.json data/groups.json)" ]; then
+          FILES="data/fixtures.json data/groups.json data/player-stats.json data/tournament-leaders.json"
+          if [ -n "$(git status --porcelain $FILES)" ]; then
             git config user.name "github-actions[bot]"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            git add data/fixtures.json data/groups.json
-            git commit -m "Auto-import: refresh fixtures & group tables"
+            git add $FILES
+            git commit -m "Auto-import: refresh fixtures, standings, player & tournament stats"
             git push
             echo "Pushed updated results."
           else

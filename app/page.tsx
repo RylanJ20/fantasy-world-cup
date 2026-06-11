@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import { getStandings, getLeagueTotals, leagueMeta } from "@/lib/league";
+import { getStandings, getLeagueTotals, getLeagueLeaders, leagueMeta } from "@/lib/league";
 import { Podium } from "@/components/Podium";
 import { StandingsTable } from "@/components/StandingsTable";
 import { LeaderStrip } from "@/components/LeaderStrip";
@@ -142,14 +142,16 @@ export default function Home() {
       </section>
 
       {/* ── Leaders ────────────────────────────────────────────────────── */}
-      <section className="mt-12">
-        <SectionTitle
-          eyebrow="Standout picks"
-          title="League Leaders"
-          icon={<StarIcon size={24} />}
-        />
-        <LeaderStrip />
-      </section>
+      {getLeagueLeaders().length > 0 && (
+        <section className="mt-12">
+          <SectionTitle
+            eyebrow="Standout picks"
+            title="League Leaders"
+            icon={<StarIcon size={24} />}
+          />
+          <LeaderStrip />
+        </section>
+      )}
     </div>
   );
 }

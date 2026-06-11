@@ -1,67 +1,49 @@
 // ─────────────────────────────────────────────────────────────────────────────
-//  Fetches the real World Cup group standings from football-data.org and writes
-//  them to data/groups.json — the source for the /groups page.
+//  Builds data/groups.json (the 12 group tables) from ESPN's free standings feed
+//  (no API key needed). Output shape is unchanged, so lib/groups.ts works as-is.
 //
-//  Run:  FOOTBALL_DATA_API_KEY="your_key" npm run import:groups
-//  (or put FOOTBALL_DATA_API_KEY=your_key in .env.local — it's gitignored)
-//
-//  Re-run to refresh as group games are played.
+//  Run:  npm run import:groups        (then commit data/groups.json)
 // ─────────────────────────────────────────────────────────────────────────────
 
+/* eslint-disable @typescript-eslint/no-explicit-any -- ESPN API payloads are dynamic JSON */
 import { writeFileSync } from "node:fs";
-import { displayName } from "@/lib/flags";
+import { fetchStandings, teamName } from "./espn";
 
-try {
-  (process as NodeJS.Process & { loadEnvFile?: (p: string) => void }).loadEnvFile?.(
-    ".env.local",
-  );
-} catch {
-  /* no .env.local — fine */
-}
-
-const KEY = process.env.FOOTBALL_DATA_API_KEY;
-const BASE = "https://api.football-data.org/v4";
+const stat = (entry: any, name: string): number => {
+  const s = (entry.stats ?? []).find((x: any) => x.name === name);
+  const v = s?.value ?? Number.parseInt(s?.displayValue ?? "", 10);
+  return Number.isFinite(v) ? v : 0;
+};
 
 async function main() {
-  if (!KEY) {
-    console.error("❌ FOOTBALL_DATA_API_KEY not set.");
-    console.error('   Run:  FOOTBALL_DATA_API_KEY="your_key" npm run import:groups');
-    process.exit(1);
-  }
+  console.log("📡 Fetching World Cup group standings from ESPN…");
+  const standings = await fetchStandings();
 
-  console.log("📡 Fetching World Cup group standings…");
-  const res = await fetch(`${BASE}/competitions/WC/standings`, {
-    headers: { "X-Auth-Token": KEY },
-  });
-  if (!res.ok) {
-    console.error(`❌ ${res.status} ${res.statusText} — ${await res.text()}`);
-    process.exit(1);
-  }
-  const data = await res.json();
-  const standings: any[] = data.standings ?? [];
-
-  const groups = standings
-    .filter((s) => s.type === "TOTAL" && s.group)
-    .map((s) => ({
-      group: String(s.group).replace("GROUP_", "Group "),
-      table: (s.table ?? []).map((r: any) => ({
-        position: r.position,
-        team: displayName(r.team?.name ?? "TBD"),
-        played: r.playedGames ?? 0,
-        won: r.won ?? 0,
-        draw: r.draw ?? 0,
-        lost: r.lost ?? 0,
-        gf: r.goalsFor ?? 0,
-        ga: r.goalsAgainst ?? 0,
-        gd: r.goalDifference ?? 0,
-        points: r.points ?? 0,
-      })),
-    }))
-    .sort((a, b) => a.group.localeCompare(b.group));
+  const groups = (standings.children ?? [])
+    .map((g: any) => {
+      const entries = [...(g.standings?.entries ?? [])].sort(
+        (a, b) => stat(a, "rank") - stat(b, "rank"),
+      );
+      return {
+        group: g.name ?? g.displayName,
+        table: entries.map((e: any, i: number) => ({
+          position: stat(e, "rank") || i + 1,
+          team: teamName(e.team?.displayName ?? e.team?.name ?? "TBD"),
+          played: stat(e, "gamesPlayed"),
+          won: stat(e, "wins"),
+          draw: stat(e, "ties"),
+          lost: stat(e, "losses"),
+          gf: stat(e, "pointsFor"),
+          ga: stat(e, "pointsAgainst"),
+          gd: stat(e, "pointDifferential"),
+          points: stat(e, "points"),
+        })),
+      };
+    })
+    .sort((a: { group: string }, b: { group: string }) => a.group.localeCompare(b.group));
 
   writeFileSync("data/groups.json", JSON.stringify(groups, null, 2) + "\n");
   console.log(`✅ Wrote ${groups.length} group tables to data/groups.json`);
-  console.log("\nNext: git add data/groups.json && git commit -m 'Update groups' && git push");
 }
 
 main().catch((err) => {

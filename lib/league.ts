@@ -4,10 +4,11 @@
 // ──────────────────────────────────────────────────────────────────────────
 
 import { league } from "@/data/league";
-import type { Manager } from "./types";
+import type { Manager, Player } from "./types";
 import { fixtures, resultsForCountry } from "./fixtures";
+import { mergedPlayerMatches } from "./playerStats";
+import { tournamentLeader, tournamentLeaders } from "./tournamentLeaders";
 import {
-  isDefender,
   scoreManager,
   type ManagerScore,
   type PlayerScore,
@@ -25,6 +26,19 @@ function withAutoResults(m: Manager): Manager {
     teams: m.teams.map((t) =>
       t.matches.length > 0 ? t : { ...t, matches: resultsForCountry(t.country) },
     ),
+  };
+}
+
+/**
+ * Fill each drafted player's matches from ESPN's imported stats, with their
+ * league.ts entries layered on top as a manual overlay (MOTM / penalty saves).
+ */
+function withAutoPlayerStats(m: Manager): Manager {
+  const fill = (p: Player): Player => ({ ...p, matches: mergedPlayerMatches(p) });
+  return {
+    ...m,
+    players: m.players.map(fill),
+    ...(m.bench ? { bench: m.bench.map(fill) } : {}),
   };
 }
 
@@ -46,7 +60,7 @@ export const leagueMeta = {
 /** All managers, scored and sorted by total points (highest first). */
 export function getManagerScores(): ManagerScore[] {
   return league.managers
-    .map((m) => scoreManager(withAutoResults(m)))
+    .map((m) => scoreManager(withAutoPlayerStats(withAutoResults(m))))
     .sort((a, b) => b.total - a.total || a.manager.name.localeCompare(b.manager.name));
 }
 
@@ -78,117 +92,167 @@ export function getAllManagerSlugs(): string[] {
   return league.managers.map((m) => m.id);
 }
 
-export interface LeaderEntry<T> {
-  managerId: string;
-  managerName: string;
+export interface StripCard {
+  key: "points" | "boot" | "glove" | "team";
+  label: string;
+  name: string;
+  meta: string;
   value: number;
-  subject: T;
+  unit: string;
+  href?: string;
 }
 
-/** League-wide superlatives for the homepage strip. */
-export function getLeagueLeaders() {
+/**
+ * Homepage strip: best drafted player (fantasy points) and best team pick, plus
+ * the REAL tournament Golden Boot / Golden Glove (top scorer / keeper across all
+ * nations, drafted or not). Fantasy cards only appear once points are on the board.
+ */
+export function getLeagueLeaders(): StripCard[] {
   const scores = getManagerScores();
-
-  let topScorer: LeaderEntry<PlayerScore> | null = null;
-  let topKeeper: LeaderEntry<PlayerScore> | null = null;
-  let topTeam: LeaderEntry<TeamScore> | null = null;
-  let mostGoals: LeaderEntry<PlayerScore> | null = null;
-
+  let topPlayer: { p: PlayerScore; mgr: Manager } | null = null;
+  let topTeam: { t: TeamScore; mgr: Manager } | null = null;
   for (const m of scores) {
-    for (const p of m.players) {
-      const entry = {
-        managerId: m.manager.id,
-        managerName: m.manager.name,
-        subject: p,
-      };
-      if (!topScorer || p.total > topScorer.value)
-        topScorer = { ...entry, value: p.total };
-      if (!mostGoals || p.totals.goals > mostGoals.value)
-        mostGoals = { ...entry, value: p.totals.goals };
-      if (p.player.position === "GK" && (!topKeeper || p.total > topKeeper.value))
-        topKeeper = { ...entry, value: p.total };
-    }
-    for (const t of m.teams) {
-      if (!topTeam || t.total > topTeam.value)
-        topTeam = {
-          managerId: m.manager.id,
-          managerName: m.manager.name,
-          subject: t,
-          value: t.total,
-        };
-    }
+    for (const p of m.players)
+      if (!topPlayer || p.total > topPlayer.p.total) topPlayer = { p, mgr: m.manager };
+    for (const t of m.teams)
+      if (!topTeam || t.total > topTeam.t.total) topTeam = { t, mgr: m.manager };
   }
 
-  return { topScorer, topKeeper, topTeam, mostGoals };
+  const cards: StripCard[] = [];
+  if (topPlayer && topPlayer.p.total > 0)
+    cards.push({
+      key: "points",
+      label: "Top points",
+      name: topPlayer.p.player.name,
+      meta: `${topPlayer.p.player.country} · ${topPlayer.mgr.name}`,
+      value: topPlayer.p.total,
+      unit: "pts",
+      href: `/manager/${topPlayer.mgr.id}`,
+    });
+
+  const pushTournament = (
+    key: "boot" | "glove",
+    label: string,
+    unit: string,
+    leader: ReturnType<typeof tournamentLeader>,
+  ) => {
+    if (!leader) return;
+    const owner = leader.managers[0];
+    cards.push({
+      key,
+      label,
+      name: leader.name,
+      meta: owner ? `${leader.country} · ${owner.name}` : leader.country,
+      value: leader.value,
+      unit,
+      href: owner ? `/manager/${owner.id}` : "/leaderboards",
+    });
+  };
+  pushTournament("boot", "Golden boot", "goals", tournamentLeader("goals"));
+  pushTournament("glove", "Golden glove", "saves", tournamentLeader("saves"));
+
+  if (topTeam && topTeam.t.total > 0)
+    cards.push({
+      key: "team",
+      label: "Best team pick",
+      name: topTeam.t.team.country,
+      meta: `${topTeam.t.record.w}W-${topTeam.t.record.d}D-${topTeam.t.record.l}L · ${topTeam.mgr.name}`,
+      value: topTeam.t.total,
+      unit: "pts",
+      href: `/manager/${topTeam.mgr.id}`,
+    });
+
+  return cards;
 }
 
 // ── Leaderboards ─────────────────────────────────────────────────────────────
 
-export interface LeaderboardRow {
-  player: PlayerScore;
-  managerId: string;
-  managerName: string;
+export interface LeaderRow {
+  name: string;
+  country: string;
+  position: string;
   value: number;
+  /** Present only for drafted players — links the row to their manager. */
+  managerId?: string;
+  managerName?: string;
 }
 
 export interface LeaderboardCategory {
   key: string;
   title: string;
   unit: string;
-  rows: LeaderboardRow[];
+  /** "fantasy" = drafted players by fantasy scoring; "tournament" = real WC stat. */
+  scope: "fantasy" | "tournament";
+  rows: LeaderRow[];
 }
 
-/** Cross-league player leaderboards by category (each ranked, top `limit`). */
-export function getLeaderboards(limit = 8): LeaderboardCategory[] {
-  const all = getManagerScores().flatMap((m) =>
-    m.players.map((player) => ({
-      player,
-      managerId: m.manager.id,
-      managerName: m.manager.name,
-    })),
+/**
+ * Category leaderboards. Stat boards (goals, assists, saves, clean sheets) are
+ * tournament-wide across ALL nations, with drafted players tagged by their
+ * manager; fantasy boards (points, MOTM) stay limited to drafted players.
+ */
+export function getLeaderboards(limit = 10): LeaderboardCategory[] {
+  const drafted = getManagerScores().flatMap((m) =>
+    m.players.map((p) => ({ p, mgr: m.manager })),
   );
 
-  const make = (
+  const fantasy = (
     key: string,
     title: string,
     unit: string,
-    valueFn: (ps: PlayerScore) => number,
-    filter: (ps: PlayerScore) => boolean = () => true,
+    valueFn: (p: PlayerScore) => number,
   ): LeaderboardCategory => ({
     key,
     title,
     unit,
-    rows: all
-      .filter((x) => filter(x.player))
-      .map((x) => ({ ...x, value: valueFn(x.player) }))
-      .sort(
-        (a, b) =>
-          b.value - a.value ||
-          b.player.total - a.player.total ||
-          a.player.player.name.localeCompare(b.player.player.name),
-      )
+    scope: "fantasy",
+    rows: drafted
+      .map((x) => ({
+        name: x.p.player.name,
+        country: x.p.player.country,
+        position: x.p.player.position,
+        value: valueFn(x.p),
+        managerId: x.mgr.id,
+        managerName: x.mgr.name,
+      }))
+      .filter((r) => r.value > 0) // empty board shows "No data yet" until points land
+      .sort((a, b) => b.value - a.value || a.name.localeCompare(b.name))
       .slice(0, limit),
   });
 
+  const tournament = (
+    key: string,
+    title: string,
+    unit: string,
+    tlKey: "goals" | "assists" | "saves" | "cleanSheets",
+  ): LeaderboardCategory => ({
+    key,
+    title,
+    unit,
+    scope: "tournament",
+    rows: tournamentLeaders(tlKey)
+      .slice(0, limit)
+      .map((r) => ({
+        name: r.name,
+        country: r.country,
+        position: r.position,
+        value: r.value,
+        // Only link when a single manager owns them — a shared pick shows both
+        // names but linking to just one would mismatch the displayed text.
+        managerId: r.managers.length === 1 ? r.managers[0].id : undefined,
+        managerName: r.managers.length
+          ? r.managers.map((m) => m.name).join(" / ")
+          : undefined,
+      })),
+  });
+
   return [
-    make("points", "Most Points", "pts", (p) => p.total),
-    make("goals", "Top Scorers", "goals", (p) => p.totals.goals),
-    make("assists", "Most Assists", "assists", (p) => p.totals.assists),
-    make("motm", "Man of the Match", "MOTM", (p) => p.totals.motm),
-    make(
-      "glove",
-      "Golden Glove",
-      "pts",
-      (p) => p.total,
-      (p) => p.player.position === "GK",
-    ),
-    make(
-      "defender",
-      "Best Defender",
-      "CS",
-      (p) => p.totals.cleanSheets,
-      (p) => isDefender(p.player.position) && p.player.position !== "GK",
-    ),
+    fantasy("points", "Most Points", "pts", (p) => p.total),
+    tournament("goals", "Top Scorers", "goals", "goals"),
+    tournament("assists", "Most Assists", "assists", "assists"),
+    fantasy("motm", "Man of the Match", "MOTM", (p) => p.totals.motm),
+    tournament("glove", "Golden Glove", "saves", "saves"),
+    tournament("defender", "Best Defender", "CS", "cleanSheets"),
   ];
 }
 

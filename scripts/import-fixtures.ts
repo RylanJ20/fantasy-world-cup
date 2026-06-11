@@ -1,97 +1,86 @@
 // ─────────────────────────────────────────────────────────────────────────────
-//  Fetches the World Cup fixture list from football-data.org (free tier) and
-//  writes it to data/fixtures.json — the source for the "Who's in action" page.
+//  Builds data/fixtures.json from ESPN's free World Cup feed (no API key needed).
+//  One ranged scoreboard request returns all 104 matches with live status, scores
+//  and round info; the standings feed supplies group letters for group-stage
+//  labels. Output shape is unchanged, so lib/fixtures.ts keeps working as-is.
 //
-//  Run:  FOOTBALL_DATA_API_KEY="your_key" npm run import:fixtures
-//  (or put FOOTBALL_DATA_API_KEY=your_key in a .env.local file — it's gitignored)
-//
-//  Re-run any time to refresh (e.g. once the group draw teams are in, or to pull
-//  in results). Then commit data/fixtures.json and push.
+//  Run:  npm run import:fixtures      (then commit data/fixtures.json)
 // ─────────────────────────────────────────────────────────────────────────────
 
+/* eslint-disable @typescript-eslint/no-explicit-any -- ESPN API payloads are dynamic JSON */
 import { writeFileSync } from "node:fs";
-import { countryCode, displayName } from "@/lib/flags";
+import { countryCode } from "@/lib/flags";
+import {
+  buildGroupMap,
+  fetchScoreboard,
+  fetchStandings,
+  mapStatus,
+  stageLabel,
+  teamName,
+} from "./espn";
 
-// Optionally load a local .env.local (Node 20.6+/24). Safe if it doesn't exist.
-try {
-  (process as NodeJS.Process & { loadEnvFile?: (p: string) => void }).loadEnvFile?.(
-    ".env.local",
-  );
-} catch {
-  /* no .env.local — that's fine */
-}
-
-const KEY = process.env.FOOTBALL_DATA_API_KEY;
-const BASE = "https://api.football-data.org/v4";
-
-function stageLabel(group: string | null, stage: string): string {
-  if (group) return group.replace("GROUP_", "Group ");
-  const map: Record<string, string> = {
-    GROUP_STAGE: "Group stage",
-    LAST_32: "Round of 32",
-    LAST_16: "Round of 16",
-    QUARTER_FINALS: "Quarter-final",
-    SEMI_FINALS: "Semi-final",
-    THIRD_PLACE: "Third place",
-    FINAL: "Final",
-  };
-  return map[stage] ?? stage.replaceAll("_", " ");
+function isoMinute(date: string): string {
+  // ESPN dates look like "2026-06-11T19:00Z"; normalise to "...T19:00:00Z".
+  return new Date(date).toISOString().replace(".000Z", "Z");
 }
 
 async function main() {
-  if (!KEY) {
-    console.error("❌ FOOTBALL_DATA_API_KEY not set.");
-    console.error('   Run:  FOOTBALL_DATA_API_KEY="your_key" npm run import:fixtures');
-    process.exit(1);
-  }
+  console.log("📡 Fetching World Cup fixtures from ESPN…");
+  const [board, standings] = await Promise.all([fetchScoreboard(), fetchStandings()]);
+  const groupMap = buildGroupMap(standings);
+  const events: any[] = board.events ?? [];
 
-  console.log("📡 Fetching World Cup fixtures…");
-  const res = await fetch(`${BASE}/competitions/WC/matches`, {
-    headers: { "X-Auth-Token": KEY },
+  const fixtures = events.map((ev) => {
+    const comp = ev.competitions?.[0] ?? {};
+    const comps: any[] = comp.competitors ?? [];
+    const home = comps.find((c) => c.homeAway === "home") ?? comps[0] ?? {};
+    const away = comps.find((c) => c.homeAway === "away") ?? comps[1] ?? {};
+    const status = mapStatus(ev);
+    const started = status !== "TIMED";
+    const score = (c: any) => (started ? Number.parseInt(c.score ?? "", 10) : null);
+    const hs = score(home);
+    const as = score(away);
+
+    let winner: string | null = null;
+    if (home.winner) winner = "HOME_TEAM";
+    else if (away.winner) winner = "AWAY_TEAM";
+    else if (status === "FINISHED" && hs != null && as != null)
+      winner = hs === as ? "DRAW" : hs > as ? "HOME_TEAM" : "AWAY_TEAM";
+
+    const utcDate = isoMinute(ev.date);
+    return {
+      n: Number.parseInt(ev.id, 10),
+      date: utcDate.slice(0, 10),
+      utcDate,
+      stage: stageLabel(ev, groupMap),
+      home: teamName(home.team?.displayName ?? "TBD"),
+      away: teamName(away.team?.displayName ?? "TBD"),
+      status,
+      homeScore: Number.isNaN(hs as number) ? null : hs,
+      awayScore: Number.isNaN(as as number) ? null : as,
+      winner,
+    };
   });
-  if (!res.ok) {
-    console.error(`❌ ${res.status} ${res.statusText} — ${await res.text()}`);
-    process.exit(1);
-  }
-  const data = await res.json();
-  const matches: any[] = data.matches ?? [];
 
-  const fixtures = matches.map((m) => ({
-    n: m.id as number,
-    date: (m.utcDate as string).slice(0, 10),
-    utcDate: m.utcDate as string,
-    stage: stageLabel(m.group ?? null, m.stage),
-    home: displayName(m.homeTeam?.name ?? "TBD"),
-    away: displayName(m.awayTeam?.name ?? "TBD"),
-    status: m.status as string,
-    homeScore: m.score?.fullTime?.home ?? null,
-    awayScore: m.score?.fullTime?.away ?? null,
-    winner: m.score?.winner ?? null,
-  }));
-
-  fixtures.sort((a, b) => a.utcDate.localeCompare(b.utcDate));
-
+  fixtures.sort((a, b) => a.utcDate.localeCompare(b.utcDate) || a.n - b.n);
   writeFileSync("data/fixtures.json", JSON.stringify(fixtures, null, 2) + "\n");
   console.log(`✅ Wrote ${fixtures.length} fixtures to data/fixtures.json`);
 
-  // Report any team names we can't map to a flag/country code, so they can be
-  // added to lib/flags.ts (otherwise they won't match rosters or show a flag).
+  // Flag real team names (group stage only — knockout slots are placeholders like
+  // "Group A 2nd Place") that don't map to a flag, so they can be added to flags.ts.
   const unknown = new Set<string>();
   for (const f of fixtures) {
+    if (!f.stage.startsWith("Group")) continue;
     for (const name of [f.home, f.away]) {
       if (name !== "TBD" && countryCode(name) === null) unknown.add(name);
     }
   }
   if (unknown.size) {
-    console.log(
-      `\n⚠️  ${unknown.size} team name(s) not recognised (add to lib/flags.ts):`,
-    );
+    console.log(`\n⚠️  ${unknown.size} unmapped team name(s) (add to lib/flags.ts):`);
     for (const n of [...unknown].sort()) console.log(`   - "${n}"`);
   } else {
-    console.log("👍 All team names map to a country/flag.");
+    console.log("👍 All group-stage team names map to a flag.");
   }
-
-  console.log("\nNext: git add data/fixtures.json && git commit -m 'Update fixtures' && git push");
 }
 
 main().catch((err) => {
