@@ -231,7 +231,7 @@ export function tournamentPointsRanking(): LeaderRow[] {
  * Category leaderboards, all tournament-wide across ALL 48 nations. Drafted
  * players are tagged with their manager so their row links back to the draft.
  */
-export function getLeaderboards(limit = 10): LeaderboardCategory[] {
+export function getLeaderboards(limit = 5): LeaderboardCategory[] {
   const drafted = getManagerScores().flatMap((m) =>
     m.players.map((p) => ({ p, mgr: m.manager })),
   );
