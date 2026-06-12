@@ -8,10 +8,12 @@ import type { Manager, Player } from "./types";
 import { fixtures, resultsForCountry } from "./fixtures";
 import { mergedPlayerMatches } from "./playerStats";
 import { tournamentLeader, tournamentLeaders } from "./tournamentLeaders";
+import { undraftedPlayerScores, tournamentPosition } from "./tournamentPlayers";
+import { motmLeaders } from "./motm";
+import { playerKey } from "./names";
 import {
   scoreManager,
   type ManagerScore,
-  type PlayerScore,
   type TeamScore,
 } from "./scoring";
 
@@ -109,25 +111,27 @@ export interface StripCard {
  */
 export function getLeagueLeaders(): StripCard[] {
   const scores = getManagerScores();
-  let topPlayer: { p: PlayerScore; mgr: Manager } | null = null;
   let topTeam: { t: TeamScore; mgr: Manager } | null = null;
   for (const m of scores) {
-    for (const p of m.players)
-      if (!topPlayer || p.total > topPlayer.p.total) topPlayer = { p, mgr: m.manager };
     for (const t of m.teams)
       if (!topTeam || t.total > topTeam.t.total) topTeam = { t, mgr: m.manager };
   }
 
   const cards: StripCard[] = [];
-  if (topPlayer && topPlayer.p.total > 0)
+  // Top points — the real leader across ALL nations (drafted or not), mirroring
+  // the Golden Boot / Glove cards below: links to a manager only when owned.
+  const topPoints = tournamentPointsRanking()[0];
+  if (topPoints && topPoints.value > 0)
     cards.push({
       key: "points",
       label: "Top points",
-      name: topPlayer.p.player.name,
-      meta: `${topPlayer.p.player.country} · ${topPlayer.mgr.name}`,
-      value: topPlayer.p.total,
+      name: topPoints.name,
+      meta: topPoints.managerName
+        ? `${topPoints.country} · ${topPoints.managerName}`
+        : topPoints.country,
+      value: topPoints.value,
       unit: "pts",
-      href: `/manager/${topPlayer.mgr.id}`,
+      href: topPoints.managerId ? `/manager/${topPoints.managerId}` : "/leaderboards",
     });
 
   const pushTournament = (
@@ -181,44 +185,100 @@ export interface LeaderboardCategory {
   key: string;
   title: string;
   unit: string;
-  /** "fantasy" = drafted players by fantasy scoring; "tournament" = real WC stat. */
+  /** Currently always "tournament" (all 48 nations, drafted players tagged).
+   *  "fantasy" (drafted-only) is retained for flexibility but no longer used
+   *  now that the points & MOTM boards count the whole field. */
   scope: "fantasy" | "tournament";
   rows: LeaderRow[];
 }
 
 /**
- * Category leaderboards. Stat boards (goals, assists, saves, clean sheets) are
- * tournament-wide across ALL nations, with drafted players tagged by their
- * manager; fantasy boards (points, MOTM) stay limited to drafted players.
+ * Every player at the World Cup ranked by fantasy points. Drafted players carry
+ * their EXACT total from their manager page (overlay + MOTM aware); undrafted
+ * players are scored from imported stats. Keyed dedupe stops a drafted player
+ * from being recounted as undrafted. Sorted high→low, no limit.
+ */
+export function tournamentPointsRanking(): LeaderRow[] {
+  const drafted = getManagerScores().flatMap((m) =>
+    m.players.map((p) => ({ p, mgr: m.manager })),
+  );
+  const draftedKeys = new Set(
+    drafted.map(({ p }) => playerKey(p.player.country, p.player.name)),
+  );
+  const rows: LeaderRow[] = drafted.map(({ p, mgr }) => ({
+    name: p.player.name,
+    country: p.player.country,
+    position: p.player.position,
+    value: p.total,
+    managerId: mgr.id,
+    managerName: mgr.name,
+  }));
+  for (const u of undraftedPlayerScores()) {
+    if (draftedKeys.has(playerKey(u.country, u.name))) continue;
+    rows.push({
+      name: u.name,
+      country: u.country,
+      position: u.position,
+      value: u.value,
+    });
+  }
+  return rows
+    .filter((r) => r.value > 0)
+    .sort((a, b) => b.value - a.value || a.name.localeCompare(b.name));
+}
+
+/**
+ * Category leaderboards, all tournament-wide across ALL 48 nations. Drafted
+ * players are tagged with their manager so their row links back to the draft.
  */
 export function getLeaderboards(limit = 10): LeaderboardCategory[] {
   const drafted = getManagerScores().flatMap((m) =>
     m.players.map((p) => ({ p, mgr: m.manager })),
   );
 
-  const fantasy = (
-    key: string,
-    title: string,
-    unit: string,
-    valueFn: (p: PlayerScore) => number,
-  ): LeaderboardCategory => ({
-    key,
-    title,
-    unit,
-    scope: "fantasy",
-    rows: drafted
-      .map((x) => ({
-        name: x.p.player.name,
-        country: x.p.player.country,
-        position: x.p.player.position,
-        value: valueFn(x.p),
-        managerId: x.mgr.id,
-        managerName: x.mgr.name,
-      }))
-      .filter((r) => r.value > 0) // empty board shows "No data yet" until points land
-      .sort((a, b) => b.value - a.value || a.name.localeCompare(b.name))
-      .slice(0, limit),
-  });
+  // Drafted player key → owning manager(s) + drafted position, so the MOTM board
+  // can tag and link winners back to the draft.
+  const draftedManagers = new Map<string, { id: string; name: string }[]>();
+  const draftedPosition = new Map<string, string>();
+  for (const { p, mgr } of drafted) {
+    const key = playerKey(p.player.country, p.player.name);
+    const list = draftedManagers.get(key) ?? [];
+    list.push({ id: mgr.id, name: mgr.name });
+    draftedManagers.set(key, list);
+    draftedPosition.set(key, p.player.position);
+  }
+
+  const points: LeaderboardCategory = {
+    key: "points",
+    title: "Most Points",
+    unit: "pts",
+    scope: "tournament",
+    rows: tournamentPointsRanking().slice(0, limit),
+  };
+
+  // ── Man of the match: tournament-wide, tallied from data/motm.ts. ──
+  const motm: LeaderboardCategory = {
+    key: "motm",
+    title: "Man of the Match",
+    unit: "MOTM",
+    scope: "tournament",
+    rows: motmLeaders()
+      .slice(0, limit)
+      .map((e) => {
+        const key = playerKey(e.country, e.name);
+        const mgrs = draftedManagers.get(key) ?? [];
+        return {
+          name: e.name,
+          country: e.country,
+          position: draftedPosition.get(key) ?? tournamentPosition(e.country, e.name),
+          value: e.count,
+          managerId: mgrs.length === 1 ? mgrs[0].id : undefined,
+          managerName: mgrs.length
+            ? mgrs.map((m) => m.name).join(" / ")
+            : undefined,
+        };
+      }),
+  };
 
   const tournament = (
     key: string,
@@ -247,10 +307,10 @@ export function getLeaderboards(limit = 10): LeaderboardCategory[] {
   });
 
   return [
-    fantasy("points", "Most Points", "pts", (p) => p.total),
+    points,
     tournament("goals", "Top Scorers", "goals", "goals"),
     tournament("assists", "Most Assists", "assists", "assists"),
-    fantasy("motm", "Man of the Match", "MOTM", (p) => p.totals.motm),
+    motm,
     tournament("glove", "Golden Glove", "saves", "saves"),
     tournament("defender", "Best Defender", "CS", "cleanSheets"),
   ];

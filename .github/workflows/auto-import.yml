@@ -44,7 +44,7 @@ jobs:
         run: npm run import:all
       - name: Commit & push if anything changed
         run: |
-          FILES="data/fixtures.json data/groups.json data/player-stats.json data/tournament-leaders.json"
+          FILES="data/fixtures.json data/groups.json data/player-stats.json data/tournament-leaders.json data/tournament-players.json"
           if [ -n "$(git status --porcelain $FILES)" ]; then
             git config user.name "github-actions[bot]"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"

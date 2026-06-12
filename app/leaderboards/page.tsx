@@ -121,8 +121,8 @@ export default function LeaderboardsPage() {
           Leaderboards
         </h1>
         <p className="mt-4 text-muted">
-          Real World Cup stat leaders across all 48 nations — drafted players are
-          tagged with their manager. Points and MOTM stay within the draft.
+          Real World Cup stat leaders across all 48 nations — every player is
+          ranked, with drafted players tagged by their manager.
         </p>
       </div>
 

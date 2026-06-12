@@ -1,0 +1,1066 @@
+[
+  {
+    "name": "Adam Hlozek",
+    "country": "Czechia",
+    "position": "",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "South Korea",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 1,
+        "saves": 0,
+        "goalsConceded": 2,
+        "result": "L"
+      }
+    ]
+  },
+  {
+    "name": "Alexandr Sojka",
+    "country": "Czechia",
+    "position": "MID",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "South Korea",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 2,
+        "result": "L"
+      }
+    ]
+  },
+  {
+    "name": "Jaroslav Zelený",
+    "country": "Czechia",
+    "position": "MID",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "South Korea",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 2,
+        "result": "L"
+      }
+    ]
+  },
+  {
+    "name": "Ladislav Krejcí",
+    "country": "Czechia",
+    "position": "DEF",
+    "managers": [
+      {
+        "id": "marc",
+        "name": "Marc"
+      }
+    ],
+    "matches": [
+      {
+        "opponent": "South Korea",
+        "goals": 1,
+        "assists": 0,
+        "shotsOnGoal": 1,
+        "saves": 0,
+        "goalsConceded": 2,
+        "result": "L"
+      }
+    ]
+  },
+  {
+    "name": "Lukás Provod",
+    "country": "Czechia",
+    "position": "FWD",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "South Korea",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0,
+        "result": "L"
+      }
+    ]
+  },
+  {
+    "name": "Matej Kovár",
+    "country": "Czechia",
+    "position": "GK",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "South Korea",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 4,
+        "goalsConceded": 2,
+        "result": "L"
+      }
+    ]
+  },
+  {
+    "name": "Michal Sadílek",
+    "country": "Czechia",
+    "position": "",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "South Korea",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 2,
+        "saves": 0,
+        "goalsConceded": 2,
+        "result": "L"
+      }
+    ]
+  },
+  {
+    "name": "Mojmír Chytil",
+    "country": "Czechia",
+    "position": "",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "South Korea",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0,
+        "result": "L"
+      }
+    ]
+  },
+  {
+    "name": "Patrik Schick",
+    "country": "Czechia",
+    "position": "FWD",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "South Korea",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0,
+        "result": "L"
+      }
+    ]
+  },
+  {
+    "name": "Pavel Sulc",
+    "country": "Czechia",
+    "position": "FWD",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "South Korea",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0,
+        "result": "L"
+      }
+    ]
+  },
+  {
+    "name": "Robin Hranác",
+    "country": "Czechia",
+    "position": "DEF",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "South Korea",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 2,
+        "result": "L"
+      }
+    ]
+  },
+  {
+    "name": "Stepán Chaloupek",
+    "country": "Czechia",
+    "position": "DEF",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "South Korea",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 2,
+        "result": "L"
+      }
+    ]
+  },
+  {
+    "name": "Tomás Chorý",
+    "country": "Czechia",
+    "position": "",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "South Korea",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 2,
+        "result": "L"
+      }
+    ]
+  },
+  {
+    "name": "Tomás Soucek",
+    "country": "Czechia",
+    "position": "MID",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "South Korea",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 2,
+        "result": "L"
+      }
+    ]
+  },
+  {
+    "name": "Vladimír Coufal",
+    "country": "Czechia",
+    "position": "MID",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "South Korea",
+        "goals": 0,
+        "assists": 1,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 2,
+        "result": "L"
+      }
+    ]
+  },
+  {
+    "name": "Alexis Vega",
+    "country": "Mexico",
+    "position": "",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "South Africa",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0,
+        "result": "W"
+      }
+    ]
+  },
+  {
+    "name": "Álvaro Fidalgo",
+    "country": "Mexico",
+    "position": "MID",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "South Africa",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0,
+        "result": "W"
+      }
+    ]
+  },
+  {
+    "name": "Armando González",
+    "country": "Mexico",
+    "position": "",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "South Africa",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0,
+        "result": "W"
+      }
+    ]
+  },
+  {
+    "name": "Brian Gutiérrez",
+    "country": "Mexico",
+    "position": "MID",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "South Africa",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0,
+        "result": "W"
+      }
+    ]
+  },
+  {
+    "name": "César Montes",
+    "country": "Mexico",
+    "position": "DEF",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "South Africa",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0,
+        "result": "W"
+      }
+    ]
+  },
+  {
+    "name": "Edson Álvarez",
+    "country": "Mexico",
+    "position": "",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "South Africa",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0,
+        "result": "W"
+      }
+    ]
+  },
+  {
+    "name": "Érik Lira",
+    "country": "Mexico",
+    "position": "MID",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "South Africa",
+        "goals": 0,
+        "assists": 1,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0,
+        "result": "W"
+      }
+    ]
+  },
+  {
+    "name": "Gilberto Mora",
+    "country": "Mexico",
+    "position": "",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "South Africa",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0,
+        "result": "W"
+      }
+    ]
+  },
+  {
+    "name": "Israel Reyes",
+    "country": "Mexico",
+    "position": "DEF",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "South Africa",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0,
+        "result": "W"
+      }
+    ]
+  },
+  {
+    "name": "Jesús Gallardo",
+    "country": "Mexico",
+    "position": "DEF",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "South Africa",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0,
+        "result": "W"
+      }
+    ]
+  },
+  {
+    "name": "Johan Vásquez",
+    "country": "Mexico",
+    "position": "DEF",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "South Africa",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0,
+        "result": "W"
+      }
+    ]
+  },
+  {
+    "name": "Julián Quiñones",
+    "country": "Mexico",
+    "position": "MID",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "South Africa",
+        "goals": 1,
+        "assists": 0,
+        "shotsOnGoal": 2,
+        "saves": 0,
+        "goalsConceded": 0,
+        "result": "W"
+      }
+    ]
+  },
+  {
+    "name": "Luis Chávez",
+    "country": "Mexico",
+    "position": "",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "South Africa",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0,
+        "result": "W"
+      }
+    ]
+  },
+  {
+    "name": "Raúl Jiménez",
+    "country": "Mexico",
+    "position": "FWD",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "South Africa",
+        "goals": 1,
+        "assists": 0,
+        "shotsOnGoal": 2,
+        "saves": 0,
+        "goalsConceded": 0,
+        "result": "W"
+      }
+    ]
+  },
+  {
+    "name": "Raúl Rangel",
+    "country": "Mexico",
+    "position": "GK",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "South Africa",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 2,
+        "goalsConceded": 0,
+        "result": "W"
+      }
+    ]
+  },
+  {
+    "name": "Roberto Alvarado",
+    "country": "Mexico",
+    "position": "MID",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "South Africa",
+        "goals": 0,
+        "assists": 1,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0,
+        "result": "W"
+      }
+    ]
+  },
+  {
+    "name": "Aubrey Modiba",
+    "country": "South Africa",
+    "position": "DEF",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Mexico",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 1,
+        "saves": 0,
+        "goalsConceded": 2,
+        "result": "L"
+      }
+    ]
+  },
+  {
+    "name": "Evidence Makgopa",
+    "country": "South Africa",
+    "position": "",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Mexico",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0,
+        "result": "L"
+      }
+    ]
+  },
+  {
+    "name": "Ime Okon",
+    "country": "South Africa",
+    "position": "DEF",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Mexico",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 2,
+        "result": "L"
+      }
+    ]
+  },
+  {
+    "name": "Iqraam Rayners",
+    "country": "South Africa",
+    "position": "FWD",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Mexico",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 2,
+        "result": "L"
+      }
+    ]
+  },
+  {
+    "name": "Jayden Adams",
+    "country": "South Africa",
+    "position": "MID",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Mexico",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 1,
+        "result": "L"
+      }
+    ]
+  },
+  {
+    "name": "Khuliso Mudau",
+    "country": "South Africa",
+    "position": "DEF",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Mexico",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 2,
+        "result": "L"
+      }
+    ]
+  },
+  {
+    "name": "Lyle Foster",
+    "country": "South Africa",
+    "position": "FWD",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Mexico",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 1,
+        "result": "L"
+      }
+    ]
+  },
+  {
+    "name": "Mbekezeli Mbokazi",
+    "country": "South Africa",
+    "position": "DEF",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Mexico",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 1,
+        "saves": 0,
+        "goalsConceded": 2,
+        "result": "L"
+      }
+    ]
+  },
+  {
+    "name": "Nkosinathi Sibisi",
+    "country": "South Africa",
+    "position": "DEF",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Mexico",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 2,
+        "result": "L"
+      }
+    ]
+  },
+  {
+    "name": "Oswin Appollis",
+    "country": "South Africa",
+    "position": "",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Mexico",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0,
+        "result": "L"
+      }
+    ]
+  },
+  {
+    "name": "Ronwen Williams",
+    "country": "South Africa",
+    "position": "GK",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Mexico",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 2,
+        "goalsConceded": 2,
+        "result": "L"
+      }
+    ]
+  },
+  {
+    "name": "Sphephelo Sithole",
+    "country": "South Africa",
+    "position": "MID",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Mexico",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 1,
+        "result": "L"
+      }
+    ]
+  },
+  {
+    "name": "Teboho Mokoena",
+    "country": "South Africa",
+    "position": "MID",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Mexico",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 2,
+        "result": "L"
+      }
+    ]
+  },
+  {
+    "name": "Thalente Mbatha",
+    "country": "South Africa",
+    "position": "",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Mexico",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 1,
+        "result": "L"
+      }
+    ]
+  },
+  {
+    "name": "Themba Zwane",
+    "country": "South Africa",
+    "position": "",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Mexico",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 1,
+        "result": "L"
+      }
+    ]
+  },
+  {
+    "name": "Eom Ji-Sung",
+    "country": "South Korea",
+    "position": "",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Czechia",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0,
+        "result": "W"
+      }
+    ]
+  },
+  {
+    "name": "Hwang Hee-Chan",
+    "country": "South Korea",
+    "position": "",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Czechia",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0,
+        "result": "W"
+      }
+    ]
+  },
+  {
+    "name": "Hwang In-Beom",
+    "country": "South Korea",
+    "position": "MID",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Czechia",
+        "goals": 1,
+        "assists": 1,
+        "shotsOnGoal": 2,
+        "saves": 0,
+        "goalsConceded": 1,
+        "result": "W"
+      }
+    ]
+  },
+  {
+    "name": "Kim Jin-Gyu",
+    "country": "South Korea",
+    "position": "",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Czechia",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0,
+        "result": "W"
+      }
+    ]
+  },
+  {
+    "name": "Kim Min-Jae",
+    "country": "South Korea",
+    "position": "DEF",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Czechia",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 1,
+        "result": "W"
+      }
+    ]
+  },
+  {
+    "name": "Kim Seung-Gyu",
+    "country": "South Korea",
+    "position": "GK",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Czechia",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 3,
+        "goalsConceded": 1,
+        "result": "W"
+      }
+    ]
+  },
+  {
+    "name": "Lee Gi-Hyuk",
+    "country": "South Korea",
+    "position": "DEF",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Czechia",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 1,
+        "result": "W"
+      }
+    ]
+  },
+  {
+    "name": "Lee Han-Beom",
+    "country": "South Korea",
+    "position": "DEF",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Czechia",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 1,
+        "result": "W"
+      }
+    ]
+  },
+  {
+    "name": "Lee Jae-Sung",
+    "country": "South Korea",
+    "position": "FWD",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Czechia",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 1,
+        "saves": 0,
+        "goalsConceded": 1,
+        "result": "W"
+      }
+    ]
+  },
+  {
+    "name": "Lee Kang-In",
+    "country": "South Korea",
+    "position": "FWD",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Czechia",
+        "goals": 0,
+        "assists": 1,
+        "shotsOnGoal": 1,
+        "saves": 0,
+        "goalsConceded": 1,
+        "result": "W"
+      }
+    ]
+  },
+  {
+    "name": "Lee Tae-Seok",
+    "country": "South Korea",
+    "position": "MID",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Czechia",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 1,
+        "result": "W"
+      }
+    ]
+  },
+  {
+    "name": "Oh Hyeon-Gyu",
+    "country": "South Korea",
+    "position": "",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Czechia",
+        "goals": 1,
+        "assists": 0,
+        "shotsOnGoal": 1,
+        "saves": 0,
+        "goalsConceded": 0,
+        "result": "W"
+      }
+    ]
+  },
+  {
+    "name": "Paik Seung-Ho",
+    "country": "South Korea",
+    "position": "MID",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Czechia",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 1,
+        "result": "W"
+      }
+    ]
+  },
+  {
+    "name": "Park Jin-Seop",
+    "country": "South Korea",
+    "position": "",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Czechia",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0,
+        "result": "W"
+      }
+    ]
+  },
+  {
+    "name": "Seol Young-Woo",
+    "country": "South Korea",
+    "position": "MID",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Czechia",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 1,
+        "result": "W"
+      }
+    ]
+  },
+  {
+    "name": "Son Heung-Min",
+    "country": "South Korea",
+    "position": "FWD",
+    "managers": [
+      {
+        "id": "terrick",
+        "name": "Terrick"
+      }
+    ],
+    "matches": [
+      {
+        "opponent": "Czechia",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 1,
+        "saves": 0,
+        "goalsConceded": 1,
+        "result": "W"
+      }
+    ]
+  }
+]

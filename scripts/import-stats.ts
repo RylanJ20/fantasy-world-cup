@@ -15,6 +15,7 @@
 /* eslint-disable @typescript-eslint/no-explicit-any -- ESPN API payloads are dynamic JSON */
 import { writeFileSync } from "node:fs";
 import { league } from "@/data/league";
+import { motm } from "@/data/motm";
 import { countryCode } from "@/lib/flags";
 import { isDefender } from "@/lib/scoring";
 import { normalizeName, playerKey } from "@/lib/names";
@@ -40,6 +41,8 @@ interface Agg {
   cleanSheets: number;
   apps: number;
   managers: { id: string; name: string }[];
+  /** Per-match stats for every appearance — feeds the tournament points board. */
+  matches: any[];
 }
 
 const statVal = (a: any, name: string): number => {
@@ -145,7 +148,7 @@ async function main() {
       // ── Tournament-wide aggregation (every player) ──
       for (const a of players) {
         const id = String(a.athlete?.id ?? a.athlete?.displayName);
-        const cur =
+        const cur: Agg =
           agg.get(id) ??
           {
             name: a.athlete?.displayName ?? "?",
@@ -157,6 +160,7 @@ async function main() {
             cleanSheets: 0,
             apps: 0,
             managers: [],
+            matches: [],
           };
         cur.goals += statVal(a, "totalGoals");
         cur.assists += statVal(a, "goalAssists");
@@ -165,6 +169,19 @@ async function main() {
         if (status === "FINISHED" && conceded === 0) cur.cleanSheets += 1;
         const grp = positionGroup(a.position);
         if (!cur.position && grp) cur.position = grp; // first known role wins
+        // Full per-match line so the app can fantasy-score this player exactly
+        // like a drafted one. saves/goalsConceded are kept for everyone — the
+        // scoring engine only reads them for keepers / defenders.
+        const tMatch: any = {
+          opponent,
+          goals: statVal(a, "totalGoals"),
+          assists: statVal(a, "goalAssists"),
+          shotsOnGoal: statVal(a, "shotsOnTarget"),
+          saves: statVal(a, "saves"),
+          goalsConceded: statVal(a, "goalsConceded"),
+        };
+        if (result) tMatch.result = result;
+        cur.matches.push(tMatch);
         agg.set(id, cur);
       }
 
@@ -231,8 +248,24 @@ async function main() {
     cleanSheets: top((a) => a.cleanSheets, (a) => a.position === "DEF"),
   };
 
+  // Every appeared player, with full per-match stats + manager tags — the app
+  // fantasy-scores these to rank the whole tournament on the points board.
+  const tournamentPlayers = all
+    .sort((x, y) => x.country.localeCompare(y.country) || x.name.localeCompare(y.name))
+    .map((a) => ({
+      name: a.name,
+      country: a.country,
+      position: a.position,
+      managers: a.managers,
+      matches: a.matches,
+    }));
+
   writeFileSync("data/player-stats.json", JSON.stringify(playerStats, null, 2) + "\n");
   writeFileSync("data/tournament-leaders.json", JSON.stringify(leaders, null, 2) + "\n");
+  writeFileSync(
+    "data/tournament-players.json",
+    JSON.stringify(tournamentPlayers, null, 2) + "\n",
+  );
 
   const draftedLines = Object.values(playerStats).reduce((s, p) => s + p.matches.length, 0);
   console.log(
@@ -241,6 +274,37 @@ async function main() {
   console.log(
     `✅ tournament-leaders: goals ${leaders.goals.length} · assists ${leaders.assists.length} · saves ${leaders.saves.length} · clean sheets ${leaders.cleanSheets.length}.`,
   );
+  console.log(`✅ tournament-players: ${tournamentPlayers.length} player(s) across all nations.`);
+
+  // Sanity-check the hand-logged MOTM awards (data/motm.ts) against what actually
+  // imported. A typo in a name or opponent silently drops the +2 and can park a
+  // phantom row on the MOTM board — so surface any mismatch loudly here.
+  const oppMatch = (a: string, b: string): boolean => {
+    const ca = countryCode(a);
+    const cb = countryCode(b);
+    return (ca != null && ca === cb) || normalizeName(a) === normalizeName(b);
+  };
+  const tpByKey = new Map(
+    tournamentPlayers.map((p) => [playerKey(p.country, p.name), p]),
+  );
+  const motmIssues: string[] = [];
+  for (const e of motm) {
+    const p = tpByKey.get(playerKey(e.country, e.player));
+    if (!p) {
+      motmIssues.push(`${e.player} (${e.country}) — no imported player by that name`);
+    } else if (!p.matches.some((m: any) => oppMatch(m.opponent, e.opponent))) {
+      motmIssues.push(
+        `${e.player} (${e.country}) vs ${e.opponent} — no imported match against that opponent`,
+      );
+    }
+  }
+  if (motmIssues.length) {
+    console.log(
+      `\n⚠️  ${motmIssues.length} MOTM entr${motmIssues.length === 1 ? "y" : "ies"} in data/motm.ts didn't match imported stats (the +2 won't apply — check spelling, or re-run once the match is in):`,
+    );
+    for (const i of motmIssues) console.log(`   - ${i}`);
+  }
+
   if (unmatched.length) {
     console.log(`\n⚠️  ${unmatched.length} drafted player(s) unmatched (DNP or name alias needed):`);
     for (const u of unmatched) console.log(`   - ${u}`);
