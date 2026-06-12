@@ -1,14 +1,11 @@
-// Posts a rich standings card to Discord via webhook.
-// Runs in CI (see .github/workflows/discord-standings.yml) on every change to
-// data/league.ts. Reuses the same scoring engine the site uses, so the numbers
-// always match. Requires DISCORD_WEBHOOK_URL (a GitHub Actions secret).
+// Posts the standings card to Discord via webhook — a manual / CI fallback for
+// the primary Vercel cron (app/api/cron/discord). Both build the same card via
+// lib/discord. Requires DISCORD_WEBHOOK_URL.
 //
 // Run locally:
 //   DISCORD_WEBHOOK_URL="https://discord.com/api/webhooks/..." npm run notify:discord
 
-import { getStandings, getLeagueLeaders, leagueMeta } from "@/lib/league";
-
-const SITE = "https://fantasy-world-cup-five.vercel.app";
+import { buildStandingsPayload } from "@/lib/discord";
 
 async function main() {
   const url = process.env.DISCORD_WEBHOOK_URL;
@@ -17,58 +14,13 @@ async function main() {
     return;
   }
 
-  const standings = getStandings();
-  const leaders = getLeagueLeaders();
-  const medal = (rank: number) =>
-    rank === 1 ? "🥇" : rank === 2 ? "🥈" : rank === 3 ? "🥉" : `\`#${rank}\``;
-
-  const description = standings
-    .map((s) => `${medal(s.rank)} **${s.manager.name}** — ${s.total} pts`)
-    .join("\n");
-
-  // Cache-bust the share image per deploy so Discord fetches a fresh render.
-  const v = process.env.GITHUB_SHA?.slice(0, 8) ?? `${standings[0]?.total ?? 0}`;
-
-  // getLeagueLeaders() returns ready-to-render strip cards; "points" only appears
-  // once fantasy points exist, "boot" is the real tournament golden boot.
-  const card = (key: string) => leaders.find((c) => c.key === key);
-  const fields: { name: string; value: string; inline?: boolean }[] = [];
-  const topPts = card("points");
-  const boot = card("boot");
-  if (topPts) {
-    fields.push({
-      name: "🔥 Top points",
-      value: `${topPts.name} — ${topPts.value} (${topPts.meta})`,
-      inline: true,
-    });
-  }
-  if (boot) {
-    fields.push({
-      name: "⚽ Golden boot",
-      value: `${boot.name} — ${boot.value} goals`,
-      inline: true,
-    });
-  }
-
-  const body = {
-    username: "GORT",
-    embeds: [
-      {
-        title: `📊 ${leagueMeta.name} — Standings`,
-        url: SITE,
-        description,
-        color: 0x2ee36f, // pitch green
-        fields,
-        image: { url: `${SITE}/api/og/standings?v=${v}` },
-        footer: { text: "Tap the title for the live table · updated after results" },
-      },
-    ],
-  };
+  // Cache-bust the share image (per-deploy in CI, per-day locally).
+  const v = process.env.GITHUB_SHA?.slice(0, 8) ?? new Date().toISOString().slice(0, 10);
 
   const res = await fetch(url, {
     method: "POST",
     headers: { "Content-Type": "application/json" },
-    body: JSON.stringify(body),
+    body: JSON.stringify(buildStandingsPayload(v)),
   });
 
   if (!res.ok) {

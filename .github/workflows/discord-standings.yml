@@ -1,15 +1,11 @@
 name: Discord standings
 
-# Posts a daily standings card to Discord. Runs once a day on a schedule (not on
-# every deploy), so the channel gets one clean morning update.
+# Manual fallback for the daily standings post. The scheduled morning post now
+# runs on Vercel Cron (vercel.json → /api/cron/discord), which fires reliably
+# within the 8 AM hour without GitHub's scheduling delays. This workflow stays
+# for on-demand posts from the Actions tab.
 on:
-  # 12:00 UTC = 8:00 AM Eastern during the World Cup (EDT). NOTE: GitHub cron is
-  # always UTC and does NOT follow daylight saving. Starts June 12 (the morning
-  # after the opener) and runs daily through the end of the tournament.
-  schedule:
-    - cron: "0 12 12-30 6 *" # June 12–30
-    - cron: "0 12 * 7 *" # all of July
-  workflow_dispatch: # also runnable on demand from the Actions tab
+  workflow_dispatch:
 
 jobs:
   notify:
