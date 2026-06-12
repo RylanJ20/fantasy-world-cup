@@ -1,9 +1,23 @@
 {
   "goals": [
     {
+      "name": "Cyle Larin",
+      "country": "Canada",
+      "position": "FWD",
+      "value": 1,
+      "managers": []
+    },
+    {
       "name": "Hwang In-Beom",
       "country": "South Korea",
       "position": "MID",
+      "value": 1,
+      "managers": []
+    },
+    {
+      "name": "Jovo Lukic",
+      "country": "Bosnia-Herzegovina",
+      "position": "FWD",
       "value": 1,
       "managers": []
     },
@@ -64,9 +78,23 @@
       "managers": []
     },
     {
+      "name": "Promise David",
+      "country": "Canada",
+      "position": "FWD",
+      "value": 1,
+      "managers": []
+    },
+    {
       "name": "Roberto Alvarado",
       "country": "Mexico",
       "position": "MID",
+      "value": 1,
+      "managers": []
+    },
+    {
+      "name": "Sead Kolasinac",
+      "country": "Bosnia-Herzegovina",
+      "position": "DEF",
       "value": 1,
       "managers": []
     },
@@ -94,6 +122,13 @@
       "managers": []
     },
     {
+      "name": "Maxime Crépeau",
+      "country": "Canada",
+      "position": "GK",
+      "value": 2,
+      "managers": []
+    },
+    {
       "name": "Raúl Rangel",
       "country": "Mexico",
       "position": "GK",
@@ -105,6 +140,13 @@
       "country": "South Africa",
       "position": "GK",
       "value": 2,
+      "managers": []
+    },
+    {
+      "name": "Nikola Vasilj",
+      "country": "Bosnia-Herzegovina",
+      "position": "GK",
+      "value": 1,
       "managers": []
     }
   ],
