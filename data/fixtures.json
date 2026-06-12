@@ -18,10 +18,10 @@
     "stage": "Group A",
     "home": "South Korea",
     "away": "Czechia",
-    "status": "TIMED",
-    "homeScore": null,
-    "awayScore": null,
-    "winner": null
+    "status": "FINISHED",
+    "homeScore": 2,
+    "awayScore": 1,
+    "winner": "HOME_TEAM"
   },
   {
     "n": 760416,

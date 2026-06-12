@@ -1,1 +1,33 @@
-{}
+{
+  "kr|son heung min": {
+    "country": "South Korea",
+    "name": "Son Heung-min",
+    "matches": [
+      {
+        "fixtureId": 760414,
+        "opponent": "Czechia",
+        "date": "2026-06-12T02:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 1,
+        "result": "W"
+      }
+    ]
+  },
+  "cz|ladislav krejci": {
+    "country": "Czechia",
+    "name": "Ladislav Krejčí",
+    "matches": [
+      {
+        "fixtureId": 760414,
+        "opponent": "South Korea",
+        "date": "2026-06-12T02:00Z",
+        "goals": 1,
+        "assists": 0,
+        "shotsOnGoal": 1,
+        "goalsConceded": 2,
+        "result": "L"
+      }
+    ]
+  }
+}
