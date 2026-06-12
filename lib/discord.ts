@@ -42,6 +42,9 @@ export function buildStandingsPayload(cacheBust: string) {
 
   return {
     username: "GORT",
+    // Ping the channel on every post; allowed_mentions makes the @everyone fire.
+    content: "@everyone",
+    allowed_mentions: { parse: ["everyone"] },
     embeds: [
       {
         title: `📊 ${leagueMeta.name} — Standings`,
