@@ -11,6 +11,10 @@ import { countryCode, displayName } from "@/lib/flags";
 
 const SITE = "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world";
 const CORE = "https://site.api.espn.com/apis/v2/sports/soccer/fifa.world";
+// The "core" data API (different host) carries richer per-entity data — used to
+// recover a player's listed position when a match only tags them "Substitute".
+const CORE_DATA =
+  "https://sports.core.api.espn.com/v2/sports/soccer/leagues/fifa.world";
 
 // Generous window around the tournament (Jun 11 – Jul 19, 2026); the ranged
 // scoreboard returns every match in one request.
@@ -31,6 +35,9 @@ export const fetchScoreboard = () =>
 export const fetchStandings = () => getJson(`${CORE}/standings`);
 export const fetchSummary = (eventId: string) =>
   getJson(`${SITE}/summary?event=${eventId}`);
+/** Athlete profile — carries `position` even for players who only came on as subs. */
+export const fetchAthlete = (athleteId: string) =>
+  getJson(`${CORE_DATA}/athletes/${athleteId}`);
 
 /** ESPN status `state` ("pre" | "in" | "post") → our fixtures.json status. */
 export function mapStatus(ev: any): string {

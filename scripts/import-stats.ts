@@ -20,7 +20,7 @@ import { countryCode } from "@/lib/flags";
 import { isDefender } from "@/lib/scoring";
 import { normalizeName, playerKey } from "@/lib/names";
 import type { Position } from "@/lib/types";
-import { fetchScoreboard, fetchSummary, mapStatus, teamName } from "./espn";
+import { fetchAthlete, fetchScoreboard, fetchSummary, mapStatus, teamName } from "./espn";
 
 const TOP_N = 12;
 
@@ -222,6 +222,27 @@ async function main() {
       if (i >= 0) mine[i].managers = d.managers;
     }
   }
+
+  // Recover positions ESPN left blank: a player who only came on as a sub is
+  // tagged "Substitute", so look up their listed role from the athlete profile.
+  // Bounded to players who could actually surface on a board (scorers, keepers
+  // with saves, drafted picks) so we don't fetch a profile for every benchwarmer.
+  let recovered = 0;
+  for (const [id, a] of agg) {
+    if (a.position) continue;
+    const notable = a.goals > 0 || a.assists > 0 || a.saves > 0 || a.managers.length > 0;
+    if (!notable || !/^\d+$/.test(id)) continue;
+    try {
+      const grp = positionGroup((await fetchAthlete(id))?.position);
+      if (grp) {
+        a.position = grp;
+        recovered += 1;
+      }
+    } catch (e) {
+      console.log(`   ⚠️  position lookup failed for ${a.name}: ${(e as Error).message}`);
+    }
+  }
+  if (recovered) console.log(`   ↪︎ recovered ${recovered} sub position(s) from athlete profiles.`);
 
   // Build top-N leaderboards.
   const all = [...agg.values()];
