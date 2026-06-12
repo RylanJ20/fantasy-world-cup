@@ -30,10 +30,10 @@
     "stage": "Group B",
     "home": "Canada",
     "away": "Bosnia-Herzegovina",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "homeScore": 1,
     "awayScore": 1,
-    "winner": null
+    "winner": "DRAW"
   },
   {
     "n": 760417,
