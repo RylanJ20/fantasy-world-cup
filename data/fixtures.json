@@ -54,10 +54,10 @@
     "stage": "Group B",
     "home": "Qatar",
     "away": "Switzerland",
-    "status": "TIMED",
-    "homeScore": null,
-    "awayScore": null,
-    "winner": null
+    "status": "FINISHED",
+    "homeScore": 1,
+    "awayScore": 1,
+    "winner": "DRAW"
   },
   {
     "n": 760419,

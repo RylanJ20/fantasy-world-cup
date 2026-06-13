@@ -57,7 +57,7 @@
     "table": [
       {
         "position": 1,
-        "team": "Canada",
+        "team": "Switzerland",
         "played": 1,
         "won": 0,
         "draw": 1,
@@ -69,7 +69,7 @@
       },
       {
         "position": 2,
-        "team": "Bosnia-Herzegovina",
+        "team": "Canada",
         "played": 1,
         "won": 0,
         "draw": 1,
@@ -82,26 +82,26 @@
       {
         "position": 3,
         "team": "Qatar",
-        "played": 0,
+        "played": 1,
         "won": 0,
-        "draw": 0,
+        "draw": 1,
         "lost": 0,
-        "gf": 0,
-        "ga": 0,
+        "gf": 1,
+        "ga": 1,
         "gd": 0,
-        "points": 0
+        "points": 1
       },
       {
         "position": 4,
-        "team": "Switzerland",
-        "played": 0,
+        "team": "Bosnia-Herzegovina",
+        "played": 1,
         "won": 0,
-        "draw": 0,
+        "draw": 1,
         "lost": 0,
-        "gf": 0,
-        "ga": 0,
+        "gf": 1,
+        "ga": 1,
         "gd": 0,
-        "points": 0
+        "points": 1
       }
     ]
   },

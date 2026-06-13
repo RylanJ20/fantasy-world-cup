@@ -72,7 +72,8 @@
         "goals": 0,
         "assists": 0,
         "shotsOnGoal": 1,
-        "goalsConceded": 0
+        "goalsConceded": 1,
+        "result": "D"
       }
     ]
   }
