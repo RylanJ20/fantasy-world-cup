@@ -60,5 +60,20 @@
         "result": "W"
       }
     ]
+  },
+  "ch|manuel akanji": {
+    "country": "Switzerland",
+    "name": "Manuel Akanji",
+    "matches": [
+      {
+        "fixtureId": 760420,
+        "opponent": "Qatar",
+        "date": "2026-06-13T19:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 1,
+        "goalsConceded": 0
+      }
+    ]
   }
 }

@@ -1348,6 +1348,182 @@
     ]
   },
   {
+    "name": "Akram Afif",
+    "country": "Qatar",
+    "position": "FWD",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Switzerland",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 1
+      }
+    ]
+  },
+  {
+    "name": "Assim Madibo",
+    "country": "Qatar",
+    "position": "MID",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Switzerland",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 1
+      }
+    ]
+  },
+  {
+    "name": "Ayoub Al-Oui",
+    "country": "Qatar",
+    "position": "DEF",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Switzerland",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 1
+      }
+    ]
+  },
+  {
+    "name": "Boualem Khoukhi",
+    "country": "Qatar",
+    "position": "DEF",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Switzerland",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 1
+      }
+    ]
+  },
+  {
+    "name": "Edmílson Junior",
+    "country": "Qatar",
+    "position": "FWD",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Switzerland",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 2,
+        "saves": 0,
+        "goalsConceded": 1
+      }
+    ]
+  },
+  {
+    "name": "Homam Ahmed",
+    "country": "Qatar",
+    "position": "DEF",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Switzerland",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 1
+      }
+    ]
+  },
+  {
+    "name": "Issa Laye",
+    "country": "Qatar",
+    "position": "MID",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Switzerland",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 1
+      }
+    ]
+  },
+  {
+    "name": "Jassem Gaber",
+    "country": "Qatar",
+    "position": "MID",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Switzerland",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 1
+      }
+    ]
+  },
+  {
+    "name": "Mahmoud Abunada",
+    "country": "Qatar",
+    "position": "GK",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Switzerland",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 5,
+        "goalsConceded": 1
+      }
+    ]
+  },
+  {
+    "name": "Pedro Miguel",
+    "country": "Qatar",
+    "position": "DEF",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Switzerland",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 1
+      }
+    ]
+  },
+  {
+    "name": "Yusuf Abdurisag",
+    "country": "Qatar",
+    "position": "FWD",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Switzerland",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 1
+      }
+    ]
+  },
+  {
     "name": "Aubrey Modiba",
     "country": "South Africa",
     "position": "DEF",
@@ -1876,6 +2052,187 @@
         "saves": 0,
         "goalsConceded": 1,
         "result": "W"
+      }
+    ]
+  },
+  {
+    "name": "Breel Embolo",
+    "country": "Switzerland",
+    "position": "FWD",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Qatar",
+        "goals": 1,
+        "assists": 0,
+        "shotsOnGoal": 1,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Dan Ndoye",
+    "country": "Switzerland",
+    "position": "FWD",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Qatar",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 2,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Denis Zakaria",
+    "country": "Switzerland",
+    "position": "DEF",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Qatar",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 1,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Granit Xhaka",
+    "country": "Switzerland",
+    "position": "MID",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Qatar",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Gregor Kobel",
+    "country": "Switzerland",
+    "position": "GK",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Qatar",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 2,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Manuel Akanji",
+    "country": "Switzerland",
+    "position": "DEF",
+    "managers": [
+      {
+        "id": "ben",
+        "name": "Ben"
+      }
+    ],
+    "matches": [
+      {
+        "opponent": "Qatar",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 1,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Michel Aebischer",
+    "country": "Switzerland",
+    "position": "MID",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Qatar",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 1,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Nico Elvedi",
+    "country": "Switzerland",
+    "position": "DEF",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Qatar",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Remo Freuler",
+    "country": "Switzerland",
+    "position": "MID",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Qatar",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Ricardo Rodríguez",
+    "country": "Switzerland",
+    "position": "DEF",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Qatar",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Rubén Vargas",
+    "country": "Switzerland",
+    "position": "FWD",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Qatar",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 1,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },

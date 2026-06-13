@@ -8,6 +8,13 @@
       "managers": []
     },
     {
+      "name": "Breel Embolo",
+      "country": "Switzerland",
+      "position": "FWD",
+      "value": 1,
+      "managers": []
+    },
+    {
       "name": "Cyle Larin",
       "country": "Canada",
       "position": "FWD",
@@ -162,6 +169,13 @@
   ],
   "saves": [
     {
+      "name": "Mahmoud Abunada",
+      "country": "Qatar",
+      "position": "GK",
+      "value": 5,
+      "managers": []
+    },
+    {
       "name": "Matej Kovár",
       "country": "Czechia",
       "position": "GK",
@@ -180,6 +194,13 @@
       "country": "Paraguay",
       "position": "GK",
       "value": 3,
+      "managers": []
+    },
+    {
+      "name": "Gregor Kobel",
+      "country": "Switzerland",
+      "position": "GK",
+      "value": 2,
       "managers": []
     },
     {
