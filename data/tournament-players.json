@@ -287,7 +287,7 @@
         "goals": 0,
         "assists": 0,
         "shotsOnGoal": 0,
-        "saves": 0,
+        "saves": 1,
         "goalsConceded": 1
       }
     ]
@@ -301,7 +301,7 @@
       {
         "opponent": "Morocco",
         "goals": 0,
-        "assists": 0,
+        "assists": 1,
         "shotsOnGoal": 0,
         "saves": 0,
         "goalsConceded": 1
@@ -330,6 +330,22 @@
     ]
   },
   {
+    "name": "Danilo",
+    "country": "Brazil",
+    "position": "",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Morocco",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
     "name": "Douglas Santos",
     "country": "Brazil",
     "position": "DEF",
@@ -342,6 +358,22 @@
         "shotsOnGoal": 0,
         "saves": 0,
         "goalsConceded": 1
+      }
+    ]
+  },
+  {
+    "name": "Fabinho",
+    "country": "Brazil",
+    "position": "",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Morocco",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -376,7 +408,7 @@
         "opponent": "Morocco",
         "goals": 0,
         "assists": 0,
-        "shotsOnGoal": 0,
+        "shotsOnGoal": 1,
         "saves": 0,
         "goalsConceded": 1
       }
@@ -397,9 +429,25 @@
         "opponent": "Morocco",
         "goals": 0,
         "assists": 0,
-        "shotsOnGoal": 0,
+        "shotsOnGoal": 1,
         "saves": 0,
         "goalsConceded": 1
+      }
+    ]
+  },
+  {
+    "name": "Luiz Henrique",
+    "country": "Brazil",
+    "position": "",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Morocco",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -425,6 +473,22 @@
     ]
   },
   {
+    "name": "Matheus Cunha",
+    "country": "Brazil",
+    "position": "",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Morocco",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
     "name": "Raphinha",
     "country": "Brazil",
     "position": "MID",
@@ -439,7 +503,7 @@
         "opponent": "Morocco",
         "goals": 0,
         "assists": 0,
-        "shotsOnGoal": 0,
+        "shotsOnGoal": 1,
         "saves": 0,
         "goalsConceded": 1
       }
@@ -474,9 +538,9 @@
     "matches": [
       {
         "opponent": "Morocco",
-        "goals": 0,
+        "goals": 1,
         "assists": 0,
-        "shotsOnGoal": 0,
+        "shotsOnGoal": 1,
         "saves": 0,
         "goalsConceded": 1
       }
@@ -1303,6 +1367,38 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
+        "goalsConceded": 1
+      }
+    ]
+  },
+  {
+    "name": "Anass Salah-Eddine",
+    "country": "Morocco",
+    "position": "",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Brazil",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Ayoube Amaimouni",
+    "country": "Morocco",
+    "position": "",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Brazil",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
         "goalsConceded": 0
       }
     ]
@@ -1319,7 +1415,7 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 0
+        "goalsConceded": 1
       }
     ]
   },
@@ -1335,7 +1431,7 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 0
+        "goalsConceded": 1
       }
     ]
   },
@@ -1351,7 +1447,7 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 0
+        "goalsConceded": 1
       }
     ]
   },
@@ -1365,9 +1461,9 @@
         "opponent": "Brazil",
         "goals": 0,
         "assists": 1,
-        "shotsOnGoal": 0,
+        "shotsOnGoal": 1,
         "saves": 0,
-        "goalsConceded": 0
+        "goalsConceded": 1
       }
     ]
   },
@@ -1375,6 +1471,22 @@
     "name": "Chadi Riad",
     "country": "Morocco",
     "position": "DEF",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Brazil",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 1
+      }
+    ]
+  },
+  {
+    "name": "Chemsdine Talbi",
+    "country": "Morocco",
+    "position": "",
     "managers": [],
     "matches": [
       {
@@ -1399,7 +1511,7 @@
         "assists": 0,
         "shotsOnGoal": 1,
         "saves": 0,
-        "goalsConceded": 0
+        "goalsConceded": 1
       }
     ]
   },
@@ -1415,7 +1527,7 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 0
+        "goalsConceded": 1
       }
     ]
   },
@@ -1431,7 +1543,7 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 0
+        "goalsConceded": 1
       }
     ]
   },
@@ -1439,6 +1551,22 @@
     "name": "Noussair Mazraoui",
     "country": "Morocco",
     "position": "DEF",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Brazil",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 1
+      }
+    ]
+  },
+  {
+    "name": "Samir El Mourabet",
+    "country": "Morocco",
+    "position": "",
     "managers": [],
     "matches": [
       {
@@ -1462,8 +1590,8 @@
         "goals": 0,
         "assists": 0,
         "shotsOnGoal": 0,
-        "saves": 0,
-        "goalsConceded": 0
+        "saves": 3,
+        "goalsConceded": 1
       }
     ]
   },

@@ -106,6 +106,13 @@
       "managers": []
     },
     {
+      "name": "Bruno Guimarães",
+      "country": "Brazil",
+      "position": "MID",
+      "value": 1,
+      "managers": []
+    },
+    {
       "name": "Christian Pulisic",
       "country": "United States",
       "position": "MID",
@@ -172,13 +179,6 @@
       "position": "DEF",
       "value": 1,
       "managers": []
-    },
-    {
-      "name": "Vladimír Coufal",
-      "country": "Czechia",
-      "position": "MID",
-      "value": 1,
-      "managers": []
     }
   ],
   "saves": [
@@ -218,6 +218,13 @@
       "managers": []
     },
     {
+      "name": "Yassine Bounou",
+      "country": "Morocco",
+      "position": "GK",
+      "value": 3,
+      "managers": []
+    },
+    {
       "name": "Maxime Crépeau",
       "country": "Canada",
       "position": "GK",
@@ -237,6 +244,18 @@
       "position": "GK",
       "value": 2,
       "managers": []
+    },
+    {
+      "name": "Alisson Becker",
+      "country": "Brazil",
+      "position": "GK",
+      "value": 1,
+      "managers": [
+        {
+          "id": "marc",
+          "name": "Marc"
+        }
+      ]
     },
     {
       "name": "Nikola Vasilj",
