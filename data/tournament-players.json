@@ -1076,6 +1076,278 @@
     ]
   },
   {
+    "name": "Alejandro Romero Gamarra",
+    "country": "Paraguay",
+    "position": "",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "United States",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 1,
+        "result": "L"
+      }
+    ]
+  },
+  {
+    "name": "Alex Arce",
+    "country": "Paraguay",
+    "position": "",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "United States",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 1,
+        "result": "L"
+      }
+    ]
+  },
+  {
+    "name": "Andrés Cubas",
+    "country": "Paraguay",
+    "position": "MID",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "United States",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 4,
+        "result": "L"
+      }
+    ]
+  },
+  {
+    "name": "Antonio Sanabria",
+    "country": "Paraguay",
+    "position": "FWD",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "United States",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 3,
+        "result": "L"
+      }
+    ]
+  },
+  {
+    "name": "Damián Bobadilla",
+    "country": "Paraguay",
+    "position": "MID",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "United States",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 3,
+        "result": "L"
+      }
+    ]
+  },
+  {
+    "name": "Diego Gómez",
+    "country": "Paraguay",
+    "position": "MID",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "United States",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 3,
+        "result": "L"
+      }
+    ]
+  },
+  {
+    "name": "Gustavo Gómez",
+    "country": "Paraguay",
+    "position": "DEF",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "United States",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 4,
+        "result": "L"
+      }
+    ]
+  },
+  {
+    "name": "Gustavo Velázquez",
+    "country": "Paraguay",
+    "position": "",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "United States",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 1,
+        "result": "L"
+      }
+    ]
+  },
+  {
+    "name": "Juan Jose Cáceres",
+    "country": "Paraguay",
+    "position": "DEF",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "United States",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 3,
+        "result": "L"
+      }
+    ]
+  },
+  {
+    "name": "Julio Enciso",
+    "country": "Paraguay",
+    "position": "FWD",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "United States",
+        "goals": 0,
+        "assists": 1,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 4,
+        "result": "L"
+      }
+    ]
+  },
+  {
+    "name": "Júnior Alonso",
+    "country": "Paraguay",
+    "position": "DEF",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "United States",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 4,
+        "result": "L"
+      }
+    ]
+  },
+  {
+    "name": "Maurício",
+    "country": "Paraguay",
+    "position": "MID",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "United States",
+        "goals": 1,
+        "assists": 0,
+        "shotsOnGoal": 1,
+        "saves": 0,
+        "goalsConceded": 1,
+        "result": "L"
+      }
+    ]
+  },
+  {
+    "name": "Miguel Almirón",
+    "country": "Paraguay",
+    "position": "MID",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "United States",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 3,
+        "result": "L"
+      }
+    ]
+  },
+  {
+    "name": "Omar Alderete",
+    "country": "Paraguay",
+    "position": "DEF",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "United States",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 4,
+        "result": "L"
+      }
+    ]
+  },
+  {
+    "name": "Orlando Gil",
+    "country": "Paraguay",
+    "position": "GK",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "United States",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 3,
+        "goalsConceded": 4,
+        "result": "L"
+      }
+    ]
+  },
+  {
+    "name": "Ramón Sosa",
+    "country": "Paraguay",
+    "position": "",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "United States",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 1,
+        "result": "L"
+      }
+    ]
+  },
+  {
     "name": "Aubrey Modiba",
     "country": "South Africa",
     "position": "DEF",
@@ -1601,6 +1873,271 @@
         "goals": 0,
         "assists": 0,
         "shotsOnGoal": 1,
+        "saves": 0,
+        "goalsConceded": 1,
+        "result": "W"
+      }
+    ]
+  },
+  {
+    "name": "Alex Freeman",
+    "country": "United States",
+    "position": "DEF",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Paraguay",
+        "goals": 0,
+        "assists": 1,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 1,
+        "result": "W"
+      }
+    ]
+  },
+  {
+    "name": "Antonee Robinson",
+    "country": "United States",
+    "position": "DEF",
+    "managers": [
+      {
+        "id": "grayson",
+        "name": "Grayson"
+      }
+    ],
+    "matches": [
+      {
+        "opponent": "Paraguay",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 1,
+        "result": "W"
+      }
+    ]
+  },
+  {
+    "name": "Chris Richards",
+    "country": "United States",
+    "position": "DEF",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Paraguay",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 1,
+        "result": "W"
+      }
+    ]
+  },
+  {
+    "name": "Christian Pulisic",
+    "country": "United States",
+    "position": "MID",
+    "managers": [
+      {
+        "id": "terrick",
+        "name": "Terrick"
+      }
+    ],
+    "matches": [
+      {
+        "opponent": "Paraguay",
+        "goals": 0,
+        "assists": 1,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0,
+        "result": "W"
+      }
+    ]
+  },
+  {
+    "name": "Folarin Balogun",
+    "country": "United States",
+    "position": "FWD",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Paraguay",
+        "goals": 2,
+        "assists": 0,
+        "shotsOnGoal": 3,
+        "saves": 0,
+        "goalsConceded": 0,
+        "result": "W"
+      }
+    ]
+  },
+  {
+    "name": "Giovanni Reyna",
+    "country": "United States",
+    "position": "MID",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Paraguay",
+        "goals": 1,
+        "assists": 0,
+        "shotsOnGoal": 1,
+        "saves": 0,
+        "goalsConceded": 0,
+        "result": "W"
+      }
+    ]
+  },
+  {
+    "name": "Malik Tillman",
+    "country": "United States",
+    "position": "MID",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Paraguay",
+        "goals": 0,
+        "assists": 1,
+        "shotsOnGoal": 2,
+        "saves": 0,
+        "goalsConceded": 1,
+        "result": "W"
+      }
+    ]
+  },
+  {
+    "name": "Matt Freese",
+    "country": "United States",
+    "position": "GK",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Paraguay",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 1,
+        "result": "W"
+      }
+    ]
+  },
+  {
+    "name": "Ricardo Pepi",
+    "country": "United States",
+    "position": "",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Paraguay",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 1,
+        "result": "W"
+      }
+    ]
+  },
+  {
+    "name": "Sebastian Berhalter",
+    "country": "United States",
+    "position": "",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Paraguay",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 1,
+        "result": "W"
+      }
+    ]
+  },
+  {
+    "name": "Sergiño Dest",
+    "country": "United States",
+    "position": "MID",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Paraguay",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0,
+        "result": "W"
+      }
+    ]
+  },
+  {
+    "name": "Tim Ream",
+    "country": "United States",
+    "position": "DEF",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Paraguay",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 1,
+        "result": "W"
+      }
+    ]
+  },
+  {
+    "name": "Timothy Weah",
+    "country": "United States",
+    "position": "",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Paraguay",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 1,
+        "result": "W"
+      }
+    ]
+  },
+  {
+    "name": "Tyler Adams",
+    "country": "United States",
+    "position": "MID",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Paraguay",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 1,
+        "result": "W"
+      }
+    ]
+  },
+  {
+    "name": "Weston McKennie",
+    "country": "United States",
+    "position": "MID",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Paraguay",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
         "saves": 0,
         "goalsConceded": 1,
         "result": "W"

@@ -164,29 +164,17 @@
       {
         "position": 1,
         "team": "United States",
-        "played": 0,
-        "won": 0,
+        "played": 1,
+        "won": 1,
         "draw": 0,
         "lost": 0,
-        "gf": 0,
-        "ga": 0,
-        "gd": 0,
-        "points": 0
+        "gf": 4,
+        "ga": 1,
+        "gd": 3,
+        "points": 3
       },
       {
         "position": 2,
-        "team": "Paraguay",
-        "played": 0,
-        "won": 0,
-        "draw": 0,
-        "lost": 0,
-        "gf": 0,
-        "ga": 0,
-        "gd": 0,
-        "points": 0
-      },
-      {
-        "position": 3,
         "team": "Australia",
         "played": 0,
         "won": 0,
@@ -198,7 +186,7 @@
         "points": 0
       },
       {
-        "position": 4,
+        "position": 3,
         "team": "Türkiye",
         "played": 0,
         "won": 0,
@@ -207,6 +195,18 @@
         "gf": 0,
         "ga": 0,
         "gd": 0,
+        "points": 0
+      },
+      {
+        "position": 4,
+        "team": "Paraguay",
+        "played": 1,
+        "won": 0,
+        "draw": 0,
+        "lost": 1,
+        "gf": 1,
+        "ga": 4,
+        "gd": -3,
         "points": 0
       }
     ]

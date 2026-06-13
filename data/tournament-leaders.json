@@ -1,9 +1,23 @@
 {
   "goals": [
     {
+      "name": "Folarin Balogun",
+      "country": "United States",
+      "position": "FWD",
+      "value": 2,
+      "managers": []
+    },
+    {
       "name": "Cyle Larin",
       "country": "Canada",
       "position": "FWD",
+      "value": 1,
+      "managers": []
+    },
+    {
+      "name": "Giovanni Reyna",
+      "country": "United States",
+      "position": "MID",
       "value": 1,
       "managers": []
     },
@@ -41,6 +55,13 @@
       ]
     },
     {
+      "name": "Maurício",
+      "country": "Paraguay",
+      "position": "MID",
+      "value": 1,
+      "managers": []
+    },
+    {
       "name": "Oh Hyeon-Gyu",
       "country": "South Korea",
       "position": "FWD",
@@ -57,6 +78,25 @@
   ],
   "assists": [
     {
+      "name": "Alex Freeman",
+      "country": "United States",
+      "position": "DEF",
+      "value": 1,
+      "managers": []
+    },
+    {
+      "name": "Christian Pulisic",
+      "country": "United States",
+      "position": "MID",
+      "value": 1,
+      "managers": [
+        {
+          "id": "terrick",
+          "name": "Terrick"
+        }
+      ]
+    },
+    {
       "name": "Érik Lira",
       "country": "Mexico",
       "position": "MID",
@@ -71,9 +111,23 @@
       "managers": []
     },
     {
+      "name": "Julio Enciso",
+      "country": "Paraguay",
+      "position": "FWD",
+      "value": 1,
+      "managers": []
+    },
+    {
       "name": "Lee Kang-In",
       "country": "South Korea",
       "position": "FWD",
+      "value": 1,
+      "managers": []
+    },
+    {
+      "name": "Malik Tillman",
+      "country": "United States",
+      "position": "MID",
       "value": 1,
       "managers": []
     },
@@ -117,6 +171,13 @@
     {
       "name": "Kim Seung-Gyu",
       "country": "South Korea",
+      "position": "GK",
+      "value": 3,
+      "managers": []
+    },
+    {
+      "name": "Orlando Gil",
+      "country": "Paraguay",
       "position": "GK",
       "value": 3,
       "managers": []

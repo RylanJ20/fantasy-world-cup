@@ -42,10 +42,10 @@
     "stage": "Group D",
     "home": "United States",
     "away": "Paraguay",
-    "status": "TIMED",
-    "homeScore": null,
-    "awayScore": null,
-    "winner": null
+    "status": "FINISHED",
+    "homeScore": 4,
+    "awayScore": 1,
+    "winner": "HOME_TEAM"
   },
   {
     "n": 760420,
