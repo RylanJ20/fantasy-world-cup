@@ -1,12 +1,12 @@
 name: Auto-import results
 
 # Periodically pulls fresh fixtures, group tables + drafted-player stats from
-# ESPN's free feed and, if anything changed (scores, statuses, standings, player
-# stats), commits and pushes — which triggers a Vercel redeploy. That keeps live
-# scores, finished results, team points, player points and group tables up to
-# date hands-free.
+# ESPN's free feed plus Man of the Match from FotMob's free feed and, if anything
+# changed (scores, statuses, standings, player stats, MOTM), commits and pushes —
+# which triggers a Vercel redeploy. That keeps live scores, finished results, team
+# points, player points, group tables and MOTM up to date hands-free.
 #
-# No API key needed — ESPN's public endpoints are key-free.
+# No API key needed — both ESPN's and FotMob's public endpoints are key-free.
 #
 # COST / "is it free?":
 #   • PUBLIC repo  → GitHub Actions minutes are UNLIMITED and free. Recommended
@@ -40,16 +40,16 @@ jobs:
           node-version: 24
           cache: npm
       - run: npm ci
-      - name: Import fixtures, standings, player stats + tournament leaders from ESPN
+      - name: Import fixtures, standings, player/tournament stats (ESPN) + MOTM (FotMob)
         run: npm run import:all
       - name: Commit & push if anything changed
         run: |
-          FILES="data/fixtures.json data/groups.json data/player-stats.json data/tournament-leaders.json data/tournament-players.json"
+          FILES="data/fixtures.json data/groups.json data/player-stats.json data/tournament-leaders.json data/tournament-players.json data/motm.json"
           if [ -n "$(git status --porcelain $FILES)" ]; then
             git config user.name "github-actions[bot]"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
             git add $FILES
-            git commit -m "Auto-import: refresh fixtures, standings, player & tournament stats"
+            git commit -m "Auto-import: refresh fixtures, standings, player & tournament stats, MOTM"
             git push
             echo "Pushed updated results."
           else

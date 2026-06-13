@@ -1,22 +1,27 @@
 // ════════════════════════════════════════════════════════════════════════════
-//  MAN OF THE MATCH  —  the one stat ESPN can't give us, so you log it by hand.
+//  MAN OF THE MATCH  —  now auto-imported from FotMob (see scripts/import-motm.ts).
 // ════════════════════════════════════════════════════════════════════════════
 //
-//  Add one line per match as the awards come in. It works for ANY player at the
-//  World Cup — drafted or not:
-//    • Tournament-wide: they show up on the "Man of the Match" leaderboard and
+//  data/motm.json is regenerated every import cycle from FotMob's Player of the
+//  Match, with each winner reconciled to their ESPN spelling so the +2 ties to
+//  imported stats. It works for ANY player at the World Cup — drafted or not:
+//    • Tournament-wide: they appear on the "Man of the Match" leaderboard and
 //      earn +2 toward their tournament points total.
-//    • If the winner happens to be a drafted player, the +2 also lands on their
-//      manager's page automatically (matched by name + opponent) — no need to
-//      also edit data/league.ts.
+//    • If the winner is a drafted player, the +2 also lands on their manager's
+//      page automatically (matched by name + opponent) — no need to edit
+//      data/league.ts.
 //
-//  Use the player's and opponent's names as ESPN spells them (accents included),
-//  e.g. "Julián Quiñones", "Hwang In-Beom", "Czechia". The opponent disambiguates
-//  which match the award was for.
+//  You normally never edit this file. Use `manualOverrides` only for a match
+//  FotMob got wrong or hasn't posted — an override replaces the auto entry for
+//  the SAME fixture (matched by the two nations). Spell the player and opponent
+//  as ESPN does (accents included), e.g.:
 //
 //      m("Hwang In-Beom", "South Korea", "Czechia")
 //        └ player          └ their nation  └ who they played
 // ════════════════════════════════════════════════════════════════════════════
+
+import auto from "./motm.json";
+import { countryCode } from "@/lib/flags";
 
 export interface MotmEntry {
   /** Player name, spelled as ESPN does (so it ties to imported stats). */
@@ -27,14 +32,29 @@ export interface MotmEntry {
   opponent: string;
 }
 
-const m = (player: string, country: string, opponent: string): MotmEntry => ({
+/** Convenience constructor for `manualOverrides` entries. */
+export const m = (player: string, country: string, opponent: string): MotmEntry => ({
   player,
   country,
   opponent,
 });
 
-export const motm: MotmEntry[] = [
-  // ── Matchday 1 (Jun 11) ──────────────────────────────────────────────────
-  m("Julián Quiñones", "Mexico", "South Africa"), // Mexico 2–0 South Africa
-  m("Hwang In-Beom", "South Korea", "Czechia"), // South Korea 2–1 Czechia
+// Manual overrides — normally empty. An entry here wins over the auto-imported
+// award for the same fixture (its unordered nation pair).
+const manualOverrides: MotmEntry[] = [
+  // FotMob's rating algorithm picked Katić (Bosnia); the official award went to
+  // Koné. Canada 1–1 Bosnia-Herzegovina, Jun 12.
+  m("Ismaël Koné", "Canada", "Bosnia-Herzegovina"),
 ];
+
+/** Unordered flag-code key for an entry's fixture ("cz|kr"). */
+const fixtureKey = (e: MotmEntry) =>
+  [countryCode(e.country) ?? e.country.toLowerCase(), countryCode(e.opponent) ?? e.opponent.toLowerCase()]
+    .sort()
+    .join("|");
+
+const merged = new Map<string, MotmEntry>();
+for (const e of auto as MotmEntry[]) merged.set(fixtureKey(e), e);
+for (const e of manualOverrides) merged.set(fixtureKey(e), e); // override wins
+
+export const motm: MotmEntry[] = [...merged.values()];

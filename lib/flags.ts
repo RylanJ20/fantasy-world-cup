@@ -97,6 +97,7 @@ const CODES: Record<string, string> = {
   // football-data.org naming variants
   "korea dpr": "kp",
   "ir iran": "ir",
+  "bosnia and herzegovina": "ba",
   "united states of america": "us",
   "china pr": "cn",
   "bosnia-herzegovina": "ba",
