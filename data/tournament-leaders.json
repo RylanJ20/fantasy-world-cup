@@ -8,13 +8,6 @@
       "managers": []
     },
     {
-      "name": "Boualem Khoukhi",
-      "country": "Qatar",
-      "position": "DEF",
-      "value": 1,
-      "managers": []
-    },
-    {
       "name": "Breel Embolo",
       "country": "Switzerland",
       "position": "FWD",
@@ -39,6 +32,13 @@
       "name": "Hwang In-Beom",
       "country": "South Korea",
       "position": "MID",
+      "value": 1,
+      "managers": []
+    },
+    {
+      "name": "Ismael Saibari",
+      "country": "Morocco",
+      "position": "FWD",
       "value": 1,
       "managers": []
     },
@@ -99,6 +99,13 @@
       "managers": []
     },
     {
+      "name": "Brahim Díaz",
+      "country": "Morocco",
+      "position": "MID",
+      "value": 1,
+      "managers": []
+    },
+    {
       "name": "Christian Pulisic",
       "country": "United States",
       "position": "MID",
@@ -114,13 +121,6 @@
       "name": "Érik Lira",
       "country": "Mexico",
       "position": "MID",
-      "value": 1,
-      "managers": []
-    },
-    {
-      "name": "Homam Ahmed",
-      "country": "Qatar",
-      "position": "DEF",
       "value": 1,
       "managers": []
     },

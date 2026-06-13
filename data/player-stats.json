@@ -76,5 +76,122 @@
         "result": "D"
       }
     ]
+  },
+  "br|marquinhos": {
+    "country": "Brazil",
+    "name": "Marquinhos",
+    "matches": [
+      {
+        "fixtureId": 760419,
+        "opponent": "Morocco",
+        "date": "2026-06-13T22:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "goalsConceded": 1
+      }
+    ]
+  },
+  "br|alisson": {
+    "country": "Brazil",
+    "name": "Alisson",
+    "matches": [
+      {
+        "fixtureId": 760419,
+        "opponent": "Morocco",
+        "date": "2026-06-13T22:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 1
+      }
+    ]
+  },
+  "br|vinicius junior": {
+    "country": "Brazil",
+    "name": "Vinícius Júnior",
+    "matches": [
+      {
+        "fixtureId": 760419,
+        "opponent": "Morocco",
+        "date": "2026-06-13T22:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0
+      }
+    ]
+  },
+  "br|raphinha": {
+    "country": "Brazil",
+    "name": "Raphinha",
+    "matches": [
+      {
+        "fixtureId": 760419,
+        "opponent": "Morocco",
+        "date": "2026-06-13T22:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0
+      }
+    ]
+  },
+  "br|gabriel magalhaes": {
+    "country": "Brazil",
+    "name": "Gabriel Magalhães",
+    "matches": [
+      {
+        "fixtureId": 760419,
+        "opponent": "Morocco",
+        "date": "2026-06-13T22:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "goalsConceded": 1
+      }
+    ]
+  },
+  "br|casemiro": {
+    "country": "Brazil",
+    "name": "Casemiro",
+    "matches": [
+      {
+        "fixtureId": 760419,
+        "opponent": "Morocco",
+        "date": "2026-06-13T22:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0
+      }
+    ]
+  },
+  "br|lucas paqueta": {
+    "country": "Brazil",
+    "name": "Lucas Paquetá",
+    "matches": [
+      {
+        "fixtureId": 760419,
+        "opponent": "Morocco",
+        "date": "2026-06-13T22:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0
+      }
+    ]
+  },
+  "ma|achraf hakimi": {
+    "country": "Morocco",
+    "name": "Achraf Hakimi",
+    "matches": [
+      {
+        "fixtureId": 760419,
+        "opponent": "Brazil",
+        "date": "2026-06-13T22:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "goalsConceded": 0
+      }
+    ]
   }
 }

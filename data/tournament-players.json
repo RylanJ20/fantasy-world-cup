@@ -272,6 +272,217 @@
     ]
   },
   {
+    "name": "Alisson Becker",
+    "country": "Brazil",
+    "position": "GK",
+    "managers": [
+      {
+        "id": "marc",
+        "name": "Marc"
+      }
+    ],
+    "matches": [
+      {
+        "opponent": "Morocco",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 1
+      }
+    ]
+  },
+  {
+    "name": "Bruno Guimarães",
+    "country": "Brazil",
+    "position": "MID",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Morocco",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 1
+      }
+    ]
+  },
+  {
+    "name": "Casemiro",
+    "country": "Brazil",
+    "position": "MID",
+    "managers": [
+      {
+        "id": "ben",
+        "name": "Ben"
+      }
+    ],
+    "matches": [
+      {
+        "opponent": "Morocco",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 1
+      }
+    ]
+  },
+  {
+    "name": "Douglas Santos",
+    "country": "Brazil",
+    "position": "DEF",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Morocco",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 1
+      }
+    ]
+  },
+  {
+    "name": "Gabriel Magalhães",
+    "country": "Brazil",
+    "position": "DEF",
+    "managers": [
+      {
+        "id": "zach",
+        "name": "Zach"
+      }
+    ],
+    "matches": [
+      {
+        "opponent": "Morocco",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 1
+      }
+    ]
+  },
+  {
+    "name": "Igor Thiago",
+    "country": "Brazil",
+    "position": "FWD",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Morocco",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 1
+      }
+    ]
+  },
+  {
+    "name": "Lucas Paquetá",
+    "country": "Brazil",
+    "position": "MID",
+    "managers": [
+      {
+        "id": "travis",
+        "name": "Travis"
+      }
+    ],
+    "matches": [
+      {
+        "opponent": "Morocco",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 1
+      }
+    ]
+  },
+  {
+    "name": "Marquinhos",
+    "country": "Brazil",
+    "position": "DEF",
+    "managers": [
+      {
+        "id": "marc",
+        "name": "Marc"
+      }
+    ],
+    "matches": [
+      {
+        "opponent": "Morocco",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 1
+      }
+    ]
+  },
+  {
+    "name": "Raphinha",
+    "country": "Brazil",
+    "position": "MID",
+    "managers": [
+      {
+        "id": "zach",
+        "name": "Zach"
+      }
+    ],
+    "matches": [
+      {
+        "opponent": "Morocco",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 1
+      }
+    ]
+  },
+  {
+    "name": "Roger Ibañez",
+    "country": "Brazil",
+    "position": "DEF",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Morocco",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 1
+      }
+    ]
+  },
+  {
+    "name": "Vinícius Júnior",
+    "country": "Brazil",
+    "position": "MID",
+    "managers": [
+      {
+        "id": "terrick",
+        "name": "Terrick"
+      }
+    ],
+    "matches": [
+      {
+        "opponent": "Morocco",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 1
+      }
+    ]
+  },
+  {
     "name": "Ali Ahmed",
     "country": "Canada",
     "position": "",
@@ -1076,6 +1287,187 @@
     ]
   },
   {
+    "name": "Achraf Hakimi",
+    "country": "Morocco",
+    "position": "DEF",
+    "managers": [
+      {
+        "id": "travis",
+        "name": "Travis"
+      }
+    ],
+    "matches": [
+      {
+        "opponent": "Brazil",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Ayyoub Bouaddi",
+    "country": "Morocco",
+    "position": "MID",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Brazil",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Azzedine Ounahi",
+    "country": "Morocco",
+    "position": "MID",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Brazil",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Bilal El Khannouss",
+    "country": "Morocco",
+    "position": "MID",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Brazil",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Brahim Díaz",
+    "country": "Morocco",
+    "position": "MID",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Brazil",
+        "goals": 0,
+        "assists": 1,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Chadi Riad",
+    "country": "Morocco",
+    "position": "DEF",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Brazil",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Ismael Saibari",
+    "country": "Morocco",
+    "position": "FWD",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Brazil",
+        "goals": 1,
+        "assists": 0,
+        "shotsOnGoal": 1,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Issa Diop",
+    "country": "Morocco",
+    "position": "DEF",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Brazil",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Neil El Aynaoui",
+    "country": "Morocco",
+    "position": "MID",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Brazil",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Noussair Mazraoui",
+    "country": "Morocco",
+    "position": "DEF",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Brazil",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Yassine Bounou",
+    "country": "Morocco",
+    "position": "GK",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Brazil",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
     "name": "Alejandro Romero Gamarra",
     "country": "Paraguay",
     "position": "",
@@ -1440,9 +1832,9 @@
     "matches": [
       {
         "opponent": "Switzerland",
-        "goals": 1,
+        "goals": 0,
         "assists": 0,
-        "shotsOnGoal": 1,
+        "shotsOnGoal": 0,
         "saves": 0,
         "goalsConceded": 1,
         "result": "D"
@@ -1492,7 +1884,7 @@
       {
         "opponent": "Switzerland",
         "goals": 0,
-        "assists": 1,
+        "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
         "goalsConceded": 1,
