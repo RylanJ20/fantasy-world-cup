@@ -1123,6 +1123,182 @@
     ]
   },
   {
+    "name": "Armando Obispo",
+    "country": "Curaçao",
+    "position": "DEF",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Germany",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 2
+      }
+    ]
+  },
+  {
+    "name": "Deveron Fonville",
+    "country": "Curaçao",
+    "position": "DEF",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Germany",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 2
+      }
+    ]
+  },
+  {
+    "name": "Eloy Room",
+    "country": "Curaçao",
+    "position": "GK",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Germany",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 2,
+        "goalsConceded": 2
+      }
+    ]
+  },
+  {
+    "name": "Juninho Bacuna",
+    "country": "Curaçao",
+    "position": "MID",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Germany",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 2
+      }
+    ]
+  },
+  {
+    "name": "Jürgen Locadia",
+    "country": "Curaçao",
+    "position": "FWD",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Germany",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 2
+      }
+    ]
+  },
+  {
+    "name": "Leandro Bacuna",
+    "country": "Curaçao",
+    "position": "MID",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Germany",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 2
+      }
+    ]
+  },
+  {
+    "name": "Livano Comenencia",
+    "country": "Curaçao",
+    "position": "MID",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Germany",
+        "goals": 1,
+        "assists": 0,
+        "shotsOnGoal": 1,
+        "saves": 0,
+        "goalsConceded": 2
+      }
+    ]
+  },
+  {
+    "name": "Riechedly Bazoer",
+    "country": "Curaçao",
+    "position": "DEF",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Germany",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 2
+      }
+    ]
+  },
+  {
+    "name": "Sherel Floranus",
+    "country": "Curaçao",
+    "position": "DEF",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Germany",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 2
+      }
+    ]
+  },
+  {
+    "name": "Sontje Hansen",
+    "country": "Curaçao",
+    "position": "MID",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Germany",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 2
+      }
+    ]
+  },
+  {
+    "name": "Tahith Chong",
+    "country": "Curaçao",
+    "position": "MID",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Germany",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 2
+      }
+    ]
+  },
+  {
     "name": "Adam Hlozek",
     "country": "Czechia",
     "position": "",
@@ -1379,6 +1555,212 @@
         "saves": 0,
         "goalsConceded": 2,
         "result": "L"
+      }
+    ]
+  },
+  {
+    "name": "Aleksandar Pavlovic",
+    "country": "Germany",
+    "position": "MID",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Curaçao",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 1
+      }
+    ]
+  },
+  {
+    "name": "Felix Nmecha",
+    "country": "Germany",
+    "position": "MID",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Curaçao",
+        "goals": 1,
+        "assists": 0,
+        "shotsOnGoal": 2,
+        "saves": 0,
+        "goalsConceded": 1
+      }
+    ]
+  },
+  {
+    "name": "Florian Wirtz",
+    "country": "Germany",
+    "position": "MID",
+    "managers": [
+      {
+        "id": "marc",
+        "name": "Marc"
+      }
+    ],
+    "matches": [
+      {
+        "opponent": "Curaçao",
+        "goals": 0,
+        "assists": 1,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 1
+      }
+    ]
+  },
+  {
+    "name": "Jamal Musiala",
+    "country": "Germany",
+    "position": "MID",
+    "managers": [
+      {
+        "id": "ben",
+        "name": "Ben"
+      }
+    ],
+    "matches": [
+      {
+        "opponent": "Curaçao",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 1
+      }
+    ]
+  },
+  {
+    "name": "Jonathan Tah",
+    "country": "Germany",
+    "position": "DEF",
+    "managers": [
+      {
+        "id": "alejandro",
+        "name": "Alejandro"
+      }
+    ],
+    "matches": [
+      {
+        "opponent": "Curaçao",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 1
+      }
+    ]
+  },
+  {
+    "name": "Joshua Kimmich",
+    "country": "Germany",
+    "position": "DEF",
+    "managers": [
+      {
+        "id": "marc",
+        "name": "Marc"
+      }
+    ],
+    "matches": [
+      {
+        "opponent": "Curaçao",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 1
+      }
+    ]
+  },
+  {
+    "name": "Kai Havertz",
+    "country": "Germany",
+    "position": "FWD",
+    "managers": [
+      {
+        "id": "alejandro",
+        "name": "Alejandro"
+      }
+    ],
+    "matches": [
+      {
+        "opponent": "Curaçao",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 1
+      }
+    ]
+  },
+  {
+    "name": "Leroy Sané",
+    "country": "Germany",
+    "position": "MID",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Curaçao",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 1
+      }
+    ]
+  },
+  {
+    "name": "Manuel Neuer",
+    "country": "Germany",
+    "position": "GK",
+    "managers": [
+      {
+        "id": "alejandro",
+        "name": "Alejandro"
+      }
+    ],
+    "matches": [
+      {
+        "opponent": "Curaçao",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 1
+      }
+    ]
+  },
+  {
+    "name": "Nathaniel Brown",
+    "country": "Germany",
+    "position": "DEF",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Curaçao",
+        "goals": 0,
+        "assists": 1,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 1
+      }
+    ]
+  },
+  {
+    "name": "Nico Schlotterbeck",
+    "country": "Germany",
+    "position": "DEF",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Curaçao",
+        "goals": 1,
+        "assists": 0,
+        "shotsOnGoal": 2,
+        "saves": 0,
+        "goalsConceded": 1
       }
     ]
   },

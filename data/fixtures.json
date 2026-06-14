@@ -102,9 +102,9 @@
     "stage": "Group E",
     "home": "Germany",
     "away": "Curaçao",
-    "status": "TIMED",
-    "homeScore": null,
-    "awayScore": null,
+    "status": "IN_PLAY",
+    "homeScore": 2,
+    "awayScore": 1,
     "winner": null
   },
   {

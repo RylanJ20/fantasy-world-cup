@@ -247,5 +247,93 @@
         "result": "L"
       }
     ]
+  },
+  "de|florian wirtz": {
+    "country": "Germany",
+    "name": "Florian Wirtz",
+    "matches": [
+      {
+        "fixtureId": 760422,
+        "opponent": "Curaçao",
+        "date": "2026-06-14T17:00Z",
+        "goals": 0,
+        "assists": 1,
+        "shotsOnGoal": 0
+      }
+    ]
+  },
+  "de|joshua kimmich": {
+    "country": "Germany",
+    "name": "Joshua Kimmich",
+    "matches": [
+      {
+        "fixtureId": 760422,
+        "opponent": "Curaçao",
+        "date": "2026-06-14T17:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "goalsConceded": 1
+      }
+    ]
+  },
+  "de|jamal musiala": {
+    "country": "Germany",
+    "name": "Jamal Musiala",
+    "matches": [
+      {
+        "fixtureId": 760422,
+        "opponent": "Curaçao",
+        "date": "2026-06-14T17:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0
+      }
+    ]
+  },
+  "de|kai havertz": {
+    "country": "Germany",
+    "name": "Kai Havertz",
+    "matches": [
+      {
+        "fixtureId": 760422,
+        "opponent": "Curaçao",
+        "date": "2026-06-14T17:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0
+      }
+    ]
+  },
+  "de|jonathan tah": {
+    "country": "Germany",
+    "name": "Jonathan Tah",
+    "matches": [
+      {
+        "fixtureId": 760422,
+        "opponent": "Curaçao",
+        "date": "2026-06-14T17:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "goalsConceded": 1
+      }
+    ]
+  },
+  "de|manuel neuer": {
+    "country": "Germany",
+    "name": "Manuel Neuer",
+    "matches": [
+      {
+        "fixtureId": 760422,
+        "opponent": "Curaçao",
+        "date": "2026-06-14T17:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 1
+      }
+    ]
   }
 }

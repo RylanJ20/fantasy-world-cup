@@ -29,6 +29,13 @@
       "managers": []
     },
     {
+      "name": "Felix Nmecha",
+      "country": "Germany",
+      "position": "MID",
+      "value": 1,
+      "managers": []
+    },
+    {
       "name": "Giovanni Reyna",
       "country": "United States",
       "position": "MID",
@@ -81,13 +88,6 @@
           "name": "Marc"
         }
       ]
-    },
-    {
-      "name": "Maurício",
-      "country": "Paraguay",
-      "position": "MID",
-      "value": 1,
-      "managers": []
     }
   ],
   "assists": [
@@ -132,6 +132,18 @@
       "managers": []
     },
     {
+      "name": "Florian Wirtz",
+      "country": "Germany",
+      "position": "MID",
+      "value": 1,
+      "managers": [
+        {
+          "id": "marc",
+          "name": "Marc"
+        }
+      ]
+    },
+    {
       "name": "Hwang In-Beom",
       "country": "South Korea",
       "position": "MID",
@@ -160,22 +172,15 @@
       "managers": []
     },
     {
+      "name": "Nathaniel Brown",
+      "country": "Germany",
+      "position": "DEF",
+      "value": 1,
+      "managers": []
+    },
+    {
       "name": "Paul Okon-Engstler",
       "country": "Australia",
-      "position": "MID",
-      "value": 1,
-      "managers": []
-    },
-    {
-      "name": "Promise David",
-      "country": "Canada",
-      "position": "FWD",
-      "value": 1,
-      "managers": []
-    },
-    {
-      "name": "Roberto Alvarado",
-      "country": "Mexico",
       "position": "MID",
       "value": 1,
       "managers": []
@@ -251,6 +256,13 @@
       "managers": []
     },
     {
+      "name": "Eloy Room",
+      "country": "Curaçao",
+      "position": "GK",
+      "value": 2,
+      "managers": []
+    },
+    {
       "name": "Maxime Crépeau",
       "country": "Canada",
       "position": "GK",
@@ -260,13 +272,6 @@
     {
       "name": "Raúl Rangel",
       "country": "Mexico",
-      "position": "GK",
-      "value": 2,
-      "managers": []
-    },
-    {
-      "name": "Ronwen Williams",
-      "country": "South Africa",
       "position": "GK",
       "value": 2,
       "managers": []
