@@ -50,7 +50,19 @@ jobs:
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
             git add $FILES
             git commit -m "Auto-import: refresh fixtures, standings, player & tournament stats, MOTM"
-            git push
+            # A manual push can land between checkout and push; rebase onto it and
+            # retry so a race self-heals instead of failing the run and stranding
+            # stale data on the deployed site.
+            attempt=0
+            until git push; do
+              attempt=$((attempt + 1))
+              if [ "$attempt" -ge 3 ]; then
+                echo "Push still rejected after $attempt attempts — next run will retry."
+                exit 1
+              fi
+              echo "Push rejected — rebasing onto origin/main and retrying ($attempt)…"
+              git pull --rebase origin main
+            done
             echo "Pushed updated results."
           else
             echo "No changes — nothing to push."
