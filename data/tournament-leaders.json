@@ -48,6 +48,13 @@
       "managers": []
     },
     {
+      "name": "Daichi Kamada",
+      "country": "Japan",
+      "position": "MID",
+      "value": 1,
+      "managers": []
+    },
+    {
       "name": "Deniz Undav",
       "country": "Germany",
       "position": "FWD",
@@ -81,18 +88,6 @@
       "position": "FWD",
       "value": 1,
       "managers": []
-    },
-    {
-      "name": "Jamal Musiala",
-      "country": "Germany",
-      "position": "MID",
-      "value": 1,
-      "managers": [
-        {
-          "id": "ben",
-          "name": "Ben"
-        }
-      ]
     }
   ],
   "assists": [
@@ -189,8 +184,8 @@
       "managers": []
     },
     {
-      "name": "Lee Kang-In",
-      "country": "South Korea",
+      "name": "Koki Ogawa",
+      "country": "Japan",
       "position": "FWD",
       "value": 1,
       "managers": []

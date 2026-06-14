@@ -114,10 +114,10 @@
     "stage": "Group F",
     "home": "Netherlands",
     "away": "Japan",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "homeScore": 2,
-    "awayScore": 1,
-    "winner": null
+    "awayScore": 2,
+    "winner": "DRAW"
   },
   {
     "n": 760423,
