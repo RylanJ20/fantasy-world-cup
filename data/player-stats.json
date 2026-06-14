@@ -243,7 +243,8 @@
         "date": "2026-06-14T04:00Z",
         "goals": 0,
         "assists": 0,
-        "shotsOnGoal": 1
+        "shotsOnGoal": 3,
+        "result": "L"
       }
     ]
   }

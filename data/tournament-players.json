@@ -11,7 +11,8 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 0
+        "goalsConceded": 0,
+        "result": "W"
       }
     ]
   },
@@ -27,7 +28,25 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 0
+        "goalsConceded": 0,
+        "result": "W"
+      }
+    ]
+  },
+  {
+    "name": "Aziz Behich",
+    "country": "Australia",
+    "position": "",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Türkiye",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0,
+        "result": "W"
       }
     ]
   },
@@ -43,7 +62,8 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 0
+        "goalsConceded": 0,
+        "result": "W"
       }
     ]
   },
@@ -55,11 +75,12 @@
     "matches": [
       {
         "opponent": "Türkiye",
-        "goals": 0,
+        "goals": 1,
         "assists": 0,
-        "shotsOnGoal": 0,
+        "shotsOnGoal": 1,
         "saves": 0,
-        "goalsConceded": 0
+        "goalsConceded": 0,
+        "result": "W"
       }
     ]
   },
@@ -73,9 +94,27 @@
         "opponent": "Türkiye",
         "goals": 0,
         "assists": 0,
+        "shotsOnGoal": 1,
+        "saves": 0,
+        "goalsConceded": 0,
+        "result": "W"
+      }
+    ]
+  },
+  {
+    "name": "Jackson Irvine",
+    "country": "Australia",
+    "position": "",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Türkiye",
+        "goals": 0,
+        "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 0
+        "goalsConceded": 0,
+        "result": "W"
       }
     ]
   },
@@ -91,7 +130,25 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 0
+        "goalsConceded": 0,
+        "result": "W"
+      }
+    ]
+  },
+  {
+    "name": "Jason Geria",
+    "country": "Australia",
+    "position": "",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Türkiye",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0,
+        "result": "W"
       }
     ]
   },
@@ -107,7 +164,8 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 0
+        "goalsConceded": 0,
+        "result": "W"
       }
     ]
   },
@@ -123,7 +181,8 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 0
+        "goalsConceded": 0,
+        "result": "W"
       }
     ]
   },
@@ -137,9 +196,27 @@
         "opponent": "Türkiye",
         "goals": 1,
         "assists": 0,
-        "shotsOnGoal": 1,
+        "shotsOnGoal": 2,
         "saves": 0,
-        "goalsConceded": 0
+        "goalsConceded": 0,
+        "result": "W"
+      }
+    ]
+  },
+  {
+    "name": "Nishan Velupillay",
+    "country": "Australia",
+    "position": "",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Türkiye",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0,
+        "result": "W"
       }
     ]
   },
@@ -154,8 +231,9 @@
         "goals": 0,
         "assists": 0,
         "shotsOnGoal": 0,
-        "saves": 1,
-        "goalsConceded": 0
+        "saves": 8,
+        "goalsConceded": 0,
+        "result": "W"
       }
     ]
   },
@@ -171,7 +249,25 @@
         "assists": 1,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 0
+        "goalsConceded": 0,
+        "result": "W"
+      }
+    ]
+  },
+  {
+    "name": "Tete Yengi",
+    "country": "Australia",
+    "position": "",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Türkiye",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0,
+        "result": "W"
       }
     ]
   },
@@ -3718,9 +3814,10 @@
         "opponent": "Australia",
         "goals": 0,
         "assists": 0,
-        "shotsOnGoal": 0,
+        "shotsOnGoal": 1,
         "saves": 0,
-        "goalsConceded": 1
+        "goalsConceded": 2,
+        "result": "L"
       }
     ]
   },
@@ -3739,9 +3836,10 @@
         "opponent": "Australia",
         "goals": 0,
         "assists": 0,
-        "shotsOnGoal": 1,
+        "shotsOnGoal": 3,
         "saves": 0,
-        "goalsConceded": 1
+        "goalsConceded": 2,
+        "result": "L"
       }
     ]
   },
@@ -3757,7 +3855,25 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 1
+        "goalsConceded": 1,
+        "result": "L"
+      }
+    ]
+  },
+  {
+    "name": "Deniz Gül",
+    "country": "Türkiye",
+    "position": "",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Australia",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0,
+        "result": "L"
       }
     ]
   },
@@ -3773,7 +3889,8 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 1
+        "goalsConceded": 2,
+        "result": "L"
       }
     ]
   },
@@ -3787,9 +3904,10 @@
         "opponent": "Australia",
         "goals": 0,
         "assists": 0,
-        "shotsOnGoal": 0,
+        "shotsOnGoal": 2,
         "saves": 0,
-        "goalsConceded": 1
+        "goalsConceded": 2,
+        "result": "L"
       }
     ]
   },
@@ -3805,7 +3923,25 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 1
+        "goalsConceded": 2,
+        "result": "L"
+      }
+    ]
+  },
+  {
+    "name": "Kenan Yildiz",
+    "country": "Türkiye",
+    "position": "",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Australia",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 1,
+        "result": "L"
       }
     ]
   },
@@ -3819,9 +3955,10 @@
         "opponent": "Australia",
         "goals": 0,
         "assists": 0,
-        "shotsOnGoal": 0,
+        "shotsOnGoal": 1,
         "saves": 0,
-        "goalsConceded": 1
+        "goalsConceded": 2,
+        "result": "L"
       }
     ]
   },
@@ -3837,7 +3974,25 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 1
+        "goalsConceded": 2,
+        "result": "L"
+      }
+    ]
+  },
+  {
+    "name": "Mert Müldür",
+    "country": "Türkiye",
+    "position": "",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Australia",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0,
+        "result": "L"
       }
     ]
   },
@@ -3853,7 +4008,25 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 1
+        "goalsConceded": 1,
+        "result": "L"
+      }
+    ]
+  },
+  {
+    "name": "Salih Özcan",
+    "country": "Türkiye",
+    "position": "",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Australia",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0,
+        "result": "L"
       }
     ]
   },
@@ -3868,8 +4041,26 @@
         "goals": 0,
         "assists": 0,
         "shotsOnGoal": 0,
+        "saves": 2,
+        "goalsConceded": 2,
+        "result": "L"
+      }
+    ]
+  },
+  {
+    "name": "Yunus Akgün",
+    "country": "Türkiye",
+    "position": "",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Australia",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 1
+        "goalsConceded": 1,
+        "result": "L"
       }
     ]
   },
@@ -3883,9 +4074,10 @@
         "opponent": "Australia",
         "goals": 0,
         "assists": 0,
-        "shotsOnGoal": 0,
+        "shotsOnGoal": 1,
         "saves": 0,
-        "goalsConceded": 1
+        "goalsConceded": 2,
+        "result": "L"
       }
     ]
   },

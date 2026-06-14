@@ -15,6 +15,13 @@
       "managers": []
     },
     {
+      "name": "Connor Metcalfe",
+      "country": "Australia",
+      "position": "MID",
+      "value": 1,
+      "managers": []
+    },
+    {
       "name": "Cyle Larin",
       "country": "Canada",
       "position": "FWD",
@@ -78,13 +85,6 @@
     {
       "name": "Maurício",
       "country": "Paraguay",
-      "position": "MID",
-      "value": 1,
-      "managers": []
-    },
-    {
-      "name": "Nestory Irankunda",
-      "country": "Australia",
       "position": "MID",
       "value": 1,
       "managers": []
@@ -183,6 +183,13 @@
   ],
   "saves": [
     {
+      "name": "Patrick Beach",
+      "country": "Australia",
+      "position": "GK",
+      "value": 8,
+      "managers": []
+    },
+    {
       "name": "Mahmoud Abunada",
       "country": "Qatar",
       "position": "GK",
@@ -263,19 +270,19 @@
       "position": "GK",
       "value": 2,
       "managers": []
-    },
-    {
-      "name": "Johny Placide",
-      "country": "Haiti",
-      "position": "GK",
-      "value": 1,
-      "managers": []
     }
   ],
   "cleanSheets": [
     {
       "name": "Aaron Hickey",
       "country": "Scotland",
+      "position": "DEF",
+      "value": 1,
+      "managers": []
+    },
+    {
+      "name": "Alessandro Circati",
+      "country": "Australia",
       "position": "DEF",
       "value": 1,
       "managers": []
@@ -293,6 +300,13 @@
       ]
     },
     {
+      "name": "Cameron Burgess",
+      "country": "Australia",
+      "position": "DEF",
+      "value": 1,
+      "managers": []
+    },
+    {
       "name": "César Montes",
       "country": "Mexico",
       "position": "DEF",
@@ -307,6 +321,13 @@
       "managers": []
     },
     {
+      "name": "Harry Souttar",
+      "country": "Australia",
+      "position": "DEF",
+      "value": 1,
+      "managers": []
+    },
+    {
       "name": "Israel Reyes",
       "country": "Mexico",
       "position": "DEF",
@@ -316,6 +337,13 @@
     {
       "name": "Jack Hendry",
       "country": "Scotland",
+      "position": "DEF",
+      "value": 1,
+      "managers": []
+    },
+    {
+      "name": "Jacob Italiano",
+      "country": "Australia",
       "position": "DEF",
       "value": 1,
       "managers": []
