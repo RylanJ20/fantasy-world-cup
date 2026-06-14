@@ -102,10 +102,10 @@
     "stage": "Group E",
     "home": "Germany",
     "away": "Curaçao",
-    "status": "IN_PLAY",
-    "homeScore": 2,
+    "status": "FINISHED",
+    "homeScore": 7,
     "awayScore": 1,
-    "winner": null
+    "winner": "HOME_TEAM"
   },
   {
     "n": 760425,
@@ -114,9 +114,9 @@
     "stage": "Group F",
     "home": "Netherlands",
     "away": "Japan",
-    "status": "TIMED",
-    "homeScore": null,
-    "awayScore": null,
+    "status": "IN_PLAY",
+    "homeScore": 0,
+    "awayScore": 0,
     "winner": null
   },
   {

@@ -1134,7 +1134,8 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 7
+        "goalsConceded": 7,
+        "result": "L"
       }
     ]
   },
@@ -1150,7 +1151,8 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 7
+        "goalsConceded": 7,
+        "result": "L"
       }
     ]
   },
@@ -1166,7 +1168,8 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 4,
-        "goalsConceded": 7
+        "goalsConceded": 7,
+        "result": "L"
       }
     ]
   },
@@ -1182,7 +1185,8 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 1
+        "goalsConceded": 1,
+        "result": "L"
       }
     ]
   },
@@ -1198,7 +1202,8 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 3
+        "goalsConceded": 3,
+        "result": "L"
       }
     ]
   },
@@ -1214,7 +1219,8 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 4
+        "goalsConceded": 4,
+        "result": "L"
       }
     ]
   },
@@ -1230,7 +1236,8 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 7
+        "goalsConceded": 7,
+        "result": "L"
       }
     ]
   },
@@ -1246,7 +1253,8 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 4
+        "goalsConceded": 4,
+        "result": "L"
       }
     ]
   },
@@ -1262,7 +1270,8 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 7
+        "goalsConceded": 7,
+        "result": "L"
       }
     ]
   },
@@ -1278,7 +1287,8 @@
         "assists": 0,
         "shotsOnGoal": 1,
         "saves": 0,
-        "goalsConceded": 7
+        "goalsConceded": 7,
+        "result": "L"
       }
     ]
   },
@@ -1294,7 +1304,8 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 7
+        "goalsConceded": 7,
+        "result": "L"
       }
     ]
   },
@@ -1310,7 +1321,8 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 7
+        "goalsConceded": 7,
+        "result": "L"
       }
     ]
   },
@@ -1326,7 +1338,8 @@
         "assists": 0,
         "shotsOnGoal": 1,
         "saves": 0,
-        "goalsConceded": 3
+        "goalsConceded": 3,
+        "result": "L"
       }
     ]
   },
@@ -1342,7 +1355,8 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 6
+        "goalsConceded": 6,
+        "result": "L"
       }
     ]
   },
@@ -1618,7 +1632,8 @@
         "assists": 0,
         "shotsOnGoal": 1,
         "saves": 0,
-        "goalsConceded": 1
+        "goalsConceded": 1,
+        "result": "W"
       }
     ]
   },
@@ -1639,7 +1654,8 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 0
+        "goalsConceded": 0,
+        "result": "W"
       }
     ]
   },
@@ -1660,7 +1676,8 @@
         "assists": 0,
         "shotsOnGoal": 1,
         "saves": 0,
-        "goalsConceded": 0
+        "goalsConceded": 0,
+        "result": "W"
       }
     ]
   },
@@ -1676,7 +1693,8 @@
         "assists": 2,
         "shotsOnGoal": 1,
         "saves": 0,
-        "goalsConceded": 0
+        "goalsConceded": 0,
+        "result": "W"
       }
     ]
   },
@@ -1692,7 +1710,8 @@
         "assists": 0,
         "shotsOnGoal": 3,
         "saves": 0,
-        "goalsConceded": 1
+        "goalsConceded": 1,
+        "result": "W"
       }
     ]
   },
@@ -1713,7 +1732,8 @@
         "assists": 1,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 1
+        "goalsConceded": 1,
+        "result": "W"
       }
     ]
   },
@@ -1734,7 +1754,8 @@
         "assists": 0,
         "shotsOnGoal": 1,
         "saves": 0,
-        "goalsConceded": 1
+        "goalsConceded": 1,
+        "result": "W"
       }
     ]
   },
@@ -1755,7 +1776,8 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 1
+        "goalsConceded": 1,
+        "result": "W"
       }
     ]
   },
@@ -1776,7 +1798,8 @@
         "assists": 2,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 1
+        "goalsConceded": 1,
+        "result": "W"
       }
     ]
   },
@@ -1797,7 +1820,8 @@
         "assists": 0,
         "shotsOnGoal": 2,
         "saves": 0,
-        "goalsConceded": 1
+        "goalsConceded": 1,
+        "result": "W"
       }
     ]
   },
@@ -1813,7 +1837,8 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 0
+        "goalsConceded": 0,
+        "result": "W"
       }
     ]
   },
@@ -1829,7 +1854,8 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 1
+        "goalsConceded": 1,
+        "result": "W"
       }
     ]
   },
@@ -1850,7 +1876,8 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 1,
-        "goalsConceded": 1
+        "goalsConceded": 1,
+        "result": "W"
       }
     ]
   },
@@ -1866,7 +1893,8 @@
         "assists": 1,
         "shotsOnGoal": 1,
         "saves": 0,
-        "goalsConceded": 1
+        "goalsConceded": 1,
+        "result": "W"
       }
     ]
   },
@@ -1882,7 +1910,8 @@
         "assists": 0,
         "shotsOnGoal": 2,
         "saves": 0,
-        "goalsConceded": 1
+        "goalsConceded": 1,
+        "result": "W"
       }
     ]
   },
@@ -1898,7 +1927,8 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 0
+        "goalsConceded": 0,
+        "result": "W"
       }
     ]
   },
@@ -2137,6 +2167,182 @@
         "saves": 0,
         "goalsConceded": 0,
         "result": "L"
+      }
+    ]
+  },
+  {
+    "name": "Ayase Ueda",
+    "country": "Japan",
+    "position": "FWD",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Netherlands",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Daichi Kamada",
+    "country": "Japan",
+    "position": "MID",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Netherlands",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Daizen Maeda",
+    "country": "Japan",
+    "position": "FWD",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Netherlands",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Hiroki Ito",
+    "country": "Japan",
+    "position": "DEF",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Netherlands",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Kaishu Sano",
+    "country": "Japan",
+    "position": "MID",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Netherlands",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Keito Nakamura",
+    "country": "Japan",
+    "position": "MID",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Netherlands",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Ritsu Doan",
+    "country": "Japan",
+    "position": "MID",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Netherlands",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Shogo Taniguchi",
+    "country": "Japan",
+    "position": "DEF",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Netherlands",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Takefusa Kubo",
+    "country": "Japan",
+    "position": "FWD",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Netherlands",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Tsuyoshi Watanabe",
+    "country": "Japan",
+    "position": "DEF",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Netherlands",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Zion Suzuki",
+    "country": "Japan",
+    "position": "GK",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Netherlands",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 1,
+        "goalsConceded": 0
       }
     ]
   },
@@ -2686,6 +2892,212 @@
         "saves": 4,
         "goalsConceded": 1,
         "result": "D"
+      }
+    ]
+  },
+  {
+    "name": "Bart Verbruggen",
+    "country": "Netherlands",
+    "position": "GK",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Japan",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Cody Gakpo",
+    "country": "Netherlands",
+    "position": "FWD",
+    "managers": [
+      {
+        "id": "rylan",
+        "name": "Rylan"
+      }
+    ],
+    "matches": [
+      {
+        "opponent": "Japan",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Crysencio Summerville",
+    "country": "Netherlands",
+    "position": "FWD",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Japan",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Denzel Dumfries",
+    "country": "Netherlands",
+    "position": "DEF",
+    "managers": [
+      {
+        "id": "rylan",
+        "name": "Rylan"
+      }
+    ],
+    "matches": [
+      {
+        "opponent": "Japan",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Donyell Malen",
+    "country": "Netherlands",
+    "position": "FWD",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Japan",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 1,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Frenkie de Jong",
+    "country": "Netherlands",
+    "position": "MID",
+    "managers": [
+      {
+        "id": "travis",
+        "name": "Travis"
+      }
+    ],
+    "matches": [
+      {
+        "opponent": "Japan",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Jan Paul van Hecke",
+    "country": "Netherlands",
+    "position": "DEF",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Japan",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Micky van de Ven",
+    "country": "Netherlands",
+    "position": "DEF",
+    "managers": [
+      {
+        "id": "travis",
+        "name": "Travis"
+      }
+    ],
+    "matches": [
+      {
+        "opponent": "Japan",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Ryan Gravenberch",
+    "country": "Netherlands",
+    "position": "MID",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Japan",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Tijjani Reijnders",
+    "country": "Netherlands",
+    "position": "MID",
+    "managers": [
+      {
+        "id": "marc",
+        "name": "Marc"
+      }
+    ],
+    "matches": [
+      {
+        "opponent": "Japan",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Virgil van Dijk",
+    "country": "Netherlands",
+    "position": "DEF",
+    "managers": [
+      {
+        "id": "terrick",
+        "name": "Terrick"
+      }
+    ],
+    "matches": [
+      {
+        "opponent": "Japan",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },

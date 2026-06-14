@@ -217,18 +217,18 @@
       {
         "position": 1,
         "team": "Germany",
-        "played": 0,
-        "won": 0,
+        "played": 1,
+        "won": 1,
         "draw": 0,
         "lost": 0,
-        "gf": 0,
-        "ga": 0,
-        "gd": 0,
-        "points": 0
+        "gf": 7,
+        "ga": 1,
+        "gd": 6,
+        "points": 3
       },
       {
         "position": 2,
-        "team": "Curaçao",
+        "team": "Ecuador",
         "played": 0,
         "won": 0,
         "draw": 0,
@@ -252,14 +252,14 @@
       },
       {
         "position": 4,
-        "team": "Ecuador",
-        "played": 0,
+        "team": "Curaçao",
+        "played": 1,
         "won": 0,
         "draw": 0,
-        "lost": 0,
-        "gf": 0,
-        "ga": 0,
-        "gd": 0,
+        "lost": 1,
+        "gf": 1,
+        "ga": 7,
+        "gd": -6,
         "points": 0
       }
     ]
@@ -269,7 +269,7 @@
     "table": [
       {
         "position": 1,
-        "team": "Netherlands",
+        "team": "Japan",
         "played": 0,
         "won": 0,
         "draw": 0,
@@ -281,7 +281,7 @@
       },
       {
         "position": 2,
-        "team": "Japan",
+        "team": "Netherlands",
         "played": 0,
         "won": 0,
         "draw": 0,

@@ -258,7 +258,8 @@
         "date": "2026-06-14T17:00Z",
         "goals": 0,
         "assists": 1,
-        "shotsOnGoal": 0
+        "shotsOnGoal": 0,
+        "result": "W"
       }
     ]
   },
@@ -273,7 +274,8 @@
         "goals": 0,
         "assists": 2,
         "shotsOnGoal": 0,
-        "goalsConceded": 1
+        "goalsConceded": 1,
+        "result": "W"
       }
     ]
   },
@@ -288,7 +290,8 @@
         "goals": 0,
         "assists": 0,
         "shotsOnGoal": 0,
-        "goalsConceded": 0
+        "goalsConceded": 0,
+        "result": "W"
       }
     ]
   },
@@ -302,7 +305,8 @@
         "date": "2026-06-14T17:00Z",
         "goals": 1,
         "assists": 0,
-        "shotsOnGoal": 1
+        "shotsOnGoal": 1,
+        "result": "W"
       }
     ]
   },
@@ -317,7 +321,8 @@
         "goals": 0,
         "assists": 0,
         "shotsOnGoal": 1,
-        "goalsConceded": 0
+        "goalsConceded": 0,
+        "result": "W"
       }
     ]
   },
@@ -331,7 +336,8 @@
         "date": "2026-06-14T17:00Z",
         "goals": 2,
         "assists": 0,
-        "shotsOnGoal": 2
+        "shotsOnGoal": 2,
+        "result": "W"
       }
     ]
   },
@@ -346,7 +352,8 @@
         "goals": 0,
         "assists": 0,
         "shotsOnGoal": 0,
-        "goalsConceded": 1
+        "goalsConceded": 1,
+        "result": "W"
       }
     ]
   },
@@ -362,7 +369,95 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 1,
-        "goalsConceded": 1
+        "goalsConceded": 1,
+        "result": "W"
+      }
+    ]
+  },
+  "nl|cody gakpo": {
+    "country": "Netherlands",
+    "name": "Cody Gakpo",
+    "matches": [
+      {
+        "fixtureId": 760425,
+        "opponent": "Japan",
+        "date": "2026-06-14T20:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0
+      }
+    ]
+  },
+  "nl|denzel dumfries": {
+    "country": "Netherlands",
+    "name": "Denzel Dumfries",
+    "matches": [
+      {
+        "fixtureId": 760425,
+        "opponent": "Japan",
+        "date": "2026-06-14T20:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  "nl|tijjani reijnders": {
+    "country": "Netherlands",
+    "name": "Tijjani Reijnders",
+    "matches": [
+      {
+        "fixtureId": 760425,
+        "opponent": "Japan",
+        "date": "2026-06-14T20:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0
+      }
+    ]
+  },
+  "nl|virgil van dijk": {
+    "country": "Netherlands",
+    "name": "Virgil van Dijk",
+    "matches": [
+      {
+        "fixtureId": 760425,
+        "opponent": "Japan",
+        "date": "2026-06-14T20:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  "nl|frenkie de jong": {
+    "country": "Netherlands",
+    "name": "Frenkie de Jong",
+    "matches": [
+      {
+        "fixtureId": 760425,
+        "opponent": "Japan",
+        "date": "2026-06-14T20:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0
+      }
+    ]
+  },
+  "nl|micky van de ven": {
+    "country": "Netherlands",
+    "name": "Micky van de Ven",
+    "matches": [
+      {
+        "fixtureId": 760425,
+        "opponent": "Japan",
+        "date": "2026-06-14T20:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "goalsConceded": 0
       }
     ]
   }
