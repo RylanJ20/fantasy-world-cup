@@ -34,6 +34,13 @@
       "managers": []
     },
     {
+      "name": "Crysencio Summerville",
+      "country": "Netherlands",
+      "position": "FWD",
+      "value": 1,
+      "managers": []
+    },
+    {
       "name": "Cyle Larin",
       "country": "Canada",
       "position": "FWD",
@@ -86,13 +93,6 @@
           "name": "Ben"
         }
       ]
-    },
-    {
-      "name": "John McGinn",
-      "country": "Scotland",
-      "position": "MID",
-      "value": 1,
-      "managers": []
     }
   ],
   "assists": [
@@ -114,6 +114,13 @@
           "name": "Marc"
         }
       ]
+    },
+    {
+      "name": "Ryan Gravenberch",
+      "country": "Netherlands",
+      "position": "MID",
+      "value": 2,
+      "managers": []
     },
     {
       "name": "Alex Freeman",
@@ -187,13 +194,6 @@
       "position": "FWD",
       "value": 1,
       "managers": []
-    },
-    {
-      "name": "Malik Tillman",
-      "country": "United States",
-      "position": "MID",
-      "value": 1,
-      "managers": []
     }
   ],
   "saves": [
@@ -228,6 +228,13 @@
     {
       "name": "Yassine Bounou",
       "country": "Morocco",
+      "position": "GK",
+      "value": 4,
+      "managers": []
+    },
+    {
+      "name": "Zion Suzuki",
+      "country": "Japan",
       "position": "GK",
       "value": 4,
       "managers": []
@@ -275,13 +282,6 @@
     {
       "name": "Maxime Crépeau",
       "country": "Canada",
-      "position": "GK",
-      "value": 2,
-      "managers": []
-    },
-    {
-      "name": "Raúl Rangel",
-      "country": "Mexico",
       "position": "GK",
       "value": 2,
       "managers": []

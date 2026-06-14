@@ -384,7 +384,7 @@
         "date": "2026-06-14T20:00Z",
         "goals": 0,
         "assists": 0,
-        "shotsOnGoal": 0
+        "shotsOnGoal": 1
       }
     ]
   },
@@ -399,7 +399,7 @@
         "goals": 0,
         "assists": 0,
         "shotsOnGoal": 0,
-        "goalsConceded": 0
+        "goalsConceded": 1
       }
     ]
   },
@@ -420,6 +420,21 @@
   "nl|virgil van dijk": {
     "country": "Netherlands",
     "name": "Virgil van Dijk",
+    "matches": [
+      {
+        "fixtureId": 760425,
+        "opponent": "Japan",
+        "date": "2026-06-14T20:00Z",
+        "goals": 1,
+        "assists": 0,
+        "shotsOnGoal": 1,
+        "goalsConceded": 1
+      }
+    ]
+  },
+  "nl|nathan ake": {
+    "country": "Netherlands",
+    "name": "Nathan Aké",
     "matches": [
       {
         "fixtureId": 760425,
@@ -457,7 +472,7 @@
         "goals": 0,
         "assists": 0,
         "shotsOnGoal": 0,
-        "goalsConceded": 0
+        "goalsConceded": 1
       }
     ]
   }

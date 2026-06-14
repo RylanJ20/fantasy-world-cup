@@ -2182,7 +2182,7 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 0
+        "goalsConceded": 2
       }
     ]
   },
@@ -2198,7 +2198,7 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 0
+        "goalsConceded": 2
       }
     ]
   },
@@ -2214,7 +2214,7 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 0
+        "goalsConceded": 2
       }
     ]
   },
@@ -2222,6 +2222,22 @@
     "name": "Hiroki Ito",
     "country": "Japan",
     "position": "DEF",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Netherlands",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 2
+      }
+    ]
+  },
+  {
+    "name": "Junya Ito",
+    "country": "Japan",
+    "position": "",
     "managers": [],
     "matches": [
       {
@@ -2246,7 +2262,7 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 0
+        "goalsConceded": 2
       }
     ]
   },
@@ -2254,6 +2270,38 @@
     "name": "Keito Nakamura",
     "country": "Japan",
     "position": "MID",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Netherlands",
+        "goals": 1,
+        "assists": 0,
+        "shotsOnGoal": 1,
+        "saves": 0,
+        "goalsConceded": 2
+      }
+    ]
+  },
+  {
+    "name": "Kento Shiogai",
+    "country": "Japan",
+    "position": "",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Netherlands",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Koki Ogawa",
+    "country": "Japan",
+    "position": "",
     "managers": [],
     "matches": [
       {
@@ -2278,7 +2326,7 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 0
+        "goalsConceded": 2
       }
     ]
   },
@@ -2294,7 +2342,7 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 0
+        "goalsConceded": 2
       }
     ]
   },
@@ -2302,6 +2350,22 @@
     "name": "Takefusa Kubo",
     "country": "Japan",
     "position": "FWD",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Netherlands",
+        "goals": 0,
+        "assists": 1,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 2
+      }
+    ]
+  },
+  {
+    "name": "Takehiro Tomiyasu",
+    "country": "Japan",
+    "position": "",
     "managers": [],
     "matches": [
       {
@@ -2326,6 +2390,22 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
+        "goalsConceded": 2
+      }
+    ]
+  },
+  {
+    "name": "Yukinari Sugawara",
+    "country": "Japan",
+    "position": "",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Netherlands",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 1,
+        "saves": 0,
         "goalsConceded": 0
       }
     ]
@@ -2341,8 +2421,8 @@
         "goals": 0,
         "assists": 0,
         "shotsOnGoal": 0,
-        "saves": 1,
-        "goalsConceded": 0
+        "saves": 4,
+        "goalsConceded": 2
       }
     ]
   },
@@ -2906,6 +2986,22 @@
         "goals": 0,
         "assists": 0,
         "shotsOnGoal": 0,
+        "saves": 1,
+        "goalsConceded": 1
+      }
+    ]
+  },
+  {
+    "name": "Brian Brobbey",
+    "country": "Netherlands",
+    "position": "",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Japan",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
         "saves": 0,
         "goalsConceded": 0
       }
@@ -2926,9 +3022,9 @@
         "opponent": "Japan",
         "goals": 0,
         "assists": 0,
-        "shotsOnGoal": 0,
+        "shotsOnGoal": 1,
         "saves": 0,
-        "goalsConceded": 0
+        "goalsConceded": 1
       }
     ]
   },
@@ -2940,11 +3036,11 @@
     "matches": [
       {
         "opponent": "Japan",
-        "goals": 0,
+        "goals": 1,
         "assists": 0,
-        "shotsOnGoal": 0,
+        "shotsOnGoal": 1,
         "saves": 0,
-        "goalsConceded": 0
+        "goalsConceded": 1
       }
     ]
   },
@@ -2965,7 +3061,7 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 0
+        "goalsConceded": 1
       }
     ]
   },
@@ -2979,9 +3075,9 @@
         "opponent": "Japan",
         "goals": 0,
         "assists": 0,
-        "shotsOnGoal": 1,
+        "shotsOnGoal": 2,
         "saves": 0,
-        "goalsConceded": 0
+        "goalsConceded": 1
       }
     ]
   },
@@ -3002,7 +3098,7 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 0
+        "goalsConceded": 1
       }
     ]
   },
@@ -3010,6 +3106,22 @@
     "name": "Jan Paul van Hecke",
     "country": "Netherlands",
     "position": "DEF",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Japan",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 1,
+        "saves": 0,
+        "goalsConceded": 1
+      }
+    ]
+  },
+  {
+    "name": "Memphis Depay",
+    "country": "Netherlands",
+    "position": "",
     "managers": [],
     "matches": [
       {
@@ -3039,6 +3151,43 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
+        "goalsConceded": 1
+      }
+    ]
+  },
+  {
+    "name": "Nathan Aké",
+    "country": "Netherlands",
+    "position": "DEF",
+    "managers": [
+      {
+        "id": "ben",
+        "name": "Ben"
+      }
+    ],
+    "matches": [
+      {
+        "opponent": "Japan",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Quinten Timber",
+    "country": "Netherlands",
+    "position": "",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Japan",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
         "goalsConceded": 0
       }
     ]
@@ -3047,6 +3196,22 @@
     "name": "Ryan Gravenberch",
     "country": "Netherlands",
     "position": "MID",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Japan",
+        "goals": 0,
+        "assists": 2,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 1
+      }
+    ]
+  },
+  {
+    "name": "Teun Koopmeiners",
+    "country": "Netherlands",
+    "position": "",
     "managers": [],
     "matches": [
       {
@@ -3076,7 +3241,7 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 0
+        "goalsConceded": 1
       }
     ]
   },
@@ -3093,11 +3258,11 @@
     "matches": [
       {
         "opponent": "Japan",
-        "goals": 0,
+        "goals": 1,
         "assists": 0,
-        "shotsOnGoal": 0,
+        "shotsOnGoal": 1,
         "saves": 0,
-        "goalsConceded": 0
+        "goalsConceded": 1
       }
     ]
   },
