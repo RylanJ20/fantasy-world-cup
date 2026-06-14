@@ -271,9 +271,24 @@
         "opponent": "Curaçao",
         "date": "2026-06-14T17:00Z",
         "goals": 0,
-        "assists": 0,
+        "assists": 2,
         "shotsOnGoal": 0,
         "goalsConceded": 1
+      }
+    ]
+  },
+  "de|antonio rudiger": {
+    "country": "Germany",
+    "name": "Antonio Rüdiger",
+    "matches": [
+      {
+        "fixtureId": 760422,
+        "opponent": "Curaçao",
+        "date": "2026-06-14T17:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -285,9 +300,24 @@
         "fixtureId": 760422,
         "opponent": "Curaçao",
         "date": "2026-06-14T17:00Z",
+        "goals": 1,
+        "assists": 0,
+        "shotsOnGoal": 1
+      }
+    ]
+  },
+  "de|david raum": {
+    "country": "Germany",
+    "name": "David Raum",
+    "matches": [
+      {
+        "fixtureId": 760422,
+        "opponent": "Curaçao",
+        "date": "2026-06-14T17:00Z",
         "goals": 0,
         "assists": 0,
-        "shotsOnGoal": 0
+        "shotsOnGoal": 1,
+        "goalsConceded": 0
       }
     ]
   },
@@ -299,9 +329,9 @@
         "fixtureId": 760422,
         "opponent": "Curaçao",
         "date": "2026-06-14T17:00Z",
-        "goals": 0,
+        "goals": 2,
         "assists": 0,
-        "shotsOnGoal": 0
+        "shotsOnGoal": 2
       }
     ]
   },
@@ -331,7 +361,7 @@
         "goals": 0,
         "assists": 0,
         "shotsOnGoal": 0,
-        "saves": 0,
+        "saves": 1,
         "goalsConceded": 1
       }
     ]

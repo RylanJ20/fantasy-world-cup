@@ -8,6 +8,18 @@
       "managers": []
     },
     {
+      "name": "Kai Havertz",
+      "country": "Germany",
+      "position": "FWD",
+      "value": 2,
+      "managers": [
+        {
+          "id": "alejandro",
+          "name": "Alejandro"
+        }
+      ]
+    },
+    {
       "name": "Breel Embolo",
       "country": "Switzerland",
       "position": "FWD",
@@ -24,6 +36,13 @@
     {
       "name": "Cyle Larin",
       "country": "Canada",
+      "position": "FWD",
+      "value": 1,
+      "managers": []
+    },
+    {
+      "name": "Deniz Undav",
+      "country": "Germany",
       "position": "FWD",
       "value": 1,
       "managers": []
@@ -57,40 +76,45 @@
       "managers": []
     },
     {
+      "name": "Jamal Musiala",
+      "country": "Germany",
+      "position": "MID",
+      "value": 1,
+      "managers": [
+        {
+          "id": "ben",
+          "name": "Ben"
+        }
+      ]
+    },
+    {
       "name": "John McGinn",
       "country": "Scotland",
       "position": "MID",
       "value": 1,
       "managers": []
-    },
+    }
+  ],
+  "assists": [
     {
-      "name": "Jovo Lukic",
-      "country": "Bosnia-Herzegovina",
+      "name": "Deniz Undav",
+      "country": "Germany",
       "position": "FWD",
-      "value": 1,
+      "value": 2,
       "managers": []
     },
     {
-      "name": "Julián Quiñones",
-      "country": "Mexico",
-      "position": "MID",
-      "value": 1,
-      "managers": []
-    },
-    {
-      "name": "Ladislav Krejcí",
-      "country": "Czechia",
+      "name": "Joshua Kimmich",
+      "country": "Germany",
       "position": "DEF",
-      "value": 1,
+      "value": 2,
       "managers": [
         {
           "id": "marc",
           "name": "Marc"
         }
       ]
-    }
-  ],
-  "assists": [
+    },
     {
       "name": "Alex Freeman",
       "country": "United States",
@@ -170,20 +194,6 @@
       "position": "MID",
       "value": 1,
       "managers": []
-    },
-    {
-      "name": "Nathaniel Brown",
-      "country": "Germany",
-      "position": "DEF",
-      "value": 1,
-      "managers": []
-    },
-    {
-      "name": "Paul Okon-Engstler",
-      "country": "Australia",
-      "position": "MID",
-      "value": 1,
-      "managers": []
     }
   ],
   "saves": [
@@ -199,6 +209,13 @@
       "country": "Qatar",
       "position": "GK",
       "value": 5,
+      "managers": []
+    },
+    {
+      "name": "Eloy Room",
+      "country": "Curaçao",
+      "position": "GK",
+      "value": 4,
       "managers": []
     },
     {
@@ -251,13 +268,6 @@
     {
       "name": "Angus Gunn",
       "country": "Scotland",
-      "position": "GK",
-      "value": 2,
-      "managers": []
-    },
-    {
-      "name": "Eloy Room",
-      "country": "Curaçao",
       "position": "GK",
       "value": 2,
       "managers": []

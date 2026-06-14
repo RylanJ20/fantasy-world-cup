@@ -1134,7 +1134,7 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 2
+        "goalsConceded": 7
       }
     ]
   },
@@ -1150,7 +1150,7 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 2
+        "goalsConceded": 7
       }
     ]
   },
@@ -1165,8 +1165,56 @@
         "goals": 0,
         "assists": 0,
         "shotsOnGoal": 0,
-        "saves": 2,
-        "goalsConceded": 2
+        "saves": 4,
+        "goalsConceded": 7
+      }
+    ]
+  },
+  {
+    "name": "Gervane Kastaneer",
+    "country": "Curaçao",
+    "position": "",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Germany",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 1
+      }
+    ]
+  },
+  {
+    "name": "Jearl Margaritha",
+    "country": "Curaçao",
+    "position": "",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Germany",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 3
+      }
+    ]
+  },
+  {
+    "name": "Jeremy Antonisse",
+    "country": "Curaçao",
+    "position": "",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Germany",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 4
       }
     ]
   },
@@ -1182,7 +1230,7 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 2
+        "goalsConceded": 7
       }
     ]
   },
@@ -1198,7 +1246,7 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 2
+        "goalsConceded": 4
       }
     ]
   },
@@ -1214,7 +1262,7 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 2
+        "goalsConceded": 7
       }
     ]
   },
@@ -1230,7 +1278,7 @@
         "assists": 0,
         "shotsOnGoal": 1,
         "saves": 0,
-        "goalsConceded": 2
+        "goalsConceded": 7
       }
     ]
   },
@@ -1246,7 +1294,7 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 2
+        "goalsConceded": 7
       }
     ]
   },
@@ -1262,7 +1310,7 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 2
+        "goalsConceded": 7
       }
     ]
   },
@@ -1276,9 +1324,9 @@
         "opponent": "Germany",
         "goals": 0,
         "assists": 0,
-        "shotsOnGoal": 0,
+        "shotsOnGoal": 1,
         "saves": 0,
-        "goalsConceded": 2
+        "goalsConceded": 3
       }
     ]
   },
@@ -1294,7 +1342,7 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 2
+        "goalsConceded": 6
       }
     ]
   },
@@ -1568,9 +1616,67 @@
         "opponent": "Curaçao",
         "goals": 0,
         "assists": 0,
-        "shotsOnGoal": 0,
+        "shotsOnGoal": 1,
         "saves": 0,
         "goalsConceded": 1
+      }
+    ]
+  },
+  {
+    "name": "Antonio Rüdiger",
+    "country": "Germany",
+    "position": "DEF",
+    "managers": [
+      {
+        "id": "terrick",
+        "name": "Terrick"
+      }
+    ],
+    "matches": [
+      {
+        "opponent": "Curaçao",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "David Raum",
+    "country": "Germany",
+    "position": "DEF",
+    "managers": [
+      {
+        "id": "grayson",
+        "name": "Grayson"
+      }
+    ],
+    "matches": [
+      {
+        "opponent": "Curaçao",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 1,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Deniz Undav",
+    "country": "Germany",
+    "position": "FWD",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Curaçao",
+        "goals": 1,
+        "assists": 2,
+        "shotsOnGoal": 1,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -1584,7 +1690,7 @@
         "opponent": "Curaçao",
         "goals": 1,
         "assists": 0,
-        "shotsOnGoal": 2,
+        "shotsOnGoal": 3,
         "saves": 0,
         "goalsConceded": 1
       }
@@ -1624,9 +1730,9 @@
     "matches": [
       {
         "opponent": "Curaçao",
-        "goals": 0,
+        "goals": 1,
         "assists": 0,
-        "shotsOnGoal": 0,
+        "shotsOnGoal": 1,
         "saves": 0,
         "goalsConceded": 1
       }
@@ -1667,7 +1773,7 @@
       {
         "opponent": "Curaçao",
         "goals": 0,
-        "assists": 0,
+        "assists": 2,
         "shotsOnGoal": 0,
         "saves": 0,
         "goalsConceded": 1
@@ -1687,11 +1793,27 @@
     "matches": [
       {
         "opponent": "Curaçao",
+        "goals": 2,
+        "assists": 0,
+        "shotsOnGoal": 2,
+        "saves": 0,
+        "goalsConceded": 1
+      }
+    ]
+  },
+  {
+    "name": "Leon Goretzka",
+    "country": "Germany",
+    "position": "",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Curaçao",
         "goals": 0,
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 1
+        "goalsConceded": 0
       }
     ]
   },
@@ -1727,7 +1849,7 @@
         "goals": 0,
         "assists": 0,
         "shotsOnGoal": 0,
-        "saves": 0,
+        "saves": 1,
         "goalsConceded": 1
       }
     ]
@@ -1740,9 +1862,9 @@
     "matches": [
       {
         "opponent": "Curaçao",
-        "goals": 0,
+        "goals": 1,
         "assists": 1,
-        "shotsOnGoal": 0,
+        "shotsOnGoal": 1,
         "saves": 0,
         "goalsConceded": 1
       }
@@ -1761,6 +1883,22 @@
         "shotsOnGoal": 2,
         "saves": 0,
         "goalsConceded": 1
+      }
+    ]
+  },
+  {
+    "name": "Waldemar Anton",
+    "country": "Germany",
+    "position": "",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Curaçao",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
