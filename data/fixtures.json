@@ -66,10 +66,10 @@
     "stage": "Group C",
     "home": "Brazil",
     "away": "Morocco",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "homeScore": 1,
     "awayScore": 1,
-    "winner": null
+    "winner": "DRAW"
   },
   {
     "n": 760418,
@@ -78,10 +78,10 @@
     "stage": "Group C",
     "home": "Haiti",
     "away": "Scotland",
-    "status": "TIMED",
-    "homeScore": null,
-    "awayScore": null,
-    "winner": null
+    "status": "FINISHED",
+    "homeScore": 0,
+    "awayScore": 1,
+    "winner": "AWAY_TEAM"
   },
   {
     "n": 760421,
@@ -90,9 +90,9 @@
     "stage": "Group D",
     "home": "Australia",
     "away": "Türkiye",
-    "status": "TIMED",
-    "homeScore": null,
-    "awayScore": null,
+    "status": "IN_PLAY",
+    "homeScore": 1,
+    "awayScore": 0,
     "winner": null
   },
   {

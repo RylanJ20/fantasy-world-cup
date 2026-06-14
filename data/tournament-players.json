@@ -1,5 +1,181 @@
 [
   {
+    "name": "Aiden O'Neill",
+    "country": "Australia",
+    "position": "MID",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Türkiye",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Alessandro Circati",
+    "country": "Australia",
+    "position": "DEF",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Türkiye",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Cameron Burgess",
+    "country": "Australia",
+    "position": "DEF",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Türkiye",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Connor Metcalfe",
+    "country": "Australia",
+    "position": "MID",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Türkiye",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Harry Souttar",
+    "country": "Australia",
+    "position": "DEF",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Türkiye",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Jacob Italiano",
+    "country": "Australia",
+    "position": "DEF",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Türkiye",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Jordan Bos",
+    "country": "Australia",
+    "position": "DEF",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Türkiye",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Mohamed Toure",
+    "country": "Australia",
+    "position": "FWD",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Türkiye",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Nestory Irankunda",
+    "country": "Australia",
+    "position": "MID",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Türkiye",
+        "goals": 1,
+        "assists": 0,
+        "shotsOnGoal": 1,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Patrick Beach",
+    "country": "Australia",
+    "position": "GK",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Türkiye",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 1,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Paul Okon-Engstler",
+    "country": "Australia",
+    "position": "MID",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Türkiye",
+        "goals": 0,
+        "assists": 1,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
     "name": "Amar Dedic",
     "country": "Bosnia-Herzegovina",
     "position": "DEF",
@@ -287,8 +463,9 @@
         "goals": 0,
         "assists": 0,
         "shotsOnGoal": 0,
-        "saves": 1,
-        "goalsConceded": 1
+        "saves": 2,
+        "goalsConceded": 1,
+        "result": "D"
       }
     ]
   },
@@ -304,7 +481,8 @@
         "assists": 1,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 1
+        "goalsConceded": 1,
+        "result": "D"
       }
     ]
   },
@@ -325,7 +503,8 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 1
+        "goalsConceded": 1,
+        "result": "D"
       }
     ]
   },
@@ -341,7 +520,25 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 0
+        "goalsConceded": 0,
+        "result": "D"
+      }
+    ]
+  },
+  {
+    "name": "Danilo Santos",
+    "country": "Brazil",
+    "position": "",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Morocco",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 1,
+        "saves": 0,
+        "goalsConceded": 0,
+        "result": "D"
       }
     ]
   },
@@ -357,7 +554,8 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 1
+        "goalsConceded": 1,
+        "result": "D"
       }
     ]
   },
@@ -373,7 +571,8 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 0
+        "goalsConceded": 0,
+        "result": "D"
       }
     ]
   },
@@ -394,7 +593,8 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 1
+        "goalsConceded": 1,
+        "result": "D"
       }
     ]
   },
@@ -410,7 +610,8 @@
         "assists": 0,
         "shotsOnGoal": 1,
         "saves": 0,
-        "goalsConceded": 1
+        "goalsConceded": 1,
+        "result": "D"
       }
     ]
   },
@@ -431,7 +632,8 @@
         "assists": 0,
         "shotsOnGoal": 1,
         "saves": 0,
-        "goalsConceded": 1
+        "goalsConceded": 1,
+        "result": "D"
       }
     ]
   },
@@ -447,7 +649,8 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 0
+        "goalsConceded": 0,
+        "result": "D"
       }
     ]
   },
@@ -468,7 +671,8 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 1
+        "goalsConceded": 1,
+        "result": "D"
       }
     ]
   },
@@ -484,7 +688,8 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 0
+        "goalsConceded": 0,
+        "result": "D"
       }
     ]
   },
@@ -505,7 +710,8 @@
         "assists": 0,
         "shotsOnGoal": 1,
         "saves": 0,
-        "goalsConceded": 1
+        "goalsConceded": 1,
+        "result": "D"
       }
     ]
   },
@@ -521,7 +727,8 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 1
+        "goalsConceded": 1,
+        "result": "D"
       }
     ]
   },
@@ -542,7 +749,8 @@
         "assists": 0,
         "shotsOnGoal": 1,
         "saves": 0,
-        "goalsConceded": 1
+        "goalsConceded": 1,
+        "result": "D"
       }
     ]
   },
@@ -1079,6 +1287,244 @@
     ]
   },
   {
+    "name": "Carlens Arcus",
+    "country": "Haiti",
+    "position": "DEF",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Scotland",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 1,
+        "result": "L"
+      }
+    ]
+  },
+  {
+    "name": "Danley Jean Jacques",
+    "country": "Haiti",
+    "position": "MID",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Scotland",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 1,
+        "result": "L"
+      }
+    ]
+  },
+  {
+    "name": "Frantzdy Pierrot",
+    "country": "Haiti",
+    "position": "FWD",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Scotland",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 1,
+        "saves": 0,
+        "goalsConceded": 1,
+        "result": "L"
+      }
+    ]
+  },
+  {
+    "name": "Hannes Delcroix",
+    "country": "Haiti",
+    "position": "DEF",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Scotland",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 1,
+        "result": "L"
+      }
+    ]
+  },
+  {
+    "name": "Jean-Ricner Bellegarde",
+    "country": "Haiti",
+    "position": "MID",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Scotland",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 1,
+        "result": "L"
+      }
+    ]
+  },
+  {
+    "name": "Johny Placide",
+    "country": "Haiti",
+    "position": "GK",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Scotland",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 1,
+        "goalsConceded": 1,
+        "result": "L"
+      }
+    ]
+  },
+  {
+    "name": "Josué Casimir",
+    "country": "Haiti",
+    "position": "",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Scotland",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0,
+        "result": "L"
+      }
+    ]
+  },
+  {
+    "name": "Lenny Joseph",
+    "country": "Haiti",
+    "position": "",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Scotland",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0,
+        "result": "L"
+      }
+    ]
+  },
+  {
+    "name": "Louicius Deedson",
+    "country": "Haiti",
+    "position": "MID",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Scotland",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 1,
+        "result": "L"
+      }
+    ]
+  },
+  {
+    "name": "Martin Expérience",
+    "country": "Haiti",
+    "position": "DEF",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Scotland",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 1,
+        "result": "L"
+      }
+    ]
+  },
+  {
+    "name": "Ricardo Adé",
+    "country": "Haiti",
+    "position": "DEF",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Scotland",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 1,
+        "result": "L"
+      }
+    ]
+  },
+  {
+    "name": "Ruben Providence",
+    "country": "Haiti",
+    "position": "MID",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Scotland",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 1,
+        "saves": 0,
+        "goalsConceded": 1,
+        "result": "L"
+      }
+    ]
+  },
+  {
+    "name": "Wilson Isidor",
+    "country": "Haiti",
+    "position": "FWD",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Scotland",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 1,
+        "result": "L"
+      }
+    ]
+  },
+  {
+    "name": "Yassin Fortuné",
+    "country": "Haiti",
+    "position": "",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Scotland",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0,
+        "result": "L"
+      }
+    ]
+  },
+  {
     "name": "Alexis Vega",
     "country": "Mexico",
     "position": "",
@@ -1367,7 +1813,8 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 1
+        "goalsConceded": 1,
+        "result": "D"
       }
     ]
   },
@@ -1383,7 +1830,8 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 0
+        "goalsConceded": 0,
+        "result": "D"
       }
     ]
   },
@@ -1397,9 +1845,10 @@
         "opponent": "Brazil",
         "goals": 0,
         "assists": 0,
-        "shotsOnGoal": 0,
+        "shotsOnGoal": 1,
         "saves": 0,
-        "goalsConceded": 0
+        "goalsConceded": 0,
+        "result": "D"
       }
     ]
   },
@@ -1415,7 +1864,8 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 1
+        "goalsConceded": 1,
+        "result": "D"
       }
     ]
   },
@@ -1431,7 +1881,8 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 1
+        "goalsConceded": 1,
+        "result": "D"
       }
     ]
   },
@@ -1447,7 +1898,8 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 1
+        "goalsConceded": 1,
+        "result": "D"
       }
     ]
   },
@@ -1463,7 +1915,8 @@
         "assists": 1,
         "shotsOnGoal": 1,
         "saves": 0,
-        "goalsConceded": 1
+        "goalsConceded": 1,
+        "result": "D"
       }
     ]
   },
@@ -1479,7 +1932,8 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 1
+        "goalsConceded": 1,
+        "result": "D"
       }
     ]
   },
@@ -1495,7 +1949,8 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 0
+        "goalsConceded": 0,
+        "result": "D"
       }
     ]
   },
@@ -1511,7 +1966,8 @@
         "assists": 0,
         "shotsOnGoal": 1,
         "saves": 0,
-        "goalsConceded": 1
+        "goalsConceded": 1,
+        "result": "D"
       }
     ]
   },
@@ -1527,7 +1983,8 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 1
+        "goalsConceded": 1,
+        "result": "D"
       }
     ]
   },
@@ -1543,7 +2000,8 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 1
+        "goalsConceded": 1,
+        "result": "D"
       }
     ]
   },
@@ -1559,7 +2017,8 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 1
+        "goalsConceded": 1,
+        "result": "D"
       }
     ]
   },
@@ -1575,7 +2034,25 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 0
+        "goalsConceded": 0,
+        "result": "D"
+      }
+    ]
+  },
+  {
+    "name": "Soufiane Rahimi",
+    "country": "Morocco",
+    "position": "",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Brazil",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0,
+        "result": "D"
       }
     ]
   },
@@ -1590,8 +2067,9 @@
         "goals": 0,
         "assists": 0,
         "shotsOnGoal": 0,
-        "saves": 3,
-        "goalsConceded": 1
+        "saves": 4,
+        "goalsConceded": 1,
+        "result": "D"
       }
     ]
   },
@@ -2136,6 +2614,288 @@
         "saves": 0,
         "goalsConceded": 1,
         "result": "D"
+      }
+    ]
+  },
+  {
+    "name": "Aaron Hickey",
+    "country": "Scotland",
+    "position": "DEF",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Haiti",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0,
+        "result": "W"
+      }
+    ]
+  },
+  {
+    "name": "Andy Robertson",
+    "country": "Scotland",
+    "position": "DEF",
+    "managers": [
+      {
+        "id": "marc",
+        "name": "Marc"
+      }
+    ],
+    "matches": [
+      {
+        "opponent": "Haiti",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0,
+        "result": "W"
+      }
+    ]
+  },
+  {
+    "name": "Angus Gunn",
+    "country": "Scotland",
+    "position": "GK",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Haiti",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 2,
+        "goalsConceded": 0,
+        "result": "W"
+      }
+    ]
+  },
+  {
+    "name": "Ben Gannon-Doak",
+    "country": "Scotland",
+    "position": "MID",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Haiti",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0,
+        "result": "W"
+      }
+    ]
+  },
+  {
+    "name": "Ché Adams",
+    "country": "Scotland",
+    "position": "FWD",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Haiti",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 1,
+        "saves": 0,
+        "goalsConceded": 0,
+        "result": "W"
+      }
+    ]
+  },
+  {
+    "name": "Findlay Curtis",
+    "country": "Scotland",
+    "position": "",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Haiti",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0,
+        "result": "W"
+      }
+    ]
+  },
+  {
+    "name": "Grant Hanley",
+    "country": "Scotland",
+    "position": "DEF",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Haiti",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0,
+        "result": "W"
+      }
+    ]
+  },
+  {
+    "name": "Jack Hendry",
+    "country": "Scotland",
+    "position": "DEF",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Haiti",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0,
+        "result": "W"
+      }
+    ]
+  },
+  {
+    "name": "John McGinn",
+    "country": "Scotland",
+    "position": "MID",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Haiti",
+        "goals": 1,
+        "assists": 0,
+        "shotsOnGoal": 1,
+        "saves": 0,
+        "goalsConceded": 0,
+        "result": "W"
+      }
+    ]
+  },
+  {
+    "name": "Kenny McLean",
+    "country": "Scotland",
+    "position": "",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Haiti",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0,
+        "result": "W"
+      }
+    ]
+  },
+  {
+    "name": "Lawrence Shankland",
+    "country": "Scotland",
+    "position": "FWD",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Haiti",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0,
+        "result": "W"
+      }
+    ]
+  },
+  {
+    "name": "Lewis Ferguson",
+    "country": "Scotland",
+    "position": "MID",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Haiti",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0,
+        "result": "W"
+      }
+    ]
+  },
+  {
+    "name": "Lyndon Dykes",
+    "country": "Scotland",
+    "position": "",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Haiti",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0,
+        "result": "W"
+      }
+    ]
+  },
+  {
+    "name": "Nathan Patterson",
+    "country": "Scotland",
+    "position": "",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Haiti",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0,
+        "result": "W"
+      }
+    ]
+  },
+  {
+    "name": "Ryan Christie",
+    "country": "Scotland",
+    "position": "",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Haiti",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0,
+        "result": "W"
+      }
+    ]
+  },
+  {
+    "name": "Scott McTominay",
+    "country": "Scotland",
+    "position": "MID",
+    "managers": [
+      {
+        "id": "travis",
+        "name": "Travis"
+      }
+    ],
+    "matches": [
+      {
+        "opponent": "Haiti",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0,
+        "result": "W"
       }
     ]
   },
@@ -2945,6 +3705,187 @@
         "saves": 0,
         "goalsConceded": 1,
         "result": "D"
+      }
+    ]
+  },
+  {
+    "name": "Abdülkerim Bardakçi",
+    "country": "Türkiye",
+    "position": "DEF",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Australia",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 1
+      }
+    ]
+  },
+  {
+    "name": "Arda Güler",
+    "country": "Türkiye",
+    "position": "MID",
+    "managers": [
+      {
+        "id": "marc",
+        "name": "Marc"
+      }
+    ],
+    "matches": [
+      {
+        "opponent": "Australia",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 1,
+        "saves": 0,
+        "goalsConceded": 1
+      }
+    ]
+  },
+  {
+    "name": "Baris Alper Yilmaz",
+    "country": "Türkiye",
+    "position": "MID",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Australia",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 1
+      }
+    ]
+  },
+  {
+    "name": "Ferdi Kadioglu",
+    "country": "Türkiye",
+    "position": "DEF",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Australia",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 1
+      }
+    ]
+  },
+  {
+    "name": "Hakan Çalhanoglu",
+    "country": "Türkiye",
+    "position": "MID",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Australia",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 1
+      }
+    ]
+  },
+  {
+    "name": "Ismail Yüksek",
+    "country": "Türkiye",
+    "position": "MID",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Australia",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 1
+      }
+    ]
+  },
+  {
+    "name": "Kerem Aktürkoglu",
+    "country": "Türkiye",
+    "position": "FWD",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Australia",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 1
+      }
+    ]
+  },
+  {
+    "name": "Merih Demiral",
+    "country": "Türkiye",
+    "position": "DEF",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Australia",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 1
+      }
+    ]
+  },
+  {
+    "name": "Orkun Kökçü",
+    "country": "Türkiye",
+    "position": "MID",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Australia",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 1
+      }
+    ]
+  },
+  {
+    "name": "Ugurcan Çakir",
+    "country": "Türkiye",
+    "position": "GK",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Australia",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 1
+      }
+    ]
+  },
+  {
+    "name": "Zeki Çelik",
+    "country": "Türkiye",
+    "position": "DEF",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Australia",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 1
       }
     ]
   },

@@ -88,7 +88,8 @@
         "goals": 0,
         "assists": 0,
         "shotsOnGoal": 0,
-        "goalsConceded": 1
+        "goalsConceded": 1,
+        "result": "D"
       }
     ]
   },
@@ -103,8 +104,9 @@
         "goals": 0,
         "assists": 0,
         "shotsOnGoal": 0,
-        "saves": 1,
-        "goalsConceded": 1
+        "saves": 2,
+        "goalsConceded": 1,
+        "result": "D"
       }
     ]
   },
@@ -118,7 +120,8 @@
         "date": "2026-06-13T22:00Z",
         "goals": 1,
         "assists": 0,
-        "shotsOnGoal": 1
+        "shotsOnGoal": 1,
+        "result": "D"
       }
     ]
   },
@@ -132,7 +135,8 @@
         "date": "2026-06-13T22:00Z",
         "goals": 0,
         "assists": 0,
-        "shotsOnGoal": 1
+        "shotsOnGoal": 1,
+        "result": "D"
       }
     ]
   },
@@ -147,7 +151,8 @@
         "goals": 0,
         "assists": 0,
         "shotsOnGoal": 0,
-        "goalsConceded": 1
+        "goalsConceded": 1,
+        "result": "D"
       }
     ]
   },
@@ -161,7 +166,8 @@
         "date": "2026-06-13T22:00Z",
         "goals": 0,
         "assists": 0,
-        "shotsOnGoal": 0
+        "shotsOnGoal": 0,
+        "result": "D"
       }
     ]
   },
@@ -175,7 +181,8 @@
         "date": "2026-06-13T22:00Z",
         "goals": 0,
         "assists": 0,
-        "shotsOnGoal": 1
+        "shotsOnGoal": 1,
+        "result": "D"
       }
     ]
   },
@@ -190,7 +197,53 @@
         "goals": 0,
         "assists": 0,
         "shotsOnGoal": 0,
-        "goalsConceded": 1
+        "goalsConceded": 1,
+        "result": "D"
+      }
+    ]
+  },
+  "gb-sct|andy robertson": {
+    "country": "Scotland",
+    "name": "Andy Robertson",
+    "matches": [
+      {
+        "fixtureId": 760418,
+        "opponent": "Haiti",
+        "date": "2026-06-14T01:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "goalsConceded": 0,
+        "result": "W"
+      }
+    ]
+  },
+  "gb-sct|scott mctominay": {
+    "country": "Scotland",
+    "name": "Scott McTominay",
+    "matches": [
+      {
+        "fixtureId": 760418,
+        "opponent": "Haiti",
+        "date": "2026-06-14T01:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "result": "W"
+      }
+    ]
+  },
+  "tr|arda guler": {
+    "country": "Türkiye",
+    "name": "Arda Güler",
+    "matches": [
+      {
+        "fixtureId": 760421,
+        "opponent": "Australia",
+        "date": "2026-06-14T04:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 1
       }
     ]
   }
