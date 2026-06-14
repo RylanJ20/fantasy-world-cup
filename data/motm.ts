@@ -45,6 +45,9 @@ const manualOverrides: MotmEntry[] = [
   // FotMob's rating algorithm picked Katić (Bosnia); the official award went to
   // Koné. Canada 1–1 Bosnia-Herzegovina, Jun 12.
   m("Ismaël Koné", "Canada", "Bosnia-Herzegovina"),
+  // FotMob picked Douglas Santos; the official award went to Vinícius Júnior.
+  // Brazil 1–1 Morocco, Jun 13.
+  m("Vinícius Júnior", "Brazil", "Morocco"),
 ];
 
 /** Unordered flag-code key for an entry's fixture ("cz|kr"). */
