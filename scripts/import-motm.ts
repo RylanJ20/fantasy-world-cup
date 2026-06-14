@@ -1,48 +1,55 @@
 // ─────────────────────────────────────────────────────────────────────────────
-//  Builds data/motm.json — Man of the Match awards — fully automatically from
-//  FotMob's free feed (the one stat ESPN never exposes). For each FINISHED World
-//  Cup fixture we already imported from ESPN, we find the same match on FotMob,
-//  read its Player of the Match, and reconcile the winner back to the player's
-//  ESPN spelling — so the +2 ties to imported stats exactly like the old
-//  hand-logged entries did (the app keys MOTM on flag-code + normalised name).
+//  Builds data/motm.json — Man of the Match awards — from FIFA's OFFICIAL list.
 //
-//  Must run AFTER import:stats — it reads data/tournament-players.json (every
-//  player who appeared, in ESPN spelling) to resolve the winner's ESPN name.
-//  Order in import:all:  fixtures → groups → stats → motm.
+//  The 2026 award is the "Michelob ULTRA Superior Player of the Match", a fan
+//  vote announced after each game. No stats feed carries it (ESPN has nothing;
+//  FotMob/Sofascore only give their own algorithmic rating leader, which is a
+//  different thing and was wrong repeatedly). FIFA publishes the authoritative
+//  list itself, which we read as JSON (see scripts/fifa.ts) and parse here.
 //
-//  Resilience: prior awards are retained, so a transient FotMob hiccup (or a
-//  match FotMob hasn't posted a MOTM for yet) never wipes the board.
+//  Each played line reads "Team1 score Team2 - Winner (Country)". We map the
+//  teams + winner back to ESPN's spelling — country/opponent from fixtures.json,
+//  the player name from tournament-players.json — so the +2 keys to imported
+//  stats exactly like a drafted player. FIFA can list a result before ESPN marks
+//  the match finished; when ESPN hasn't imported the player yet we fall back to
+//  FIFA's spelling and warn (a manualOverride in data/motm.ts covers the gap).
+//
+//  Genuine FotMob/algorithm-vs-official disagreements are handled by the
+//  manualOverrides list in data/motm.ts, which wins over this file.
+//
+//  Run AFTER import:stats (reads data/tournament-players.json). Order in
+//  import:all:  fixtures → groups → stats → motm.
 //
 //  Run:  npm run import:motm        (then commit data/motm.json)
 // ─────────────────────────────────────────────────────────────────────────────
 
-/* eslint-disable @typescript-eslint/no-explicit-any -- API payloads are dynamic JSON */
 import { readFileSync, writeFileSync } from "node:fs";
 import { countryCode } from "@/lib/flags";
 import { normalizeName } from "@/lib/names";
 import type { MotmEntry } from "@/data/motm";
-import {
-  WORLD_CUP_PRIMARY_ID,
-  fetchMatchDetails,
-  fetchMatchesByDate,
-} from "./fotmob";
+import { fetchPotmLines } from "./fifa";
 
 interface Fixture {
-  n: number;
-  date: string;
   home: string;
   away: string;
-  status: string;
 }
 interface TPlayer {
   name: string;
   country: string;
-  matches: { opponent: string }[];
 }
 
 const readJson = (path: string) => JSON.parse(readFileSync(path, "utf8"));
 
-/** Unordered flag-code key for a fixture's two teams ("cz|kr"), or null if either is unmapped. */
+// A played result: "Team1 <score> Team2 [-–] Winner (Country)". Upcoming
+// fixtures use " v " + "– Group - Stadium" (no score, no trailing "(Country)")
+// and simply don't match.
+const RESULT =
+  /^(.+?)\s+\d+\s*[-–]\s*\d+\s+(.+?)\s+[-–]\s+(.+?)\s*\(([^)]+)\)\s*$/;
+
+/** Drop any parenthetical (e.g. a "(4-2)" penalty annotation) from a team name. */
+const cleanTeam = (s: string) => s.replace(/\(.*?\)/g, "").trim();
+
+/** Unordered flag-code key for a fixture's two teams ("cz|kr"), or null. */
 function pairKey(a: string, b: string): string | null {
   const ca = countryCode(a);
   const cb = countryCode(b);
@@ -50,20 +57,14 @@ function pairKey(a: string, b: string): string | null {
   return [ca, cb].sort().join("|");
 }
 
-/** UTC date string shifted by `days` (e.g. "2026-06-12" → "2026-06-11"). */
-function dayShift(date: string, days: number): string {
-  const d = new Date(date + "T00:00:00Z");
-  d.setUTCDate(d.getUTCDate() + days);
-  return d.toISOString().slice(0, 10);
-}
-
 /**
- * Index of the unique candidate whose name matches `name` (-1 if none/ambiguous).
- * Handles FotMob's different word order (e.g. "In-Beom Hwang" ↔ ESPN's
- * "Hwang In-Beom") via a token-set match before falling back to surname.
+ * Index of the unique candidate matching `name` (-1 if none/ambiguous). Tiers,
+ * loosest last: exact → squashed (spacing-insensitive, e.g. FIFA "Inbeom" ↔ ESPN
+ * "In-Beom") → token-set (word-order/extra-token) → shared surname.
  */
 function matchName(name: string, candidates: string[]): number {
   const dn = normalizeName(name);
+  const dsq = dn.replace(/ /g, "");
   const dt = dn.split(" ");
   const norm = candidates.map(normalizeName);
   const uniq = (idxs: number[]) => (idxs.length === 1 ? idxs[0] : -1);
@@ -71,6 +72,8 @@ function matchName(name: string, candidates: string[]): number {
     norm.flatMap((n, i) => (pred(n) ? [i] : []));
 
   let hit = uniq(idx((n) => n === dn));
+  if (hit >= 0) return hit;
+  hit = uniq(idx((n) => n.replace(/ /g, "") === dsq));
   if (hit >= 0) return hit;
   hit = uniq(
     idx((n) => {
@@ -83,15 +86,21 @@ function matchName(name: string, candidates: string[]): number {
 }
 
 async function main() {
-  console.log("📡 Building Man of the Match from FotMob…");
+  console.log("📡 Building Man of the Match from FIFA's official list…");
 
   const fixtures: Fixture[] = readJson("data/fixtures.json");
   const tournamentPlayers: TPlayer[] = readJson("data/tournament-players.json");
-  const finished = fixtures.filter((f) => f.status === "FINISHED");
-  console.log(`   ${finished.length} finished fixture(s) to resolve.`);
 
-  // Retain prior awards (keyed by the unordered nation pair) so a transient
-  // FotMob miss never drops an award we'd already captured.
+  let lines: string[];
+  try {
+    lines = await fetchPotmLines();
+  } catch (e) {
+    console.log(`   ⚠️  FIFA fetch failed (${(e as Error).message}); leaving data/motm.json unchanged.`);
+    return;
+  }
+
+  // Retain prior awards (keyed by the unordered nation pair) so a transient FIFA
+  // hiccup or a parsing miss never drops an award we'd already captured.
   let existing: MotmEntry[] = [];
   try {
     existing = readJson("data/motm.json");
@@ -104,88 +113,48 @@ async function main() {
     if (k) byFixture.set(k, e);
   }
 
-  // FotMob's matches-by-date, fetched once per UTC day (cached) and filtered to
-  // World Cup matches only.
-  const dayCache = new Map<string, any[]>();
-  async function wcMatchesOn(date: string): Promise<any[]> {
-    const cached = dayCache.get(date);
-    if (cached) return cached;
-    let leagues: any[] = [];
-    try {
-      leagues = (await fetchMatchesByDate(date.replaceAll("-", "")))?.leagues ?? [];
-    } catch (e) {
-      console.log(`   ⚠️  FotMob matches ${date}: ${(e as Error).message}`);
-    }
-    const matches = leagues
-      .filter((l) => l.primaryId === WORLD_CUP_PRIMARY_ID)
-      .flatMap((l) => l.matches ?? []);
-    dayCache.set(date, matches);
-    return matches;
-  }
-
   const warnings: string[] = [];
   let resolved = 0;
 
-  for (const f of finished) {
-    const fk = pairKey(f.home, f.away);
+  for (const line of lines) {
+    const mt = RESULT.exec(line);
+    if (!mt) continue;
+    const team1 = cleanTeam(mt[1]);
+    const team2 = cleanTeam(mt[2]);
+    const winner = mt[3].trim();
+    const wc = countryCode(mt[4].trim());
+    if (!wc) {
+      warnings.push(`"${line}" — unmapped winner country (add an alias to lib/flags.ts)`);
+      continue;
+    }
+
+    const fk = pairKey(team1, team2);
     if (!fk) {
-      warnings.push(`${f.home} vs ${f.away} — unmapped country name (add an alias to lib/flags.ts)`);
+      warnings.push(`"${line}" — unmapped team name (add an alias to lib/flags.ts)`);
       continue;
     }
 
-    // Locate the FotMob match (try the fixture's UTC day, then its neighbours —
-    // kick-off can straddle midnight UTC).
-    let fm: any | undefined;
-    for (const d of [f.date, dayShift(f.date, -1), dayShift(f.date, 1)]) {
-      const matches = await wcMatchesOn(d);
-      fm = matches.find((m) => pairKey(m.home?.name ?? "", m.away?.name ?? "") === fk);
-      if (fm) break;
-    }
-    if (!fm) {
-      if (!byFixture.has(fk)) warnings.push(`${f.home} vs ${f.away} — no FotMob World Cup match found`);
+    // Resolve ESPN spelling (and validate the match) via the imported fixture.
+    const fx = fixtures.find((f) => pairKey(f.home, f.away) === fk);
+    if (!fx) {
+      warnings.push(`"${line}" — no ESPN fixture for this pairing`);
       continue;
     }
-
-    let details: any;
-    try {
-      details = await fetchMatchDetails(fm.id);
-    } catch (e) {
-      warnings.push(`${f.home} vs ${f.away} — matchDetails failed: ${(e as Error).message}`);
-      continue;
-    }
-
-    const potm = details?.content?.matchFacts?.playerOfTheMatch;
-    const fullName: string | undefined = potm?.name?.fullName;
-    if (!potm || !fullName) {
-      if (!byFixture.has(fk)) warnings.push(`${f.home} vs ${f.away} — no Player of the Match on FotMob yet`);
-      continue;
-    }
-
-    // Which side won it? Prefer the FotMob team id, fall back to its team name.
-    const winnerSideName =
-      fm.home?.id === potm.teamId
-        ? fm.home?.name
-        : fm.away?.id === potm.teamId
-          ? fm.away?.name
-          : potm.teamName;
-    const wc = countryCode(winnerSideName ?? "");
     const country =
-      countryCode(f.home) === wc ? f.home : countryCode(f.away) === wc ? f.away : null;
+      countryCode(fx.home) === wc ? fx.home : countryCode(fx.away) === wc ? fx.away : null;
     if (!country) {
-      warnings.push(`${f.home} vs ${f.away} — couldn't place MOTM team "${winnerSideName}"`);
+      warnings.push(`"${line}" — winner team isn't in the fixture`);
       continue;
     }
-    const opponent = country === f.home ? f.away : f.home;
+    const opponent = country === fx.home ? fx.away : fx.home;
 
-    // Reconcile FotMob's spelling to ESPN's (the winner appeared, so they're in
-    // tournament-players.json). If we can't, keep FotMob's name and warn — the
-    // award still shows on the board, but the +2 may not tie to imported stats.
+    // Reconcile the winner to ESPN's spelling (so the +2 ties to imported stats).
     const roster = tournamentPlayers.filter((p) => countryCode(p.country) === wc);
-    const i = matchName(fullName, roster.map((p) => p.name));
-    const player = i >= 0 ? roster[i].name : fullName;
+    const i = matchName(winner, roster.map((p) => p.name));
+    const player = i >= 0 ? roster[i].name : winner;
     if (i < 0) {
       warnings.push(
-        `${player} (${country}) — FotMob MOTM not matched to an ESPN player; using FotMob spelling (the +2 may not apply)`,
+        `${player} (${country} vs ${opponent}) — not yet matched to an ESPN player; using FIFA spelling (the +2 applies once ESPN imports the match)`,
       );
     }
 
@@ -197,7 +166,7 @@ async function main() {
     (a, b) => a.country.localeCompare(b.country) || a.player.localeCompare(b.player),
   );
   writeFileSync("data/motm.json", JSON.stringify(motm, null, 2) + "\n");
-  console.log(`✅ motm: ${motm.length} award(s) (${resolved} resolved from FotMob this run).`);
+  console.log(`✅ motm: ${motm.length} award(s) (${resolved} read from FIFA this run).`);
 
   if (warnings.length) {
     console.log(`\n⚠️  ${warnings.length} note(s):`);

@@ -1,8 +1,13 @@
 [
   {
-    "player": "Nikola Katic",
-    "country": "Bosnia-Herzegovina",
-    "opponent": "Canada"
+    "player": "Vinicius Jr",
+    "country": "Brazil",
+    "opponent": "Morocco"
+  },
+  {
+    "player": "Ismaël Koné",
+    "country": "Canada",
+    "opponent": "Bosnia-Herzegovina"
   },
   {
     "player": "Julián Quiñones",
@@ -10,14 +15,14 @@
     "opponent": "South Africa"
   },
   {
+    "player": "Mahmoud Abunada",
+    "country": "Qatar",
+    "opponent": "Switzerland"
+  },
+  {
     "player": "Hwang In-Beom",
     "country": "South Korea",
     "opponent": "Czechia"
-  },
-  {
-    "player": "Rubén Vargas",
-    "country": "Switzerland",
-    "opponent": "Qatar"
   },
   {
     "player": "Folarin Balogun",

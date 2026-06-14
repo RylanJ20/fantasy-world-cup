@@ -1,12 +1,12 @@
 name: Auto-import results
 
 # Periodically pulls fresh fixtures, group tables + drafted-player stats from
-# ESPN's free feed plus Man of the Match from FotMob's free feed and, if anything
-# changed (scores, statuses, standings, player stats, MOTM), commits and pushes —
-# which triggers a Vercel redeploy. That keeps live scores, finished results, team
-# points, player points, group tables and MOTM up to date hands-free.
+# ESPN's free feed plus the official Man of the Match from FIFA's free feed and,
+# if anything changed (scores, statuses, standings, player stats, MOTM), commits
+# and pushes — which triggers a Vercel redeploy. That keeps live scores, finished
+# results, team points, player points, group tables and MOTM up to date hands-free.
 #
-# No API key needed — both ESPN's and FotMob's public endpoints are key-free.
+# No API key needed — both ESPN's and FIFA's public endpoints are key-free.
 #
 # COST / "is it free?":
 #   • PUBLIC repo  → GitHub Actions minutes are UNLIMITED and free. Recommended
@@ -40,7 +40,7 @@ jobs:
           node-version: 24
           cache: npm
       - run: npm ci
-      - name: Import fixtures, standings, player/tournament stats (ESPN) + MOTM (FotMob)
+      - name: Import fixtures, standings, player/tournament stats (ESPN) + MOTM (FIFA)
         run: npm run import:all
       - name: Commit & push if anything changed
         run: |
