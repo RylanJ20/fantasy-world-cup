@@ -228,8 +228,29 @@ export function tournamentPointsRanking(): LeaderRow[] {
 }
 
 /**
+ * Re-rank a leaderboard so that, within a tie on `value`, DRAFTED players come
+ * first — they get priority for the limited display slots — then fall back to
+ * the existing alphabetical tiebreak. Returns a sorted copy (never mutates the
+ * input, which may be a shared/cached array).
+ */
+function draftedFirst<T>(
+  rows: T[],
+  value: (r: T) => number,
+  isDrafted: (r: T) => boolean,
+  name: (r: T) => string,
+): T[] {
+  return [...rows].sort(
+    (a, b) =>
+      value(b) - value(a) ||
+      Number(isDrafted(b)) - Number(isDrafted(a)) ||
+      name(a).localeCompare(name(b)),
+  );
+}
+
+/**
  * Category leaderboards, all tournament-wide across ALL 48 nations. Drafted
- * players are tagged with their manager so their row links back to the draft.
+ * players are tagged with their manager so their row links back to the draft,
+ * and — since only the top few are shown — win ties for the limited slots.
  */
 export function getLeaderboards(limit = 5): LeaderboardCategory[] {
   const drafted = getManagerScores().flatMap((m) =>
@@ -253,7 +274,12 @@ export function getLeaderboards(limit = 5): LeaderboardCategory[] {
     title: "Most Points",
     unit: "pts",
     scope: "tournament",
-    rows: tournamentPointsRanking().slice(0, limit),
+    rows: draftedFirst(
+      tournamentPointsRanking(),
+      (r) => r.value,
+      (r) => Boolean(r.managerId),
+      (r) => r.name,
+    ).slice(0, limit),
   };
 
   // ── Man of the match: tournament-wide, tallied from data/motm.ts. ──
@@ -262,7 +288,12 @@ export function getLeaderboards(limit = 5): LeaderboardCategory[] {
     title: "Man of the Match",
     unit: "MOTM",
     scope: "tournament",
-    rows: motmLeaders()
+    rows: draftedFirst(
+      motmLeaders(),
+      (e) => e.count,
+      (e) => draftedManagers.has(playerKey(e.country, e.name)),
+      (e) => e.name,
+    )
       .slice(0, limit)
       .map((e) => {
         const key = playerKey(e.country, e.name);
@@ -290,7 +321,12 @@ export function getLeaderboards(limit = 5): LeaderboardCategory[] {
     title,
     unit,
     scope: "tournament",
-    rows: tournamentLeaders(tlKey)
+    rows: draftedFirst(
+      tournamentLeaders(tlKey),
+      (r) => r.value,
+      (r) => r.managers.length > 0,
+      (r) => r.name,
+    )
       .slice(0, limit)
       .map((r) => ({
         name: r.name,
