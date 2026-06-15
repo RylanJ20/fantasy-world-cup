@@ -150,10 +150,10 @@
     "stage": "Group H",
     "home": "Spain",
     "away": "Cabo Verde",
-    "status": "FINISHED",
+    "status": "IN_PLAY",
     "homeScore": 0,
     "awayScore": 0,
-    "winner": "DRAW"
+    "winner": null
   },
   {
     "n": 760426,
