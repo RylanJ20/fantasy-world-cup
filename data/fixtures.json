@@ -150,7 +150,7 @@
     "stage": "Group H",
     "home": "Spain",
     "away": "Cabo Verde",
-    "status": "PAUSED",
+    "status": "IN_PLAY",
     "homeScore": 0,
     "awayScore": 0,
     "winner": null
