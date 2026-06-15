@@ -5317,7 +5317,7 @@
         "goals": 0,
         "assists": 0,
         "shotsOnGoal": 0,
-        "saves": 3,
+        "saves": 4,
         "goalsConceded": 0
       }
     ]
@@ -5342,6 +5342,22 @@
     "name": "Musab Al-Juwayr",
     "country": "Saudi Arabia",
     "position": "FWD",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Uruguay",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Nasser Al-Dawsari",
+    "country": "Saudi Arabia",
+    "position": "",
     "managers": [],
     "matches": [
       {
@@ -7995,7 +8011,7 @@
         "opponent": "Saudi Arabia",
         "goals": 0,
         "assists": 0,
-        "shotsOnGoal": 0,
+        "shotsOnGoal": 1,
         "saves": 0,
         "goalsConceded": 1
       }

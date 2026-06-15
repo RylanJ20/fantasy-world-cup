@@ -228,6 +228,13 @@
       "managers": []
     },
     {
+      "name": "Mohammed Al-Owais",
+      "country": "Saudi Arabia",
+      "position": "GK",
+      "value": 4,
+      "managers": []
+    },
+    {
       "name": "Yassine Bounou",
       "country": "Morocco",
       "position": "GK",
@@ -258,13 +265,6 @@
     {
       "name": "Kim Seung-Gyu",
       "country": "South Korea",
-      "position": "GK",
-      "value": 3,
-      "managers": []
-    },
-    {
-      "name": "Mohammed Al-Owais",
-      "country": "Saudi Arabia",
       "position": "GK",
       "value": 3,
       "managers": []
