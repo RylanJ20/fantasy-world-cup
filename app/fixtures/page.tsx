@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
-import { getEnrichedFixtures, hasFixtures } from "@/lib/fixtures";
+import { hasFixtures } from "@/lib/fixtures";
+import { getScoredFixtures } from "@/lib/fixtureScores";
 import { FixtureBoard } from "@/components/FixtureBoard";
 import { WhistleIcon } from "@/components/icons";
 
@@ -9,7 +10,7 @@ export const metadata: Metadata = {
 };
 
 export default function FixturesPage() {
-  const fixtures = getEnrichedFixtures();
+  const fixtures = getScoredFixtures();
 
   return (
     <div className="mx-auto max-w-5xl px-4 pb-12 pt-8 sm:px-6 sm:pt-12">
@@ -20,7 +21,8 @@ export default function FixturesPage() {
         </h1>
         <p className="mt-4 text-muted">
           Every World Cup match, with the drafted players and teams playing in
-          it — so you know who to watch each day.
+          it — so you know who to watch each day. Finished games show the points
+          each manager banked, broken down player by player.
         </p>
       </div>
 

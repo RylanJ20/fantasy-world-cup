@@ -2,8 +2,14 @@
 
 import { useEffect, useState } from "react";
 import Link from "next/link";
-import { Flag } from "./ui";
-import type { EnrichedFixture, InvolvedAsset } from "@/lib/fixtures";
+import { Flag, signed } from "./ui";
+import { ChevronRight } from "./icons";
+import type { InvolvedAsset } from "@/lib/fixtures";
+import type {
+  ManagerMatchScore,
+  ScoredAsset,
+  ScoredFixture,
+} from "@/lib/fixtureScores";
 
 function localToday(): string {
   const d = new Date();
@@ -81,6 +87,128 @@ function AssetChip({ a }: { a: InvolvedAsset }) {
   );
 }
 
+const pointsTone = (p: number) =>
+  p > 0 ? "text-turf-bright" : p < 0 ? "text-red" : "text-faint";
+
+// One involved player/team in an expanded manager row: name + points, with its
+// itemised breakdown (Goal +10, Assist +5…) shown inline beneath when present.
+function ScoredAssetLine({ a }: { a: ScoredAsset }) {
+  return (
+    <div className="rounded-lg border border-line/50 bg-bg-2/40 px-2.5 py-1.5">
+      <div className="flex items-center gap-2">
+        <Flag country={a.country} size={12} />
+        <span className="min-w-0 flex-1 truncate text-sm text-chalk">{a.name}</span>
+        <span className="text-[0.6rem] font-bold uppercase tracking-wider text-faint">
+          {a.kind === "team" ? "team" : a.position}
+        </span>
+        <span
+          className={`w-9 shrink-0 text-right font-mono text-sm font-bold tabular-nums ${pointsTone(
+            a.points,
+          )}`}
+        >
+          {signed(a.points)}
+        </span>
+      </div>
+      {a.lines.length > 0 && (
+        <div className="mt-1 flex flex-wrap gap-x-3 gap-y-0.5 pl-[1.25rem] text-[0.7rem] text-faint">
+          {a.lines.map((l, j) => (
+            <span key={j}>
+              {l.label}{" "}
+              <span
+                className={`font-mono ${l.tone === "bad" ? "text-red" : "text-turf"}`}
+              >
+                {signed(l.points)}
+              </span>
+            </span>
+          ))}
+        </div>
+      )}
+    </div>
+  );
+}
+
+// One manager's row in the vertical totals list: name + match subtotal, always
+// visible. Clicking the points expands their player-by-player detail beneath.
+function ManagerRow({ m }: { m: ManagerMatchScore }) {
+  const [open, setOpen] = useState(false);
+  return (
+    <div>
+      <div className="flex items-center gap-2 py-0.5">
+        <Link
+          href={`/manager/${m.managerId}`}
+          className="link-row min-w-0 flex-1 truncate text-sm font-bold text-chalk"
+        >
+          {m.managerName}
+        </Link>
+        <button
+          type="button"
+          onClick={() => setOpen((o) => !o)}
+          aria-expanded={open}
+          className="inline-flex shrink-0 items-center gap-1.5 rounded px-1 py-0.5 hover:bg-bg-2/60"
+        >
+          <span
+            className={`font-mono text-sm font-bold tabular-nums ${pointsTone(m.points)}`}
+          >
+            {signed(m.points)}
+          </span>
+          <ChevronRight
+            size={13}
+            className={`text-faint transition-transform ${open ? "rotate-90" : ""}`}
+          />
+        </button>
+      </div>
+      {open && (
+        <div className="mb-1 mt-1 space-y-1">
+          {m.assets.map((a, i) => (
+            <ScoredAssetLine key={`${a.country}-${a.name}-${i}`} a={a} />
+          ))}
+        </div>
+      )}
+    </div>
+  );
+}
+
+// A finished match's points: every manager's total stacked vertically so all
+// are visible at a glance, each expandable to its player-by-player breakdown.
+function FinishedBreakdown({ managers }: { managers: ManagerMatchScore[] }) {
+  return (
+    <div className="mt-3 divide-y divide-line/40 border-t border-line/60 pt-1">
+      {managers.map((m) => (
+        <ManagerRow key={m.managerId} m={m} />
+      ))}
+    </div>
+  );
+}
+
+// An upcoming match's drafted players/teams, collapsed to a one-line summary
+// that expands to the full chip list — keeps the card compact until you look.
+function UpcomingAssets({ assets }: { assets: InvolvedAsset[] }) {
+  const [open, setOpen] = useState(false);
+  return (
+    <div className="mt-3 border-t border-line/60 pt-3">
+      <button
+        type="button"
+        onClick={() => setOpen((o) => !o)}
+        aria-expanded={open}
+        className="flex w-full items-center gap-1.5 text-xs font-bold uppercase tracking-wider text-faint hover:text-chalk"
+      >
+        <ChevronRight
+          size={13}
+          className={`transition-transform ${open ? "rotate-90" : ""}`}
+        />
+        {assets.length} to watch
+      </button>
+      {open && (
+        <div className="mt-2 flex flex-wrap gap-1.5">
+          {assets.map((a, i) => (
+            <AssetChip key={`${a.managerId}-${a.name}-${i}`} a={a} />
+          ))}
+        </div>
+      )}
+    </div>
+  );
+}
+
 function Team({ name, align }: { name: string; align: "left" | "right" }) {
   return (
     <span
@@ -101,7 +229,7 @@ function StatusTag({
   mounted,
   live,
 }: {
-  f: EnrichedFixture;
+  f: ScoredFixture;
   mounted: boolean;
   live: boolean;
 }) {
@@ -127,7 +255,7 @@ function FixtureCard({
   mounted,
   live,
 }: {
-  f: EnrichedFixture;
+  f: ScoredFixture;
   isNext: boolean;
   mounted: boolean;
   live: boolean;
@@ -158,18 +286,16 @@ function FixtureCard({
         <Team name={f.away} align="right" />
       </div>
 
-      {f.assets.length > 0 && (
-        <div className="mt-3 flex flex-wrap gap-1.5 border-t border-line/60 pt-3">
-          {f.assets.map((a, i) => (
-            <AssetChip key={`${a.managerId}-${a.name}-${i}`} a={a} />
-          ))}
-        </div>
+      {f.finished && f.managers.length > 0 ? (
+        <FinishedBreakdown managers={f.managers} />
+      ) : (
+        f.assets.length > 0 && <UpcomingAssets assets={f.assets} />
       )}
     </div>
   );
 }
 
-export function FixtureBoard({ fixtures }: { fixtures: EnrichedFixture[] }) {
+export function FixtureBoard({ fixtures }: { fixtures: ScoredFixture[] }) {
   const [today, setToday] = useState<string | null>(null);
   // Wall-clock (ms), refreshed on a timer so Live badges flip on/off without a
   // reload. Null until mounted to keep SSR/first paint deterministic.
@@ -199,9 +325,9 @@ export function FixtureBoard({ fixtures }: { fixtures: EnrichedFixture[] }) {
   // viewer's LOCAL date once mounted; fall back to the UTC date for SSR so the
   // first client render matches and hydration stays clean.
   const mounted = today !== null;
-  const dayKey = (f: EnrichedFixture) =>
+  const dayKey = (f: ScoredFixture) =>
     mounted && f.utcDate ? localDateStr(f.utcDate) : f.date;
-  const groups: { date: string; items: EnrichedFixture[] }[] = [];
+  const groups: { date: string; items: ScoredFixture[] }[] = [];
   for (const f of fixtures) {
     const key = dayKey(f);
     const last = groups[groups.length - 1];
@@ -226,7 +352,7 @@ export function FixtureBoard({ fixtures }: { fixtures: EnrichedFixture[] }) {
                 </span>
               )}
             </div>
-            <div className="grid gap-3 md:grid-cols-2">
+            <div className="grid items-start gap-3 md:grid-cols-2">
               {g.items.map((f, i) => (
                 <FixtureCard
                   key={f.n ?? i}
