@@ -270,14 +270,14 @@
       "managers": []
     },
     {
-      "name": "Thibaut Courtois",
-      "country": "Belgium",
+      "name": "Alisson Becker",
+      "country": "Brazil",
       "position": "GK",
-      "value": 3,
+      "value": 2,
       "managers": [
         {
-          "id": "ben",
-          "name": "Ben"
+          "id": "marc",
+          "name": "Marc"
         }
       ]
     }
