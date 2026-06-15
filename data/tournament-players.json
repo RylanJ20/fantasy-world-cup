@@ -1632,14 +1632,15 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 0
+        "goalsConceded": 0,
+        "result": "L"
       }
     ]
   },
   {
     "name": "Alan Minda",
     "country": "Ecuador",
-    "position": "FWD",
+    "position": "MID",
     "managers": [],
     "matches": [
       {
@@ -1648,7 +1649,25 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 0
+        "goalsConceded": 0,
+        "result": "L"
+      }
+    ]
+  },
+  {
+    "name": "Ángelo Preciado",
+    "country": "Ecuador",
+    "position": "",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Ivory Coast",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 1,
+        "result": "L"
       }
     ]
   },
@@ -1664,7 +1683,8 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 0
+        "goalsConceded": 0,
+        "result": "L"
       }
     ]
   },
@@ -1678,9 +1698,10 @@
         "opponent": "Ivory Coast",
         "goals": 0,
         "assists": 0,
-        "shotsOnGoal": 0,
+        "shotsOnGoal": 1,
         "saves": 0,
-        "goalsConceded": 0
+        "goalsConceded": 1,
+        "result": "L"
       }
     ]
   },
@@ -1695,8 +1716,26 @@
         "goals": 0,
         "assists": 0,
         "shotsOnGoal": 0,
-        "saves": 1,
-        "goalsConceded": 0
+        "saves": 3,
+        "goalsConceded": 1,
+        "result": "L"
+      }
+    ]
+  },
+  {
+    "name": "Jackson Porozo",
+    "country": "Ecuador",
+    "position": "",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Ivory Coast",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 1,
+        "result": "L"
       }
     ]
   },
@@ -1712,7 +1751,8 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 0
+        "goalsConceded": 1,
+        "result": "L"
       }
     ]
   },
@@ -1728,7 +1768,25 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 0
+        "goalsConceded": 0,
+        "result": "L"
+      }
+    ]
+  },
+  {
+    "name": "Kevin Rodríguez",
+    "country": "Ecuador",
+    "position": "",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Ivory Coast",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 1,
+        "result": "L"
       }
     ]
   },
@@ -1744,7 +1802,25 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 0
+        "goalsConceded": 1,
+        "result": "L"
+      }
+    ]
+  },
+  {
+    "name": "Nilson Angulo",
+    "country": "Ecuador",
+    "position": "",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Ivory Coast",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 1,
+        "result": "L"
       }
     ]
   },
@@ -1760,14 +1836,15 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 0
+        "goalsConceded": 1,
+        "result": "L"
       }
     ]
   },
   {
     "name": "Piero Hincapié",
     "country": "Ecuador",
-    "position": "MID",
+    "position": "DEF",
     "managers": [
       {
         "id": "grayson",
@@ -1781,7 +1858,8 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 0
+        "goalsConceded": 1,
+        "result": "L"
       }
     ]
   },
@@ -1802,7 +1880,8 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 0
+        "goalsConceded": 1,
+        "result": "L"
       }
     ]
   },
@@ -2357,6 +2436,40 @@
     ]
   },
   {
+    "name": "Amad Diallo",
+    "country": "Ivory Coast",
+    "position": "FWD",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Ecuador",
+        "goals": 1,
+        "assists": 0,
+        "shotsOnGoal": 2,
+        "saves": 0,
+        "goalsConceded": 0,
+        "result": "W"
+      }
+    ]
+  },
+  {
+    "name": "Ange-Yoan Bonny",
+    "country": "Ivory Coast",
+    "position": "",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Ecuador",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0,
+        "result": "W"
+      }
+    ]
+  },
+  {
     "name": "Bazoumana Touré",
     "country": "Ivory Coast",
     "position": "MID",
@@ -2368,7 +2481,25 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 0
+        "goalsConceded": 0,
+        "result": "W"
+      }
+    ]
+  },
+  {
+    "name": "Christ Inao Oulaï",
+    "country": "Ivory Coast",
+    "position": "",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Ecuador",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0,
+        "result": "W"
       }
     ]
   },
@@ -2384,7 +2515,8 @@
         "assists": 0,
         "shotsOnGoal": 1,
         "saves": 0,
-        "goalsConceded": 0
+        "goalsConceded": 0,
+        "result": "W"
       }
     ]
   },
@@ -2400,7 +2532,8 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 0
+        "goalsConceded": 0,
+        "result": "W"
       }
     ]
   },
@@ -2416,7 +2549,8 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 0
+        "goalsConceded": 0,
+        "result": "W"
       }
     ]
   },
@@ -2432,7 +2566,8 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 0
+        "goalsConceded": 0,
+        "result": "W"
       }
     ]
   },
@@ -2448,7 +2583,25 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 0
+        "goalsConceded": 0,
+        "result": "W"
+      }
+    ]
+  },
+  {
+    "name": "Ibrahim Sangaré",
+    "country": "Ivory Coast",
+    "position": "",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Ecuador",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0,
+        "result": "W"
       }
     ]
   },
@@ -2464,7 +2617,25 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 0
+        "goalsConceded": 0,
+        "result": "W"
+      }
+    ]
+  },
+  {
+    "name": "Odilon Kossounou",
+    "country": "Ivory Coast",
+    "position": "",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Ecuador",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0,
+        "result": "W"
       }
     ]
   },
@@ -2478,9 +2649,10 @@
         "opponent": "Ecuador",
         "goals": 0,
         "assists": 0,
-        "shotsOnGoal": 0,
+        "shotsOnGoal": 1,
         "saves": 0,
-        "goalsConceded": 0
+        "goalsConceded": 0,
+        "result": "W"
       }
     ]
   },
@@ -2493,10 +2665,11 @@
       {
         "opponent": "Ecuador",
         "goals": 0,
-        "assists": 0,
+        "assists": 1,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 0
+        "goalsConceded": 0,
+        "result": "W"
       }
     ]
   },
@@ -2511,8 +2684,9 @@
         "goals": 0,
         "assists": 0,
         "shotsOnGoal": 0,
-        "saves": 0,
-        "goalsConceded": 0
+        "saves": 1,
+        "goalsConceded": 0,
+        "result": "W"
       }
     ]
   },
@@ -2528,7 +2702,8 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 0
+        "goalsConceded": 0,
+        "result": "W"
       }
     ]
   },
@@ -5019,6 +5194,187 @@
     ]
   },
   {
+    "name": "Alexander Bernhardsson",
+    "country": "Sweden",
+    "position": "MID",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Tunisia",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 1
+      }
+    ]
+  },
+  {
+    "name": "Alexander Isak",
+    "country": "Sweden",
+    "position": "FWD",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Tunisia",
+        "goals": 1,
+        "assists": 0,
+        "shotsOnGoal": 1,
+        "saves": 0,
+        "goalsConceded": 1
+      }
+    ]
+  },
+  {
+    "name": "Benjamin Nygren",
+    "country": "Sweden",
+    "position": "MID",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Tunisia",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 1
+      }
+    ]
+  },
+  {
+    "name": "Gabriel Gudmundsson",
+    "country": "Sweden",
+    "position": "MID",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Tunisia",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 1
+      }
+    ]
+  },
+  {
+    "name": "Gustaf Lagerbielke",
+    "country": "Sweden",
+    "position": "DEF",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Tunisia",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 1
+      }
+    ]
+  },
+  {
+    "name": "Isak Hien",
+    "country": "Sweden",
+    "position": "DEF",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Tunisia",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 1
+      }
+    ]
+  },
+  {
+    "name": "Jesper Karlström",
+    "country": "Sweden",
+    "position": "DEF",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Tunisia",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 1
+      }
+    ]
+  },
+  {
+    "name": "Kristoffer Nordfeldt",
+    "country": "Sweden",
+    "position": "GK",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Tunisia",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 1
+      }
+    ]
+  },
+  {
+    "name": "Victor Lindelöf",
+    "country": "Sweden",
+    "position": "DEF",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Tunisia",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 1
+      }
+    ]
+  },
+  {
+    "name": "Viktor Gyökeres",
+    "country": "Sweden",
+    "position": "FWD",
+    "managers": [
+      {
+        "id": "travis",
+        "name": "Travis"
+      }
+    ],
+    "matches": [
+      {
+        "opponent": "Tunisia",
+        "goals": 0,
+        "assists": 1,
+        "shotsOnGoal": 1,
+        "saves": 0,
+        "goalsConceded": 1
+      }
+    ]
+  },
+  {
+    "name": "Yasin Ayari",
+    "country": "Sweden",
+    "position": "MID",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Tunisia",
+        "goals": 1,
+        "assists": 0,
+        "shotsOnGoal": 1,
+        "saves": 0,
+        "goalsConceded": 1
+      }
+    ]
+  },
+  {
     "name": "Ardon Jashari",
     "country": "Switzerland",
     "position": "",
@@ -5292,6 +5648,182 @@
         "saves": 0,
         "goalsConceded": 1,
         "result": "D"
+      }
+    ]
+  },
+  {
+    "name": "Ali Abdi",
+    "country": "Tunisia",
+    "position": "DEF",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Sweden",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 2
+      }
+    ]
+  },
+  {
+    "name": "Anis Slimane",
+    "country": "Tunisia",
+    "position": "FWD",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Sweden",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 2
+      }
+    ]
+  },
+  {
+    "name": "Elias Saad",
+    "country": "Tunisia",
+    "position": "FWD",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Sweden",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 2
+      }
+    ]
+  },
+  {
+    "name": "Ellyes Skhiri",
+    "country": "Tunisia",
+    "position": "MID",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Sweden",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 2
+      }
+    ]
+  },
+  {
+    "name": "Hannibal Mejbri",
+    "country": "Tunisia",
+    "position": "MID",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Sweden",
+        "goals": 0,
+        "assists": 1,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 2
+      }
+    ]
+  },
+  {
+    "name": "Mohamed Amine Ben Hamida",
+    "country": "Tunisia",
+    "position": "DEF",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Sweden",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 2
+      }
+    ]
+  },
+  {
+    "name": "Montassar Talbi",
+    "country": "Tunisia",
+    "position": "DEF",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Sweden",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 2
+      }
+    ]
+  },
+  {
+    "name": "Mouhib Chamakh",
+    "country": "Tunisia",
+    "position": "GK",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Sweden",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 2
+      }
+    ]
+  },
+  {
+    "name": "Omar Rekik",
+    "country": "Tunisia",
+    "position": "DEF",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Sweden",
+        "goals": 1,
+        "assists": 0,
+        "shotsOnGoal": 1,
+        "saves": 0,
+        "goalsConceded": 2
+      }
+    ]
+  },
+  {
+    "name": "Rani Khedira",
+    "country": "Tunisia",
+    "position": "MID",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Sweden",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 2
+      }
+    ]
+  },
+  {
+    "name": "Yan Valery",
+    "country": "Tunisia",
+    "position": "DEF",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Sweden",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 2
       }
     ]
   },

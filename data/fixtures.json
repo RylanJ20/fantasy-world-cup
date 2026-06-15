@@ -126,10 +126,10 @@
     "stage": "Group E",
     "home": "Ivory Coast",
     "away": "Ecuador",
-    "status": "PAUSED",
-    "homeScore": 0,
+    "status": "FINISHED",
+    "homeScore": 1,
     "awayScore": 0,
-    "winner": null
+    "winner": "HOME_TEAM"
   },
   {
     "n": 760424,
@@ -138,9 +138,9 @@
     "stage": "Group F",
     "home": "Sweden",
     "away": "Tunisia",
-    "status": "TIMED",
-    "homeScore": null,
-    "awayScore": null,
+    "status": "IN_PLAY",
+    "homeScore": 2,
+    "awayScore": 1,
     "winner": null
   },
   {

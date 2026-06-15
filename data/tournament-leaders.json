@@ -20,6 +20,20 @@
       ]
     },
     {
+      "name": "Alexander Isak",
+      "country": "Sweden",
+      "position": "FWD",
+      "value": 1,
+      "managers": []
+    },
+    {
+      "name": "Amad Diallo",
+      "country": "Ivory Coast",
+      "position": "FWD",
+      "value": 1,
+      "managers": []
+    },
+    {
       "name": "Breel Embolo",
       "country": "Switzerland",
       "position": "FWD",
@@ -72,20 +86,6 @@
       "name": "Giovanni Reyna",
       "country": "United States",
       "position": "MID",
-      "value": 1,
-      "managers": []
-    },
-    {
-      "name": "Hwang In-Beom",
-      "country": "South Korea",
-      "position": "MID",
-      "value": 1,
-      "managers": []
-    },
-    {
-      "name": "Ismael Saibari",
-      "country": "Morocco",
-      "position": "FWD",
       "value": 1,
       "managers": []
     }
@@ -170,6 +170,13 @@
       ]
     },
     {
+      "name": "Hannibal Mejbri",
+      "country": "Tunisia",
+      "position": "MID",
+      "value": 1,
+      "managers": []
+    },
+    {
       "name": "Hwang In-Beom",
       "country": "South Korea",
       "position": "MID",
@@ -179,13 +186,6 @@
     {
       "name": "Julio Enciso",
       "country": "Paraguay",
-      "position": "FWD",
-      "value": 1,
-      "managers": []
-    },
-    {
-      "name": "Koki Ogawa",
-      "country": "Japan",
       "position": "FWD",
       "value": 1,
       "managers": []
@@ -242,6 +242,13 @@
       "managers": []
     },
     {
+      "name": "Hernán Galíndez",
+      "country": "Ecuador",
+      "position": "GK",
+      "value": 3,
+      "managers": []
+    },
+    {
       "name": "Kim Seung-Gyu",
       "country": "South Korea",
       "position": "GK",
@@ -270,13 +277,6 @@
     {
       "name": "Angus Gunn",
       "country": "Scotland",
-      "position": "GK",
-      "value": 2,
-      "managers": []
-    },
-    {
-      "name": "Maxime Crépeau",
-      "country": "Canada",
       "position": "GK",
       "value": 2,
       "managers": []
@@ -324,8 +324,29 @@
       "managers": []
     },
     {
+      "name": "Emmanuel Agbadou",
+      "country": "Ivory Coast",
+      "position": "DEF",
+      "value": 1,
+      "managers": []
+    },
+    {
+      "name": "Ghislain Konan",
+      "country": "Ivory Coast",
+      "position": "DEF",
+      "value": 1,
+      "managers": []
+    },
+    {
       "name": "Grant Hanley",
       "country": "Scotland",
+      "position": "DEF",
+      "value": 1,
+      "managers": []
+    },
+    {
+      "name": "Guela Doué",
+      "country": "Ivory Coast",
       "position": "DEF",
       "value": 1,
       "managers": []
@@ -347,27 +368,6 @@
     {
       "name": "Jack Hendry",
       "country": "Scotland",
-      "position": "DEF",
-      "value": 1,
-      "managers": []
-    },
-    {
-      "name": "Jacob Italiano",
-      "country": "Australia",
-      "position": "DEF",
-      "value": 1,
-      "managers": []
-    },
-    {
-      "name": "Jesús Gallardo",
-      "country": "Mexico",
-      "position": "DEF",
-      "value": 1,
-      "managers": []
-    },
-    {
-      "name": "Johan Vásquez",
-      "country": "Mexico",
       "position": "DEF",
       "value": 1,
       "managers": []
