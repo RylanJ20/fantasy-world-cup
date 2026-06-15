@@ -162,10 +162,10 @@
     "stage": "Group G",
     "home": "Belgium",
     "away": "Egypt",
-    "status": "FINISHED",
+    "status": "IN_PLAY",
     "homeScore": 1,
     "awayScore": 1,
-    "winner": "DRAW"
+    "winner": null
   },
   {
     "n": 760429,
