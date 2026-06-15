@@ -162,7 +162,7 @@
     "stage": "Group G",
     "home": "Belgium",
     "away": "Egypt",
-    "status": "IN_PLAY",
+    "status": "PAUSED",
     "homeScore": 0,
     "awayScore": 1,
     "winner": null
