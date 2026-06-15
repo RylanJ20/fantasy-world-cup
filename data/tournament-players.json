@@ -5219,9 +5219,25 @@
         "opponent": "Tunisia",
         "goals": 1,
         "assists": 2,
-        "shotsOnGoal": 1,
+        "shotsOnGoal": 2,
         "saves": 0,
         "goalsConceded": 1
+      }
+    ]
+  },
+  {
+    "name": "Anthony Elanga",
+    "country": "Sweden",
+    "position": "",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Tunisia",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -5238,6 +5254,22 @@
         "shotsOnGoal": 0,
         "saves": 0,
         "goalsConceded": 1
+      }
+    ]
+  },
+  {
+    "name": "Daniel Svensson",
+    "country": "Sweden",
+    "position": "",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Tunisia",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -5332,7 +5364,7 @@
         "goals": 0,
         "assists": 0,
         "shotsOnGoal": 0,
-        "saves": 0,
+        "saves": 1,
         "goalsConceded": 1
       }
     ]
@@ -5741,7 +5773,7 @@
         "opponent": "Sweden",
         "goals": 0,
         "assists": 0,
-        "shotsOnGoal": 0,
+        "shotsOnGoal": 1,
         "saves": 0,
         "goalsConceded": 1
       }
