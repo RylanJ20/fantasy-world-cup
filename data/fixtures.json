@@ -138,10 +138,10 @@
     "stage": "Group F",
     "home": "Sweden",
     "away": "Tunisia",
-    "status": "FINISHED",
-    "homeScore": 5,
+    "status": "IN_PLAY",
+    "homeScore": 4,
     "awayScore": 1,
-    "winner": "HOME_TEAM"
+    "winner": null
   },
   {
     "n": 760428,
