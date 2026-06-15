@@ -467,7 +467,7 @@
         "opponent": "Egypt",
         "goals": 0,
         "assists": 0,
-        "shotsOnGoal": 0,
+        "shotsOnGoal": 1,
         "saves": 0,
         "goalsConceded": 1
       }
@@ -2445,6 +2445,22 @@
     ]
   },
   {
+    "name": "Hamza Abdelkarim",
+    "country": "Egypt",
+    "position": "",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Belgium",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
     "name": "Marawan Attia",
     "country": "Egypt",
     "position": "MID",
@@ -2519,7 +2535,7 @@
         "goals": 0,
         "assists": 0,
         "shotsOnGoal": 0,
-        "saves": 1,
+        "saves": 2,
         "goalsConceded": 1
       }
     ]
@@ -2585,6 +2601,22 @@
         "shotsOnGoal": 0,
         "saves": 0,
         "goalsConceded": 1
+      }
+    ]
+  },
+  {
+    "name": "Zizo",
+    "country": "Egypt",
+    "position": "",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Belgium",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
