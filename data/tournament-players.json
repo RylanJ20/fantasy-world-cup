@@ -851,6 +851,182 @@
     ]
   },
   {
+    "name": "Dailon Livramento",
+    "country": "Cabo Verde",
+    "position": "FWD",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Spain",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Diney Borges",
+    "country": "Cabo Verde",
+    "position": "DEF",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Spain",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Jamiro Monteiro",
+    "country": "Cabo Verde",
+    "position": "MID",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Spain",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Jovane Cabral",
+    "country": "Cabo Verde",
+    "position": "MID",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Spain",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Kevin Pina",
+    "country": "Cabo Verde",
+    "position": "MID",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Spain",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Laros Duarte",
+    "country": "Cabo Verde",
+    "position": "MID",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Spain",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Pico Lopes",
+    "country": "Cabo Verde",
+    "position": "DEF",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Spain",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Ryan Mendes",
+    "country": "Cabo Verde",
+    "position": "MID",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Spain",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Sidny Lopes Cabral",
+    "country": "Cabo Verde",
+    "position": "DEF",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Spain",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Steven Moreira",
+    "country": "Cabo Verde",
+    "position": "DEF",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Spain",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Vozinha",
+    "country": "Cabo Verde",
+    "position": "GK",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Spain",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
     "name": "Ali Ahmed",
     "country": "Canada",
     "position": "",
@@ -5190,6 +5366,217 @@
         "saves": 0,
         "goalsConceded": 1,
         "result": "W"
+      }
+    ]
+  },
+  {
+    "name": "Aymeric Laporte",
+    "country": "Spain",
+    "position": "DEF",
+    "managers": [
+      {
+        "id": "rylan",
+        "name": "Rylan"
+      }
+    ],
+    "matches": [
+      {
+        "opponent": "Cabo Verde",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Fabián Ruiz",
+    "country": "Spain",
+    "position": "MID",
+    "managers": [
+      {
+        "id": "zach",
+        "name": "Zach"
+      }
+    ],
+    "matches": [
+      {
+        "opponent": "Cabo Verde",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Ferran Torres",
+    "country": "Spain",
+    "position": "FWD",
+    "managers": [
+      {
+        "id": "zach",
+        "name": "Zach"
+      }
+    ],
+    "matches": [
+      {
+        "opponent": "Cabo Verde",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Gavi",
+    "country": "Spain",
+    "position": "FWD",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Cabo Verde",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Marc Cucurella",
+    "country": "Spain",
+    "position": "DEF",
+    "managers": [
+      {
+        "id": "zach",
+        "name": "Zach"
+      }
+    ],
+    "matches": [
+      {
+        "opponent": "Cabo Verde",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Marcos Llorente",
+    "country": "Spain",
+    "position": "DEF",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Cabo Verde",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Mikel Oyarzabal",
+    "country": "Spain",
+    "position": "FWD",
+    "managers": [
+      {
+        "id": "rylan",
+        "name": "Rylan"
+      }
+    ],
+    "matches": [
+      {
+        "opponent": "Cabo Verde",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Pau Cubarsí",
+    "country": "Spain",
+    "position": "DEF",
+    "managers": [
+      {
+        "id": "zach",
+        "name": "Zach"
+      }
+    ],
+    "matches": [
+      {
+        "opponent": "Cabo Verde",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Pedri",
+    "country": "Spain",
+    "position": "MID",
+    "managers": [
+      {
+        "id": "alejandro",
+        "name": "Alejandro"
+      }
+    ],
+    "matches": [
+      {
+        "opponent": "Cabo Verde",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Rodri",
+    "country": "Spain",
+    "position": "MID",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Cabo Verde",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Unai Simón",
+    "country": "Spain",
+    "position": "GK",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Cabo Verde",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },

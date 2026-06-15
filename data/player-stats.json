@@ -529,5 +529,106 @@
         "result": "W"
       }
     ]
+  },
+  "es|mikel oyarzabal": {
+    "country": "Spain",
+    "name": "Mikel Oyarzabal",
+    "matches": [
+      {
+        "fixtureId": 760428,
+        "opponent": "Cabo Verde",
+        "date": "2026-06-15T16:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0
+      }
+    ]
+  },
+  "es|aymeric laporte": {
+    "country": "Spain",
+    "name": "Aymeric Laporte",
+    "matches": [
+      {
+        "fixtureId": 760428,
+        "opponent": "Cabo Verde",
+        "date": "2026-06-15T16:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  "es|ferran torres": {
+    "country": "Spain",
+    "name": "Ferran Torres",
+    "matches": [
+      {
+        "fixtureId": 760428,
+        "opponent": "Cabo Verde",
+        "date": "2026-06-15T16:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0
+      }
+    ]
+  },
+  "es|fabian ruiz": {
+    "country": "Spain",
+    "name": "Fabián Ruiz",
+    "matches": [
+      {
+        "fixtureId": 760428,
+        "opponent": "Cabo Verde",
+        "date": "2026-06-15T16:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0
+      }
+    ]
+  },
+  "es|pau cubarsi": {
+    "country": "Spain",
+    "name": "Pau Cubarsí",
+    "matches": [
+      {
+        "fixtureId": 760428,
+        "opponent": "Cabo Verde",
+        "date": "2026-06-15T16:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  "es|marc cucurella": {
+    "country": "Spain",
+    "name": "Marc Cucurella",
+    "matches": [
+      {
+        "fixtureId": 760428,
+        "opponent": "Cabo Verde",
+        "date": "2026-06-15T16:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  "es|pedri": {
+    "country": "Spain",
+    "name": "Pedri",
+    "matches": [
+      {
+        "fixtureId": 760428,
+        "opponent": "Cabo Verde",
+        "date": "2026-06-15T16:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0
+      }
+    ]
   }
 }
