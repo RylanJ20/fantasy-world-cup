@@ -494,8 +494,7 @@
         "goals": 0,
         "assists": 0,
         "shotsOnGoal": 0,
-        "goalsConceded": 1,
-        "result": "L"
+        "goalsConceded": 1
       }
     ]
   },
@@ -510,22 +509,7 @@
         "goals": 0,
         "assists": 0,
         "shotsOnGoal": 0,
-        "goalsConceded": 1,
-        "result": "L"
-      }
-    ]
-  },
-  "se|viktor gyokeres": {
-    "country": "Sweden",
-    "name": "Viktor Gyökeres",
-    "matches": [
-      {
-        "fixtureId": 760424,
-        "opponent": "Tunisia",
-        "date": "2026-06-15T02:00Z",
-        "goals": 0,
-        "assists": 1,
-        "shotsOnGoal": 1
+        "goalsConceded": 1
       }
     ]
   }
