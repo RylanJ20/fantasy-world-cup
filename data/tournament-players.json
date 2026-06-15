@@ -915,6 +915,22 @@
     ]
   },
   {
+    "name": "João Paulo",
+    "country": "Cabo Verde",
+    "position": "",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Spain",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
     "name": "Jovane Cabral",
     "country": "Cabo Verde",
     "position": "MID",
@@ -1030,6 +1046,22 @@
     "name": "Steven Moreira",
     "country": "Cabo Verde",
     "position": "DEF",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Spain",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Telmo Arcanjo",
+    "country": "Cabo Verde",
+    "position": "",
     "managers": [],
     "matches": [
       {
