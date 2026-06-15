@@ -20,6 +20,13 @@
       ]
     },
     {
+      "name": "Alexander Isak",
+      "country": "Sweden",
+      "position": "FWD",
+      "value": 1,
+      "managers": []
+    },
+    {
       "name": "Amad Diallo",
       "country": "Ivory Coast",
       "position": "FWD",
@@ -81,16 +88,16 @@
       "position": "MID",
       "value": 1,
       "managers": []
-    },
-    {
-      "name": "Hwang In-Beom",
-      "country": "South Korea",
-      "position": "MID",
-      "value": 1,
-      "managers": []
     }
   ],
   "assists": [
+    {
+      "name": "Alexander Isak",
+      "country": "Sweden",
+      "position": "FWD",
+      "value": 2,
+      "managers": []
+    },
     {
       "name": "Deniz Undav",
       "country": "Germany",
@@ -170,23 +177,16 @@
       ]
     },
     {
-      "name": "Hwang In-Beom",
-      "country": "South Korea",
+      "name": "Hannibal Mejbri",
+      "country": "Tunisia",
       "position": "MID",
       "value": 1,
       "managers": []
     },
     {
-      "name": "Julio Enciso",
-      "country": "Paraguay",
-      "position": "FWD",
-      "value": 1,
-      "managers": []
-    },
-    {
-      "name": "Koki Ogawa",
-      "country": "Japan",
-      "position": "FWD",
+      "name": "Hwang In-Beom",
+      "country": "South Korea",
+      "position": "MID",
       "value": 1,
       "managers": []
     }
@@ -324,8 +324,29 @@
       "managers": []
     },
     {
+      "name": "Emmanuel Agbadou",
+      "country": "Ivory Coast",
+      "position": "DEF",
+      "value": 1,
+      "managers": []
+    },
+    {
+      "name": "Ghislain Konan",
+      "country": "Ivory Coast",
+      "position": "DEF",
+      "value": 1,
+      "managers": []
+    },
+    {
       "name": "Grant Hanley",
       "country": "Scotland",
+      "position": "DEF",
+      "value": 1,
+      "managers": []
+    },
+    {
+      "name": "Guela Doué",
+      "country": "Ivory Coast",
       "position": "DEF",
       "value": 1,
       "managers": []
@@ -347,27 +368,6 @@
     {
       "name": "Jack Hendry",
       "country": "Scotland",
-      "position": "DEF",
-      "value": 1,
-      "managers": []
-    },
-    {
-      "name": "Jacob Italiano",
-      "country": "Australia",
-      "position": "DEF",
-      "value": 1,
-      "managers": []
-    },
-    {
-      "name": "Jesús Gallardo",
-      "country": "Mexico",
-      "position": "DEF",
-      "value": 1,
-      "managers": []
-    },
-    {
-      "name": "Johan Vásquez",
-      "country": "Mexico",
       "position": "DEF",
       "value": 1,
       "managers": []
