@@ -867,6 +867,22 @@
     ]
   },
   {
+    "name": "Deroy Duarte",
+    "country": "Cabo Verde",
+    "position": "",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Spain",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
     "name": "Diney Borges",
     "country": "Cabo Verde",
     "position": "DEF",
@@ -934,6 +950,22 @@
     "name": "Laros Duarte",
     "country": "Cabo Verde",
     "position": "MID",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Spain",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Nuno da Costa",
+    "country": "Cabo Verde",
+    "position": "",
     "managers": [],
     "matches": [
       {
@@ -1022,6 +1054,22 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 5,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Willy Semedo",
+    "country": "Cabo Verde",
+    "position": "",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Spain",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
         "goalsConceded": 0
       }
     ]
