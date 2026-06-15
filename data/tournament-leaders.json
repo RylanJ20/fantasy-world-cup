@@ -20,6 +20,13 @@
       ]
     },
     {
+      "name": "Yasin Ayari",
+      "country": "Sweden",
+      "position": "MID",
+      "value": 2,
+      "managers": []
+    },
+    {
       "name": "Alexander Isak",
       "country": "Sweden",
       "position": "FWD",
@@ -78,13 +85,6 @@
     {
       "name": "Felix Nmecha",
       "country": "Germany",
-      "position": "MID",
-      "value": 1,
-      "managers": []
-    },
-    {
-      "name": "Giovanni Reyna",
-      "country": "United States",
       "position": "MID",
       "value": 1,
       "managers": []

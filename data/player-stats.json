@@ -525,7 +525,8 @@
         "date": "2026-06-15T02:00Z",
         "goals": 1,
         "assists": 1,
-        "shotsOnGoal": 2
+        "shotsOnGoal": 2,
+        "result": "W"
       }
     ]
   }
