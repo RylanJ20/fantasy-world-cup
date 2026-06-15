@@ -27,6 +27,13 @@
       "managers": []
     },
     {
+      "name": "Abdulelah Al-Amri",
+      "country": "Saudi Arabia",
+      "position": "DEF",
+      "value": 1,
+      "managers": []
+    },
+    {
       "name": "Alexander Isak",
       "country": "Sweden",
       "position": "FWD",
@@ -79,13 +86,6 @@
       "name": "Deniz Undav",
       "country": "Germany",
       "position": "FWD",
-      "value": 1,
-      "managers": []
-    },
-    {
-      "name": "Emam Ashour",
-      "country": "Egypt",
-      "position": "MID",
       "value": 1,
       "managers": []
     }

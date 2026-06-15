@@ -5218,9 +5218,9 @@
     "matches": [
       {
         "opponent": "Uruguay",
-        "goals": 0,
+        "goals": 1,
         "assists": 0,
-        "shotsOnGoal": 1,
+        "shotsOnGoal": 2,
         "saves": 0,
         "goalsConceded": 0
       }
@@ -5284,7 +5284,7 @@
         "opponent": "Uruguay",
         "goals": 0,
         "assists": 0,
-        "shotsOnGoal": 0,
+        "shotsOnGoal": 1,
         "saves": 0,
         "goalsConceded": 0
       }
@@ -5317,7 +5317,7 @@
         "goals": 0,
         "assists": 0,
         "shotsOnGoal": 0,
-        "saves": 1,
+        "saves": 2,
         "goalsConceded": 0
       }
     ]
@@ -7915,7 +7915,7 @@
         "opponent": "Saudi Arabia",
         "goals": 0,
         "assists": 0,
-        "shotsOnGoal": 0,
+        "shotsOnGoal": 1,
         "saves": 0,
         "goalsConceded": 1
       }
