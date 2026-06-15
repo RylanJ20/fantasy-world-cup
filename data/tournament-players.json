@@ -1085,7 +1085,7 @@
         "goals": 0,
         "assists": 0,
         "shotsOnGoal": 0,
-        "saves": 6,
+        "saves": 7,
         "goalsConceded": 0
       }
     ]
@@ -5471,6 +5471,27 @@
     ]
   },
   {
+    "name": "Dani Olmo",
+    "country": "Spain",
+    "position": "MID",
+    "managers": [
+      {
+        "id": "rylan",
+        "name": "Rylan"
+      }
+    ],
+    "matches": [
+      {
+        "opponent": "Cabo Verde",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
     "name": "Fabián Ruiz",
     "country": "Spain",
     "position": "MID",
@@ -5564,7 +5585,7 @@
         "opponent": "Cabo Verde",
         "goals": 0,
         "assists": 0,
-        "shotsOnGoal": 0,
+        "shotsOnGoal": 1,
         "saves": 0,
         "goalsConceded": 0
       }

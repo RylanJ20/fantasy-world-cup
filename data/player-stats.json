@@ -544,6 +544,20 @@
       }
     ]
   },
+  "es|dani olmo": {
+    "country": "Spain",
+    "name": "Dani Olmo",
+    "matches": [
+      {
+        "fixtureId": 760428,
+        "opponent": "Cabo Verde",
+        "date": "2026-06-15T16:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0
+      }
+    ]
+  },
   "es|aymeric laporte": {
     "country": "Spain",
     "name": "Aymeric Laporte",
@@ -612,7 +626,7 @@
         "date": "2026-06-15T16:00Z",
         "goals": 0,
         "assists": 0,
-        "shotsOnGoal": 0,
+        "shotsOnGoal": 1,
         "goalsConceded": 0
       }
     ]
