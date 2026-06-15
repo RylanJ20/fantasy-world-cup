@@ -221,6 +221,13 @@
       "managers": []
     },
     {
+      "name": "Vozinha",
+      "country": "Cabo Verde",
+      "position": "GK",
+      "value": 4,
+      "managers": []
+    },
+    {
       "name": "Yassine Bounou",
       "country": "Morocco",
       "position": "GK",
@@ -273,13 +280,6 @@
           "name": "Marc"
         }
       ]
-    },
-    {
-      "name": "Angus Gunn",
-      "country": "Scotland",
-      "position": "GK",
-      "value": 2,
-      "managers": []
     }
   ],
   "cleanSheets": [
