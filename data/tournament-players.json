@@ -2493,6 +2493,38 @@
     ]
   },
   {
+    "name": "Ibrahim Adel",
+    "country": "Egypt",
+    "position": "",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Belgium",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Karim Hafez",
+    "country": "Egypt",
+    "position": "",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Belgium",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
     "name": "Marawan Attia",
     "country": "Egypt",
     "position": "MID",
