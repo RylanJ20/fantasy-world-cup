@@ -263,23 +263,18 @@
       "managers": []
     },
     {
-      "name": "Orlando Gil",
-      "country": "Paraguay",
+      "name": "Mostafa Shoubir",
+      "country": "Egypt",
       "position": "GK",
       "value": 3,
       "managers": []
     },
     {
-      "name": "Alisson Becker",
-      "country": "Brazil",
+      "name": "Orlando Gil",
+      "country": "Paraguay",
       "position": "GK",
-      "value": 2,
-      "managers": [
-        {
-          "id": "marc",
-          "name": "Marc"
-        }
-      ]
+      "value": 3,
+      "managers": []
     }
   ],
   "cleanSheets": [
