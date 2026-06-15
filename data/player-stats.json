@@ -667,5 +667,49 @@
         "result": "D"
       }
     ]
+  },
+  "be|kevin de bruyne": {
+    "country": "Belgium",
+    "name": "Kevin De Bruyne",
+    "matches": [
+      {
+        "fixtureId": 760426,
+        "opponent": "Egypt",
+        "date": "2026-06-15T19:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0
+      }
+    ]
+  },
+  "be|youri tielemans": {
+    "country": "Belgium",
+    "name": "Youri Tielemans",
+    "matches": [
+      {
+        "fixtureId": 760426,
+        "opponent": "Egypt",
+        "date": "2026-06-15T19:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0
+      }
+    ]
+  },
+  "be|thibaut courtois": {
+    "country": "Belgium",
+    "name": "Thibaut Courtois",
+    "matches": [
+      {
+        "fixtureId": 760426,
+        "opponent": "Egypt",
+        "date": "2026-06-15T19:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
   }
 }

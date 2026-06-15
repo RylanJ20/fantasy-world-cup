@@ -272,6 +272,197 @@
     ]
   },
   {
+    "name": "Amadou Onana",
+    "country": "Belgium",
+    "position": "MID",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Egypt",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Brandon Mechele",
+    "country": "Belgium",
+    "position": "DEF",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Egypt",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Charles De Ketelaere",
+    "country": "Belgium",
+    "position": "FWD",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Egypt",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Jérémy Doku",
+    "country": "Belgium",
+    "position": "MID",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Egypt",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Kevin De Bruyne",
+    "country": "Belgium",
+    "position": "MID",
+    "managers": [
+      {
+        "id": "rylan",
+        "name": "Rylan"
+      }
+    ],
+    "matches": [
+      {
+        "opponent": "Egypt",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Leandro Trossard",
+    "country": "Belgium",
+    "position": "MID",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Egypt",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Nathan Ngoy",
+    "country": "Belgium",
+    "position": "DEF",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Egypt",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Thibaut Courtois",
+    "country": "Belgium",
+    "position": "GK",
+    "managers": [
+      {
+        "id": "ben",
+        "name": "Ben"
+      }
+    ],
+    "matches": [
+      {
+        "opponent": "Egypt",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Thomas Meunier",
+    "country": "Belgium",
+    "position": "DEF",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Egypt",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Timothy Castagne",
+    "country": "Belgium",
+    "position": "DEF",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Egypt",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Youri Tielemans",
+    "country": "Belgium",
+    "position": "MID",
+    "managers": [
+      {
+        "id": "zach",
+        "name": "Zach"
+      }
+    ],
+    "matches": [
+      {
+        "opponent": "Egypt",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
     "name": "Amar Dedic",
     "country": "Bosnia-Herzegovina",
     "position": "DEF",
@@ -2154,6 +2345,182 @@
         "saves": 0,
         "goalsConceded": 1,
         "result": "L"
+      }
+    ]
+  },
+  {
+    "name": "Ahmed Fatouh",
+    "country": "Egypt",
+    "position": "DEF",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Belgium",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Emam Ashour",
+    "country": "Egypt",
+    "position": "MID",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Belgium",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Hamdy Fathy",
+    "country": "Egypt",
+    "position": "DEF",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Belgium",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Marawan Attia",
+    "country": "Egypt",
+    "position": "MID",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Belgium",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Mohamed Hany",
+    "country": "Egypt",
+    "position": "DEF",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Belgium",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Mohamed Salah",
+    "country": "Egypt",
+    "position": "MID",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Belgium",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Mohanad Lashin",
+    "country": "Egypt",
+    "position": "MID",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Belgium",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Mostafa Shoubir",
+    "country": "Egypt",
+    "position": "GK",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Belgium",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Mostafa Zico",
+    "country": "Egypt",
+    "position": "MID",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Belgium",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Omar Marmoush",
+    "country": "Egypt",
+    "position": "FWD",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Belgium",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Yasser Ibrahim",
+    "country": "Egypt",
+    "position": "DEF",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Belgium",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
