@@ -617,6 +617,20 @@
       }
     ]
   },
+  "es|lamine yamal": {
+    "country": "Spain",
+    "name": "Lamine Yamal",
+    "matches": [
+      {
+        "fixtureId": 760428,
+        "opponent": "Cabo Verde",
+        "date": "2026-06-15T16:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0
+      }
+    ]
+  },
   "es|pedri": {
     "country": "Spain",
     "name": "Pedri",
