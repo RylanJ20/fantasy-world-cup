@@ -323,26 +323,26 @@
       {
         "position": 1,
         "team": "Belgium",
-        "played": 0,
+        "played": 1,
         "won": 0,
-        "draw": 0,
+        "draw": 1,
         "lost": 0,
-        "gf": 0,
-        "ga": 0,
+        "gf": 1,
+        "ga": 1,
         "gd": 0,
-        "points": 0
+        "points": 1
       },
       {
         "position": 2,
         "team": "Egypt",
-        "played": 0,
+        "played": 1,
         "won": 0,
-        "draw": 0,
+        "draw": 1,
         "lost": 0,
-        "gf": 0,
-        "ga": 0,
+        "gf": 1,
+        "ga": 1,
         "gd": 0,
-        "points": 0
+        "points": 1
       },
       {
         "position": 3,
