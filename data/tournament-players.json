@@ -7954,6 +7954,22 @@
     ]
   },
   {
+    "name": "Juan Manuel Sanabria",
+    "country": "Uruguay",
+    "position": "",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Saudi Arabia",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
     "name": "Manuel Ugarte",
     "country": "Uruguay",
     "position": "MID",
