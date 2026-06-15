@@ -373,6 +373,22 @@
     ]
   },
   {
+    "name": "Maxim De Cuyper",
+    "country": "Belgium",
+    "position": "",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Egypt",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
     "name": "Nathan Ngoy",
     "country": "Belgium",
     "position": "DEF",
@@ -385,6 +401,22 @@
         "shotsOnGoal": 0,
         "saves": 0,
         "goalsConceded": 1
+      }
+    ]
+  },
+  {
+    "name": "Nicolas Raskin",
+    "country": "Belgium",
+    "position": "",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Egypt",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -404,7 +436,7 @@
         "goals": 0,
         "assists": 0,
         "shotsOnGoal": 0,
-        "saves": 2,
+        "saves": 3,
         "goalsConceded": 1
       }
     ]
@@ -2438,7 +2470,7 @@
         "opponent": "Belgium",
         "goals": 0,
         "assists": 1,
-        "shotsOnGoal": 0,
+        "shotsOnGoal": 1,
         "saves": 0,
         "goalsConceded": 0
       }
