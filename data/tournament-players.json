@@ -5211,6 +5211,182 @@
     ]
   },
   {
+    "name": "Abdulelah Al-Amri",
+    "country": "Saudi Arabia",
+    "position": "DEF",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Uruguay",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Abdullah Al-Khaibari",
+    "country": "Saudi Arabia",
+    "position": "MID",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Uruguay",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Feras Al-Brikan",
+    "country": "Saudi Arabia",
+    "position": "FWD",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Uruguay",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Hassan Al-Tambakti",
+    "country": "Saudi Arabia",
+    "position": "DEF",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Uruguay",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Mohamed Kanno",
+    "country": "Saudi Arabia",
+    "position": "MID",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Uruguay",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Mohammed Abu Al-Shamat",
+    "country": "Saudi Arabia",
+    "position": "MID",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Uruguay",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Mohammed Al-Owais",
+    "country": "Saudi Arabia",
+    "position": "GK",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Uruguay",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Moteb Al-Harbi",
+    "country": "Saudi Arabia",
+    "position": "DEF",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Uruguay",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Musab Al-Juwayr",
+    "country": "Saudi Arabia",
+    "position": "FWD",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Uruguay",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Salem Al-Dawsari",
+    "country": "Saudi Arabia",
+    "position": "MID",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Uruguay",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Saud Abdulhamid",
+    "country": "Saudi Arabia",
+    "position": "DEF",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Uruguay",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
     "name": "Aaron Hickey",
     "country": "Scotland",
     "position": "DEF",
@@ -7689,6 +7865,187 @@
         "saves": 0,
         "goalsConceded": 1,
         "result": "W"
+      }
+    ]
+  },
+  {
+    "name": "Darwin Núñez",
+    "country": "Uruguay",
+    "position": "FWD",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Saudi Arabia",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Federico Valverde",
+    "country": "Uruguay",
+    "position": "MID",
+    "managers": [
+      {
+        "id": "alejandro",
+        "name": "Alejandro"
+      }
+    ],
+    "matches": [
+      {
+        "opponent": "Saudi Arabia",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Federico Viñas",
+    "country": "Uruguay",
+    "position": "FWD",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Saudi Arabia",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Fernando Muslera",
+    "country": "Uruguay",
+    "position": "GK",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Saudi Arabia",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Guillermo Varela",
+    "country": "Uruguay",
+    "position": "DEF",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Saudi Arabia",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Manuel Ugarte",
+    "country": "Uruguay",
+    "position": "MID",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Saudi Arabia",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Mathías Olivera",
+    "country": "Uruguay",
+    "position": "DEF",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Saudi Arabia",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Matías Viña",
+    "country": "Uruguay",
+    "position": "DEF",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Saudi Arabia",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Maxi Araújo",
+    "country": "Uruguay",
+    "position": "MID",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Saudi Arabia",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Rodrigo Bentancur",
+    "country": "Uruguay",
+    "position": "MID",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Saudi Arabia",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Sebastián Cáceres",
+    "country": "Uruguay",
+    "position": "DEF",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Saudi Arabia",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   }
