@@ -126,9 +126,9 @@
     "stage": "Group E",
     "home": "Ivory Coast",
     "away": "Ecuador",
-    "status": "TIMED",
-    "homeScore": null,
-    "awayScore": null,
+    "status": "PAUSED",
+    "homeScore": 0,
+    "awayScore": 0,
     "winner": null
   },
   {

@@ -482,5 +482,35 @@
         "result": "D"
       }
     ]
+  },
+  "ec|piero hincapie": {
+    "country": "Ecuador",
+    "name": "Piero Hincapié",
+    "matches": [
+      {
+        "fixtureId": 760423,
+        "opponent": "Ivory Coast",
+        "date": "2026-06-14T23:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  "ec|willian pacho": {
+    "country": "Ecuador",
+    "name": "Willian Pacho",
+    "matches": [
+      {
+        "fixtureId": 760423,
+        "opponent": "Ivory Coast",
+        "date": "2026-06-14T23:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "goalsConceded": 0
+      }
+    ]
   }
 }
