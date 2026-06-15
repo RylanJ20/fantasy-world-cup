@@ -310,6 +310,18 @@
       ]
     },
     {
+      "name": "Aymeric Laporte",
+      "country": "Spain",
+      "position": "DEF",
+      "value": 1,
+      "managers": [
+        {
+          "id": "rylan",
+          "name": "Rylan"
+        }
+      ]
+    },
+    {
       "name": "Cameron Burgess",
       "country": "Australia",
       "position": "DEF",
@@ -319,6 +331,13 @@
     {
       "name": "César Montes",
       "country": "Mexico",
+      "position": "DEF",
+      "value": 1,
+      "managers": []
+    },
+    {
+      "name": "Diney Borges",
+      "country": "Cabo Verde",
       "position": "DEF",
       "value": 1,
       "managers": []
@@ -354,20 +373,6 @@
     {
       "name": "Harry Souttar",
       "country": "Australia",
-      "position": "DEF",
-      "value": 1,
-      "managers": []
-    },
-    {
-      "name": "Israel Reyes",
-      "country": "Mexico",
-      "position": "DEF",
-      "value": 1,
-      "managers": []
-    },
-    {
-      "name": "Jack Hendry",
-      "country": "Scotland",
       "position": "DEF",
       "value": 1,
       "managers": []

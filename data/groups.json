@@ -375,27 +375,27 @@
     "table": [
       {
         "position": 1,
-        "team": "Spain",
-        "played": 0,
+        "team": "Cabo Verde",
+        "played": 1,
         "won": 0,
-        "draw": 0,
+        "draw": 1,
         "lost": 0,
         "gf": 0,
         "ga": 0,
         "gd": 0,
-        "points": 0
+        "points": 1
       },
       {
         "position": 2,
-        "team": "Cabo Verde",
-        "played": 0,
+        "team": "Spain",
+        "played": 1,
         "won": 0,
-        "draw": 0,
+        "draw": 1,
         "lost": 0,
         "gf": 0,
         "ga": 0,
         "gd": 0,
-        "points": 0
+        "points": 1
       },
       {
         "position": 3,
