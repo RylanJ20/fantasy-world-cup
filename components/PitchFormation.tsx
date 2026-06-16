@@ -1,3 +1,4 @@
+import type { ReactNode } from "react";
 import type { PlayerScore } from "@/lib/scoring";
 import { shirtName } from "@/lib/shirtNames";
 import type { Position } from "@/lib/types";
@@ -79,22 +80,19 @@ function Row({ players }: { players: PlayerScore[] }) {
   );
 }
 
-export function PitchFormation({
-  players,
-  bench = [],
+/**
+ * The bare pitch — turf, chalk markings, and a top-to-bottom stack of rows.
+ * Shared by the manager squad formation and the Leaders "Team of the
+ * Tournament", so both fields look identical. `aside` is an optional panel
+ * beside the touchline (the manager page uses it for the subs bench).
+ */
+export function PitchField({
+  children,
+  aside,
 }: {
-  players: PlayerScore[];
-  bench?: PlayerScore[];
+  children: ReactNode;
+  aside?: ReactNode;
 }) {
-  const byPos = (...pos: Position[]) =>
-    players.filter((p) => pos.includes(p.player.position));
-
-  // Order the back line WB · CB · CB · DEF.
-  const back = [...byPos("WB"), ...byPos("CB"), ...byPos("DEF")];
-  const fwd = byPos("FWD");
-  const mid = byPos("MID");
-  const gk = byPos("GK");
-
   return (
     <div className="flex overflow-hidden rounded-2xl border border-line-strong">
       {/* field */}
@@ -129,26 +127,53 @@ export function PitchFormation({
 
         {/* players */}
         <div className="relative flex flex-col justify-between gap-5 px-2.5 py-6 sm:gap-6 sm:px-4 sm:py-8">
-          <Row players={fwd} />
-          <Row players={mid} />
-          <Row players={back} />
-          <Row players={gk} />
+          {children}
         </div>
       </div>
 
-      {/* technical area / subs bench, beside the touchline */}
-      {bench.length > 0 && (
-        <div className="relative flex w-16 shrink-0 flex-col items-center gap-3 border-l border-dashed border-line-strong bg-[#04130b] px-1.5 py-5 sm:w-[4.75rem]">
-          <span className="text-[0.55rem] font-bold uppercase tracking-[0.18em] text-faint">
-            Subs
-          </span>
-          <div className="flex flex-1 flex-col items-center justify-center gap-4">
-            {bench.map((ps) => (
-              <BenchNode key={ps.player.name} ps={ps} />
-            ))}
-          </div>
-        </div>
-      )}
+      {aside}
     </div>
+  );
+}
+
+export function PitchFormation({
+  players,
+  bench = [],
+}: {
+  players: PlayerScore[];
+  bench?: PlayerScore[];
+}) {
+  const byPos = (...pos: Position[]) =>
+    players.filter((p) => pos.includes(p.player.position));
+
+  // Order the back line WB · CB · CB · DEF.
+  const back = [...byPos("WB"), ...byPos("CB"), ...byPos("DEF")];
+  const fwd = byPos("FWD");
+  const mid = byPos("MID");
+  const gk = byPos("GK");
+
+  return (
+    <PitchField
+      aside={
+        // technical area / subs bench, beside the touchline
+        bench.length > 0 ? (
+          <div className="relative flex w-16 shrink-0 flex-col items-center gap-3 border-l border-dashed border-line-strong bg-[#04130b] px-1.5 py-5 sm:w-[4.75rem]">
+            <span className="text-[0.55rem] font-bold uppercase tracking-[0.18em] text-faint">
+              Subs
+            </span>
+            <div className="flex flex-1 flex-col items-center justify-center gap-4">
+              {bench.map((ps) => (
+                <BenchNode key={ps.player.name} ps={ps} />
+              ))}
+            </div>
+          </div>
+        ) : undefined
+      }
+    >
+      <Row players={fwd} />
+      <Row players={mid} />
+      <Row players={back} />
+      <Row players={gk} />
+    </PitchField>
   );
 }

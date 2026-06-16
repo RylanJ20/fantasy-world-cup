@@ -3,10 +3,12 @@ import type { ReactNode } from "react";
 import Link from "next/link";
 import {
   getLeaderboards,
+  teamOfTournament,
   type LeaderboardCategory,
   type LeaderRow,
 } from "@/lib/league";
 import { Flag, Pts } from "@/components/ui";
+import { TeamOfTournament } from "@/components/TeamOfTournament";
 import {
   BootIcon,
   GloveIcon,
@@ -112,6 +114,7 @@ function CategoryCard({ cat }: { cat: LeaderboardCategory }) {
 
 export default function LeaderboardsPage() {
   const categories = getLeaderboards();
+  const totm = teamOfTournament();
 
   return (
     <div className="mx-auto max-w-6xl px-4 pb-12 pt-8 sm:px-6 sm:pt-12">
@@ -126,10 +129,31 @@ export default function LeaderboardsPage() {
         </p>
       </div>
 
-      <div className="mt-8 grid gap-4 md:grid-cols-2 lg:grid-cols-3">
-        {categories.map((cat) => (
-          <CategoryCard key={cat.key} cat={cat} />
-        ))}
+      <div className="mt-8 grid gap-6 lg:grid-cols-[minmax(0,22rem)_1fr]">
+        {/* ── Team of the Tournament — left column, sticky like a squad ──── */}
+        <div className="lg:sticky lg:top-20 lg:self-start">
+          <div className="mb-3">
+            <p className="eyebrow mb-1">Best XI · all nations</p>
+            <h2 className="flex items-center gap-2 font-display text-2xl tracking-wide text-chalk">
+              <span className="text-turf-bright">
+                <TrophyIcon size={22} />
+              </span>
+              Team of the Tournament
+            </h2>
+          </div>
+          <TeamOfTournament lines={totm} />
+          <p className="mt-2 px-1 text-center text-xs text-faint">
+            Numbers are fantasy points — the top scorer at each position across
+            all 48 nations. Updates as results come in.
+          </p>
+        </div>
+
+        {/* ── Category leaderboards — fill the rest of the row ──────────── */}
+        <div className="grid gap-4 sm:grid-cols-2">
+          {categories.map((cat) => (
+            <CategoryCard key={cat.key} cat={cat} />
+          ))}
+        </div>
       </div>
     </div>
   );

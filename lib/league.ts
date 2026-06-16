@@ -352,6 +352,60 @@ export function getLeaderboards(limit = 5): LeaderboardCategory[] {
   ];
 }
 
+// ── Team of the Tournament ───────────────────────────────────────────────────
+
+export interface TotmLine {
+  /** Pitch line this slot fills (coarse position group). */
+  line: "GK" | "DEF" | "MID" | "FWD";
+  label: string;
+  /** Point leaders filling the line, best first. */
+  players: LeaderRow[];
+}
+
+/** Map any roster position (granular for drafted, coarse from ESPN for the
+ *  undrafted field) onto the pitch line it occupies; null for an unknown role. */
+function totmLine(position: string): TotmLine["line"] | null {
+  if (position === "GK") return "GK";
+  if (position === "CB" || position === "DEF" || position === "WB") return "DEF";
+  if (position === "MID") return "MID";
+  if (position === "FWD") return "FWD";
+  return null;
+}
+
+// A 4-3-3 — the same line counts as a manager's squad (1 GK · 4 def · 3 MID ·
+// 3 FWD), ordered top-of-pitch first so it drops straight into the formation.
+const TOTM_SHAPE: { line: TotmLine["line"]; label: string; take: number }[] = [
+  { line: "FWD", label: "Forwards", take: 3 },
+  { line: "MID", label: "Midfield", take: 3 },
+  { line: "DEF", label: "Defence", take: 4 },
+  { line: "GK", label: "Goalkeeper", take: 1 },
+];
+
+/**
+ * The Team of the Tournament: the highest fantasy-point player at each position
+ * across ALL 48 nations, laid out as a 4-3-3 mirroring a manager's squad pitch.
+ * Built from tournamentPointsRanking(), so it recomputes on every import and
+ * always reflects the current leaders. Within a points tie, drafted players win
+ * the slot (matching the category boards). Lines are returned top-of-pitch first.
+ */
+export function teamOfTournament(): TotmLine[] {
+  const byLine: Record<TotmLine["line"], LeaderRow[]> = { GK: [], DEF: [], MID: [], FWD: [] };
+  for (const r of tournamentPointsRanking()) {
+    const line = totmLine(r.position);
+    if (line) byLine[line].push(r);
+  }
+  return TOTM_SHAPE.map(({ line, label, take }) => ({
+    line,
+    label,
+    players: draftedFirst(
+      byLine[line],
+      (r) => r.value,
+      (r) => Boolean(r.managerId),
+      (r) => r.name,
+    ).slice(0, take),
+  }));
+}
+
 /** Totals for the hero stat ticker. */
 export function getLeagueTotals() {
   const scores = getManagerScores();
