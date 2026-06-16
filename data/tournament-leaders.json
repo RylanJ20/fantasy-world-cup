@@ -146,6 +146,13 @@
       "managers": []
     },
     {
+      "name": "Chris Wood",
+      "country": "New Zealand",
+      "position": "FWD",
+      "value": 1,
+      "managers": []
+    },
+    {
       "name": "Christian Pulisic",
       "country": "United States",
       "position": "MID",
@@ -179,13 +186,6 @@
     {
       "name": "Hannibal Mejbri",
       "country": "Tunisia",
-      "position": "MID",
-      "value": 1,
-      "managers": []
-    },
-    {
-      "name": "Hwang In-Beom",
-      "country": "South Korea",
       "position": "MID",
       "value": 1,
       "managers": []
