@@ -27,6 +27,18 @@
       ]
     },
     {
+      "name": "Kylian Mbappé",
+      "country": "France",
+      "position": "FWD",
+      "value": 2,
+      "managers": [
+        {
+          "id": "alejandro",
+          "name": "Alejandro"
+        }
+      ]
+    },
+    {
       "name": "Yasin Ayari",
       "country": "Sweden",
       "position": "MID",
@@ -78,13 +90,6 @@
     {
       "name": "Crysencio Summerville",
       "country": "Netherlands",
-      "position": "FWD",
-      "value": 1,
-      "managers": []
-    },
-    {
-      "name": "Cyle Larin",
-      "country": "Canada",
       "position": "FWD",
       "value": 1,
       "managers": []
