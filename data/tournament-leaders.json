@@ -67,6 +67,13 @@
       "managers": []
     },
     {
+      "name": "Aymen Hussein",
+      "country": "Iraq",
+      "position": "FWD",
+      "value": 1,
+      "managers": []
+    },
+    {
       "name": "Bradley Barcola",
       "country": "France",
       "position": "FWD",
@@ -84,13 +91,6 @@
       "name": "Connor Metcalfe",
       "country": "Australia",
       "position": "MID",
-      "value": 1,
-      "managers": []
-    },
-    {
-      "name": "Crysencio Summerville",
-      "country": "Netherlands",
-      "position": "FWD",
       "value": 1,
       "managers": []
     }
