@@ -174,10 +174,10 @@
     "stage": "Group H",
     "home": "Saudi Arabia",
     "away": "Uruguay",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "homeScore": 1,
     "awayScore": 1,
-    "winner": null
+    "winner": "DRAW"
   },
   {
     "n": 760427,
