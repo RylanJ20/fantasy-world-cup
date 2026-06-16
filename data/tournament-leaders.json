@@ -177,23 +177,18 @@
       ]
     },
     {
+      "name": "David Møller Wolfe",
+      "country": "Norway",
+      "position": "DEF",
+      "value": 1,
+      "managers": []
+    },
+    {
       "name": "Érik Lira",
       "country": "Mexico",
       "position": "MID",
       "value": 1,
       "managers": []
-    },
-    {
-      "name": "Florian Wirtz",
-      "country": "Germany",
-      "position": "MID",
-      "value": 1,
-      "managers": [
-        {
-          "id": "marc",
-          "name": "Marc"
-        }
-      ]
     }
   ],
   "saves": [
