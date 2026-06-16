@@ -3309,7 +3309,7 @@
         "goals": 0,
         "assists": 0,
         "shotsOnGoal": 0,
-        "saves": 5,
+        "saves": 6,
         "goalsConceded": 2
       }
     ]
@@ -3452,7 +3452,7 @@
         "opponent": "New Zealand",
         "goals": 0,
         "assists": 0,
-        "shotsOnGoal": 0,
+        "shotsOnGoal": 1,
         "saves": 0,
         "goalsConceded": 2
       }
@@ -5003,6 +5003,22 @@
     ]
   },
   {
+    "name": "Jesse Randall",
+    "country": "New Zealand",
+    "position": "",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Iran",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
     "name": "Joe Bell",
     "country": "New Zealand",
     "position": "MID",
@@ -5061,7 +5077,7 @@
         "goals": 0,
         "assists": 0,
         "shotsOnGoal": 0,
-        "saves": 1,
+        "saves": 2,
         "goalsConceded": 2
       }
     ]
@@ -5127,6 +5143,22 @@
         "shotsOnGoal": 0,
         "saves": 0,
         "goalsConceded": 2
+      }
+    ]
+  },
+  {
+    "name": "Tyler Bindon",
+    "country": "New Zealand",
+    "position": "",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Iran",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
