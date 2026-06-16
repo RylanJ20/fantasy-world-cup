@@ -375,6 +375,30 @@
     "table": [
       {
         "position": 1,
+        "team": "Uruguay",
+        "played": 1,
+        "won": 0,
+        "draw": 1,
+        "lost": 0,
+        "gf": 1,
+        "ga": 1,
+        "gd": 0,
+        "points": 1
+      },
+      {
+        "position": 2,
+        "team": "Saudi Arabia",
+        "played": 1,
+        "won": 0,
+        "draw": 1,
+        "lost": 0,
+        "gf": 1,
+        "ga": 1,
+        "gd": 0,
+        "points": 1
+      },
+      {
+        "position": 3,
         "team": "Cabo Verde",
         "played": 1,
         "won": 0,
@@ -386,7 +410,7 @@
         "points": 1
       },
       {
-        "position": 2,
+        "position": 4,
         "team": "Spain",
         "played": 1,
         "won": 0,
@@ -396,30 +420,6 @@
         "ga": 0,
         "gd": 0,
         "points": 1
-      },
-      {
-        "position": 3,
-        "team": "Saudi Arabia",
-        "played": 0,
-        "won": 0,
-        "draw": 0,
-        "lost": 0,
-        "gf": 0,
-        "ga": 0,
-        "gd": 0,
-        "points": 0
-      },
-      {
-        "position": 4,
-        "team": "Uruguay",
-        "played": 0,
-        "won": 0,
-        "draw": 0,
-        "lost": 0,
-        "gf": 0,
-        "ga": 0,
-        "gd": 0,
-        "points": 0
       }
     ]
   },
