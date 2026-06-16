@@ -729,5 +729,93 @@
         "result": "D"
       }
     ]
+  },
+  "fr|theo hernandez": {
+    "country": "France",
+    "name": "Theo Hernández",
+    "matches": [
+      {
+        "fixtureId": 760432,
+        "opponent": "Senegal",
+        "date": "2026-06-16T19:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  "fr|mike maignan": {
+    "country": "France",
+    "name": "Mike Maignan",
+    "matches": [
+      {
+        "fixtureId": 760432,
+        "opponent": "Senegal",
+        "date": "2026-06-16T19:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  "fr|michael olise": {
+    "country": "France",
+    "name": "Michael Olise",
+    "matches": [
+      {
+        "fixtureId": 760432,
+        "opponent": "Senegal",
+        "date": "2026-06-16T19:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0
+      }
+    ]
+  },
+  "fr|william saliba": {
+    "country": "France",
+    "name": "William Saliba",
+    "matches": [
+      {
+        "fixtureId": 760432,
+        "opponent": "Senegal",
+        "date": "2026-06-16T19:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  "fr|kylian mbappe": {
+    "country": "France",
+    "name": "Kylian Mbappé",
+    "matches": [
+      {
+        "fixtureId": 760432,
+        "opponent": "Senegal",
+        "date": "2026-06-16T19:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0
+      }
+    ]
+  },
+  "fr|ousmane dembele": {
+    "country": "France",
+    "name": "Ousmane Dembélé",
+    "matches": [
+      {
+        "fixtureId": 760432,
+        "opponent": "Senegal",
+        "date": "2026-06-16T19:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0
+      }
+    ]
   }
 }

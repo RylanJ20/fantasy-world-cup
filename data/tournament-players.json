@@ -2717,6 +2717,212 @@
     ]
   },
   {
+    "name": "Adrien Rabiot",
+    "country": "France",
+    "position": "MID",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Senegal",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Aurélien Tchouaméni",
+    "country": "France",
+    "position": "MID",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Senegal",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Dayot Upamecano",
+    "country": "France",
+    "position": "DEF",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Senegal",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Désiré Doué",
+    "country": "France",
+    "position": "MID",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Senegal",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Jules Koundé",
+    "country": "France",
+    "position": "DEF",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Senegal",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Kylian Mbappé",
+    "country": "France",
+    "position": "FWD",
+    "managers": [
+      {
+        "id": "alejandro",
+        "name": "Alejandro"
+      }
+    ],
+    "matches": [
+      {
+        "opponent": "Senegal",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Michael Olise",
+    "country": "France",
+    "position": "MID",
+    "managers": [
+      {
+        "id": "travis",
+        "name": "Travis"
+      }
+    ],
+    "matches": [
+      {
+        "opponent": "Senegal",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Mike Maignan",
+    "country": "France",
+    "position": "GK",
+    "managers": [
+      {
+        "id": "zach",
+        "name": "Zach"
+      }
+    ],
+    "matches": [
+      {
+        "opponent": "Senegal",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Ousmane Dembélé",
+    "country": "France",
+    "position": "MID",
+    "managers": [
+      {
+        "id": "alejandro",
+        "name": "Alejandro"
+      }
+    ],
+    "matches": [
+      {
+        "opponent": "Senegal",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Theo Hernández",
+    "country": "France",
+    "position": "DEF",
+    "managers": [
+      {
+        "id": "terrick",
+        "name": "Terrick"
+      }
+    ],
+    "matches": [
+      {
+        "opponent": "Senegal",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "William Saliba",
+    "country": "France",
+    "position": "DEF",
+    "managers": [
+      {
+        "id": "travis",
+        "name": "Travis"
+      }
+    ],
+    "matches": [
+      {
+        "opponent": "Senegal",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
     "name": "Aleksandar Pavlovic",
     "country": "Germany",
     "position": "MID",
@@ -6288,6 +6494,182 @@
         "saves": 0,
         "goalsConceded": 0,
         "result": "W"
+      }
+    ]
+  },
+  {
+    "name": "Édouard Mendy",
+    "country": "Senegal",
+    "position": "GK",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "France",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "El Hadji Malick Diouf",
+    "country": "Senegal",
+    "position": "DEF",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "France",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Idrissa Gueye",
+    "country": "Senegal",
+    "position": "MID",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "France",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Ismaïla Sarr",
+    "country": "Senegal",
+    "position": "FWD",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "France",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Kalidou Koulibaly",
+    "country": "Senegal",
+    "position": "DEF",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "France",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Krépin Diatta",
+    "country": "Senegal",
+    "position": "DEF",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "France",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Lamine Camara",
+    "country": "Senegal",
+    "position": "MID",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "France",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Moussa Niakhaté",
+    "country": "Senegal",
+    "position": "DEF",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "France",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Nicolas Jackson",
+    "country": "Senegal",
+    "position": "FWD",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "France",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Pape Gueye",
+    "country": "Senegal",
+    "position": "MID",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "France",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Sadio Mané",
+    "country": "Senegal",
+    "position": "FWD",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "France",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
