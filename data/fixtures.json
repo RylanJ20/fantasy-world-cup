@@ -186,10 +186,10 @@
     "stage": "Group G",
     "home": "Iran",
     "away": "New Zealand",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "homeScore": 2,
     "awayScore": 2,
-    "winner": null
+    "winner": "DRAW"
   },
   {
     "n": 760432,
