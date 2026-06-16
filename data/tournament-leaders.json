@@ -1,6 +1,13 @@
 {
   "goals": [
     {
+      "name": "Elijah Just",
+      "country": "New Zealand",
+      "position": "MID",
+      "value": 2,
+      "managers": []
+    },
+    {
       "name": "Folarin Balogun",
       "country": "United States",
       "position": "FWD",
@@ -81,19 +88,19 @@
       "position": "MID",
       "value": 1,
       "managers": []
-    },
-    {
-      "name": "Deniz Undav",
-      "country": "Germany",
-      "position": "FWD",
-      "value": 1,
-      "managers": []
     }
   ],
   "assists": [
     {
       "name": "Alexander Isak",
       "country": "Sweden",
+      "position": "FWD",
+      "value": 2,
+      "managers": []
+    },
+    {
+      "name": "Chris Wood",
+      "country": "New Zealand",
       "position": "FWD",
       "value": 2,
       "managers": []
@@ -142,13 +149,6 @@
       "name": "Bruno Guimarães",
       "country": "Brazil",
       "position": "MID",
-      "value": 1,
-      "managers": []
-    },
-    {
-      "name": "Chris Wood",
-      "country": "New Zealand",
-      "position": "FWD",
       "value": 1,
       "managers": []
     },
