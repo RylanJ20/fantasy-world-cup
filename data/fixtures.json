@@ -198,10 +198,10 @@
     "stage": "Group I",
     "home": "France",
     "away": "Senegal",
-    "status": "PAUSED",
-    "homeScore": 0,
-    "awayScore": 0,
-    "winner": null
+    "status": "FINISHED",
+    "homeScore": 3,
+    "awayScore": 1,
+    "winner": "HOME_TEAM"
   },
   {
     "n": 760430,
