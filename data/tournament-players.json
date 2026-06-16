@@ -3267,6 +3267,182 @@
     ]
   },
   {
+    "name": "Ali Nemati",
+    "country": "Iran",
+    "position": "DEF",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "New Zealand",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Alireza Beiranvand",
+    "country": "Iran",
+    "position": "GK",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "New Zealand",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Arya Yousefi",
+    "country": "Iran",
+    "position": "MID",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "New Zealand",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Mehdi Taremi",
+    "country": "Iran",
+    "position": "FWD",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "New Zealand",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Milad Mohammadi",
+    "country": "Iran",
+    "position": "DEF",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "New Zealand",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Mohammad Mohebbi",
+    "country": "Iran",
+    "position": "MID",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "New Zealand",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Ramin Rezaeian",
+    "country": "Iran",
+    "position": "DEF",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "New Zealand",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Saeid Ezatolahi",
+    "country": "Iran",
+    "position": "MID",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "New Zealand",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Saman Ghoddos",
+    "country": "Iran",
+    "position": "MID",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "New Zealand",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Shahriyar Moghanloo",
+    "country": "Iran",
+    "position": "FWD",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "New Zealand",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Shoja Khalilzadeh",
+    "country": "Iran",
+    "position": "DEF",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "New Zealand",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
     "name": "Amad Diallo",
     "country": "Ivory Coast",
     "position": "FWD",
@@ -4663,6 +4839,182 @@
         "saves": 0,
         "goalsConceded": 2,
         "result": "D"
+      }
+    ]
+  },
+  {
+    "name": "Callum McCowatt",
+    "country": "New Zealand",
+    "position": "MID",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Iran",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Chris Wood",
+    "country": "New Zealand",
+    "position": "FWD",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Iran",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Elijah Just",
+    "country": "New Zealand",
+    "position": "MID",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Iran",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Finn Surman",
+    "country": "New Zealand",
+    "position": "DEF",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Iran",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Joe Bell",
+    "country": "New Zealand",
+    "position": "MID",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Iran",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Liberato Cacace",
+    "country": "New Zealand",
+    "position": "DEF",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Iran",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Marko Stamenic",
+    "country": "New Zealand",
+    "position": "MID",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Iran",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Max Crocombe",
+    "country": "New Zealand",
+    "position": "GK",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Iran",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Michael Boxall",
+    "country": "New Zealand",
+    "position": "DEF",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Iran",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Sarpreet Singh",
+    "country": "New Zealand",
+    "position": "MID",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Iran",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Tim Payne",
+    "country": "New Zealand",
+    "position": "DEF",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Iran",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
