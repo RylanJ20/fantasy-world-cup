@@ -4907,6 +4907,22 @@
     ]
   },
   {
+    "name": "Callan Elliot",
+    "country": "New Zealand",
+    "position": "",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Iran",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
     "name": "Callum McCowatt",
     "country": "New Zealand",
     "position": "MID",
