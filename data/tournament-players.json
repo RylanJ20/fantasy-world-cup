@@ -2749,6 +2749,22 @@
     ]
   },
   {
+    "name": "Bradley Barcola",
+    "country": "France",
+    "position": "",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Senegal",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
     "name": "Dayot Upamecano",
     "country": "France",
     "position": "DEF",
