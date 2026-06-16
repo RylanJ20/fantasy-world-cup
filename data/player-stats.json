@@ -838,5 +838,48 @@
         "result": "W"
       }
     ]
+  },
+  "no|erling haaland": {
+    "country": "Norway",
+    "name": "Erling Haaland",
+    "matches": [
+      {
+        "fixtureId": 760430,
+        "opponent": "Iraq",
+        "date": "2026-06-16T22:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0
+      }
+    ]
+  },
+  "no|martin ødegaard": {
+    "country": "Norway",
+    "name": "Martin Ødegaard",
+    "matches": [
+      {
+        "fixtureId": 760430,
+        "opponent": "Iraq",
+        "date": "2026-06-16T22:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0
+      }
+    ]
+  },
+  "no|julian ryerson": {
+    "country": "Norway",
+    "name": "Julian Ryerson",
+    "matches": [
+      {
+        "fixtureId": 760430,
+        "opponent": "Iraq",
+        "date": "2026-06-16T22:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "goalsConceded": 0
+      }
+    ]
   }
 }

@@ -3778,6 +3778,182 @@
     ]
   },
   {
+    "name": "Akam Hashim",
+    "country": "Iraq",
+    "position": "DEF",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Norway",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Ali Al-Hamadi",
+    "country": "Iraq",
+    "position": "FWD",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Norway",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Ali Jasim",
+    "country": "Iraq",
+    "position": "MID",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Norway",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Amir Al-Ammari",
+    "country": "Iraq",
+    "position": "MID",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Norway",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Aymen Hussein",
+    "country": "Iraq",
+    "position": "FWD",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Norway",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Hussein Ali",
+    "country": "Iraq",
+    "position": "DEF",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Norway",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Ibrahim Bayesh",
+    "country": "Iraq",
+    "position": "MID",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Norway",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Jalal Hassan",
+    "country": "Iraq",
+    "position": "GK",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Norway",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Merchas Doski",
+    "country": "Iraq",
+    "position": "DEF",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Norway",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Zaid Ismael",
+    "country": "Iraq",
+    "position": "MID",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Norway",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Zaid Tahseen",
+    "country": "Iraq",
+    "position": "DEF",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Norway",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
     "name": "Amad Diallo",
     "country": "Ivory Coast",
     "position": "FWD",
@@ -5446,6 +5622,197 @@
         "saves": 0,
         "goalsConceded": 0,
         "result": "D"
+      }
+    ]
+  },
+  {
+    "name": "Alexander Sørloth",
+    "country": "Norway",
+    "position": "FWD",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Iraq",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Antonio Nusa",
+    "country": "Norway",
+    "position": "FWD",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Iraq",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "David Møller Wolfe",
+    "country": "Norway",
+    "position": "DEF",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Iraq",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Erling Haaland",
+    "country": "Norway",
+    "position": "FWD",
+    "managers": [
+      {
+        "id": "marc",
+        "name": "Marc"
+      }
+    ],
+    "matches": [
+      {
+        "opponent": "Iraq",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Fredrik Aursnes",
+    "country": "Norway",
+    "position": "MID",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Iraq",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Julian Ryerson",
+    "country": "Norway",
+    "position": "DEF",
+    "managers": [
+      {
+        "id": "ben",
+        "name": "Ben"
+      }
+    ],
+    "matches": [
+      {
+        "opponent": "Iraq",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Kristoffer Ajer",
+    "country": "Norway",
+    "position": "DEF",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Iraq",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Martin Ødegaard",
+    "country": "Norway",
+    "position": "MID",
+    "managers": [
+      {
+        "id": "terrick",
+        "name": "Terrick"
+      }
+    ],
+    "matches": [
+      {
+        "opponent": "Iraq",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Ørjan Nyland",
+    "country": "Norway",
+    "position": "GK",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Iraq",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Sander Berge",
+    "country": "Norway",
+    "position": "MID",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Iraq",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Torbjørn Heggem",
+    "country": "Norway",
+    "position": "DEF",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Iraq",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
