@@ -3954,6 +3954,22 @@
     ]
   },
   {
+    "name": "Mohanad Ali",
+    "country": "Iraq",
+    "position": "",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Norway",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
     "name": "Mustafa Saadoon",
     "country": "Iraq",
     "position": "",
@@ -5898,6 +5914,22 @@
   },
   {
     "name": "Oscar Bobb",
+    "country": "Norway",
+    "position": "",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Iraq",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Patrick Berg",
     "country": "Norway",
     "position": "",
     "managers": [],
