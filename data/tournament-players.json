@@ -5227,6 +5227,22 @@
     ]
   },
   {
+    "name": "Abdullah Al-Hamdan",
+    "country": "Saudi Arabia",
+    "position": "",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Uruguay",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
     "name": "Abdullah Al-Khaibari",
     "country": "Saudi Arabia",
     "position": "MID",
@@ -5239,6 +5255,38 @@
         "shotsOnGoal": 0,
         "saves": 0,
         "goalsConceded": 1
+      }
+    ]
+  },
+  {
+    "name": "Ala Al-Hajji",
+    "country": "Saudi Arabia",
+    "position": "",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Uruguay",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Ali Lajami",
+    "country": "Saudi Arabia",
+    "position": "",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Uruguay",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -5317,7 +5365,7 @@
         "goals": 0,
         "assists": 0,
         "shotsOnGoal": 0,
-        "saves": 6,
+        "saves": 8,
         "goalsConceded": 1
       }
     ]
@@ -7963,7 +8011,7 @@
         "opponent": "Saudi Arabia",
         "goals": 0,
         "assists": 0,
-        "shotsOnGoal": 1,
+        "shotsOnGoal": 2,
         "saves": 0,
         "goalsConceded": 1
       }
@@ -8099,6 +8147,22 @@
   },
   {
     "name": "Nicolás de la Cruz",
+    "country": "Uruguay",
+    "position": "",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Saudi Arabia",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 1,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Rodrigo Aguirre",
     "country": "Uruguay",
     "position": "",
     "managers": [],
