@@ -20,6 +20,11 @@
     "opponent": "Bosnia-Herzegovina"
   },
   {
+    "player": "Emam Ashour",
+    "country": "Egypt",
+    "opponent": "Belgium"
+  },
+  {
     "player": "Kai Havertz",
     "country": "Germany",
     "opponent": "Curaçao"
@@ -63,5 +68,10 @@
     "player": "Folarin Balogun",
     "country": "United States",
     "opponent": "Paraguay"
+  },
+  {
+    "player": "Federico Valverde",
+    "country": "Uruguay",
+    "opponent": "Saudi Arabia"
   }
 ]
