@@ -210,7 +210,7 @@
     "stage": "Group I",
     "home": "Iraq",
     "away": "Norway",
-    "status": "PAUSED",
+    "status": "IN_PLAY",
     "homeScore": 1,
     "awayScore": 2,
     "winner": null
