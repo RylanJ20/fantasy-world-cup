@@ -8,6 +8,18 @@
       "managers": []
     },
     {
+      "name": "Erling Haaland",
+      "country": "Norway",
+      "position": "FWD",
+      "value": 2,
+      "managers": [
+        {
+          "id": "marc",
+          "name": "Marc"
+        }
+      ]
+    },
+    {
       "name": "Folarin Balogun",
       "country": "United States",
       "position": "FWD",
@@ -86,13 +98,6 @@
       "position": "FWD",
       "value": 1,
       "managers": []
-    },
-    {
-      "name": "Connor Metcalfe",
-      "country": "Australia",
-      "position": "MID",
-      "value": 1,
-      "managers": []
     }
   ],
   "assists": [
@@ -151,6 +156,13 @@
       "managers": []
     },
     {
+      "name": "Amir Al-Ammari",
+      "country": "Iraq",
+      "position": "MID",
+      "value": 1,
+      "managers": []
+    },
+    {
       "name": "Brahim Díaz",
       "country": "Morocco",
       "position": "MID",
@@ -180,13 +192,6 @@
       "name": "David Møller Wolfe",
       "country": "Norway",
       "position": "DEF",
-      "value": 1,
-      "managers": []
-    },
-    {
-      "name": "Érik Lira",
-      "country": "Mexico",
-      "position": "MID",
       "value": 1,
       "managers": []
     }
