@@ -198,7 +198,7 @@
     "stage": "Group I",
     "home": "France",
     "away": "Senegal",
-    "status": "IN_PLAY",
+    "status": "PAUSED",
     "homeScore": 0,
     "awayScore": 0,
     "winner": null
