@@ -3778,6 +3778,22 @@
     ]
   },
   {
+    "name": "Ahmed Qasim",
+    "country": "Iraq",
+    "position": "",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Norway",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 1
+      }
+    ]
+  },
+  {
     "name": "Akam Hashim",
     "country": "Iraq",
     "position": "DEF",
@@ -3789,7 +3805,7 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 2
+        "goalsConceded": 3
       }
     ]
   },
@@ -3837,7 +3853,7 @@
         "assists": 1,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 2
+        "goalsConceded": 3
       }
     ]
   },
@@ -3853,7 +3869,7 @@
         "assists": 0,
         "shotsOnGoal": 1,
         "saves": 0,
-        "goalsConceded": 2
+        "goalsConceded": 3
       }
     ]
   },
@@ -3885,7 +3901,7 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 2
+        "goalsConceded": 3
       }
     ]
   },
@@ -3901,7 +3917,7 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 1,
-        "goalsConceded": 2
+        "goalsConceded": 3
       }
     ]
   },
@@ -3917,7 +3933,7 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 0
+        "goalsConceded": 1
       }
     ]
   },
@@ -3933,7 +3949,23 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 2
+        "goalsConceded": 3
+      }
+    ]
+  },
+  {
+    "name": "Mustafa Saadoon",
+    "country": "Iraq",
+    "position": "",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Norway",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 1
       }
     ]
   },
@@ -3965,7 +3997,7 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 2
+        "goalsConceded": 3
       }
     ]
   },
@@ -3981,7 +4013,7 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 0
+        "goalsConceded": 1
       }
     ]
   },
@@ -5780,6 +5812,22 @@
     ]
   },
   {
+    "name": "Kristian Thorstvedt",
+    "country": "Norway",
+    "position": "",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Iraq",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
     "name": "Kristoffer Ajer",
     "country": "Norway",
     "position": "DEF",
@@ -5792,6 +5840,22 @@
         "shotsOnGoal": 0,
         "saves": 0,
         "goalsConceded": 1
+      }
+    ]
+  },
+  {
+    "name": "Leo Østigard",
+    "country": "Norway",
+    "position": "DEF",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Iraq",
+        "goals": 1,
+        "assists": 0,
+        "shotsOnGoal": 1,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -5809,7 +5873,7 @@
       {
         "opponent": "Iraq",
         "goals": 0,
-        "assists": 0,
+        "assists": 1,
         "shotsOnGoal": 0,
         "saves": 0,
         "goalsConceded": 1
@@ -5829,6 +5893,22 @@
         "shotsOnGoal": 0,
         "saves": 0,
         "goalsConceded": 1
+      }
+    ]
+  },
+  {
+    "name": "Oscar Bobb",
+    "country": "Norway",
+    "position": "",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Iraq",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
