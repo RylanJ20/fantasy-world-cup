@@ -725,7 +725,8 @@
         "date": "2026-06-15T22:00Z",
         "goals": 0,
         "assists": 0,
-        "shotsOnGoal": 2
+        "shotsOnGoal": 2,
+        "result": "D"
       }
     ]
   }
