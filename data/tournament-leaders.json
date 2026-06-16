@@ -228,6 +228,13 @@
       "managers": []
     },
     {
+      "name": "Édouard Mendy",
+      "country": "Senegal",
+      "position": "GK",
+      "value": 4,
+      "managers": []
+    },
+    {
       "name": "Eloy Room",
       "country": "Curaçao",
       "position": "GK",
@@ -265,13 +272,6 @@
     {
       "name": "Hernán Galíndez",
       "country": "Ecuador",
-      "position": "GK",
-      "value": 3,
-      "managers": []
-    },
-    {
-      "name": "Kim Seung-Gyu",
-      "country": "South Korea",
       "position": "GK",
       "value": 3,
       "managers": []
