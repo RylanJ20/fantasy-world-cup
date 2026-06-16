@@ -745,6 +745,20 @@
       }
     ]
   },
+  "fr|rayan cherki": {
+    "country": "France",
+    "name": "Rayan Cherki",
+    "matches": [
+      {
+        "fixtureId": 760432,
+        "opponent": "Senegal",
+        "date": "2026-06-16T19:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0
+      }
+    ]
+  },
   "fr|mike maignan": {
     "country": "France",
     "name": "Mike Maignan",

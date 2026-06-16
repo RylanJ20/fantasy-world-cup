@@ -2897,6 +2897,27 @@
     ]
   },
   {
+    "name": "Rayan Cherki",
+    "country": "France",
+    "position": "MID",
+    "managers": [
+      {
+        "id": "zach",
+        "name": "Zach"
+      }
+    ],
+    "matches": [
+      {
+        "opponent": "Senegal",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
     "name": "Theo Hernández",
     "country": "France",
     "position": "DEF",
@@ -6540,7 +6561,7 @@
         "goals": 0,
         "assists": 0,
         "shotsOnGoal": 0,
-        "saves": 4,
+        "saves": 5,
         "goalsConceded": 2
       }
     ]
@@ -6734,6 +6755,22 @@
         "shotsOnGoal": 0,
         "saves": 0,
         "goalsConceded": 2
+      }
+    ]
+  },
+  {
+    "name": "Pathé Ciss",
+    "country": "Senegal",
+    "position": "",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "France",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
