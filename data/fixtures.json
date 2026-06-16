@@ -186,7 +186,7 @@
     "stage": "Group G",
     "home": "Iran",
     "away": "New Zealand",
-    "status": "IN_PLAY",
+    "status": "PAUSED",
     "homeScore": 1,
     "awayScore": 1,
     "winner": null
