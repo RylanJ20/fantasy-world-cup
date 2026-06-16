@@ -3916,7 +3916,7 @@
         "goals": 0,
         "assists": 0,
         "shotsOnGoal": 0,
-        "saves": 1,
+        "saves": 2,
         "goalsConceded": 3
       }
     ]
@@ -5784,7 +5784,7 @@
         "opponent": "Iraq",
         "goals": 2,
         "assists": 0,
-        "shotsOnGoal": 3,
+        "shotsOnGoal": 4,
         "saves": 0,
         "goalsConceded": 1
       }
