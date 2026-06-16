@@ -55,6 +55,13 @@
       "managers": []
     },
     {
+      "name": "Bradley Barcola",
+      "country": "France",
+      "position": "FWD",
+      "value": 1,
+      "managers": []
+    },
+    {
       "name": "Breel Embolo",
       "country": "Switzerland",
       "position": "FWD",
@@ -79,13 +86,6 @@
       "name": "Cyle Larin",
       "country": "Canada",
       "position": "FWD",
-      "value": 1,
-      "managers": []
-    },
-    {
-      "name": "Daichi Kamada",
-      "country": "Japan",
-      "position": "MID",
       "value": 1,
       "managers": []
     }
@@ -129,6 +129,13 @@
       "country": "Netherlands",
       "position": "MID",
       "value": 2,
+      "managers": []
+    },
+    {
+      "name": "Adrien Rabiot",
+      "country": "France",
+      "position": "MID",
+      "value": 1,
       "managers": []
     },
     {
@@ -182,13 +189,6 @@
           "name": "Marc"
         }
       ]
-    },
-    {
-      "name": "Hannibal Mejbri",
-      "country": "Tunisia",
-      "position": "MID",
-      "value": 1,
-      "managers": []
     }
   ],
   "saves": [
