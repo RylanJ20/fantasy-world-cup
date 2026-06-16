@@ -5674,6 +5674,22 @@
     ]
   },
   {
+    "name": "Andreas Schjelderup",
+    "country": "Norway",
+    "position": "",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Iraq",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
     "name": "Antonio Nusa",
     "country": "Norway",
     "position": "MID",
