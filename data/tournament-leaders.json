@@ -51,6 +51,18 @@
       ]
     },
     {
+      "name": "Lionel Messi",
+      "country": "Argentina",
+      "position": "FWD",
+      "value": 2,
+      "managers": [
+        {
+          "id": "zach",
+          "name": "Zach"
+        }
+      ]
+    },
+    {
       "name": "Yasin Ayari",
       "country": "Sweden",
       "position": "MID",
@@ -88,13 +100,6 @@
     {
       "name": "Bradley Barcola",
       "country": "France",
-      "position": "FWD",
-      "value": 1,
-      "managers": []
-    },
-    {
-      "name": "Breel Embolo",
-      "country": "Switzerland",
       "position": "FWD",
       "value": 1,
       "managers": []
