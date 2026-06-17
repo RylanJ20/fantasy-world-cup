@@ -5455,6 +5455,22 @@
     ]
   },
   {
+    "name": "Ali Azaizeh",
+    "country": "Jordan",
+    "position": "",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Austria",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
     "name": "Ali Olwan",
     "country": "Jordan",
     "position": "FWD",
@@ -5515,6 +5531,22 @@
         "shotsOnGoal": 0,
         "saves": 0,
         "goalsConceded": 1
+      }
+    ]
+  },
+  {
+    "name": "Mohammad Al-Daoud",
+    "country": "Jordan",
+    "position": "",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Austria",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
