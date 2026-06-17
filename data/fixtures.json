@@ -222,7 +222,7 @@
     "stage": "Group J",
     "home": "Argentina",
     "away": "Algeria",
-    "status": "PAUSED",
+    "status": "IN_PLAY",
     "homeScore": 1,
     "awayScore": 0,
     "winner": null

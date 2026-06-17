@@ -350,6 +350,27 @@
     ]
   },
   {
+    "name": "Nahuel Molina",
+    "country": "Argentina",
+    "position": "DEF",
+    "managers": [
+      {
+        "id": "alejandro",
+        "name": "Alejandro"
+      }
+    ],
+    "matches": [
+      {
+        "opponent": "Algeria",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
     "name": "Rodrigo De Paul",
     "country": "Argentina",
     "position": "MID",
