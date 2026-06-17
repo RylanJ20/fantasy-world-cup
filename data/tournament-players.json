@@ -7743,6 +7743,22 @@
     ]
   },
   {
+    "name": "Nélson Semedo",
+    "country": "Portugal",
+    "position": "",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Congo DR",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
     "name": "Nuno Mendes",
     "country": "Portugal",
     "position": "DEF",
@@ -7776,6 +7792,27 @@
         "shotsOnGoal": 0,
         "saves": 0,
         "goalsConceded": 1
+      }
+    ]
+  },
+  {
+    "name": "Rafael Leão",
+    "country": "Portugal",
+    "position": "FWD",
+    "managers": [
+      {
+        "id": "marc",
+        "name": "Marc"
+      }
+    ],
+    "matches": [
+      {
+        "opponent": "Congo DR",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },

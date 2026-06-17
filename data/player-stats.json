@@ -1024,6 +1024,20 @@
       }
     ]
   },
+  "pt|rafael leao": {
+    "country": "Portugal",
+    "name": "Rafael Leão",
+    "matches": [
+      {
+        "fixtureId": 760435,
+        "opponent": "Congo DR",
+        "date": "2026-06-17T17:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0
+      }
+    ]
+  },
   "pt|bernardo silva": {
     "country": "Portugal",
     "name": "Bernardo Silva",
