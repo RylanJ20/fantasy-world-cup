@@ -2623,6 +2623,22 @@
     ]
   },
   {
+    "name": "Charles Pickel",
+    "country": "Congo DR",
+    "position": "",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Portugal",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
     "name": "Edo Kayembe",
     "country": "Congo DR",
     "position": "MID",
@@ -2635,6 +2651,22 @@
         "shotsOnGoal": 1,
         "saves": 0,
         "goalsConceded": 1
+      }
+    ]
+  },
+  {
+    "name": "Joris Kayembe",
+    "country": "Congo DR",
+    "position": "",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Portugal",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
