@@ -1,6 +1,18 @@
 {
   "goals": [
     {
+      "name": "Lionel Messi",
+      "country": "Argentina",
+      "position": "FWD",
+      "value": 3,
+      "managers": [
+        {
+          "id": "zach",
+          "name": "Zach"
+        }
+      ]
+    },
+    {
       "name": "Elijah Just",
       "country": "New Zealand",
       "position": "MID",
@@ -47,18 +59,6 @@
         {
           "id": "alejandro",
           "name": "Alejandro"
-        }
-      ]
-    },
-    {
-      "name": "Lionel Messi",
-      "country": "Argentina",
-      "position": "FWD",
-      "value": 2,
-      "managers": [
-        {
-          "id": "zach",
-          "name": "Zach"
         }
       ]
     },
