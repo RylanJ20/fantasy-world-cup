@@ -84,6 +84,13 @@
       "managers": []
     },
     {
+      "name": "Ali Olwan",
+      "country": "Jordan",
+      "position": "FWD",
+      "value": 1,
+      "managers": []
+    },
+    {
       "name": "Amad Diallo",
       "country": "Ivory Coast",
       "position": "FWD",
@@ -93,13 +100,6 @@
     {
       "name": "Aymen Hussein",
       "country": "Iraq",
-      "position": "FWD",
-      "value": 1,
-      "managers": []
-    },
-    {
-      "name": "Bradley Barcola",
-      "country": "France",
       "position": "FWD",
       "value": 1,
       "managers": []
