@@ -1008,5 +1008,19 @@
         "result": "W"
       }
     ]
+  },
+  "at|marcel sabitzer": {
+    "country": "Austria",
+    "name": "Marcel Sabitzer",
+    "matches": [
+      {
+        "fixtureId": 760431,
+        "opponent": "Jordan",
+        "date": "2026-06-17T04:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0
+      }
+    ]
   }
 }
