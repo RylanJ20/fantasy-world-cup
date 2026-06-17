@@ -5002,6 +5002,187 @@
     ]
   },
   {
+    "name": "Antoine Semenyo",
+    "country": "Ghana",
+    "position": "MID",
+    "managers": [
+      {
+        "id": "grayson",
+        "name": "Grayson"
+      }
+    ],
+    "matches": [
+      {
+        "opponent": "Panama",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Caleb Yirenkyi",
+    "country": "Ghana",
+    "position": "MID",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Panama",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Elisha Owusu",
+    "country": "Ghana",
+    "position": "MID",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Panama",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Ernest Nuamah",
+    "country": "Ghana",
+    "position": "MID",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Panama",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Gideon Mensah",
+    "country": "Ghana",
+    "position": "DEF",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Panama",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Jerome Opoku",
+    "country": "Ghana",
+    "position": "DEF",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Panama",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Jonas Adjetey",
+    "country": "Ghana",
+    "position": "DEF",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Panama",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Jordan Ayew",
+    "country": "Ghana",
+    "position": "FWD",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Panama",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Kamaldeen Sulemana",
+    "country": "Ghana",
+    "position": "FWD",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Panama",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Lawrence Ati Zigi",
+    "country": "Ghana",
+    "position": "GK",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Panama",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 1,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Marvin Senaya",
+    "country": "Ghana",
+    "position": "DEF",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Panama",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
     "name": "Carlens Arcus",
     "country": "Haiti",
     "position": "DEF",
@@ -7994,6 +8175,182 @@
         "saves": 0,
         "goalsConceded": 1,
         "result": "W"
+      }
+    ]
+  },
+  {
+    "name": "Amir Murillo",
+    "country": "Panama",
+    "position": "MID",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Ghana",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Andrés Andrade",
+    "country": "Panama",
+    "position": "DEF",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Ghana",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Carlos Harvey",
+    "country": "Panama",
+    "position": "MID",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Ghana",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Cecilio Waterman",
+    "country": "Panama",
+    "position": "FWD",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Ghana",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 1,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "César Blackman",
+    "country": "Panama",
+    "position": "MID",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Ghana",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Cristian Martínez",
+    "country": "Panama",
+    "position": "MID",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Ghana",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Édgar Yoel Bárcenas",
+    "country": "Panama",
+    "position": "FWD",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Ghana",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Jiovany Ramos",
+    "country": "Panama",
+    "position": "DEF",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Ghana",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "José Córdoba",
+    "country": "Panama",
+    "position": "DEF",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Ghana",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "José Luis Rodríguez",
+    "country": "Panama",
+    "position": "FWD",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Ghana",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Orlando Mosquera",
+    "country": "Panama",
+    "position": "GK",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Ghana",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },

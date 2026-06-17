@@ -1272,5 +1272,19 @@
         "result": "L"
       }
     ]
+  },
+  "gh|antoine semenyo": {
+    "country": "Ghana",
+    "name": "Antoine Semenyo",
+    "matches": [
+      {
+        "fixtureId": 760434,
+        "opponent": "Panama",
+        "date": "2026-06-17T23:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0
+      }
+    ]
   }
 }
