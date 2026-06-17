@@ -884,5 +884,92 @@
         "result": "W"
       }
     ]
+  },
+  "ar|enzo fernandez": {
+    "country": "Argentina",
+    "name": "Enzo Fernández",
+    "matches": [
+      {
+        "fixtureId": 760433,
+        "opponent": "Algeria",
+        "date": "2026-06-17T01:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0
+      }
+    ]
+  },
+  "ar|lionel messi": {
+    "country": "Argentina",
+    "name": "Lionel Messi",
+    "matches": [
+      {
+        "fixtureId": 760433,
+        "opponent": "Algeria",
+        "date": "2026-06-17T01:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0
+      }
+    ]
+  },
+  "ar|lautaro martinez": {
+    "country": "Argentina",
+    "name": "Lautaro Martínez",
+    "matches": [
+      {
+        "fixtureId": 760433,
+        "opponent": "Algeria",
+        "date": "2026-06-17T01:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0
+      }
+    ]
+  },
+  "ar|emiliano martinez": {
+    "country": "Argentina",
+    "name": "Emiliano Martínez",
+    "matches": [
+      {
+        "fixtureId": 760433,
+        "opponent": "Algeria",
+        "date": "2026-06-17T01:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  "ar|alexis mac allister": {
+    "country": "Argentina",
+    "name": "Alexis Mac Allister",
+    "matches": [
+      {
+        "fixtureId": 760433,
+        "opponent": "Algeria",
+        "date": "2026-06-17T01:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0
+      }
+    ]
+  },
+  "ar|cristian romero": {
+    "country": "Argentina",
+    "name": "Cristian Romero",
+    "matches": [
+      {
+        "fixtureId": 760433,
+        "opponent": "Algeria",
+        "date": "2026-06-17T01:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "goalsConceded": 0
+      }
+    ]
   }
 }
