@@ -270,7 +270,7 @@
     "stage": "Group L",
     "home": "Ghana",
     "away": "Panama",
-    "status": "IN_PLAY",
+    "status": "PAUSED",
     "homeScore": 0,
     "awayScore": 0,
     "winner": null
