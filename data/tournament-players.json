@@ -80,6 +80,22 @@
     ]
   },
   {
+    "name": "Houssem Aouar",
+    "country": "Algeria",
+    "position": "",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Argentina",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
     "name": "Ibrahim Maza",
     "country": "Algeria",
     "position": "MID",
@@ -106,8 +122,24 @@
         "goals": 0,
         "assists": 0,
         "shotsOnGoal": 0,
-        "saves": 2,
+        "saves": 3,
         "goalsConceded": 2
+      }
+    ]
+  },
+  {
+    "name": "Mohamed Amoura",
+    "country": "Algeria",
+    "position": "",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Argentina",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -172,6 +204,22 @@
         "shotsOnGoal": 0,
         "saves": 0,
         "goalsConceded": 2
+      }
+    ]
+  },
+  {
+    "name": "Riyad Mahrez",
+    "country": "Algeria",
+    "position": "",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Argentina",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -348,7 +396,7 @@
         "opponent": "Algeria",
         "goals": 2,
         "assists": 0,
-        "shotsOnGoal": 2,
+        "shotsOnGoal": 3,
         "saves": 0,
         "goalsConceded": 0
       }
