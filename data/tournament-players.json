@@ -2655,6 +2655,22 @@
     ]
   },
   {
+    "name": "Gédéon Kalulu",
+    "country": "Congo DR",
+    "position": "",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Portugal",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
     "name": "Joris Kayembe",
     "country": "Congo DR",
     "position": "",
@@ -2731,6 +2747,22 @@
         "shotsOnGoal": 0,
         "saves": 0,
         "goalsConceded": 1
+      }
+    ]
+  },
+  {
+    "name": "Simon Banza",
+    "country": "Congo DR",
+    "position": "",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Portugal",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -7723,6 +7755,22 @@
   },
   {
     "name": "Francisco Conceição",
+    "country": "Portugal",
+    "position": "",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Congo DR",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Gonçalo Ramos",
     "country": "Portugal",
     "position": "",
     "managers": [],
