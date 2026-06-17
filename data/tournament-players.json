@@ -2671,6 +2671,22 @@
     ]
   },
   {
+    "name": "Noah Sadiki",
+    "country": "Congo DR",
+    "position": "",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Portugal",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
     "name": "Samuel Moutoussamy",
     "country": "Congo DR",
     "position": "MID",
