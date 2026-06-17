@@ -587,19 +587,19 @@
     "table": [
       {
         "position": 1,
-        "team": "Croatia",
-        "played": 0,
-        "won": 0,
+        "team": "England",
+        "played": 1,
+        "won": 1,
         "draw": 0,
         "lost": 0,
-        "gf": 0,
-        "ga": 0,
-        "gd": 0,
-        "points": 0
+        "gf": 4,
+        "ga": 2,
+        "gd": 2,
+        "points": 3
       },
       {
         "position": 2,
-        "team": "England",
+        "team": "Panama",
         "played": 0,
         "won": 0,
         "draw": 0,
@@ -623,14 +623,14 @@
       },
       {
         "position": 4,
-        "team": "Panama",
-        "played": 0,
+        "team": "Croatia",
+        "played": 1,
         "won": 0,
         "draw": 0,
-        "lost": 0,
-        "gf": 0,
-        "ga": 0,
-        "gd": 0,
+        "lost": 1,
+        "gf": 2,
+        "ga": 4,
+        "gd": -2,
         "points": 0
       }
     ]
