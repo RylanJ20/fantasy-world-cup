@@ -989,6 +989,22 @@
     ]
   },
   {
+    "name": "Patrick Wimmer",
+    "country": "Austria",
+    "position": "",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Jordan",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
     "name": "Paul Wanner",
     "country": "Austria",
     "position": "",
@@ -5471,6 +5487,22 @@
     ]
   },
   {
+    "name": "Mahmoud Al-Mardi",
+    "country": "Jordan",
+    "position": "",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Austria",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
     "name": "Mohammad Abualnadi",
     "country": "Jordan",
     "position": "DEF",
@@ -5563,6 +5595,22 @@
         "shotsOnGoal": 1,
         "saves": 0,
         "goalsConceded": 2
+      }
+    ]
+  },
+  {
+    "name": "Saed Al-Rosan",
+    "country": "Jordan",
+    "position": "",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Austria",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
