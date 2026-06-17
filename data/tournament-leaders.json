@@ -341,6 +341,18 @@
       "managers": []
     },
     {
+      "name": "Cristian Romero",
+      "country": "Argentina",
+      "position": "DEF",
+      "value": 1,
+      "managers": [
+        {
+          "id": "alejandro",
+          "name": "Alejandro"
+        }
+      ]
+    },
+    {
       "name": "Diney Borges",
       "country": "Cabo Verde",
       "position": "DEF",
@@ -355,6 +367,13 @@
       "managers": []
     },
     {
+      "name": "Facundo Medina",
+      "country": "Argentina",
+      "position": "DEF",
+      "value": 1,
+      "managers": []
+    },
+    {
       "name": "Ghislain Konan",
       "country": "Ivory Coast",
       "position": "DEF",
@@ -362,22 +381,8 @@
       "managers": []
     },
     {
-      "name": "Grant Hanley",
-      "country": "Scotland",
-      "position": "DEF",
-      "value": 1,
-      "managers": []
-    },
-    {
-      "name": "Guela Doué",
-      "country": "Ivory Coast",
-      "position": "DEF",
-      "value": 1,
-      "managers": []
-    },
-    {
-      "name": "Harry Souttar",
-      "country": "Australia",
+      "name": "Gonzalo Montiel",
+      "country": "Argentina",
       "position": "DEF",
       "value": 1,
       "managers": []
