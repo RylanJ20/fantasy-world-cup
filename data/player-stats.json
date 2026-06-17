@@ -1173,7 +1173,7 @@
         "opponent": "Croatia",
         "date": "2026-06-17T20:00Z",
         "goals": 0,
-        "assists": 0,
+        "assists": 1,
         "shotsOnGoal": 0
       }
     ]
@@ -1232,6 +1232,21 @@
         "goals": 0,
         "assists": 1,
         "shotsOnGoal": 1
+      }
+    ]
+  },
+  "gb-eng|marc guehi": {
+    "country": "England",
+    "name": "Marc Guéhi",
+    "matches": [
+      {
+        "fixtureId": 760437,
+        "opponent": "Croatia",
+        "date": "2026-06-17T20:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "goalsConceded": 0
       }
     ]
   },
