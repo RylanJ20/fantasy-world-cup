@@ -2934,7 +2934,7 @@
   {
     "name": "Mario Pasalic",
     "country": "Croatia",
-    "position": "FWD",
+    "position": "MID",
     "managers": [],
     "matches": [
       {
@@ -2982,7 +2982,7 @@
   {
     "name": "Petar Sucic",
     "country": "Croatia",
-    "position": "MID",
+    "position": "FWD",
     "managers": [],
     "matches": [
       {
@@ -4114,7 +4114,7 @@
         "opponent": "Croatia",
         "goals": 0,
         "assists": 0,
-        "shotsOnGoal": 0,
+        "shotsOnGoal": 1,
         "saves": 0,
         "goalsConceded": 0
       }
