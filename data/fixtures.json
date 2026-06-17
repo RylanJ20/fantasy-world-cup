@@ -222,10 +222,10 @@
     "stage": "Group J",
     "home": "Argentina",
     "away": "Algeria",
-    "status": "FINISHED",
-    "homeScore": 3,
+    "status": "IN_PLAY",
+    "homeScore": 1,
     "awayScore": 0,
-    "winner": "HOME_TEAM"
+    "winner": null
   },
   {
     "n": 760431,
