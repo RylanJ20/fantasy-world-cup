@@ -1159,8 +1159,22 @@
         "goals": 0,
         "assists": 0,
         "shotsOnGoal": 0,
-        "saves": 0,
+        "saves": 1,
         "goalsConceded": 2
+      }
+    ]
+  },
+  "gb-eng|bukayo saka": {
+    "country": "England",
+    "name": "Bukayo Saka",
+    "matches": [
+      {
+        "fixtureId": 760437,
+        "opponent": "Croatia",
+        "date": "2026-06-17T20:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0
       }
     ]
   },
