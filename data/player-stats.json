@@ -923,6 +923,20 @@
         "date": "2026-06-17T01:00Z",
         "goals": 0,
         "assists": 0,
+        "shotsOnGoal": 1
+      }
+    ]
+  },
+  "ar|julian alvarez": {
+    "country": "Argentina",
+    "name": "Julián Álvarez",
+    "matches": [
+      {
+        "fixtureId": 760433,
+        "opponent": "Algeria",
+        "date": "2026-06-17T01:00Z",
+        "goals": 0,
+        "assists": 0,
         "shotsOnGoal": 0
       }
     ]

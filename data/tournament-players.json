@@ -106,7 +106,7 @@
         "goals": 0,
         "assists": 0,
         "shotsOnGoal": 0,
-        "saves": 0,
+        "saves": 1,
         "goalsConceded": 1
       }
     ]
@@ -292,6 +292,27 @@
     ]
   },
   {
+    "name": "Julián Álvarez",
+    "country": "Argentina",
+    "position": "FWD",
+    "managers": [
+      {
+        "id": "travis",
+        "name": "Travis"
+      }
+    ],
+    "matches": [
+      {
+        "opponent": "Algeria",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
     "name": "Lautaro Martínez",
     "country": "Argentina",
     "position": "FWD",
@@ -306,7 +327,7 @@
         "opponent": "Algeria",
         "goals": 0,
         "assists": 0,
-        "shotsOnGoal": 0,
+        "shotsOnGoal": 1,
         "saves": 0,
         "goalsConceded": 0
       }
@@ -359,6 +380,22 @@
         "name": "Alejandro"
       }
     ],
+    "matches": [
+      {
+        "opponent": "Algeria",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Nico González",
+    "country": "Argentina",
+    "position": "",
+    "managers": [],
     "matches": [
       {
         "opponent": "Algeria",
