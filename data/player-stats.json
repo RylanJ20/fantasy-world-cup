@@ -1147,5 +1147,93 @@
         "result": "D"
       }
     ]
+  },
+  "gb-eng|jordan pickford": {
+    "country": "England",
+    "name": "Jordan Pickford",
+    "matches": [
+      {
+        "fixtureId": 760437,
+        "opponent": "Croatia",
+        "date": "2026-06-17T20:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  "gb-eng|harry kane": {
+    "country": "England",
+    "name": "Harry Kane",
+    "matches": [
+      {
+        "fixtureId": 760437,
+        "opponent": "Croatia",
+        "date": "2026-06-17T20:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0
+      }
+    ]
+  },
+  "gb-eng|reece james": {
+    "country": "England",
+    "name": "Reece James",
+    "matches": [
+      {
+        "fixtureId": 760437,
+        "opponent": "Croatia",
+        "date": "2026-06-17T20:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  "gb-eng|jude bellingham": {
+    "country": "England",
+    "name": "Jude Bellingham",
+    "matches": [
+      {
+        "fixtureId": 760437,
+        "opponent": "Croatia",
+        "date": "2026-06-17T20:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0
+      }
+    ]
+  },
+  "gb-eng|declan rice": {
+    "country": "England",
+    "name": "Declan Rice",
+    "matches": [
+      {
+        "fixtureId": 760437,
+        "opponent": "Croatia",
+        "date": "2026-06-17T20:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0
+      }
+    ]
+  },
+  "hr|josko gvardiol": {
+    "country": "Croatia",
+    "name": "Joško Gvardiol",
+    "matches": [
+      {
+        "fixtureId": 760437,
+        "opponent": "England",
+        "date": "2026-06-17T20:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "goalsConceded": 0
+      }
+    ]
   }
 }

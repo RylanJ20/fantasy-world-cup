@@ -2815,6 +2815,187 @@
     ]
   },
   {
+    "name": "Dominik Livakovic",
+    "country": "Croatia",
+    "position": "GK",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "England",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Ivan Perisic",
+    "country": "Croatia",
+    "position": "MID",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "England",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Josip Stanisic",
+    "country": "Croatia",
+    "position": "MID",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "England",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Josip Sutalo",
+    "country": "Croatia",
+    "position": "DEF",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "England",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Josko Gvardiol",
+    "country": "Croatia",
+    "position": "DEF",
+    "managers": [
+      {
+        "id": "rylan",
+        "name": "Rylan"
+      }
+    ],
+    "matches": [
+      {
+        "opponent": "England",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Luka Modric",
+    "country": "Croatia",
+    "position": "MID",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "England",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Luka Vuskovic",
+    "country": "Croatia",
+    "position": "DEF",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "England",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Mario Pasalic",
+    "country": "Croatia",
+    "position": "FWD",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "England",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Martin Baturina",
+    "country": "Croatia",
+    "position": "FWD",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "England",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Petar Musa",
+    "country": "Croatia",
+    "position": "FWD",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "England",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Petar Sucic",
+    "country": "Croatia",
+    "position": "MID",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "England",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
     "name": "Armando Obispo",
     "country": "Curaçao",
     "position": "DEF",
@@ -3846,6 +4027,207 @@
         "saves": 0,
         "goalsConceded": 0,
         "result": "D"
+      }
+    ]
+  },
+  {
+    "name": "Anthony Gordon",
+    "country": "England",
+    "position": "MID",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Croatia",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Declan Rice",
+    "country": "England",
+    "position": "MID",
+    "managers": [
+      {
+        "id": "grayson",
+        "name": "Grayson"
+      }
+    ],
+    "matches": [
+      {
+        "opponent": "Croatia",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Elliot Anderson",
+    "country": "England",
+    "position": "MID",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Croatia",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Ezri Konsa",
+    "country": "England",
+    "position": "DEF",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Croatia",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Harry Kane",
+    "country": "England",
+    "position": "FWD",
+    "managers": [
+      {
+        "id": "ben",
+        "name": "Ben"
+      }
+    ],
+    "matches": [
+      {
+        "opponent": "Croatia",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "John Stones",
+    "country": "England",
+    "position": "DEF",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Croatia",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Jordan Pickford",
+    "country": "England",
+    "position": "GK",
+    "managers": [
+      {
+        "id": "rylan",
+        "name": "Rylan"
+      }
+    ],
+    "matches": [
+      {
+        "opponent": "Croatia",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Jude Bellingham",
+    "country": "England",
+    "position": "MID",
+    "managers": [
+      {
+        "id": "grayson",
+        "name": "Grayson"
+      }
+    ],
+    "matches": [
+      {
+        "opponent": "Croatia",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Nico O'Reilly",
+    "country": "England",
+    "position": "DEF",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Croatia",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Noni Madueke",
+    "country": "England",
+    "position": "MID",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Croatia",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Reece James",
+    "country": "England",
+    "position": "DEF",
+    "managers": [
+      {
+        "id": "ben",
+        "name": "Ben"
+      }
+    ],
+    "matches": [
+      {
+        "opponent": "Croatia",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
