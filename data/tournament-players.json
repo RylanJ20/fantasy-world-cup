@@ -2831,6 +2831,22 @@
     ]
   },
   {
+    "name": "Igor Matanovic",
+    "country": "Croatia",
+    "position": "",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "England",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
     "name": "Ivan Perisic",
     "country": "Croatia",
     "position": "MID",
@@ -2928,6 +2944,22 @@
         "shotsOnGoal": 0,
         "saves": 0,
         "goalsConceded": 3
+      }
+    ]
+  },
+  {
+    "name": "Marco Pasalic",
+    "country": "Croatia",
+    "position": "",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "England",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
