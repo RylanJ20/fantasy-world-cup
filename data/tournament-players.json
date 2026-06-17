@@ -925,6 +925,22 @@
     ]
   },
   {
+    "name": "Marko Arnautovic",
+    "country": "Austria",
+    "position": "",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Jordan",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
     "name": "Nicolas Seiwald",
     "country": "Austria",
     "position": "MID",
@@ -5473,7 +5489,7 @@
   {
     "name": "Noor Al-Rawabdeh",
     "country": "Jordan",
-    "position": "FWD",
+    "position": "MID",
     "managers": [],
     "matches": [
       {
@@ -5489,7 +5505,7 @@
   {
     "name": "Odeh Fakhoury",
     "country": "Jordan",
-    "position": "MID",
+    "position": "FWD",
     "managers": [],
     "matches": [
       {
