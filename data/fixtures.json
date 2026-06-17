@@ -210,10 +210,10 @@
     "stage": "Group I",
     "home": "Iraq",
     "away": "Norway",
-    "status": "FINISHED",
+    "status": "IN_PLAY",
     "homeScore": 1,
-    "awayScore": 4,
-    "winner": "AWAY_TEAM"
+    "awayScore": 3,
+    "winner": null
   },
   {
     "n": 760433,
