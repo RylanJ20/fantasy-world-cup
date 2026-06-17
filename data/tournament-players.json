@@ -2815,6 +2815,22 @@
     ]
   },
   {
+    "name": "Andrej Kramaric",
+    "country": "Croatia",
+    "position": "",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "England",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
     "name": "Dominik Livakovic",
     "country": "Croatia",
     "position": "GK",
@@ -2840,7 +2856,7 @@
         "opponent": "England",
         "goals": 0,
         "assists": 0,
-        "shotsOnGoal": 0,
+        "shotsOnGoal": 1,
         "saves": 0,
         "goalsConceded": 0
       }
@@ -2957,7 +2973,7 @@
         "opponent": "England",
         "goals": 0,
         "assists": 0,
-        "shotsOnGoal": 0,
+        "shotsOnGoal": 1,
         "saves": 0,
         "goalsConceded": 0
       }
@@ -2997,6 +3013,22 @@
   },
   {
     "name": "Mateo Kovacic",
+    "country": "Croatia",
+    "position": "",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "England",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Nikola Vlasic",
     "country": "Croatia",
     "position": "",
     "managers": [],
@@ -4137,6 +4169,22 @@
     ]
   },
   {
+    "name": "Djed Spence",
+    "country": "England",
+    "position": "",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Croatia",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
     "name": "Elliot Anderson",
     "country": "England",
     "position": "MID",
@@ -4145,7 +4193,7 @@
       {
         "opponent": "Croatia",
         "goals": 0,
-        "assists": 0,
+        "assists": 1,
         "shotsOnGoal": 0,
         "saves": 0,
         "goalsConceded": 2
@@ -4221,7 +4269,7 @@
         "goals": 0,
         "assists": 0,
         "shotsOnGoal": 0,
-        "saves": 1,
+        "saves": 2,
         "goalsConceded": 2
       }
     ]
