@@ -234,9 +234,9 @@
     "stage": "Group J",
     "home": "Austria",
     "away": "Jordan",
-    "status": "IN_PLAY",
+    "status": "PAUSED",
     "homeScore": 1,
-    "awayScore": 1,
+    "awayScore": 0,
     "winner": null
   },
   {
