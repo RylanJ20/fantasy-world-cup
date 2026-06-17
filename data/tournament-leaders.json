@@ -222,13 +222,6 @@
       "managers": []
     },
     {
-      "name": "Dominik Livakovic",
-      "country": "Croatia",
-      "position": "GK",
-      "value": 7,
-      "managers": []
-    },
-    {
       "name": "Vozinha",
       "country": "Cabo Verde",
       "position": "GK",
@@ -238,6 +231,13 @@
     {
       "name": "Alireza Beiranvand",
       "country": "Iran",
+      "position": "GK",
+      "value": 6,
+      "managers": []
+    },
+    {
+      "name": "Dominik Livakovic",
+      "country": "Croatia",
       "position": "GK",
       "value": 6,
       "managers": []
