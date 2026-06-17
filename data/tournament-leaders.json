@@ -39,6 +39,18 @@
       "managers": []
     },
     {
+      "name": "Harry Kane",
+      "country": "England",
+      "position": "FWD",
+      "value": 2,
+      "managers": [
+        {
+          "id": "ben",
+          "name": "Ben"
+        }
+      ]
+    },
+    {
       "name": "Kai Havertz",
       "country": "Germany",
       "position": "FWD",
@@ -94,13 +106,6 @@
       "name": "Amad Diallo",
       "country": "Ivory Coast",
       "position": "MID",
-      "value": 1,
-      "managers": []
-    },
-    {
-      "name": "Aymen Hussein",
-      "country": "Iraq",
-      "position": "FWD",
       "value": 1,
       "managers": []
     }

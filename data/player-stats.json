@@ -1172,9 +1172,9 @@
         "fixtureId": 760437,
         "opponent": "Croatia",
         "date": "2026-06-17T20:00Z",
-        "goals": 1,
+        "goals": 2,
         "assists": 0,
-        "shotsOnGoal": 1
+        "shotsOnGoal": 2
       }
     ]
   },
@@ -1216,7 +1216,7 @@
         "opponent": "Croatia",
         "date": "2026-06-17T20:00Z",
         "goals": 0,
-        "assists": 0,
+        "assists": 1,
         "shotsOnGoal": 0
       }
     ]
@@ -1232,7 +1232,7 @@
         "goals": 0,
         "assists": 0,
         "shotsOnGoal": 0,
-        "goalsConceded": 1
+        "goalsConceded": 2
       }
     ]
   }
