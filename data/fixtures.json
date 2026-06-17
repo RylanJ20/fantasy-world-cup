@@ -246,9 +246,9 @@
     "stage": "Group K",
     "home": "Portugal",
     "away": "Congo DR",
-    "status": "TIMED",
-    "homeScore": null,
-    "awayScore": null,
+    "status": "IN_PLAY",
+    "homeScore": 1,
+    "awayScore": 0,
     "winner": null
   },
   {
