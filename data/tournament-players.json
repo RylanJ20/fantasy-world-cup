@@ -1,5 +1,21 @@
 [
   {
+    "name": "Adil Boulbina",
+    "country": "Algeria",
+    "position": "",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Argentina",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
     "name": "Aïssa Mandi",
     "country": "Algeria",
     "position": "DEF",
@@ -172,6 +188,22 @@
         "shotsOnGoal": 0,
         "saves": 0,
         "goalsConceded": 3
+      }
+    ]
+  },
+  {
+    "name": "Ramiz Zerrouki",
+    "country": "Algeria",
+    "position": "",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Argentina",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -441,6 +473,38 @@
   },
   {
     "name": "Nico González",
+    "country": "Argentina",
+    "position": "FWD",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Algeria",
+        "goals": 0,
+        "assists": 1,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Nico Paz",
+    "country": "Argentina",
+    "position": "",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Algeria",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Nicolás Otamendi",
     "country": "Argentina",
     "position": "",
     "managers": [],
