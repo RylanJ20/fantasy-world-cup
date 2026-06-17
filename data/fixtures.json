@@ -258,9 +258,9 @@
     "stage": "Group L",
     "home": "England",
     "away": "Croatia",
-    "status": "IN_PLAY",
+    "status": "PAUSED",
     "homeScore": 2,
-    "awayScore": 1,
+    "awayScore": 2,
     "winner": null
   },
   {
