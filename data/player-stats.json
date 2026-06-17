@@ -1023,5 +1023,107 @@
         "result": "W"
       }
     ]
+  },
+  "pt|bernardo silva": {
+    "country": "Portugal",
+    "name": "Bernardo Silva",
+    "matches": [
+      {
+        "fixtureId": 760435,
+        "opponent": "Congo DR",
+        "date": "2026-06-17T17:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0
+      }
+    ]
+  },
+  "pt|bruno fernandes": {
+    "country": "Portugal",
+    "name": "Bruno Fernandes",
+    "matches": [
+      {
+        "fixtureId": 760435,
+        "opponent": "Congo DR",
+        "date": "2026-06-17T17:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0
+      }
+    ]
+  },
+  "pt|joao cancelo": {
+    "country": "Portugal",
+    "name": "João Cancelo",
+    "matches": [
+      {
+        "fixtureId": 760435,
+        "opponent": "Congo DR",
+        "date": "2026-06-17T17:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  "pt|diogo costa": {
+    "country": "Portugal",
+    "name": "Diogo Costa",
+    "matches": [
+      {
+        "fixtureId": 760435,
+        "opponent": "Congo DR",
+        "date": "2026-06-17T17:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  "pt|nuno mendes": {
+    "country": "Portugal",
+    "name": "Nuno Mendes",
+    "matches": [
+      {
+        "fixtureId": 760435,
+        "opponent": "Congo DR",
+        "date": "2026-06-17T17:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  "pt|cristiano ronaldo": {
+    "country": "Portugal",
+    "name": "Cristiano Ronaldo",
+    "matches": [
+      {
+        "fixtureId": 760435,
+        "opponent": "Congo DR",
+        "date": "2026-06-17T17:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0
+      }
+    ]
+  },
+  "pt|vitinha": {
+    "country": "Portugal",
+    "name": "Vitinha",
+    "matches": [
+      {
+        "fixtureId": 760435,
+        "opponent": "Congo DR",
+        "date": "2026-06-17T17:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0
+      }
+    ]
   }
 }
