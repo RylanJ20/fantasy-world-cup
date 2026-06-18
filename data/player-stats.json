@@ -27,6 +27,15 @@
         "shotsOnGoal": 1,
         "goalsConceded": 2,
         "result": "L"
+      },
+      {
+        "fixtureId": 760438,
+        "opponent": "South Africa",
+        "date": "2026-06-18T16:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "goalsConceded": 0
       }
     ]
   },

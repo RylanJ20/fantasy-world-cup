@@ -3609,7 +3609,7 @@
   {
     "name": "Adam Hlozek",
     "country": "Czechia",
-    "position": "",
+    "position": "FWD",
     "managers": [],
     "matches": [
       {
@@ -3620,6 +3620,14 @@
         "saves": 0,
         "goalsConceded": 2,
         "result": "L"
+      },
+      {
+        "opponent": "South Africa",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -3637,6 +3645,14 @@
         "saves": 0,
         "goalsConceded": 2,
         "result": "L"
+      },
+      {
+        "opponent": "South Africa",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -3676,6 +3692,30 @@
         "saves": 0,
         "goalsConceded": 2,
         "result": "L"
+      },
+      {
+        "opponent": "South Africa",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Lukás Cerv",
+    "country": "Czechia",
+    "position": "MID",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "South Africa",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -3710,13 +3750,21 @@
         "saves": 4,
         "goalsConceded": 2,
         "result": "L"
+      },
+      {
+        "opponent": "South Africa",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
   {
     "name": "Michal Sadílek",
     "country": "Czechia",
-    "position": "",
+    "position": "MID",
     "managers": [],
     "matches": [
       {
@@ -3727,6 +3775,14 @@
         "saves": 0,
         "goalsConceded": 2,
         "result": "L"
+      },
+      {
+        "opponent": "South Africa",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -3761,6 +3817,14 @@
         "saves": 0,
         "goalsConceded": 0,
         "result": "L"
+      },
+      {
+        "opponent": "South Africa",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -3795,6 +3859,14 @@
         "saves": 0,
         "goalsConceded": 2,
         "result": "L"
+      },
+      {
+        "opponent": "South Africa",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -3833,6 +3905,22 @@
     ]
   },
   {
+    "name": "Tomás Holes",
+    "country": "Czechia",
+    "position": "DEF",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "South Africa",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
     "name": "Tomás Soucek",
     "country": "Czechia",
     "position": "MID",
@@ -3863,6 +3951,30 @@
         "saves": 0,
         "goalsConceded": 2,
         "result": "L"
+      },
+      {
+        "opponent": "South Africa",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Vladimír Darida",
+    "country": "Czechia",
+    "position": "MID",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "South Africa",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -10485,6 +10597,14 @@
         "saves": 0,
         "goalsConceded": 2,
         "result": "L"
+      },
+      {
+        "opponent": "Czechia",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -10519,6 +10639,14 @@
         "saves": 0,
         "goalsConceded": 2,
         "result": "L"
+      },
+      {
+        "opponent": "Czechia",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -10536,6 +10664,14 @@
         "saves": 0,
         "goalsConceded": 2,
         "result": "L"
+      },
+      {
+        "opponent": "Czechia",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -10553,6 +10689,14 @@
         "saves": 0,
         "goalsConceded": 1,
         "result": "L"
+      },
+      {
+        "opponent": "Czechia",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -10570,6 +10714,14 @@
         "saves": 0,
         "goalsConceded": 2,
         "result": "L"
+      },
+      {
+        "opponent": "Czechia",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -10604,6 +10756,14 @@
         "saves": 0,
         "goalsConceded": 2,
         "result": "L"
+      },
+      {
+        "opponent": "Czechia",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -10627,7 +10787,7 @@
   {
     "name": "Oswin Appollis",
     "country": "South Africa",
-    "position": "",
+    "position": "FWD",
     "managers": [],
     "matches": [
       {
@@ -10638,6 +10798,14 @@
         "saves": 0,
         "goalsConceded": 0,
         "result": "L"
+      },
+      {
+        "opponent": "Czechia",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -10655,6 +10823,14 @@
         "saves": 2,
         "goalsConceded": 2,
         "result": "L"
+      },
+      {
+        "opponent": "Czechia",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -10689,13 +10865,21 @@
         "saves": 0,
         "goalsConceded": 2,
         "result": "L"
+      },
+      {
+        "opponent": "Czechia",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
   {
     "name": "Thalente Mbatha",
     "country": "South Africa",
-    "position": "",
+    "position": "MID",
     "managers": [],
     "matches": [
       {
@@ -10706,6 +10890,30 @@
         "saves": 0,
         "goalsConceded": 1,
         "result": "L"
+      },
+      {
+        "opponent": "Czechia",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Thapelo Maseko",
+    "country": "South Africa",
+    "position": "FWD",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Czechia",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
