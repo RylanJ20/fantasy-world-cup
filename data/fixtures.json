@@ -306,10 +306,10 @@
     "stage": "Group B",
     "home": "Switzerland",
     "away": "Bosnia-Herzegovina",
-    "status": "IN_PLAY",
-    "homeScore": 3,
-    "awayScore": 0,
-    "winner": null
+    "status": "FINISHED",
+    "homeScore": 4,
+    "awayScore": 1,
+    "winner": "HOME_TEAM"
   },
   {
     "n": 760440,
