@@ -10162,6 +10162,22 @@
     ]
   },
   {
+    "name": "Lucas Mendes",
+    "country": "Qatar",
+    "position": "",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Canada",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
     "name": "Mahmoud Abunada",
     "country": "Qatar",
     "position": "GK",
