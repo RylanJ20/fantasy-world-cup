@@ -2623,6 +2623,22 @@
     ]
   },
   {
+    "name": "Jáminton Campaz",
+    "country": "Colombia",
+    "position": "",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Uzbekistan",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
     "name": "Jefferson Lerma",
     "country": "Colombia",
     "position": "MID",
