@@ -187,18 +187,23 @@
       "managers": []
     },
     {
-      "name": "Brandon Thomas-Asante",
-      "country": "Ghana",
-      "position": "FWD",
-      "value": 1,
-      "managers": []
-    },
-    {
       "name": "Bruno Guimarães",
       "country": "Brazil",
       "position": "MID",
       "value": 1,
       "managers": []
+    },
+    {
+      "name": "Bukayo Saka",
+      "country": "England",
+      "position": "FWD",
+      "value": 1,
+      "managers": [
+        {
+          "id": "marc",
+          "name": "Marc"
+        }
+      ]
     }
   ],
   "saves": [

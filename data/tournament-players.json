@@ -5043,13 +5043,13 @@
   {
     "name": "Brandon Thomas-Asante",
     "country": "Ghana",
-    "position": "FWD",
+    "position": "",
     "managers": [],
     "matches": [
       {
         "opponent": "Panama",
         "goals": 0,
-        "assists": 1,
+        "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
         "goalsConceded": 0,
