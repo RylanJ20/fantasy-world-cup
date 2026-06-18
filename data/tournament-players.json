@@ -5033,7 +5033,7 @@
         "goals": 0,
         "assists": 0,
         "shotsOnGoal": 0,
-        "saves": 1,
+        "saves": 2,
         "goalsConceded": 0
       }
     ]
@@ -5234,6 +5234,22 @@
     "name": "Marvin Senaya",
     "country": "Ghana",
     "position": "DEF",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Panama",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Prince Adu",
+    "country": "Ghana",
+    "position": "",
     "managers": [],
     "matches": [
       {
@@ -8380,7 +8396,7 @@
         "opponent": "Ghana",
         "goals": 0,
         "assists": 0,
-        "shotsOnGoal": 0,
+        "shotsOnGoal": 1,
         "saves": 0,
         "goalsConceded": 0
       }
