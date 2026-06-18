@@ -12933,6 +12933,22 @@
     ]
   },
   {
+    "name": "Dostonbek Khamdamov",
+    "country": "Uzbekistan",
+    "position": "",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Colombia",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
     "name": "Eldor Shomurodov",
     "country": "Uzbekistan",
     "position": "FWD",
@@ -12945,6 +12961,22 @@
         "shotsOnGoal": 0,
         "saves": 0,
         "goalsConceded": 1
+      }
+    ]
+  },
+  {
+    "name": "Farrukh Sayfiev",
+    "country": "Uzbekistan",
+    "position": "",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Colombia",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
