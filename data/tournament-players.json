@@ -2441,7 +2441,7 @@
   {
     "name": "Ali Ahmed",
     "country": "Canada",
-    "position": "",
+    "position": "MID",
     "managers": [],
     "matches": [
       {
@@ -2452,6 +2452,14 @@
         "saves": 0,
         "goalsConceded": 0,
         "result": "D"
+      },
+      {
+        "opponent": "Qatar",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -2469,6 +2477,14 @@
         "saves": 0,
         "goalsConceded": 1,
         "result": "D"
+      },
+      {
+        "opponent": "Qatar",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -2486,6 +2502,14 @@
         "saves": 0,
         "goalsConceded": 0,
         "result": "D"
+      },
+      {
+        "opponent": "Qatar",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -2503,6 +2527,14 @@
         "saves": 0,
         "goalsConceded": 1,
         "result": "D"
+      },
+      {
+        "opponent": "Qatar",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -2520,6 +2552,14 @@
         "saves": 0,
         "goalsConceded": 1,
         "result": "D"
+      },
+      {
+        "opponent": "Qatar",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -2554,6 +2594,14 @@
         "saves": 0,
         "goalsConceded": 1,
         "result": "D"
+      },
+      {
+        "opponent": "Qatar",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -2605,6 +2653,14 @@
         "saves": 0,
         "goalsConceded": 1,
         "result": "D"
+      },
+      {
+        "opponent": "Qatar",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -2622,6 +2678,14 @@
         "saves": 2,
         "goalsConceded": 1,
         "result": "D"
+      },
+      {
+        "opponent": "Qatar",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -2656,6 +2720,14 @@
         "saves": 0,
         "goalsConceded": 1,
         "result": "D"
+      },
+      {
+        "opponent": "Qatar",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -2673,6 +2745,14 @@
         "saves": 0,
         "goalsConceded": 1,
         "result": "D"
+      },
+      {
+        "opponent": "Qatar",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -2690,6 +2770,14 @@
         "saves": 0,
         "goalsConceded": 1,
         "result": "D"
+      },
+      {
+        "opponent": "Qatar",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -9765,6 +9853,14 @@
         "saves": 0,
         "goalsConceded": 1,
         "result": "D"
+      },
+      {
+        "opponent": "Canada",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -9782,6 +9878,14 @@
         "saves": 0,
         "goalsConceded": 1,
         "result": "D"
+      },
+      {
+        "opponent": "Canada",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -9799,6 +9903,14 @@
         "saves": 0,
         "goalsConceded": 1,
         "result": "D"
+      },
+      {
+        "opponent": "Canada",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -9816,6 +9928,14 @@
         "saves": 0,
         "goalsConceded": 1,
         "result": "D"
+      },
+      {
+        "opponent": "Canada",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -9833,6 +9953,14 @@
         "saves": 0,
         "goalsConceded": 1,
         "result": "D"
+      },
+      {
+        "opponent": "Canada",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -9867,6 +9995,14 @@
         "saves": 0,
         "goalsConceded": 1,
         "result": "D"
+      },
+      {
+        "opponent": "Canada",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -9884,6 +10020,14 @@
         "saves": 0,
         "goalsConceded": 1,
         "result": "D"
+      },
+      {
+        "opponent": "Canada",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -9901,6 +10045,14 @@
         "saves": 0,
         "goalsConceded": 1,
         "result": "D"
+      },
+      {
+        "opponent": "Canada",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -9935,6 +10087,14 @@
         "saves": 5,
         "goalsConceded": 1,
         "result": "D"
+      },
+      {
+        "opponent": "Canada",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -9969,6 +10129,14 @@
         "saves": 0,
         "goalsConceded": 1,
         "result": "D"
+      },
+      {
+        "opponent": "Canada",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -9986,6 +10154,14 @@
         "saves": 0,
         "goalsConceded": 1,
         "result": "D"
+      },
+      {
+        "opponent": "Canada",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
