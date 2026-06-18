@@ -65,6 +65,13 @@
       "managers": []
     },
     {
+      "name": "Jonathan David",
+      "country": "Canada",
+      "position": "FWD",
+      "value": 2,
+      "managers": []
+    },
+    {
       "name": "Kai Havertz",
       "country": "Germany",
       "position": "FWD",
@@ -99,13 +106,6 @@
       "name": "Abbosbek Fayzullaev",
       "country": "Uzbekistan",
       "position": "FWD",
-      "value": 1,
-      "managers": []
-    },
-    {
-      "name": "Abdulelah Al-Amri",
-      "country": "Saudi Arabia",
-      "position": "DEF",
       "value": 1,
       "managers": []
     }
@@ -210,6 +210,13 @@
       "managers": []
     },
     {
+      "name": "Mahmoud Abunada",
+      "country": "Qatar",
+      "position": "GK",
+      "value": 8,
+      "managers": []
+    },
+    {
       "name": "Patrick Beach",
       "country": "Australia",
       "position": "GK",
@@ -219,13 +226,6 @@
     {
       "name": "Dominik Livakovic",
       "country": "Croatia",
-      "position": "GK",
-      "value": 7,
-      "managers": []
-    },
-    {
-      "name": "Mahmoud Abunada",
-      "country": "Qatar",
       "position": "GK",
       "value": 7,
       "managers": []
