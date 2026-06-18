@@ -2706,6 +2706,22 @@
     ]
   },
   {
+    "name": "Nathan Saliba",
+    "country": "Canada",
+    "position": "",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Qatar",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
     "name": "Promise David",
     "country": "Canada",
     "position": "FWD",
