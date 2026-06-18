@@ -5039,6 +5039,22 @@
     ]
   },
   {
+    "name": "Brandon Thomas-Asante",
+    "country": "Ghana",
+    "position": "",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Panama",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
     "name": "Caleb Yirenkyi",
     "country": "Ghana",
     "position": "MID",
@@ -5074,6 +5090,22 @@
     "name": "Ernest Nuamah",
     "country": "Ghana",
     "position": "MID",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Panama",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Fatawu Issahaku",
+    "country": "Ghana",
+    "position": "",
     "managers": [],
     "matches": [
       {
