@@ -318,7 +318,7 @@
     "stage": "Group B",
     "home": "Canada",
     "away": "Qatar",
-    "status": "IN_PLAY",
+    "status": "PAUSED",
     "homeScore": 3,
     "awayScore": 0,
     "winner": null
