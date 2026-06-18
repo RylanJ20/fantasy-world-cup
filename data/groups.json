@@ -29,26 +29,26 @@
       {
         "position": 3,
         "team": "Czechia",
-        "played": 1,
+        "played": 2,
         "won": 0,
-        "draw": 0,
+        "draw": 1,
         "lost": 1,
-        "gf": 1,
-        "ga": 2,
+        "gf": 2,
+        "ga": 3,
         "gd": -1,
-        "points": 0
+        "points": 1
       },
       {
         "position": 4,
         "team": "South Africa",
-        "played": 1,
+        "played": 2,
         "won": 0,
-        "draw": 0,
+        "draw": 1,
         "lost": 1,
-        "gf": 0,
-        "ga": 2,
+        "gf": 1,
+        "ga": 3,
         "gd": -2,
-        "points": 0
+        "points": 1
       }
     ]
   },
