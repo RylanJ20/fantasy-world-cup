@@ -2605,9 +2605,9 @@
       },
       {
         "opponent": "Qatar",
-        "goals": 2,
+        "goals": 3,
         "assists": 0,
-        "shotsOnGoal": 4,
+        "shotsOnGoal": 5,
         "saves": 0,
         "goalsConceded": 0
       }
@@ -2722,7 +2722,7 @@
       {
         "opponent": "Qatar",
         "goals": 1,
-        "assists": 0,
+        "assists": 1,
         "shotsOnGoal": 1,
         "saves": 0,
         "goalsConceded": 0
@@ -9948,7 +9948,7 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 2
+        "goalsConceded": 3
       }
     ]
   },
@@ -9998,7 +9998,7 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 5
+        "goalsConceded": 6
       }
     ]
   },
@@ -10023,7 +10023,7 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 5
+        "goalsConceded": 6
       }
     ]
   },
@@ -10115,7 +10115,7 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 5
+        "goalsConceded": 6
       }
     ]
   },
@@ -10173,7 +10173,7 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 0
+        "goalsConceded": 1
       }
     ]
   },
@@ -10198,7 +10198,7 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 4,
-        "goalsConceded": 5
+        "goalsConceded": 6
       }
     ]
   },
@@ -10223,7 +10223,7 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 2
+        "goalsConceded": 3
       }
     ]
   },
@@ -10248,7 +10248,7 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 5
+        "goalsConceded": 6
       }
     ]
   },
@@ -10264,7 +10264,7 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 3
+        "goalsConceded": 4
       }
     ]
   },

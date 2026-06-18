@@ -1,6 +1,13 @@
 {
   "goals": [
     {
+      "name": "Jonathan David",
+      "country": "Canada",
+      "position": "FWD",
+      "value": 3,
+      "managers": []
+    },
+    {
       "name": "Lionel Messi",
       "country": "Argentina",
       "position": "FWD",
@@ -61,13 +68,6 @@
       "name": "Johan Manzambi",
       "country": "Switzerland",
       "position": "MID",
-      "value": 2,
-      "managers": []
-    },
-    {
-      "name": "Jonathan David",
-      "country": "Canada",
-      "position": "FWD",
       "value": 2,
       "managers": []
     },
