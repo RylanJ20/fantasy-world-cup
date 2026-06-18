@@ -166,6 +166,13 @@
       "managers": []
     },
     {
+      "name": "Alexandr Sojka",
+      "country": "Czechia",
+      "position": "MID",
+      "value": 1,
+      "managers": []
+    },
+    {
       "name": "Amir Al-Ammari",
       "country": "Iraq",
       "position": "MID",
@@ -192,18 +199,6 @@
       "position": "MID",
       "value": 1,
       "managers": []
-    },
-    {
-      "name": "Bukayo Saka",
-      "country": "England",
-      "position": "FWD",
-      "value": 1,
-      "managers": [
-        {
-          "id": "marc",
-          "name": "Marc"
-        }
-      ]
     }
   ],
   "saves": [
