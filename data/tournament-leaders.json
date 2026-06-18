@@ -13,6 +13,13 @@
       ]
     },
     {
+      "name": "Cyle Larin",
+      "country": "Canada",
+      "position": "FWD",
+      "value": 2,
+      "managers": []
+    },
+    {
       "name": "Elijah Just",
       "country": "New Zealand",
       "position": "MID",
@@ -99,13 +106,6 @@
       "name": "Abdulelah Al-Amri",
       "country": "Saudi Arabia",
       "position": "DEF",
-      "value": 1,
-      "managers": []
-    },
-    {
-      "name": "Alexander Isak",
-      "country": "Sweden",
-      "position": "FWD",
       "value": 1,
       "managers": []
     }
@@ -224,6 +224,13 @@
       "managers": []
     },
     {
+      "name": "Mahmoud Abunada",
+      "country": "Qatar",
+      "position": "GK",
+      "value": 7,
+      "managers": []
+    },
+    {
       "name": "Matej Kovár",
       "country": "Czechia",
       "position": "GK",
@@ -240,13 +247,6 @@
     {
       "name": "Alireza Beiranvand",
       "country": "Iran",
-      "position": "GK",
-      "value": 6,
-      "managers": []
-    },
-    {
-      "name": "Mahmoud Abunada",
-      "country": "Qatar",
       "position": "GK",
       "value": 6,
       "managers": []

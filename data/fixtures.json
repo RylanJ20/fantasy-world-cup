@@ -319,7 +319,7 @@
     "home": "Canada",
     "away": "Qatar",
     "status": "IN_PLAY",
-    "homeScore": 0,
+    "homeScore": 1,
     "awayScore": 0,
     "winner": null
   },
