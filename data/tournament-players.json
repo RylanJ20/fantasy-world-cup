@@ -2559,6 +2559,22 @@
     ]
   },
   {
+    "name": "Cucho Hernández",
+    "country": "Colombia",
+    "position": "",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Uzbekistan",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
     "name": "Daniel Muñoz",
     "country": "Colombia",
     "position": "DEF",
@@ -2736,6 +2752,22 @@
         "shotsOnGoal": 0,
         "saves": 0,
         "goalsConceded": 1
+      }
+    ]
+  },
+  {
+    "name": "Richard Ríos",
+    "country": "Colombia",
+    "position": "",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Uzbekistan",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
