@@ -8259,6 +8259,22 @@
     ]
   },
   {
+    "name": "Azarias Londoño",
+    "country": "Panama",
+    "position": "",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Ghana",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
     "name": "Carlos Harvey",
     "country": "Panama",
     "position": "MID",
@@ -8358,6 +8374,22 @@
     "name": "José Córdoba",
     "country": "Panama",
     "position": "DEF",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Ghana",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "José Fajardo",
+    "country": "Panama",
+    "position": "",
     "managers": [],
     "matches": [
       {
