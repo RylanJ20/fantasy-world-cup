@@ -2543,6 +2543,187 @@
     ]
   },
   {
+    "name": "Camilo Vargas",
+    "country": "Colombia",
+    "position": "GK",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Uzbekistan",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Daniel Muñoz",
+    "country": "Colombia",
+    "position": "DEF",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Uzbekistan",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Davinson Sánchez",
+    "country": "Colombia",
+    "position": "DEF",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Uzbekistan",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Gustavo Puerta",
+    "country": "Colombia",
+    "position": "MID",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Uzbekistan",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "James Rodríguez",
+    "country": "Colombia",
+    "position": "MID",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Uzbekistan",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Jefferson Lerma",
+    "country": "Colombia",
+    "position": "MID",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Uzbekistan",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Jhon Arias",
+    "country": "Colombia",
+    "position": "MID",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Uzbekistan",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Jhon Lucumí",
+    "country": "Colombia",
+    "position": "DEF",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Uzbekistan",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Johan Mojica",
+    "country": "Colombia",
+    "position": "DEF",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Uzbekistan",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Luis Díaz",
+    "country": "Colombia",
+    "position": "MID",
+    "managers": [
+      {
+        "id": "rylan",
+        "name": "Rylan"
+      }
+    ],
+    "matches": [
+      {
+        "opponent": "Uzbekistan",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Luis Suárez",
+    "country": "Colombia",
+    "position": "FWD",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Uzbekistan",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
     "name": "Aaron Wan-Bissaka",
     "country": "Congo DR",
     "position": "DEF",
@@ -12668,6 +12849,182 @@
         "saves": 0,
         "goalsConceded": 1,
         "result": "D"
+      }
+    ]
+  },
+  {
+    "name": "Abbosbek Fayzullaev",
+    "country": "Uzbekistan",
+    "position": "FWD",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Colombia",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Abdukodir Khusanov",
+    "country": "Uzbekistan",
+    "position": "DEF",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Colombia",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Abdulla Abdullaev",
+    "country": "Uzbekistan",
+    "position": "DEF",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Colombia",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Akmal Mozgovoy",
+    "country": "Uzbekistan",
+    "position": "MID",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Colombia",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Behruzjon Karimov",
+    "country": "Uzbekistan",
+    "position": "MID",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Colombia",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Eldor Shomurodov",
+    "country": "Uzbekistan",
+    "position": "FWD",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Colombia",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Oston Urunov",
+    "country": "Uzbekistan",
+    "position": "FWD",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Colombia",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Otabek Shukurov",
+    "country": "Uzbekistan",
+    "position": "MID",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Colombia",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Rustam Ashurmatov",
+    "country": "Uzbekistan",
+    "position": "DEF",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Colombia",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Sherzod Nasrullaev",
+    "country": "Uzbekistan",
+    "position": "MID",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Colombia",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Utkir Yusupov",
+    "country": "Uzbekistan",
+    "position": "GK",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Colombia",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   }

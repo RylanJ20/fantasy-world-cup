@@ -1287,5 +1287,19 @@
         "result": "W"
       }
     ]
+  },
+  "co|luis diaz": {
+    "country": "Colombia",
+    "name": "Luis Díaz",
+    "matches": [
+      {
+        "fixtureId": 760436,
+        "opponent": "Uzbekistan",
+        "date": "2026-06-18T02:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0
+      }
+    ]
   }
 }
