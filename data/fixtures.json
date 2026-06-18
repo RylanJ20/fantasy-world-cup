@@ -294,10 +294,10 @@
     "stage": "Group A",
     "home": "Czechia",
     "away": "South Africa",
-    "status": "FINISHED",
+    "status": "IN_PLAY",
     "homeScore": 1,
     "awayScore": 1,
-    "winner": "DRAW"
+    "winner": null
   },
   {
     "n": 760439,
