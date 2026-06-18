@@ -5199,6 +5199,22 @@
     ]
   },
   {
+    "name": "Kwasi Sibo",
+    "country": "Ghana",
+    "position": "",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Panama",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
     "name": "Lawrence Ati Zigi",
     "country": "Ghana",
     "position": "GK",
@@ -8342,6 +8358,22 @@
     "name": "Édgar Yoel Bárcenas",
     "country": "Panama",
     "position": "MID",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Ghana",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Ismael Díaz",
+    "country": "Panama",
+    "position": "",
     "managers": [],
     "matches": [
       {
