@@ -12933,6 +12933,22 @@
     ]
   },
   {
+    "name": "Azizbek Amonov",
+    "country": "Uzbekistan",
+    "position": "",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Colombia",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
     "name": "Behruzjon Karimov",
     "country": "Uzbekistan",
     "position": "MID",
@@ -12993,6 +13009,22 @@
         "shotsOnGoal": 0,
         "saves": 0,
         "goalsConceded": 1
+      }
+    ]
+  },
+  {
+    "name": "Jakhongir Urozov",
+    "country": "Uzbekistan",
+    "position": "",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Colombia",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
