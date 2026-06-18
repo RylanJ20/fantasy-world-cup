@@ -2690,6 +2690,22 @@
     ]
   },
   {
+    "name": "Moïse Bombito",
+    "country": "Canada",
+    "position": "",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Qatar",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
     "name": "Promise David",
     "country": "Canada",
     "position": "FWD",
@@ -9836,6 +9852,14 @@
         "saves": 0,
         "goalsConceded": 0,
         "result": "D"
+      },
+      {
+        "opponent": "Canada",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -10112,6 +10136,14 @@
         "saves": 0,
         "goalsConceded": 0,
         "result": "D"
+      },
+      {
+        "opponent": "Canada",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
