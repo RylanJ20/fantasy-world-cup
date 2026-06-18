@@ -238,6 +238,13 @@
       "managers": []
     },
     {
+      "name": "Matej Kovár",
+      "country": "Czechia",
+      "position": "GK",
+      "value": 6,
+      "managers": []
+    },
+    {
       "name": "Édouard Mendy",
       "country": "Senegal",
       "position": "GK",
@@ -247,13 +254,6 @@
     {
       "name": "Mahmoud Abunada",
       "country": "Qatar",
-      "position": "GK",
-      "value": 5,
-      "managers": []
-    },
-    {
-      "name": "Matej Kovár",
-      "country": "Czechia",
       "position": "GK",
       "value": 5,
       "managers": []

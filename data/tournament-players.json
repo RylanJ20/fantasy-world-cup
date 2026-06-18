@@ -3788,7 +3788,7 @@
         "goals": 0,
         "assists": 0,
         "shotsOnGoal": 0,
-        "saves": 1,
+        "saves": 2,
         "goalsConceded": 1
       }
     ]
@@ -10757,6 +10757,22 @@
     ]
   },
   {
+    "name": "Kamogelo Sebelebele",
+    "country": "South Africa",
+    "position": "",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Czechia",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
     "name": "Khuliso Mudau",
     "country": "South Africa",
     "position": "DEF",
@@ -10875,7 +10891,7 @@
         "opponent": "Czechia",
         "goals": 0,
         "assists": 0,
-        "shotsOnGoal": 0,
+        "shotsOnGoal": 1,
         "saves": 0,
         "goalsConceded": 0
       }
