@@ -245,6 +245,13 @@
       "managers": []
     },
     {
+      "name": "Mahmoud Abunada",
+      "country": "Qatar",
+      "position": "GK",
+      "value": 6,
+      "managers": []
+    },
+    {
       "name": "Édouard Mendy",
       "country": "Senegal",
       "position": "GK",
@@ -254,13 +261,6 @@
     {
       "name": "Gregor Kobel",
       "country": "Switzerland",
-      "position": "GK",
-      "value": 5,
-      "managers": []
-    },
-    {
-      "name": "Mahmoud Abunada",
-      "country": "Qatar",
       "position": "GK",
       "value": 5,
       "managers": []
