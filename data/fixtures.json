@@ -282,10 +282,10 @@
     "stage": "Group K",
     "home": "Uzbekistan",
     "away": "Colombia",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "homeScore": 1,
-    "awayScore": 2,
-    "winner": null
+    "awayScore": 3,
+    "winner": "AWAY_TEAM"
   },
   {
     "n": 760438,
