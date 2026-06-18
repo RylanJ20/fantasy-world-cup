@@ -82,6 +82,13 @@
       "managers": []
     },
     {
+      "name": "Abbosbek Fayzullaev",
+      "country": "Uzbekistan",
+      "position": "FWD",
+      "value": 1,
+      "managers": []
+    },
+    {
       "name": "Abdulelah Al-Amri",
       "country": "Saudi Arabia",
       "position": "DEF",
@@ -99,13 +106,6 @@
       "name": "Ali Olwan",
       "country": "Jordan",
       "position": "FWD",
-      "value": 1,
-      "managers": []
-    },
-    {
-      "name": "Amad Diallo",
-      "country": "Ivory Coast",
-      "position": "MID",
       "value": 1,
       "managers": []
     }
