@@ -270,10 +270,10 @@
     "stage": "Group L",
     "home": "Ghana",
     "away": "Panama",
-    "status": "IN_PLAY",
-    "homeScore": 0,
+    "status": "FINISHED",
+    "homeScore": 1,
     "awayScore": 0,
-    "winner": null
+    "winner": "HOME_TEAM"
   },
   {
     "n": 760436,
