@@ -252,6 +252,13 @@
       "managers": []
     },
     {
+      "name": "Gregor Kobel",
+      "country": "Switzerland",
+      "position": "GK",
+      "value": 5,
+      "managers": []
+    },
+    {
       "name": "Mahmoud Abunada",
       "country": "Qatar",
       "position": "GK",
@@ -261,13 +268,6 @@
     {
       "name": "Eloy Room",
       "country": "Curaçao",
-      "position": "GK",
-      "value": 4,
-      "managers": []
-    },
-    {
-      "name": "Gregor Kobel",
-      "country": "Switzerland",
       "position": "GK",
       "value": 4,
       "managers": []
