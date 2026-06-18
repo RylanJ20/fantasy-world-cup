@@ -51,6 +51,13 @@
       ]
     },
     {
+      "name": "Johan Manzambi",
+      "country": "Switzerland",
+      "position": "MID",
+      "value": 2,
+      "managers": []
+    },
+    {
       "name": "Kai Havertz",
       "country": "Germany",
       "position": "FWD",
@@ -98,13 +105,6 @@
     {
       "name": "Alexander Isak",
       "country": "Sweden",
-      "position": "FWD",
-      "value": 1,
-      "managers": []
-    },
-    {
-      "name": "Ali Olwan",
-      "country": "Jordan",
       "position": "FWD",
       "value": 1,
       "managers": []
