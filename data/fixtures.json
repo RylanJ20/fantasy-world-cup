@@ -294,7 +294,7 @@
     "stage": "Group A",
     "home": "Czechia",
     "away": "South Africa",
-    "status": "PAUSED",
+    "status": "IN_PLAY",
     "homeScore": 1,
     "awayScore": 0,
     "winner": null

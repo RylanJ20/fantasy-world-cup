@@ -266,6 +266,13 @@
       "managers": []
     },
     {
+      "name": "Ronwen Williams",
+      "country": "South Africa",
+      "position": "GK",
+      "value": 4,
+      "managers": []
+    },
+    {
       "name": "Yassine Bounou",
       "country": "Morocco",
       "position": "GK",
@@ -277,13 +284,6 @@
       "country": "Japan",
       "position": "GK",
       "value": 4,
-      "managers": []
-    },
-    {
-      "name": "Alexander Schlager",
-      "country": "Austria",
-      "position": "GK",
-      "value": 3,
       "managers": []
     }
   ],
