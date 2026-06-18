@@ -266,6 +266,13 @@
       "managers": []
     },
     {
+      "name": "Gregor Kobel",
+      "country": "Switzerland",
+      "position": "GK",
+      "value": 4,
+      "managers": []
+    },
+    {
       "name": "Ronwen Williams",
       "country": "South Africa",
       "position": "GK",
@@ -275,13 +282,6 @@
     {
       "name": "Yassine Bounou",
       "country": "Morocco",
-      "position": "GK",
-      "value": 4,
-      "managers": []
-    },
-    {
-      "name": "Zion Suzuki",
-      "country": "Japan",
       "position": "GK",
       "value": 4,
       "managers": []
