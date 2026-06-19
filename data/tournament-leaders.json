@@ -303,6 +303,13 @@
       "managers": []
     },
     {
+      "name": "Alistair Johnston",
+      "country": "Canada",
+      "position": "DEF",
+      "value": 1,
+      "managers": []
+    },
+    {
       "name": "Andy Robertson",
       "country": "Scotland",
       "position": "DEF",
@@ -353,6 +360,13 @@
       ]
     },
     {
+      "name": "Derek Cornelius",
+      "country": "Canada",
+      "position": "DEF",
+      "value": 1,
+      "managers": []
+    },
+    {
       "name": "Diney Borges",
       "country": "Cabo Verde",
       "position": "DEF",
@@ -369,20 +383,6 @@
     {
       "name": "Facundo Medina",
       "country": "Argentina",
-      "position": "DEF",
-      "value": 1,
-      "managers": []
-    },
-    {
-      "name": "Ghislain Konan",
-      "country": "Ivory Coast",
-      "position": "DEF",
-      "value": 1,
-      "managers": []
-    },
-    {
-      "name": "Gideon Mensah",
-      "country": "Ghana",
       "position": "DEF",
       "value": 1,
       "managers": []
