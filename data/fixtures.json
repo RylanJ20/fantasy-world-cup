@@ -354,9 +354,9 @@
     "stage": "Group C",
     "home": "Scotland",
     "away": "Morocco",
-    "status": "TIMED",
-    "homeScore": null,
-    "awayScore": null,
+    "status": "IN_PLAY",
+    "homeScore": 0,
+    "awayScore": 1,
     "winner": null
   },
   {
