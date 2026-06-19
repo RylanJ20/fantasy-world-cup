@@ -252,6 +252,13 @@
       "managers": []
     },
     {
+      "name": "Kim Seung-Gyu",
+      "country": "South Korea",
+      "position": "GK",
+      "value": 6,
+      "managers": []
+    },
+    {
       "name": "Édouard Mendy",
       "country": "Senegal",
       "position": "GK",
@@ -261,13 +268,6 @@
     {
       "name": "Gregor Kobel",
       "country": "Switzerland",
-      "position": "GK",
-      "value": 5,
-      "managers": []
-    },
-    {
-      "name": "Kim Seung-Gyu",
-      "country": "South Korea",
       "position": "GK",
       "value": 5,
       "managers": []
