@@ -342,7 +342,7 @@
     "stage": "Group D",
     "home": "United States",
     "away": "Australia",
-    "status": "IN_PLAY",
+    "status": "PAUSED",
     "homeScore": 2,
     "awayScore": 0,
     "winner": null
