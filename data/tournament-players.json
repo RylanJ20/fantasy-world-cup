@@ -8608,6 +8608,14 @@
         "saves": 0,
         "goalsConceded": 0,
         "result": "D"
+      },
+      {
+        "opponent": "Scotland",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -11134,6 +11142,22 @@
     ]
   },
   {
+    "name": "Anthony Ralston",
+    "country": "Scotland",
+    "position": "",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Morocco",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
     "name": "Ben Gannon-Doak",
     "country": "Scotland",
     "position": "MID",
@@ -11405,6 +11429,22 @@
         "shotsOnGoal": 0,
         "saves": 0,
         "goalsConceded": 1
+      }
+    ]
+  },
+  {
+    "name": "Ross Stewart",
+    "country": "Scotland",
+    "position": "",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Morocco",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
