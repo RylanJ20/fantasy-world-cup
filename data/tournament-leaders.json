@@ -289,6 +289,34 @@
   ],
   "cleanSheets": [
     {
+      "name": "Edson Álvarez",
+      "country": "Mexico",
+      "position": "DEF",
+      "value": 2,
+      "managers": []
+    },
+    {
+      "name": "Israel Reyes",
+      "country": "Mexico",
+      "position": "DEF",
+      "value": 2,
+      "managers": []
+    },
+    {
+      "name": "Jesús Gallardo",
+      "country": "Mexico",
+      "position": "DEF",
+      "value": 2,
+      "managers": []
+    },
+    {
+      "name": "Johan Vásquez",
+      "country": "Mexico",
+      "position": "DEF",
+      "value": 2,
+      "managers": []
+    },
+    {
       "name": "Aaron Hickey",
       "country": "Scotland",
       "position": "DEF",
@@ -358,34 +386,6 @@
           "name": "Alejandro"
         }
       ]
-    },
-    {
-      "name": "Derek Cornelius",
-      "country": "Canada",
-      "position": "DEF",
-      "value": 1,
-      "managers": []
-    },
-    {
-      "name": "Diney Borges",
-      "country": "Cabo Verde",
-      "position": "DEF",
-      "value": 1,
-      "managers": []
-    },
-    {
-      "name": "Edson Álvarez",
-      "country": "Mexico",
-      "position": "DEF",
-      "value": 1,
-      "managers": []
-    },
-    {
-      "name": "Emmanuel Agbadou",
-      "country": "Ivory Coast",
-      "position": "DEF",
-      "value": 1,
-      "managers": []
     }
   ]
 }

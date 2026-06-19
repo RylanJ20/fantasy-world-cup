@@ -5,25 +5,25 @@
       {
         "position": 1,
         "team": "Mexico",
-        "played": 1,
-        "won": 1,
+        "played": 2,
+        "won": 2,
         "draw": 0,
         "lost": 0,
-        "gf": 2,
+        "gf": 3,
         "ga": 0,
-        "gd": 2,
-        "points": 3
+        "gd": 3,
+        "points": 6
       },
       {
         "position": 2,
         "team": "South Korea",
-        "played": 1,
+        "played": 2,
         "won": 1,
         "draw": 0,
-        "lost": 0,
+        "lost": 1,
         "gf": 2,
-        "ga": 1,
-        "gd": 1,
+        "ga": 2,
+        "gd": 0,
         "points": 3
       },
       {
