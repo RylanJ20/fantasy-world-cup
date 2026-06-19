@@ -318,10 +318,10 @@
     "stage": "Group B",
     "home": "Canada",
     "away": "Qatar",
-    "status": "FINISHED",
+    "status": "IN_PLAY",
     "homeScore": 6,
     "awayScore": 0,
-    "winner": "HOME_TEAM"
+    "winner": null
   },
   {
     "n": 760441,
