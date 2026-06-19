@@ -7950,6 +7950,38 @@
     ]
   },
   {
+    "name": "Obed Vargas",
+    "country": "Mexico",
+    "position": "",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "South Korea",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Orbelín Pineda",
+    "country": "Mexico",
+    "position": "",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "South Korea",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
     "name": "Raúl Jiménez",
     "country": "Mexico",
     "position": "FWD",
@@ -11674,6 +11706,14 @@
         "saves": 0,
         "goalsConceded": 0,
         "result": "W"
+      },
+      {
+        "opponent": "Mexico",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -12046,6 +12086,22 @@
         "shotsOnGoal": 0,
         "saves": 0,
         "goalsConceded": 1
+      }
+    ]
+  },
+  {
+    "name": "Yang Hyun-Jun",
+    "country": "South Korea",
+    "position": "",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Mexico",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
