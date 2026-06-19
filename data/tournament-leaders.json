@@ -65,6 +65,13 @@
       ]
     },
     {
+      "name": "Ismael Saibari",
+      "country": "Morocco",
+      "position": "FWD",
+      "value": 2,
+      "managers": []
+    },
+    {
       "name": "Johan Manzambi",
       "country": "Switzerland",
       "position": "MID",
@@ -101,13 +108,6 @@
       "position": "MID",
       "value": 2,
       "managers": []
-    },
-    {
-      "name": "Abbosbek Fayzullaev",
-      "country": "Uzbekistan",
-      "position": "FWD",
-      "value": 1,
-      "managers": []
     }
   ],
   "assists": [
@@ -115,6 +115,13 @@
       "name": "Alexander Isak",
       "country": "Sweden",
       "position": "FWD",
+      "value": 2,
+      "managers": []
+    },
+    {
+      "name": "Brahim Díaz",
+      "country": "Morocco",
+      "position": "MID",
       "value": 2,
       "managers": []
     },
@@ -183,13 +190,6 @@
       "name": "Arthur Masuaku",
       "country": "Congo DR",
       "position": "DEF",
-      "value": 1,
-      "managers": []
-    },
-    {
-      "name": "Brahim Díaz",
-      "country": "Morocco",
-      "position": "MID",
       "value": 1,
       "managers": []
     },

@@ -238,6 +238,15 @@
         "shotsOnGoal": 0,
         "goalsConceded": 1,
         "result": "D"
+      },
+      {
+        "fixtureId": 760445,
+        "opponent": "Scotland",
+        "date": "2026-06-19T22:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -254,6 +263,15 @@
         "shotsOnGoal": 0,
         "goalsConceded": 0,
         "result": "W"
+      },
+      {
+        "fixtureId": 760445,
+        "opponent": "Morocco",
+        "date": "2026-06-19T22:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "goalsConceded": 1
       }
     ]
   },
@@ -269,6 +287,14 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "result": "W"
+      },
+      {
+        "fixtureId": 760445,
+        "opponent": "Morocco",
+        "date": "2026-06-19T22:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0
       }
     ]
   },
