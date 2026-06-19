@@ -330,8 +330,8 @@
     "stage": "Group A",
     "home": "Mexico",
     "away": "South Korea",
-    "status": "IN_PLAY",
-    "homeScore": 1,
+    "status": "PAUSED",
+    "homeScore": 0,
     "awayScore": 0,
     "winner": null
   },
