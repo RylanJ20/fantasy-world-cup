@@ -7725,6 +7725,22 @@
     ]
   },
   {
+    "name": "César Huerta",
+    "country": "Mexico",
+    "position": "",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "South Korea",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
     "name": "César Montes",
     "country": "Mexico",
     "position": "DEF",
