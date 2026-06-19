@@ -13972,6 +13972,22 @@
     ]
   },
   {
+    "name": "Auston Trusty",
+    "country": "United States",
+    "position": "",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Australia",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
     "name": "Chris Richards",
     "country": "United States",
     "position": "DEF",
@@ -14057,6 +14073,22 @@
         "saves": 0,
         "goalsConceded": 0,
         "result": "W"
+      }
+    ]
+  },
+  {
+    "name": "Joe Scally",
+    "country": "United States",
+    "position": "",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Australia",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
