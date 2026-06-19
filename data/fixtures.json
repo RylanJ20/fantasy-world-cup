@@ -342,10 +342,10 @@
     "stage": "Group D",
     "home": "United States",
     "away": "Australia",
-    "status": "FINISHED",
+    "status": "IN_PLAY",
     "homeScore": 2,
     "awayScore": 0,
-    "winner": "HOME_TEAM"
+    "winner": null
   },
   {
     "n": 760445,
