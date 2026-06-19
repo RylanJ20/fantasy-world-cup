@@ -331,6 +331,13 @@
       "managers": []
     },
     {
+      "name": "Alex Freeman",
+      "country": "United States",
+      "position": "DEF",
+      "value": 1,
+      "managers": []
+    },
+    {
       "name": "Alistair Johnston",
       "country": "Canada",
       "position": "DEF",
@@ -346,6 +353,18 @@
         {
           "id": "marc",
           "name": "Marc"
+        }
+      ]
+    },
+    {
+      "name": "Antonee Robinson",
+      "country": "United States",
+      "position": "DEF",
+      "value": 1,
+      "managers": [
+        {
+          "id": "grayson",
+          "name": "Grayson"
         }
       ]
     },
@@ -367,25 +386,6 @@
       "position": "DEF",
       "value": 1,
       "managers": []
-    },
-    {
-      "name": "César Montes",
-      "country": "Mexico",
-      "position": "DEF",
-      "value": 1,
-      "managers": []
-    },
-    {
-      "name": "Cristian Romero",
-      "country": "Argentina",
-      "position": "DEF",
-      "value": 1,
-      "managers": [
-        {
-          "id": "alejandro",
-          "name": "Alejandro"
-        }
-      ]
     }
   ]
 }
