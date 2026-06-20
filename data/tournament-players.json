@@ -6382,6 +6382,22 @@
     ]
   },
   {
+    "name": "Dominique Simon",
+    "country": "Haiti",
+    "position": "",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Brazil",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
     "name": "Frantzdy Pierrot",
     "country": "Haiti",
     "position": "FWD",
@@ -6645,6 +6661,14 @@
         "saves": 0,
         "goalsConceded": 1,
         "result": "L"
+      },
+      {
+        "opponent": "Brazil",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
