@@ -366,10 +366,10 @@
     "stage": "Group C",
     "home": "Brazil",
     "away": "Haiti",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "homeScore": 3,
     "awayScore": 0,
-    "winner": null
+    "winner": "HOME_TEAM"
   },
   {
     "n": 760443,
