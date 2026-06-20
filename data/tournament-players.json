@@ -10184,6 +10184,22 @@
     ]
   },
   {
+    "name": "Alexandro Maidana",
+    "country": "Paraguay",
+    "position": "",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Türkiye",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
     "name": "Andrés Cubas",
     "country": "Paraguay",
     "position": "MID",
