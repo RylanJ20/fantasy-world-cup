@@ -39,6 +39,13 @@
       ]
     },
     {
+      "name": "Crysencio Summerville",
+      "country": "Netherlands",
+      "position": "FWD",
+      "value": 2,
+      "managers": []
+    },
+    {
       "name": "Cyle Larin",
       "country": "Canada",
       "position": "FWD",
@@ -96,18 +103,6 @@
       "position": "MID",
       "value": 2,
       "managers": []
-    },
-    {
-      "name": "Kai Havertz",
-      "country": "Germany",
-      "position": "FWD",
-      "value": 2,
-      "managers": [
-        {
-          "id": "alejandro",
-          "name": "Alejandro"
-        }
-      ]
     }
   ],
   "assists": [
