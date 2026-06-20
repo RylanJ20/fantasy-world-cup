@@ -1,6 +1,13 @@
 {
   "goals": [
     {
+      "name": "Deniz Undav",
+      "country": "Germany",
+      "position": "FWD",
+      "value": 3,
+      "managers": []
+    },
+    {
       "name": "Jonathan David",
       "country": "Canada",
       "position": "FWD",
@@ -48,13 +55,6 @@
     {
       "name": "Cyle Larin",
       "country": "Canada",
-      "position": "FWD",
-      "value": 2,
-      "managers": []
-    },
-    {
-      "name": "Deniz Undav",
-      "country": "Germany",
       "position": "FWD",
       "value": 2,
       "managers": []
