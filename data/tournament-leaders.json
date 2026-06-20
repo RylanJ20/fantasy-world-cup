@@ -273,15 +273,20 @@
       "managers": []
     },
     {
-      "name": "Eloy Room",
-      "country": "Curaçao",
+      "name": "Alisson Becker",
+      "country": "Brazil",
       "position": "GK",
       "value": 4,
-      "managers": []
+      "managers": [
+        {
+          "id": "marc",
+          "name": "Marc"
+        }
+      ]
     },
     {
-      "name": "Nikola Vasilj",
-      "country": "Bosnia-Herzegovina",
+      "name": "Eloy Room",
+      "country": "Curaçao",
       "position": "GK",
       "value": 4,
       "managers": []
