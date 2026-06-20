@@ -7607,6 +7607,22 @@
     ]
   },
   {
+    "name": "Evann Guessand",
+    "country": "Ivory Coast",
+    "position": "",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Germany",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
     "name": "Franck Kessié",
     "country": "Ivory Coast",
     "position": "MID",
@@ -7754,6 +7770,30 @@
         "saves": 0,
         "goalsConceded": 0,
         "result": "W"
+      },
+      {
+        "opponent": "Germany",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Simon Adingra",
+    "country": "Ivory Coast",
+    "position": "",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Germany",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },

@@ -403,7 +403,7 @@
     "home": "Germany",
     "away": "Ivory Coast",
     "status": "IN_PLAY",
-    "homeScore": 1,
+    "homeScore": 0,
     "awayScore": 1,
     "winner": null
   },
