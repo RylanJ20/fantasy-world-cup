@@ -530,6 +530,14 @@
         "assists": 0,
         "shotsOnGoal": 1,
         "result": "D"
+      },
+      {
+        "fixtureId": 760447,
+        "opponent": "Sweden",
+        "date": "2026-06-20T17:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0
       }
     ]
   },
@@ -546,6 +554,15 @@
         "shotsOnGoal": 0,
         "goalsConceded": 2,
         "result": "D"
+      },
+      {
+        "fixtureId": 760447,
+        "opponent": "Sweden",
+        "date": "2026-06-20T17:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -561,6 +578,14 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "result": "D"
+      },
+      {
+        "fixtureId": 760447,
+        "opponent": "Sweden",
+        "date": "2026-06-20T17:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0
       }
     ]
   },
@@ -577,6 +602,15 @@
         "shotsOnGoal": 1,
         "goalsConceded": 2,
         "result": "D"
+      },
+      {
+        "fixtureId": 760447,
+        "opponent": "Sweden",
+        "date": "2026-06-20T17:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -608,6 +642,14 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "result": "D"
+      },
+      {
+        "fixtureId": 760447,
+        "opponent": "Sweden",
+        "date": "2026-06-20T17:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0
       }
     ]
   },
@@ -624,6 +666,15 @@
         "shotsOnGoal": 0,
         "goalsConceded": 2,
         "result": "D"
+      },
+      {
+        "fixtureId": 760447,
+        "opponent": "Sweden",
+        "date": "2026-06-20T17:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -671,6 +722,14 @@
         "assists": 1,
         "shotsOnGoal": 2,
         "result": "W"
+      },
+      {
+        "fixtureId": 760447,
+        "opponent": "Netherlands",
+        "date": "2026-06-20T17:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0
       }
     ]
   },
