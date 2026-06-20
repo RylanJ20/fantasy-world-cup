@@ -378,10 +378,10 @@
     "stage": "Group D",
     "home": "Türkiye",
     "away": "Paraguay",
-    "status": "FINISHED",
+    "status": "IN_PLAY",
     "homeScore": 0,
     "awayScore": 1,
-    "winner": "AWAY_TEAM"
+    "winner": null
   },
   {
     "n": 760447,
@@ -976,7 +976,7 @@
     "date": "2026-07-02",
     "utcDate": "2026-07-02T00:00:00Z",
     "stage": "Round of 32",
-    "home": "United States",
+    "home": "Group D Winner",
     "away": "Third Place Group B/E/F/I/J",
     "status": "TIMED",
     "homeScore": null,
