@@ -2143,6 +2143,14 @@
         "saves": 0,
         "goalsConceded": 0,
         "result": "D"
+      },
+      {
+        "opponent": "Haiti",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -2161,6 +2169,22 @@
         "goalsConceded": 1,
         "result": "D"
       },
+      {
+        "opponent": "Haiti",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Éderson",
+    "country": "Brazil",
+    "position": "",
+    "managers": [],
+    "matches": [
       {
         "opponent": "Haiti",
         "goals": 0,
@@ -6410,6 +6434,22 @@
         "shotsOnGoal": 0,
         "saves": 0,
         "goalsConceded": 3
+      }
+    ]
+  },
+  {
+    "name": "Derrick Etienne Jr.",
+    "country": "Haiti",
+    "position": "",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Brazil",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
