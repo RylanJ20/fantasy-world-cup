@@ -390,10 +390,10 @@
     "stage": "Group F",
     "home": "Netherlands",
     "away": "Sweden",
-    "status": "IN_PLAY",
-    "homeScore": 4,
+    "status": "FINISHED",
+    "homeScore": 5,
     "awayScore": 1,
-    "winner": null
+    "winner": "HOME_TEAM"
   },
   {
     "n": 760448,
