@@ -10292,6 +10292,22 @@
     ]
   },
   {
+    "name": "Gabriel Ávalos",
+    "country": "Paraguay",
+    "position": "",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Türkiye",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
     "name": "Gustavo Gómez",
     "country": "Paraguay",
     "position": "DEF",
@@ -10345,6 +10361,22 @@
     "name": "Isidro Pitta",
     "country": "Paraguay",
     "position": "FWD",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Türkiye",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "José Canale",
+    "country": "Paraguay",
+    "position": "",
     "managers": [],
     "matches": [
       {
@@ -10535,7 +10567,7 @@
         "goals": 0,
         "assists": 0,
         "shotsOnGoal": 0,
-        "saves": 4,
+        "saves": 5,
         "goalsConceded": 0
       }
     ]
@@ -14528,7 +14560,7 @@
         "opponent": "Paraguay",
         "goals": 0,
         "assists": 0,
-        "shotsOnGoal": 0,
+        "shotsOnGoal": 1,
         "saves": 0,
         "goalsConceded": 0
       }
