@@ -27,6 +27,18 @@
       "managers": []
     },
     {
+      "name": "Cody Gakpo",
+      "country": "Netherlands",
+      "position": "FWD",
+      "value": 2,
+      "managers": [
+        {
+          "id": "rylan",
+          "name": "Rylan"
+        }
+      ]
+    },
+    {
       "name": "Cyle Larin",
       "country": "Canada",
       "position": "FWD",
@@ -88,18 +100,6 @@
     {
       "name": "Kai Havertz",
       "country": "Germany",
-      "position": "FWD",
-      "value": 2,
-      "managers": [
-        {
-          "id": "alejandro",
-          "name": "Alejandro"
-        }
-      ]
-    },
-    {
-      "name": "Kylian Mbappé",
-      "country": "France",
       "position": "FWD",
       "value": 2,
       "managers": [
