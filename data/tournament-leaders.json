@@ -140,6 +140,18 @@
       "managers": []
     },
     {
+      "name": "Denzel Dumfries",
+      "country": "Netherlands",
+      "position": "DEF",
+      "value": 2,
+      "managers": [
+        {
+          "id": "rylan",
+          "name": "Rylan"
+        }
+      ]
+    },
+    {
       "name": "Joshua Kimmich",
       "country": "Germany",
       "position": "DEF",
@@ -190,13 +202,6 @@
       "name": "Amir Al-Ammari",
       "country": "Iraq",
       "position": "MID",
-      "value": 1,
-      "managers": []
-    },
-    {
-      "name": "Arthur Masuaku",
-      "country": "Congo DR",
-      "position": "DEF",
       "value": 1,
       "managers": []
     }
