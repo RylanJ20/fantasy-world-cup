@@ -5905,6 +5905,14 @@
         "saves": 0,
         "goalsConceded": 0,
         "result": "W"
+      },
+      {
+        "opponent": "Ivory Coast",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -5990,6 +5998,22 @@
         "shotsOnGoal": 0,
         "saves": 0,
         "goalsConceded": 1
+      }
+    ]
+  },
+  {
+    "name": "Jamie Leweling",
+    "country": "Germany",
+    "position": "",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Ivory Coast",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -6152,6 +6176,22 @@
         "shotsOnGoal": 0,
         "saves": 1,
         "goalsConceded": 1
+      }
+    ]
+  },
+  {
+    "name": "Nadiem Amiri",
+    "country": "Germany",
+    "position": "",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Ivory Coast",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
