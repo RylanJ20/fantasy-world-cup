@@ -10511,7 +10511,7 @@
         "goals": 0,
         "assists": 0,
         "shotsOnGoal": 0,
-        "saves": 2,
+        "saves": 4,
         "goalsConceded": 0
       }
     ]
@@ -14495,6 +14495,22 @@
     ]
   },
   {
+    "name": "Can Uzun",
+    "country": "Türkiye",
+    "position": "",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Paraguay",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
     "name": "Deniz Gül",
     "country": "Türkiye",
     "position": "",
@@ -14508,6 +14524,14 @@
         "saves": 0,
         "goalsConceded": 0,
         "result": "L"
+      },
+      {
+        "opponent": "Paraguay",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 1,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -14655,7 +14679,7 @@
         "opponent": "Paraguay",
         "goals": 0,
         "assists": 0,
-        "shotsOnGoal": 1,
+        "shotsOnGoal": 2,
         "saves": 0,
         "goalsConceded": 1
       }

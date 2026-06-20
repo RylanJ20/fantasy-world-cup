@@ -238,6 +238,13 @@
       "managers": []
     },
     {
+      "name": "Orlando Gil",
+      "country": "Paraguay",
+      "position": "GK",
+      "value": 7,
+      "managers": []
+    },
+    {
       "name": "Vozinha",
       "country": "Cabo Verde",
       "position": "GK",
@@ -280,13 +287,6 @@
     {
       "name": "Gregor Kobel",
       "country": "Switzerland",
-      "position": "GK",
-      "value": 5,
-      "managers": []
-    },
-    {
-      "name": "Orlando Gil",
-      "country": "Paraguay",
       "position": "GK",
       "value": 5,
       "managers": []
