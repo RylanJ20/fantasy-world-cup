@@ -366,8 +366,8 @@
     "stage": "Group C",
     "home": "Brazil",
     "away": "Haiti",
-    "status": "IN_PLAY",
-    "homeScore": 2,
+    "status": "PAUSED",
+    "homeScore": 3,
     "awayScore": 0,
     "winner": null
   },
