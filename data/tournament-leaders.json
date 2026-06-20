@@ -259,6 +259,18 @@
       "managers": []
     },
     {
+      "name": "Alisson Becker",
+      "country": "Brazil",
+      "position": "GK",
+      "value": 5,
+      "managers": [
+        {
+          "id": "marc",
+          "name": "Marc"
+        }
+      ]
+    },
+    {
       "name": "Édouard Mendy",
       "country": "Senegal",
       "position": "GK",
@@ -271,18 +283,6 @@
       "position": "GK",
       "value": 5,
       "managers": []
-    },
-    {
-      "name": "Alisson Becker",
-      "country": "Brazil",
-      "position": "GK",
-      "value": 4,
-      "managers": [
-        {
-          "id": "marc",
-          "name": "Marc"
-        }
-      ]
     },
     {
       "name": "Eloy Room",
