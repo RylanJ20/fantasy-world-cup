@@ -53,6 +53,13 @@
       "managers": []
     },
     {
+      "name": "Deniz Undav",
+      "country": "Germany",
+      "position": "FWD",
+      "value": 2,
+      "managers": []
+    },
+    {
       "name": "Elijah Just",
       "country": "New Zealand",
       "position": "MID",
@@ -94,13 +101,6 @@
       "name": "Ismael Saibari",
       "country": "Morocco",
       "position": "FWD",
-      "value": 2,
-      "managers": []
-    },
-    {
-      "name": "Johan Manzambi",
-      "country": "Switzerland",
-      "position": "MID",
       "value": 2,
       "managers": []
     }
