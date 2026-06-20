@@ -13930,6 +13930,22 @@
     ]
   },
   {
+    "name": "Taha Ali",
+    "country": "Sweden",
+    "position": "",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Netherlands",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
     "name": "Victor Lindelöf",
     "country": "Sweden",
     "position": "DEF",
