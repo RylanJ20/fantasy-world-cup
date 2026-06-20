@@ -10239,6 +10239,14 @@
         "saves": 0,
         "goalsConceded": 3,
         "result": "L"
+      },
+      {
+        "opponent": "Türkiye",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -10503,7 +10511,7 @@
         "goals": 0,
         "assists": 0,
         "shotsOnGoal": 0,
-        "saves": 1,
+        "saves": 2,
         "goalsConceded": 0
       }
     ]
@@ -14475,6 +14483,14 @@
         "saves": 0,
         "goalsConceded": 1,
         "result": "L"
+      },
+      {
+        "opponent": "Paraguay",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -14639,7 +14655,7 @@
         "opponent": "Paraguay",
         "goals": 0,
         "assists": 0,
-        "shotsOnGoal": 0,
+        "shotsOnGoal": 1,
         "saves": 0,
         "goalsConceded": 1
       }
