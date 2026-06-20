@@ -20,6 +20,13 @@
       ]
     },
     {
+      "name": "Brian Brobbey",
+      "country": "Netherlands",
+      "position": "FWD",
+      "value": 2,
+      "managers": []
+    },
+    {
       "name": "Cyle Larin",
       "country": "Canada",
       "position": "FWD",
@@ -101,13 +108,6 @@
           "name": "Alejandro"
         }
       ]
-    },
-    {
-      "name": "Matheus Cunha",
-      "country": "Brazil",
-      "position": "FWD",
-      "value": 2,
-      "managers": []
     }
   ],
   "assists": [
