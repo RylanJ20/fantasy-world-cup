@@ -380,6 +380,14 @@
         "assists": 0,
         "shotsOnGoal": 3,
         "result": "L"
+      },
+      {
+        "fixtureId": 760443,
+        "opponent": "Paraguay",
+        "date": "2026-06-20T03:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0
       }
     ]
   },

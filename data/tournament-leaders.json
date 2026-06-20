@@ -152,6 +152,13 @@
       ]
     },
     {
+      "name": "Julio Enciso",
+      "country": "Paraguay",
+      "position": "FWD",
+      "value": 2,
+      "managers": []
+    },
+    {
       "name": "Ryan Gravenberch",
       "country": "Netherlands",
       "position": "MID",
@@ -190,13 +197,6 @@
       "name": "Arthur Masuaku",
       "country": "Congo DR",
       "position": "DEF",
-      "value": 1,
-      "managers": []
-    },
-    {
-      "name": "Brandon Thomas-Asante",
-      "country": "Ghana",
-      "position": "FWD",
       "value": 1,
       "managers": []
     }
