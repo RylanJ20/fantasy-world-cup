@@ -273,6 +273,13 @@
       "managers": []
     },
     {
+      "name": "Yahia Fofana",
+      "country": "Ivory Coast",
+      "position": "GK",
+      "value": 6,
+      "managers": []
+    },
+    {
       "name": "Alisson Becker",
       "country": "Brazil",
       "position": "GK",
@@ -283,13 +290,6 @@
           "name": "Marc"
         }
       ]
-    },
-    {
-      "name": "Édouard Mendy",
-      "country": "Senegal",
-      "position": "GK",
-      "value": 5,
-      "managers": []
     }
   ],
   "cleanSheets": [
