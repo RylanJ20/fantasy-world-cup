@@ -402,7 +402,7 @@
     "stage": "Group E",
     "home": "Germany",
     "away": "Ivory Coast",
-    "status": "IN_PLAY",
+    "status": "PAUSED",
     "homeScore": 0,
     "awayScore": 1,
     "winner": null
