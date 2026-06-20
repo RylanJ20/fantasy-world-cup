@@ -378,7 +378,7 @@
     "stage": "Group D",
     "home": "Türkiye",
     "away": "Paraguay",
-    "status": "IN_PLAY",
+    "status": "PAUSED",
     "homeScore": 0,
     "awayScore": 1,
     "winner": null
