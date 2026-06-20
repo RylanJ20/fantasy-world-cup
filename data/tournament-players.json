@@ -2044,7 +2044,7 @@
         "goals": 0,
         "assists": 0,
         "shotsOnGoal": 0,
-        "saves": 0,
+        "saves": 1,
         "goalsConceded": 0
       }
     ]
@@ -2172,6 +2172,22 @@
     ]
   },
   {
+    "name": "Endrick",
+    "country": "Brazil",
+    "position": "",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Haiti",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
     "name": "Fabinho",
     "country": "Brazil",
     "position": "",
@@ -2208,6 +2224,22 @@
         "goalsConceded": 1,
         "result": "D"
       },
+      {
+        "opponent": "Haiti",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Gabriel Martinelli",
+    "country": "Brazil",
+    "position": "",
+    "managers": [],
+    "matches": [
       {
         "opponent": "Haiti",
         "goals": 0,
@@ -6569,6 +6601,14 @@
         "saves": 0,
         "goalsConceded": 1,
         "result": "L"
+      },
+      {
+        "opponent": "Brazil",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -6616,7 +6656,7 @@
         "opponent": "Brazil",
         "goals": 0,
         "assists": 0,
-        "shotsOnGoal": 0,
+        "shotsOnGoal": 1,
         "saves": 0,
         "goalsConceded": 3
       }
