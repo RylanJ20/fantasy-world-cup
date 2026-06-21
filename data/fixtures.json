@@ -450,10 +450,10 @@
     "stage": "Group G",
     "home": "Belgium",
     "away": "Iran",
-    "status": "FINISHED",
+    "status": "IN_PLAY",
     "homeScore": 0,
     "awayScore": 0,
-    "winner": "DRAW"
+    "winner": null
   },
   {
     "n": 760450,
