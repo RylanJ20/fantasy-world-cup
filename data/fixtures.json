@@ -450,7 +450,7 @@
     "stage": "Group G",
     "home": "Belgium",
     "away": "Iran",
-    "status": "IN_PLAY",
+    "status": "PAUSED",
     "homeScore": 0,
     "awayScore": 0,
     "winner": null
