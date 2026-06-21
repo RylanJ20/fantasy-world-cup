@@ -322,6 +322,30 @@
     "table": [
       {
         "position": 1,
+        "team": "Iran",
+        "played": 2,
+        "won": 0,
+        "draw": 2,
+        "lost": 0,
+        "gf": 2,
+        "ga": 2,
+        "gd": 0,
+        "points": 2
+      },
+      {
+        "position": 2,
+        "team": "Belgium",
+        "played": 2,
+        "won": 0,
+        "draw": 2,
+        "lost": 0,
+        "gf": 1,
+        "ga": 1,
+        "gd": 0,
+        "points": 2
+      },
+      {
+        "position": 3,
         "team": "New Zealand",
         "played": 1,
         "won": 0,
@@ -329,30 +353,6 @@
         "lost": 0,
         "gf": 2,
         "ga": 2,
-        "gd": 0,
-        "points": 1
-      },
-      {
-        "position": 2,
-        "team": "Iran",
-        "played": 1,
-        "won": 0,
-        "draw": 1,
-        "lost": 0,
-        "gf": 2,
-        "ga": 2,
-        "gd": 0,
-        "points": 1
-      },
-      {
-        "position": 3,
-        "team": "Belgium",
-        "played": 1,
-        "won": 0,
-        "draw": 1,
-        "lost": 0,
-        "gf": 1,
-        "ga": 1,
         "gd": 0,
         "points": 1
       },
