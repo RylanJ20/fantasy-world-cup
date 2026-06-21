@@ -86,7 +86,9 @@ function Row({ row, rank }: { row: LeaderRow; rank: number }) {
   );
 }
 
-/** Most Points, split into the four pitch lines inside a single card. */
+/** Most Points — a single board with a position toggle (forwards / midfield /
+ *  defence / goalkeepers), so one card cycles through the four pitch lines
+ *  rather than showing all four at once. */
 function PointsCard({
   groups,
   draftedOnly,
@@ -94,7 +96,9 @@ function PointsCard({
   groups: PositionGroup[];
   draftedOnly: boolean;
 }) {
-  const empty = groups.every((g) => g.rows.length === 0);
+  const [line, setLine] = useState<PositionGroup["line"]>(groups[0]?.line ?? "FWD");
+  const active = groups.find((g) => g.line === line) ?? groups[0];
+
   return (
     <div className="panel overflow-hidden">
       <div className="flex items-center gap-2 border-b border-line px-4 py-3">
@@ -106,36 +110,46 @@ function PointsCard({
           </span>
         )}
         <span className="ml-auto text-[0.62rem] font-bold uppercase tracking-widest text-faint">
-          by position · pts
+          {active?.label ?? "by position"} · pts
         </span>
       </div>
-      {empty ? (
-        <p className="px-4 py-6 text-center text-xs text-faint">No data yet</p>
+
+      {/* Position toggle — swaps the single board between the four pitch lines. */}
+      <div
+        role="group"
+        aria-label="Filter Most Points by position"
+        className="grid grid-cols-4 gap-1 border-b border-line p-2"
+      >
+        {groups.map((g) => (
+          <button
+            key={g.line}
+            type="button"
+            onClick={() => setLine(g.line)}
+            aria-pressed={line === g.line}
+            title={g.label}
+            className={`rounded-lg px-2 py-1.5 text-xs font-bold uppercase tracking-wider transition-colors ${
+              line === g.line
+                ? "bg-turf/20 text-turf-bright"
+                : "text-faint hover:bg-surface-2 hover:text-muted"
+            }`}
+          >
+            {g.line}
+          </button>
+        ))}
+      </div>
+
+      {!active || active.rows.length === 0 ? (
+        <p className="px-4 py-8 text-center text-xs text-faint">
+          {active ? `No ${active.label.toLowerCase()} on the board yet` : "No data yet"}
+        </p>
       ) : (
-        // Hairline 2×2 grid (1 column on mobile) — same gap-px/bg-line trick as
-        // the homepage ticker, so the four groups read as one card.
-        <div className="grid gap-px bg-line-strong sm:grid-cols-2">
-          {groups.map((g) => (
-            <div key={g.line} className="bg-surface">
-              <div className="flex items-center justify-between gap-2 px-4 py-2">
-                <span className="text-[0.62rem] font-bold uppercase tracking-widest text-faint">
-                  {g.label}
-                </span>
-              </div>
-              {g.rows.length === 0 ? (
-                <p className="px-4 pb-3 text-xs text-faint">No data yet</p>
-              ) : (
-                <ul>
-                  {g.rows.map((row, i) => (
-                    <li key={`${g.line}-${row.country}-${row.name}`}>
-                      <Row row={row} rank={i + 1} />
-                    </li>
-                  ))}
-                </ul>
-              )}
-            </div>
+        <ul>
+          {active.rows.map((row, i) => (
+            <li key={`${active.line}-${row.country}-${row.name}`}>
+              <Row row={row} rank={i + 1} />
+            </li>
           ))}
-        </div>
+        </ul>
       )}
     </div>
   );

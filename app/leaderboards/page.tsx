@@ -9,8 +9,9 @@ export const metadata: Metadata = {
 
 export default function LeaderboardsPage() {
   // Both views are computed up front; the client toggle swaps between them.
-  const all = getLeaderboardsView({ draftedOnly: false });
-  const drafted = getLeaderboardsView({ draftedOnly: true });
+  // perGroup is generous now that Most Points shows one position at a time.
+  const all = getLeaderboardsView({ draftedOnly: false, perGroup: 8 });
+  const drafted = getLeaderboardsView({ draftedOnly: true, perGroup: 8 });
 
   return (
     <div className="mx-auto max-w-6xl px-4 pb-12 pt-8 sm:px-6 sm:pt-12">
