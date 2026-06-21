@@ -212,6 +212,13 @@
       "managers": []
     },
     {
+      "name": "Alireza Beiranvand",
+      "country": "Iran",
+      "position": "GK",
+      "value": 10,
+      "managers": []
+    },
+    {
       "name": "Mahmoud Abunada",
       "country": "Qatar",
       "position": "GK",
@@ -223,13 +230,6 @@
       "country": "Australia",
       "position": "GK",
       "value": 9,
-      "managers": []
-    },
-    {
-      "name": "Alireza Beiranvand",
-      "country": "Iran",
-      "position": "GK",
-      "value": 8,
       "managers": []
     },
     {
