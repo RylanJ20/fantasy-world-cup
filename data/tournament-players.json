@@ -4110,7 +4110,7 @@
         "goals": 0,
         "assists": 0,
         "shotsOnGoal": 0,
-        "saves": 11,
+        "saves": 13,
         "goalsConceded": 0
       }
     ]
@@ -4201,7 +4201,7 @@
         "opponent": "Ecuador",
         "goals": 0,
         "assists": 0,
-        "shotsOnGoal": 0,
+        "shotsOnGoal": 1,
         "saves": 0,
         "goalsConceded": 0
       }
@@ -4236,6 +4236,22 @@
     "name": "Juriën Gaari",
     "country": "Curaçao",
     "position": "DEF",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Ecuador",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Kenji Gorré",
+    "country": "Curaçao",
+    "position": "",
     "managers": [],
     "matches": [
       {
@@ -4312,6 +4328,22 @@
         "saves": 0,
         "goalsConceded": 7,
         "result": "L"
+      }
+    ]
+  },
+  {
+    "name": "Roshon van Eijma",
+    "country": "Curaçao",
+    "position": "",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Ecuador",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -4947,7 +4979,7 @@
         "goals": 0,
         "assists": 0,
         "shotsOnGoal": 0,
-        "saves": 2,
+        "saves": 3,
         "goalsConceded": 0
       }
     ]
@@ -5096,7 +5128,7 @@
         "opponent": "Curaçao",
         "goals": 0,
         "assists": 0,
-        "shotsOnGoal": 0,
+        "shotsOnGoal": 1,
         "saves": 0,
         "goalsConceded": 0
       }
