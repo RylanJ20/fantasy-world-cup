@@ -414,10 +414,10 @@
     "stage": "Group E",
     "home": "Ecuador",
     "away": "Curaçao",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "homeScore": 0,
     "awayScore": 0,
-    "winner": null
+    "winner": "DRAW"
   },
   {
     "n": 760449,
@@ -892,7 +892,7 @@
     "date": "2026-06-29",
     "utcDate": "2026-06-29T20:30:00Z",
     "stage": "Round of 32",
-    "home": "Group E Winner",
+    "home": "Germany",
     "away": "Third Place Group A/B/C/D/F",
     "status": "TIMED",
     "homeScore": null,
