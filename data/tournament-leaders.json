@@ -231,6 +231,13 @@
       "managers": []
     },
     {
+      "name": "Eloy Room",
+      "country": "Curaçao",
+      "position": "GK",
+      "value": 8,
+      "managers": []
+    },
+    {
       "name": "Orlando Gil",
       "country": "Paraguay",
       "position": "GK",
@@ -261,13 +268,6 @@
     {
       "name": "Alireza Beiranvand",
       "country": "Iran",
-      "position": "GK",
-      "value": 6,
-      "managers": []
-    },
-    {
-      "name": "Eloy Room",
-      "country": "Curaçao",
       "position": "GK",
       "value": 6,
       "managers": []
