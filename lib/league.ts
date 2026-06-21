@@ -14,6 +14,7 @@ import { playerKey } from "./names";
 import {
   scoreManager,
   type ManagerScore,
+  type PlayerTotals,
   type TeamScore,
 } from "./scoring";
 
@@ -323,16 +324,33 @@ export function getLeaderboards(
     m.players.map((p) => ({ p, mgr: m.manager })),
   );
 
-  // Drafted player key → owning manager(s) + drafted position, so the MOTM board
-  // can tag and link winners back to the draft.
-  const draftedManagers = new Map<string, { id: string; name: string }[]>();
-  const draftedPosition = new Map<string, string>();
+  // The COMPLETE drafted field, deduped across shared picks and keyed by player:
+  // season totals plus every owning manager. This — not the all-nations leaders
+  // file — is the source for the drafted-only stat boards, because
+  // data/tournament-leaders.json only keeps the top ~12 per category and would
+  // otherwise hide any drafted player ranked outside that all-nations cut.
+  const draftedByKey = new Map<
+    string,
+    {
+      name: string;
+      country: string;
+      position: string;
+      totals: PlayerTotals;
+      managers: { id: string; name: string }[];
+    }
+  >();
   for (const { p, mgr } of drafted) {
     const key = playerKey(p.player.country, p.player.name);
-    const list = draftedManagers.get(key) ?? [];
-    list.push({ id: mgr.id, name: mgr.name });
-    draftedManagers.set(key, list);
-    draftedPosition.set(key, p.player.position);
+    const e = draftedByKey.get(key);
+    if (e) e.managers.push({ id: mgr.id, name: mgr.name });
+    else
+      draftedByKey.set(key, {
+        name: p.player.name,
+        country: p.player.country,
+        position: p.player.position,
+        totals: p.totals,
+        managers: [{ id: mgr.id, name: mgr.name }],
+      });
   }
 
   // ── Man of the match: tournament-wide, tallied from data/motm.ts. ──
@@ -343,20 +361,21 @@ export function getLeaderboards(
     scope,
     rows: draftedFirst(
       motmLeaders().filter(
-        (e) => !draftedOnly || draftedManagers.has(playerKey(e.country, e.name)),
+        (e) => !draftedOnly || draftedByKey.has(playerKey(e.country, e.name)),
       ),
       (e) => e.count,
-      (e) => draftedManagers.has(playerKey(e.country, e.name)),
+      (e) => draftedByKey.has(playerKey(e.country, e.name)),
       (e) => e.name,
     )
       .slice(0, limit)
       .map((e) => {
         const key = playerKey(e.country, e.name);
-        const mgrs = draftedManagers.get(key) ?? [];
+        const d = draftedByKey.get(key);
+        const mgrs = d?.managers ?? [];
         return {
           name: e.name,
           country: e.country,
-          position: draftedPosition.get(key) ?? tournamentPosition(e.country, e.name),
+          position: d?.position ?? tournamentPosition(e.country, e.name),
           value: e.count,
           managerId: mgrs.length === 1 ? mgrs[0].id : undefined,
           managerName: mgrs.length
@@ -366,18 +385,31 @@ export function getLeaderboards(
       }),
   };
 
-  const tournament = (
-    key: string,
-    title: string,
-    unit: string,
+  // Drafted-only: rank the whole drafted field by one of their season totals, so
+  // every owned player with the stat is in contention (not just those who also
+  // cracked the all-nations leaders list).
+  const draftedStatRows = (stat: (t: PlayerTotals) => number): LeaderRow[] =>
+    [...draftedByKey.values()]
+      .map((d) => ({ d, value: stat(d.totals) }))
+      .filter((x) => x.value > 0)
+      .sort((a, b) => b.value - a.value || a.d.name.localeCompare(b.d.name))
+      .slice(0, limit)
+      .map(({ d, value }) => ({
+        name: d.name,
+        country: d.country,
+        position: d.position,
+        value,
+        managerId: d.managers.length === 1 ? d.managers[0].id : undefined,
+        managerName: d.managers.map((m) => m.name).join(" / "),
+      }));
+
+  // All-nations: the pre-aggregated top-N leaders across all 48 nations, drafted
+  // players tagged and given the tiebreak for the limited slots.
+  const tournamentStatRows = (
     tlKey: "goals" | "assists" | "saves" | "cleanSheets",
-  ): LeaderboardCategory => ({
-    key,
-    title,
-    unit,
-    scope,
-    rows: draftedFirst(
-      tournamentLeaders(tlKey).filter((r) => !draftedOnly || r.managers.length > 0),
+  ): LeaderRow[] =>
+    draftedFirst(
+      tournamentLeaders(tlKey),
       (r) => r.value,
       (r) => r.managers.length > 0,
       (r) => r.name,
@@ -394,15 +426,28 @@ export function getLeaderboards(
         managerName: r.managers.length
           ? r.managers.map((m) => m.name).join(" / ")
           : undefined,
-      })),
+      }));
+
+  const statBoard = (
+    key: string,
+    title: string,
+    unit: string,
+    tlKey: "goals" | "assists" | "saves" | "cleanSheets",
+    stat: (t: PlayerTotals) => number,
+  ): LeaderboardCategory => ({
+    key,
+    title,
+    unit,
+    scope,
+    rows: draftedOnly ? draftedStatRows(stat) : tournamentStatRows(tlKey),
   });
 
   return [
-    tournament("goals", "Top Scorers", "goals", "goals"),
-    tournament("assists", "Most Assists", "assists", "assists"),
+    statBoard("goals", "Top Scorers", "goals", "goals", (t) => t.goals),
+    statBoard("assists", "Most Assists", "assists", "assists", (t) => t.assists),
     motm,
-    tournament("glove", "Golden Glove", "saves", "saves"),
-    tournament("defender", "Best Defender", "CS", "cleanSheets"),
+    statBoard("glove", "Golden Glove", "saves", "saves", (t) => t.saves),
+    statBoard("defender", "Best Defender", "CS", "cleanSheets", (t) => t.cleanSheets),
   ];
 }
 
