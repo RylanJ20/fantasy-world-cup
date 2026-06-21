@@ -3087,6 +3087,22 @@
     ]
   },
   {
+    "name": "Yannick Semedo",
+    "country": "Cabo Verde",
+    "position": "",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Uruguay",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
     "name": "Ali Ahmed",
     "country": "Canada",
     "position": "MID",
@@ -17538,6 +17554,14 @@
         "saves": 0,
         "goalsConceded": 0,
         "result": "D"
+      },
+      {
+        "opponent": "Cabo Verde",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
