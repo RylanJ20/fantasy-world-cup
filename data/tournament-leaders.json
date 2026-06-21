@@ -336,6 +336,13 @@
       ]
     },
     {
+      "name": "Alan Franco",
+      "country": "Ecuador",
+      "position": "DEF",
+      "value": 1,
+      "managers": []
+    },
+    {
       "name": "Alessandro Circati",
       "country": "Australia",
       "position": "DEF",
@@ -377,18 +384,6 @@
         {
           "id": "grayson",
           "name": "Grayson"
-        }
-      ]
-    },
-    {
-      "name": "Aymeric Laporte",
-      "country": "Spain",
-      "position": "DEF",
-      "value": 1,
-      "managers": [
-        {
-          "id": "rylan",
-          "name": "Rylan"
         }
       ]
     }
