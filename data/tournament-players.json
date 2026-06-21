@@ -1326,6 +1326,22 @@
     ]
   },
   {
+    "name": "Arthur Theate",
+    "country": "Belgium",
+    "position": "",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Iran",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
     "name": "Brandon Mechele",
     "country": "Belgium",
     "position": "DEF",
