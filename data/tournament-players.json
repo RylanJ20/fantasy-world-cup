@@ -2770,6 +2770,22 @@
     ]
   },
   {
+    "name": "Hélio Varela",
+    "country": "Cabo Verde",
+    "position": "",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Uruguay",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
     "name": "Jamiro Monteiro",
     "country": "Cabo Verde",
     "position": "MID",
@@ -2884,6 +2900,14 @@
         "saves": 0,
         "goalsConceded": 0,
         "result": "D"
+      },
+      {
+        "opponent": "Uruguay",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
