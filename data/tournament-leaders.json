@@ -60,6 +60,13 @@
       "managers": []
     },
     {
+      "name": "Daichi Kamada",
+      "country": "Japan",
+      "position": "MID",
+      "value": 2,
+      "managers": []
+    },
+    {
       "name": "Elijah Just",
       "country": "New Zealand",
       "position": "MID",
@@ -96,13 +103,6 @@
           "name": "Ben"
         }
       ]
-    },
-    {
-      "name": "Ismael Saibari",
-      "country": "Morocco",
-      "position": "FWD",
-      "value": 2,
-      "managers": []
     }
   ],
   "assists": [

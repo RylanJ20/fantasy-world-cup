@@ -8272,6 +8272,22 @@
     ]
   },
   {
+    "name": "Ao Tanaka",
+    "country": "Japan",
+    "position": "MID",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Tunisia",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
     "name": "Ayase Ueda",
     "country": "Japan",
     "position": "FWD",
@@ -8285,6 +8301,14 @@
         "saves": 0,
         "goalsConceded": 2,
         "result": "D"
+      },
+      {
+        "opponent": "Tunisia",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -8302,6 +8326,14 @@
         "saves": 0,
         "goalsConceded": 2,
         "result": "D"
+      },
+      {
+        "opponent": "Tunisia",
+        "goals": 1,
+        "assists": 0,
+        "shotsOnGoal": 1,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -8336,13 +8368,21 @@
         "saves": 0,
         "goalsConceded": 2,
         "result": "D"
+      },
+      {
+        "opponent": "Tunisia",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
   {
     "name": "Junya Ito",
     "country": "Japan",
-    "position": "",
+    "position": "FWD",
     "managers": [],
     "matches": [
       {
@@ -8353,6 +8393,14 @@
         "saves": 0,
         "goalsConceded": 0,
         "result": "D"
+      },
+      {
+        "opponent": "Tunisia",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -8370,6 +8418,14 @@
         "saves": 0,
         "goalsConceded": 2,
         "result": "D"
+      },
+      {
+        "opponent": "Tunisia",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -8387,6 +8443,14 @@
         "saves": 0,
         "goalsConceded": 2,
         "result": "D"
+      },
+      {
+        "opponent": "Tunisia",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -8425,6 +8489,22 @@
     ]
   },
   {
+    "name": "Kou Itakura",
+    "country": "Japan",
+    "position": "DEF",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Tunisia",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
     "name": "Ritsu Doan",
     "country": "Japan",
     "position": "MID",
@@ -8438,6 +8518,14 @@
         "saves": 0,
         "goalsConceded": 2,
         "result": "D"
+      },
+      {
+        "opponent": "Tunisia",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -8478,7 +8566,7 @@
   {
     "name": "Takehiro Tomiyasu",
     "country": "Japan",
-    "position": "",
+    "position": "DEF",
     "managers": [],
     "matches": [
       {
@@ -8489,6 +8577,14 @@
         "saves": 0,
         "goalsConceded": 0,
         "result": "D"
+      },
+      {
+        "opponent": "Tunisia",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -8540,6 +8636,14 @@
         "saves": 4,
         "goalsConceded": 2,
         "result": "D"
+      },
+      {
+        "opponent": "Tunisia",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -15211,6 +15315,14 @@
         "saves": 0,
         "goalsConceded": 5,
         "result": "L"
+      },
+      {
+        "opponent": "Japan",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 1
       }
     ]
   },
@@ -15228,6 +15340,46 @@
         "saves": 0,
         "goalsConceded": 3,
         "result": "L"
+      },
+      {
+        "opponent": "Japan",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 1
+      }
+    ]
+  },
+  {
+    "name": "Aymen Dahmen",
+    "country": "Tunisia",
+    "position": "GK",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Japan",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 1
+      }
+    ]
+  },
+  {
+    "name": "Dylan Bronn",
+    "country": "Tunisia",
+    "position": "DEF",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Japan",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 1
       }
     ]
   },
@@ -15262,6 +15414,14 @@
         "saves": 0,
         "goalsConceded": 3,
         "result": "L"
+      },
+      {
+        "opponent": "Japan",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 1
       }
     ]
   },
@@ -15279,6 +15439,14 @@
         "saves": 0,
         "goalsConceded": 3,
         "result": "L"
+      },
+      {
+        "opponent": "Japan",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 1
       }
     ]
   },
@@ -15313,6 +15481,14 @@
         "saves": 0,
         "goalsConceded": 5,
         "result": "L"
+      },
+      {
+        "opponent": "Japan",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 1
       }
     ]
   },
@@ -15381,6 +15557,14 @@
         "saves": 0,
         "goalsConceded": 5,
         "result": "L"
+      },
+      {
+        "opponent": "Japan",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 1
       }
     ]
   },
@@ -15415,6 +15599,14 @@
         "saves": 0,
         "goalsConceded": 5,
         "result": "L"
+      },
+      {
+        "opponent": "Japan",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 1
       }
     ]
   },
@@ -15438,7 +15630,7 @@
   {
     "name": "Sebastian Tounekti",
     "country": "Tunisia",
-    "position": "",
+    "position": "FWD",
     "managers": [],
     "matches": [
       {
@@ -15449,6 +15641,14 @@
         "saves": 0,
         "goalsConceded": 2,
         "result": "L"
+      },
+      {
+        "opponent": "Japan",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 1
       }
     ]
   },
@@ -15466,6 +15666,14 @@
         "saves": 0,
         "goalsConceded": 3,
         "result": "L"
+      },
+      {
+        "opponent": "Japan",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 1
       }
     ]
   },
