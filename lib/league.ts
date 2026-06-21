@@ -185,11 +185,27 @@ export interface LeaderboardCategory {
   key: string;
   title: string;
   unit: string;
-  /** Currently always "tournament" (all 48 nations, drafted players tagged).
-   *  "fantasy" (drafted-only) is retained for flexibility but no longer used
-   *  now that the points & MOTM boards count the whole field. */
+  /** "tournament" = all 48 nations (drafted players tagged); "fantasy" =
+   *  drafted-only, set when the board is filtered by the leaders-page toggle. */
   scope: "fantasy" | "tournament";
   rows: LeaderRow[];
+}
+
+/** One pitch line's worth of the Most-Points board, split out by position. */
+export interface PositionGroup {
+  line: "GK" | "DEF" | "MID" | "FWD";
+  label: string;
+  rows: LeaderRow[];
+}
+
+/** Everything the leaderboards page needs for a single drafted/all view. */
+export interface LeaderboardsView {
+  /** Most Points, split into the four pitch lines (top scorers per line). */
+  pointGroups: PositionGroup[];
+  /** The remaining stat boards (goals, assists, MOTM, saves, clean sheets). */
+  categories: LeaderboardCategory[];
+  /** Team of the Tournament for this view. */
+  totm: TotmLine[];
 }
 
 /**
@@ -227,6 +243,49 @@ export function tournamentPointsRanking(): LeaderRow[] {
     .sort((a, b) => b.value - a.value || a.name.localeCompare(b.name));
 }
 
+// Forwards first so the Most Points groups read top-of-pitch down, matching the
+// Team of the Tournament ordering.
+const POINTS_GROUP_SHAPE: { line: PositionGroup["line"]; label: string }[] = [
+  { line: "FWD", label: "Forwards" },
+  { line: "MID", label: "Midfield" },
+  { line: "DEF", label: "Defence" },
+  { line: "GK", label: "Goalkeepers" },
+];
+
+/**
+ * The Most Points board split into the four pitch lines, each holding the top
+ * `perGroup` point scorers in that line. `draftedOnly` restricts to drafted
+ * players (those carrying a managerId). Players with an unknown position group
+ * are omitted (they can't be placed on a line), but still appear on the overall
+ * points ranking elsewhere.
+ */
+export function pointsByPosition(
+  opts: { draftedOnly?: boolean; perGroup?: number } = {},
+): PositionGroup[] {
+  const { draftedOnly = false, perGroup = 5 } = opts;
+  const byLine: Record<PositionGroup["line"], LeaderRow[]> = {
+    GK: [],
+    DEF: [],
+    MID: [],
+    FWD: [],
+  };
+  for (const r of tournamentPointsRanking()) {
+    if (draftedOnly && !r.managerId) continue;
+    const line = totmLine(r.position);
+    if (line) byLine[line].push(r);
+  }
+  return POINTS_GROUP_SHAPE.map(({ line, label }) => ({
+    line,
+    label,
+    rows: draftedFirst(
+      byLine[line],
+      (r) => r.value,
+      (r) => Boolean(r.managerId),
+      (r) => r.name,
+    ).slice(0, perGroup),
+  }));
+}
+
 /**
  * Re-rank a leaderboard so that, within a tie on `value`, DRAFTED players come
  * first — they get priority for the limited display slots — then fall back to
@@ -248,11 +307,18 @@ function draftedFirst<T>(
 }
 
 /**
- * Category leaderboards, all tournament-wide across ALL 48 nations. Drafted
- * players are tagged with their manager so their row links back to the draft,
- * and — since only the top few are shown — win ties for the limited slots.
+ * The stat boards (goals, assists, MOTM, saves, clean sheets) — the Most Points
+ * board lives in pointsByPosition() now that it's split by position. By default
+ * every board ranks all 48 nations with drafted players tagged; `draftedOnly`
+ * restricts each board to drafted players before taking the top `limit`, so the
+ * boards always show a full slate of owned players rather than the drafted few
+ * who happened to crack the all-nations top five.
  */
-export function getLeaderboards(limit = 5): LeaderboardCategory[] {
+export function getLeaderboards(
+  opts: { limit?: number; draftedOnly?: boolean } = {},
+): LeaderboardCategory[] {
+  const { limit = 5, draftedOnly = false } = opts;
+  const scope: LeaderboardCategory["scope"] = draftedOnly ? "fantasy" : "tournament";
   const drafted = getManagerScores().flatMap((m) =>
     m.players.map((p) => ({ p, mgr: m.manager })),
   );
@@ -269,27 +335,16 @@ export function getLeaderboards(limit = 5): LeaderboardCategory[] {
     draftedPosition.set(key, p.player.position);
   }
 
-  const points: LeaderboardCategory = {
-    key: "points",
-    title: "Most Points",
-    unit: "pts",
-    scope: "tournament",
-    rows: draftedFirst(
-      tournamentPointsRanking(),
-      (r) => r.value,
-      (r) => Boolean(r.managerId),
-      (r) => r.name,
-    ).slice(0, limit),
-  };
-
   // ── Man of the match: tournament-wide, tallied from data/motm.ts. ──
   const motm: LeaderboardCategory = {
     key: "motm",
     title: "Man of the Match",
     unit: "MOTM",
-    scope: "tournament",
+    scope,
     rows: draftedFirst(
-      motmLeaders(),
+      motmLeaders().filter(
+        (e) => !draftedOnly || draftedManagers.has(playerKey(e.country, e.name)),
+      ),
       (e) => e.count,
       (e) => draftedManagers.has(playerKey(e.country, e.name)),
       (e) => e.name,
@@ -320,9 +375,9 @@ export function getLeaderboards(limit = 5): LeaderboardCategory[] {
     key,
     title,
     unit,
-    scope: "tournament",
+    scope,
     rows: draftedFirst(
-      tournamentLeaders(tlKey),
+      tournamentLeaders(tlKey).filter((r) => !draftedOnly || r.managers.length > 0),
       (r) => r.value,
       (r) => r.managers.length > 0,
       (r) => r.name,
@@ -343,7 +398,6 @@ export function getLeaderboards(limit = 5): LeaderboardCategory[] {
   });
 
   return [
-    points,
     tournament("goals", "Top Scorers", "goals", "goals"),
     tournament("assists", "Most Assists", "assists", "assists"),
     motm,
@@ -387,10 +441,15 @@ const TOTM_SHAPE: { line: TotmLine["line"]; label: string; take: number }[] = [
  * Built from tournamentPointsRanking(), so it recomputes on every import and
  * always reflects the current leaders. Within a points tie, drafted players win
  * the slot (matching the category boards). Lines are returned top-of-pitch first.
+ *
+ * `draftedOnly` builds the best XI from drafted players alone — a line with
+ * fewer drafted scorers than its shape simply renders fewer nodes (empty slots).
  */
-export function teamOfTournament(): TotmLine[] {
+export function teamOfTournament(opts: { draftedOnly?: boolean } = {}): TotmLine[] {
+  const { draftedOnly = false } = opts;
   const byLine: Record<TotmLine["line"], LeaderRow[]> = { GK: [], DEF: [], MID: [], FWD: [] };
   for (const r of tournamentPointsRanking()) {
+    if (draftedOnly && !r.managerId) continue;
     const line = totmLine(r.position);
     if (line) byLine[line].push(r);
   }
@@ -404,6 +463,22 @@ export function teamOfTournament(): TotmLine[] {
       (r) => r.name,
     ).slice(0, take),
   }));
+}
+
+/**
+ * Bundle the three leaderboard pieces for one view (all nations or drafted
+ * only). The leaders page computes both up front and the client toggle swaps
+ * between them with no server round-trip.
+ */
+export function getLeaderboardsView(
+  opts: { draftedOnly?: boolean; limit?: number; perGroup?: number } = {},
+): LeaderboardsView {
+  const { draftedOnly = false, limit = 5, perGroup = 5 } = opts;
+  return {
+    pointGroups: pointsByPosition({ draftedOnly, perGroup }),
+    categories: getLeaderboards({ limit, draftedOnly }),
+    totm: teamOfTournament({ draftedOnly }),
+  };
 }
 
 /** Totals for the hero stat ticker. */

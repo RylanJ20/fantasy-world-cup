@@ -1,120 +1,16 @@
 import type { Metadata } from "next";
-import type { ReactNode } from "react";
-import Link from "next/link";
-import {
-  getLeaderboards,
-  teamOfTournament,
-  type LeaderboardCategory,
-  type LeaderRow,
-} from "@/lib/league";
-import { Flag, Pts } from "@/components/ui";
-import { TeamOfTournament } from "@/components/TeamOfTournament";
-import {
-  BootIcon,
-  GloveIcon,
-  NetIcon,
-  ShieldIcon,
-  StarIcon,
-  TrophyIcon,
-} from "@/components/icons";
+import { getLeaderboardsView } from "@/lib/league";
+import { LeaderboardsExplorer } from "@/components/LeaderboardsExplorer";
 
 export const metadata: Metadata = {
   title: "Leaderboards",
   description: "World Cup stat leaders and fantasy leaderboards by category.",
 };
 
-const ICONS: Record<string, ReactNode> = {
-  points: <TrophyIcon size={20} />,
-  goals: <BootIcon size={20} />,
-  assists: <NetIcon size={20} />,
-  motm: <StarIcon size={20} />,
-  glove: <GloveIcon size={20} />,
-  defender: <ShieldIcon size={20} />,
-};
-
-function rankTone(rank: number) {
-  return rank === 1
-    ? "text-gold-bright"
-    : rank === 2
-      ? "text-muted"
-      : rank === 3
-        ? "text-amber"
-        : "text-faint";
-}
-
-function Row({ row, rank }: { row: LeaderRow; rank: number }) {
-  const inner = (
-    <>
-      <span className={`text-center font-mono text-sm font-bold ${rankTone(rank)}`}>
-        {rank}
-      </span>
-      <span className="flex min-w-0 items-center gap-2">
-        <Flag country={row.country} size={13} />
-        <span className="min-w-0">
-          <span className="block truncate text-sm font-semibold text-chalk">
-            {row.name}
-          </span>
-          <span className="block truncate text-[0.7rem] text-faint">
-            {row.position}
-            {row.managerName && (
-              <>
-                {" · "}
-                <span className="text-turf-bright">{row.managerName}</span>
-              </>
-            )}
-          </span>
-        </span>
-      </span>
-      <Pts
-        value={row.value}
-        className={`text-base font-bold ${rank === 1 ? "text-gold-bright" : "text-turf-bright"}`}
-      />
-    </>
-  );
-  const cls =
-    "grid grid-cols-[1.4rem_1fr_auto] items-center gap-3 border-b border-line/50 px-4 py-2.5 last:border-0";
-  return row.managerId ? (
-    <Link href={`/manager/${row.managerId}`} className={`link-row ${cls}`}>
-      {inner}
-    </Link>
-  ) : (
-    <div className={cls}>{inner}</div>
-  );
-}
-
-function CategoryCard({ cat }: { cat: LeaderboardCategory }) {
-  return (
-    <div className="panel overflow-hidden">
-      <div className="flex items-center gap-2 border-b border-line px-4 py-3">
-        <span className="text-turf-bright">{ICONS[cat.key]}</span>
-        <h3 className="font-display text-lg tracking-wide text-chalk">{cat.title}</h3>
-        {cat.scope === "tournament" && (
-          <span className="rounded-full border border-line bg-bg-2/60 px-1.5 py-0.5 text-[0.55rem] font-bold uppercase tracking-wider text-faint">
-            All nations
-          </span>
-        )}
-        <span className="ml-auto text-[0.62rem] font-bold uppercase tracking-widest text-faint">
-          {cat.unit}
-        </span>
-      </div>
-      {cat.rows.length === 0 ? (
-        <p className="px-4 py-6 text-center text-xs text-faint">No data yet</p>
-      ) : (
-        <ul>
-          {cat.rows.map((row, i) => (
-            <li key={`${cat.key}-${row.name}-${i}`}>
-              <Row row={row} rank={i + 1} />
-            </li>
-          ))}
-        </ul>
-      )}
-    </div>
-  );
-}
-
 export default function LeaderboardsPage() {
-  const categories = getLeaderboards();
-  const totm = teamOfTournament();
+  // Both views are computed up front; the client toggle swaps between them.
+  const all = getLeaderboardsView({ draftedOnly: false });
+  const drafted = getLeaderboardsView({ draftedOnly: true });
 
   return (
     <div className="mx-auto max-w-6xl px-4 pb-12 pt-8 sm:px-6 sm:pt-12">
@@ -125,36 +21,12 @@ export default function LeaderboardsPage() {
         </h1>
         <p className="mt-4 text-muted">
           Real World Cup stat leaders across all 48 nations — every player is
-          ranked, with drafted players tagged by their manager.
+          ranked, with drafted players tagged by their manager. Toggle to focus
+          on just the league&apos;s drafted players.
         </p>
       </div>
 
-      <div className="mt-8 grid gap-6 lg:grid-cols-[minmax(0,22rem)_1fr]">
-        {/* ── Team of the Tournament — left column, sticky like a squad ──── */}
-        <div className="lg:sticky lg:top-20 lg:self-start">
-          <div className="mb-3">
-            <p className="eyebrow mb-1">Best XI · all nations</p>
-            <h2 className="flex items-center gap-2 font-display text-2xl tracking-wide text-chalk">
-              <span className="text-turf-bright">
-                <TrophyIcon size={22} />
-              </span>
-              Team of the Tournament
-            </h2>
-          </div>
-          <TeamOfTournament lines={totm} />
-          <p className="mt-2 px-1 text-center text-xs text-faint">
-            Numbers are fantasy points — the top scorer at each position across
-            all 48 nations. Updates as results come in.
-          </p>
-        </div>
-
-        {/* ── Category leaderboards — fill the rest of the row ──────────── */}
-        <div className="grid gap-4 sm:grid-cols-2">
-          {categories.map((cat) => (
-            <CategoryCard key={cat.key} cat={cat} />
-          ))}
-        </div>
-      </div>
+      <LeaderboardsExplorer all={all} drafted={drafted} />
     </div>
   );
 }
