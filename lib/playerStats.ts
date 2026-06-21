@@ -29,9 +29,10 @@ export function autoPlayerMatches(country: string, name: string): PlayerMatch[] 
 const cleanOpp = (s: string) => s.replace(/^.*·\s*/, "").replace(/^vs\s+/i, "").trim();
 
 /** Opponent label → flag code, tolerating "vs Brazil", "R16 · Mexico" or "Brazil". */
-function oppCode(s: string): string | null {
+export function opponentCode(s: string): string | null {
   return countryCode(cleanOpp(s)) ?? countryCode(s);
 }
+const oppCode = opponentCode;
 
 /** Do two opponent labels refer to the same match? Flag code first, then text. */
 export function sameOpponent(a: string, b: string): boolean {

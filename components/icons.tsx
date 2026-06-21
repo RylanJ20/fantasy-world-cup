@@ -127,6 +127,39 @@ export function NetIcon({ size = 20, ...props }: IconProps) {
   );
 }
 
+export function TrendIcon({ size = 20, ...props }: IconProps) {
+  return (
+    <svg {...base({ size, strokeWidth: 1.7, ...props })}>
+      <path d="M4 19h16" />
+      <path d="m4 15 4.5-5 3.5 3 4-6 4 4" />
+    </svg>
+  );
+}
+
+export function PlayIcon({ size = 18, ...props }: IconProps) {
+  return (
+    <svg {...base({ size, strokeWidth: 2, ...props })}>
+      <path d="M7 4.5v15l12-7.5-12-7.5Z" fill="currentColor" />
+    </svg>
+  );
+}
+
+export function PauseIcon({ size = 18, ...props }: IconProps) {
+  return (
+    <svg {...base({ size, strokeWidth: 2, ...props })}>
+      <path d="M8 4.5v15M16 4.5v15" />
+    </svg>
+  );
+}
+
+export function RewindIcon({ size = 18, ...props }: IconProps) {
+  return (
+    <svg {...base({ size, strokeWidth: 2, ...props })}>
+      <path d="M11 6 5 12l6 6M19 6l-6 6 6 6" />
+    </svg>
+  );
+}
+
 export function MenuIcon({ size = 22, ...props }: IconProps) {
   return (
     <svg {...base({ size, strokeWidth: 2, ...props })}>

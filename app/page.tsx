@@ -11,6 +11,7 @@ import {
   BootIcon,
   ShieldIcon,
   StarIcon,
+  TrendIcon,
   TrophyIcon,
 } from "@/components/icons";
 
@@ -133,9 +134,13 @@ export default function Home() {
           title="Standings"
           icon={<BallIcon size={24} />}
           right={
-            <span className="hidden text-xs text-faint sm:block">
-              Sorted by total points
-            </span>
+            <Link
+              href="/race"
+              className="inline-flex items-center gap-1.5 whitespace-nowrap text-xs font-bold text-turf-bright transition-colors hover:text-turf"
+            >
+              <TrendIcon size={15} />
+              Watch the title race
+            </Link>
           }
         />
         <StandingsTable rows={standings} />
