@@ -203,6 +203,13 @@
   ],
   "saves": [
     {
+      "name": "Eloy Room",
+      "country": "Curaçao",
+      "position": "GK",
+      "value": 9,
+      "managers": []
+    },
+    {
       "name": "Mahmoud Abunada",
       "country": "Qatar",
       "position": "GK",
@@ -226,13 +233,6 @@
     {
       "name": "Bart Verbruggen",
       "country": "Netherlands",
-      "position": "GK",
-      "value": 8,
-      "managers": []
-    },
-    {
-      "name": "Eloy Room",
-      "country": "Curaçao",
       "position": "GK",
       "value": 8,
       "managers": []
