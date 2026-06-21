@@ -284,6 +284,18 @@
   ],
   "cleanSheets": [
     {
+      "name": "Aymeric Laporte",
+      "country": "Spain",
+      "position": "DEF",
+      "value": 2,
+      "managers": [
+        {
+          "id": "rylan",
+          "name": "Rylan"
+        }
+      ]
+    },
+    {
       "name": "Edson Álvarez",
       "country": "Mexico",
       "position": "DEF",
@@ -310,6 +322,30 @@
       "position": "DEF",
       "value": 2,
       "managers": []
+    },
+    {
+      "name": "Marc Cucurella",
+      "country": "Spain",
+      "position": "DEF",
+      "value": 2,
+      "managers": [
+        {
+          "id": "zach",
+          "name": "Zach"
+        }
+      ]
+    },
+    {
+      "name": "Pau Cubarsí",
+      "country": "Spain",
+      "position": "DEF",
+      "value": 2,
+      "managers": [
+        {
+          "id": "zach",
+          "name": "Zach"
+        }
+      ]
     },
     {
       "name": "Aaron Hickey",
@@ -350,37 +386,6 @@
       "position": "DEF",
       "value": 1,
       "managers": []
-    },
-    {
-      "name": "Alistair Johnston",
-      "country": "Canada",
-      "position": "DEF",
-      "value": 1,
-      "managers": []
-    },
-    {
-      "name": "Andy Robertson",
-      "country": "Scotland",
-      "position": "DEF",
-      "value": 1,
-      "managers": [
-        {
-          "id": "marc",
-          "name": "Marc"
-        }
-      ]
-    },
-    {
-      "name": "Antonee Robinson",
-      "country": "United States",
-      "position": "DEF",
-      "value": 1,
-      "managers": [
-        {
-          "id": "grayson",
-          "name": "Grayson"
-        }
-      ]
     }
   ]
 }
