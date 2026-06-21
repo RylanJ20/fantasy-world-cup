@@ -27,6 +27,13 @@
       ]
     },
     {
+      "name": "Ayase Ueda",
+      "country": "Japan",
+      "position": "FWD",
+      "value": 2,
+      "managers": []
+    },
+    {
       "name": "Brian Brobbey",
       "country": "Netherlands",
       "position": "FWD",
@@ -91,18 +98,6 @@
       "position": "FWD",
       "value": 2,
       "managers": []
-    },
-    {
-      "name": "Harry Kane",
-      "country": "England",
-      "position": "FWD",
-      "value": 2,
-      "managers": [
-        {
-          "id": "ben",
-          "name": "Ben"
-        }
-      ]
     }
   ],
   "assists": [

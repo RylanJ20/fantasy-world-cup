@@ -8304,9 +8304,9 @@
       },
       {
         "opponent": "Tunisia",
-        "goals": 1,
+        "goals": 2,
         "assists": 1,
-        "shotsOnGoal": 2,
+        "shotsOnGoal": 3,
         "saves": 0,
         "goalsConceded": 0
       }
@@ -8451,6 +8451,22 @@
         "goalsConceded": 2,
         "result": "D"
       },
+      {
+        "opponent": "Tunisia",
+        "goals": 0,
+        "assists": 1,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Keisuke Goto",
+    "country": "Japan",
+    "position": "",
+    "managers": [],
+    "matches": [
       {
         "opponent": "Tunisia",
         "goals": 0,
@@ -15378,7 +15394,7 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 3
+        "goalsConceded": 4
       }
     ]
   },
@@ -15403,7 +15419,7 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 3
+        "goalsConceded": 4
       }
     ]
   },
@@ -15419,7 +15435,7 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 1,
-        "goalsConceded": 3
+        "goalsConceded": 4
       }
     ]
   },
@@ -15502,7 +15518,7 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 3
+        "goalsConceded": 4
       }
     ]
   },
@@ -15527,7 +15543,7 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 1
+        "goalsConceded": 2
       }
     ]
   },
@@ -15552,7 +15568,7 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 3
+        "goalsConceded": 4
       }
     ]
   },
@@ -15577,7 +15593,7 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 1
+        "goalsConceded": 2
       }
     ]
   },
@@ -15602,7 +15618,7 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 1
+        "goalsConceded": 2
       }
     ]
   },
@@ -15644,7 +15660,7 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 3
+        "goalsConceded": 4
       }
     ]
   },
@@ -15686,7 +15702,7 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 3
+        "goalsConceded": 4
       }
     ]
   },
@@ -15753,7 +15769,7 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 3
+        "goalsConceded": 4
       }
     ]
   },
