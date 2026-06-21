@@ -4110,7 +4110,7 @@
         "goals": 0,
         "assists": 0,
         "shotsOnGoal": 0,
-        "saves": 7,
+        "saves": 8,
         "goalsConceded": 0
       }
     ]
@@ -4267,7 +4267,7 @@
         "opponent": "Ecuador",
         "goals": 0,
         "assists": 0,
-        "shotsOnGoal": 0,
+        "shotsOnGoal": 1,
         "saves": 0,
         "goalsConceded": 0
       }
@@ -4292,7 +4292,7 @@
         "opponent": "Ecuador",
         "goals": 0,
         "assists": 0,
-        "shotsOnGoal": 0,
+        "shotsOnGoal": 1,
         "saves": 0,
         "goalsConceded": 0
       }
@@ -4921,7 +4921,7 @@
         "opponent": "Curaçao",
         "goals": 0,
         "assists": 0,
-        "shotsOnGoal": 2,
+        "shotsOnGoal": 3,
         "saves": 0,
         "goalsConceded": 0
       }
@@ -4947,7 +4947,7 @@
         "goals": 0,
         "assists": 0,
         "shotsOnGoal": 0,
-        "saves": 0,
+        "saves": 2,
         "goalsConceded": 0
       }
     ]
