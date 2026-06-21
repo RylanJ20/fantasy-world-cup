@@ -426,10 +426,10 @@
     "stage": "Group F",
     "home": "Tunisia",
     "away": "Japan",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "homeScore": 0,
     "awayScore": 4,
-    "winner": null
+    "winner": "AWAY_TEAM"
   },
   {
     "n": 760453,
