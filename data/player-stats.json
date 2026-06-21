@@ -934,6 +934,14 @@
         "assists": 0,
         "shotsOnGoal": 1,
         "result": "D"
+      },
+      {
+        "fixtureId": 760453,
+        "opponent": "Saudi Arabia",
+        "date": "2026-06-21T16:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0
       }
     ]
   },
