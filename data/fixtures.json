@@ -426,7 +426,7 @@
     "stage": "Group F",
     "home": "Tunisia",
     "away": "Japan",
-    "status": "IN_PLAY",
+    "status": "PAUSED",
     "homeScore": 0,
     "awayScore": 2,
     "winner": null
