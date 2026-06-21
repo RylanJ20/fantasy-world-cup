@@ -8380,6 +8380,22 @@
     ]
   },
   {
+    "name": "Junnosuke Suzuki",
+    "country": "Japan",
+    "position": "",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Tunisia",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
     "name": "Junya Ito",
     "country": "Japan",
     "position": "FWD",
@@ -8619,6 +8635,14 @@
         "saves": 0,
         "goalsConceded": 0,
         "result": "D"
+      },
+      {
+        "opponent": "Tunisia",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
