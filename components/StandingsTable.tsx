@@ -26,8 +26,8 @@ export function StandingsTable({ rows }: { rows: StandingRow[] }) {
       <div className="hidden grid-cols-[3rem_1fr_5rem_5rem_6rem_1.5rem] items-center gap-3 border-b border-line px-4 py-3 text-[0.66rem] font-bold uppercase tracking-widest text-faint sm:grid">
         <span className="text-center">#</span>
         <span>Manager</span>
-        <span className="text-right">Players</span>
-        <span className="text-right">Teams</span>
+        <span className="text-right">Player Points</span>
+        <span className="text-right">Team Points</span>
         <span className="text-right">Total</span>
         <span />
       </div>
