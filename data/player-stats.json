@@ -765,6 +765,15 @@
         "shotsOnGoal": 0,
         "goalsConceded": 1,
         "result": "L"
+      },
+      {
+        "fixtureId": 760446,
+        "opponent": "Curaçao",
+        "date": "2026-06-21T00:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -781,6 +790,15 @@
         "shotsOnGoal": 0,
         "goalsConceded": 1,
         "result": "L"
+      },
+      {
+        "fixtureId": 760446,
+        "opponent": "Curaçao",
+        "date": "2026-06-21T00:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "goalsConceded": 0
       }
     ]
   },
