@@ -462,8 +462,8 @@
     "stage": "Group H",
     "home": "Uruguay",
     "away": "Cabo Verde",
-    "status": "PAUSED",
-    "homeScore": 2,
+    "status": "IN_PLAY",
+    "homeScore": 0,
     "awayScore": 1,
     "winner": null
   },
