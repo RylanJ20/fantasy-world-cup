@@ -47,9 +47,6 @@ function PodiumColumn({ row, seed }: { row: StandingRow; seed: number }) {
           <p className="font-display text-base tracking-wide text-chalk sm:text-lg">
             {row.manager.name}
           </p>
-          <p className="font-mono text-xs text-faint">
-            {row.players.length}+{row.teams.length} squad
-          </p>
         </div>
       </div>
 

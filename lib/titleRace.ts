@@ -73,8 +73,31 @@ export interface TitleRace {
   maxTotal: number;
 }
 
-/** The calendar day a fixture belongs to (the matchday label, not UTC instant). */
-const dayOf = (f: Fixture): string => (f.date || f.utcDate || "").slice(0, 10);
+// World Cup 2026 is played across North America, and the imported `date` field
+// is just the UTC calendar day — so a 00:30-UTC kickoff (a US evening game) lands
+// on the *next* day. Bucket matches by their local host-side date instead, using
+// the westmost host zone (Pacific) so every evening game stays on its true
+// matchday rather than rolling forward.
+const MATCHDAY_TZ = "America/Los_Angeles";
+const dayFormatter = new Intl.DateTimeFormat("en-CA", {
+  timeZone: MATCHDAY_TZ,
+  year: "numeric",
+  month: "2-digit",
+  day: "2-digit",
+});
+
+/** The local matchday a fixture belongs to (YYYY-MM-DD), not the UTC instant. */
+function dayOf(f: Fixture): string {
+  if (f.utcDate) {
+    const d = new Date(f.utcDate);
+    if (!Number.isNaN(d.getTime())) {
+      const part = (t: string) =>
+        dayFormatter.formatToParts(d).find((p) => p.type === t)?.value ?? "";
+      return `${part("year")}-${part("month")}-${part("day")}`;
+    }
+  }
+  return (f.date || "").slice(0, 10);
+}
 
 /** Unordered key for the pair of countries in a fixture, by flag code. */
 function pairKey(a: string, b: string): string | null {
