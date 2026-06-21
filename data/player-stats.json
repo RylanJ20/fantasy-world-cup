@@ -1138,6 +1138,14 @@
         "assists": 0,
         "shotsOnGoal": 2,
         "result": "D"
+      },
+      {
+        "fixtureId": 760450,
+        "opponent": "Cabo Verde",
+        "date": "2026-06-21T22:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0
       }
     ]
   },
