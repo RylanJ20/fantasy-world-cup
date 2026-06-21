@@ -438,8 +438,8 @@
     "stage": "Group H",
     "home": "Spain",
     "away": "Saudi Arabia",
-    "status": "IN_PLAY",
-    "homeScore": 4,
+    "status": "PAUSED",
+    "homeScore": 3,
     "awayScore": 0,
     "winner": null
   },
