@@ -414,7 +414,7 @@
     "stage": "Group E",
     "home": "Ecuador",
     "away": "Curaçao",
-    "status": "IN_PLAY",
+    "status": "PAUSED",
     "homeScore": 0,
     "awayScore": 0,
     "winner": null
