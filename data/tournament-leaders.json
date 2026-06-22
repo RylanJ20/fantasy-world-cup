@@ -161,6 +161,13 @@
       "managers": []
     },
     {
+      "name": "Mohamed Salah",
+      "country": "Egypt",
+      "position": "MID",
+      "value": 2,
+      "managers": []
+    },
+    {
       "name": "Ryan Gravenberch",
       "country": "Netherlands",
       "position": "MID",
@@ -184,13 +191,6 @@
     {
       "name": "Alexandr Sojka",
       "country": "Czechia",
-      "position": "MID",
-      "value": 1,
-      "managers": []
-    },
-    {
-      "name": "Amir Al-Ammari",
-      "country": "Iraq",
       "position": "MID",
       "value": 1,
       "managers": []
