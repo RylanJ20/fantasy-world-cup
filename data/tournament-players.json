@@ -11157,6 +11157,22 @@
     ]
   },
   {
+    "name": "Francis de Vries",
+    "country": "New Zealand",
+    "position": "",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Egypt",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
     "name": "Jesse Randall",
     "country": "New Zealand",
     "position": "",
@@ -11395,6 +11411,14 @@
         "saves": 0,
         "goalsConceded": 0,
         "result": "D"
+      },
+      {
+        "opponent": "Egypt",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
