@@ -261,6 +261,13 @@
       "managers": []
     },
     {
+      "name": "Mostafa Shoubir",
+      "country": "Egypt",
+      "position": "GK",
+      "value": 7,
+      "managers": []
+    },
+    {
       "name": "Vozinha",
       "country": "Cabo Verde",
       "position": "GK",
@@ -270,13 +277,6 @@
     {
       "name": "Hernán Galíndez",
       "country": "Ecuador",
-      "position": "GK",
-      "value": 6,
-      "managers": []
-    },
-    {
-      "name": "Kim Seung-Gyu",
-      "country": "South Korea",
       "position": "GK",
       "value": 6,
       "managers": []
