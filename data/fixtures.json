@@ -474,10 +474,10 @@
     "stage": "Group G",
     "home": "New Zealand",
     "away": "Egypt",
-    "status": "FINISHED",
+    "status": "IN_PLAY",
     "homeScore": 1,
     "awayScore": 3,
-    "winner": "AWAY_TEAM"
+    "winner": null
   },
   {
     "n": 760456,
