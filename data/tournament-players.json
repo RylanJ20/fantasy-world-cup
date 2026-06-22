@@ -5995,6 +5995,23 @@
     ]
   },
   {
+    "name": "?",
+    "country": "Egypt",
+    "position": "DEF",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "New Zealand",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 1,
+        "saves": 0,
+        "goalsConceded": 1,
+        "result": "W"
+      }
+    ]
+  },
+  {
     "name": "Ahmed Fatouh",
     "country": "Egypt",
     "position": "DEF",
@@ -6008,15 +6025,6 @@
         "saves": 0,
         "goalsConceded": 1,
         "result": "D"
-      },
-      {
-        "opponent": "New Zealand",
-        "goals": 0,
-        "assists": 0,
-        "shotsOnGoal": 1,
-        "saves": 0,
-        "goalsConceded": 1,
-        "result": "W"
       }
     ]
   },
