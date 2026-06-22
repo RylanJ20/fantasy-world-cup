@@ -1,9 +1,9 @@
 {
   "summary": {
-    "total": 6,
+    "total": 7,
     "scored": 6,
     "saved": 0,
-    "missed": 0,
+    "missed": 1,
     "unknown": 0,
     "inPlaySaves": 0,
     "shootoutSaves": 0
@@ -86,6 +86,19 @@
       "keeper": null,
       "keeperTeam": null,
       "text": "Goal! Switzerland 4, Bosnia and Herzegovina 1. Granit Xhaka (Switzerland) converts the penalty with a left footed shot to the bottom right corner."
+    },
+    {
+      "fixtureId": 760456,
+      "match": "Austria at Argentina",
+      "date": "2026-06-22T17:00Z",
+      "minute": "9'",
+      "shootout": false,
+      "kind": "missed",
+      "taker": "Lionel Messi",
+      "takerTeam": "Argentina",
+      "keeper": null,
+      "keeperTeam": null,
+      "text": "Penalty missed. Lionel Messi (Argentina) left footed shot."
     }
   ]
 }
