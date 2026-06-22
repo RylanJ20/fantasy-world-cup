@@ -498,7 +498,7 @@
     "stage": "Group I",
     "home": "France",
     "away": "Iraq",
-    "status": "IN_PLAY",
+    "status": "PAUSED",
     "homeScore": 1,
     "awayScore": 0,
     "winner": null
