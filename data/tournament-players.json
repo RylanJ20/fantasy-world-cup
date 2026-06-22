@@ -5755,6 +5755,14 @@
         "saves": 0,
         "goalsConceded": 0,
         "result": "D"
+      },
+      {
+        "opponent": "New Zealand",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -5982,6 +5990,22 @@
         "goalsConceded": 0,
         "result": "D"
       },
+      {
+        "opponent": "New Zealand",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Trézéguet",
+    "country": "Egypt",
+    "position": "",
+    "managers": [],
+    "matches": [
       {
         "opponent": "New Zealand",
         "goals": 0,
@@ -11122,6 +11146,14 @@
         "saves": 0,
         "goalsConceded": 0,
         "result": "D"
+      },
+      {
+        "opponent": "Egypt",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -11264,6 +11296,14 @@
         "saves": 0,
         "goalsConceded": 0,
         "result": "D"
+      },
+      {
+        "opponent": "Egypt",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
