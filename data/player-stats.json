@@ -1195,6 +1195,16 @@
         "saves": 2,
         "goalsConceded": 1,
         "result": "W"
+      },
+      {
+        "fixtureId": 760457,
+        "opponent": "Iraq",
+        "date": "2026-06-22T21:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -1210,6 +1220,14 @@
         "assists": 1,
         "shotsOnGoal": 2,
         "result": "W"
+      },
+      {
+        "fixtureId": 760457,
+        "opponent": "Iraq",
+        "date": "2026-06-22T21:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0
       }
     ]
   },
@@ -1226,6 +1244,15 @@
         "shotsOnGoal": 0,
         "goalsConceded": 1,
         "result": "W"
+      },
+      {
+        "fixtureId": 760457,
+        "opponent": "Iraq",
+        "date": "2026-06-22T21:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -1241,6 +1268,14 @@
         "assists": 0,
         "shotsOnGoal": 4,
         "result": "W"
+      },
+      {
+        "fixtureId": 760457,
+        "opponent": "Iraq",
+        "date": "2026-06-22T21:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0
       }
     ]
   },
@@ -1256,6 +1291,14 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "result": "W"
+      },
+      {
+        "fixtureId": 760457,
+        "opponent": "Iraq",
+        "date": "2026-06-22T21:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0
       }
     ]
   },
