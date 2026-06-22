@@ -51,12 +51,12 @@ jobs:
         run: npm run import:all
       - name: Commit & push if anything changed
         run: |
-          FILES="data/fixtures.json data/groups.json data/player-stats.json data/tournament-leaders.json data/tournament-players.json data/motm.json"
+          FILES="data/fixtures.json data/groups.json data/player-stats.json data/tournament-leaders.json data/tournament-players.json data/penalties.json data/motm.json"
           if [ -n "$(git status --porcelain $FILES)" ]; then
             git config user.name "github-actions[bot]"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
             git add $FILES
-            git commit -m "Auto-import: refresh fixtures, standings, player & tournament stats, MOTM"
+            git commit -m "Auto-import: refresh fixtures, standings, player & tournament stats, penalties, MOTM"
             # A manual push can land between checkout and push; rebase onto it and
             # retry so a race self-heals instead of failing the run and stranding
             # stale data on the deployed site.

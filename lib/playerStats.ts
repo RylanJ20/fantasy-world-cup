@@ -1,10 +1,12 @@
 // ──────────────────────────────────────────────────────────────────────────
 //  Merges ESPN-imported player stats (data/player-stats.json) with the manual
 //  entries in data/league.ts. ESPN supplies the bulk (goals, assists, shots on
-//  goal, saves, goals conceded, result); the league.ts `matches` array is a thin
-//  OVERLAY for what ESPN can't give — MOTM and penalty / shootout saves — plus
-//  any manual correction. Overlay fields win; a manual match with no imported
-//  counterpart (e.g. a game not yet imported) is kept as-is.
+//  goal, saves, goals conceded, result); penalty / shootout saves are derived
+//  from ESPN match commentary by scripts/import-penalties.ts and written into the
+//  same player-stats.json. The league.ts `matches` array is a thin OVERLAY for
+//  MOTM and any manual correction (incl. a penalty save the parser missed).
+//  Overlay fields win; a manual match with no imported counterpart (e.g. a game
+//  not yet imported) is kept as-is.
 // ──────────────────────────────────────────────────────────────────────────
 
 import autoData from "@/data/player-stats.json";

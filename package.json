@@ -11,8 +11,9 @@
     "import:fixtures": "tsx scripts/import-fixtures.ts",
     "import:groups": "tsx scripts/import-groups.ts",
     "import:stats": "tsx scripts/import-stats.ts",
+    "import:penalties": "tsx scripts/import-penalties.ts",
     "import:motm": "tsx scripts/import-motm.ts",
-    "import:all": "npm run import:fixtures && npm run import:groups && npm run import:stats && npm run import:motm"
+    "import:all": "npm run import:fixtures && npm run import:groups && npm run import:stats && npm run import:penalties && npm run import:motm"
   },
   "dependencies": {
     "flag-icons": "^7.5.0",

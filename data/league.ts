@@ -16,7 +16,9 @@
 //
 //  WHEN YOU STILL EDIT BY HAND (a thin overlay, merged onto the auto stats)
 //  ───────────────────────────
-//  ESPN can't give MOTM or penalty saves — add those as a pm() keyed by opponent:
+//  ESPN can't give MOTM — add it as a pm() keyed by opponent. Penalty & shootout
+//  saves now auto-import (scripts/import-penalties.ts reads match commentary), so
+//  you only need a pm() to correct one the parser missed or mis-attributed:
 //      pm("Brazil", { motm: true })        // Man of the match (+2)
 //      pm("Brazil", { pkSaves: 1 })        // in-play penalty save (+5)
 //      pm("Brazil", { shootoutSaves: 2 })  // shootout save (+3)

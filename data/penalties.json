@@ -1,0 +1,91 @@
+{
+  "summary": {
+    "total": 6,
+    "scored": 6,
+    "saved": 0,
+    "missed": 0,
+    "unknown": 0,
+    "inPlaySaves": 0,
+    "shootoutSaves": 0
+  },
+  "events": [
+    {
+      "fixtureId": 760420,
+      "match": "Switzerland at Qatar",
+      "date": "2026-06-13T19:00Z",
+      "minute": "17'",
+      "shootout": false,
+      "kind": "scored",
+      "taker": "Breel Embolo",
+      "takerTeam": "Switzerland",
+      "keeper": null,
+      "keeperTeam": null,
+      "text": "Goal! Qatar 0, Switzerland 1. Breel Embolo (Switzerland) converts the penalty with a right footed shot to the bottom left corner."
+    },
+    {
+      "fixtureId": 760422,
+      "match": "Curaçao at Germany",
+      "date": "2026-06-14T17:00Z",
+      "minute": "45'+5'",
+      "shootout": false,
+      "kind": "scored",
+      "taker": "Kai Havertz",
+      "takerTeam": "Germany",
+      "keeper": null,
+      "keeperTeam": null,
+      "text": "Goal! Germany 3, Curaçao 1. Kai Havertz (Germany) converts the penalty with a left footed shot to the bottom left corner."
+    },
+    {
+      "fixtureId": 760431,
+      "match": "Jordan at Austria",
+      "date": "2026-06-17T04:00Z",
+      "minute": "90'+12'",
+      "shootout": false,
+      "kind": "scored",
+      "taker": "Marko Arnautovic",
+      "takerTeam": "Austria",
+      "keeper": null,
+      "keeperTeam": null,
+      "text": "Goal! Austria 3, Jordan 1. Marko Arnautovic (Austria) converts the penalty with a right footed shot to the bottom left corner."
+    },
+    {
+      "fixtureId": 760437,
+      "match": "Croatia at England",
+      "date": "2026-06-17T20:00Z",
+      "minute": "12'",
+      "shootout": false,
+      "kind": "scored",
+      "taker": "Harry Kane",
+      "takerTeam": "England",
+      "keeper": null,
+      "keeperTeam": null,
+      "text": "Goal! England 1, Croatia 0. Harry Kane (England) converts the penalty with a right footed shot to the bottom right corner."
+    },
+    {
+      "fixtureId": 760438,
+      "match": "South Africa at Czechia",
+      "date": "2026-06-18T16:00Z",
+      "minute": "83'",
+      "shootout": false,
+      "kind": "scored",
+      "taker": "Teboho Mokoena",
+      "takerTeam": "South Africa",
+      "keeper": null,
+      "keeperTeam": null,
+      "text": "Goal! Czechia 1, South Africa 1. Teboho Mokoena (South Africa) converts the penalty with a right footed shot to the bottom left corner."
+    },
+    {
+      "fixtureId": 760439,
+      "match": "Bosnia-Herzegovina at Switzerland",
+      "date": "2026-06-18T19:00Z",
+      "minute": "90'+7'",
+      "shootout": false,
+      "kind": "scored",
+      "taker": "Granit Xhaka",
+      "takerTeam": "Switzerland",
+      "keeper": null,
+      "keeperTeam": null,
+      "text": "Goal! Switzerland 4, Bosnia and Herzegovina 1. Granit Xhaka (Switzerland) converts the penalty with a left footed shot to the bottom right corner."
+    }
+  ]
+}
