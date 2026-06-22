@@ -1,6 +1,18 @@
 {
   "goals": [
     {
+      "name": "Lionel Messi",
+      "country": "Argentina",
+      "position": "FWD",
+      "value": 4,
+      "managers": [
+        {
+          "id": "zach",
+          "name": "Zach"
+        }
+      ]
+    },
+    {
       "name": "Deniz Undav",
       "country": "Germany",
       "position": "FWD",
@@ -13,18 +25,6 @@
       "position": "FWD",
       "value": 3,
       "managers": []
-    },
-    {
-      "name": "Lionel Messi",
-      "country": "Argentina",
-      "position": "FWD",
-      "value": 3,
-      "managers": [
-        {
-          "id": "zach",
-          "name": "Zach"
-        }
-      ]
     },
     {
       "name": "Ayase Ueda",
