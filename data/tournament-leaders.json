@@ -296,8 +296,27 @@
       ]
     },
     {
+      "name": "Cristian Romero",
+      "country": "Argentina",
+      "position": "DEF",
+      "value": 2,
+      "managers": [
+        {
+          "id": "alejandro",
+          "name": "Alejandro"
+        }
+      ]
+    },
+    {
       "name": "Edson Álvarez",
       "country": "Mexico",
+      "position": "DEF",
+      "value": 2,
+      "managers": []
+    },
+    {
+      "name": "Facundo Medina",
+      "country": "Argentina",
       "position": "DEF",
       "value": 2,
       "managers": []
@@ -324,6 +343,13 @@
       "managers": []
     },
     {
+      "name": "Lisandro Martínez",
+      "country": "Argentina",
+      "position": "DEF",
+      "value": 2,
+      "managers": []
+    },
+    {
       "name": "Marc Cucurella",
       "country": "Spain",
       "position": "DEF",
@@ -332,6 +358,18 @@
         {
           "id": "zach",
           "name": "Zach"
+        }
+      ]
+    },
+    {
+      "name": "Nahuel Molina",
+      "country": "Argentina",
+      "position": "DEF",
+      "value": 2,
+      "managers": [
+        {
+          "id": "alejandro",
+          "name": "Alejandro"
         }
       ]
     },
@@ -350,39 +388,6 @@
     {
       "name": "Aaron Hickey",
       "country": "Scotland",
-      "position": "DEF",
-      "value": 1,
-      "managers": []
-    },
-    {
-      "name": "Achraf Hakimi",
-      "country": "Morocco",
-      "position": "DEF",
-      "value": 1,
-      "managers": [
-        {
-          "id": "travis",
-          "name": "Travis"
-        }
-      ]
-    },
-    {
-      "name": "Alan Franco",
-      "country": "Ecuador",
-      "position": "DEF",
-      "value": 1,
-      "managers": []
-    },
-    {
-      "name": "Alessandro Circati",
-      "country": "Australia",
-      "position": "DEF",
-      "value": 1,
-      "managers": []
-    },
-    {
-      "name": "Alex Freeman",
-      "country": "United States",
       "position": "DEF",
       "value": 1,
       "managers": []

@@ -482,25 +482,25 @@
       {
         "position": 1,
         "team": "Argentina",
-        "played": 1,
-        "won": 1,
+        "played": 2,
+        "won": 2,
         "draw": 0,
         "lost": 0,
-        "gf": 3,
+        "gf": 5,
         "ga": 0,
-        "gd": 3,
-        "points": 3
+        "gd": 5,
+        "points": 6
       },
       {
         "position": 2,
         "team": "Austria",
-        "played": 1,
+        "played": 2,
         "won": 1,
         "draw": 0,
-        "lost": 0,
+        "lost": 1,
         "gf": 3,
-        "ga": 1,
-        "gd": 2,
+        "ga": 3,
+        "gd": 0,
         "points": 3
       },
       {
