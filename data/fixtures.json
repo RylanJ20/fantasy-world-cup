@@ -462,10 +462,10 @@
     "stage": "Group H",
     "home": "Uruguay",
     "away": "Cabo Verde",
-    "status": "FINISHED",
+    "status": "IN_PLAY",
     "homeScore": 2,
     "awayScore": 2,
-    "winner": "DRAW"
+    "winner": null
   },
   {
     "n": 760452,
