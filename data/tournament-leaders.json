@@ -27,6 +27,18 @@
       "managers": []
     },
     {
+      "name": "Kylian Mbappé",
+      "country": "France",
+      "position": "FWD",
+      "value": 3,
+      "managers": [
+        {
+          "id": "alejandro",
+          "name": "Alejandro"
+        }
+      ]
+    },
+    {
       "name": "Ayase Ueda",
       "country": "Japan",
       "position": "FWD",
@@ -91,13 +103,6 @@
           "name": "Marc"
         }
       ]
-    },
-    {
-      "name": "Folarin Balogun",
-      "country": "United States",
-      "position": "FWD",
-      "value": 2,
-      "managers": []
     }
   ],
   "assists": [
