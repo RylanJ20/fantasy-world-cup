@@ -486,10 +486,10 @@
     "stage": "Group J",
     "home": "Argentina",
     "away": "Austria",
-    "status": "IN_PLAY",
-    "homeScore": 1,
+    "status": "FINISHED",
+    "homeScore": 2,
     "awayScore": 0,
-    "winner": null
+    "winner": "HOME_TEAM"
   },
   {
     "n": 760457,
