@@ -1317,6 +1317,14 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "result": "W"
+      },
+      {
+        "fixtureId": 760456,
+        "opponent": "Austria",
+        "date": "2026-06-22T17:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0
       }
     ]
   },
@@ -1332,6 +1340,14 @@
         "assists": 0,
         "shotsOnGoal": 4,
         "result": "W"
+      },
+      {
+        "fixtureId": 760456,
+        "opponent": "Austria",
+        "date": "2026-06-22T17:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0
       }
     ]
   },
@@ -1347,6 +1363,14 @@
         "assists": 0,
         "shotsOnGoal": 1,
         "result": "W"
+      },
+      {
+        "fixtureId": 760456,
+        "opponent": "Austria",
+        "date": "2026-06-22T17:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0
       }
     ]
   },
@@ -1379,6 +1403,16 @@
         "saves": 0,
         "goalsConceded": 0,
         "result": "W"
+      },
+      {
+        "fixtureId": 760456,
+        "opponent": "Austria",
+        "date": "2026-06-22T17:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -1394,6 +1428,14 @@
         "assists": 0,
         "shotsOnGoal": 1,
         "result": "W"
+      },
+      {
+        "fixtureId": 760456,
+        "opponent": "Austria",
+        "date": "2026-06-22T17:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0
       }
     ]
   },
@@ -1410,6 +1452,15 @@
         "shotsOnGoal": 0,
         "goalsConceded": 0,
         "result": "W"
+      },
+      {
+        "fixtureId": 760456,
+        "opponent": "Austria",
+        "date": "2026-06-22T17:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -1426,6 +1477,15 @@
         "shotsOnGoal": 0,
         "goalsConceded": 0,
         "result": "W"
+      },
+      {
+        "fixtureId": 760456,
+        "opponent": "Austria",
+        "date": "2026-06-22T17:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -1441,6 +1501,14 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "result": "W"
+      },
+      {
+        "fixtureId": 760456,
+        "opponent": "Argentina",
+        "date": "2026-06-22T17:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0
       }
     ]
   },
