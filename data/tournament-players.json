@@ -494,6 +494,22 @@
     ]
   },
   {
+    "name": "Leandro Paredes",
+    "country": "Argentina",
+    "position": "",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Austria",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
     "name": "Lionel Messi",
     "country": "Argentina",
     "position": "FWD",
@@ -635,6 +651,22 @@
         "goalsConceded": 0,
         "result": "W"
       },
+      {
+        "opponent": "Austria",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Nicolás Tagliafico",
+    "country": "Argentina",
+    "position": "",
+    "managers": [],
+    "matches": [
       {
         "opponent": "Austria",
         "goals": 0,
@@ -1182,6 +1214,14 @@
         "saves": 0,
         "goalsConceded": 0,
         "result": "W"
+      },
+      {
+        "opponent": "Argentina",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
