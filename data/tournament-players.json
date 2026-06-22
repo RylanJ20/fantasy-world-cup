@@ -1128,6 +1128,22 @@
     ]
   },
   {
+    "name": "Alexander Prass",
+    "country": "Austria",
+    "position": "",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Argentina",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
     "name": "Alexander Schlager",
     "country": "Austria",
     "position": "GK",
@@ -1275,6 +1291,22 @@
     ]
   },
   {
+    "name": "Marco Friedl",
+    "country": "Austria",
+    "position": "",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Argentina",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
     "name": "Marko Arnautovic",
     "country": "Austria",
     "position": "FWD",
@@ -1288,6 +1320,14 @@
         "saves": 0,
         "goalsConceded": 1,
         "result": "W"
+      },
+      {
+        "opponent": "Argentina",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
