@@ -166,6 +166,18 @@
       "managers": []
     },
     {
+      "name": "Michael Olise",
+      "country": "France",
+      "position": "MID",
+      "value": 2,
+      "managers": [
+        {
+          "id": "travis",
+          "name": "Travis"
+        }
+      ]
+    },
+    {
       "name": "Mohamed Salah",
       "country": "Egypt",
       "position": "MID",
@@ -190,13 +202,6 @@
       "name": "Alex Freeman",
       "country": "United States",
       "position": "DEF",
-      "value": 1,
-      "managers": []
-    },
-    {
-      "name": "Alexandr Sojka",
-      "country": "Czechia",
-      "position": "MID",
       "value": 1,
       "managers": []
     }
