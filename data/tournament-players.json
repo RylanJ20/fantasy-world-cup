@@ -231,6 +231,30 @@
         "saves": 0,
         "goalsConceded": 3,
         "result": "L"
+      },
+      {
+        "opponent": "Jordan",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Nadhir Benbouali",
+    "country": "Algeria",
+    "position": "",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Jordan",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
