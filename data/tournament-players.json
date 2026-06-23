@@ -12198,6 +12198,14 @@
         "saves": 0,
         "goalsConceded": 0,
         "result": "W"
+      },
+      {
+        "opponent": "Senegal",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -15233,6 +15241,22 @@
         "shotsOnGoal": 0,
         "saves": 0,
         "goalsConceded": 2
+      }
+    ]
+  },
+  {
+    "name": "Pape Matar Sarr",
+    "country": "Senegal",
+    "position": "",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Norway",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
