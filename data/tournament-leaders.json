@@ -32,6 +32,18 @@
       "managers": []
     },
     {
+      "name": "Erling Haaland",
+      "country": "Norway",
+      "position": "FWD",
+      "value": 3,
+      "managers": [
+        {
+          "id": "marc",
+          "name": "Marc"
+        }
+      ]
+    },
+    {
       "name": "Jonathan David",
       "country": "Canada",
       "position": "FWD",
@@ -91,18 +103,6 @@
       "position": "MID",
       "value": 2,
       "managers": []
-    },
-    {
-      "name": "Erling Haaland",
-      "country": "Norway",
-      "position": "FWD",
-      "value": 2,
-      "managers": [
-        {
-          "id": "marc",
-          "name": "Marc"
-        }
-      ]
     }
   ],
   "assists": [
@@ -178,6 +178,18 @@
       "managers": []
     },
     {
+      "name": "Martin Ødegaard",
+      "country": "Norway",
+      "position": "MID",
+      "value": 2,
+      "managers": [
+        {
+          "id": "terrick",
+          "name": "Terrick"
+        }
+      ]
+    },
+    {
       "name": "Mohamed Salah",
       "country": "Egypt",
       "position": "MID",
@@ -195,13 +207,6 @@
       "name": "Adrien Rabiot",
       "country": "France",
       "position": "MID",
-      "value": 1,
-      "managers": []
-    },
-    {
-      "name": "Alex Freeman",
-      "country": "United States",
-      "position": "DEF",
       "value": 1,
       "managers": []
     }
