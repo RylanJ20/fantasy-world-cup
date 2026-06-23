@@ -2003,6 +2003,15 @@
         "shotsOnGoal": 0,
         "goalsConceded": 4,
         "result": "L"
+      },
+      {
+        "fixtureId": 760460,
+        "opponent": "Panama",
+        "date": "2026-06-23T23:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "goalsConceded": 0
       }
     ]
   },
