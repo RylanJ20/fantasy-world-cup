@@ -13664,6 +13664,14 @@
         "saves": 0,
         "goalsConceded": 1,
         "result": "D"
+      },
+      {
+        "opponent": "Uzbekistan",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -13721,7 +13729,7 @@
         "opponent": "Uzbekistan",
         "goals": 2,
         "assists": 0,
-        "shotsOnGoal": 4,
+        "shotsOnGoal": 5,
         "saves": 0,
         "goalsConceded": 0
       }
@@ -19839,7 +19847,7 @@
         "goals": 0,
         "assists": 0,
         "shotsOnGoal": 0,
-        "saves": 2,
+        "saves": 3,
         "goalsConceded": 4
       }
     ]
@@ -20000,6 +20008,14 @@
         "saves": 0,
         "goalsConceded": 1,
         "result": "L"
+      },
+      {
+        "opponent": "Portugal",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
