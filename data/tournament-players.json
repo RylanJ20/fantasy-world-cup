@@ -13671,7 +13671,8 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 0
+        "goalsConceded": 0,
+        "result": "W"
       }
     ]
   },
@@ -13701,7 +13702,8 @@
         "assists": 1,
         "shotsOnGoal": 1,
         "saves": 0,
-        "goalsConceded": 0
+        "goalsConceded": 0,
+        "result": "W"
       }
     ]
   },
@@ -13731,7 +13733,8 @@
         "assists": 0,
         "shotsOnGoal": 5,
         "saves": 0,
-        "goalsConceded": 0
+        "goalsConceded": 0,
+        "result": "W"
       }
     ]
   },
@@ -13761,7 +13764,8 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 2,
-        "goalsConceded": 0
+        "goalsConceded": 0,
+        "result": "W"
       }
     ]
   },
@@ -13786,7 +13790,8 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 0
+        "goalsConceded": 0,
+        "result": "W"
       }
     ]
   },
@@ -13802,7 +13807,8 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 0
+        "goalsConceded": 0,
+        "result": "W"
       }
     ]
   },
@@ -13849,7 +13855,8 @@
         "assists": 1,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 0
+        "goalsConceded": 0,
+        "result": "W"
       }
     ]
   },
@@ -13870,7 +13877,8 @@
         "assists": 0,
         "shotsOnGoal": 1,
         "saves": 0,
-        "goalsConceded": 0
+        "goalsConceded": 0,
+        "result": "W"
       }
     ]
   },
@@ -13895,7 +13903,8 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 0
+        "goalsConceded": 0,
+        "result": "W"
       }
     ]
   },
@@ -13920,7 +13929,8 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 0
+        "goalsConceded": 0,
+        "result": "W"
       }
     ]
   },
@@ -13950,7 +13960,8 @@
         "assists": 0,
         "shotsOnGoal": 1,
         "saves": 0,
-        "goalsConceded": 0
+        "goalsConceded": 0,
+        "result": "W"
       }
     ]
   },
@@ -13975,7 +13986,8 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 0
+        "goalsConceded": 0,
+        "result": "W"
       }
     ]
   },
@@ -14005,7 +14017,8 @@
         "assists": 0,
         "shotsOnGoal": 1,
         "saves": 0,
-        "goalsConceded": 0
+        "goalsConceded": 0,
+        "result": "W"
       }
     ]
   },
@@ -14030,7 +14043,8 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 0
+        "goalsConceded": 0,
+        "result": "W"
       }
     ]
   },
@@ -14051,7 +14065,8 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 0
+        "goalsConceded": 0,
+        "result": "W"
       }
     ]
   },
@@ -14098,7 +14113,8 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 0
+        "goalsConceded": 0,
+        "result": "W"
       }
     ]
   },
@@ -19790,7 +19806,8 @@
         "assists": 0,
         "shotsOnGoal": 1,
         "saves": 0,
-        "goalsConceded": 4
+        "goalsConceded": 4,
+        "result": "L"
       }
     ]
   },
@@ -19815,7 +19832,8 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 5
+        "goalsConceded": 5,
+        "result": "L"
       }
     ]
   },
@@ -19840,7 +19858,8 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 5
+        "goalsConceded": 5,
+        "result": "L"
       }
     ]
   },
@@ -19856,7 +19875,8 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 4,
-        "goalsConceded": 5
+        "goalsConceded": 5,
+        "result": "L"
       }
     ]
   },
@@ -19881,7 +19901,8 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 2
+        "goalsConceded": 2,
+        "result": "L"
       }
     ]
   },
@@ -19914,7 +19935,8 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 5
+        "goalsConceded": 5,
+        "result": "L"
       }
     ]
   },
@@ -19939,7 +19961,8 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 5
+        "goalsConceded": 5,
+        "result": "L"
       }
     ]
   },
@@ -19981,7 +20004,8 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 5
+        "goalsConceded": 5,
+        "result": "L"
       }
     ]
   },
@@ -20023,7 +20047,8 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 1
+        "goalsConceded": 1,
+        "result": "L"
       }
     ]
   },
@@ -20056,7 +20081,8 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 2
+        "goalsConceded": 2,
+        "result": "L"
       }
     ]
   },
@@ -20072,7 +20098,8 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 3
+        "goalsConceded": 3,
+        "result": "L"
       }
     ]
   },
@@ -20114,7 +20141,25 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 5
+        "goalsConceded": 5,
+        "result": "L"
+      }
+    ]
+  },
+  {
+    "name": "Ruslanbek Jiyanov",
+    "country": "Uzbekistan",
+    "position": "",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Portugal",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0,
+        "result": "L"
       }
     ]
   },
@@ -20139,7 +20184,25 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 5
+        "goalsConceded": 5,
+        "result": "L"
+      }
+    ]
+  },
+  {
+    "name": "Sherzod Esanov",
+    "country": "Uzbekistan",
+    "position": "",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Portugal",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0,
+        "result": "L"
       }
     ]
   },
@@ -20164,7 +20227,8 @@
         "assists": 0,
         "shotsOnGoal": 1,
         "saves": 0,
-        "goalsConceded": 3
+        "goalsConceded": 3,
+        "result": "L"
       }
     ]
   },

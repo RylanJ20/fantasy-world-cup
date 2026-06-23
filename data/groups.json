@@ -534,6 +534,18 @@
     "table": [
       {
         "position": 1,
+        "team": "Portugal",
+        "played": 2,
+        "won": 1,
+        "draw": 1,
+        "lost": 0,
+        "gf": 6,
+        "ga": 1,
+        "gd": 5,
+        "points": 4
+      },
+      {
+        "position": 2,
         "team": "Colombia",
         "played": 1,
         "won": 1,
@@ -545,20 +557,8 @@
         "points": 3
       },
       {
-        "position": 2,
-        "team": "Congo DR",
-        "played": 1,
-        "won": 0,
-        "draw": 1,
-        "lost": 0,
-        "gf": 1,
-        "ga": 1,
-        "gd": 0,
-        "points": 1
-      },
-      {
         "position": 3,
-        "team": "Portugal",
+        "team": "Congo DR",
         "played": 1,
         "won": 0,
         "draw": 1,
@@ -571,13 +571,13 @@
       {
         "position": 4,
         "team": "Uzbekistan",
-        "played": 1,
+        "played": 2,
         "won": 0,
         "draw": 0,
-        "lost": 1,
+        "lost": 2,
         "gf": 1,
-        "ga": 3,
-        "gd": -2,
+        "ga": 8,
+        "gd": -7,
         "points": 0
       }
     ]
