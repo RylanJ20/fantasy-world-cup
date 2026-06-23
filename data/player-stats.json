@@ -1853,6 +1853,14 @@
         "assists": 1,
         "shotsOnGoal": 0,
         "result": "W"
+      },
+      {
+        "fixtureId": 760458,
+        "opponent": "Ghana",
+        "date": "2026-06-23T20:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0
       }
     ]
   },
