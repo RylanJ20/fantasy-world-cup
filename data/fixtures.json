@@ -522,10 +522,10 @@
     "stage": "Group J",
     "home": "Jordan",
     "away": "Algeria",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "homeScore": 1,
-    "awayScore": 0,
-    "winner": null
+    "awayScore": 2,
+    "winner": "AWAY_TEAM"
   },
   {
     "n": 760461,
