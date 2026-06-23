@@ -67,7 +67,17 @@ async function main() {
     }
   }
 
-  const board = await fetchScoreboard();
+  // Penalty saves are an overlay on top of the core stats — a transient ESPN
+  // hiccup here must never fail the whole import (and block the commit of the
+  // fixtures/stats that already succeeded). Bail gracefully and leave the data
+  // as import:stats left it; the next run re-derives everything from scratch.
+  let board: any;
+  try {
+    board = await fetchScoreboard();
+  } catch (e) {
+    console.log(`   ⚠️  ESPN scoreboard fetch failed (${(e as Error).message}); leaving penalty data unchanged.`);
+    return;
+  }
   const events: any[] = (board.events ?? []).filter((ev: any) => mapStatus(ev) !== "TIMED");
   console.log(`   ${events.length} started/finished match(es) to scan.`);
 
