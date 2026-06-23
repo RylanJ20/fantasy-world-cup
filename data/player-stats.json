@@ -1828,6 +1828,16 @@
         "saves": 3,
         "goalsConceded": 2,
         "result": "W"
+      },
+      {
+        "fixtureId": 760458,
+        "opponent": "Ghana",
+        "date": "2026-06-23T20:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -1858,6 +1868,14 @@
         "assists": 0,
         "shotsOnGoal": 3,
         "result": "W"
+      },
+      {
+        "fixtureId": 760458,
+        "opponent": "Ghana",
+        "date": "2026-06-23T20:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0
       }
     ]
   },
@@ -1874,6 +1892,15 @@
         "shotsOnGoal": 0,
         "goalsConceded": 2,
         "result": "W"
+      },
+      {
+        "fixtureId": 760458,
+        "opponent": "Ghana",
+        "date": "2026-06-23T20:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -1889,6 +1916,14 @@
         "assists": 0,
         "shotsOnGoal": 2,
         "result": "W"
+      },
+      {
+        "fixtureId": 760458,
+        "opponent": "Ghana",
+        "date": "2026-06-23T20:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0
       }
     ]
   },
@@ -1904,6 +1939,14 @@
         "assists": 1,
         "shotsOnGoal": 1,
         "result": "W"
+      },
+      {
+        "fixtureId": 760458,
+        "opponent": "Ghana",
+        "date": "2026-06-23T20:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0
       }
     ]
   },
@@ -1920,6 +1963,15 @@
         "shotsOnGoal": 0,
         "goalsConceded": 0,
         "result": "W"
+      },
+      {
+        "fixtureId": 760458,
+        "opponent": "Ghana",
+        "date": "2026-06-23T20:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -1951,6 +2003,14 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "result": "W"
+      },
+      {
+        "fixtureId": 760458,
+        "opponent": "England",
+        "date": "2026-06-23T20:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0
       }
     ]
   },

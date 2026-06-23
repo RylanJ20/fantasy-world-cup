@@ -6625,6 +6625,14 @@
         "saves": 0,
         "goalsConceded": 2,
         "result": "W"
+      },
+      {
+        "opponent": "Ghana",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -6669,13 +6677,21 @@
         "saves": 0,
         "goalsConceded": 2,
         "result": "W"
+      },
+      {
+        "opponent": "Ghana",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
   {
     "name": "Djed Spence",
     "country": "England",
-    "position": "",
+    "position": "DEF",
     "managers": [],
     "matches": [
       {
@@ -6686,6 +6702,14 @@
         "saves": 0,
         "goalsConceded": 0,
         "result": "W"
+      },
+      {
+        "opponent": "Ghana",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -6703,6 +6727,14 @@
         "saves": 0,
         "goalsConceded": 2,
         "result": "W"
+      },
+      {
+        "opponent": "Ghana",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -6720,6 +6752,14 @@
         "saves": 0,
         "goalsConceded": 2,
         "result": "W"
+      },
+      {
+        "opponent": "Ghana",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -6742,6 +6782,14 @@
         "saves": 0,
         "goalsConceded": 2,
         "result": "W"
+      },
+      {
+        "opponent": "Ghana",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -6781,6 +6829,14 @@
         "saves": 3,
         "goalsConceded": 2,
         "result": "W"
+      },
+      {
+        "opponent": "Ghana",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -6803,6 +6859,14 @@
         "saves": 0,
         "goalsConceded": 2,
         "result": "W"
+      },
+      {
+        "opponent": "Ghana",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -6825,6 +6889,14 @@
         "saves": 0,
         "goalsConceded": 0,
         "result": "W"
+      },
+      {
+        "opponent": "Ghana",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -6893,6 +6965,14 @@
         "saves": 0,
         "goalsConceded": 2,
         "result": "W"
+      },
+      {
+        "opponent": "Ghana",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -6915,6 +6995,14 @@
         "saves": 0,
         "goalsConceded": 2,
         "result": "W"
+      },
+      {
+        "opponent": "Ghana",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -7849,6 +7937,14 @@
         "saves": 0,
         "goalsConceded": 0,
         "result": "W"
+      },
+      {
+        "opponent": "England",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -7866,6 +7962,14 @@
         "saves": 3,
         "goalsConceded": 0,
         "result": "W"
+      },
+      {
+        "opponent": "England",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -7900,6 +8004,14 @@
         "saves": 0,
         "goalsConceded": 0,
         "result": "W"
+      },
+      {
+        "opponent": "England",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -7968,6 +8080,30 @@
         "saves": 0,
         "goalsConceded": 0,
         "result": "W"
+      },
+      {
+        "opponent": "England",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Iñaki Williams",
+    "country": "Ghana",
+    "position": "MID",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "England",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -7985,6 +8121,14 @@
         "saves": 0,
         "goalsConceded": 0,
         "result": "W"
+      },
+      {
+        "opponent": "England",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -8002,6 +8146,14 @@
         "saves": 0,
         "goalsConceded": 0,
         "result": "W"
+      },
+      {
+        "opponent": "England",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -8019,6 +8171,14 @@
         "saves": 0,
         "goalsConceded": 0,
         "result": "W"
+      },
+      {
+        "opponent": "England",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -8042,7 +8202,7 @@
   {
     "name": "Kwasi Sibo",
     "country": "Ghana",
-    "position": "",
+    "position": "MID",
     "managers": [],
     "matches": [
       {
@@ -8053,6 +8213,14 @@
         "saves": 0,
         "goalsConceded": 0,
         "result": "W"
+      },
+      {
+        "opponent": "England",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -8087,6 +8255,14 @@
         "saves": 0,
         "goalsConceded": 0,
         "result": "W"
+      },
+      {
+        "opponent": "England",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -8104,6 +8280,22 @@
         "saves": 0,
         "goalsConceded": 0,
         "result": "W"
+      }
+    ]
+  },
+  {
+    "name": "Thomas Partey",
+    "country": "Ghana",
+    "position": "MID",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "England",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
