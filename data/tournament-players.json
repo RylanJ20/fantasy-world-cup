@@ -4634,14 +4634,6 @@
         "saves": 7,
         "goalsConceded": 4,
         "result": "L"
-      },
-      {
-        "opponent": "Panama",
-        "goals": 0,
-        "assists": 0,
-        "shotsOnGoal": 0,
-        "saves": 0,
-        "goalsConceded": 0
       }
     ]
   },
@@ -4676,14 +4668,6 @@
         "saves": 0,
         "goalsConceded": 4,
         "result": "L"
-      },
-      {
-        "opponent": "Panama",
-        "goals": 0,
-        "assists": 0,
-        "shotsOnGoal": 0,
-        "saves": 0,
-        "goalsConceded": 0
       }
     ]
   },
@@ -4701,14 +4685,6 @@
         "saves": 0,
         "goalsConceded": 4,
         "result": "L"
-      },
-      {
-        "opponent": "Panama",
-        "goals": 0,
-        "assists": 0,
-        "shotsOnGoal": 0,
-        "saves": 0,
-        "goalsConceded": 0
       }
     ]
   },
@@ -4726,14 +4702,6 @@
         "saves": 0,
         "goalsConceded": 4,
         "result": "L"
-      },
-      {
-        "opponent": "Panama",
-        "goals": 0,
-        "assists": 0,
-        "shotsOnGoal": 0,
-        "saves": 0,
-        "goalsConceded": 0
       }
     ]
   },
@@ -4756,14 +4724,6 @@
         "saves": 0,
         "goalsConceded": 4,
         "result": "L"
-      },
-      {
-        "opponent": "Panama",
-        "goals": 0,
-        "assists": 0,
-        "shotsOnGoal": 0,
-        "saves": 0,
-        "goalsConceded": 0
       }
     ]
   },
@@ -4781,14 +4741,6 @@
         "saves": 0,
         "goalsConceded": 3,
         "result": "L"
-      },
-      {
-        "opponent": "Panama",
-        "goals": 0,
-        "assists": 0,
-        "shotsOnGoal": 0,
-        "saves": 0,
-        "goalsConceded": 0
       }
     ]
   },
@@ -4812,7 +4764,7 @@
   {
     "name": "Marco Pasalic",
     "country": "Croatia",
-    "position": "MID",
+    "position": "",
     "managers": [],
     "matches": [
       {
@@ -4823,30 +4775,6 @@
         "saves": 0,
         "goalsConceded": 1,
         "result": "L"
-      },
-      {
-        "opponent": "Panama",
-        "goals": 0,
-        "assists": 0,
-        "shotsOnGoal": 0,
-        "saves": 0,
-        "goalsConceded": 0
-      }
-    ]
-  },
-  {
-    "name": "Marin Pongracic",
-    "country": "Croatia",
-    "position": "DEF",
-    "managers": [],
-    "matches": [
-      {
-        "opponent": "Panama",
-        "goals": 0,
-        "assists": 0,
-        "shotsOnGoal": 0,
-        "saves": 0,
-        "goalsConceded": 0
       }
     ]
   },
@@ -4881,21 +4809,13 @@
         "saves": 0,
         "goalsConceded": 3,
         "result": "L"
-      },
-      {
-        "opponent": "Panama",
-        "goals": 0,
-        "assists": 0,
-        "shotsOnGoal": 0,
-        "saves": 0,
-        "goalsConceded": 0
       }
     ]
   },
   {
     "name": "Mateo Kovacic",
     "country": "Croatia",
-    "position": "MID",
+    "position": "",
     "managers": [],
     "matches": [
       {
@@ -4906,14 +4826,6 @@
         "saves": 0,
         "goalsConceded": 1,
         "result": "L"
-      },
-      {
-        "opponent": "Panama",
-        "goals": 0,
-        "assists": 0,
-        "shotsOnGoal": 0,
-        "saves": 0,
-        "goalsConceded": 0
       }
     ]
   },
@@ -4948,14 +4860,6 @@
         "saves": 0,
         "goalsConceded": 3,
         "result": "L"
-      },
-      {
-        "opponent": "Panama",
-        "goals": 0,
-        "assists": 0,
-        "shotsOnGoal": 0,
-        "saves": 0,
-        "goalsConceded": 0
       }
     ]
   },
@@ -13363,14 +13267,6 @@
         "saves": 0,
         "goalsConceded": 1,
         "result": "L"
-      },
-      {
-        "opponent": "Croatia",
-        "goals": 0,
-        "assists": 0,
-        "shotsOnGoal": 0,
-        "saves": 0,
-        "goalsConceded": 0
       }
     ]
   },
@@ -13388,14 +13284,6 @@
         "saves": 0,
         "goalsConceded": 1,
         "result": "L"
-      },
-      {
-        "opponent": "Croatia",
-        "goals": 0,
-        "assists": 0,
-        "shotsOnGoal": 0,
-        "saves": 0,
-        "goalsConceded": 0
       }
     ]
   },
@@ -13447,14 +13335,6 @@
         "saves": 0,
         "goalsConceded": 1,
         "result": "L"
-      },
-      {
-        "opponent": "Croatia",
-        "goals": 0,
-        "assists": 0,
-        "shotsOnGoal": 0,
-        "saves": 0,
-        "goalsConceded": 0
       }
     ]
   },
@@ -13489,14 +13369,6 @@
         "saves": 0,
         "goalsConceded": 0,
         "result": "L"
-      },
-      {
-        "opponent": "Croatia",
-        "goals": 0,
-        "assists": 0,
-        "shotsOnGoal": 0,
-        "saves": 0,
-        "goalsConceded": 0
       }
     ]
   },
@@ -13514,14 +13386,6 @@
         "saves": 0,
         "goalsConceded": 0,
         "result": "L"
-      },
-      {
-        "opponent": "Croatia",
-        "goals": 0,
-        "assists": 0,
-        "shotsOnGoal": 0,
-        "saves": 0,
-        "goalsConceded": 0
       }
     ]
   },
@@ -13539,14 +13403,6 @@
         "saves": 0,
         "goalsConceded": 1,
         "result": "L"
-      },
-      {
-        "opponent": "Croatia",
-        "goals": 0,
-        "assists": 0,
-        "shotsOnGoal": 0,
-        "saves": 0,
-        "goalsConceded": 0
       }
     ]
   },
@@ -13581,14 +13437,6 @@
         "saves": 0,
         "goalsConceded": 1,
         "result": "L"
-      },
-      {
-        "opponent": "Croatia",
-        "goals": 0,
-        "assists": 0,
-        "shotsOnGoal": 0,
-        "saves": 0,
-        "goalsConceded": 0
       }
     ]
   },
@@ -13606,21 +13454,13 @@
         "saves": 0,
         "goalsConceded": 1,
         "result": "L"
-      },
-      {
-        "opponent": "Croatia",
-        "goals": 0,
-        "assists": 0,
-        "shotsOnGoal": 0,
-        "saves": 0,
-        "goalsConceded": 0
       }
     ]
   },
   {
     "name": "José Fajardo",
     "country": "Panama",
-    "position": "FWD",
+    "position": "",
     "managers": [],
     "matches": [
       {
@@ -13631,14 +13471,6 @@
         "saves": 0,
         "goalsConceded": 1,
         "result": "L"
-      },
-      {
-        "opponent": "Croatia",
-        "goals": 0,
-        "assists": 0,
-        "shotsOnGoal": 0,
-        "saves": 0,
-        "goalsConceded": 0
       }
     ]
   },
@@ -13656,14 +13488,6 @@
         "saves": 0,
         "goalsConceded": 0,
         "result": "L"
-      },
-      {
-        "opponent": "Croatia",
-        "goals": 0,
-        "assists": 0,
-        "shotsOnGoal": 0,
-        "saves": 0,
-        "goalsConceded": 0
       }
     ]
   },
@@ -13681,14 +13505,6 @@
         "saves": 2,
         "goalsConceded": 1,
         "result": "L"
-      },
-      {
-        "opponent": "Croatia",
-        "goals": 0,
-        "assists": 0,
-        "shotsOnGoal": 0,
-        "saves": 0,
-        "goalsConceded": 0
       }
     ]
   },
