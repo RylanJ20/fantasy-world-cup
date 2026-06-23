@@ -546,7 +546,7 @@
     "stage": "Group L",
     "home": "England",
     "away": "Ghana",
-    "status": "IN_PLAY",
+    "status": "PAUSED",
     "homeScore": 0,
     "awayScore": 0,
     "winner": null
