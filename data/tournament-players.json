@@ -6918,7 +6918,7 @@
         "opponent": "Ghana",
         "goals": 0,
         "assists": 0,
-        "shotsOnGoal": 0,
+        "shotsOnGoal": 1,
         "saves": 0,
         "goalsConceded": 0
       }
@@ -7986,6 +7986,22 @@
         "goalsConceded": 0,
         "result": "W"
       },
+      {
+        "opponent": "England",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Baba Rahman",
+    "country": "Ghana",
+    "position": "",
+    "managers": [],
+    "matches": [
       {
         "opponent": "England",
         "goals": 0,
