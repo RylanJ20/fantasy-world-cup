@@ -80,6 +80,14 @@
         "saves": 0,
         "goalsConceded": 2,
         "result": "L"
+      },
+      {
+        "opponent": "Jordan",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -102,7 +110,7 @@
         "opponent": "Jordan",
         "goals": 0,
         "assists": 0,
-        "shotsOnGoal": 0,
+        "shotsOnGoal": 1,
         "saves": 0,
         "goalsConceded": 1
       }
@@ -10513,6 +10521,14 @@
         "saves": 0,
         "goalsConceded": 2,
         "result": "L"
+      },
+      {
+        "opponent": "Algeria",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -10595,7 +10611,7 @@
         "goals": 0,
         "assists": 0,
         "shotsOnGoal": 0,
-        "saves": 4,
+        "saves": 5,
         "goalsConceded": 1
       }
     ]
