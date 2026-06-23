@@ -12205,7 +12205,7 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 0
+        "goalsConceded": 1
       }
     ]
   },
@@ -12255,7 +12255,7 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 1
+        "goalsConceded": 2
       }
     ]
   },
@@ -12285,7 +12285,7 @@
         "assists": 0,
         "shotsOnGoal": 3,
         "saves": 0,
-        "goalsConceded": 1
+        "goalsConceded": 2
       }
     ]
   },
@@ -12382,7 +12382,7 @@
         "assists": 0,
         "shotsOnGoal": 1,
         "saves": 0,
-        "goalsConceded": 1
+        "goalsConceded": 2
       }
     ]
   },
@@ -12407,7 +12407,7 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 0
+        "goalsConceded": 1
       }
     ]
   },
@@ -12423,7 +12423,7 @@
         "assists": 0,
         "shotsOnGoal": 1,
         "saves": 0,
-        "goalsConceded": 1
+        "goalsConceded": 2
       }
     ]
   },
@@ -12453,7 +12453,7 @@
         "assists": 1,
         "shotsOnGoal": 1,
         "saves": 0,
-        "goalsConceded": 1
+        "goalsConceded": 2
       }
     ]
   },
@@ -12478,7 +12478,7 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 2,
-        "goalsConceded": 1
+        "goalsConceded": 2
       }
     ]
   },
@@ -12503,7 +12503,7 @@
         "assists": 0,
         "shotsOnGoal": 1,
         "saves": 0,
-        "goalsConceded": 0
+        "goalsConceded": 1
       }
     ]
   },
@@ -12528,7 +12528,7 @@
         "assists": 1,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 1
+        "goalsConceded": 2
       }
     ]
   },
@@ -12553,7 +12553,7 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 1
+        "goalsConceded": 2
       }
     ]
   },
@@ -15086,9 +15086,9 @@
       },
       {
         "opponent": "Norway",
-        "goals": 1,
+        "goals": 2,
         "assists": 0,
-        "shotsOnGoal": 2,
+        "shotsOnGoal": 3,
         "saves": 0,
         "goalsConceded": 3
       }
@@ -15228,7 +15228,7 @@
       {
         "opponent": "Norway",
         "goals": 0,
-        "assists": 0,
+        "assists": 1,
         "shotsOnGoal": 1,
         "saves": 0,
         "goalsConceded": 3
