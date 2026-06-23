@@ -77,6 +77,18 @@
       ]
     },
     {
+      "name": "Cristiano Ronaldo",
+      "country": "Portugal",
+      "position": "FWD",
+      "value": 2,
+      "managers": [
+        {
+          "id": "ben",
+          "name": "Ben"
+        }
+      ]
+    },
+    {
       "name": "Crysencio Summerville",
       "country": "Netherlands",
       "position": "FWD",
@@ -93,13 +105,6 @@
     {
       "name": "Daichi Kamada",
       "country": "Japan",
-      "position": "MID",
-      "value": 2,
-      "managers": []
-    },
-    {
-      "name": "Elijah Just",
-      "country": "New Zealand",
       "position": "MID",
       "value": 2,
       "managers": []
