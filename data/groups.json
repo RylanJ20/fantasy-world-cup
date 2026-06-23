@@ -588,26 +588,26 @@
       {
         "position": 1,
         "team": "England",
-        "played": 1,
+        "played": 2,
         "won": 1,
-        "draw": 0,
+        "draw": 1,
         "lost": 0,
         "gf": 4,
         "ga": 2,
         "gd": 2,
-        "points": 3
+        "points": 4
       },
       {
         "position": 2,
         "team": "Ghana",
-        "played": 1,
+        "played": 2,
         "won": 1,
-        "draw": 0,
+        "draw": 1,
         "lost": 0,
         "gf": 1,
         "ga": 0,
         "gd": 1,
-        "points": 3
+        "points": 4
       },
       {
         "position": 3,

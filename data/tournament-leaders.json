@@ -342,8 +342,22 @@
       "managers": []
     },
     {
+      "name": "Gideon Mensah",
+      "country": "Ghana",
+      "position": "DEF",
+      "value": 2,
+      "managers": []
+    },
+    {
       "name": "Israel Reyes",
       "country": "Mexico",
+      "position": "DEF",
+      "value": 2,
+      "managers": []
+    },
+    {
+      "name": "Jerome Opoku",
+      "country": "Ghana",
       "position": "DEF",
       "value": 2,
       "managers": []
@@ -358,6 +372,13 @@
     {
       "name": "Johan Vásquez",
       "country": "Mexico",
+      "position": "DEF",
+      "value": 2,
+      "managers": []
+    },
+    {
+      "name": "Jonas Adjetey",
+      "country": "Ghana",
       "position": "DEF",
       "value": 2,
       "managers": []
@@ -380,37 +401,6 @@
           "name": "Zach"
         }
       ]
-    },
-    {
-      "name": "Nahuel Molina",
-      "country": "Argentina",
-      "position": "DEF",
-      "value": 2,
-      "managers": [
-        {
-          "id": "alejandro",
-          "name": "Alejandro"
-        }
-      ]
-    },
-    {
-      "name": "Pau Cubarsí",
-      "country": "Spain",
-      "position": "DEF",
-      "value": 2,
-      "managers": [
-        {
-          "id": "zach",
-          "name": "Zach"
-        }
-      ]
-    },
-    {
-      "name": "Aaron Hickey",
-      "country": "Scotland",
-      "position": "DEF",
-      "value": 1,
-      "managers": []
     }
   ]
 }
