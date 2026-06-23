@@ -9014,6 +9014,22 @@
     ]
   },
   {
+    "name": "Youssef Amyn",
+    "country": "Iraq",
+    "position": "",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "France",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
     "name": "Zaid Ismael",
     "country": "Iraq",
     "position": "MID",
