@@ -1626,6 +1626,14 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "result": "D"
+      },
+      {
+        "fixtureId": 760461,
+        "opponent": "Uzbekistan",
+        "date": "2026-06-23T17:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0
       }
     ]
   },
@@ -1671,7 +1679,7 @@
         "date": "2026-06-23T17:00Z",
         "goals": 0,
         "assists": 1,
-        "shotsOnGoal": 0
+        "shotsOnGoal": 1
       }
     ]
   },
