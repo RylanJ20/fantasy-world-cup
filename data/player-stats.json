@@ -1314,6 +1314,14 @@
         "assists": 0,
         "shotsOnGoal": 4,
         "result": "W"
+      },
+      {
+        "fixtureId": 760454,
+        "opponent": "Senegal",
+        "date": "2026-06-23T00:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0
       }
     ]
   },
@@ -1329,6 +1337,14 @@
         "assists": 1,
         "shotsOnGoal": 0,
         "result": "W"
+      },
+      {
+        "fixtureId": 760454,
+        "opponent": "Senegal",
+        "date": "2026-06-23T00:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0
       }
     ]
   },
@@ -1345,6 +1361,15 @@
         "shotsOnGoal": 0,
         "goalsConceded": 1,
         "result": "W"
+      },
+      {
+        "fixtureId": 760454,
+        "opponent": "Senegal",
+        "date": "2026-06-23T00:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "goalsConceded": 0
       }
     ]
   },
