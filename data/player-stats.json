@@ -1178,6 +1178,14 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "result": "W"
+      },
+      {
+        "fixtureId": 760457,
+        "opponent": "Iraq",
+        "date": "2026-06-22T21:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0
       }
     ]
   },
@@ -1226,7 +1234,7 @@
         "opponent": "Iraq",
         "date": "2026-06-22T21:00Z",
         "goals": 0,
-        "assists": 1,
+        "assists": 2,
         "shotsOnGoal": 0
       }
     ]
@@ -1296,9 +1304,9 @@
         "fixtureId": 760457,
         "opponent": "Iraq",
         "date": "2026-06-22T21:00Z",
-        "goals": 0,
+        "goals": 1,
         "assists": 1,
-        "shotsOnGoal": 1
+        "shotsOnGoal": 2
       }
     ]
   },

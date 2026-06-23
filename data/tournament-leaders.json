@@ -114,6 +114,18 @@
       "managers": []
     },
     {
+      "name": "Michael Olise",
+      "country": "France",
+      "position": "MID",
+      "value": 3,
+      "managers": [
+        {
+          "id": "travis",
+          "name": "Travis"
+        }
+      ]
+    },
+    {
       "name": "Brahim Díaz",
       "country": "Morocco",
       "position": "MID",
@@ -164,18 +176,6 @@
       "position": "FWD",
       "value": 2,
       "managers": []
-    },
-    {
-      "name": "Michael Olise",
-      "country": "France",
-      "position": "MID",
-      "value": 2,
-      "managers": [
-        {
-          "id": "travis",
-          "name": "Travis"
-        }
-      ]
     },
     {
       "name": "Mohamed Salah",
