@@ -7029,8 +7029,8 @@
       {
         "opponent": "Iraq",
         "goals": 0,
-        "assists": 0,
-        "shotsOnGoal": 0,
+        "assists": 1,
+        "shotsOnGoal": 1,
         "saves": 0,
         "goalsConceded": 0
       }
@@ -8707,7 +8707,7 @@
         "goals": 0,
         "assists": 0,
         "shotsOnGoal": 0,
-        "saves": 0,
+        "saves": 1,
         "goalsConceded": 2
       }
     ]
@@ -8994,6 +8994,22 @@
         "saves": 0,
         "goalsConceded": 2,
         "result": "L"
+      }
+    ]
+  },
+  {
+    "name": "Rebin Sulaka",
+    "country": "Iraq",
+    "position": "",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "France",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -12240,6 +12256,22 @@
         "saves": 0,
         "goalsConceded": 0,
         "result": "W"
+      }
+    ]
+  },
+  {
+    "name": "Marcus Holmgren Pedersen",
+    "country": "Norway",
+    "position": "",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Senegal",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
