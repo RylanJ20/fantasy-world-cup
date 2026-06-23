@@ -534,9 +534,9 @@
     "stage": "Group K",
     "home": "Portugal",
     "away": "Uzbekistan",
-    "status": "PAUSED",
-    "homeScore": 3,
-    "awayScore": 0,
+    "status": "TIMED",
+    "homeScore": null,
+    "awayScore": null,
     "winner": null
   },
   {
