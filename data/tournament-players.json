@@ -15146,6 +15146,22 @@
     ]
   },
   {
+    "name": "Mory Diaw",
+    "country": "Senegal",
+    "position": "",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Norway",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
     "name": "Moussa Niakhaté",
     "country": "Senegal",
     "position": "DEF",
@@ -15234,6 +15250,14 @@
         "saves": 0,
         "goalsConceded": 1,
         "result": "L"
+      },
+      {
+        "opponent": "Norway",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
