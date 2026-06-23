@@ -1656,6 +1656,14 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "result": "D"
+      },
+      {
+        "fixtureId": 760461,
+        "opponent": "Uzbekistan",
+        "date": "2026-06-23T17:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0
       }
     ]
   },
@@ -1672,6 +1680,15 @@
         "shotsOnGoal": 0,
         "goalsConceded": 1,
         "result": "D"
+      },
+      {
+        "fixtureId": 760461,
+        "opponent": "Uzbekistan",
+        "date": "2026-06-23T17:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -1689,6 +1706,16 @@
         "saves": 1,
         "goalsConceded": 1,
         "result": "D"
+      },
+      {
+        "fixtureId": 760461,
+        "opponent": "Uzbekistan",
+        "date": "2026-06-23T17:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -1705,6 +1732,15 @@
         "shotsOnGoal": 0,
         "goalsConceded": 1,
         "result": "D"
+      },
+      {
+        "fixtureId": 760461,
+        "opponent": "Uzbekistan",
+        "date": "2026-06-23T17:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -1720,6 +1756,14 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "result": "D"
+      },
+      {
+        "fixtureId": 760461,
+        "opponent": "Uzbekistan",
+        "date": "2026-06-23T17:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0
       }
     ]
   },
@@ -1735,6 +1779,14 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "result": "D"
+      },
+      {
+        "fixtureId": 760461,
+        "opponent": "Uzbekistan",
+        "date": "2026-06-23T17:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0
       }
     ]
   },
@@ -1890,6 +1942,35 @@
         "assists": 1,
         "shotsOnGoal": 1,
         "result": "W"
+      }
+    ]
+  },
+  "pt|joao felix": {
+    "country": "Portugal",
+    "name": "João Félix",
+    "matches": [
+      {
+        "fixtureId": 760461,
+        "opponent": "Uzbekistan",
+        "date": "2026-06-23T17:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0
+      }
+    ]
+  },
+  "pt|ruben dias": {
+    "country": "Portugal",
+    "name": "Rúben Dias",
+    "matches": [
+      {
+        "fixtureId": 760461,
+        "opponent": "Uzbekistan",
+        "date": "2026-06-23T17:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "goalsConceded": 0
       }
     ]
   }
