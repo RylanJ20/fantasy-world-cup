@@ -12273,9 +12273,9 @@
       },
       {
         "opponent": "Senegal",
-        "goals": 1,
+        "goals": 2,
         "assists": 0,
-        "shotsOnGoal": 2,
+        "shotsOnGoal": 3,
         "saves": 0,
         "goalsConceded": 1
       }
@@ -12486,7 +12486,7 @@
   {
     "name": "Patrick Berg",
     "country": "Norway",
-    "position": "",
+    "position": "MID",
     "managers": [],
     "matches": [
       {
@@ -12501,7 +12501,7 @@
       {
         "opponent": "Senegal",
         "goals": 0,
-        "assists": 0,
+        "assists": 1,
         "shotsOnGoal": 0,
         "saves": 0,
         "goalsConceded": 1
@@ -14916,7 +14916,7 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 3,
-        "goalsConceded": 2
+        "goalsConceded": 3
       }
     ]
   },
@@ -14983,7 +14983,7 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 0
+        "goalsConceded": 1
       }
     ]
   },
@@ -15008,7 +15008,7 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 2
+        "goalsConceded": 3
       }
     ]
   },
@@ -15041,7 +15041,7 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 0
+        "goalsConceded": 1
       }
     ]
   },
@@ -15066,7 +15066,7 @@
         "assists": 0,
         "shotsOnGoal": 2,
         "saves": 0,
-        "goalsConceded": 2
+        "goalsConceded": 3
       }
     ]
   },
@@ -15091,7 +15091,7 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 2
+        "goalsConceded": 3
       }
     ]
   },
@@ -15116,7 +15116,7 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 2
+        "goalsConceded": 3
       }
     ]
   },
@@ -15141,7 +15141,7 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 2
+        "goalsConceded": 3
       }
     ]
   },
@@ -15166,7 +15166,7 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 2
+        "goalsConceded": 3
       }
     ]
   },
@@ -15191,7 +15191,7 @@
         "assists": 0,
         "shotsOnGoal": 1,
         "saves": 0,
-        "goalsConceded": 2
+        "goalsConceded": 3
       }
     ]
   },
@@ -15258,7 +15258,7 @@
         "assists": 1,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 2
+        "goalsConceded": 3
       }
     ]
   },
