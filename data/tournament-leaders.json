@@ -13,6 +13,18 @@
       ]
     },
     {
+      "name": "Kylian Mbappé",
+      "country": "France",
+      "position": "FWD",
+      "value": 4,
+      "managers": [
+        {
+          "id": "alejandro",
+          "name": "Alejandro"
+        }
+      ]
+    },
+    {
       "name": "Deniz Undav",
       "country": "Germany",
       "position": "FWD",
@@ -25,18 +37,6 @@
       "position": "FWD",
       "value": 3,
       "managers": []
-    },
-    {
-      "name": "Kylian Mbappé",
-      "country": "France",
-      "position": "FWD",
-      "value": 3,
-      "managers": [
-        {
-          "id": "alejandro",
-          "name": "Alejandro"
-        }
-      ]
     },
     {
       "name": "Ayase Ueda",

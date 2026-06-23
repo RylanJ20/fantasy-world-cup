@@ -510,9 +510,9 @@
     "stage": "Group I",
     "home": "Norway",
     "away": "Senegal",
-    "status": "IN_PLAY",
-    "homeScore": 0,
-    "awayScore": 0,
+    "status": "TIMED",
+    "homeScore": null,
+    "awayScore": null,
     "winner": null
   },
   {
