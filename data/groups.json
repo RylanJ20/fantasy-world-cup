@@ -441,25 +441,25 @@
       {
         "position": 2,
         "team": "Norway",
-        "played": 1,
-        "won": 1,
+        "played": 2,
+        "won": 2,
         "draw": 0,
         "lost": 0,
-        "gf": 4,
-        "ga": 1,
-        "gd": 3,
-        "points": 3
+        "gf": 7,
+        "ga": 3,
+        "gd": 4,
+        "points": 6
       },
       {
         "position": 3,
         "team": "Senegal",
-        "played": 1,
+        "played": 2,
         "won": 0,
         "draw": 0,
-        "lost": 1,
-        "gf": 1,
-        "ga": 3,
-        "gd": -2,
+        "lost": 2,
+        "gf": 3,
+        "ga": 6,
+        "gd": -3,
         "points": 0
       },
       {
