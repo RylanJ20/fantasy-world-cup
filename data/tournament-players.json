@@ -3169,6 +3169,14 @@
         "saves": 0,
         "goalsConceded": 0,
         "result": "W"
+      },
+      {
+        "opponent": "Scotland",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -12656,6 +12664,14 @@
         "saves": 0,
         "goalsConceded": 0,
         "result": "W"
+      },
+      {
+        "opponent": "Haiti",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -12784,6 +12800,22 @@
         "saves": 0,
         "goalsConceded": 0,
         "result": "W"
+      }
+    ]
+  },
+  {
+    "name": "Gessime Yassine",
+    "country": "Morocco",
+    "position": "",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Haiti",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -12988,6 +13020,14 @@
         "saves": 0,
         "goalsConceded": 0,
         "result": "W"
+      },
+      {
+        "opponent": "Haiti",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -17270,7 +17310,7 @@
         "opponent": "Brazil",
         "goals": 0,
         "assists": 0,
-        "shotsOnGoal": 1,
+        "shotsOnGoal": 2,
         "saves": 0,
         "goalsConceded": 3
       }
