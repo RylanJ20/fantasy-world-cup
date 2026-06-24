@@ -607,7 +607,7 @@
     "home": "Morocco",
     "away": "Haiti",
     "status": "IN_PLAY",
-    "homeScore": 1,
+    "homeScore": 2,
     "awayScore": 2,
     "winner": null
   },
@@ -620,7 +620,7 @@
     "away": "Brazil",
     "status": "IN_PLAY",
     "homeScore": 0,
-    "awayScore": 1,
+    "awayScore": 2,
     "winner": null
   },
   {
