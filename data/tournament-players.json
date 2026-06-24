@@ -4664,7 +4664,7 @@
         "goals": 0,
         "assists": 0,
         "shotsOnGoal": 0,
-        "saves": 2,
+        "saves": 1,
         "goalsConceded": 0
       }
     ]
@@ -13486,6 +13486,14 @@
         "saves": 0,
         "goalsConceded": 1,
         "result": "L"
+      },
+      {
+        "opponent": "Croatia",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -13508,7 +13516,7 @@
         "opponent": "Croatia",
         "goals": 0,
         "assists": 0,
-        "shotsOnGoal": 1,
+        "shotsOnGoal": 0,
         "saves": 0,
         "goalsConceded": 1
       }
