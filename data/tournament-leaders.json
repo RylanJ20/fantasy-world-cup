@@ -150,6 +150,13 @@
       "managers": []
     },
     {
+      "name": "Bruno Guimarães",
+      "country": "Brazil",
+      "position": "MID",
+      "value": 2,
+      "managers": []
+    },
+    {
       "name": "Chris Wood",
       "country": "New Zealand",
       "position": "FWD",
@@ -212,13 +219,6 @@
       "position": "MID",
       "value": 2,
       "managers": []
-    },
-    {
-      "name": "Nathan Saliba",
-      "country": "Canada",
-      "position": "MID",
-      "value": 2,
-      "managers": []
     }
   ],
   "saves": [
@@ -255,6 +255,13 @@
       "country": "Switzerland",
       "position": "GK",
       "value": 11,
+      "managers": []
+    },
+    {
+      "name": "Johny Placide",
+      "country": "Haiti",
+      "position": "GK",
+      "value": 9,
       "managers": []
     },
     {
@@ -297,13 +304,6 @@
       "country": "Paraguay",
       "position": "GK",
       "value": 8,
-      "managers": []
-    },
-    {
-      "name": "Johny Placide",
-      "country": "Haiti",
-      "position": "GK",
-      "value": 7,
       "managers": []
     }
   ],
