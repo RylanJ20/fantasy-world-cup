@@ -606,9 +606,9 @@
     "stage": "Group C",
     "home": "Morocco",
     "away": "Haiti",
-    "status": "IN_PLAY",
-    "homeScore": 0,
-    "awayScore": 1,
+    "status": "PAUSED",
+    "homeScore": 2,
+    "awayScore": 2,
     "winner": null
   },
   {
@@ -618,9 +618,9 @@
     "stage": "Group C",
     "home": "Scotland",
     "away": "Brazil",
-    "status": "IN_PLAY",
+    "status": "PAUSED",
     "homeScore": 0,
-    "awayScore": 1,
+    "awayScore": 2,
     "winner": null
   },
   {
