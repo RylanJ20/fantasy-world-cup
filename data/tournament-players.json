@@ -4281,6 +4281,22 @@
     ]
   },
   {
+    "name": "Jhon Córdoba",
+    "country": "Colombia",
+    "position": "",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Congo DR",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
     "name": "Jhon Lucumí",
     "country": "Colombia",
     "position": "DEF",
@@ -4325,6 +4341,22 @@
         "goals": 0,
         "assists": 0,
         "shotsOnGoal": 1,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Juan Fernando Quintero",
+    "country": "Colombia",
+    "position": "",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Congo DR",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
         "saves": 0,
         "goalsConceded": 0
       }
@@ -4734,6 +4766,14 @@
         "saves": 0,
         "goalsConceded": 0,
         "result": "D"
+      },
+      {
+        "opponent": "Colombia",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
