@@ -274,6 +274,13 @@
       "managers": []
     },
     {
+      "name": "Gregor Kobel",
+      "country": "Switzerland",
+      "position": "GK",
+      "value": 8,
+      "managers": []
+    },
+    {
       "name": "Lionel Mpasi",
       "country": "Congo DR",
       "position": "GK",
@@ -285,13 +292,6 @@
       "country": "Paraguay",
       "position": "GK",
       "value": 8,
-      "managers": []
-    },
-    {
-      "name": "Gregor Kobel",
-      "country": "Switzerland",
-      "position": "GK",
-      "value": 7,
       "managers": []
     },
     {
