@@ -37,6 +37,18 @@
       ]
     },
     {
+      "name": "Vinícius Júnior",
+      "country": "Brazil",
+      "position": "MID",
+      "value": 4,
+      "managers": [
+        {
+          "id": "terrick",
+          "name": "Terrick"
+        }
+      ]
+    },
+    {
       "name": "Deniz Undav",
       "country": "Germany",
       "position": "FWD",
@@ -56,18 +68,6 @@
       "position": "FWD",
       "value": 3,
       "managers": []
-    },
-    {
-      "name": "Vinícius Júnior",
-      "country": "Brazil",
-      "position": "MID",
-      "value": 3,
-      "managers": [
-        {
-          "id": "terrick",
-          "name": "Terrick"
-        }
-      ]
     },
     {
       "name": "Ayase Ueda",
