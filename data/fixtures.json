@@ -582,9 +582,9 @@
     "stage": "Group B",
     "home": "Bosnia-Herzegovina",
     "away": "Qatar",
-    "status": "TIMED",
-    "homeScore": null,
-    "awayScore": null,
+    "status": "IN_PLAY",
+    "homeScore": 0,
+    "awayScore": 0,
     "winner": null
   },
   {
@@ -594,9 +594,9 @@
     "stage": "Group B",
     "home": "Switzerland",
     "away": "Canada",
-    "status": "TIMED",
-    "homeScore": null,
-    "awayScore": null,
+    "status": "IN_PLAY",
+    "homeScore": 0,
+    "awayScore": 0,
     "winner": null
   },
   {
