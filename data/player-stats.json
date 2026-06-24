@@ -113,6 +113,15 @@
         "shotsOnGoal": 0,
         "goalsConceded": 1,
         "result": "W"
+      },
+      {
+        "fixtureId": 760463,
+        "opponent": "Canada",
+        "date": "2026-06-24T19:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "goalsConceded": 0
       }
     ]
   },
