@@ -382,10 +382,10 @@
         "fixtureId": 760464,
         "opponent": "Haiti",
         "date": "2026-06-24T22:00Z",
-        "goals": 0,
+        "goals": 1,
         "assists": 0,
-        "shotsOnGoal": 1,
-        "goalsConceded": 1
+        "shotsOnGoal": 2,
+        "goalsConceded": 2
       }
     ]
   },

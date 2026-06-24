@@ -607,8 +607,8 @@
     "home": "Morocco",
     "away": "Haiti",
     "status": "IN_PLAY",
-    "homeScore": 0,
-    "awayScore": 1,
+    "homeScore": 1,
+    "awayScore": 2,
     "winner": null
   },
   {
