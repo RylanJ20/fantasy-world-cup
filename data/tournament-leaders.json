@@ -58,6 +58,18 @@
       "managers": []
     },
     {
+      "name": "Vinícius Júnior",
+      "country": "Brazil",
+      "position": "MID",
+      "value": 3,
+      "managers": [
+        {
+          "id": "terrick",
+          "name": "Terrick"
+        }
+      ]
+    },
+    {
       "name": "Ayase Ueda",
       "country": "Japan",
       "position": "FWD",
@@ -98,13 +110,6 @@
     {
       "name": "Crysencio Summerville",
       "country": "Netherlands",
-      "position": "FWD",
-      "value": 2,
-      "managers": []
-    },
-    {
-      "name": "Cyle Larin",
-      "country": "Canada",
       "position": "FWD",
       "value": 2,
       "managers": []
