@@ -3416,7 +3416,7 @@
         "opponent": "Scotland",
         "goals": 2,
         "assists": 0,
-        "shotsOnGoal": 2,
+        "shotsOnGoal": 4,
         "saves": 0,
         "goalsConceded": 0
       }
@@ -16775,7 +16775,7 @@
         "goals": 0,
         "assists": 0,
         "shotsOnGoal": 0,
-        "saves": 1,
+        "saves": 2,
         "goalsConceded": 2
       }
     ]
