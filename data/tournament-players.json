@@ -2852,6 +2852,22 @@
     ]
   },
   {
+    "name": "Alex Sandro",
+    "country": "Brazil",
+    "position": "",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Scotland",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
     "name": "Alisson Becker",
     "country": "Brazil",
     "position": "GK",
@@ -3088,6 +3104,14 @@
         "saves": 0,
         "goalsConceded": 0,
         "result": "W"
+      },
+      {
+        "opponent": "Scotland",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -3448,7 +3472,7 @@
         "opponent": "Scotland",
         "goals": 2,
         "assists": 0,
-        "shotsOnGoal": 4,
+        "shotsOnGoal": 5,
         "saves": 0,
         "goalsConceded": 0
       }
@@ -9477,6 +9501,14 @@
         "saves": 0,
         "goalsConceded": 3,
         "result": "L"
+      },
+      {
+        "opponent": "Morocco",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -16895,7 +16927,7 @@
         "goals": 0,
         "assists": 0,
         "shotsOnGoal": 0,
-        "saves": 3,
+        "saves": 4,
         "goalsConceded": 3
       }
     ]
@@ -16914,6 +16946,14 @@
         "saves": 0,
         "goalsConceded": 0,
         "result": "L"
+      },
+      {
+        "opponent": "Brazil",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -17306,6 +17346,14 @@
         "saves": 0,
         "goalsConceded": 1,
         "result": "L"
+      },
+      {
+        "opponent": "Brazil",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
