@@ -256,8 +256,20 @@
       "name": "Johny Placide",
       "country": "Haiti",
       "position": "GK",
-      "value": 10,
+      "value": 11,
       "managers": []
+    },
+    {
+      "name": "Alisson Becker",
+      "country": "Brazil",
+      "position": "GK",
+      "value": 9,
+      "managers": [
+        {
+          "id": "marc",
+          "name": "Marc"
+        }
+      ]
     },
     {
       "name": "Patrick Beach",
@@ -265,18 +277,6 @@
       "position": "GK",
       "value": 9,
       "managers": []
-    },
-    {
-      "name": "Alisson Becker",
-      "country": "Brazil",
-      "position": "GK",
-      "value": 8,
-      "managers": [
-        {
-          "id": "marc",
-          "name": "Marc"
-        }
-      ]
     },
     {
       "name": "Bart Verbruggen",
