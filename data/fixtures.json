@@ -558,10 +558,10 @@
     "stage": "Group L",
     "home": "Panama",
     "away": "Croatia",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "homeScore": 0,
     "awayScore": 1,
-    "winner": null
+    "winner": "AWAY_TEAM"
   },
   {
     "n": 760459,
