@@ -149,6 +149,15 @@
         "shotsOnGoal": 0,
         "goalsConceded": 0,
         "result": "W"
+      },
+      {
+        "fixtureId": 760465,
+        "opponent": "Scotland",
+        "date": "2026-06-24T22:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -177,6 +186,16 @@
         "saves": 3,
         "goalsConceded": 0,
         "result": "W"
+      },
+      {
+        "fixtureId": 760465,
+        "opponent": "Scotland",
+        "date": "2026-06-24T22:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -201,6 +220,14 @@
         "assists": 1,
         "shotsOnGoal": 2,
         "result": "W"
+      },
+      {
+        "fixtureId": 760465,
+        "opponent": "Scotland",
+        "date": "2026-06-24T22:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0
       }
     ]
   },
@@ -251,6 +278,15 @@
         "shotsOnGoal": 0,
         "goalsConceded": 0,
         "result": "W"
+      },
+      {
+        "fixtureId": 760465,
+        "opponent": "Scotland",
+        "date": "2026-06-24T22:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -275,6 +311,14 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "result": "W"
+      },
+      {
+        "fixtureId": 760465,
+        "opponent": "Scotland",
+        "date": "2026-06-24T22:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0
       }
     ]
   },
@@ -299,6 +343,14 @@
         "assists": 1,
         "shotsOnGoal": 0,
         "result": "W"
+      },
+      {
+        "fixtureId": 760465,
+        "opponent": "Scotland",
+        "date": "2026-06-24T22:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0
       }
     ]
   },
@@ -325,6 +377,15 @@
         "shotsOnGoal": 0,
         "goalsConceded": 0,
         "result": "W"
+      },
+      {
+        "fixtureId": 760464,
+        "opponent": "Haiti",
+        "date": "2026-06-24T22:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -351,6 +412,15 @@
         "shotsOnGoal": 0,
         "goalsConceded": 1,
         "result": "L"
+      },
+      {
+        "fixtureId": 760465,
+        "opponent": "Brazil",
+        "date": "2026-06-24T22:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -375,6 +445,14 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "result": "L"
+      },
+      {
+        "fixtureId": 760465,
+        "opponent": "Brazil",
+        "date": "2026-06-24T22:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0
       }
     ]
   },
