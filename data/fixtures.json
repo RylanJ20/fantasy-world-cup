@@ -570,10 +570,10 @@
     "stage": "Group K",
     "home": "Colombia",
     "away": "Congo DR",
-    "status": "FINISHED",
+    "status": "IN_PLAY",
     "homeScore": 1,
     "awayScore": 0,
-    "winner": "HOME_TEAM"
+    "winner": null
   },
   {
     "n": 760462,
