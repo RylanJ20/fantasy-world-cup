@@ -77,6 +77,13 @@
       "managers": []
     },
     {
+      "name": "Matheus Cunha",
+      "country": "Brazil",
+      "position": "FWD",
+      "value": 3,
+      "managers": []
+    },
+    {
       "name": "Ayase Ueda",
       "country": "Japan",
       "position": "FWD",
@@ -101,18 +108,6 @@
           "name": "Rylan"
         }
       ]
-    },
-    {
-      "name": "Cristiano Ronaldo",
-      "country": "Portugal",
-      "position": "FWD",
-      "value": 2,
-      "managers": [
-        {
-          "id": "ben",
-          "name": "Ben"
-        }
-      ]
     }
   ],
   "assists": [
@@ -120,6 +115,13 @@
       "name": "Alexander Isak",
       "country": "Sweden",
       "position": "FWD",
+      "value": 3,
+      "managers": []
+    },
+    {
+      "name": "Bruno Guimarães",
+      "country": "Brazil",
+      "position": "MID",
       "value": 3,
       "managers": []
     },
@@ -146,13 +148,6 @@
       "name": "Breel Embolo",
       "country": "Switzerland",
       "position": "FWD",
-      "value": 2,
-      "managers": []
-    },
-    {
-      "name": "Bruno Guimarães",
-      "country": "Brazil",
-      "position": "MID",
       "value": 2,
       "managers": []
     },
@@ -272,6 +267,18 @@
       "managers": []
     },
     {
+      "name": "Alisson Becker",
+      "country": "Brazil",
+      "position": "GK",
+      "value": 8,
+      "managers": [
+        {
+          "id": "marc",
+          "name": "Marc"
+        }
+      ]
+    },
+    {
       "name": "Bart Verbruggen",
       "country": "Netherlands",
       "position": "GK",
@@ -295,13 +302,6 @@
     {
       "name": "Lionel Mpasi",
       "country": "Congo DR",
-      "position": "GK",
-      "value": 8,
-      "managers": []
-    },
-    {
-      "name": "Orlando Gil",
-      "country": "Paraguay",
       "position": "GK",
       "value": 8,
       "managers": []
