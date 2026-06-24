@@ -246,6 +246,13 @@
       "managers": []
     },
     {
+      "name": "Gregor Kobel",
+      "country": "Switzerland",
+      "position": "GK",
+      "value": 10,
+      "managers": []
+    },
+    {
       "name": "Patrick Beach",
       "country": "Australia",
       "position": "GK",
@@ -269,13 +276,6 @@
     {
       "name": "Édouard Mendy",
       "country": "Senegal",
-      "position": "GK",
-      "value": 8,
-      "managers": []
-    },
-    {
-      "name": "Gregor Kobel",
-      "country": "Switzerland",
       "position": "GK",
       "value": 8,
       "managers": []
