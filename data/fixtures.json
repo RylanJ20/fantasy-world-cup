@@ -582,10 +582,10 @@
     "stage": "Group B",
     "home": "Bosnia-Herzegovina",
     "away": "Qatar",
-    "status": "FINISHED",
+    "status": "IN_PLAY",
     "homeScore": 3,
     "awayScore": 1,
-    "winner": "HOME_TEAM"
+    "winner": null
   },
   {
     "n": 760463,
@@ -594,10 +594,10 @@
     "stage": "Group B",
     "home": "Switzerland",
     "away": "Canada",
-    "status": "FINISHED",
+    "status": "IN_PLAY",
     "homeScore": 2,
     "awayScore": 1,
-    "winner": "HOME_TEAM"
+    "winner": null
   },
   {
     "n": 760464,
@@ -869,7 +869,7 @@
     "utcDate": "2026-06-28T19:00:00Z",
     "stage": "Round of 32",
     "home": "Group A 2nd Place",
-    "away": "Canada",
+    "away": "Group B 2nd Place",
     "status": "TIMED",
     "homeScore": null,
     "awayScore": null,
@@ -1012,7 +1012,7 @@
     "date": "2026-07-03",
     "utcDate": "2026-07-03T03:00:00Z",
     "stage": "Round of 32",
-    "home": "Switzerland",
+    "home": "Group B Winner",
     "away": "Third Place Group E/F/G/I/J",
     "status": "TIMED",
     "homeScore": null,
