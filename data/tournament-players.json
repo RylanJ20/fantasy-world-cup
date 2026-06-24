@@ -2388,6 +2388,22 @@
     ]
   },
   {
+    "name": "Dennis Hadzikadunic",
+    "country": "Bosnia-Herzegovina",
+    "position": "",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Qatar",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
     "name": "Dzenis Burnic",
     "country": "Bosnia-Herzegovina",
     "position": "",
@@ -2477,6 +2493,14 @@
         "saves": 0,
         "goalsConceded": 1,
         "result": "L"
+      },
+      {
+        "opponent": "Qatar",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
