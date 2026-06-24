@@ -44,6 +44,13 @@
       "managers": []
     },
     {
+      "name": "Johan Manzambi",
+      "country": "Switzerland",
+      "position": "MID",
+      "value": 3,
+      "managers": []
+    },
+    {
       "name": "Jonathan David",
       "country": "Canada",
       "position": "FWD",
@@ -101,13 +108,6 @@
       "position": "FWD",
       "value": 2,
       "managers": []
-    },
-    {
-      "name": "Daichi Kamada",
-      "country": "Japan",
-      "position": "MID",
-      "value": 2,
-      "managers": []
     }
   ],
   "assists": [
@@ -134,6 +134,13 @@
       "name": "Brahim Díaz",
       "country": "Morocco",
       "position": "MID",
+      "value": 2,
+      "managers": []
+    },
+    {
+      "name": "Breel Embolo",
+      "country": "Switzerland",
+      "position": "FWD",
       "value": 2,
       "managers": []
     },
@@ -206,13 +213,6 @@
       "country": "Netherlands",
       "position": "MID",
       "value": 2,
-      "managers": []
-    },
-    {
-      "name": "Adrien Rabiot",
-      "country": "France",
-      "position": "MID",
-      "value": 1,
       "managers": []
     }
   ],
