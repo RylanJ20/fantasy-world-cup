@@ -654,10 +654,10 @@
     "stage": "Group E",
     "home": "Ecuador",
     "away": "Germany",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "homeScore": 2,
     "awayScore": 1,
-    "winner": null
+    "winner": "HOME_TEAM"
   },
   {
     "n": 760473,
@@ -666,10 +666,10 @@
     "stage": "Group E",
     "home": "Curaçao",
     "away": "Ivory Coast",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "homeScore": 0,
     "awayScore": 2,
-    "winner": null
+    "winner": "AWAY_TEAM"
   },
   {
     "n": 760471,
