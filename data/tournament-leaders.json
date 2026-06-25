@@ -178,6 +178,18 @@
       ]
     },
     {
+      "name": "Florian Wirtz",
+      "country": "Germany",
+      "position": "MID",
+      "value": 2,
+      "managers": [
+        {
+          "id": "marc",
+          "name": "Marc"
+        }
+      ]
+    },
+    {
       "name": "Joshua Kimmich",
       "country": "Germany",
       "position": "DEF",
@@ -207,13 +219,6 @@
           "name": "Terrick"
         }
       ]
-    },
-    {
-      "name": "Mohamed Salah",
-      "country": "Egypt",
-      "position": "MID",
-      "value": 2,
-      "managers": []
     }
   ],
   "saves": [
