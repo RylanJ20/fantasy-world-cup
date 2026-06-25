@@ -263,7 +263,7 @@
       "name": "Alisson Becker",
       "country": "Brazil",
       "position": "GK",
-      "value": 9,
+      "value": 10,
       "managers": [
         {
           "id": "marc",
@@ -333,6 +333,20 @@
       ]
     },
     {
+      "name": "Danilo",
+      "country": "Brazil",
+      "position": "DEF",
+      "value": 2,
+      "managers": []
+    },
+    {
+      "name": "Douglas Santos",
+      "country": "Brazil",
+      "position": "DEF",
+      "value": 2,
+      "managers": []
+    },
+    {
       "name": "Edson Álvarez",
       "country": "Mexico",
       "position": "DEF",
@@ -345,6 +359,18 @@
       "position": "DEF",
       "value": 2,
       "managers": []
+    },
+    {
+      "name": "Gabriel Magalhães",
+      "country": "Brazil",
+      "position": "DEF",
+      "value": 2,
+      "managers": [
+        {
+          "id": "zach",
+          "name": "Zach"
+        }
+      ]
     },
     {
       "name": "Gideon Mensah",
@@ -380,32 +406,6 @@
       "position": "DEF",
       "value": 2,
       "managers": []
-    },
-    {
-      "name": "Jonas Adjetey",
-      "country": "Ghana",
-      "position": "DEF",
-      "value": 2,
-      "managers": []
-    },
-    {
-      "name": "Lisandro Martínez",
-      "country": "Argentina",
-      "position": "DEF",
-      "value": 2,
-      "managers": []
-    },
-    {
-      "name": "Marc Cucurella",
-      "country": "Spain",
-      "position": "DEF",
-      "value": 2,
-      "managers": [
-        {
-          "id": "zach",
-          "name": "Zach"
-        }
-      ]
     }
   ]
 }

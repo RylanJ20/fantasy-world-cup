@@ -157,7 +157,8 @@
         "goals": 0,
         "assists": 0,
         "shotsOnGoal": 0,
-        "goalsConceded": 0
+        "goalsConceded": 0,
+        "result": "W"
       }
     ]
   },
@@ -194,8 +195,9 @@
         "goals": 0,
         "assists": 0,
         "shotsOnGoal": 0,
-        "saves": 4,
-        "goalsConceded": 0
+        "saves": 5,
+        "goalsConceded": 0,
+        "result": "W"
       }
     ]
   },
@@ -227,7 +229,8 @@
         "date": "2026-06-24T22:00Z",
         "goals": 2,
         "assists": 0,
-        "shotsOnGoal": 5
+        "shotsOnGoal": 5,
+        "result": "W"
       }
     ]
   },
@@ -286,7 +289,8 @@
         "goals": 0,
         "assists": 0,
         "shotsOnGoal": 0,
-        "goalsConceded": 0
+        "goalsConceded": 0,
+        "result": "W"
       }
     ]
   },
@@ -318,7 +322,8 @@
         "date": "2026-06-24T22:00Z",
         "goals": 0,
         "assists": 0,
-        "shotsOnGoal": 0
+        "shotsOnGoal": 0,
+        "result": "W"
       }
     ]
   },
@@ -350,7 +355,8 @@
         "date": "2026-06-24T22:00Z",
         "goals": 0,
         "assists": 0,
-        "shotsOnGoal": 0
+        "shotsOnGoal": 0,
+        "result": "W"
       }
     ]
   },
@@ -385,7 +391,8 @@
         "goals": 1,
         "assists": 1,
         "shotsOnGoal": 3,
-        "goalsConceded": 2
+        "goalsConceded": 2,
+        "result": "W"
       }
     ]
   },
@@ -420,7 +427,8 @@
         "goals": 0,
         "assists": 0,
         "shotsOnGoal": 0,
-        "goalsConceded": 2
+        "goalsConceded": 2,
+        "result": "L"
       }
     ]
   },
@@ -452,7 +460,8 @@
         "date": "2026-06-24T22:00Z",
         "goals": 0,
         "assists": 0,
-        "shotsOnGoal": 2
+        "shotsOnGoal": 3,
+        "result": "L"
       }
     ]
   },
