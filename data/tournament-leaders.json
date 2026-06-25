@@ -49,6 +49,13 @@
       ]
     },
     {
+      "name": "Brian Brobbey",
+      "country": "Netherlands",
+      "position": "FWD",
+      "value": 3,
+      "managers": []
+    },
+    {
       "name": "Deniz Undav",
       "country": "Germany",
       "position": "FWD",
@@ -86,13 +93,6 @@
     {
       "name": "Ayase Ueda",
       "country": "Japan",
-      "position": "FWD",
-      "value": 2,
-      "managers": []
-    },
-    {
-      "name": "Brian Brobbey",
-      "country": "Netherlands",
       "position": "FWD",
       "value": 2,
       "managers": []
