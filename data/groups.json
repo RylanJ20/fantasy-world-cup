@@ -5,49 +5,49 @@
       {
         "position": 1,
         "team": "Mexico",
-        "played": 2,
-        "won": 2,
+        "played": 3,
+        "won": 3,
         "draw": 0,
         "lost": 0,
-        "gf": 3,
+        "gf": 6,
         "ga": 0,
-        "gd": 3,
-        "points": 6
+        "gd": 6,
+        "points": 9
       },
       {
         "position": 2,
-        "team": "South Korea",
-        "played": 2,
+        "team": "South Africa",
+        "played": 3,
         "won": 1,
-        "draw": 0,
-        "lost": 1,
-        "gf": 2,
-        "ga": 2,
-        "gd": 0,
-        "points": 3
-      },
-      {
-        "position": 3,
-        "team": "Czechia",
-        "played": 2,
-        "won": 0,
         "draw": 1,
         "lost": 1,
         "gf": 2,
         "ga": 3,
         "gd": -1,
-        "points": 1
+        "points": 4
+      },
+      {
+        "position": 3,
+        "team": "South Korea",
+        "played": 3,
+        "won": 1,
+        "draw": 0,
+        "lost": 2,
+        "gf": 2,
+        "ga": 3,
+        "gd": -1,
+        "points": 3
       },
       {
         "position": 4,
-        "team": "South Africa",
-        "played": 2,
+        "team": "Czechia",
+        "played": 3,
         "won": 0,
         "draw": 1,
-        "lost": 1,
-        "gf": 1,
-        "ga": 3,
-        "gd": -2,
+        "lost": 2,
+        "gf": 2,
+        "ga": 6,
+        "gd": -4,
         "points": 1
       }
     ]
