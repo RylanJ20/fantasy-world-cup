@@ -630,10 +630,10 @@
     "stage": "Group A",
     "home": "South Africa",
     "away": "South Korea",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "homeScore": 1,
     "awayScore": 0,
-    "winner": null
+    "winner": "HOME_TEAM"
   },
   {
     "n": 760467,
@@ -642,10 +642,10 @@
     "stage": "Group A",
     "home": "Czechia",
     "away": "Mexico",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "homeScore": 0,
-    "awayScore": 2,
-    "winner": null
+    "awayScore": 3,
+    "winner": "AWAY_TEAM"
   },
   {
     "n": 760468,
@@ -868,7 +868,7 @@
     "date": "2026-06-28",
     "utcDate": "2026-06-28T19:00:00Z",
     "stage": "Round of 32",
-    "home": "Group A 2nd Place",
+    "home": "South Africa",
     "away": "Canada",
     "status": "TIMED",
     "homeScore": null,
