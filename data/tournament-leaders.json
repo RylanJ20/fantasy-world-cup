@@ -279,6 +279,13 @@
       "managers": []
     },
     {
+      "name": "Angus Gunn",
+      "country": "Scotland",
+      "position": "GK",
+      "value": 8,
+      "managers": []
+    },
+    {
       "name": "Bart Verbruggen",
       "country": "Netherlands",
       "position": "GK",
@@ -295,13 +302,6 @@
     {
       "name": "Édouard Mendy",
       "country": "Senegal",
-      "position": "GK",
-      "value": 8,
-      "managers": []
-    },
-    {
-      "name": "Lionel Mpasi",
-      "country": "Congo DR",
       "position": "GK",
       "value": 8,
       "managers": []
