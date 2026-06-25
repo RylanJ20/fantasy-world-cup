@@ -801,6 +801,14 @@
         "assists": 1,
         "shotsOnGoal": 4,
         "result": "W"
+      },
+      {
+        "fixtureId": 760472,
+        "opponent": "Tunisia",
+        "date": "2026-06-25T23:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0
       }
     ]
   },
@@ -827,6 +835,15 @@
         "shotsOnGoal": 0,
         "goalsConceded": 1,
         "result": "W"
+      },
+      {
+        "fixtureId": 760472,
+        "opponent": "Tunisia",
+        "date": "2026-06-25T23:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -851,6 +868,14 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "result": "W"
+      },
+      {
+        "fixtureId": 760472,
+        "opponent": "Tunisia",
+        "date": "2026-06-25T23:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0
       }
     ]
   },
@@ -877,6 +902,15 @@
         "shotsOnGoal": 0,
         "goalsConceded": 1,
         "result": "W"
+      },
+      {
+        "fixtureId": 760472,
+        "opponent": "Tunisia",
+        "date": "2026-06-25T23:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -893,6 +927,15 @@
         "shotsOnGoal": 0,
         "goalsConceded": 1,
         "result": "D"
+      },
+      {
+        "fixtureId": 760472,
+        "opponent": "Tunisia",
+        "date": "2026-06-25T23:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -917,6 +960,14 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "result": "W"
+      },
+      {
+        "fixtureId": 760472,
+        "opponent": "Tunisia",
+        "date": "2026-06-25T23:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0
       }
     ]
   },
@@ -1039,6 +1090,14 @@
         "assists": 0,
         "shotsOnGoal": 3,
         "result": "L"
+      },
+      {
+        "fixtureId": 760471,
+        "opponent": "Japan",
+        "date": "2026-06-25T23:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0
       }
     ]
   },
