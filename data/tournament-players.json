@@ -18371,6 +18371,14 @@
         "saves": 0,
         "goalsConceded": 1,
         "result": "D"
+      },
+      {
+        "opponent": "South Korea",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
