@@ -309,27 +309,6 @@
   ],
   "cleanSheets": [
     {
-      "name": "Edson Álvarez",
-      "country": "Mexico",
-      "position": "DEF",
-      "value": 3,
-      "managers": []
-    },
-    {
-      "name": "Israel Reyes",
-      "country": "Mexico",
-      "position": "DEF",
-      "value": 3,
-      "managers": []
-    },
-    {
-      "name": "Jesús Gallardo",
-      "country": "Mexico",
-      "position": "DEF",
-      "value": 3,
-      "managers": []
-    },
-    {
       "name": "Aymeric Laporte",
       "country": "Spain",
       "position": "DEF",
@@ -340,13 +319,6 @@
           "name": "Rylan"
         }
       ]
-    },
-    {
-      "name": "César Montes",
-      "country": "Mexico",
-      "position": "DEF",
-      "value": 2,
-      "managers": []
     },
     {
       "name": "Cristian Romero",
@@ -370,6 +342,13 @@
     {
       "name": "Douglas Santos",
       "country": "Brazil",
+      "position": "DEF",
+      "value": 2,
+      "managers": []
+    },
+    {
+      "name": "Edson Álvarez",
+      "country": "Mexico",
       "position": "DEF",
       "value": 2,
       "managers": []
@@ -401,8 +380,29 @@
       "managers": []
     },
     {
+      "name": "Israel Reyes",
+      "country": "Mexico",
+      "position": "DEF",
+      "value": 2,
+      "managers": []
+    },
+    {
       "name": "Jerome Opoku",
       "country": "Ghana",
+      "position": "DEF",
+      "value": 2,
+      "managers": []
+    },
+    {
+      "name": "Jesús Gallardo",
+      "country": "Mexico",
+      "position": "DEF",
+      "value": 2,
+      "managers": []
+    },
+    {
+      "name": "Johan Vásquez",
+      "country": "Mexico",
       "position": "DEF",
       "value": 2,
       "managers": []

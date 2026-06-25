@@ -27,8 +27,7 @@
         "date": "2026-06-25T01:00Z",
         "goals": 0,
         "assists": 0,
-        "shotsOnGoal": 0,
-        "result": "L"
+        "shotsOnGoal": 0
       }
     ]
   },
@@ -63,8 +62,7 @@
         "goals": 0,
         "assists": 0,
         "shotsOnGoal": 0,
-        "goalsConceded": 3,
-        "result": "L"
+        "goalsConceded": 3
       }
     ]
   },
