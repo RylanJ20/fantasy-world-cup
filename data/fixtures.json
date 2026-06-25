@@ -606,10 +606,10 @@
     "stage": "Group C",
     "home": "Morocco",
     "away": "Haiti",
-    "status": "IN_PLAY",
-    "homeScore": 3,
+    "status": "FINISHED",
+    "homeScore": 4,
     "awayScore": 2,
-    "winner": null
+    "winner": "HOME_TEAM"
   },
   {
     "n": 760465,
@@ -618,10 +618,10 @@
     "stage": "Group C",
     "home": "Scotland",
     "away": "Brazil",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "homeScore": 0,
     "awayScore": 3,
-    "winner": null
+    "winner": "AWAY_TEAM"
   },
   {
     "n": 760466,
@@ -880,7 +880,7 @@
     "date": "2026-06-29",
     "utcDate": "2026-06-29T17:00:00Z",
     "stage": "Round of 32",
-    "home": "Group C Winner",
+    "home": "Brazil",
     "away": "Group F 2nd Place",
     "status": "TIMED",
     "homeScore": null,
@@ -905,7 +905,7 @@
     "utcDate": "2026-06-30T01:00:00Z",
     "stage": "Round of 32",
     "home": "Group F Winner",
-    "away": "Group C 2nd Place",
+    "away": "Morocco",
     "status": "TIMED",
     "homeScore": null,
     "awayScore": null,
