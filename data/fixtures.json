@@ -630,7 +630,7 @@
     "stage": "Group A",
     "home": "South Africa",
     "away": "South Korea",
-    "status": "IN_PLAY",
+    "status": "PAUSED",
     "homeScore": 0,
     "awayScore": 0,
     "winner": null
@@ -642,7 +642,7 @@
     "stage": "Group A",
     "home": "Czechia",
     "away": "Mexico",
-    "status": "IN_PLAY",
+    "status": "PAUSED",
     "homeScore": 0,
     "awayScore": 0,
     "winner": null
