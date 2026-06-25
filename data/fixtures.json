@@ -655,7 +655,7 @@
     "home": "Ecuador",
     "away": "Germany",
     "status": "IN_PLAY",
-    "homeScore": 0,
+    "homeScore": 1,
     "awayScore": 1,
     "winner": null
   },
@@ -668,7 +668,7 @@
     "away": "Ivory Coast",
     "status": "IN_PLAY",
     "homeScore": 0,
-    "awayScore": 0,
+    "awayScore": 1,
     "winner": null
   },
   {
