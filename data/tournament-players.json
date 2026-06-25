@@ -5947,6 +5947,14 @@
         "saves": 0,
         "goalsConceded": 0,
         "result": "D"
+      },
+      {
+        "opponent": "Ivory Coast",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -6334,9 +6342,25 @@
         "opponent": "Ivory Coast",
         "goals": 0,
         "assists": 0,
-        "shotsOnGoal": 1,
+        "shotsOnGoal": 2,
         "saves": 0,
         "goalsConceded": 2
+      }
+    ]
+  },
+  {
+    "name": "Tyrese Noslin",
+    "country": "Curaçao",
+    "position": "",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Ivory Coast",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -7081,9 +7105,9 @@
       },
       {
         "opponent": "Germany",
-        "goals": 0,
+        "goals": 1,
         "assists": 0,
-        "shotsOnGoal": 0,
+        "shotsOnGoal": 1,
         "saves": 0,
         "goalsConceded": 1
       }
@@ -7118,7 +7142,7 @@
         "goals": 0,
         "assists": 0,
         "shotsOnGoal": 0,
-        "saves": 1,
+        "saves": 2,
         "goalsConceded": 1
       }
     ]
@@ -7236,7 +7260,7 @@
   {
     "name": "Kevin Rodríguez",
     "country": "Ecuador",
-    "position": "",
+    "position": "FWD",
     "managers": [],
     "matches": [
       {
@@ -7260,7 +7284,7 @@
       {
         "opponent": "Germany",
         "goals": 0,
-        "assists": 0,
+        "assists": 1,
         "shotsOnGoal": 0,
         "saves": 0,
         "goalsConceded": 0
@@ -8866,7 +8890,7 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 0
+        "goalsConceded": 1
       }
     ]
   },
@@ -8905,7 +8929,7 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 1
+        "goalsConceded": 2
       }
     ]
   },
@@ -8935,7 +8959,7 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 1
+        "goalsConceded": 2
       }
     ]
   },
@@ -8969,7 +8993,7 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 0
+        "goalsConceded": 1
       }
     ]
   },
@@ -9081,7 +9105,7 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 1
+        "goalsConceded": 2
       }
     ]
   },
@@ -9137,7 +9161,7 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 1
+        "goalsConceded": 2
       }
     ]
   },
@@ -9273,9 +9297,9 @@
         "opponent": "Ecuador",
         "goals": 1,
         "assists": 0,
-        "shotsOnGoal": 1,
+        "shotsOnGoal": 2,
         "saves": 0,
-        "goalsConceded": 1
+        "goalsConceded": 2
       }
     ]
   },
@@ -9291,7 +9315,7 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 0
+        "goalsConceded": 1
       }
     ]
   },
@@ -9330,7 +9354,7 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 1,
-        "goalsConceded": 1
+        "goalsConceded": 2
       }
     ]
   },
@@ -9346,7 +9370,7 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 0
+        "goalsConceded": 1
       }
     ]
   },
@@ -9431,7 +9455,7 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 0
+        "goalsConceded": 1
       }
     ]
   },
@@ -11673,6 +11697,22 @@
     ]
   },
   {
+    "name": "Jean Michaël Seri",
+    "country": "Ivory Coast",
+    "position": "",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Curaçao",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
     "name": "Nicolas Pépé",
     "country": "Ivory Coast",
     "position": "FWD",
@@ -11870,7 +11910,7 @@
         "goals": 0,
         "assists": 0,
         "shotsOnGoal": 0,
-        "saves": 1,
+        "saves": 2,
         "goalsConceded": 0
       }
     ]
