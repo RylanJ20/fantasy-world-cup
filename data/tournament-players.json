@@ -18745,6 +18745,22 @@
     ]
   },
   {
+    "name": "Jens Castrop",
+    "country": "South Korea",
+    "position": "",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "South Africa",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
     "name": "Kim Jin-Gyu",
     "country": "South Korea",
     "position": "",
@@ -18758,6 +18774,14 @@
         "saves": 0,
         "goalsConceded": 0,
         "result": "W"
+      },
+      {
+        "opponent": "South Africa",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -19146,6 +19170,14 @@
         "saves": 0,
         "goalsConceded": 1,
         "result": "L"
+      },
+      {
+        "opponent": "South Africa",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
