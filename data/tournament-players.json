@@ -6007,6 +6007,14 @@
         "saves": 0,
         "goalsConceded": 4,
         "result": "L"
+      },
+      {
+        "opponent": "Ivory Coast",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -7033,7 +7041,7 @@
         "opponent": "Germany",
         "goals": 0,
         "assists": 0,
-        "shotsOnGoal": 0,
+        "shotsOnGoal": 1,
         "saves": 0,
         "goalsConceded": 1
       }
@@ -7240,6 +7248,14 @@
         "saves": 0,
         "goalsConceded": 0,
         "result": "D"
+      },
+      {
+        "opponent": "Germany",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -8930,6 +8946,14 @@
         "saves": 0,
         "goalsConceded": 0,
         "result": "W"
+      },
+      {
+        "opponent": "Ecuador",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -9240,6 +9264,22 @@
     ]
   },
   {
+    "name": "Malick Thiaw",
+    "country": "Germany",
+    "position": "",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Ecuador",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
     "name": "Manuel Neuer",
     "country": "Germany",
     "position": "GK",
@@ -9273,7 +9313,7 @@
         "goals": 0,
         "assists": 0,
         "shotsOnGoal": 0,
-        "saves": 0,
+        "saves": 1,
         "goalsConceded": 1
       }
     ]
