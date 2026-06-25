@@ -5857,6 +5857,22 @@
     ]
   },
   {
+    "name": "Brandley Kuwas",
+    "country": "Curaçao",
+    "position": "",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Ivory Coast",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
     "name": "Deveron Fonville",
     "country": "Curaçao",
     "position": "DEF",
@@ -5919,7 +5935,7 @@
         "goals": 0,
         "assists": 0,
         "shotsOnGoal": 0,
-        "saves": 0,
+        "saves": 1,
         "goalsConceded": 2
       }
     ]
@@ -6298,6 +6314,22 @@
     ]
   },
   {
+    "name": "Shurandy Sambo",
+    "country": "Curaçao",
+    "position": "",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Ivory Coast",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
     "name": "Sontje Hansen",
     "country": "Curaçao",
     "position": "MID",
@@ -6358,7 +6390,7 @@
         "opponent": "Ivory Coast",
         "goals": 0,
         "assists": 0,
-        "shotsOnGoal": 0,
+        "shotsOnGoal": 1,
         "saves": 0,
         "goalsConceded": 0
       }
@@ -11543,7 +11575,7 @@
         "opponent": "Curaçao",
         "goals": 0,
         "assists": 0,
-        "shotsOnGoal": 0,
+        "shotsOnGoal": 1,
         "saves": 0,
         "goalsConceded": 0
       }
@@ -11934,7 +11966,7 @@
         "goals": 0,
         "assists": 0,
         "shotsOnGoal": 0,
-        "saves": 2,
+        "saves": 3,
         "goalsConceded": 0
       }
     ]
