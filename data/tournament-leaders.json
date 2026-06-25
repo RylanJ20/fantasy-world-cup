@@ -279,6 +279,13 @@
       "managers": []
     },
     {
+      "name": "Matej Kovár",
+      "country": "Czechia",
+      "position": "GK",
+      "value": 9,
+      "managers": []
+    },
+    {
       "name": "Patrick Beach",
       "country": "Australia",
       "position": "GK",
@@ -295,13 +302,6 @@
     {
       "name": "Bart Verbruggen",
       "country": "Netherlands",
-      "position": "GK",
-      "value": 8,
-      "managers": []
-    },
-    {
-      "name": "Dominik Livakovic",
-      "country": "Croatia",
       "position": "GK",
       "value": 8,
       "managers": []
