@@ -6267,6 +6267,14 @@
         "saves": 0,
         "goalsConceded": 0,
         "result": "D"
+      },
+      {
+        "opponent": "Mexico",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -6297,6 +6305,22 @@
     ]
   },
   {
+    "name": "David Doudera",
+    "country": "Czechia",
+    "position": "MID",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Mexico",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
     "name": "David Zima",
     "country": "Czechia",
     "position": "",
@@ -6310,6 +6334,22 @@
         "saves": 0,
         "goalsConceded": 1,
         "result": "D"
+      }
+    ]
+  },
+  {
+    "name": "Denis Visinský",
+    "country": "Czechia",
+    "position": "FWD",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Mexico",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -6367,6 +6407,14 @@
         "saves": 0,
         "goalsConceded": 1,
         "result": "D"
+      },
+      {
+        "opponent": "Mexico",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -6384,6 +6432,14 @@
         "saves": 0,
         "goalsConceded": 0,
         "result": "D"
+      },
+      {
+        "opponent": "Mexico",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -6436,6 +6492,14 @@
         "saves": 3,
         "goalsConceded": 1,
         "result": "D"
+      },
+      {
+        "opponent": "Mexico",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -6462,6 +6526,14 @@
         "saves": 0,
         "goalsConceded": 0,
         "result": "D"
+      },
+      {
+        "opponent": "Mexico",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -6531,6 +6603,14 @@
         "saves": 0,
         "goalsConceded": 1,
         "result": "D"
+      },
+      {
+        "opponent": "Mexico",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -6557,6 +6637,14 @@
         "saves": 0,
         "goalsConceded": 1,
         "result": "D"
+      },
+      {
+        "opponent": "Mexico",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -6608,6 +6696,14 @@
         "saves": 0,
         "goalsConceded": 1,
         "result": "D"
+      },
+      {
+        "opponent": "Mexico",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -6660,6 +6756,14 @@
         "saves": 0,
         "goalsConceded": 1,
         "result": "D"
+      },
+      {
+        "opponent": "Mexico",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -12249,6 +12353,14 @@
         "saves": 0,
         "goalsConceded": 0,
         "result": "W"
+      },
+      {
+        "opponent": "Czechia",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -12275,6 +12387,14 @@
         "saves": 0,
         "goalsConceded": 0,
         "result": "W"
+      },
+      {
+        "opponent": "Czechia",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -12307,7 +12427,7 @@
   {
     "name": "Gilberto Mora",
     "country": "Mexico",
-    "position": "",
+    "position": "MID",
     "managers": [],
     "matches": [
       {
@@ -12318,6 +12438,30 @@
         "saves": 0,
         "goalsConceded": 0,
         "result": "W"
+      },
+      {
+        "opponent": "Czechia",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Guillermo Martínez",
+    "country": "Mexico",
+    "position": "FWD",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Czechia",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -12344,6 +12488,14 @@
         "saves": 0,
         "goalsConceded": 0,
         "result": "W"
+      },
+      {
+        "opponent": "Czechia",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -12413,6 +12565,14 @@
         "saves": 0,
         "goalsConceded": 0,
         "result": "W"
+      },
+      {
+        "opponent": "Czechia",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -12439,6 +12599,14 @@
         "saves": 0,
         "goalsConceded": 0,
         "result": "W"
+      },
+      {
+        "opponent": "Czechia",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -12473,6 +12641,30 @@
         "saves": 0,
         "goalsConceded": 0,
         "result": "W"
+      },
+      {
+        "opponent": "Czechia",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Mateo Chávez",
+    "country": "Mexico",
+    "position": "DEF",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Czechia",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -12559,6 +12751,14 @@
         "saves": 2,
         "goalsConceded": 0,
         "result": "W"
+      },
+      {
+        "opponent": "Czechia",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -12585,6 +12785,14 @@
         "saves": 0,
         "goalsConceded": 0,
         "result": "W"
+      },
+      {
+        "opponent": "Czechia",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -17955,13 +18163,21 @@
         "saves": 0,
         "goalsConceded": 1,
         "result": "D"
+      },
+      {
+        "opponent": "South Korea",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
   {
     "name": "Evidence Makgopa",
     "country": "South Africa",
-    "position": "",
+    "position": "FWD",
     "managers": [],
     "matches": [
       {
@@ -17981,6 +18197,14 @@
         "saves": 0,
         "goalsConceded": 0,
         "result": "D"
+      },
+      {
+        "opponent": "South Korea",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -18007,6 +18231,14 @@
         "saves": 0,
         "goalsConceded": 1,
         "result": "D"
+      },
+      {
+        "opponent": "South Korea",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -18102,6 +18334,14 @@
         "saves": 0,
         "goalsConceded": 1,
         "result": "D"
+      },
+      {
+        "opponent": "South Korea",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -18145,6 +18385,14 @@
         "saves": 0,
         "goalsConceded": 1,
         "result": "D"
+      },
+      {
+        "opponent": "South Korea",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -18188,13 +18436,21 @@
         "saves": 0,
         "goalsConceded": 1,
         "result": "D"
+      },
+      {
+        "opponent": "South Korea",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
   {
     "name": "Relebohile Mofokeng",
     "country": "South Africa",
-    "position": "",
+    "position": "MID",
     "managers": [],
     "matches": [
       {
@@ -18205,6 +18461,14 @@
         "saves": 0,
         "goalsConceded": 0,
         "result": "D"
+      },
+      {
+        "opponent": "South Korea",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -18231,6 +18495,14 @@
         "saves": 2,
         "goalsConceded": 1,
         "result": "D"
+      },
+      {
+        "opponent": "South Korea",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -18248,6 +18520,14 @@
         "saves": 0,
         "goalsConceded": 1,
         "result": "L"
+      },
+      {
+        "opponent": "South Korea",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -18300,6 +18580,14 @@
         "saves": 0,
         "goalsConceded": 1,
         "result": "D"
+      },
+      {
+        "opponent": "South Korea",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -18317,6 +18605,14 @@
         "saves": 0,
         "goalsConceded": 1,
         "result": "D"
+      },
+      {
+        "opponent": "South Korea",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -18383,7 +18679,7 @@
   {
     "name": "Hwang Hee-Chan",
     "country": "South Korea",
-    "position": "",
+    "position": "FWD",
     "managers": [],
     "matches": [
       {
@@ -18403,6 +18699,14 @@
         "saves": 0,
         "goalsConceded": 0,
         "result": "L"
+      },
+      {
+        "opponent": "South Africa",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -18429,6 +18733,14 @@
         "saves": 0,
         "goalsConceded": 1,
         "result": "L"
+      },
+      {
+        "opponent": "South Africa",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -18472,6 +18784,14 @@
         "saves": 0,
         "goalsConceded": 1,
         "result": "L"
+      },
+      {
+        "opponent": "South Africa",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 1,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -18515,6 +18835,14 @@
         "saves": 3,
         "goalsConceded": 1,
         "result": "L"
+      },
+      {
+        "opponent": "South Africa",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -18541,6 +18869,14 @@
         "saves": 0,
         "goalsConceded": 1,
         "result": "L"
+      },
+      {
+        "opponent": "South Africa",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -18567,6 +18903,14 @@
         "saves": 0,
         "goalsConceded": 1,
         "result": "L"
+      },
+      {
+        "opponent": "South Africa",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -18619,6 +18963,14 @@
         "saves": 0,
         "goalsConceded": 1,
         "result": "L"
+      },
+      {
+        "opponent": "South Africa",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -18636,6 +18988,14 @@
         "saves": 0,
         "goalsConceded": 1,
         "result": "W"
+      },
+      {
+        "opponent": "South Africa",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -18662,6 +19022,14 @@
         "saves": 0,
         "goalsConceded": 0,
         "result": "L"
+      },
+      {
+        "opponent": "South Africa",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -18688,6 +19056,14 @@
         "saves": 0,
         "goalsConceded": 1,
         "result": "L"
+      },
+      {
+        "opponent": "South Africa",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -18731,6 +19107,14 @@
         "saves": 0,
         "goalsConceded": 1,
         "result": "L"
+      },
+      {
+        "opponent": "South Africa",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },

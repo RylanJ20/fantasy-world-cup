@@ -46,6 +46,15 @@
         "shotsOnGoal": 0,
         "goalsConceded": 1,
         "result": "D"
+      },
+      {
+        "fixtureId": 760467,
+        "opponent": "Mexico",
+        "date": "2026-06-25T01:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "goalsConceded": 0
       }
     ]
   },
