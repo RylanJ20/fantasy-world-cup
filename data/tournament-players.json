@@ -7080,6 +7080,22 @@
     ]
   },
   {
+    "name": "Félix Torres",
+    "country": "Ecuador",
+    "position": "",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Germany",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
     "name": "Gonzalo Plata",
     "country": "Ecuador",
     "position": "FWD",
@@ -7254,6 +7270,14 @@
         "saves": 0,
         "goalsConceded": 0,
         "result": "D"
+      },
+      {
+        "opponent": "Germany",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
