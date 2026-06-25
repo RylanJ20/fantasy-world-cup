@@ -7383,6 +7383,14 @@
         "saves": 0,
         "goalsConceded": 0,
         "result": "D"
+      },
+      {
+        "opponent": "Germany",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -9408,6 +9416,22 @@
         "saves": 0,
         "goalsConceded": 1,
         "result": "W"
+      }
+    ]
+  },
+  {
+    "name": "Pascal Gross",
+    "country": "Germany",
+    "position": "",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Ecuador",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
