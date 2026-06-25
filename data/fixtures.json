@@ -678,7 +678,7 @@
     "stage": "Group F",
     "home": "Japan",
     "away": "Sweden",
-    "status": "PAUSED",
+    "status": "IN_PLAY",
     "homeScore": 0,
     "awayScore": 0,
     "winner": null
