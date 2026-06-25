@@ -678,7 +678,7 @@
     "stage": "Group F",
     "home": "Japan",
     "away": "Sweden",
-    "status": "IN_PLAY",
+    "status": "PAUSED",
     "homeScore": 0,
     "awayScore": 0,
     "winner": null
@@ -690,7 +690,7 @@
     "stage": "Group F",
     "home": "Tunisia",
     "away": "Netherlands",
-    "status": "IN_PLAY",
+    "status": "PAUSED",
     "homeScore": 0,
     "awayScore": 2,
     "winner": null
