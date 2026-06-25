@@ -654,10 +654,10 @@
     "stage": "Group E",
     "home": "Ecuador",
     "away": "Germany",
-    "status": "FINISHED",
+    "status": "IN_PLAY",
     "homeScore": 2,
     "awayScore": 1,
-    "winner": "HOME_TEAM"
+    "winner": null
   },
   {
     "n": 760473,
@@ -666,10 +666,10 @@
     "stage": "Group E",
     "home": "Curaçao",
     "away": "Ivory Coast",
-    "status": "FINISHED",
+    "status": "IN_PLAY",
     "homeScore": 0,
     "awayScore": 2,
-    "winner": "AWAY_TEAM"
+    "winner": null
   },
   {
     "n": 760471,
@@ -916,7 +916,7 @@
     "date": "2026-06-30",
     "utcDate": "2026-06-30T17:00:00Z",
     "stage": "Round of 32",
-    "home": "Ivory Coast",
+    "home": "Group E 2nd Place",
     "away": "Group I 2nd Place",
     "status": "TIMED",
     "homeScore": null,
