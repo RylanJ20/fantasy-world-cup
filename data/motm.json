@@ -20,6 +20,11 @@
     "opponent": "Türkiye"
   },
   {
+    "player": "Kerim Alajbegovic",
+    "country": "Bosnia-Herzegovina",
+    "opponent": "Qatar"
+  },
+  {
     "player": "Vinicius Jr",
     "country": "Brazil",
     "opponent": "Morocco"
@@ -28,6 +33,11 @@
     "player": "Vinícius Júnior",
     "country": "Brazil",
     "opponent": "Haiti"
+  },
+  {
+    "player": "Vinícius Júnior",
+    "country": "Brazil",
+    "opponent": "Scotland"
   },
   {
     "player": "Kevin Pina",
@@ -150,6 +160,11 @@
     "opponent": "South Korea"
   },
   {
+    "player": "Achraf Hakimi",
+    "country": "Morocco",
+    "opponent": "Haiti"
+  },
+  {
     "player": "Ismael Saibari",
     "country": "Morocco",
     "opponent": "Scotland"
@@ -223,6 +238,11 @@
     "player": "Johan Manzambi",
     "country": "Switzerland",
     "opponent": "Bosnia-Herzegovina"
+  },
+  {
+    "player": "Johan Manzambi",
+    "country": "Switzerland",
+    "opponent": "Canada"
   },
   {
     "player": "Folarin Balogun",
