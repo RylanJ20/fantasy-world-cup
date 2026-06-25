@@ -654,7 +654,7 @@
     "stage": "Group E",
     "home": "Ecuador",
     "away": "Germany",
-    "status": "IN_PLAY",
+    "status": "PAUSED",
     "homeScore": 1,
     "awayScore": 1,
     "winner": null
@@ -666,7 +666,7 @@
     "stage": "Group E",
     "home": "Curaçao",
     "away": "Ivory Coast",
-    "status": "IN_PLAY",
+    "status": "PAUSED",
     "homeScore": 0,
     "awayScore": 1,
     "winner": null

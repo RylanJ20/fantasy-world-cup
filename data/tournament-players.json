@@ -8823,6 +8823,22 @@
     ]
   },
   {
+    "name": "Angelo Stiller",
+    "country": "Germany",
+    "position": "",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Ecuador",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
     "name": "Antonio Rüdiger",
     "country": "Germany",
     "position": "DEF",
