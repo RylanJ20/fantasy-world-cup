@@ -19,6 +19,8 @@
 
 /* eslint-disable @typescript-eslint/no-explicit-any -- ESPN API payloads are dynamic JSON */
 
+import { normalizeName } from "@/lib/names";
+
 export type PenaltyKind = "scored" | "saved" | "missed" | "unknown";
 
 export interface PenaltyEvent {
@@ -43,8 +45,10 @@ const SAVED = /penalty\s+saved/i;
 const MISSED = /penalty\s+missed|misses the penalty|penalty[\s-]*missed/i;
 /** First "by <Name> (<Team>)" in a save sentence is the keeper (assists carry no team). */
 const BY_KEEPER = /\bby\s+([^()]+?)\s+\(([^)]+)\)/i;
-/** "Penalty saved! <Taker> (<Team>) …" — the taker leads the save sentence. */
-const SAVE_TAKER = /penalty\s+saved!?\s*([^()]+?)\s+\(([^)]+)\)/i;
+/** "Penalty saved! <Taker> (<Team>) …" — the taker leads the save sentence.
+ *  ESPN ends the lead with either "!" or ".", so consume any punctuation/space
+ *  before the name (otherwise a "Penalty saved." leaks a ". " into the taker). */
+const SAVE_TAKER = /penalty\s+saved[\s!.]*([^()]+?)\s+\(([^)]+)\)/i;
 
 function classify(text: string, typeText: string): PenaltyKind {
   if (SCORED.test(text) || /scored/i.test(typeText)) return "scored";
@@ -123,8 +127,14 @@ export function extractPenalties(summary: any): PenaltyEvent[] {
     const t = SAVE_TAKER.exec(text);
     const keeper = k?.[1]?.trim() ?? null;
     const taker = t?.[1]?.trim() ?? null;
-    // Skip if a keyEvent already captured this save (same keeper + taker).
-    if (out.some((e) => e.kind === "saved" && e.keeper === keeper && e.taker === taker)) continue;
+    // Skip if a keyEvent already captured this save. Compare on NORMALISED names:
+    // ESPN's keyEvent (structured participants) and commentary (free text) spell
+    // the same player differently — accents, or a stray "." leading the taker —
+    // so an exact-string check would let the duplicate through.
+    const sameName = (a: string | null, b: string | null) =>
+      normalizeName(a ?? "") === normalizeName(b ?? "");
+    if (out.some((e) => e.kind === "saved" && sameName(e.keeper, keeper) && sameName(e.taker, taker)))
+      continue;
     add(
       {
         kind: "saved",
