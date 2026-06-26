@@ -262,6 +262,13 @@
       "managers": []
     },
     {
+      "name": "Orlando Gil",
+      "country": "Paraguay",
+      "position": "GK",
+      "value": 11,
+      "managers": []
+    },
+    {
       "name": "Alisson Becker",
       "country": "Brazil",
       "position": "GK",
@@ -272,13 +279,6 @@
           "name": "Marc"
         }
       ]
-    },
-    {
-      "name": "Orlando Gil",
-      "country": "Paraguay",
-      "position": "GK",
-      "value": 10,
-      "managers": []
     },
     {
       "name": "Kim Seung-Gyu",
