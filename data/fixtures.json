@@ -714,10 +714,10 @@
     "stage": "Group D",
     "home": "Türkiye",
     "away": "United States",
-    "status": "FINISHED",
-    "homeScore": 3,
+    "status": "IN_PLAY",
+    "homeScore": 2,
     "awayScore": 2,
-    "winner": "HOME_TEAM"
+    "winner": null
   },
   {
     "n": 760474,
