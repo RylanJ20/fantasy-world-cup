@@ -727,7 +727,7 @@
     "home": "Senegal",
     "away": "Iraq",
     "status": "IN_PLAY",
-    "homeScore": 5,
+    "homeScore": 4,
     "awayScore": 0,
     "winner": null
   },
@@ -738,10 +738,10 @@
     "stage": "Group I",
     "home": "Norway",
     "away": "France",
-    "status": "FINISHED",
+    "status": "IN_PLAY",
     "homeScore": 1,
-    "awayScore": 4,
-    "winner": "AWAY_TEAM"
+    "awayScore": 3,
+    "winner": null
   },
   {
     "n": 760478,

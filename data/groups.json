@@ -453,25 +453,25 @@
       {
         "position": 3,
         "team": "Senegal",
-        "played": 2,
-        "won": 0,
+        "played": 3,
+        "won": 1,
         "draw": 0,
         "lost": 2,
-        "gf": 3,
+        "gf": 8,
         "ga": 6,
-        "gd": -3,
-        "points": 0
+        "gd": 2,
+        "points": 3
       },
       {
         "position": 4,
         "team": "Iraq",
-        "played": 2,
+        "played": 3,
         "won": 0,
         "draw": 0,
-        "lost": 2,
+        "lost": 3,
         "gf": 1,
-        "ga": 7,
-        "gd": -6,
+        "ga": 12,
+        "gd": -11,
         "points": 0
       }
     ]
