@@ -197,6 +197,13 @@
       "managers": []
     },
     {
+      "name": "Iliman Ndiaye",
+      "country": "Senegal",
+      "position": "MID",
+      "value": 2,
+      "managers": []
+    },
+    {
       "name": "Joshua Kimmich",
       "country": "Germany",
       "position": "DEF",
@@ -207,13 +214,6 @@
           "name": "Marc"
         }
       ]
-    },
-    {
-      "name": "Julio Enciso",
-      "country": "Paraguay",
-      "position": "FWD",
-      "value": 2,
-      "managers": []
     }
   ],
   "saves": [
