@@ -234,15 +234,15 @@
       "managers": []
     },
     {
-      "name": "Mahmoud Abunada",
-      "country": "Qatar",
+      "name": "Orlando Gil",
+      "country": "Paraguay",
       "position": "GK",
-      "value": 12,
+      "value": 13,
       "managers": []
     },
     {
-      "name": "Orlando Gil",
-      "country": "Paraguay",
+      "name": "Mahmoud Abunada",
+      "country": "Qatar",
       "position": "GK",
       "value": 12,
       "managers": []
@@ -269,6 +269,13 @@
       "managers": []
     },
     {
+      "name": "Patrick Beach",
+      "country": "Australia",
+      "position": "GK",
+      "value": 11,
+      "managers": []
+    },
+    {
       "name": "Alisson Becker",
       "country": "Brazil",
       "position": "GK",
@@ -279,13 +286,6 @@
           "name": "Marc"
         }
       ]
-    },
-    {
-      "name": "Patrick Beach",
-      "country": "Australia",
-      "position": "GK",
-      "value": 10,
-      "managers": []
     },
     {
       "name": "Kim Seung-Gyu",
@@ -322,6 +322,20 @@
       "country": "Mexico",
       "position": "DEF",
       "value": 3,
+      "managers": []
+    },
+    {
+      "name": "Alessandro Circati",
+      "country": "Australia",
+      "position": "DEF",
+      "value": 2,
+      "managers": []
+    },
+    {
+      "name": "Alexandro Maidana",
+      "country": "Paraguay",
+      "position": "DEF",
+      "value": 2,
       "managers": []
     },
     {
@@ -387,20 +401,6 @@
           "name": "Zach"
         }
       ]
-    },
-    {
-      "name": "Gideon Mensah",
-      "country": "Ghana",
-      "position": "DEF",
-      "value": 2,
-      "managers": []
-    },
-    {
-      "name": "Guela Doué",
-      "country": "Ivory Coast",
-      "position": "DEF",
-      "value": 2,
-      "managers": []
     }
   ]
 }
