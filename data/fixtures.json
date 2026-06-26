@@ -738,10 +738,10 @@
     "stage": "Group I",
     "home": "Norway",
     "away": "France",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "homeScore": 1,
-    "awayScore": 3,
-    "winner": null
+    "awayScore": 4,
+    "winner": "AWAY_TEAM"
   },
   {
     "n": 760478,
