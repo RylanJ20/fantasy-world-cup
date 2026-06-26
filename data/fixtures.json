@@ -702,10 +702,10 @@
     "stage": "Group D",
     "home": "Paraguay",
     "away": "Australia",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "homeScore": 0,
     "awayScore": 0,
-    "winner": null
+    "winner": "DRAW"
   },
   {
     "n": 760470,
@@ -714,10 +714,10 @@
     "stage": "Group D",
     "home": "Türkiye",
     "away": "United States",
-    "status": "IN_PLAY",
-    "homeScore": 2,
+    "status": "FINISHED",
+    "homeScore": 3,
     "awayScore": 2,
-    "winner": null
+    "winner": "HOME_TEAM"
   },
   {
     "n": 760474,
