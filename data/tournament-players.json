@@ -8708,6 +8708,14 @@
         "saves": 0,
         "goalsConceded": 0,
         "result": "W"
+      },
+      {
+        "opponent": "Norway",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -9034,7 +9042,7 @@
         "goals": 0,
         "assists": 0,
         "shotsOnGoal": 0,
-        "saves": 2,
+        "saves": 3,
         "goalsConceded": 1
       }
     ]
@@ -9106,6 +9114,14 @@
         "saves": 0,
         "goalsConceded": 0,
         "result": "W"
+      },
+      {
+        "opponent": "Norway",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -11277,6 +11293,22 @@
     ]
   },
   {
+    "name": "Ahmed Maknazi",
+    "country": "Iraq",
+    "position": "",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Senegal",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 1
+      }
+    ]
+  },
+  {
     "name": "Ahmed Qasim",
     "country": "Iraq",
     "position": "MID",
@@ -11357,7 +11389,7 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 2
+        "goalsConceded": 3
       }
     ]
   },
@@ -11421,6 +11453,22 @@
     ]
   },
   {
+    "name": "Ali Yousif",
+    "country": "Iraq",
+    "position": "",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Senegal",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 1
+      }
+    ]
+  },
+  {
     "name": "Amir Al-Ammari",
     "country": "Iraq",
     "position": "MID",
@@ -11450,7 +11498,7 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 2
+        "goalsConceded": 3
       }
     ]
   },
@@ -11492,7 +11540,7 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 2
+        "goalsConceded": 3
       }
     ]
   },
@@ -11552,7 +11600,7 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 2
+        "goalsConceded": 3
       }
     ]
   },
@@ -11577,7 +11625,7 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 1,
-        "goalsConceded": 1
+        "goalsConceded": 2
       }
     ]
   },
@@ -11637,7 +11685,7 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 2
+        "goalsConceded": 3
       }
     ]
   },
@@ -11670,7 +11718,7 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 1
+        "goalsConceded": 2
       }
     ]
   },
@@ -11815,7 +11863,7 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 2
+        "goalsConceded": 3
       }
     ]
   },
@@ -16229,7 +16277,7 @@
         "opponent": "France",
         "goals": 0,
         "assists": 0,
-        "shotsOnGoal": 0,
+        "shotsOnGoal": 1,
         "saves": 0,
         "goalsConceded": 3
       }
@@ -19705,7 +19753,7 @@
       {
         "opponent": "Iraq",
         "goals": 1,
-        "assists": 0,
+        "assists": 1,
         "shotsOnGoal": 2,
         "saves": 0,
         "goalsConceded": 0
@@ -19925,9 +19973,9 @@
       },
       {
         "opponent": "Iraq",
-        "goals": 0,
+        "goals": 1,
         "assists": 0,
-        "shotsOnGoal": 0,
+        "shotsOnGoal": 1,
         "saves": 0,
         "goalsConceded": 0
       }
@@ -19973,6 +20021,14 @@
         "saves": 0,
         "goalsConceded": 0,
         "result": "L"
+      },
+      {
+        "opponent": "Iraq",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
