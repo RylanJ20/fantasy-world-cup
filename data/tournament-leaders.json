@@ -190,6 +190,13 @@
       ]
     },
     {
+      "name": "Hannibal Mejbri",
+      "country": "Tunisia",
+      "position": "MID",
+      "value": 2,
+      "managers": []
+    },
+    {
       "name": "Joshua Kimmich",
       "country": "Germany",
       "position": "DEF",
@@ -207,18 +214,6 @@
       "position": "FWD",
       "value": 2,
       "managers": []
-    },
-    {
-      "name": "Martin Ødegaard",
-      "country": "Norway",
-      "position": "MID",
-      "value": 2,
-      "managers": [
-        {
-          "id": "terrick",
-          "name": "Terrick"
-        }
-      ]
     }
   ],
   "saves": [
