@@ -11570,6 +11570,14 @@
         "saves": 2,
         "goalsConceded": 4,
         "result": "L"
+      },
+      {
+        "opponent": "Senegal",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -15973,7 +15981,7 @@
         "opponent": "France",
         "goals": 0,
         "assists": 0,
-        "shotsOnGoal": 0,
+        "shotsOnGoal": 1,
         "saves": 0,
         "goalsConceded": 3
       }
