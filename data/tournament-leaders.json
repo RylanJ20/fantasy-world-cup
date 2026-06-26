@@ -91,15 +91,20 @@
       "managers": []
     },
     {
-      "name": "Anthony Elanga",
-      "country": "Sweden",
-      "position": "FWD",
-      "value": 2,
-      "managers": []
+      "name": "Ousmane Dembélé",
+      "country": "France",
+      "position": "MID",
+      "value": 3,
+      "managers": [
+        {
+          "id": "alejandro",
+          "name": "Alejandro"
+        }
+      ]
     },
     {
-      "name": "Ayase Ueda",
-      "country": "Japan",
+      "name": "Anthony Elanga",
+      "country": "Sweden",
       "position": "FWD",
       "value": 2,
       "managers": []

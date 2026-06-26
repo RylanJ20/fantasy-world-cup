@@ -727,7 +727,7 @@
     "home": "Senegal",
     "away": "Iraq",
     "status": "IN_PLAY",
-    "homeScore": 0,
+    "homeScore": 1,
     "awayScore": 0,
     "winner": null
   },
@@ -739,8 +739,8 @@
     "home": "Norway",
     "away": "France",
     "status": "IN_PLAY",
-    "homeScore": 0,
-    "awayScore": 0,
+    "homeScore": 1,
+    "awayScore": 2,
     "winner": null
   },
   {
