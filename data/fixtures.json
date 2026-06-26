@@ -702,7 +702,7 @@
     "stage": "Group D",
     "home": "Paraguay",
     "away": "Australia",
-    "status": "IN_PLAY",
+    "status": "PAUSED",
     "homeScore": 0,
     "awayScore": 0,
     "winner": null
@@ -714,7 +714,7 @@
     "stage": "Group D",
     "home": "Türkiye",
     "away": "United States",
-    "status": "IN_PLAY",
+    "status": "PAUSED",
     "homeScore": 2,
     "awayScore": 1,
     "winner": null
