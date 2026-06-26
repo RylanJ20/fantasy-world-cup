@@ -678,10 +678,10 @@
     "stage": "Group F",
     "home": "Japan",
     "away": "Sweden",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "homeScore": 1,
     "awayScore": 1,
-    "winner": null
+    "winner": "DRAW"
   },
   {
     "n": 760472,
@@ -881,7 +881,7 @@
     "utcDate": "2026-06-29T17:00:00Z",
     "stage": "Round of 32",
     "home": "Brazil",
-    "away": "Group F 2nd Place",
+    "away": "Japan",
     "status": "TIMED",
     "homeScore": null,
     "awayScore": null,
@@ -904,7 +904,7 @@
     "date": "2026-06-30",
     "utcDate": "2026-06-30T01:00:00Z",
     "stage": "Round of 32",
-    "home": "Group F Winner",
+    "home": "Netherlands",
     "away": "Morocco",
     "status": "TIMED",
     "homeScore": null,
