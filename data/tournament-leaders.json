@@ -241,6 +241,13 @@
       "managers": []
     },
     {
+      "name": "Orlando Gil",
+      "country": "Paraguay",
+      "position": "GK",
+      "value": 12,
+      "managers": []
+    },
+    {
       "name": "Bart Verbruggen",
       "country": "Netherlands",
       "position": "GK",
@@ -257,13 +264,6 @@
     {
       "name": "Johny Placide",
       "country": "Haiti",
-      "position": "GK",
-      "value": 11,
-      "managers": []
-    },
-    {
-      "name": "Orlando Gil",
-      "country": "Paraguay",
       "position": "GK",
       "value": 11,
       "managers": []
