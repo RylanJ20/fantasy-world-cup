@@ -120,6 +120,11 @@
     "opponent": "Senegal"
   },
   {
+    "player": "Ousmane Dembélé",
+    "country": "France",
+    "opponent": "Norway"
+  },
+  {
     "player": "Deniz Undav",
     "country": "Germany",
     "opponent": "Ivory Coast"
@@ -243,6 +248,11 @@
     "player": "John McGinn",
     "country": "Scotland",
     "opponent": "Haiti"
+  },
+  {
+    "player": "Pape Gueye",
+    "country": "Senegal",
+    "opponent": "Iraq"
   },
   {
     "player": "Thapelo Maseko",
