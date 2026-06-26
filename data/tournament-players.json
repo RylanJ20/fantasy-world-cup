@@ -20933,6 +20933,14 @@
         "saves": 0,
         "goalsConceded": 4,
         "result": "L"
+      },
+      {
+        "opponent": "Japan",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -20950,6 +20958,22 @@
         "saves": 0,
         "goalsConceded": 1,
         "result": "L"
+      }
+    ]
+  },
+  {
+    "name": "Carl Starfelt",
+    "country": "Sweden",
+    "position": "",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Japan",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -22509,6 +22533,14 @@
         "saves": 0,
         "goalsConceded": 2,
         "result": "L"
+      },
+      {
+        "opponent": "Netherlands",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
