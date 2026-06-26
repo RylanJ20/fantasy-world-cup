@@ -274,6 +274,13 @@
       ]
     },
     {
+      "name": "Orlando Gil",
+      "country": "Paraguay",
+      "position": "GK",
+      "value": 10,
+      "managers": []
+    },
+    {
       "name": "Kim Seung-Gyu",
       "country": "South Korea",
       "position": "GK",
@@ -283,13 +290,6 @@
     {
       "name": "Matej Kovár",
       "country": "Czechia",
-      "position": "GK",
-      "value": 9,
-      "managers": []
-    },
-    {
-      "name": "Orlando Gil",
-      "country": "Paraguay",
       "position": "GK",
       "value": 9,
       "managers": []
