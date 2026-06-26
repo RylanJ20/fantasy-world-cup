@@ -82,6 +82,13 @@
       "managers": []
     },
     {
+      "name": "Ismaïla Sarr",
+      "country": "Senegal",
+      "position": "MID",
+      "value": 3,
+      "managers": []
+    },
+    {
       "name": "Johan Manzambi",
       "country": "Switzerland",
       "position": "MID",
@@ -100,13 +107,6 @@
       "country": "Brazil",
       "position": "FWD",
       "value": 3,
-      "managers": []
-    },
-    {
-      "name": "Anthony Elanga",
-      "country": "Sweden",
-      "position": "FWD",
-      "value": 2,
       "managers": []
     }
   ],
