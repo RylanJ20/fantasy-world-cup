@@ -946,6 +946,22 @@
     ]
   },
   {
+    "name": "Ajdin Hrustic",
+    "country": "Australia",
+    "position": "",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Paraguay",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
     "name": "Alessandro Circati",
     "country": "Australia",
     "position": "DEF",
@@ -23518,6 +23534,14 @@
         "saves": 0,
         "goalsConceded": 0,
         "result": "W"
+      },
+      {
+        "opponent": "Türkiye",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
