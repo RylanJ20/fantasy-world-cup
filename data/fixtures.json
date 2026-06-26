@@ -726,7 +726,7 @@
     "stage": "Group I",
     "home": "Senegal",
     "away": "Iraq",
-    "status": "IN_PLAY",
+    "status": "PAUSED",
     "homeScore": 1,
     "awayScore": 0,
     "winner": null
