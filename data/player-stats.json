@@ -842,7 +842,7 @@
         "date": "2026-06-25T23:00Z",
         "goals": 0,
         "assists": 0,
-        "shotsOnGoal": 1,
+        "shotsOnGoal": 2,
         "goalsConceded": 1
       }
     ]
@@ -874,7 +874,7 @@
         "opponent": "Tunisia",
         "date": "2026-06-25T23:00Z",
         "goals": 0,
-        "assists": 0,
+        "assists": 1,
         "shotsOnGoal": 1
       }
     ]
@@ -1096,7 +1096,7 @@
         "opponent": "Japan",
         "date": "2026-06-25T23:00Z",
         "goals": 0,
-        "assists": 0,
+        "assists": 1,
         "shotsOnGoal": 0
       }
     ]

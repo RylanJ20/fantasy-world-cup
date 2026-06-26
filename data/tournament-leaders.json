@@ -91,23 +91,18 @@
       "managers": []
     },
     {
-      "name": "Ayase Ueda",
-      "country": "Japan",
+      "name": "Anthony Elanga",
+      "country": "Sweden",
       "position": "FWD",
       "value": 2,
       "managers": []
     },
     {
-      "name": "Cody Gakpo",
-      "country": "Netherlands",
+      "name": "Ayase Ueda",
+      "country": "Japan",
       "position": "FWD",
       "value": 2,
-      "managers": [
-        {
-          "id": "rylan",
-          "name": "Rylan"
-        }
-      ]
+      "managers": []
     }
   ],
   "assists": [
