@@ -726,9 +726,9 @@
     "stage": "Group I",
     "home": "Senegal",
     "away": "Iraq",
-    "status": "TIMED",
-    "homeScore": null,
-    "awayScore": null,
+    "status": "IN_PLAY",
+    "homeScore": 1,
+    "awayScore": 0,
     "winner": null
   },
   {
@@ -738,9 +738,9 @@
     "stage": "Group I",
     "home": "Norway",
     "away": "France",
-    "status": "TIMED",
-    "homeScore": null,
-    "awayScore": null,
+    "status": "IN_PLAY",
+    "homeScore": 0,
+    "awayScore": 1,
     "winner": null
   },
   {
