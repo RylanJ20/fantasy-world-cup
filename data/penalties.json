@@ -1,11 +1,11 @@
 {
   "summary": {
-    "total": 9,
+    "total": 8,
     "scored": 6,
-    "saved": 2,
+    "saved": 1,
     "missed": 1,
     "unknown": 0,
-    "inPlaySaves": 2,
+    "inPlaySaves": 1,
     "shootoutSaves": 0
   },
   "events": [
@@ -108,20 +108,6 @@
       "shootout": false,
       "kind": "saved",
       "taker": "Jørgen Strand Larsen",
-      "takerTeam": "Norway",
-      "keeper": "Mike Maignan",
-      "keeperTeam": "France",
-      "draftedKeeper": "Mike Maignan (Zach)",
-      "text": "Penalty saved. Jørgen Strand Larsen (Norway) right footed shot saved in the bottom right corner by Mike Maignan (France)."
-    },
-    {
-      "fixtureId": 760475,
-      "match": "France at Norway",
-      "date": "2026-06-26T19:00Z",
-      "minute": "50'",
-      "shootout": false,
-      "kind": "saved",
-      "taker": ". Jørgen Strand Larsen",
       "takerTeam": "Norway",
       "keeper": "Mike Maignan",
       "keeperTeam": "France",
