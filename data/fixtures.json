@@ -690,10 +690,10 @@
     "stage": "Group F",
     "home": "Tunisia",
     "away": "Netherlands",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "homeScore": 1,
     "awayScore": 3,
-    "winner": null
+    "winner": "AWAY_TEAM"
   },
   {
     "n": 760469,
