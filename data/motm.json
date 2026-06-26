@@ -15,6 +15,11 @@
     "opponent": "Austria"
   },
   {
+    "player": "Aiden O'Neill",
+    "country": "Australia",
+    "opponent": "Paraguay"
+  },
+  {
     "player": "Nestory Irankunda",
     "country": "Australia",
     "opponent": "Türkiye"
@@ -273,6 +278,11 @@
     "player": "Johan Manzambi",
     "country": "Switzerland",
     "opponent": "Canada"
+  },
+  {
+    "player": "Arda Güler",
+    "country": "Türkiye",
+    "opponent": "United States"
   },
   {
     "player": "Folarin Balogun",
