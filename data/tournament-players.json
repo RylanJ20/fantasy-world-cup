@@ -16376,6 +16376,14 @@
         "saves": 0,
         "goalsConceded": 1,
         "result": "L"
+      },
+      {
+        "opponent": "Australia",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -23335,7 +23343,7 @@
         "goals": 0,
         "assists": 0,
         "shotsOnGoal": 0,
-        "saves": 4,
+        "saves": 5,
         "goalsConceded": 2
       }
     ]
@@ -23539,7 +23547,7 @@
         "opponent": "Türkiye",
         "goals": 0,
         "assists": 0,
-        "shotsOnGoal": 0,
+        "shotsOnGoal": 2,
         "saves": 0,
         "goalsConceded": 0
       }
