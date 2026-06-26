@@ -106,6 +106,15 @@
         "shotsOnGoal": 0,
         "goalsConceded": 0,
         "result": "W"
+      },
+      {
+        "fixtureId": 760470,
+        "opponent": "Türkiye",
+        "date": "2026-06-26T02:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -505,6 +514,14 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "result": "L"
+      },
+      {
+        "fixtureId": 760470,
+        "opponent": "United States",
+        "date": "2026-06-26T02:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0
       }
     ]
   },

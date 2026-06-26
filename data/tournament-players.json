@@ -934,6 +934,14 @@
         "saves": 0,
         "goalsConceded": 2,
         "result": "L"
+      },
+      {
+        "opponent": "Paraguay",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -960,13 +968,21 @@
         "saves": 0,
         "goalsConceded": 2,
         "result": "L"
+      },
+      {
+        "opponent": "Paraguay",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
   {
     "name": "Aziz Behich",
     "country": "Australia",
-    "position": "",
+    "position": "MID",
     "managers": [],
     "matches": [
       {
@@ -977,6 +993,14 @@
         "saves": 0,
         "goalsConceded": 0,
         "result": "W"
+      },
+      {
+        "opponent": "Paraguay",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -1029,13 +1053,21 @@
         "saves": 0,
         "goalsConceded": 0,
         "result": "L"
+      },
+      {
+        "opponent": "Paraguay",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
   {
     "name": "Cristian Volpato",
     "country": "Australia",
-    "position": "",
+    "position": "FWD",
     "managers": [],
     "matches": [
       {
@@ -1046,6 +1078,14 @@
         "saves": 0,
         "goalsConceded": 0,
         "result": "L"
+      },
+      {
+        "opponent": "Paraguay",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -1072,13 +1112,21 @@
         "saves": 0,
         "goalsConceded": 2,
         "result": "L"
+      },
+      {
+        "opponent": "Paraguay",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
   {
     "name": "Jackson Irvine",
     "country": "Australia",
-    "position": "",
+    "position": "MID",
     "managers": [],
     "matches": [
       {
@@ -1098,6 +1146,14 @@
         "saves": 0,
         "goalsConceded": 0,
         "result": "L"
+      },
+      {
+        "opponent": "Paraguay",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 1,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -1176,6 +1232,30 @@
         "saves": 0,
         "goalsConceded": 2,
         "result": "L"
+      },
+      {
+        "opponent": "Paraguay",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Lucas Herrington",
+    "country": "Australia",
+    "position": "DEF",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Paraguay",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -1245,6 +1325,14 @@
         "saves": 0,
         "goalsConceded": 0,
         "result": "L"
+      },
+      {
+        "opponent": "Paraguay",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -1297,6 +1385,14 @@
         "saves": 1,
         "goalsConceded": 2,
         "result": "L"
+      },
+      {
+        "opponent": "Paraguay",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -16270,7 +16366,7 @@
   {
     "name": "Alexandro Maidana",
     "country": "Paraguay",
-    "position": "",
+    "position": "DEF",
     "managers": [],
     "matches": [
       {
@@ -16281,6 +16377,14 @@
         "saves": 0,
         "goalsConceded": 0,
         "result": "W"
+      },
+      {
+        "opponent": "Australia",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -16307,6 +16411,14 @@
         "saves": 0,
         "goalsConceded": 0,
         "result": "W"
+      },
+      {
+        "opponent": "Australia",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -16376,13 +16488,21 @@
         "saves": 0,
         "goalsConceded": 0,
         "result": "W"
+      },
+      {
+        "opponent": "Australia",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
   {
     "name": "Gabriel Ávalos",
     "country": "Paraguay",
-    "position": "",
+    "position": "FWD",
     "managers": [],
     "matches": [
       {
@@ -16393,6 +16513,14 @@
         "saves": 0,
         "goalsConceded": 0,
         "result": "W"
+      },
+      {
+        "opponent": "Australia",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -16419,13 +16547,21 @@
         "saves": 0,
         "goalsConceded": 0,
         "result": "W"
+      },
+      {
+        "opponent": "Australia",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
   {
     "name": "Gustavo Velázquez",
     "country": "Paraguay",
-    "position": "",
+    "position": "DEF",
     "managers": [],
     "matches": [
       {
@@ -16445,6 +16581,14 @@
         "saves": 0,
         "goalsConceded": 0,
         "result": "W"
+      },
+      {
+        "opponent": "Australia",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -16505,6 +16649,14 @@
         "saves": 0,
         "goalsConceded": 0,
         "result": "W"
+      },
+      {
+        "opponent": "Australia",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -16531,6 +16683,14 @@
         "saves": 0,
         "goalsConceded": 0,
         "result": "W"
+      },
+      {
+        "opponent": "Australia",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -16574,6 +16734,14 @@
         "saves": 0,
         "goalsConceded": 0,
         "result": "W"
+      },
+      {
+        "opponent": "Australia",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -16643,6 +16811,14 @@
         "saves": 0,
         "goalsConceded": 0,
         "result": "W"
+      },
+      {
+        "opponent": "Australia",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -16669,6 +16845,14 @@
         "saves": 5,
         "goalsConceded": 0,
         "result": "W"
+      },
+      {
+        "opponent": "Australia",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 1,
+        "goalsConceded": 0
       }
     ]
   },
@@ -22665,6 +22849,14 @@
         "saves": 0,
         "goalsConceded": 1,
         "result": "L"
+      },
+      {
+        "opponent": "United States",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 1
       }
     ]
   },
@@ -22696,6 +22888,14 @@
         "saves": 0,
         "goalsConceded": 1,
         "result": "L"
+      },
+      {
+        "opponent": "United States",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 1
       }
     ]
   },
@@ -22722,6 +22922,14 @@
         "saves": 0,
         "goalsConceded": 0,
         "result": "L"
+      },
+      {
+        "opponent": "United States",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 1
       }
     ]
   },
@@ -22771,7 +22979,7 @@
   {
     "name": "Eren Elmali",
     "country": "Türkiye",
-    "position": "",
+    "position": "DEF",
     "managers": [],
     "matches": [
       {
@@ -22782,6 +22990,14 @@
         "saves": 0,
         "goalsConceded": 0,
         "result": "L"
+      },
+      {
+        "opponent": "United States",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 1
       }
     ]
   },
@@ -22886,6 +23102,14 @@
         "saves": 0,
         "goalsConceded": 1,
         "result": "L"
+      },
+      {
+        "opponent": "United States",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 1
       }
     ]
   },
@@ -22968,6 +23192,22 @@
     ]
   },
   {
+    "name": "Oguz Aydin",
+    "country": "Türkiye",
+    "position": "DEF",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "United States",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 1
+      }
+    ]
+  },
+  {
     "name": "Orkun Kökçü",
     "country": "Türkiye",
     "position": "MID",
@@ -22990,13 +23230,37 @@
         "saves": 0,
         "goalsConceded": 0,
         "result": "L"
+      },
+      {
+        "opponent": "United States",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 1
+      }
+    ]
+  },
+  {
+    "name": "Ozan Kabak",
+    "country": "Türkiye",
+    "position": "DEF",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "United States",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 1
       }
     ]
   },
   {
     "name": "Salih Özcan",
     "country": "Türkiye",
-    "position": "",
+    "position": "MID",
     "managers": [],
     "matches": [
       {
@@ -23007,6 +23271,14 @@
         "saves": 0,
         "goalsConceded": 0,
         "result": "L"
+      },
+      {
+        "opponent": "United States",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 1
       }
     ]
   },
@@ -23033,6 +23305,14 @@
         "saves": 1,
         "goalsConceded": 1,
         "result": "L"
+      },
+      {
+        "opponent": "United States",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 1,
+        "goalsConceded": 1
       }
     ]
   },
@@ -23076,6 +23356,14 @@
         "saves": 0,
         "goalsConceded": 2,
         "result": "L"
+      },
+      {
+        "opponent": "United States",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 1
       }
     ]
   },
@@ -23139,7 +23427,7 @@
   {
     "name": "Auston Trusty",
     "country": "United States",
-    "position": "",
+    "position": "DEF",
     "managers": [],
     "matches": [
       {
@@ -23150,6 +23438,30 @@
         "saves": 0,
         "goalsConceded": 0,
         "result": "W"
+      },
+      {
+        "opponent": "Türkiye",
+        "goals": 1,
+        "assists": 0,
+        "shotsOnGoal": 2,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Brenden Aaronson",
+    "country": "United States",
+    "position": "FWD",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Türkiye",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -23250,6 +23562,14 @@
         "saves": 0,
         "goalsConceded": 0,
         "result": "W"
+      },
+      {
+        "opponent": "Türkiye",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -23273,7 +23593,7 @@
   {
     "name": "Joe Scally",
     "country": "United States",
-    "position": "",
+    "position": "DEF",
     "managers": [],
     "matches": [
       {
@@ -23284,6 +23604,14 @@
         "saves": 0,
         "goalsConceded": 0,
         "result": "W"
+      },
+      {
+        "opponent": "Türkiye",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -23314,6 +23642,22 @@
     ]
   },
   {
+    "name": "Mark McKenzie",
+    "country": "United States",
+    "position": "DEF",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Türkiye",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
     "name": "Matt Freese",
     "country": "United States",
     "position": "GK",
@@ -23340,6 +23684,38 @@
     ]
   },
   {
+    "name": "Matt Turner",
+    "country": "United States",
+    "position": "GK",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Türkiye",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Miles Robinson",
+    "country": "United States",
+    "position": "DEF",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Türkiye",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
     "name": "Ricardo Pepi",
     "country": "United States",
     "position": "FWD",
@@ -23362,13 +23738,21 @@
         "saves": 0,
         "goalsConceded": 0,
         "result": "W"
+      },
+      {
+        "opponent": "Türkiye",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
   {
     "name": "Sebastian Berhalter",
     "country": "United States",
-    "position": "",
+    "position": "MID",
     "managers": [],
     "matches": [
       {
@@ -23388,6 +23772,14 @@
         "saves": 0,
         "goalsConceded": 0,
         "result": "W"
+      },
+      {
+        "opponent": "Türkiye",
+        "goals": 0,
+        "assists": 1,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -23446,7 +23838,7 @@
   {
     "name": "Timothy Weah",
     "country": "United States",
-    "position": "",
+    "position": "FWD",
     "managers": [],
     "matches": [
       {
@@ -23457,6 +23849,14 @@
         "saves": 0,
         "goalsConceded": 1,
         "result": "W"
+      },
+      {
+        "opponent": "Türkiye",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -23509,6 +23909,14 @@
         "saves": 0,
         "goalsConceded": 0,
         "result": "W"
+      },
+      {
+        "opponent": "Türkiye",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
