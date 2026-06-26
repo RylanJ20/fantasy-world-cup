@@ -241,6 +241,13 @@
       "managers": []
     },
     {
+      "name": "Bart Verbruggen",
+      "country": "Netherlands",
+      "position": "GK",
+      "value": 11,
+      "managers": []
+    },
+    {
       "name": "Gregor Kobel",
       "country": "Switzerland",
       "position": "GK",
@@ -265,13 +272,6 @@
           "name": "Marc"
         }
       ]
-    },
-    {
-      "name": "Bart Verbruggen",
-      "country": "Netherlands",
-      "position": "GK",
-      "value": 10,
-      "managers": []
     },
     {
       "name": "Kim Seung-Gyu",
