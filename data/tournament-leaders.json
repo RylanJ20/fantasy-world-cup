@@ -37,6 +37,18 @@
       ]
     },
     {
+      "name": "Ousmane Dembélé",
+      "country": "France",
+      "position": "MID",
+      "value": 4,
+      "managers": [
+        {
+          "id": "alejandro",
+          "name": "Alejandro"
+        }
+      ]
+    },
+    {
       "name": "Vinícius Júnior",
       "country": "Brazil",
       "position": "MID",
@@ -89,18 +101,6 @@
       "position": "FWD",
       "value": 3,
       "managers": []
-    },
-    {
-      "name": "Ousmane Dembélé",
-      "country": "France",
-      "position": "MID",
-      "value": 3,
-      "managers": [
-        {
-          "id": "alejandro",
-          "name": "Alejandro"
-        }
-      ]
     },
     {
       "name": "Anthony Elanga",
