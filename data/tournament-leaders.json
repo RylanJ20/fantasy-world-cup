@@ -274,6 +274,13 @@
       "managers": []
     },
     {
+      "name": "Max Crocombe",
+      "country": "New Zealand",
+      "position": "GK",
+      "value": 11,
+      "managers": []
+    },
+    {
       "name": "Patrick Beach",
       "country": "Australia",
       "position": "GK",
@@ -291,13 +298,6 @@
           "name": "Marc"
         }
       ]
-    },
-    {
-      "name": "Max Crocombe",
-      "country": "New Zealand",
-      "position": "GK",
-      "value": 10,
-      "managers": []
     },
     {
       "name": "Vozinha",
