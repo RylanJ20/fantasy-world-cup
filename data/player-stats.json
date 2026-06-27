@@ -2171,6 +2171,14 @@
         "assists": 1,
         "shotsOnGoal": 1,
         "result": "W"
+      },
+      {
+        "fixtureId": 760481,
+        "opponent": "Colombia",
+        "date": "2026-06-27T23:30Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0
       }
     ]
   },
@@ -2197,6 +2205,15 @@
         "shotsOnGoal": 0,
         "goalsConceded": 0,
         "result": "W"
+      },
+      {
+        "fixtureId": 760481,
+        "opponent": "Colombia",
+        "date": "2026-06-27T23:30Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -2225,6 +2242,16 @@
         "saves": 2,
         "goalsConceded": 0,
         "result": "W"
+      },
+      {
+        "fixtureId": 760481,
+        "opponent": "Colombia",
+        "date": "2026-06-27T23:30Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -2251,6 +2278,15 @@
         "shotsOnGoal": 1,
         "goalsConceded": 0,
         "result": "W"
+      },
+      {
+        "fixtureId": 760481,
+        "opponent": "Colombia",
+        "date": "2026-06-27T23:30Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -2275,6 +2311,14 @@
         "assists": 0,
         "shotsOnGoal": 5,
         "result": "W"
+      },
+      {
+        "fixtureId": 760481,
+        "opponent": "Colombia",
+        "date": "2026-06-27T23:30Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0
       }
     ]
   },
@@ -2299,6 +2343,14 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "result": "W"
+      },
+      {
+        "fixtureId": 760481,
+        "opponent": "Colombia",
+        "date": "2026-06-27T23:30Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0
       }
     ]
   },
@@ -2616,6 +2668,14 @@
         "assists": 0,
         "shotsOnGoal": 2,
         "result": "W"
+      },
+      {
+        "fixtureId": 760481,
+        "opponent": "Portugal",
+        "date": "2026-06-27T23:30Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0
       }
     ]
   },
@@ -2631,6 +2691,14 @@
         "assists": 0,
         "shotsOnGoal": 1,
         "result": "W"
+      },
+      {
+        "fixtureId": 760481,
+        "opponent": "Colombia",
+        "date": "2026-06-27T23:30Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0
       }
     ]
   },
@@ -2647,6 +2715,15 @@
         "shotsOnGoal": 0,
         "goalsConceded": 0,
         "result": "W"
+      },
+      {
+        "fixtureId": 760481,
+        "opponent": "Colombia",
+        "date": "2026-06-27T23:30Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "goalsConceded": 0
       }
     ]
   }
