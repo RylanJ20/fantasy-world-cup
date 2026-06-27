@@ -786,10 +786,10 @@
     "stage": "Group G",
     "home": "New Zealand",
     "away": "Belgium",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "homeScore": 1,
-    "awayScore": 4,
-    "winner": null
+    "awayScore": 5,
+    "winner": "AWAY_TEAM"
   },
   {
     "n": 760480,
