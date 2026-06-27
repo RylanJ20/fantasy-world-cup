@@ -3650,13 +3650,21 @@
         "saves": 0,
         "goalsConceded": 0,
         "result": "D"
+      },
+      {
+        "opponent": "Saudi Arabia",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
   {
     "name": "Deroy Duarte",
     "country": "Cabo Verde",
-    "position": "",
+    "position": "MID",
     "managers": [],
     "matches": [
       {
@@ -3676,6 +3684,14 @@
         "saves": 0,
         "goalsConceded": 0,
         "result": "D"
+      },
+      {
+        "opponent": "Saudi Arabia",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -3702,6 +3718,14 @@
         "saves": 0,
         "goalsConceded": 2,
         "result": "D"
+      },
+      {
+        "opponent": "Saudi Arabia",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -3779,13 +3803,21 @@
         "saves": 0,
         "goalsConceded": 2,
         "result": "D"
+      },
+      {
+        "opponent": "Saudi Arabia",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
   {
     "name": "João Paulo",
     "country": "Cabo Verde",
-    "position": "",
+    "position": "DEF",
     "managers": [],
     "matches": [
       {
@@ -3796,6 +3828,14 @@
         "saves": 0,
         "goalsConceded": 0,
         "result": "D"
+      },
+      {
+        "opponent": "Saudi Arabia",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -3839,6 +3879,14 @@
         "saves": 0,
         "goalsConceded": 2,
         "result": "D"
+      },
+      {
+        "opponent": "Saudi Arabia",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -3917,6 +3965,14 @@
         "saves": 0,
         "goalsConceded": 2,
         "result": "D"
+      },
+      {
+        "opponent": "Saudi Arabia",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -3943,6 +3999,14 @@
         "saves": 0,
         "goalsConceded": 2,
         "result": "D"
+      },
+      {
+        "opponent": "Saudi Arabia",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -4047,13 +4111,37 @@
         "saves": 0,
         "goalsConceded": 2,
         "result": "D"
+      },
+      {
+        "opponent": "Saudi Arabia",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Wagner Pina",
+    "country": "Cabo Verde",
+    "position": "DEF",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Saudi Arabia",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
   {
     "name": "Willy Semedo",
     "country": "Cabo Verde",
-    "position": "",
+    "position": "MID",
     "managers": [],
     "matches": [
       {
@@ -4064,6 +4152,14 @@
         "saves": 0,
         "goalsConceded": 0,
         "result": "D"
+      },
+      {
+        "opponent": "Saudi Arabia",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -18639,6 +18735,14 @@
         "saves": 0,
         "goalsConceded": 4,
         "result": "L"
+      },
+      {
+        "opponent": "Cabo Verde",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -18691,6 +18795,14 @@
         "saves": 0,
         "goalsConceded": 3,
         "result": "L"
+      },
+      {
+        "opponent": "Cabo Verde",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -18769,6 +18881,14 @@
         "saves": 0,
         "goalsConceded": 4,
         "result": "L"
+      },
+      {
+        "opponent": "Cabo Verde",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -18795,6 +18915,14 @@
         "saves": 0,
         "goalsConceded": 4,
         "result": "L"
+      },
+      {
+        "opponent": "Cabo Verde",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -18838,6 +18966,14 @@
         "saves": 0,
         "goalsConceded": 1,
         "result": "L"
+      },
+      {
+        "opponent": "Cabo Verde",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -18890,6 +19026,14 @@
         "saves": 5,
         "goalsConceded": 4,
         "result": "L"
+      },
+      {
+        "opponent": "Cabo Verde",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -18968,13 +19112,21 @@
         "saves": 0,
         "goalsConceded": 4,
         "result": "L"
+      },
+      {
+        "opponent": "Cabo Verde",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
   {
     "name": "Nawaf Boushal",
     "country": "Saudi Arabia",
-    "position": "",
+    "position": "DEF",
     "managers": [],
     "matches": [
       {
@@ -18985,6 +19137,14 @@
         "saves": 0,
         "goalsConceded": 0,
         "result": "D"
+      },
+      {
+        "opponent": "Cabo Verde",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -19011,6 +19171,14 @@
         "saves": 0,
         "goalsConceded": 4,
         "result": "L"
+      },
+      {
+        "opponent": "Cabo Verde",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -19037,6 +19205,30 @@
         "saves": 0,
         "goalsConceded": 4,
         "result": "L"
+      },
+      {
+        "opponent": "Cabo Verde",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Sultan Mandash",
+    "country": "Saudi Arabia",
+    "position": "MID",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Cabo Verde",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -21392,6 +21584,14 @@
         "saves": 0,
         "goalsConceded": 0,
         "result": "W"
+      },
+      {
+        "opponent": "Uruguay",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -21423,6 +21623,14 @@
         "saves": 0,
         "goalsConceded": 0,
         "result": "W"
+      },
+      {
+        "opponent": "Uruguay",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -21564,6 +21772,14 @@
         "saves": 0,
         "goalsConceded": 0,
         "result": "W"
+      },
+      {
+        "opponent": "Uruguay",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -21595,6 +21811,14 @@
         "saves": 0,
         "goalsConceded": 0,
         "result": "W"
+      },
+      {
+        "opponent": "Uruguay",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -21612,13 +21836,21 @@
         "saves": 0,
         "goalsConceded": 0,
         "result": "D"
+      },
+      {
+        "opponent": "Uruguay",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
   {
     "name": "Mikel Merino",
     "country": "Spain",
-    "position": "",
+    "position": "MID",
     "managers": [],
     "matches": [
       {
@@ -21638,6 +21870,14 @@
         "saves": 0,
         "goalsConceded": 0,
         "result": "W"
+      },
+      {
+        "opponent": "Uruguay",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -21669,6 +21909,14 @@
         "saves": 0,
         "goalsConceded": 0,
         "result": "W"
+      },
+      {
+        "opponent": "Uruguay",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -21726,6 +21974,14 @@
         "saves": 0,
         "goalsConceded": 0,
         "result": "W"
+      },
+      {
+        "opponent": "Uruguay",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -21757,6 +22013,14 @@
         "saves": 0,
         "goalsConceded": 0,
         "result": "W"
+      },
+      {
+        "opponent": "Uruguay",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -21800,6 +22064,14 @@
         "saves": 0,
         "goalsConceded": 0,
         "result": "W"
+      },
+      {
+        "opponent": "Uruguay",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -21826,6 +22098,14 @@
         "saves": 1,
         "goalsConceded": 0,
         "result": "W"
+      },
+      {
+        "opponent": "Uruguay",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -24909,6 +25189,14 @@
         "saves": 0,
         "goalsConceded": 2,
         "result": "D"
+      },
+      {
+        "opponent": "Spain",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -24961,6 +25249,14 @@
         "saves": 0,
         "goalsConceded": 0,
         "result": "D"
+      },
+      {
+        "opponent": "Spain",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -24992,6 +25288,14 @@
         "saves": 0,
         "goalsConceded": 2,
         "result": "D"
+      },
+      {
+        "opponent": "Spain",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -25044,6 +25348,14 @@
         "saves": 2,
         "goalsConceded": 2,
         "result": "D"
+      },
+      {
+        "opponent": "Spain",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -25070,6 +25382,14 @@
         "saves": 0,
         "goalsConceded": 2,
         "result": "D"
+      },
+      {
+        "opponent": "Spain",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -25096,6 +25416,14 @@
         "saves": 0,
         "goalsConceded": 2,
         "result": "D"
+      },
+      {
+        "opponent": "Spain",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -25122,6 +25450,14 @@
         "saves": 0,
         "goalsConceded": 2,
         "result": "D"
+      },
+      {
+        "opponent": "Spain",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -25148,6 +25484,14 @@
         "saves": 0,
         "goalsConceded": 2,
         "result": "D"
+      },
+      {
+        "opponent": "Spain",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -25191,6 +25535,14 @@
         "saves": 0,
         "goalsConceded": 2,
         "result": "D"
+      },
+      {
+        "opponent": "Spain",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -25260,6 +25612,14 @@
         "saves": 0,
         "goalsConceded": 2,
         "result": "D"
+      },
+      {
+        "opponent": "Spain",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -25286,6 +25646,14 @@
         "saves": 0,
         "goalsConceded": 2,
         "result": "D"
+      },
+      {
+        "opponent": "Spain",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
