@@ -1463,6 +1463,14 @@
         "assists": 0,
         "shotsOnGoal": 1,
         "result": "D"
+      },
+      {
+        "fixtureId": 760477,
+        "opponent": "New Zealand",
+        "date": "2026-06-27T03:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0
       }
     ]
   },
@@ -1487,6 +1495,14 @@
         "assists": 0,
         "shotsOnGoal": 1,
         "result": "D"
+      },
+      {
+        "fixtureId": 760477,
+        "opponent": "New Zealand",
+        "date": "2026-06-27T03:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0
       }
     ]
   },
@@ -1515,6 +1531,16 @@
         "saves": 3,
         "goalsConceded": 0,
         "result": "D"
+      },
+      {
+        "fixtureId": 760477,
+        "opponent": "New Zealand",
+        "date": "2026-06-27T03:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
