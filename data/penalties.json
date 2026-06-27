@@ -1,11 +1,11 @@
 {
   "summary": {
-    "total": 8,
+    "total": 9,
     "scored": 6,
-    "saved": 1,
+    "saved": 2,
     "missed": 1,
     "unknown": 0,
-    "inPlaySaves": 1,
+    "inPlaySaves": 2,
     "shootoutSaves": 0
   },
   "events": [
@@ -113,6 +113,19 @@
       "keeperTeam": "France",
       "draftedKeeper": "Mike Maignan (Zach)",
       "text": "Penalty saved. Jørgen Strand Larsen (Norway) right footed shot saved in the bottom right corner by Mike Maignan (France)."
+    },
+    {
+      "fixtureId": 760476,
+      "match": "Iran at Egypt",
+      "date": "2026-06-27T03:00Z",
+      "minute": "11'",
+      "shootout": false,
+      "kind": "saved",
+      "taker": "Mehdi Taremi",
+      "takerTeam": "Iran",
+      "keeper": "Mostafa Shobeir",
+      "keeperTeam": "Egypt",
+      "text": "Penalty saved. Mehdi Taremi (IR Iran) right footed shot saved in the bottom right corner by Mostafa Shobeir (Egypt)."
     }
   ]
 }

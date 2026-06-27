@@ -45,6 +45,11 @@
     "opponent": "Scotland"
   },
   {
+    "player": "Deroy Duarte",
+    "country": "Cabo Verde",
+    "opponent": "Saudi Arabia"
+  },
+  {
     "player": "Kevin Pina",
     "country": "Cabo Verde",
     "opponent": "Uruguay"
@@ -263,6 +268,11 @@
     "player": "Hwang In-Beom",
     "country": "South Korea",
     "opponent": "Czechia"
+  },
+  {
+    "player": "Alex Baene",
+    "country": "Spain",
+    "opponent": "Uruguay"
   },
   {
     "player": "Mikel Oyarzabal",
