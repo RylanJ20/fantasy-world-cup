@@ -774,10 +774,10 @@
     "stage": "Group G",
     "home": "Egypt",
     "away": "Iran",
-    "status": "FINISHED",
+    "status": "IN_PLAY",
     "homeScore": 1,
     "awayScore": 1,
-    "winner": "DRAW"
+    "winner": null
   },
   {
     "n": 760477,
@@ -786,10 +786,10 @@
     "stage": "Group G",
     "home": "New Zealand",
     "away": "Belgium",
-    "status": "FINISHED",
-    "homeScore": 1,
-    "awayScore": 5,
-    "winner": "AWAY_TEAM"
+    "status": "IN_PLAY",
+    "homeScore": 0,
+    "awayScore": 3,
+    "winner": null
   },
   {
     "n": 760480,
