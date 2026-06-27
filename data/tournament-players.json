@@ -6085,7 +6085,7 @@
       {
         "opponent": "Ghana",
         "goals": 0,
-        "assists": 0,
+        "assists": 1,
         "shotsOnGoal": 0,
         "saves": 0,
         "goalsConceded": 1
@@ -6205,7 +6205,7 @@
         "opponent": "Ghana",
         "goals": 0,
         "assists": 0,
-        "shotsOnGoal": 0,
+        "shotsOnGoal": 1,
         "saves": 0,
         "goalsConceded": 0
       }
@@ -6296,9 +6296,9 @@
       },
       {
         "opponent": "Ghana",
-        "goals": 0,
+        "goals": 1,
         "assists": 0,
-        "shotsOnGoal": 0,
+        "shotsOnGoal": 1,
         "saves": 0,
         "goalsConceded": 1
       }
@@ -9023,6 +9023,22 @@
     ]
   },
   {
+    "name": "Jordan Henderson",
+    "country": "England",
+    "position": "",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Panama",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
     "name": "Jordan Pickford",
     "country": "England",
     "position": "GK",
@@ -9265,6 +9281,22 @@
         "goalsConceded": 0,
         "result": "D"
       },
+      {
+        "opponent": "Panama",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Ollie Watkins",
+    "country": "England",
+    "position": "",
+    "managers": [],
+    "matches": [
       {
         "opponent": "Panama",
         "goals": 0,
@@ -10597,7 +10629,7 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 1
+        "goalsConceded": 2
       }
     ]
   },
@@ -10647,8 +10679,8 @@
         "goals": 0,
         "assists": 0,
         "shotsOnGoal": 0,
-        "saves": 1,
-        "goalsConceded": 1
+        "saves": 2,
+        "goalsConceded": 2
       }
     ]
   },
@@ -10673,7 +10705,7 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 0
+        "goalsConceded": 1
       }
     ]
   },
@@ -10715,7 +10747,7 @@
         "assists": 0,
         "shotsOnGoal": 1,
         "saves": 0,
-        "goalsConceded": 1
+        "goalsConceded": 2
       }
     ]
   },
@@ -10765,7 +10797,7 @@
         "assists": 1,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 0
+        "goalsConceded": 1
       }
     ]
   },
@@ -10799,7 +10831,7 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 0
+        "goalsConceded": 1
       }
     ]
   },
@@ -10833,7 +10865,7 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 1
+        "goalsConceded": 2
       }
     ]
   },
@@ -10994,7 +11026,7 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 0
+        "goalsConceded": 1
       }
     ]
   },
@@ -11028,7 +11060,7 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 1
+        "goalsConceded": 2
       }
     ]
   },
@@ -11079,7 +11111,7 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 1
+        "goalsConceded": 2
       }
     ]
   },
@@ -11130,7 +11162,7 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 1
+        "goalsConceded": 2
       }
     ]
   },
