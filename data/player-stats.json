@@ -1256,6 +1256,14 @@
         "assists": 0,
         "shotsOnGoal": 1,
         "result": "W"
+      },
+      {
+        "fixtureId": 760479,
+        "opponent": "Uruguay",
+        "date": "2026-06-27T00:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0
       }
     ]
   },
