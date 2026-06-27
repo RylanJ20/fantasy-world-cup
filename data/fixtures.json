@@ -800,7 +800,7 @@
     "away": "Ghana",
     "status": "IN_PLAY",
     "homeScore": 1,
-    "awayScore": 1,
+    "awayScore": 0,
     "winner": null
   },
   {
@@ -812,7 +812,7 @@
     "away": "England",
     "status": "IN_PLAY",
     "homeScore": 0,
-    "awayScore": 2,
+    "awayScore": 0,
     "winner": null
   },
   {
