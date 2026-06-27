@@ -774,7 +774,7 @@
     "stage": "Group G",
     "home": "Egypt",
     "away": "Iran",
-    "status": "IN_PLAY",
+    "status": "PAUSED",
     "homeScore": 1,
     "awayScore": 1,
     "winner": null
@@ -786,7 +786,7 @@
     "stage": "Group G",
     "home": "New Zealand",
     "away": "Belgium",
-    "status": "IN_PLAY",
+    "status": "PAUSED",
     "homeScore": 0,
     "awayScore": 1,
     "winner": null
