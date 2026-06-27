@@ -82,6 +82,18 @@
       "managers": []
     },
     {
+      "name": "Harry Kane",
+      "country": "England",
+      "position": "FWD",
+      "value": 3,
+      "managers": [
+        {
+          "id": "ben",
+          "name": "Ben"
+        }
+      ]
+    },
+    {
       "name": "Ismael Saibari",
       "country": "Morocco",
       "position": "FWD",
@@ -99,13 +111,6 @@
       "name": "Johan Manzambi",
       "country": "Switzerland",
       "position": "MID",
-      "value": 3,
-      "managers": []
-    },
-    {
-      "name": "Jonathan David",
-      "country": "Canada",
-      "position": "FWD",
       "value": 3,
       "managers": []
     }
