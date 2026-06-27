@@ -750,10 +750,10 @@
     "stage": "Group H",
     "home": "Cabo Verde",
     "away": "Saudi Arabia",
-    "status": "FINISHED",
+    "status": "IN_PLAY",
     "homeScore": 0,
     "awayScore": 0,
-    "winner": "DRAW"
+    "winner": null
   },
   {
     "n": 760479,
@@ -762,10 +762,10 @@
     "stage": "Group H",
     "home": "Uruguay",
     "away": "Spain",
-    "status": "FINISHED",
+    "status": "IN_PLAY",
     "homeScore": 0,
     "awayScore": 1,
-    "winner": "AWAY_TEAM"
+    "winner": null
   },
   {
     "n": 760476,
