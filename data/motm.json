@@ -25,6 +25,11 @@
     "opponent": "Türkiye"
   },
   {
+    "player": "Leandro Trossard",
+    "country": "Belgium",
+    "opponent": "New Zealand"
+  },
+  {
     "player": "Kerim Alajbegovic",
     "country": "Bosnia-Herzegovina",
     "opponent": "Qatar"
@@ -153,6 +158,11 @@
     "player": "Ramin Rezaeian",
     "country": "Iran",
     "opponent": "New Zealand"
+  },
+  {
+    "player": "Ramin Rezaeian",
+    "country": "Iran",
+    "opponent": "Egypt"
   },
   {
     "player": "Nicolas Pépé",
