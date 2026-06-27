@@ -750,10 +750,10 @@
     "stage": "Group H",
     "home": "Cabo Verde",
     "away": "Saudi Arabia",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "homeScore": 0,
     "awayScore": 0,
-    "winner": null
+    "winner": "DRAW"
   },
   {
     "n": 760479,
@@ -762,10 +762,10 @@
     "stage": "Group H",
     "home": "Uruguay",
     "away": "Spain",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "homeScore": 0,
     "awayScore": 1,
-    "winner": null
+    "winner": "AWAY_TEAM"
   },
   {
     "n": 760476,
@@ -893,7 +893,7 @@
     "utcDate": "2026-06-29T20:30:00Z",
     "stage": "Round of 32",
     "home": "Germany",
-    "away": "Third Place Group A/B/C/D/F",
+    "away": "Paraguay",
     "status": "TIMED",
     "homeScore": null,
     "awayScore": null,
@@ -929,7 +929,7 @@
     "utcDate": "2026-06-30T21:00:00Z",
     "stage": "Round of 32",
     "home": "France",
-    "away": "Third Place Group C/D/F/G/H",
+    "away": "Sweden",
     "status": "TIMED",
     "homeScore": null,
     "awayScore": null,
@@ -988,7 +988,7 @@
     "date": "2026-07-02",
     "utcDate": "2026-07-02T19:00:00Z",
     "stage": "Round of 32",
-    "home": "Group H Winner",
+    "home": "Spain",
     "away": "Group J 2nd Place",
     "status": "TIMED",
     "homeScore": null,
@@ -1037,7 +1037,7 @@
     "utcDate": "2026-07-03T22:00:00Z",
     "stage": "Round of 32",
     "home": "Argentina",
-    "away": "Group H 2nd Place",
+    "away": "Cabo Verde",
     "status": "TIMED",
     "homeScore": null,
     "awayScore": null,
