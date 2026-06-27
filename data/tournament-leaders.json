@@ -309,6 +309,18 @@
   ],
   "cleanSheets": [
     {
+      "name": "Aymeric Laporte",
+      "country": "Spain",
+      "position": "DEF",
+      "value": 3,
+      "managers": [
+        {
+          "id": "rylan",
+          "name": "Rylan"
+        }
+      ]
+    },
+    {
       "name": "Edson Álvarez",
       "country": "Mexico",
       "position": "DEF",
@@ -330,6 +342,30 @@
       "managers": []
     },
     {
+      "name": "Marc Cucurella",
+      "country": "Spain",
+      "position": "DEF",
+      "value": 3,
+      "managers": [
+        {
+          "id": "zach",
+          "name": "Zach"
+        }
+      ]
+    },
+    {
+      "name": "Pau Cubarsí",
+      "country": "Spain",
+      "position": "DEF",
+      "value": 3,
+      "managers": [
+        {
+          "id": "zach",
+          "name": "Zach"
+        }
+      ]
+    },
+    {
       "name": "Alessandro Circati",
       "country": "Australia",
       "position": "DEF",
@@ -342,18 +378,6 @@
       "position": "DEF",
       "value": 2,
       "managers": []
-    },
-    {
-      "name": "Aymeric Laporte",
-      "country": "Spain",
-      "position": "DEF",
-      "value": 2,
-      "managers": [
-        {
-          "id": "rylan",
-          "name": "Rylan"
-        }
-      ]
     },
     {
       "name": "César Montes",
@@ -384,20 +408,6 @@
     {
       "name": "Diney Borges",
       "country": "Cabo Verde",
-      "position": "DEF",
-      "value": 2,
-      "managers": []
-    },
-    {
-      "name": "Douglas Santos",
-      "country": "Brazil",
-      "position": "DEF",
-      "value": 2,
-      "managers": []
-    },
-    {
-      "name": "Facundo Medina",
-      "country": "Argentina",
       "position": "DEF",
       "value": 2,
       "managers": []

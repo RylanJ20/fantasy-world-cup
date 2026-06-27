@@ -376,14 +376,14 @@
       {
         "position": 1,
         "team": "Spain",
-        "played": 2,
-        "won": 1,
+        "played": 3,
+        "won": 2,
         "draw": 1,
         "lost": 0,
-        "gf": 4,
+        "gf": 5,
         "ga": 0,
-        "gd": 4,
-        "points": 4
+        "gd": 5,
+        "points": 7
       },
       {
         "position": 2,
@@ -400,13 +400,13 @@
       {
         "position": 3,
         "team": "Uruguay",
-        "played": 2,
+        "played": 3,
         "won": 0,
         "draw": 2,
-        "lost": 0,
+        "lost": 1,
         "gf": 3,
-        "ga": 3,
-        "gd": 0,
+        "ga": 4,
+        "gd": -1,
         "points": 2
       },
       {
