@@ -16609,6 +16609,23 @@
     ]
   },
   {
+    "name": "?",
+    "country": "Norway",
+    "position": "DEF",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "France",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 4,
+        "result": "L"
+      }
+    ]
+  },
+  {
     "name": "Alexander Sørloth",
     "country": "Norway",
     "position": "FWD",
@@ -16987,15 +17004,6 @@
         "saves": 0,
         "goalsConceded": 1,
         "result": "W"
-      },
-      {
-        "opponent": "France",
-        "goals": 0,
-        "assists": 0,
-        "shotsOnGoal": 0,
-        "saves": 0,
-        "goalsConceded": 4,
-        "result": "L"
       }
     ]
   },
