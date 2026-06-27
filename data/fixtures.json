@@ -835,8 +835,8 @@
     "home": "Congo DR",
     "away": "Uzbekistan",
     "status": "IN_PLAY",
-    "homeScore": 0,
-    "awayScore": 0,
+    "homeScore": 1,
+    "awayScore": 1,
     "winner": null
   },
   {
