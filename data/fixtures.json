@@ -774,10 +774,10 @@
     "stage": "Group G",
     "home": "Egypt",
     "away": "Iran",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "homeScore": 1,
     "awayScore": 1,
-    "winner": null
+    "winner": "DRAW"
   },
   {
     "n": 760477,
@@ -786,10 +786,10 @@
     "stage": "Group G",
     "home": "New Zealand",
     "away": "Belgium",
-    "status": "IN_PLAY",
-    "homeScore": 0,
-    "awayScore": 3,
-    "winner": null
+    "status": "FINISHED",
+    "homeScore": 1,
+    "awayScore": 5,
+    "winner": "AWAY_TEAM"
   },
   {
     "n": 760480,
@@ -964,7 +964,7 @@
     "date": "2026-07-01",
     "utcDate": "2026-07-01T20:00:00Z",
     "stage": "Round of 32",
-    "home": "Group G Winner",
+    "home": "Belgium",
     "away": "Third Place Group A/E/H/I/J",
     "status": "TIMED",
     "homeScore": null,
@@ -1025,7 +1025,7 @@
     "utcDate": "2026-07-03T18:00:00Z",
     "stage": "Round of 32",
     "home": "Australia",
-    "away": "Group G 2nd Place",
+    "away": "Egypt",
     "status": "TIMED",
     "homeScore": null,
     "awayScore": null,
