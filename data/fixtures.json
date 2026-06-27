@@ -798,10 +798,10 @@
     "stage": "Group L",
     "home": "Croatia",
     "away": "Ghana",
-    "status": "FINISHED",
-    "homeScore": 2,
+    "status": "IN_PLAY",
+    "homeScore": 1,
     "awayScore": 1,
-    "winner": "HOME_TEAM"
+    "winner": null
   },
   {
     "n": 760485,
@@ -810,10 +810,10 @@
     "stage": "Group L",
     "home": "Panama",
     "away": "England",
-    "status": "FINISHED",
+    "status": "IN_PLAY",
     "homeScore": 0,
     "awayScore": 2,
-    "winner": "AWAY_TEAM"
+    "winner": null
   },
   {
     "n": 760481,
