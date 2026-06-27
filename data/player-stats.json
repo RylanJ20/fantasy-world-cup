@@ -2367,7 +2367,7 @@
         "opponent": "Panama",
         "date": "2026-06-27T21:00Z",
         "goals": 0,
-        "assists": 0,
+        "assists": 1,
         "shotsOnGoal": 0
       }
     ]
@@ -2456,9 +2456,9 @@
         "fixtureId": 760485,
         "opponent": "Panama",
         "date": "2026-06-27T21:00Z",
-        "goals": 0,
+        "goals": 1,
         "assists": 0,
-        "shotsOnGoal": 0
+        "shotsOnGoal": 1
       }
     ]
   },

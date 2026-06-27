@@ -152,6 +152,18 @@
       "managers": []
     },
     {
+      "name": "Bukayo Saka",
+      "country": "England",
+      "position": "MID",
+      "value": 2,
+      "managers": [
+        {
+          "id": "marc",
+          "name": "Marc"
+        }
+      ]
+    },
+    {
       "name": "Chris Wood",
       "country": "New Zealand",
       "position": "FWD",
@@ -202,18 +214,6 @@
       "position": "MID",
       "value": 2,
       "managers": []
-    },
-    {
-      "name": "Joshua Kimmich",
-      "country": "Germany",
-      "position": "DEF",
-      "value": 2,
-      "managers": [
-        {
-          "id": "marc",
-          "name": "Marc"
-        }
-      ]
     }
   ],
   "saves": [
