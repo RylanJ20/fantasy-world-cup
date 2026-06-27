@@ -75,6 +75,13 @@
       "managers": []
     },
     {
+      "name": "Elijah Just",
+      "country": "New Zealand",
+      "position": "MID",
+      "value": 3,
+      "managers": []
+    },
+    {
       "name": "Ismael Saibari",
       "country": "Morocco",
       "position": "FWD",
@@ -98,13 +105,6 @@
     {
       "name": "Jonathan David",
       "country": "Canada",
-      "position": "FWD",
-      "value": 3,
-      "managers": []
-    },
-    {
-      "name": "Matheus Cunha",
-      "country": "Brazil",
       "position": "FWD",
       "value": 3,
       "managers": []
