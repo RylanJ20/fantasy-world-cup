@@ -750,9 +750,9 @@
     "stage": "Group H",
     "home": "Cabo Verde",
     "away": "Saudi Arabia",
-    "status": "TIMED",
-    "homeScore": null,
-    "awayScore": null,
+    "status": "IN_PLAY",
+    "homeScore": 0,
+    "awayScore": 0,
     "winner": null
   },
   {
@@ -762,9 +762,9 @@
     "stage": "Group H",
     "home": "Uruguay",
     "away": "Spain",
-    "status": "TIMED",
-    "homeScore": null,
-    "awayScore": null,
+    "status": "IN_PLAY",
+    "homeScore": 0,
+    "awayScore": 0,
     "winner": null
   },
   {
