@@ -774,10 +774,10 @@
     "stage": "Group G",
     "home": "Egypt",
     "away": "Iran",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "homeScore": 1,
     "awayScore": 1,
-    "winner": null
+    "winner": "DRAW"
   },
   {
     "n": 760477,
