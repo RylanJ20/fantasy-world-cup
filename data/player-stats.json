@@ -1189,6 +1189,14 @@
         "assists": 1,
         "shotsOnGoal": 0,
         "result": "W"
+      },
+      {
+        "fixtureId": 760479,
+        "opponent": "Uruguay",
+        "date": "2026-06-27T00:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0
       }
     ]
   },
@@ -1272,6 +1280,14 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "result": "W"
+      },
+      {
+        "fixtureId": 760479,
+        "opponent": "Uruguay",
+        "date": "2026-06-27T00:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0
       }
     ]
   },
