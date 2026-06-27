@@ -798,10 +798,10 @@
     "stage": "Group L",
     "home": "Croatia",
     "away": "Ghana",
-    "status": "IN_PLAY",
-    "homeScore": 1,
+    "status": "FINISHED",
+    "homeScore": 2,
     "awayScore": 1,
-    "winner": null
+    "winner": "HOME_TEAM"
   },
   {
     "n": 760485,
@@ -810,10 +810,10 @@
     "stage": "Group L",
     "home": "Panama",
     "away": "England",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "homeScore": 0,
     "awayScore": 2,
-    "winner": null
+    "winner": "AWAY_TEAM"
   },
   {
     "n": 760481,
@@ -941,7 +941,7 @@
     "utcDate": "2026-07-01T01:00:00Z",
     "stage": "Round of 32",
     "home": "Mexico",
-    "away": "Third Place Group C/E/F/H/I",
+    "away": "Ecuador",
     "status": "TIMED",
     "homeScore": null,
     "awayScore": null,
@@ -952,7 +952,7 @@
     "date": "2026-07-01",
     "utcDate": "2026-07-01T16:00:00Z",
     "stage": "Round of 32",
-    "home": "Group L Winner",
+    "home": "England",
     "away": "Third Place Group E/H/I/J/K",
     "status": "TIMED",
     "homeScore": null,
@@ -1001,7 +1001,7 @@
     "utcDate": "2026-07-02T23:00:00Z",
     "stage": "Round of 32",
     "home": "Group K 2nd Place",
-    "away": "Group L 2nd Place",
+    "away": "Croatia",
     "status": "TIMED",
     "homeScore": null,
     "awayScore": null,
@@ -1049,7 +1049,7 @@
     "utcDate": "2026-07-04T01:30:00Z",
     "stage": "Round of 32",
     "home": "Group K Winner",
-    "away": "Third Place Group D/E/I/J/L",
+    "away": "Ghana",
     "status": "TIMED",
     "homeScore": null,
     "awayScore": null,
