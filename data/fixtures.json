@@ -822,7 +822,7 @@
     "stage": "Group K",
     "home": "Colombia",
     "away": "Portugal",
-    "status": "PAUSED",
+    "status": "IN_PLAY",
     "homeScore": 0,
     "awayScore": 0,
     "winner": null
@@ -834,7 +834,7 @@
     "stage": "Group K",
     "home": "Congo DR",
     "away": "Uzbekistan",
-    "status": "PAUSED",
+    "status": "IN_PLAY",
     "homeScore": 0,
     "awayScore": 1,
     "winner": null
