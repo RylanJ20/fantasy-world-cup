@@ -846,10 +846,10 @@
     "stage": "Group J",
     "home": "Jordan",
     "away": "Argentina",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "homeScore": 1,
     "awayScore": 3,
-    "winner": null
+    "winner": "AWAY_TEAM"
   },
   {
     "n": 760484,
@@ -858,10 +858,10 @@
     "stage": "Group J",
     "home": "Algeria",
     "away": "Austria",
-    "status": "IN_PLAY",
-    "homeScore": 2,
-    "awayScore": 2,
-    "winner": null
+    "status": "FINISHED",
+    "homeScore": 3,
+    "awayScore": 3,
+    "winner": "DRAW"
   },
   {
     "n": 760486,
