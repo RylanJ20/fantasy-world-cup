@@ -846,10 +846,10 @@
     "stage": "Group J",
     "home": "Jordan",
     "away": "Argentina",
-    "status": "FINISHED",
+    "status": "IN_PLAY",
     "homeScore": 1,
     "awayScore": 3,
-    "winner": "AWAY_TEAM"
+    "winner": null
   },
   {
     "n": 760484,
@@ -858,10 +858,10 @@
     "stage": "Group J",
     "home": "Algeria",
     "away": "Austria",
-    "status": "FINISHED",
-    "homeScore": 3,
-    "awayScore": 3,
-    "winner": "DRAW"
+    "status": "IN_PLAY",
+    "homeScore": 2,
+    "awayScore": 2,
+    "winner": null
   },
   {
     "n": 760486,
@@ -989,7 +989,7 @@
     "utcDate": "2026-07-02T19:00:00Z",
     "stage": "Round of 32",
     "home": "Spain",
-    "away": "Austria",
+    "away": "Group J 2nd Place",
     "status": "TIMED",
     "homeScore": null,
     "awayScore": null,
@@ -1013,7 +1013,7 @@
     "utcDate": "2026-07-03T03:00:00Z",
     "stage": "Round of 32",
     "home": "Switzerland",
-    "away": "Algeria",
+    "away": "Third Place Group E/F/G/I/J",
     "status": "TIMED",
     "homeScore": null,
     "awayScore": null,
