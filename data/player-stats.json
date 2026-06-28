@@ -128,6 +128,42 @@
       }
     ]
   },
+  "us|alex freeman": {
+    "country": "USA",
+    "name": "Alex Freeman",
+    "matches": [
+      {
+        "fixtureId": 760417,
+        "opponent": "Paraguay",
+        "date": "2026-06-13T01:00Z",
+        "goals": 0,
+        "assists": 1,
+        "shotsOnGoal": 0,
+        "goalsConceded": 1,
+        "result": "W"
+      },
+      {
+        "fixtureId": 760442,
+        "opponent": "Australia",
+        "date": "2026-06-19T19:00Z",
+        "goals": 1,
+        "assists": 0,
+        "shotsOnGoal": 1,
+        "goalsConceded": 0,
+        "result": "W"
+      },
+      {
+        "fixtureId": 760470,
+        "opponent": "Türkiye",
+        "date": "2026-06-26T02:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "goalsConceded": 1,
+        "result": "L"
+      }
+    ]
+  },
   "ch|manuel akanji": {
     "country": "Switzerland",
     "name": "Manuel Akanji",
@@ -946,6 +982,39 @@
       }
     ]
   },
+  "nl|ryan gravenberch": {
+    "country": "Netherlands",
+    "name": "Ryan Gravenberch",
+    "matches": [
+      {
+        "fixtureId": 760425,
+        "opponent": "Japan",
+        "date": "2026-06-14T20:00Z",
+        "goals": 0,
+        "assists": 2,
+        "shotsOnGoal": 0,
+        "result": "D"
+      },
+      {
+        "fixtureId": 760447,
+        "opponent": "Sweden",
+        "date": "2026-06-20T17:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "result": "W"
+      },
+      {
+        "fixtureId": 760472,
+        "opponent": "Tunisia",
+        "date": "2026-06-25T23:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "result": "W"
+      }
+    ]
+  },
   "nl|nathan ake": {
     "country": "Netherlands",
     "name": "Nathan Aké",
@@ -1405,6 +1474,45 @@
         "goals": 0,
         "assists": 0,
         "shotsOnGoal": 0,
+        "result": "W"
+      }
+    ]
+  },
+  "es|unai simon": {
+    "country": "Spain",
+    "name": "Unai Simón",
+    "matches": [
+      {
+        "fixtureId": 760428,
+        "opponent": "Cabo Verde",
+        "date": "2026-06-15T16:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 1,
+        "goalsConceded": 0,
+        "result": "D"
+      },
+      {
+        "fixtureId": 760453,
+        "opponent": "Saudi Arabia",
+        "date": "2026-06-21T16:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 1,
+        "goalsConceded": 0,
+        "result": "W"
+      },
+      {
+        "fixtureId": 760479,
+        "opponent": "Uruguay",
+        "date": "2026-06-27T00:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 2,
+        "goalsConceded": 0,
         "result": "W"
       }
     ]
@@ -2215,6 +2323,39 @@
       }
     ]
   },
+  "pt|joao neves": {
+    "country": "Portugal",
+    "name": "João Neves",
+    "matches": [
+      {
+        "fixtureId": 760435,
+        "opponent": "Congo DR",
+        "date": "2026-06-17T17:00Z",
+        "goals": 1,
+        "assists": 0,
+        "shotsOnGoal": 1,
+        "result": "D"
+      },
+      {
+        "fixtureId": 760461,
+        "opponent": "Uzbekistan",
+        "date": "2026-06-23T17:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "result": "W"
+      },
+      {
+        "fixtureId": 760481,
+        "opponent": "Colombia",
+        "date": "2026-06-27T23:30Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "result": "D"
+      }
+    ]
+  },
   "pt|bruno fernandes": {
     "country": "Portugal",
     "name": "Bruno Fernandes",
@@ -2747,6 +2888,42 @@
         "goals": 0,
         "assists": 0,
         "shotsOnGoal": 0,
+        "result": "D"
+      }
+    ]
+  },
+  "co|daniel munoz": {
+    "country": "Colombia",
+    "name": "Daniel Muñoz",
+    "matches": [
+      {
+        "fixtureId": 760436,
+        "opponent": "Uzbekistan",
+        "date": "2026-06-18T02:00Z",
+        "goals": 1,
+        "assists": 0,
+        "shotsOnGoal": 1,
+        "goalsConceded": 1,
+        "result": "W"
+      },
+      {
+        "fixtureId": 760459,
+        "opponent": "Congo DR",
+        "date": "2026-06-24T02:00Z",
+        "goals": 1,
+        "assists": 0,
+        "shotsOnGoal": 1,
+        "goalsConceded": 0,
+        "result": "W"
+      },
+      {
+        "fixtureId": 760481,
+        "opponent": "Portugal",
+        "date": "2026-06-27T23:30Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "goalsConceded": 0,
         "result": "D"
       }
     ]

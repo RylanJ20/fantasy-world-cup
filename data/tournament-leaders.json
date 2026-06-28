@@ -408,7 +408,12 @@
       "country": "Colombia",
       "position": "DEF",
       "value": 2,
-      "managers": []
+      "managers": [
+        {
+          "id": "rylan",
+          "name": "Rylan"
+        }
+      ]
     },
     {
       "name": "Danilo",

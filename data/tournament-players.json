@@ -5548,7 +5548,12 @@
     "name": "Daniel Muñoz",
     "country": "Colombia",
     "position": "DEF",
-    "managers": [],
+    "managers": [
+      {
+        "id": "rylan",
+        "name": "Rylan"
+      }
+    ],
     "matches": [
       {
         "opponent": "Uzbekistan",
@@ -17340,7 +17345,12 @@
     "name": "Ryan Gravenberch",
     "country": "Netherlands",
     "position": "MID",
-    "managers": [],
+    "managers": [
+      {
+        "id": "zach",
+        "name": "Zach"
+      }
+    ],
     "matches": [
       {
         "opponent": "Japan",
@@ -20178,7 +20188,12 @@
     "name": "João Neves",
     "country": "Portugal",
     "position": "MID",
-    "managers": [],
+    "managers": [
+      {
+        "id": "terrick",
+        "name": "Terrick"
+      }
+    ],
     "matches": [
       {
         "opponent": "Congo DR",
@@ -24601,7 +24616,12 @@
     "name": "Unai Simón",
     "country": "Spain",
     "position": "GK",
-    "managers": [],
+    "managers": [
+      {
+        "id": "grayson",
+        "name": "Grayson"
+      }
+    ],
     "matches": [
       {
         "opponent": "Cabo Verde",
@@ -27102,7 +27122,12 @@
     "name": "Alex Freeman",
     "country": "United States",
     "position": "DEF",
-    "managers": [],
+    "managers": [
+      {
+        "id": "grayson",
+        "name": "Grayson"
+      }
+    ],
     "matches": [
       {
         "opponent": "Paraguay",
