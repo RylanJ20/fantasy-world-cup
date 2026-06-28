@@ -1,7 +1,7 @@
 {
   "summary": {
-    "total": 10,
-    "scored": 7,
+    "total": 11,
+    "scored": 8,
     "saved": 2,
     "missed": 1,
     "unknown": 0,
@@ -139,6 +139,19 @@
       "keeper": null,
       "keeperTeam": null,
       "text": "Goal! Congo DR 1, Uzbekistan 1. Yoane Wissa (Congo DR) converts the penalty with a right footed shot to the bottom right corner."
+    },
+    {
+      "fixtureId": 760483,
+      "match": "Argentina at Jordan",
+      "date": "2026-06-28T02:00Z",
+      "minute": "31'",
+      "shootout": false,
+      "kind": "scored",
+      "taker": "Lautaro Martínez",
+      "takerTeam": "Argentina",
+      "keeper": null,
+      "keeperTeam": null,
+      "text": "Goal! Jordan 0, Argentina 2. Lautaro Martínez (Argentina) converts the penalty with a right footed shot to the bottom left corner."
     }
   ]
 }
