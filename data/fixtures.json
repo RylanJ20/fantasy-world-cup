@@ -822,10 +822,10 @@
     "stage": "Group K",
     "home": "Colombia",
     "away": "Portugal",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "homeScore": 0,
     "awayScore": 0,
-    "winner": null
+    "winner": "DRAW"
   },
   {
     "n": 760482,
@@ -834,10 +834,10 @@
     "stage": "Group K",
     "home": "Congo DR",
     "away": "Uzbekistan",
-    "status": "IN_PLAY",
-    "homeScore": 2,
+    "status": "FINISHED",
+    "homeScore": 3,
     "awayScore": 1,
-    "winner": null
+    "winner": "HOME_TEAM"
   },
   {
     "n": 760483,
