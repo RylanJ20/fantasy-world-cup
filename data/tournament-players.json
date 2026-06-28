@@ -39,6 +39,14 @@
         "saves": 0,
         "goalsConceded": 1,
         "result": "W"
+      },
+      {
+        "opponent": "Austria",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -65,6 +73,14 @@
         "saves": 0,
         "goalsConceded": 1,
         "result": "W"
+      },
+      {
+        "opponent": "Austria",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -117,6 +133,14 @@
         "saves": 0,
         "goalsConceded": 1,
         "result": "W"
+      },
+      {
+        "opponent": "Austria",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -149,7 +173,7 @@
   {
     "name": "Houssem Aouar",
     "country": "Algeria",
-    "position": "",
+    "position": "MID",
     "managers": [],
     "matches": [
       {
@@ -160,6 +184,14 @@
         "saves": 0,
         "goalsConceded": 1,
         "result": "L"
+      },
+      {
+        "opponent": "Austria",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -186,13 +218,21 @@
         "saves": 0,
         "goalsConceded": 1,
         "result": "W"
+      },
+      {
+        "opponent": "Austria",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
   {
     "name": "Jaouen Hadjam",
     "country": "Algeria",
-    "position": "",
+    "position": "DEF",
     "managers": [],
     "matches": [
       {
@@ -203,6 +243,14 @@
         "saves": 0,
         "goalsConceded": 0,
         "result": "W"
+      },
+      {
+        "opponent": "Austria",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -272,6 +320,14 @@
         "saves": 0,
         "goalsConceded": 0,
         "result": "W"
+      },
+      {
+        "opponent": "Austria",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -289,6 +345,22 @@
         "saves": 0,
         "goalsConceded": 0,
         "result": "W"
+      }
+    ]
+  },
+  {
+    "name": "Oussama Benbot",
+    "country": "Algeria",
+    "position": "GK",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Austria",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -315,6 +387,14 @@
         "saves": 0,
         "goalsConceded": 1,
         "result": "W"
+      },
+      {
+        "opponent": "Austria",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -367,6 +447,14 @@
         "saves": 0,
         "goalsConceded": 1,
         "result": "W"
+      },
+      {
+        "opponent": "Austria",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -419,6 +507,14 @@
         "saves": 0,
         "goalsConceded": 1,
         "result": "W"
+      },
+      {
+        "opponent": "Austria",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -529,6 +625,14 @@
         "saves": 1,
         "goalsConceded": 0,
         "result": "W"
+      },
+      {
+        "opponent": "Jordan",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -564,6 +668,22 @@
     ]
   },
   {
+    "name": "Exequiel Palacios",
+    "country": "Argentina",
+    "position": "MID",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Jordan",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
     "name": "Facundo Medina",
     "country": "Argentina",
     "position": "DEF",
@@ -586,6 +706,38 @@
         "saves": 0,
         "goalsConceded": 0,
         "result": "W"
+      }
+    ]
+  },
+  {
+    "name": "Giovani Lo Celso",
+    "country": "Argentina",
+    "position": "MID",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Jordan",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Giuliano Simeone",
+    "country": "Argentina",
+    "position": "DEF",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Jordan",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -634,6 +786,14 @@
         "saves": 0,
         "goalsConceded": 0,
         "result": "W"
+      },
+      {
+        "opponent": "Jordan",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -665,13 +825,21 @@
         "saves": 0,
         "goalsConceded": 0,
         "result": "W"
+      },
+      {
+        "opponent": "Jordan",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
   {
     "name": "Leandro Paredes",
     "country": "Argentina",
-    "position": "",
+    "position": "MID",
     "managers": [],
     "matches": [
       {
@@ -682,6 +850,14 @@
         "saves": 0,
         "goalsConceded": 0,
         "result": "W"
+      },
+      {
+        "opponent": "Jordan",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -739,6 +915,22 @@
         "saves": 0,
         "goalsConceded": 0,
         "result": "W"
+      }
+    ]
+  },
+  {
+    "name": "Marcos Senesi",
+    "country": "Argentina",
+    "position": "DEF",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Jordan",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -802,7 +994,7 @@
   {
     "name": "Nico Paz",
     "country": "Argentina",
-    "position": "",
+    "position": "MID",
     "managers": [],
     "matches": [
       {
@@ -813,13 +1005,21 @@
         "saves": 0,
         "goalsConceded": 0,
         "result": "W"
+      },
+      {
+        "opponent": "Jordan",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
   {
     "name": "Nicolás Otamendi",
     "country": "Argentina",
-    "position": "",
+    "position": "DEF",
     "managers": [],
     "matches": [
       {
@@ -839,13 +1039,21 @@
         "saves": 0,
         "goalsConceded": 0,
         "result": "W"
+      },
+      {
+        "opponent": "Jordan",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
   {
     "name": "Nicolás Tagliafico",
     "country": "Argentina",
-    "position": "",
+    "position": "DEF",
     "managers": [],
     "matches": [
       {
@@ -856,6 +1064,14 @@
         "saves": 0,
         "goalsConceded": 0,
         "result": "W"
+      },
+      {
+        "opponent": "Jordan",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -1525,6 +1741,14 @@
         "saves": 2,
         "goalsConceded": 2,
         "result": "L"
+      },
+      {
+        "opponent": "Algeria",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -1577,6 +1801,14 @@
         "saves": 0,
         "goalsConceded": 1,
         "result": "L"
+      },
+      {
+        "opponent": "Algeria",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -1629,6 +1861,14 @@
         "saves": 0,
         "goalsConceded": 2,
         "result": "L"
+      },
+      {
+        "opponent": "Algeria",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -1660,6 +1900,14 @@
         "saves": 0,
         "goalsConceded": 2,
         "result": "L"
+      },
+      {
+        "opponent": "Algeria",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -1703,6 +1951,14 @@
         "saves": 0,
         "goalsConceded": 1,
         "result": "L"
+      },
+      {
+        "opponent": "Algeria",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -1746,6 +2002,14 @@
         "saves": 0,
         "goalsConceded": 2,
         "result": "L"
+      },
+      {
+        "opponent": "Algeria",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -1815,6 +2079,14 @@
         "saves": 0,
         "goalsConceded": 1,
         "result": "W"
+      },
+      {
+        "opponent": "Algeria",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -1832,6 +2104,14 @@
         "saves": 0,
         "goalsConceded": 1,
         "result": "W"
+      },
+      {
+        "opponent": "Algeria",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -1858,6 +2138,14 @@
         "saves": 0,
         "goalsConceded": 1,
         "result": "L"
+      },
+      {
+        "opponent": "Algeria",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -1901,6 +2189,14 @@
         "saves": 0,
         "goalsConceded": 1,
         "result": "L"
+      },
+      {
+        "opponent": "Algeria",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -1927,6 +2223,14 @@
         "saves": 0,
         "goalsConceded": 2,
         "result": "L"
+      },
+      {
+        "opponent": "Algeria",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -14575,13 +14879,21 @@
         "saves": 0,
         "goalsConceded": 2,
         "result": "L"
+      },
+      {
+        "opponent": "Argentina",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
   {
     "name": "Ali Azaizeh",
     "country": "Jordan",
-    "position": "",
+    "position": "FWD",
     "managers": [],
     "matches": [
       {
@@ -14601,6 +14913,14 @@
         "saves": 0,
         "goalsConceded": 0,
         "result": "L"
+      },
+      {
+        "opponent": "Argentina",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -14627,6 +14947,14 @@
         "saves": 0,
         "goalsConceded": 2,
         "result": "L"
+      },
+      {
+        "opponent": "Argentina",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -14653,6 +14981,14 @@
         "saves": 0,
         "goalsConceded": 2,
         "result": "L"
+      },
+      {
+        "opponent": "Argentina",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -14670,6 +15006,14 @@
         "saves": 0,
         "goalsConceded": 2,
         "result": "L"
+      },
+      {
+        "opponent": "Argentina",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -14790,6 +15134,14 @@
         "saves": 0,
         "goalsConceded": 2,
         "result": "L"
+      },
+      {
+        "opponent": "Argentina",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -14842,6 +15194,14 @@
         "saves": 0,
         "goalsConceded": 2,
         "result": "L"
+      },
+      {
+        "opponent": "Argentina",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -14868,6 +15228,14 @@
         "saves": 0,
         "goalsConceded": 2,
         "result": "L"
+      },
+      {
+        "opponent": "Argentina",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -14894,6 +15262,14 @@
         "saves": 0,
         "goalsConceded": 1,
         "result": "L"
+      },
+      {
+        "opponent": "Argentina",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -14963,6 +15339,14 @@
         "saves": 0,
         "goalsConceded": 2,
         "result": "L"
+      },
+      {
+        "opponent": "Argentina",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -14989,6 +15373,14 @@
         "saves": 6,
         "goalsConceded": 2,
         "result": "L"
+      },
+      {
+        "opponent": "Argentina",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
