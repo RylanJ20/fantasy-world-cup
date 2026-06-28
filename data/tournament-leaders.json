@@ -385,6 +385,13 @@
       "managers": []
     },
     {
+      "name": "Alistair Johnston",
+      "country": "Canada",
+      "position": "DEF",
+      "value": 2,
+      "managers": []
+    },
+    {
       "name": "César Montes",
       "country": "Mexico",
       "position": "DEF",
@@ -414,13 +421,6 @@
           "name": "Rylan"
         }
       ]
-    },
-    {
-      "name": "Danilo",
-      "country": "Brazil",
-      "position": "DEF",
-      "value": 2,
-      "managers": []
     }
   ]
 }
