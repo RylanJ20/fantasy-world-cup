@@ -1923,6 +1923,14 @@
         "assists": 0,
         "shotsOnGoal": 4,
         "result": "W"
+      },
+      {
+        "fixtureId": 760483,
+        "opponent": "Jordan",
+        "date": "2026-06-28T02:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0
       }
     ]
   },
@@ -2049,6 +2057,14 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "result": "W"
+      },
+      {
+        "fixtureId": 760483,
+        "opponent": "Jordan",
+        "date": "2026-06-28T02:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0
       }
     ]
   },
