@@ -19,7 +19,7 @@ import { motm } from "@/data/motm";
 import { countryCode } from "@/lib/flags";
 import { isDefender } from "@/lib/scoring";
 import { normalizeName, playerKey } from "@/lib/names";
-import type { Position } from "@/lib/types";
+import type { Player, Position } from "@/lib/types";
 import { fetchAthlete, fetchScoreboard, fetchSummary, mapStatus, teamName } from "./espn";
 
 const TOP_N = 12;
@@ -93,19 +93,35 @@ function matchName(name: string, candidates: string[]): number {
 async function main() {
   console.log("📡 Building player + tournament stats from ESPN…");
 
-  // Drafted players, with every manager who picked each one.
+  // Drafted players, with every manager who picked each one. A replaced slot
+  // contributes BOTH occupants (the outgoing player's pre-swap games and the
+  // incoming player's post-swap games are each needed), so follow the
+  // `replacedBy` chain and import stats for every player in it.
+  const slotOccupants = (p: Player & { replacedBy?: Player }): Player[] => {
+    const out: Player[] = [];
+    let cur: (Player & { replacedBy?: Player }) | undefined = p;
+    while (cur) {
+      out.push(cur);
+      cur = cur.replacedBy;
+    }
+    return out;
+  };
   const draftedByCode = new Map<string, Drafted[]>();
   for (const m of league.managers) {
-    for (const p of [...m.players, ...(m.bench ?? [])]) {
-      const code = countryCode(p.country);
-      if (!code) continue;
-      const list = draftedByCode.get(code) ?? [];
-      const key = playerKey(p.country, p.name);
-      const existing = list.find((d) => d.key === key);
-      if (existing) existing.managers.push({ id: m.id, name: m.name });
-      else
-        list.push({ key, name: p.name, country: p.country, position: p.position, managers: [{ id: m.id, name: m.name }] });
-      draftedByCode.set(code, list);
+    for (const slot of [...m.players, ...(m.bench ?? [])]) {
+      for (const p of slotOccupants(slot)) {
+        const code = countryCode(p.country);
+        if (!code) continue;
+        const list = draftedByCode.get(code) ?? [];
+        const key = playerKey(p.country, p.name);
+        const existing = list.find((d) => d.key === key);
+        if (existing) {
+          if (!existing.managers.some((mm) => mm.id === m.id))
+            existing.managers.push({ id: m.id, name: m.name });
+        } else
+          list.push({ key, name: p.name, country: p.country, position: p.position, managers: [{ id: m.id, name: m.name }] });
+        draftedByCode.set(code, list);
+      }
     }
   }
 

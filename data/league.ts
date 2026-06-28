@@ -59,6 +59,24 @@ const pm = (
   stats: Omit<PlayerMatch, "opponent"> = {},
 ): PlayerMatch => ({ opponent, ...stats });
 
+// Mid-tournament replacement. After the group stage, a manager may swap a
+// drafted player who logged ≤65 total minutes for another real World Cup
+// player. The slot KEEPS every point the outgoing player banked before the
+// swap; the incoming player scores only from `on` (an ISO cutoff) forward —
+// their earlier group-stage points do NOT transfer. Replace like-for-like
+// position to keep the squad shape intact.
+//   swap(p("David Raya", "GK", "Spain"), p("Unai Simón", "GK", "Spain"), KNOCKOUTS)
+const swap = (out: Player, incoming: Player, on: string): Player => ({
+  ...out,
+  replacedBy: incoming,
+  replacedOn: on,
+});
+
+// Knockout cutoff for post-group-stage replacements. The last group match
+// kicked off 2026-06-28T02:00Z and the first Round-of-32 match 2026-06-28T19:00Z,
+// so midday UTC cleanly splits group games (before) from knockout games (on/after).
+const KNOCKOUTS = "2026-06-28T12:00:00Z";
+
 const t = (country: string, matches: TeamMatch[] = []): DraftedTeam => ({
   country,
   matches,
@@ -99,7 +117,13 @@ export const league: League = {
         p("Denzel Dumfries", "WB", "Netherlands"),
         p("Aymeric Laporte", "CB", "Spain"),
         p("Joško Gvardiol", "CB", "Croatia"),
-        p("Alejandro Grimaldo", "DEF", "Spain"),
+        // Grimaldo logged 0 minutes in the group stage — swapped for Daniel
+        // Muñoz (Colombia) for the knockouts.
+        swap(
+          p("Alejandro Grimaldo", "DEF", "Spain"),
+          p("Daniel Muñoz", "DEF", "Colombia"),
+          KNOCKOUTS,
+        ),
         p("Jordan Pickford", "GK", "England"),
       ],
       teams: [
@@ -152,7 +176,12 @@ export const league: League = {
         p("Vinícius Júnior", "FWD", "Brazil"),
         p("Son Heung-min", "FWD", "South Korea"),
         p("Christian Pulisic", "FWD", "USA"),
-        p("Bernardo Silva", "MID", "Portugal"),
+        // Bernardo Silva swapped for João Neves (Portugal) for the knockouts.
+        swap(
+          p("Bernardo Silva", "MID", "Portugal"),
+          p("João Neves", "MID", "Portugal"),
+          KNOCKOUTS,
+        ),
         p("Martin Ødegaard", "MID", "Norway"),
         p("Bruno Fernandes", "MID", "Portugal"),
         p("Theo Hernández", "WB", "France"),
@@ -181,7 +210,12 @@ export const league: League = {
         p("Lionel Messi", "FWD", "Argentina"),
         p("Fabián Ruiz", "MID", "Spain"),
         p("Youri Tielemans", "MID", "Belgium"),
-        p("Rayan Cherki", "MID", "France"),
+        // Cherki swapped for Ryan Gravenberch (Netherlands) for the knockouts.
+        swap(
+          p("Rayan Cherki", "MID", "France"),
+          p("Ryan Gravenberch", "MID", "Netherlands"),
+          KNOCKOUTS,
+        ),
         p("Nuno Mendes", "WB", "Portugal"),
         p("Gabriel Magalhães", "CB", "Brazil"),
         p("Pau Cubarsí", "CB", "Spain"),
@@ -239,8 +273,21 @@ export const league: League = {
         p("Antonee Robinson", "WB", "USA"), // "Jedi"
         p("Piero Hincapié", "CB", "Ecuador"),
         p("Willian Pacho", "CB", "Ecuador"),
-        p("David Raum", "DEF", "Germany"),
-        p("David Raya", "GK", "Spain"),
+        // David Raum swapped for Alex Freeman for the knockouts. Grayson keeps
+        // Raum's group points and now scores Freeman's knockout games.
+        swap(
+          p("David Raum", "DEF", "Germany"),
+          p("Alex Freeman", "DEF", "USA"),
+          KNOCKOUTS,
+        ),
+        // Raya logged 0 minutes in the group stage — swapped for Unai Simón for
+        // the knockouts. Grayson keeps Raya's group points (0) and now scores
+        // Simón's knockout games; Simón's group-stage points do not transfer.
+        swap(
+          p("David Raya", "GK", "Spain"),
+          p("Unai Simón", "GK", "Spain"),
+          KNOCKOUTS,
+        ),
       ],
       teams: [
         t("Mexico"),

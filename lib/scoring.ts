@@ -79,6 +79,27 @@ export interface PlayerScore {
   lines: ScoreLine[];
   perMatch: PlayerMatchScore[];
   totals: PlayerTotals;
+  /**
+   * Present only for a slot that was replaced mid-tournament. `player` above is
+   * the CURRENT (incoming) occupant and `total` is the combined slot total;
+   * this records the OUTGOING player and the points they banked before the
+   * swap. Current player's points = `total - previousPoints`.
+   */
+  replaced?: {
+    /** The player swapped out, carrying only their pre-cutoff matches. */
+    previous: Player;
+    /** Points the outgoing player earned before the cutoff (frozen, kept). */
+    previousPoints: number;
+    /** ISO cutoff the swap took effect. */
+    on: string;
+    /** The outgoing player scored under their OWN identity (position/country)
+     *  over their frozen matches — used for date attribution in the title race
+     *  and the per-player switcher view. */
+    previousScore: PlayerScore;
+    /** The incoming player scored alone over their post-cutoff matches (the
+     *  slot's `total`/`lines`/`totals` are the COMBINED figures). */
+    currentScore: PlayerScore;
+  };
 }
 
 export interface TeamMatchScore {
@@ -118,6 +139,49 @@ const line = (
   detail: `${count} × ${per > 0 ? "+" : ""}${per}`,
   tone,
 });
+
+/** Sum two players' category breakdowns into one, combining like-named lines.
+ *  Used to fold a replaced slot's outgoing + incoming breakdowns so the panel
+ *  still totals the slot's combined points. */
+function mergeLines(...groups: ScoreLine[][]): ScoreLine[] {
+  const byLabel = new Map<string, ScoreLine>();
+  const order: string[] = [];
+  for (const g of groups) {
+    for (const l of g) {
+      const e = byLabel.get(l.label);
+      if (e) {
+        e.count += l.count;
+        e.points += l.points;
+      } else {
+        byLabel.set(l.label, { ...l });
+        order.push(l.label);
+      }
+    }
+  }
+  return order.map((label) => {
+    const l = byLabel.get(label)!;
+    const per = l.count !== 0 ? l.points / l.count : 0;
+    return { ...l, detail: `${l.count} × ${per > 0 ? "+" : ""}${per}` };
+  });
+}
+
+/** Field-wise sum of two players' season totals (for a replaced slot). */
+function addTotals(a: PlayerTotals, b: PlayerTotals): PlayerTotals {
+  return {
+    matchesPlayed: a.matchesPlayed + b.matchesPlayed,
+    goals: a.goals + b.goals,
+    assists: a.assists + b.assists,
+    shotsOnGoal: a.shotsOnGoal + b.shotsOnGoal,
+    saves: a.saves + b.saves,
+    pkSaves: a.pkSaves + b.pkSaves,
+    shootoutSaves: a.shootoutSaves + b.shootoutSaves,
+    goalsConceded: a.goalsConceded + b.goalsConceded,
+    cleanSheets: a.cleanSheets + b.cleanSheets,
+    oneGoalGames: a.oneGoalGames + b.oneGoalGames,
+    wins: a.wins + b.wins,
+    motm: a.motm + b.motm,
+  };
+}
 
 // ── Player scoring ─────────────────────────────────────────────────────────
 
@@ -217,6 +281,34 @@ export function scorePlayer(player: Player): PlayerScore {
       lines.push(line("Clean sheets", totals.cleanSheets, POINTS.CLEAN_SHEET));
     if (totals.oneGoalGames)
       lines.push(line("One goal allowed", totals.oneGoalGames, POINTS.ONE_GOAL_ALLOWED));
+  }
+
+  // A replaced slot: `player` / `player.matches` here are the INCOMING occupant
+  // and their post-cutoff games only. Score the OUTGOING player separately under
+  // their OWN position/country (so position bonuses and stat lines are computed
+  // for the right role even on a cross-position swap), then sum: total, totals
+  // and the breakdown all reflect frozen-before + windowed-after. The match log
+  // (perMatch) stays the incoming player's — the outgoing player's frozen games
+  // live on `replaced.previousScore` for the title-race date attribution.
+  if (player.replacedFrom) {
+    const prev = scorePlayer(player.replacedFrom.previous);
+    // The incoming player scored alone (their post-cutoff games only) — kept
+    // for the per-player switcher; the slot fields below are the combined ones.
+    const current: PlayerScore = { player, total, lines, perMatch, totals };
+    return {
+      player,
+      total: total + prev.total,
+      lines: mergeLines(prev.lines, lines),
+      perMatch,
+      totals: addTotals(prev.totals, totals),
+      replaced: {
+        previous: player.replacedFrom.previous,
+        previousPoints: prev.total,
+        on: player.replacedFrom.on,
+        previousScore: prev,
+        currentScore: current,
+      },
+    };
   }
 
   return { player, total, lines, perMatch, totals };

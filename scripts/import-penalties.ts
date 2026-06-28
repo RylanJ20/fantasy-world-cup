@@ -25,6 +25,7 @@
 /* eslint-disable @typescript-eslint/no-explicit-any -- ESPN API payloads are dynamic JSON */
 import { readFileSync, writeFileSync } from "node:fs";
 import { league } from "@/data/league";
+import type { Player } from "@/lib/types";
 import { countryCode } from "@/lib/flags";
 import { normalizeName, playerKey } from "@/lib/names";
 import { fetchScoreboard, fetchSummary, mapStatus } from "./espn";
@@ -51,19 +52,34 @@ function nameMatches(name: string, candidate: string): boolean {
 async function main() {
   console.log("📡 Importing penalty saves from ESPN match summaries…");
 
-  // Drafted goalkeepers, indexed by nation flag code.
+  // Drafted goalkeepers, indexed by nation flag code. A replaced slot can hold
+  // two keepers across the tournament (e.g. a group-stage GK swapped out for the
+  // knockouts), so follow the `replacedBy` chain — each keeper's saves land on
+  // their own match line, and the read-time window keeps each to their stint.
+  const occupants = (p: Player): Player[] => {
+    const out: Player[] = [];
+    let cur: Player | undefined = p;
+    while (cur) {
+      out.push(cur);
+      cur = cur.replacedBy;
+    }
+    return out;
+  };
   const keepersByCode = new Map<string, DraftedKeeper[]>();
   for (const m of league.managers) {
-    for (const p of [...m.players, ...(m.bench ?? [])]) {
-      if (p.position !== "GK") continue;
-      const code = countryCode(p.country);
-      if (!code) continue;
-      const list = keepersByCode.get(code) ?? [];
-      const key = playerKey(p.country, p.name);
-      const existing = list.find((k) => k.key === key);
-      if (existing) existing.managers.push(m.name);
-      else list.push({ key, name: p.name, country: p.country, managers: [m.name] });
-      keepersByCode.set(code, list);
+    for (const slot of [...m.players, ...(m.bench ?? [])]) {
+      for (const p of occupants(slot)) {
+        if (p.position !== "GK") continue;
+        const code = countryCode(p.country);
+        if (!code) continue;
+        const list = keepersByCode.get(code) ?? [];
+        const key = playerKey(p.country, p.name);
+        const existing = list.find((k) => k.key === key);
+        if (existing) {
+          if (!existing.managers.includes(m.name)) existing.managers.push(m.name);
+        } else list.push({ key, name: p.name, country: p.country, managers: [m.name] });
+        keepersByCode.set(code, list);
+      }
     }
   }
 

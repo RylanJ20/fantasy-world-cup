@@ -18,6 +18,12 @@ export type Result = "W" | "D" | "L";
 export interface PlayerMatch {
   /** Short opponent / matchday label, e.g. "vs Brazil" or "R16 · Mexico". */
   opponent: string;
+  /** ISO kickoff (UTC), stamped by the ESPN import. Drives mid-tournament
+   *  replacement windowing — a swapped-in player only counts matches on/after
+   *  the cutoff. Absent on hand-entered overlay rows that name no fixture. */
+  date?: string;
+  /** ESPN fixture id, stamped by the import alongside `date`. */
+  fixtureId?: number;
   goals?: number;
   assists?: number;
   shotsOnGoal?: number;
@@ -43,6 +49,20 @@ export interface Player {
   matches: PlayerMatch[];
   /** Optional flavour note shown under the player's name (e.g. an inside joke). */
   note?: string;
+
+  // ── Mid-tournament replacement (authoring; set via the `swap()` builder) ──
+  /** The player who takes over this slot from `replacedOn`. Replace like-for-
+   *  like position so the squad shape (1 GK · 2 CB · 1 DEF · 1 WB · 3 MID · 3
+   *  FWD) is preserved. */
+  replacedBy?: Player;
+  /** ISO cutoff. This player keeps points from matches BEFORE it; `replacedBy`
+   *  scores matches ON/AFTER it. */
+  replacedOn?: string;
+
+  /** Resolved by the stat-merge layer (lib/league.ts) — never authored. The
+   *  previous occupant of a replaced slot, carrying only their pre-cutoff
+   *  matches (their "frozen" contribution). Drives the swap display. */
+  replacedFrom?: { previous: Player; on: string };
 }
 
 /** One match for a drafted national team. */

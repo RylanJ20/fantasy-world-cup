@@ -187,16 +187,25 @@ export function getTitleRace(): TitleRace {
     for (const p of m.players) {
       const consumed = new Map<string, number>();
       let dated = 0;
-      for (const pm of p.perMatch) {
-        if (pm.points === 0) continue;
-        const day = dayForMatch(p.player.country, pm.match.opponent, consumed);
-        if (day) {
-          add(id, day, pm.points);
-          dated += pm.points;
+      const dateMatches = (country: string, perMatch: typeof p.perMatch) => {
+        for (const pm of perMatch) {
+          if (pm.points === 0) continue;
+          const day = dayForMatch(country, pm.match.opponent, consumed);
+          if (day) {
+            add(id, day, pm.points);
+            dated += pm.points;
+          }
         }
+      };
+      dateMatches(p.player.country, p.perMatch);
+      // A replaced slot: date the OUTGOING player's frozen games under THEIR own
+      // nation (it may differ from the incoming player's), so their pre-cutoff
+      // points land on the right matchday rather than the remainder fold.
+      if (p.replaced) {
+        dateMatches(p.replaced.previous.country, p.replaced.previousScore.perMatch);
       }
       // Fold any undated remainder onto the final day so the running total can
-      // never drift away from this player's true season total.
+      // never drift away from this slot's true season total.
       add(id, lastDay, p.total - dated);
     }
 

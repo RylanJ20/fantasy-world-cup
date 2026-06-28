@@ -23,12 +23,27 @@ function PlayerNode({ ps }: { ps: PlayerScore }) {
       href={`#${playerAnchor(player.name)}`}
       // Flexible width so any row (incl. a 4-defender back line) always fits.
       className="group flex min-w-0 max-w-[4.5rem] flex-1 flex-col items-center gap-1"
-      title={`${player.name} — ${ps.total} pts`}
+      title={
+        ps.replaced
+          ? `${player.name} (in for ${ps.replaced.previous.name}) — ${ps.total} pts`
+          : `${player.name} — ${ps.total} pts`
+      }
     >
-      <span
-        className={`grid h-11 w-11 place-items-center rounded-full border-2 bg-bg/85 font-mono text-sm font-bold shadow-lg backdrop-blur transition-transform group-hover:-translate-y-1 group-hover:scale-105 sm:h-12 sm:w-12 ${NODE_TONE[player.position]}`}
-      >
-        {ps.total}
+      <span className="relative">
+        <span
+          className={`grid h-11 w-11 place-items-center rounded-full border-2 bg-bg/85 font-mono text-sm font-bold shadow-lg backdrop-blur transition-transform group-hover:-translate-y-1 group-hover:scale-105 sm:h-12 sm:w-12 ${NODE_TONE[player.position]}`}
+        >
+          {ps.total}
+        </span>
+        {ps.replaced && (
+          // Swap marker — this slot was replaced mid-tournament.
+          <span
+            className="absolute -right-1 -top-1 grid h-4 w-4 place-items-center rounded-full border border-amber/60 bg-bg text-[0.55rem] font-bold leading-none text-amber"
+            aria-hidden
+          >
+            ⇄
+          </span>
+        )}
       </span>
       {/* Reserve two lines so compound names (e.g. "Bruno Fernandes") wrap
           instead of truncating, and the position labels below stay aligned. */}

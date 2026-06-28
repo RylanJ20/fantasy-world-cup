@@ -4,7 +4,7 @@
 // ──────────────────────────────────────────────────────────────────────────
 
 import { league } from "@/data/league";
-import type { Manager, Player } from "./types";
+import type { Manager, Player, PlayerMatch } from "./types";
 import { fixtures, resultsForCountry } from "./fixtures";
 import { mergedPlayerMatches } from "./playerStats";
 import { tournamentLeader, tournamentLeaders } from "./tournamentLeaders";
@@ -33,15 +33,65 @@ function withAutoResults(m: Manager): Manager {
 }
 
 /**
+ * Resolve one squad slot to the matches that should score for it.
+ *
+ * Normal slot: ESPN auto stats + the league.ts manual overlay (MOTM / penalty
+ * saves), via mergedPlayerMatches.
+ *
+ * Replaced slot (`replacedBy` set): the slot now belongs to the incoming
+ * player, but keeps the points the outgoing player banked BEFORE the cutoff.
+ * The returned Player carries the INCOMING identity (name / country / position)
+ * and only the incoming player's ON/AFTER-cutoff matches; the outgoing player —
+ * with only their pre-cutoff matches — is attached on `replacedFrom` and scored
+ * separately by scorePlayer (so each occupant is scored under their own role and
+ * nation, and the slot total is the sum). Recurses so a slot can be replaced
+ * more than once.
+ */
+function resolveSlot(p: Player): Player {
+  const filled: Player = { ...p, matches: mergedPlayerMatches(p) };
+  if (!p.replacedBy || !p.replacedOn) return filled;
+
+  const cutoff = Date.parse(p.replacedOn);
+  // Undated rows (hand-entered overlays with no fixture) stay with the OUTGOING
+  // player — overlays annotate games already played before any mid-event swap.
+  const isBefore = (mm: PlayerMatch) => {
+    const t = mm.date ? Date.parse(mm.date) : NaN;
+    return Number.isNaN(t) || t < cutoff;
+  };
+  const isOnAfter = (mm: PlayerMatch) => {
+    const t = mm.date ? Date.parse(mm.date) : NaN;
+    return !Number.isNaN(t) && t >= cutoff;
+  };
+
+  const incoming = resolveSlot(p.replacedBy);
+
+  // Outgoing player as a standalone entity (own name / position / country) with
+  // only their frozen matches — scored separately for the slot total + display.
+  const previous: Player = {
+    name: p.name,
+    position: p.position,
+    country: p.country,
+    matches: filled.matches.filter(isBefore),
+    ...(p.note ? { note: p.note } : {}),
+  };
+
+  return {
+    ...incoming,
+    matches: incoming.matches.filter(isOnAfter),
+    replacedFrom: { previous, on: p.replacedOn },
+  };
+}
+
+/**
  * Fill each drafted player's matches from ESPN's imported stats, with their
- * league.ts entries layered on top as a manual overlay (MOTM / penalty saves).
+ * league.ts entries layered on top as a manual overlay (MOTM / penalty saves),
+ * resolving any mid-tournament replacement to the right scoring window.
  */
 function withAutoPlayerStats(m: Manager): Manager {
-  const fill = (p: Player): Player => ({ ...p, matches: mergedPlayerMatches(p) });
   return {
     ...m,
-    players: m.players.map(fill),
-    ...(m.bench ? { bench: m.bench.map(fill) } : {}),
+    players: m.players.map(resolveSlot),
+    ...(m.bench ? { bench: m.bench.map(resolveSlot) } : {}),
   };
 }
 
