@@ -5018,7 +5018,7 @@
         "goals": 0,
         "assists": 0,
         "shotsOnGoal": 0,
-        "saves": 0,
+        "saves": 1,
         "goalsConceded": 0
       }
     ]
@@ -5263,7 +5263,7 @@
         "opponent": "Portugal",
         "goals": 0,
         "assists": 0,
-        "shotsOnGoal": 1,
+        "shotsOnGoal": 0,
         "saves": 0,
         "goalsConceded": 0
       }
@@ -19187,7 +19187,7 @@
         "opponent": "Colombia",
         "goals": 0,
         "assists": 0,
-        "shotsOnGoal": 0,
+        "shotsOnGoal": 1,
         "saves": 0,
         "goalsConceded": 0
       }
