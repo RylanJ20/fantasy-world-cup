@@ -859,7 +859,7 @@
     "home": "Algeria",
     "away": "Austria",
     "status": "IN_PLAY",
-    "homeScore": 1,
+    "homeScore": 0,
     "awayScore": 1,
     "winner": null
   },
@@ -965,7 +965,7 @@
     "utcDate": "2026-07-01T20:00:00Z",
     "stage": "Round of 32",
     "home": "Belgium",
-    "away": "Third Place Group A/E/H/I/J",
+    "away": "Senegal",
     "status": "TIMED",
     "homeScore": null,
     "awayScore": null,
