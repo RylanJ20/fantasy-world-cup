@@ -834,10 +834,10 @@
     "stage": "Group K",
     "home": "Congo DR",
     "away": "Uzbekistan",
-    "status": "FINISHED",
+    "status": "IN_PLAY",
     "homeScore": 3,
     "awayScore": 1,
-    "winner": "HOME_TEAM"
+    "winner": null
   },
   {
     "n": 760483,
