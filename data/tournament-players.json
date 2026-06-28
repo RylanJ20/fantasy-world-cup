@@ -5368,6 +5368,14 @@
         "saves": 0,
         "goalsConceded": 0,
         "result": "W"
+      },
+      {
+        "opponent": "Portugal",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -5385,6 +5393,14 @@
         "saves": 0,
         "goalsConceded": 0,
         "result": "W"
+      },
+      {
+        "opponent": "Portugal",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -5843,6 +5859,22 @@
     ]
   },
   {
+    "name": "Meschack Elia",
+    "country": "Congo DR",
+    "position": "",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Uzbekistan",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
     "name": "Nathanaël Mbuku",
     "country": "Congo DR",
     "position": "MID",
@@ -5890,6 +5922,14 @@
         "saves": 0,
         "goalsConceded": 0,
         "result": "L"
+      },
+      {
+        "opponent": "Uzbekistan",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -6010,6 +6050,22 @@
         "saves": 0,
         "goalsConceded": 1,
         "result": "L"
+      }
+    ]
+  },
+  {
+    "name": "Théo Bongonda",
+    "country": "Congo DR",
+    "position": "",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Uzbekistan",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -27865,6 +27921,14 @@
         "saves": 0,
         "goalsConceded": 1,
         "result": "L"
+      },
+      {
+        "opponent": "Congo DR",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
