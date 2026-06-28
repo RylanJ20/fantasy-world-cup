@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 import Link from "next/link";
 import { Flag, signed } from "./ui";
 import { ChevronRight } from "./icons";
+import { isDone, isLiveNow } from "@/lib/liveStatus";
 import type { InvolvedAsset } from "@/lib/fixtures";
 import type {
   ManagerMatchScore,
@@ -47,28 +48,6 @@ function localDateStr(utc: string): string {
   return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}-${String(
     d.getDate(),
   ).padStart(2, "0")}`;
-}
-
-const isLive = (s?: string) => s === "IN_PLAY" || s === "PAUSED";
-const isDone = (s?: string) => s === "FINISHED";
-
-// The upstream free-tier API reports IN_PLAY slowly and unreliably, so a genuinely
-// live match can still read as "TIMED" for a long while. To surface the Live badge
-// in real time we also infer it from the clock: a fixture counts as live from
-// kickoff until a stage-dependent window later (groups ~130', knockouts ~180' to
-// cover extra time + penalties) — unless the API has already said FINISHED/IN_PLAY,
-// in which case we trust the API.
-const liveWindowMin = (stage: string) => (stage.startsWith("Group") ? 130 : 180);
-
-function isLiveNow(
-  f: { status?: string; utcDate?: string | null; stage: string },
-  now: number | null,
-): boolean {
-  if (isDone(f.status)) return false; // API says it's over — trust it
-  if (isLive(f.status)) return true; // API says in-play — trust it
-  if (now == null || !f.utcDate) return false; // pre-hydration / no kickoff time
-  const kickoff = new Date(f.utcDate).getTime();
-  return now >= kickoff && now < kickoff + liveWindowMin(f.stage) * 60_000;
 }
 
 function AssetChip({ a }: { a: InvolvedAsset }) {
@@ -314,7 +293,14 @@ export function FixtureBoard({ fixtures }: { fixtures: ScoredFixture[] }) {
 
   useEffect(() => {
     setToday(localToday());
-    // Jump to the next match — only once some are already finished (mid-tournament).
+    // A deep link (e.g. /fixtures#fx-760501 from the bracket) wins — scroll to
+    // that match and leave it. Otherwise jump to the next match, but only once
+    // some are already finished (mid-tournament).
+    const hash = window.location.hash.replace(/^#/, "");
+    if (hash) {
+      document.getElementById(hash)?.scrollIntoView({ block: "center" });
+      return;
+    }
     const idx = fixtures.findIndex((f) => f.n === nextN);
     if (nextN != null && idx > 0) {
       document.getElementById(`fx-${nextN}`)?.scrollIntoView({ block: "center" });

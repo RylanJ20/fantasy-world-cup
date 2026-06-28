@@ -1,7 +1,9 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
+import Link from "next/link";
 import type { Bracket, BracketMatch, BracketSide } from "@/lib/bracket";
+import { isDone, isLiveNow } from "@/lib/liveStatus";
 import { Flag } from "./ui";
 
 /** Flatten every match (incl. third place) into an id → match lookup. */
@@ -14,7 +16,6 @@ function indexMatches(b: Bracket): Map<string, BracketMatch> {
 
 const fmtDate = (iso: string | null) => {
   if (!iso) return "";
-  // iso like 2026-07-04T17:00 — render "Jul 4" without timezone math.
   const [y, m, d] = iso.slice(0, 10).split("-").map(Number);
   const MON = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
   return y && m && d ? `${MON[m - 1]} ${d}` : "";
@@ -23,8 +24,17 @@ const fmtDate = (iso: string | null) => {
 export function Bracket({ bracket }: { bracket: Bracket }) {
   const byId = useMemo(() => indexMatches(bracket), [bracket]);
   const [active, setActive] = useState<{ code: string; ids: Set<string> } | null>(null);
+  // Wall-clock, refreshed on a timer so Live badges flip on/off without a
+  // reload. Null until mounted to keep SSR / first paint deterministic.
+  const [now, setNow] = useState<number | null>(null);
+  useEffect(() => {
+    const tick = () => setNow(Date.now());
+    tick();
+    const id = setInterval(tick, 60_000);
+    return () => clearInterval(id);
+  }, []);
 
-  // Forward path (this match → final) as a set of ids.
+  // Forward path (this match → final) as a list of ids.
   const pathFrom = (id: string): string[] => {
     const out: string[] = [];
     let cur: string | undefined = id;
@@ -35,8 +45,8 @@ export function Bracket({ bracket }: { bracket: Bracket }) {
     return out;
   };
 
-  // Highlight a team's whole run: every match it currently appears in, plus the
-  // forward path from each, so its route to the final lights up end-to-end.
+  // Highlight a team's whole run: every match it appears in, plus the forward
+  // path from each, so its route to the final lights up end-to-end.
   const highlight = (code: string) => {
     const ids = new Set<string>();
     for (const m of byId.values())
@@ -44,24 +54,17 @@ export function Bracket({ bracket }: { bracket: Bracket }) {
         for (const pid of pathFrom(m.id)) ids.add(pid);
     setActive({ code, ids });
   };
-  const clear = () => setActive(null);
-
   const dim = (id: string) => active != null && !active.ids.has(id);
 
   function Side({ side }: { side: BracketSide }) {
     if (side.team) {
       const isActive = active?.code === side.team.code;
       return (
-        <button
-          type="button"
+        <div
           onMouseEnter={() => highlight(side.team!.code!)}
-          onFocus={() => highlight(side.team!.code!)}
-          onMouseLeave={clear}
-          onBlur={clear}
-          onClick={() => (isActive ? clear() : highlight(side.team!.code!))}
-          className={`flex w-full items-center gap-1.5 px-2 py-1 text-left transition-colors ${
+          className={`flex w-full items-center gap-1.5 px-2 py-1 transition-colors ${
             side.team.winner ? "font-bold text-chalk" : "text-muted"
-          } ${isActive ? "bg-turf/15" : "hover:bg-white/5"}`}
+          } ${isActive ? "bg-turf/15" : ""}`}
         >
           <Flag country={side.team.name} size={12} />
           <span className="min-w-0 flex-1 truncate text-xs">{side.team.name}</span>
@@ -74,7 +77,7 @@ export function Bracket({ bracket }: { bracket: Bracket }) {
               {side.team.score}
             </span>
           )}
-        </button>
+        </div>
       );
     }
     // Unresolved — show the feeder game it's waiting on.
@@ -102,11 +105,30 @@ export function Bracket({ bracket }: { bracket: Bracket }) {
     );
   }
 
+  function Footer({ m }: { m: BracketMatch }) {
+    const live = isLiveNow({ status: m.status, utcDate: m.date, stage: "Knockout" }, now);
+    if (live)
+      return (
+        <span className="flex items-center justify-center gap-1.5 text-[0.55rem] font-bold uppercase tracking-wider text-red">
+          <span className="h-1.5 w-1.5 animate-pulse rounded-full bg-red" />
+          Live
+        </span>
+      );
+    if (isDone(m.status))
+      return <span className="font-mono text-[0.55rem] font-bold uppercase tracking-wider text-faint">FT</span>;
+    return (
+      <span className="text-[0.55rem] uppercase tracking-wider text-faint">{fmtDate(m.date)}</span>
+    );
+  }
+
   function MatchCard({ m }: { m: BracketMatch }) {
     const onPath = active?.ids.has(m.id);
+    const href = m.fixtureN != null ? `/fixtures#fx-${m.fixtureN}` : "/fixtures";
     return (
-      <div
-        className={`overflow-hidden rounded-lg border bg-bg-2/60 backdrop-blur transition-all ${
+      <Link
+        href={href}
+        title="View this match on the fixtures page"
+        className={`block overflow-hidden rounded-lg border bg-bg-2/60 backdrop-blur transition-all hover:border-turf/50 ${
           onPath
             ? "border-turf/70 shadow-[0_0_0_1px_rgba(93,255,160,0.35)]"
             : "border-line"
@@ -115,19 +137,17 @@ export function Bracket({ bracket }: { bracket: Bracket }) {
         <Side side={m.sides[0]} />
         <div className="h-px bg-line/70" />
         <Side side={m.sides[1]} />
-        {m.date && (
-          <div className="border-t border-line/50 px-2 py-0.5 text-center text-[0.55rem] uppercase tracking-wider text-faint">
-            {fmtDate(m.date)}
-          </div>
-        )}
-      </div>
+        <div className="border-t border-line/50 px-2 py-0.5 text-center">
+          <Footer m={m} />
+        </div>
+      </Link>
     );
   }
 
   return (
-    <div>
+    <div onMouseLeave={() => setActive(null)}>
       <p className="mb-4 text-sm text-muted">
-        Hover or tap a team to trace its path to the final.
+        Hover a team to trace its path to the final · tap any match to see it on the fixtures page.
       </p>
 
       <div className="overflow-x-auto pb-4">

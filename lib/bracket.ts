@@ -57,6 +57,8 @@ export interface BracketMatch {
   id: string;
   roundKey: RoundKey | "third";
   n: number;
+  /** ESPN fixture id — anchors the deep link to /fixtures#fx-<fixtureN>. */
+  fixtureN: number | null;
   date: string | null;
   status: string;
   sides: [BracketSide, BracketSide];
@@ -128,6 +130,7 @@ export function getBracket(): Bracket {
         id,
         roundKey: r.key,
         n,
+        fixtureN: f.n ?? null,
         date: f.utcDate ?? f.date ?? null,
         status: f.status ?? "TIMED",
         sides: buildSides(f, childIds),
@@ -165,6 +168,7 @@ export function getBracket(): Bracket {
         id: "third-1",
         roundKey: "third",
         n: 1,
+        fixtureN: tpFix.n ?? null,
         date: tpFix.utcDate ?? tpFix.date ?? null,
         status: tpFix.status ?? "TIMED",
         sides: buildSides(tpFix, THIRD_FEEDERS),
