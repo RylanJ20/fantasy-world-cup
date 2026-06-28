@@ -1,7 +1,7 @@
 {
   "summary": {
-    "total": 9,
-    "scored": 6,
+    "total": 10,
+    "scored": 7,
     "saved": 2,
     "missed": 1,
     "unknown": 0,
@@ -126,6 +126,19 @@
       "keeper": "Mostafa Shobeir",
       "keeperTeam": "Egypt",
       "text": "Penalty saved. Mehdi Taremi (IR Iran) right footed shot saved in the bottom right corner by Mostafa Shobeir (Egypt)."
+    },
+    {
+      "fixtureId": 760482,
+      "match": "Uzbekistan at Congo DR",
+      "date": "2026-06-27T23:30Z",
+      "minute": "68'",
+      "shootout": false,
+      "kind": "scored",
+      "taker": "Yoane Wissa",
+      "takerTeam": "Congo DR",
+      "keeper": null,
+      "keeperTeam": null,
+      "text": "Goal! Congo DR 1, Uzbekistan 1. Yoane Wissa (Congo DR) converts the penalty with a right footed shot to the bottom right corner."
     }
   ]
 }

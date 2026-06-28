@@ -5263,7 +5263,7 @@
         "opponent": "Portugal",
         "goals": 0,
         "assists": 0,
-        "shotsOnGoal": 1,
+        "shotsOnGoal": 2,
         "saves": 0,
         "goalsConceded": 0
       }
@@ -6039,9 +6039,9 @@
       },
       {
         "opponent": "Uzbekistan",
-        "goals": 0,
+        "goals": 1,
         "assists": 0,
-        "shotsOnGoal": 0,
+        "shotsOnGoal": 1,
         "saves": 0,
         "goalsConceded": 1
       }
@@ -19570,6 +19570,14 @@
         "saves": 0,
         "goalsConceded": 0,
         "result": "W"
+      },
+      {
+        "opponent": "Colombia",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -19641,6 +19649,22 @@
     "name": "Rúben Neves",
     "country": "Portugal",
     "position": "MID",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Colombia",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Samú Costa",
+    "country": "Portugal",
+    "position": "",
     "managers": [],
     "matches": [
       {
@@ -27459,7 +27483,7 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 0
+        "goalsConceded": 1
       }
     ]
   },
@@ -27493,7 +27517,7 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 0
+        "goalsConceded": 1
       }
     ]
   },
@@ -27544,7 +27568,7 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 1,
-        "goalsConceded": 0
+        "goalsConceded": 1
       }
     ]
   },
@@ -27578,7 +27602,7 @@
         "assists": 1,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 0
+        "goalsConceded": 1
       }
     ]
   },
@@ -27620,7 +27644,7 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 0
+        "goalsConceded": 1
       }
     ]
   },
@@ -27705,7 +27729,7 @@
         "assists": 0,
         "shotsOnGoal": 1,
         "saves": 0,
-        "goalsConceded": 0
+        "goalsConceded": 1
       }
     ]
   },
@@ -27773,7 +27797,7 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 0
+        "goalsConceded": 1
       }
     ]
   },
@@ -27798,7 +27822,7 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 0
+        "goalsConceded": 1
       }
     ]
   },
@@ -27823,7 +27847,7 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 0
+        "goalsConceded": 1
       }
     ]
   },
@@ -27925,7 +27949,7 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 0
+        "goalsConceded": 1
       }
     ]
   },
@@ -27976,7 +28000,7 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 0
+        "goalsConceded": 1
       }
     ]
   },
