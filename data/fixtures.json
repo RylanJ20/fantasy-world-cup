@@ -870,9 +870,9 @@
     "stage": "Round of 32",
     "home": "South Africa",
     "away": "Canada",
-    "status": "TIMED",
-    "homeScore": null,
-    "awayScore": null,
+    "status": "PAUSED",
+    "homeScore": 0,
+    "awayScore": 0,
     "winner": null
   },
   {
