@@ -5734,6 +5734,22 @@
     ]
   },
   {
+    "name": "Fiston Mayele",
+    "country": "Congo DR",
+    "position": "",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Uzbekistan",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
     "name": "Gédéon Kalulu",
     "country": "Congo DR",
     "position": "",
