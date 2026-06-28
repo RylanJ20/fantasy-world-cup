@@ -846,7 +846,7 @@
     "stage": "Group J",
     "home": "Jordan",
     "away": "Argentina",
-    "status": "IN_PLAY",
+    "status": "PAUSED",
     "homeScore": 0,
     "awayScore": 2,
     "winner": null
@@ -858,8 +858,8 @@
     "stage": "Group J",
     "home": "Algeria",
     "away": "Austria",
-    "status": "IN_PLAY",
-    "homeScore": 0,
+    "status": "PAUSED",
+    "homeScore": 1,
     "awayScore": 1,
     "winner": null
   },
