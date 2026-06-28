@@ -847,7 +847,7 @@
     "home": "Jordan",
     "away": "Argentina",
     "status": "IN_PLAY",
-    "homeScore": 0,
+    "homeScore": 1,
     "awayScore": 2,
     "winner": null
   },
@@ -859,8 +859,8 @@
     "home": "Algeria",
     "away": "Austria",
     "status": "IN_PLAY",
-    "homeScore": 1,
-    "awayScore": 1,
+    "homeScore": 2,
+    "awayScore": 2,
     "winner": null
   },
   {

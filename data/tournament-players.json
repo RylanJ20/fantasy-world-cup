@@ -481,6 +481,14 @@
         "saves": 0,
         "goalsConceded": 1,
         "result": "W"
+      },
+      {
+        "opponent": "Austria",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -519,6 +527,22 @@
     ]
   },
   {
+    "name": "Samir Chergui",
+    "country": "Algeria",
+    "position": "",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Austria",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
     "name": "Zineddine Belaïd",
     "country": "Algeria",
     "position": "",
@@ -532,6 +556,14 @@
         "saves": 0,
         "goalsConceded": 0,
         "result": "W"
+      },
+      {
+        "opponent": "Austria",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -1141,6 +1173,22 @@
         "goalsConceded": 0,
         "result": "W"
       },
+      {
+        "opponent": "Jordan",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Valentín Barco",
+    "country": "Argentina",
+    "position": "",
+    "managers": [],
+    "matches": [
       {
         "opponent": "Jordan",
         "goals": 0,
