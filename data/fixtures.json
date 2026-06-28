@@ -870,10 +870,10 @@
     "stage": "Round of 32",
     "home": "South Africa",
     "away": "Canada",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "homeScore": 0,
     "awayScore": 1,
-    "winner": null
+    "winner": "AWAY_TEAM"
   },
   {
     "n": 760487,
@@ -1060,7 +1060,7 @@
     "date": "2026-07-04",
     "utcDate": "2026-07-04T17:00:00Z",
     "stage": "Round of 16",
-    "home": "Round of 32 1 Winner",
+    "home": "Canada",
     "away": "Round of 32 3 Winner",
     "status": "TIMED",
     "homeScore": null,

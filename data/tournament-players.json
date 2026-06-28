@@ -358,7 +358,7 @@
   {
     "name": "Nadhir Benbouali",
     "country": "Algeria",
-    "position": "FWD",
+    "position": "",
     "managers": [],
     "matches": [
       {
@@ -1074,7 +1074,7 @@
   {
     "name": "Nico González",
     "country": "Argentina",
-    "position": "FWD",
+    "position": "",
     "managers": [],
     "matches": [
       {
@@ -3182,7 +3182,7 @@
   {
     "name": "Dennis Hadzikadunic",
     "country": "Bosnia-Herzegovina",
-    "position": "DEF",
+    "position": "",
     "managers": [],
     "matches": [
       {
@@ -3286,7 +3286,7 @@
   {
     "name": "Ermin Mahmic",
     "country": "Bosnia-Herzegovina",
-    "position": "MID",
+    "position": "",
     "managers": [],
     "matches": [
       {
@@ -4425,7 +4425,7 @@
   {
     "name": "Hélio Varela",
     "country": "Cabo Verde",
-    "position": "FWD",
+    "position": "",
     "managers": [],
     "matches": [
       {
@@ -5419,7 +5419,7 @@
   {
     "name": "Promise David",
     "country": "Canada",
-    "position": "FWD",
+    "position": "",
     "managers": [],
     "matches": [
       {
@@ -5682,7 +5682,7 @@
   {
     "name": "Cucho Hernández",
     "country": "Colombia",
-    "position": "FWD",
+    "position": "",
     "managers": [],
     "matches": [
       {
@@ -5861,7 +5861,7 @@
   {
     "name": "Jáminton Campaz",
     "country": "Colombia",
-    "position": "MID",
+    "position": "",
     "managers": [],
     "matches": [
       {
@@ -6035,7 +6035,7 @@
   {
     "name": "Juan Fernando Quintero",
     "country": "Colombia",
-    "position": "MID",
+    "position": "",
     "managers": [],
     "matches": [
       {
@@ -6458,7 +6458,7 @@
   {
     "name": "Fiston Mayele",
     "country": "Congo DR",
-    "position": "FWD",
+    "position": "",
     "managers": [],
     "matches": [
       {
@@ -6562,7 +6562,7 @@
   {
     "name": "Meschack Elia",
     "country": "Congo DR",
-    "position": "FWD",
+    "position": "",
     "managers": [],
     "matches": [
       {
@@ -8910,7 +8910,7 @@
   {
     "name": "Kevin Rodríguez",
     "country": "Ecuador",
-    "position": "DEF",
+    "position": "",
     "managers": [],
     "matches": [
       {
@@ -10890,7 +10890,7 @@
   {
     "name": "Rayan Cherki",
     "country": "France",
-    "position": "MID",
+    "position": "",
     "managers": [
       {
         "id": "zach",
@@ -11115,7 +11115,7 @@
   {
     "name": "Deniz Undav",
     "country": "Germany",
-    "position": "FWD",
+    "position": "",
     "managers": [],
     "matches": [
       {
@@ -11537,7 +11537,7 @@
   {
     "name": "Nadiem Amiri",
     "country": "Germany",
-    "position": "MID",
+    "position": "",
     "managers": [],
     "matches": [
       {
@@ -11732,7 +11732,7 @@
   {
     "name": "Brandon Thomas-Asante",
     "country": "Ghana",
-    "position": "FWD",
+    "position": "",
     "managers": [],
     "matches": [
       {
@@ -14929,7 +14929,7 @@
   {
     "name": "Koki Ogawa",
     "country": "Japan",
-    "position": "FWD",
+    "position": "",
     "managers": [],
     "matches": [
       {
@@ -16740,7 +16740,7 @@
   {
     "name": "Gessime Yassine",
     "country": "Morocco",
-    "position": "FWD",
+    "position": "",
     "managers": [],
     "matches": [
       {
@@ -16957,7 +16957,7 @@
   {
     "name": "Soufiane Rahimi",
     "country": "Morocco",
-    "position": "FWD",
+    "position": "",
     "managers": [],
     "matches": [
       {
@@ -17356,7 +17356,7 @@
   {
     "name": "Memphis Depay",
     "country": "Netherlands",
-    "position": "FWD",
+    "position": "",
     "managers": [],
     "matches": [
       {
@@ -18610,7 +18610,7 @@
   {
     "name": "Marcus Holmgren Pedersen",
     "country": "Norway",
-    "position": "DEF",
+    "position": "",
     "managers": [],
     "matches": [
       {
@@ -19901,7 +19901,7 @@
   {
     "name": "Maurício",
     "country": "Paraguay",
-    "position": "MID",
+    "position": "",
     "managers": [],
     "matches": [
       {
@@ -20497,7 +20497,7 @@
   {
     "name": "Rafael Leão",
     "country": "Portugal",
-    "position": "FWD",
+    "position": "",
     "managers": [
       {
         "id": "marc",
@@ -22679,7 +22679,7 @@
   {
     "name": "Iliman Ndiaye",
     "country": "Senegal",
-    "position": "MID",
+    "position": "",
     "managers": [],
     "matches": [
       {
@@ -23719,7 +23719,7 @@
   {
     "name": "Tshepang Moremi",
     "country": "South Africa",
-    "position": "FWD",
+    "position": "",
     "managers": [],
     "matches": [
       {
@@ -25385,7 +25385,7 @@
   {
     "name": "Lucas Bergvall",
     "country": "Sweden",
-    "position": "MID",
+    "position": "",
     "managers": [],
     "matches": [
       {
@@ -25420,7 +25420,7 @@
   {
     "name": "Mattias Svanberg",
     "country": "Sweden",
-    "position": "MID",
+    "position": "",
     "managers": [],
     "matches": [
       {
@@ -27061,7 +27061,7 @@
   {
     "name": "Kaan Ayhan",
     "country": "Türkiye",
-    "position": "DEF",
+    "position": "",
     "managers": [],
     "matches": [
       {
