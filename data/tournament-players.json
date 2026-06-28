@@ -15071,6 +15071,22 @@
     ]
   },
   {
+    "name": "Amer Jamous",
+    "country": "Jordan",
+    "position": "",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Argentina",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
     "name": "Ehsan Haddad",
     "country": "Jordan",
     "position": "MID",
