@@ -293,6 +293,13 @@
       "managers": []
     },
     {
+      "name": "Ronwen Williams",
+      "country": "South Africa",
+      "position": "GK",
+      "value": 11,
+      "managers": []
+    },
+    {
       "name": "Alisson Becker",
       "country": "Brazil",
       "position": "GK",
@@ -303,13 +310,6 @@
           "name": "Marc"
         }
       ]
-    },
-    {
-      "name": "Ronwen Williams",
-      "country": "South Africa",
-      "position": "GK",
-      "value": 10,
-      "managers": []
     }
   ],
   "cleanSheets": [
