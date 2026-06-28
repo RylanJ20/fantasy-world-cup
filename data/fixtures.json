@@ -834,7 +834,7 @@
     "stage": "Group K",
     "home": "Congo DR",
     "away": "Uzbekistan",
-    "status": "IN_PLAY",
+    "status": "PAUSED",
     "homeScore": 0,
     "awayScore": 1,
     "winner": null
