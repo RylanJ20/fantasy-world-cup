@@ -131,6 +131,18 @@
       "managers": []
     },
     {
+      "name": "Florian Wirtz",
+      "country": "Germany",
+      "position": "MID",
+      "value": 3,
+      "managers": [
+        {
+          "id": "marc",
+          "name": "Marc"
+        }
+      ]
+    },
+    {
       "name": "Michael Olise",
       "country": "France",
       "position": "MID",
@@ -191,18 +203,6 @@
         {
           "id": "rylan",
           "name": "Rylan"
-        }
-      ]
-    },
-    {
-      "name": "Florian Wirtz",
-      "country": "Germany",
-      "position": "MID",
-      "value": 2,
-      "managers": [
-        {
-          "id": "marc",
-          "name": "Marc"
         }
       ]
     },

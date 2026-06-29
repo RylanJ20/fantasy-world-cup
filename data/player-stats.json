@@ -666,7 +666,7 @@
         "opponent": "Paraguay",
         "date": "2026-06-29T20:30Z",
         "goals": 0,
-        "assists": 0,
+        "assists": 1,
         "shotsOnGoal": 0
       }
     ]
@@ -855,9 +855,9 @@
         "fixtureId": 760489,
         "opponent": "Paraguay",
         "date": "2026-06-29T20:30Z",
-        "goals": 0,
+        "goals": 1,
         "assists": 0,
-        "shotsOnGoal": 0
+        "shotsOnGoal": 1
       }
     ]
   },
