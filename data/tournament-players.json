@@ -11910,7 +11910,7 @@
         "opponent": "Paraguay",
         "goals": 0,
         "assists": 0,
-        "shotsOnGoal": 0,
+        "shotsOnGoal": 1,
         "saves": 0,
         "goalsConceded": 0
       }
@@ -20100,6 +20100,22 @@
     ]
   },
   {
+    "name": "Fabián Balbuena",
+    "country": "Paraguay",
+    "position": "",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Germany",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
     "name": "Gabriel Ávalos",
     "country": "Paraguay",
     "position": "FWD",
@@ -20590,7 +20606,7 @@
         "goals": 0,
         "assists": 0,
         "shotsOnGoal": 0,
-        "saves": 5,
+        "saves": 6,
         "goalsConceded": 1
       }
     ]
