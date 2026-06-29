@@ -1,11 +1,11 @@
 {
   "summary": {
-    "total": 13,
+    "total": 14,
     "scored": 8,
-    "saved": 4,
+    "saved": 5,
     "missed": 1,
     "unknown": 0,
-    "inPlaySaves": 4,
+    "inPlaySaves": 5,
     "shootoutSaves": 0
   },
   "events": [
@@ -178,6 +178,20 @@
       "keeper": "Orlando Gill",
       "keeperTeam": "Paraguay",
       "text": "Penalty saved. Nick Woltemade (Germany) right footed shot saved in the bottom right corner by Orlando Gill (Paraguay)."
+    },
+    {
+      "fixtureId": 760489,
+      "match": "Paraguay at Germany",
+      "date": "2026-06-29T20:30Z",
+      "minute": "120'",
+      "shootout": false,
+      "kind": "saved",
+      "taker": "Fabián Balbuena",
+      "takerTeam": "Paraguay",
+      "keeper": "Manuel Neuer",
+      "keeperTeam": "Germany",
+      "draftedKeeper": "Manuel Neuer (Alejandro)",
+      "text": "Penalty saved. Fabián Balbuena (Paraguay) right footed shot saved in the bottom right corner by Manuel Neuer (Germany)."
     }
   ]
 }
