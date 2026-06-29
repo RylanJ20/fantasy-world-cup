@@ -882,10 +882,10 @@
     "stage": "Round of 32",
     "home": "Brazil",
     "away": "Japan",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "homeScore": 2,
     "awayScore": 1,
-    "winner": null
+    "winner": "HOME_TEAM"
   },
   {
     "n": 760489,
@@ -1084,7 +1084,7 @@
     "date": "2026-07-05",
     "utcDate": "2026-07-05T20:00:00Z",
     "stage": "Round of 16",
-    "home": "Round of 32 4 Winner",
+    "home": "Brazil",
     "away": "Round of 32 6 Winner",
     "status": "TIMED",
     "homeScore": null,
