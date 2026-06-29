@@ -258,6 +258,13 @@
       "managers": []
     },
     {
+      "name": "Zion Suzuki",
+      "country": "Japan",
+      "position": "GK",
+      "value": 12,
+      "managers": []
+    },
+    {
       "name": "Bart Verbruggen",
       "country": "Netherlands",
       "position": "GK",
@@ -295,13 +302,6 @@
     {
       "name": "Ronwen Williams",
       "country": "South Africa",
-      "position": "GK",
-      "value": 11,
-      "managers": []
-    },
-    {
-      "name": "Zion Suzuki",
-      "country": "Japan",
       "position": "GK",
       "value": 11,
       "managers": []
