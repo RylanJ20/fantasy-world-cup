@@ -894,7 +894,7 @@
     "stage": "Round of 32",
     "home": "Germany",
     "away": "Paraguay",
-    "status": "PAUSED",
+    "status": "IN_PLAY",
     "homeScore": 0,
     "awayScore": 1,
     "winner": null
