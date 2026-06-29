@@ -300,16 +300,11 @@
       "managers": []
     },
     {
-      "name": "Alisson Becker",
-      "country": "Brazil",
+      "name": "Zion Suzuki",
+      "country": "Japan",
       "position": "GK",
-      "value": 10,
-      "managers": [
-        {
-          "id": "marc",
-          "name": "Marc"
-        }
-      ]
+      "value": 11,
+      "managers": []
     }
   ],
   "cleanSheets": [
