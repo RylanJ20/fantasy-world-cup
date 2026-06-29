@@ -219,8 +219,14 @@ function StatusTag({
         Live
       </span>
     );
-  if (isDone(f.status))
-    return <span className="font-mono text-xs font-bold text-faint">FT</span>;
+  if (isDone(f.status)) {
+    const pens = f.homeShootout != null && f.awayShootout != null;
+    return (
+      <span className="font-mono text-xs font-bold text-faint">
+        {pens ? "FT · pens" : "FT"}
+      </span>
+    );
+  }
   return (
     <span className="font-mono text-xs text-faint">
       {fmtTime(f.utcDate, mounted) ?? "TBD"}
@@ -264,6 +270,12 @@ function FixtureCard({
         </span>
         <Team name={f.away} align="right" />
       </div>
+
+      {showScore && f.homeShootout != null && f.awayShootout != null && (
+        <p className="mt-1 text-center text-[0.7rem] font-bold uppercase tracking-wider text-faint">
+          Penalties {f.homeShootout}–{f.awayShootout}
+        </p>
+      )}
 
       {f.finished && f.managers.length > 0 ? (
         <FinishedBreakdown managers={f.managers} />

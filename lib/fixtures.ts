@@ -19,6 +19,9 @@ export interface Fixture {
   status?: string;
   homeScore?: number | null;
   awayScore?: number | null;
+  /** Penalty-shootout score — present only on a knockout decided on spot-kicks. */
+  homeShootout?: number | null;
+  awayShootout?: number | null;
   /** API winner: "HOME_TEAM" | "AWAY_TEAM" | "DRAW" | null (handles penalties). */
   winner?: string | null;
 }

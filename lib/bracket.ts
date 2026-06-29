@@ -46,6 +46,8 @@ export interface BracketTeam {
   name: string;
   code: string | null;
   score: number | null;
+  /** Penalty-shootout score, present only when the tie went to spot-kicks. */
+  shootout: number | null;
   winner: boolean;
 }
 export interface BracketSide {
@@ -95,11 +97,15 @@ function buildSides(
     if (f && name && code) {
       const finished = f.status === "FINISHED";
       const score = idx === 0 ? f.homeScore ?? null : f.awayScore ?? null;
+      const shootout = idx === 0 ? f.homeShootout ?? null : f.awayShootout ?? null;
       const winner =
         finished &&
         ((idx === 0 && f.winner === "HOME_TEAM") ||
           (idx === 1 && f.winner === "AWAY_TEAM"));
-      return { team: { name: displayName(name), code, score, winner }, feederId: childIds?.[idx] ?? null };
+      return {
+        team: { name: displayName(name), code, score, shootout, winner },
+        feederId: childIds?.[idx] ?? null,
+      };
     }
     return { team: null, feederId: childIds?.[idx] ?? null };
   };

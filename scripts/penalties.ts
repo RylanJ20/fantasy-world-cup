@@ -10,11 +10,14 @@
 //  clause. A commentary scan for "Penalty saved!" is kept as a backstop in case a
 //  save ever lands without a keyEvent.
 //
-//  NOTE: as of this writing no penalty has been SAVED in the tournament (all were
-//  converted) and there have been no shootouts, so the saved/shootout branches
-//  are written to Opta's standard phrasing but have not been seen against live
-//  data yet. import-penalties.ts prints every detected penalty so the first real
-//  save can be eyeballed and this parser tuned if ESPN's wording differs.
+//  SHOOTOUTS: ESPN does NOT surface shootout kicks as keyEvents — they live only
+//  in free-text commentary ("Penalty saved/missed", "Goal! … converts") and in a
+//  structured top-level `summary.shootout` array (taker, team, didScore per kick,
+//  no keeper). So we (a) build the set of shootout takers from that array to tag a
+//  commentary penalty as a shootout kick (the saved branch needs this — a shootout
+//  save scores +3 and must NOT decrement the box-score save total, unlike an
+//  in-play pen save), and (b) fold the array's scored/missed kicks into the log so
+//  the tournament penalty record is complete.
 // ─────────────────────────────────────────────────────────────────────────────
 
 /* eslint-disable @typescript-eslint/no-explicit-any -- ESPN API payloads are dynamic JSON */
@@ -81,6 +84,18 @@ export function extractPenalties(summary: any): PenaltyEvent[] {
     out.push(e);
   };
 
+  // Everyone who took a SHOOTOUT kick (normalised name → team). Shootout pens are
+  // absent from keyEvents, so this is how a commentary penalty is recognised as a
+  // shootout kick rather than an in-play one — which changes how a save scores.
+  const shootoutTakers = new Map<string, string | null>();
+  for (const t of summary.shootout ?? []) {
+    for (const s of t.shots ?? []) {
+      if (s.player) shootoutTakers.set(normalizeName(s.player), t.team ?? null);
+    }
+  }
+  const isShootoutTaker = (name: string | null) =>
+    name != null && shootoutTakers.has(normalizeName(name));
+
   // ── Primary: structured keyEvents ──
   for (const ke of summary.keyEvents ?? []) {
     const typeText: string = ke.type?.text ?? "";
@@ -138,7 +153,9 @@ export function extractPenalties(summary: any): PenaltyEvent[] {
     add(
       {
         kind: "saved",
-        shootout: false,
+        // A save whose taker is in the shootout list is a shootout save (+3, not
+        // in the box-score save total); otherwise it's an in-play pen save.
+        shootout: isShootoutTaker(taker),
         minute: c.time?.displayValue ?? "",
         period: 0,
         taker,
@@ -149,6 +166,38 @@ export function extractPenalties(summary: any): PenaltyEvent[] {
       },
       `comm:${c.sequence}`,
     );
+  }
+
+  // ── Complete the shootout log from the structured array ──
+  // Saved shootout kicks are already captured above (commentary carries the
+  // keeper); here we add the scored and missed kicks so the penalty log/counts
+  // cover the whole shootout. A non-scoring kick already logged as a save is
+  // skipped; any other non-scoring kick is a miss.
+  for (const t of summary.shootout ?? []) {
+    for (const s of t.shots ?? []) {
+      const taker: string | null = s.player ?? null;
+      const alreadySaved = out.some(
+        (e) =>
+          e.shootout &&
+          e.kind === "saved" &&
+          normalizeName(e.taker ?? "") === normalizeName(taker ?? ""),
+      );
+      if (alreadySaved) continue;
+      add(
+        {
+          kind: s.didScore === true ? "scored" : "missed",
+          shootout: true,
+          minute: "",
+          period: 0,
+          taker,
+          takerTeam: t.team ?? null,
+          keeper: null,
+          keeperTeam: null,
+          text: "",
+        },
+        `so:${s.id ?? `${t.team}-${s.shotNumber}`}`,
+      );
+    }
   }
 
   return out;

@@ -41,11 +41,28 @@ async function main() {
     const hs = score(home);
     const as = score(away);
 
+    // Penalty-shootout tally — present only on a knockout decided on spot-kicks.
+    // ESPN carries it on the scoreboard competitor as `shootoutScore`, so the
+    // 1–1-then-won-on-pens result is available without fetching match summaries.
+    const shootout = (c: any) => {
+      const v = Number(c.shootoutScore);
+      return Number.isFinite(v) ? v : null;
+    };
+    const hsk = shootout(home);
+    const ask = shootout(away);
+    const hasShootout = hsk != null && ask != null;
+
     let winner: string | null = null;
     if (home.winner) winner = "HOME_TEAM";
     else if (away.winner) winner = "AWAY_TEAM";
-    else if (status === "FINISHED" && hs != null && as != null)
-      winner = hs === as ? "DRAW" : hs > as ? "HOME_TEAM" : "AWAY_TEAM";
+    else if (status === "FINISHED" && hs != null && as != null) {
+      if (hs !== as) winner = hs > as ? "HOME_TEAM" : "AWAY_TEAM";
+      // Level after extra time → the shootout decides it (the side that advances
+      // is recorded as the winner); a genuine group-stage draw has no shootout.
+      else if (hasShootout && hsk !== ask)
+        winner = hsk! > ask! ? "HOME_TEAM" : "AWAY_TEAM";
+      else winner = "DRAW";
+    }
 
     const utcDate = isoMinute(ev.date);
     return {
@@ -58,6 +75,7 @@ async function main() {
       status,
       homeScore: Number.isNaN(hs as number) ? null : hs,
       awayScore: Number.isNaN(as as number) ? null : as,
+      ...(hasShootout ? { homeShootout: hsk, awayShootout: ask } : {}),
       winner,
     };
   });

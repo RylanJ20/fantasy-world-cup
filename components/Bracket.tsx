@@ -75,6 +75,11 @@ export function Bracket({ bracket }: { bracket: Bracket }) {
               }`}
             >
               {side.team.score}
+              {side.team.shootout != null && (
+                <span className="ml-0.5 text-[0.65rem] opacity-80">
+                  ({side.team.shootout})
+                </span>
+              )}
             </span>
           )}
         </div>
@@ -114,8 +119,14 @@ export function Bracket({ bracket }: { bracket: Bracket }) {
           Live
         </span>
       );
-    if (isDone(m.status))
-      return <span className="font-mono text-[0.55rem] font-bold uppercase tracking-wider text-faint">FT</span>;
+    if (isDone(m.status)) {
+      const pens = m.sides.some((s) => s.team?.shootout != null);
+      return (
+        <span className="font-mono text-[0.55rem] font-bold uppercase tracking-wider text-faint">
+          {pens ? "FT · pens" : "FT"}
+        </span>
+      );
+    }
     return (
       <span className="text-[0.55rem] uppercase tracking-wider text-faint">{fmtDate(m.date)}</span>
     );
