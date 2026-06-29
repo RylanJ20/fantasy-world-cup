@@ -117,16 +117,16 @@
   ],
   "assists": [
     {
-      "name": "Alexander Isak",
-      "country": "Sweden",
-      "position": "FWD",
-      "value": 3,
-      "managers": []
-    },
-    {
       "name": "Bruno Guimarães",
       "country": "Brazil",
       "position": "MID",
+      "value": 4,
+      "managers": []
+    },
+    {
+      "name": "Alexander Isak",
+      "country": "Sweden",
+      "position": "FWD",
       "value": 3,
       "managers": []
     },
