@@ -398,7 +398,7 @@
         "opponent": "Japan",
         "date": "2026-06-29T17:00Z",
         "goals": 0,
-        "assists": 0,
+        "assists": 1,
         "shotsOnGoal": 0,
         "goalsConceded": 1
       }
@@ -439,9 +439,9 @@
         "fixtureId": 760487,
         "opponent": "Japan",
         "date": "2026-06-29T17:00Z",
-        "goals": 0,
+        "goals": 1,
         "assists": 0,
-        "shotsOnGoal": 0
+        "shotsOnGoal": 2
       }
     ]
   },
