@@ -11504,7 +11504,7 @@
         "opponent": "Paraguay",
         "goals": 0,
         "assists": 0,
-        "shotsOnGoal": 0,
+        "shotsOnGoal": 1,
         "saves": 0,
         "goalsConceded": 1
       }
@@ -11743,7 +11743,7 @@
         "goals": 0,
         "assists": 0,
         "shotsOnGoal": 0,
-        "saves": 3,
+        "saves": 2,
         "goalsConceded": 1
       }
     ]
@@ -20318,7 +20318,7 @@
         "opponent": "Germany",
         "goals": 1,
         "assists": 0,
-        "shotsOnGoal": 2,
+        "shotsOnGoal": 1,
         "saves": 0,
         "goalsConceded": 1
       }
@@ -20542,7 +20542,7 @@
         "goals": 0,
         "assists": 0,
         "shotsOnGoal": 0,
-        "saves": 2,
+        "saves": 3,
         "goalsConceded": 1
       }
     ]
