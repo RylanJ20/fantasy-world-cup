@@ -1,11 +1,11 @@
 {
   "summary": {
-    "total": 12,
+    "total": 13,
     "scored": 8,
-    "saved": 3,
+    "saved": 4,
     "missed": 1,
     "unknown": 0,
-    "inPlaySaves": 3,
+    "inPlaySaves": 4,
     "shootoutSaves": 0
   },
   "events": [
@@ -165,6 +165,19 @@
       "keeper": "Orlando Gill",
       "keeperTeam": "Paraguay",
       "text": "Penalty saved. Kai Havertz (Germany) left footed shot saved in the top right corner by Orlando Gill (Paraguay)."
+    },
+    {
+      "fixtureId": 760489,
+      "match": "Paraguay at Germany",
+      "date": "2026-06-29T20:30Z",
+      "minute": "120'",
+      "shootout": false,
+      "kind": "saved",
+      "taker": "Nick Woltemade",
+      "takerTeam": "Germany",
+      "keeper": "Orlando Gill",
+      "keeperTeam": "Paraguay",
+      "text": "Penalty saved. Nick Woltemade (Germany) right footed shot saved in the bottom right corner by Orlando Gill (Paraguay)."
     }
   ]
 }
