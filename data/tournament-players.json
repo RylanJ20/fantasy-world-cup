@@ -11817,6 +11817,22 @@
     ]
   },
   {
+    "name": "Nick Woltemade",
+    "country": "Germany",
+    "position": "",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Paraguay",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
     "name": "Nico Schlotterbeck",
     "country": "Germany",
     "position": "DEF",
