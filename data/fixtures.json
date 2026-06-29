@@ -882,7 +882,7 @@
     "stage": "Round of 32",
     "home": "Brazil",
     "away": "Japan",
-    "status": "IN_PLAY",
+    "status": "PAUSED",
     "homeScore": 0,
     "awayScore": 1,
     "winner": null
