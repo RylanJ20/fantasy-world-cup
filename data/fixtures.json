@@ -884,7 +884,7 @@
     "away": "Japan",
     "status": "IN_PLAY",
     "homeScore": 0,
-    "awayScore": 0,
+    "awayScore": 1,
     "winner": null
   },
   {
