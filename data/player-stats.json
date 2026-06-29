@@ -233,6 +233,15 @@
         "shotsOnGoal": 0,
         "goalsConceded": 0,
         "result": "W"
+      },
+      {
+        "fixtureId": 760487,
+        "opponent": "Japan",
+        "date": "2026-06-29T17:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -272,6 +281,16 @@
         "saves": 5,
         "goalsConceded": 0,
         "result": "W"
+      },
+      {
+        "fixtureId": 760487,
+        "opponent": "Japan",
+        "date": "2026-06-29T17:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -305,6 +324,14 @@
         "assists": 0,
         "shotsOnGoal": 5,
         "result": "W"
+      },
+      {
+        "fixtureId": 760487,
+        "opponent": "Japan",
+        "date": "2026-06-29T17:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0
       }
     ]
   },
@@ -365,6 +392,15 @@
         "shotsOnGoal": 0,
         "goalsConceded": 0,
         "result": "W"
+      },
+      {
+        "fixtureId": 760487,
+        "opponent": "Japan",
+        "date": "2026-06-29T17:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -398,6 +434,14 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "result": "W"
+      },
+      {
+        "fixtureId": 760487,
+        "opponent": "Japan",
+        "date": "2026-06-29T17:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0
       }
     ]
   },
@@ -431,6 +475,14 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "result": "W"
+      },
+      {
+        "fixtureId": 760487,
+        "opponent": "Japan",
+        "date": "2026-06-29T17:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0
       }
     ]
   },
