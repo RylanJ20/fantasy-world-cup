@@ -1,11 +1,11 @@
 {
   "summary": {
-    "total": 11,
+    "total": 12,
     "scored": 8,
-    "saved": 2,
+    "saved": 3,
     "missed": 1,
     "unknown": 0,
-    "inPlaySaves": 2,
+    "inPlaySaves": 3,
     "shootoutSaves": 0
   },
   "events": [
@@ -152,6 +152,19 @@
       "keeper": null,
       "keeperTeam": null,
       "text": "Goal! Jordan 0, Argentina 2. Lautaro Martínez (Argentina) converts the penalty with a right footed shot to the bottom left corner."
+    },
+    {
+      "fixtureId": 760489,
+      "match": "Paraguay at Germany",
+      "date": "2026-06-29T20:30Z",
+      "minute": "120'",
+      "shootout": false,
+      "kind": "saved",
+      "taker": "Kai Havertz",
+      "takerTeam": "Germany",
+      "keeper": "Orlando Gill",
+      "keeperTeam": "Paraguay",
+      "text": "Penalty saved. Kai Havertz (Germany) left footed shot saved in the top right corner by Orlando Gill (Paraguay)."
     }
   ]
 }
