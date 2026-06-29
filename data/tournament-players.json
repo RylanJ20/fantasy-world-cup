@@ -19978,6 +19978,30 @@
         "saves": 0,
         "goalsConceded": 3,
         "result": "L"
+      },
+      {
+        "opponent": "Germany",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
+    "name": "Braian Ojeda",
+    "country": "Paraguay",
+    "position": "",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Germany",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
