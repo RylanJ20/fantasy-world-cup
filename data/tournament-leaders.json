@@ -265,6 +265,18 @@
       "managers": []
     },
     {
+      "name": "Alisson Becker",
+      "country": "Brazil",
+      "position": "GK",
+      "value": 11,
+      "managers": [
+        {
+          "id": "marc",
+          "name": "Marc"
+        }
+      ]
+    },
+    {
       "name": "Bart Verbruggen",
       "country": "Netherlands",
       "position": "GK",
@@ -295,13 +307,6 @@
     {
       "name": "Patrick Beach",
       "country": "Australia",
-      "position": "GK",
-      "value": 11,
-      "managers": []
-    },
-    {
-      "name": "Ronwen Williams",
-      "country": "South Africa",
       "position": "GK",
       "value": 11,
       "managers": []
