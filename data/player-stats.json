@@ -2144,7 +2144,8 @@
         "date": "2026-06-30T17:00Z",
         "goals": 1,
         "assists": 0,
-        "shotsOnGoal": 2
+        "shotsOnGoal": 2,
+        "result": "W"
       }
     ]
   },
@@ -2176,7 +2177,8 @@
         "date": "2026-06-30T17:00Z",
         "goals": 0,
         "assists": 1,
-        "shotsOnGoal": 0
+        "shotsOnGoal": 0,
+        "result": "W"
       }
     ]
   },
