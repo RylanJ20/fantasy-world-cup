@@ -148,6 +148,18 @@
       ]
     },
     {
+      "name": "Martin Ødegaard",
+      "country": "Norway",
+      "position": "MID",
+      "value": 3,
+      "managers": [
+        {
+          "id": "terrick",
+          "name": "Terrick"
+        }
+      ]
+    },
+    {
       "name": "Michael Olise",
       "country": "France",
       "position": "MID",
@@ -217,13 +229,6 @@
           "name": "Rylan"
         }
       ]
-    },
-    {
-      "name": "Hannibal Mejbri",
-      "country": "Tunisia",
-      "position": "MID",
-      "value": 2,
-      "managers": []
     }
   ],
   "saves": [
