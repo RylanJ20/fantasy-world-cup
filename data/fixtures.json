@@ -922,7 +922,7 @@
     "stage": "Round of 32",
     "home": "Ivory Coast",
     "away": "Norway",
-    "status": "IN_PLAY",
+    "status": "PAUSED",
     "homeScore": 0,
     "awayScore": 1,
     "winner": null
