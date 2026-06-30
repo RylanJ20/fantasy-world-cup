@@ -897,6 +897,8 @@
     "status": "FINISHED",
     "homeScore": 1,
     "awayScore": 1,
+    "homeShootout": 3,
+    "awayShootout": 4,
     "winner": "AWAY_TEAM"
   },
   {

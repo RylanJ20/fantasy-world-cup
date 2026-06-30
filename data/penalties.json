@@ -1,12 +1,12 @@
 {
   "summary": {
-    "total": 14,
-    "scored": 8,
+    "total": 23,
+    "scored": 15,
     "saved": 5,
-    "missed": 1,
+    "missed": 3,
     "unknown": 0,
-    "inPlaySaves": 5,
-    "shootoutSaves": 0
+    "inPlaySaves": 2,
+    "shootoutSaves": 3
   },
   "events": [
     {
@@ -158,7 +158,7 @@
       "match": "Paraguay at Germany",
       "date": "2026-06-29T20:30Z",
       "minute": "120'",
-      "shootout": false,
+      "shootout": true,
       "kind": "saved",
       "taker": "Kai Havertz",
       "takerTeam": "Germany",
@@ -171,7 +171,7 @@
       "match": "Paraguay at Germany",
       "date": "2026-06-29T20:30Z",
       "minute": "120'",
-      "shootout": false,
+      "shootout": true,
       "kind": "saved",
       "taker": "Nick Woltemade",
       "takerTeam": "Germany",
@@ -184,7 +184,7 @@
       "match": "Paraguay at Germany",
       "date": "2026-06-29T20:30Z",
       "minute": "120'",
-      "shootout": false,
+      "shootout": true,
       "kind": "saved",
       "taker": "Fabián Balbuena",
       "takerTeam": "Paraguay",
@@ -192,6 +192,123 @@
       "keeperTeam": "Germany",
       "draftedKeeper": "Manuel Neuer (Alejandro)",
       "text": "Penalty saved. Fabián Balbuena (Paraguay) right footed shot saved in the bottom right corner by Manuel Neuer (Germany)."
+    },
+    {
+      "fixtureId": 760489,
+      "match": "Paraguay at Germany",
+      "date": "2026-06-29T20:30Z",
+      "minute": "",
+      "shootout": true,
+      "kind": "scored",
+      "taker": "Joshua Kimmich",
+      "takerTeam": "Germany",
+      "keeper": null,
+      "keeperTeam": null,
+      "text": ""
+    },
+    {
+      "fixtureId": 760489,
+      "match": "Paraguay at Germany",
+      "date": "2026-06-29T20:30Z",
+      "minute": "",
+      "shootout": true,
+      "kind": "scored",
+      "taker": "Jamal Musiala",
+      "takerTeam": "Germany",
+      "keeper": null,
+      "keeperTeam": null,
+      "text": ""
+    },
+    {
+      "fixtureId": 760489,
+      "match": "Paraguay at Germany",
+      "date": "2026-06-29T20:30Z",
+      "minute": "",
+      "shootout": true,
+      "kind": "scored",
+      "taker": "Nadiem Amiri",
+      "takerTeam": "Germany",
+      "keeper": null,
+      "keeperTeam": null,
+      "text": ""
+    },
+    {
+      "fixtureId": 760489,
+      "match": "Paraguay at Germany",
+      "date": "2026-06-29T20:30Z",
+      "minute": "",
+      "shootout": true,
+      "kind": "missed",
+      "taker": "Jonathan Tah",
+      "takerTeam": "Germany",
+      "keeper": null,
+      "keeperTeam": null,
+      "text": ""
+    },
+    {
+      "fixtureId": 760489,
+      "match": "Paraguay at Germany",
+      "date": "2026-06-29T20:30Z",
+      "minute": "",
+      "shootout": true,
+      "kind": "scored",
+      "taker": "Maurício",
+      "takerTeam": "Paraguay",
+      "keeper": null,
+      "keeperTeam": null,
+      "text": ""
+    },
+    {
+      "fixtureId": 760489,
+      "match": "Paraguay at Germany",
+      "date": "2026-06-29T20:30Z",
+      "minute": "",
+      "shootout": true,
+      "kind": "scored",
+      "taker": "Gustavo Gómez",
+      "takerTeam": "Paraguay",
+      "keeper": null,
+      "keeperTeam": null,
+      "text": ""
+    },
+    {
+      "fixtureId": 760489,
+      "match": "Paraguay at Germany",
+      "date": "2026-06-29T20:30Z",
+      "minute": "",
+      "shootout": true,
+      "kind": "scored",
+      "taker": "Matías Galarza",
+      "takerTeam": "Paraguay",
+      "keeper": null,
+      "keeperTeam": null,
+      "text": ""
+    },
+    {
+      "fixtureId": 760489,
+      "match": "Paraguay at Germany",
+      "date": "2026-06-29T20:30Z",
+      "minute": "",
+      "shootout": true,
+      "kind": "missed",
+      "taker": "Antonio Sanabria",
+      "takerTeam": "Paraguay",
+      "keeper": null,
+      "keeperTeam": null,
+      "text": ""
+    },
+    {
+      "fixtureId": 760489,
+      "match": "Paraguay at Germany",
+      "date": "2026-06-29T20:30Z",
+      "minute": "",
+      "shootout": true,
+      "kind": "scored",
+      "taker": "José Canale",
+      "takerTeam": "Paraguay",
+      "keeper": null,
+      "keeperTeam": null,
+      "text": ""
     }
   ]
 }
