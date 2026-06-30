@@ -934,8 +934,8 @@
     "stage": "Round of 32",
     "home": "France",
     "away": "Sweden",
-    "status": "IN_PLAY",
-    "homeScore": 0,
+    "status": "PAUSED",
+    "homeScore": 1,
     "awayScore": 0,
     "winner": null
   },
