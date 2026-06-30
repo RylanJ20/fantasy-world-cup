@@ -908,9 +908,9 @@
     "stage": "Round of 32",
     "home": "Netherlands",
     "away": "Morocco",
-    "status": "TIMED",
-    "homeScore": null,
-    "awayScore": null,
+    "status": "IN_PLAY",
+    "homeScore": 0,
+    "awayScore": 0,
     "winner": null
   },
   {
