@@ -301,6 +301,13 @@
       "managers": []
     },
     {
+      "name": "Jacob Widell Zetterström",
+      "country": "Sweden",
+      "position": "GK",
+      "value": 11,
+      "managers": []
+    },
+    {
       "name": "Johny Placide",
       "country": "Haiti",
       "position": "GK",
@@ -310,13 +317,6 @@
     {
       "name": "Max Crocombe",
       "country": "New Zealand",
-      "position": "GK",
-      "value": 11,
-      "managers": []
-    },
-    {
-      "name": "Patrick Beach",
-      "country": "Australia",
       "position": "GK",
       "value": 11,
       "managers": []
