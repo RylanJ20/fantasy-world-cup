@@ -1413,7 +1413,7 @@
         "date": "2026-06-30T21:00Z",
         "goals": 0,
         "assists": 0,
-        "shotsOnGoal": 0
+        "shotsOnGoal": 1
       }
     ]
   },
@@ -2021,7 +2021,7 @@
         "goals": 0,
         "assists": 0,
         "shotsOnGoal": 0,
-        "saves": 1,
+        "saves": 2,
         "goalsConceded": 0
       }
     ]
