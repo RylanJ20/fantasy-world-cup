@@ -242,6 +242,13 @@
       "managers": []
     },
     {
+      "name": "Bart Verbruggen",
+      "country": "Netherlands",
+      "position": "GK",
+      "value": 16,
+      "managers": []
+    },
+    {
       "name": "Mohammed Al-Owais",
       "country": "Saudi Arabia",
       "position": "GK",
@@ -251,13 +258,6 @@
     {
       "name": "Alireza Beiranvand",
       "country": "Iran",
-      "position": "GK",
-      "value": 15,
-      "managers": []
-    },
-    {
-      "name": "Bart Verbruggen",
-      "country": "Netherlands",
       "position": "GK",
       "value": 15,
       "managers": []
