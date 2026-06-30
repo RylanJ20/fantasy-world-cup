@@ -922,10 +922,10 @@
     "stage": "Round of 32",
     "home": "Ivory Coast",
     "away": "Norway",
-    "status": "FINISHED",
+    "status": "IN_PLAY",
     "homeScore": 1,
     "awayScore": 2,
-    "winner": "AWAY_TEAM"
+    "winner": null
   },
   {
     "n": 760492,
@@ -1089,7 +1089,7 @@
     "utcDate": "2026-07-05T20:00:00Z",
     "stage": "Round of 16",
     "home": "Brazil",
-    "away": "Norway",
+    "away": "Round of 32 6 Winner",
     "status": "TIMED",
     "homeScore": null,
     "awayScore": null,
