@@ -934,10 +934,10 @@
     "stage": "Round of 32",
     "home": "France",
     "away": "Sweden",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "homeScore": 3,
     "awayScore": 0,
-    "winner": null
+    "winner": "HOME_TEAM"
   },
   {
     "n": 760491,
@@ -1077,7 +1077,7 @@
     "utcDate": "2026-07-04T21:00:00Z",
     "stage": "Round of 16",
     "home": "Paraguay",
-    "away": "Round of 32 5 Winner",
+    "away": "France",
     "status": "TIMED",
     "homeScore": null,
     "awayScore": null,
