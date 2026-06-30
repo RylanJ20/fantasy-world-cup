@@ -1,6 +1,18 @@
 {
   "goals": [
     {
+      "name": "Kylian Mbappé",
+      "country": "France",
+      "position": "FWD",
+      "value": 6,
+      "managers": [
+        {
+          "id": "alejandro",
+          "name": "Alejandro"
+        }
+      ]
+    },
+    {
       "name": "Lionel Messi",
       "country": "Argentina",
       "position": "FWD",
@@ -21,18 +33,6 @@
         {
           "id": "marc",
           "name": "Marc"
-        }
-      ]
-    },
-    {
-      "name": "Kylian Mbappé",
-      "country": "France",
-      "position": "FWD",
-      "value": 5,
-      "managers": [
-        {
-          "id": "alejandro",
-          "name": "Alejandro"
         }
       ]
     },
@@ -122,23 +122,23 @@
   ],
   "assists": [
     {
-      "name": "Bruno Guimarães",
-      "country": "Brazil",
-      "position": "MID",
-      "value": 4,
-      "managers": []
-    },
-    {
       "name": "Michael Olise",
       "country": "France",
       "position": "MID",
-      "value": 4,
+      "value": 5,
       "managers": [
         {
           "id": "travis",
           "name": "Travis"
         }
       ]
+    },
+    {
+      "name": "Bruno Guimarães",
+      "country": "Brazil",
+      "position": "MID",
+      "value": 4,
+      "managers": []
     },
     {
       "name": "Alexander Isak",

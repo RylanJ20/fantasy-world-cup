@@ -2045,8 +2045,8 @@
         "opponent": "Sweden",
         "date": "2026-06-30T21:00Z",
         "goals": 0,
-        "assists": 1,
-        "shotsOnGoal": 2
+        "assists": 2,
+        "shotsOnGoal": 3
       }
     ]
   },
@@ -2120,9 +2120,9 @@
         "fixtureId": 760492,
         "opponent": "Sweden",
         "date": "2026-06-30T21:00Z",
-        "goals": 1,
+        "goals": 2,
         "assists": 0,
-        "shotsOnGoal": 3
+        "shotsOnGoal": 4
       }
     ]
   },
