@@ -129,6 +129,18 @@
       "managers": []
     },
     {
+      "name": "Michael Olise",
+      "country": "France",
+      "position": "MID",
+      "value": 4,
+      "managers": [
+        {
+          "id": "travis",
+          "name": "Travis"
+        }
+      ]
+    },
+    {
       "name": "Alexander Isak",
       "country": "Sweden",
       "position": "FWD",
@@ -156,18 +168,6 @@
         {
           "id": "terrick",
           "name": "Terrick"
-        }
-      ]
-    },
-    {
-      "name": "Michael Olise",
-      "country": "France",
-      "position": "MID",
-      "value": 3,
-      "managers": [
-        {
-          "id": "travis",
-          "name": "Travis"
         }
       ]
     },
