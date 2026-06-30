@@ -21,16 +21,28 @@ const ROUNDS: { key: RoundKey; stage: string; label: string; short: string }[] =
 ];
 
 // Winner-feeds-into topology: match id → its two feeder match ids [top, bottom],
-// in home/away order. Verified to reconstruct the live ESPN bracket exactly.
+// in home/away order.
+//
+// IMPORTANT — the R16 feeders are NOT a simple "r32-1+r32-2, r32-3+r32-4" pairing.
+// ESPN's "Round of 32 N Winner" placeholders use the OFFICIAL FIFA match numbers
+// (M73–M88), which are NOT the same order as our r32-N indices (those are sorted
+// by ESPN event id). The mapping below was derived from the group standings +
+// the official bracket template (R32 match M = group-position pairing) and
+// cross-checked against the live ESPN fixtures and Wikipedia/FIFA/ESPN/NBC/Sky:
+//   r32-1=M73 r32-2=M76 r32-3=M75 r32-4=M74 r32-5=M78 r32-6=M79 r32-7=M77 r32-8=M82
+//   r32-9=M81 r32-10=M80 r32-11=M83 r32-12=M84 r32-13=M85 r32-14=M88 r32-15=M86 r32-16=M87
+// e.g. R16 fixture "Paraguay vs Round of 32 5 Winner" is Paraguay (r32-4=M74) vs
+// the France/Sweden winner (r32-7=M77, ESPN's "R32 5" = M77), so r16-2=[r32-4, r32-7].
+// QF/SF/Final feeders below use our r16-N/qf-N slot ids directly and are correct as-is.
 const TOPOLOGY: Record<string, [string, string]> = {
-  "r16-1": ["r32-1", "r32-3"],
-  "r16-2": ["r32-2", "r32-5"],
-  "r16-3": ["r32-4", "r32-6"],
-  "r16-4": ["r32-7", "r32-8"],
-  "r16-5": ["r32-11", "r32-12"],
-  "r16-6": ["r32-9", "r32-10"],
-  "r16-7": ["r32-13", "r32-15"],
-  "r16-8": ["r32-14", "r32-16"],
+  "r16-1": ["r32-1", "r32-3"], // Canada vs Morocco
+  "r16-2": ["r32-4", "r32-7"], // Paraguay vs Winner(France/Sweden)
+  "r16-3": ["r32-2", "r32-5"], // Brazil vs Winner(Ivory Coast/Norway)
+  "r16-4": ["r32-6", "r32-10"], // Winner(Mexico/Ecuador) vs Winner(England/DR Congo)
+  "r16-5": ["r32-11", "r32-12"], // Winner(Portugal/Croatia) vs Winner(Spain/Austria)
+  "r16-6": ["r32-9", "r32-8"], // Winner(USA/Bosnia) vs Winner(Belgium/Senegal)
+  "r16-7": ["r32-13", "r32-16"], // Winner(Switzerland/Algeria) vs Winner(Colombia/Ghana)
+  "r16-8": ["r32-15", "r32-14"], // Winner(Argentina/Cabo Verde) vs Winner(Australia/Egypt)
   "qf-1": ["r16-1", "r16-2"],
   "qf-2": ["r16-5", "r16-6"],
   "qf-3": ["r16-3", "r16-4"],

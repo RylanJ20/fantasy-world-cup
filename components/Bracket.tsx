@@ -14,10 +14,17 @@ function indexMatches(b: Bracket): Map<string, BracketMatch> {
   return map;
 }
 
-const fmtDate = (iso: string | null) => {
+const MON = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+// `local=false` (SSR / pre-hydration) slices the UTC calendar day — deterministic
+// but one day late for late-evening Americas kickoffs that tick past midnight UTC.
+// `local=true` (after mount) uses the viewer's own zone, matching the fixtures board.
+const fmtDate = (iso: string | null, local: boolean) => {
   if (!iso) return "";
+  if (local) {
+    const dt = new Date(iso);
+    return `${MON[dt.getMonth()]} ${dt.getDate()}`;
+  }
   const [y, m, d] = iso.slice(0, 10).split("-").map(Number);
-  const MON = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
   return y && m && d ? `${MON[m - 1]} ${d}` : "";
 };
 
@@ -128,7 +135,7 @@ export function Bracket({ bracket }: { bracket: Bracket }) {
       );
     }
     return (
-      <span className="text-[0.55rem] uppercase tracking-wider text-faint">{fmtDate(m.date)}</span>
+      <span className="text-[0.55rem] uppercase tracking-wider text-faint">{fmtDate(m.date, now !== null)}</span>
     );
   }
 
