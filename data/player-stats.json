@@ -1406,6 +1406,14 @@
         "assists": 1,
         "shotsOnGoal": 0,
         "result": "D"
+      },
+      {
+        "fixtureId": 760492,
+        "opponent": "France",
+        "date": "2026-06-30T21:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0
       }
     ]
   },
@@ -1988,6 +1996,16 @@
         "goalsConceded": 1,
         "result": "W",
         "pkSaves": 1
+      },
+      {
+        "fixtureId": 760492,
+        "opponent": "Sweden",
+        "date": "2026-06-30T21:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 1,
+        "goalsConceded": 0
       }
     ]
   },
@@ -2021,6 +2039,14 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "result": "W"
+      },
+      {
+        "fixtureId": 760492,
+        "opponent": "Sweden",
+        "date": "2026-06-30T21:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0
       }
     ]
   },
@@ -2047,6 +2073,15 @@
         "shotsOnGoal": 0,
         "goalsConceded": 0,
         "result": "W"
+      },
+      {
+        "fixtureId": 760492,
+        "opponent": "Sweden",
+        "date": "2026-06-30T21:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -2080,6 +2115,14 @@
         "assists": 2,
         "shotsOnGoal": 2,
         "result": "W"
+      },
+      {
+        "fixtureId": 760492,
+        "opponent": "Sweden",
+        "date": "2026-06-30T21:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0
       }
     ]
   },
@@ -2113,6 +2156,14 @@
         "assists": 0,
         "shotsOnGoal": 3,
         "result": "W"
+      },
+      {
+        "fixtureId": 760492,
+        "opponent": "Sweden",
+        "date": "2026-06-30T21:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0
       }
     ]
   },
