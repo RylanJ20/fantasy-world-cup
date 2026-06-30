@@ -1,12 +1,12 @@
 {
   "summary": {
-    "total": 30,
-    "scored": 19,
-    "saved": 5,
-    "missed": 6,
+    "total": 33,
+    "scored": 20,
+    "saved": 6,
+    "missed": 7,
     "unknown": 0,
     "inPlaySaves": 2,
-    "shootoutSaves": 3
+    "shootoutSaves": 4
   },
   "events": [
     {
@@ -314,6 +314,19 @@
       "fixtureId": 760488,
       "match": "Morocco at Netherlands",
       "date": "2026-06-30T01:00Z",
+      "minute": "120'",
+      "shootout": true,
+      "kind": "saved",
+      "taker": "Crysencio Summerville",
+      "takerTeam": "Netherlands",
+      "keeper": "Yassine Bounou",
+      "keeperTeam": "Morocco",
+      "text": "Penalty saved. Crysencio Summerville (Netherlands) right footed shot saved in the top left corner by Yassine Bounou (Morocco)."
+    },
+    {
+      "fixtureId": 760488,
+      "match": "Morocco at Netherlands",
+      "date": "2026-06-30T01:00Z",
       "minute": "",
       "shootout": true,
       "kind": "scored",
@@ -396,6 +409,32 @@
       "shootout": true,
       "kind": "scored",
       "taker": "Chemsdine Talbi",
+      "takerTeam": "Morocco",
+      "keeper": null,
+      "keeperTeam": null,
+      "text": ""
+    },
+    {
+      "fixtureId": 760488,
+      "match": "Morocco at Netherlands",
+      "date": "2026-06-30T01:00Z",
+      "minute": "",
+      "shootout": true,
+      "kind": "missed",
+      "taker": "Achraf Hakimi",
+      "takerTeam": "Morocco",
+      "keeper": null,
+      "keeperTeam": null,
+      "text": ""
+    },
+    {
+      "fixtureId": 760488,
+      "match": "Morocco at Netherlands",
+      "date": "2026-06-30T01:00Z",
+      "minute": "",
+      "shootout": true,
+      "kind": "scored",
+      "taker": "Ismael Saibari",
       "takerTeam": "Morocco",
       "keeper": null,
       "keeperTeam": null,
