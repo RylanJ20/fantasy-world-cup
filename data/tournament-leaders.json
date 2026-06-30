@@ -68,6 +68,18 @@
       "managers": []
     },
     {
+      "name": "Cody Gakpo",
+      "country": "Netherlands",
+      "position": "FWD",
+      "value": 3,
+      "managers": [
+        {
+          "id": "rylan",
+          "name": "Rylan"
+        }
+      ]
+    },
+    {
       "name": "Deniz Undav",
       "country": "Germany",
       "position": "FWD",
@@ -103,13 +115,6 @@
     {
       "name": "Ismaïla Sarr",
       "country": "Senegal",
-      "position": "MID",
-      "value": 3,
-      "managers": []
-    },
-    {
-      "name": "Johan Manzambi",
-      "country": "Switzerland",
       "position": "MID",
       "value": 3,
       "managers": []
@@ -188,6 +193,13 @@
       "managers": []
     },
     {
+      "name": "Crysencio Summerville",
+      "country": "Netherlands",
+      "position": "FWD",
+      "value": 2,
+      "managers": []
+    },
+    {
       "name": "Deniz Undav",
       "country": "Germany",
       "position": "FWD",
@@ -209,13 +221,6 @@
     {
       "name": "Hannibal Mejbri",
       "country": "Tunisia",
-      "position": "MID",
-      "value": 2,
-      "managers": []
-    },
-    {
-      "name": "Houssem Aouar",
-      "country": "Algeria",
       "position": "MID",
       "value": 2,
       "managers": []
@@ -254,7 +259,7 @@
       "name": "Bart Verbruggen",
       "country": "Netherlands",
       "position": "GK",
-      "value": 14,
+      "value": 15,
       "managers": []
     },
     {
