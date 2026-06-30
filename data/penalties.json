@@ -1,7 +1,7 @@
 {
   "summary": {
-    "total": 23,
-    "scored": 15,
+    "total": 24,
+    "scored": 16,
     "saved": 5,
     "missed": 3,
     "unknown": 0,
@@ -306,6 +306,19 @@
       "kind": "scored",
       "taker": "José Canale",
       "takerTeam": "Paraguay",
+      "keeper": null,
+      "keeperTeam": null,
+      "text": ""
+    },
+    {
+      "fixtureId": 760488,
+      "match": "Morocco at Netherlands",
+      "date": "2026-06-30T01:00Z",
+      "minute": "",
+      "shootout": true,
+      "kind": "scored",
+      "taker": "Teun Koopmeiners",
+      "takerTeam": "Netherlands",
       "keeper": null,
       "keeperTeam": null,
       "text": ""
