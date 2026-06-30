@@ -251,6 +251,13 @@
       "managers": []
     },
     {
+      "name": "Bart Verbruggen",
+      "country": "Netherlands",
+      "position": "GK",
+      "value": 13,
+      "managers": []
+    },
+    {
       "name": "Mahmoud Abunada",
       "country": "Qatar",
       "position": "GK",
@@ -275,13 +282,6 @@
           "name": "Marc"
         }
       ]
-    },
-    {
-      "name": "Bart Verbruggen",
-      "country": "Netherlands",
-      "position": "GK",
-      "value": 11,
-      "managers": []
     },
     {
       "name": "Gregor Kobel",
