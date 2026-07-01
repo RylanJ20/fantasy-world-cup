@@ -2928,7 +2928,7 @@
         "goals": 0,
         "assists": 0,
         "shotsOnGoal": 0,
-        "saves": 0,
+        "saves": 1,
         "goalsConceded": 1
       }
     ]
@@ -3009,9 +3009,9 @@
         "fixtureId": 760495,
         "opponent": "Congo DR",
         "date": "2026-07-01T16:00Z",
-        "goals": 1,
+        "goals": 2,
         "assists": 0,
-        "shotsOnGoal": 2
+        "shotsOnGoal": 3
       }
     ]
   },
@@ -3078,7 +3078,7 @@
         "date": "2026-07-01T16:00Z",
         "goals": 0,
         "assists": 0,
-        "shotsOnGoal": 2
+        "shotsOnGoal": 3
       }
     ]
   },

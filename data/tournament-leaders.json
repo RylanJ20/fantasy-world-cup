@@ -40,7 +40,7 @@
       "name": "Harry Kane",
       "country": "England",
       "position": "FWD",
-      "value": 4,
+      "value": 5,
       "managers": [
         {
           "id": "ben",
@@ -179,6 +179,13 @@
       "managers": []
     },
     {
+      "name": "Anthony Gordon",
+      "country": "England",
+      "position": "MID",
+      "value": 2,
+      "managers": []
+    },
+    {
       "name": "Brahim Díaz",
       "country": "Morocco",
       "position": "MID",
@@ -214,13 +221,6 @@
     {
       "name": "Crysencio Summerville",
       "country": "Netherlands",
-      "position": "FWD",
-      "value": 2,
-      "managers": []
-    },
-    {
-      "name": "Deniz Undav",
-      "country": "Germany",
       "position": "FWD",
       "value": 2,
       "managers": []
@@ -266,7 +266,7 @@
       "name": "Lionel Mpasi",
       "country": "Congo DR",
       "position": "GK",
-      "value": 13,
+      "value": 14,
       "managers": []
     },
     {
