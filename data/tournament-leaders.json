@@ -319,6 +319,20 @@
   ],
   "cleanSheets": [
     {
+      "name": "Israel Reyes",
+      "country": "Mexico",
+      "position": "DEF",
+      "value": 4,
+      "managers": []
+    },
+    {
+      "name": "Jesús Gallardo",
+      "country": "Mexico",
+      "position": "DEF",
+      "value": 4,
+      "managers": []
+    },
+    {
       "name": "Aymeric Laporte",
       "country": "Spain",
       "position": "DEF",
@@ -331,6 +345,13 @@
       ]
     },
     {
+      "name": "César Montes",
+      "country": "Mexico",
+      "position": "DEF",
+      "value": 3,
+      "managers": []
+    },
+    {
       "name": "Edson Álvarez",
       "country": "Mexico",
       "position": "DEF",
@@ -338,14 +359,14 @@
       "managers": []
     },
     {
-      "name": "Israel Reyes",
+      "name": "Johan Vásquez",
       "country": "Mexico",
       "position": "DEF",
       "value": 3,
       "managers": []
     },
     {
-      "name": "Jesús Gallardo",
+      "name": "Jorge Sánchez",
       "country": "Mexico",
       "position": "DEF",
       "value": 3,
@@ -395,37 +416,6 @@
       "position": "DEF",
       "value": 2,
       "managers": []
-    },
-    {
-      "name": "César Montes",
-      "country": "Mexico",
-      "position": "DEF",
-      "value": 2,
-      "managers": []
-    },
-    {
-      "name": "Cristian Romero",
-      "country": "Argentina",
-      "position": "DEF",
-      "value": 2,
-      "managers": [
-        {
-          "id": "alejandro",
-          "name": "Alejandro"
-        }
-      ]
-    },
-    {
-      "name": "Daniel Muñoz",
-      "country": "Colombia",
-      "position": "DEF",
-      "value": 2,
-      "managers": [
-        {
-          "id": "rylan",
-          "name": "Rylan"
-        }
-      ]
     }
   ]
 }
