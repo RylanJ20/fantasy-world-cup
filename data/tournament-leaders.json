@@ -49,6 +49,13 @@
       ]
     },
     {
+      "name": "Ismaïla Sarr",
+      "country": "Senegal",
+      "position": "MID",
+      "value": 4,
+      "managers": []
+    },
+    {
       "name": "Ousmane Dembélé",
       "country": "France",
       "position": "MID",
@@ -109,13 +116,6 @@
       "name": "Ismael Saibari",
       "country": "Morocco",
       "position": "FWD",
-      "value": 3,
-      "managers": []
-    },
-    {
-      "name": "Ismaïla Sarr",
-      "country": "Senegal",
-      "position": "MID",
       "value": 3,
       "managers": []
     }
