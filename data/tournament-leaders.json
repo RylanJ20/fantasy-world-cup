@@ -37,6 +37,18 @@
       ]
     },
     {
+      "name": "Harry Kane",
+      "country": "England",
+      "position": "FWD",
+      "value": 4,
+      "managers": [
+        {
+          "id": "ben",
+          "name": "Ben"
+        }
+      ]
+    },
+    {
       "name": "Ousmane Dembélé",
       "country": "France",
       "position": "MID",
@@ -92,18 +104,6 @@
       "position": "MID",
       "value": 3,
       "managers": []
-    },
-    {
-      "name": "Harry Kane",
-      "country": "England",
-      "position": "FWD",
-      "value": 3,
-      "managers": [
-        {
-          "id": "ben",
-          "name": "Ben"
-        }
-      ]
     },
     {
       "name": "Ismael Saibari",
