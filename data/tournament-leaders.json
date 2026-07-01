@@ -172,6 +172,13 @@
       ]
     },
     {
+      "name": "Roberto Alvarado",
+      "country": "Mexico",
+      "position": "MID",
+      "value": 3,
+      "managers": []
+    },
+    {
       "name": "Brahim Díaz",
       "country": "Morocco",
       "position": "MID",
@@ -217,18 +224,6 @@
       "position": "FWD",
       "value": 2,
       "managers": []
-    },
-    {
-      "name": "Denzel Dumfries",
-      "country": "Netherlands",
-      "position": "DEF",
-      "value": 2,
-      "managers": [
-        {
-          "id": "rylan",
-          "name": "Rylan"
-        }
-      ]
     }
   ],
   "saves": [
