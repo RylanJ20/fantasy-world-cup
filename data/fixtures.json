@@ -970,9 +970,9 @@
     "stage": "Round of 32",
     "home": "Belgium",
     "away": "Senegal",
-    "status": "IN_PLAY",
-    "homeScore": 0,
-    "awayScore": 1,
+    "status": "TIMED",
+    "homeScore": null,
+    "awayScore": null,
     "winner": null
   },
   {
