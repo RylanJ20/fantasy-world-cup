@@ -60,6 +60,15 @@ export default async function ManagerPage({
   const playerShare = m.total > 0 ? (m.playersTotal / m.total) * 100 : 50;
   const seed = getManagerScores().findIndex((s) => s.manager.id === slug);
 
+  // The bench = explicit bench picks PLUS the players swapped out mid-tournament
+  // (their pre-swap points are already banked in the incoming player's slot;
+  // they sit on the bench for the full picture). `swappedOut` are marked so the
+  // squad's transfer cards and these bench cards can be told apart.
+  const swappedOut = m.players
+    .filter((ps) => ps.replaced)
+    .map((ps) => ps.replaced!.previousScore);
+  const benchAll = [...m.bench, ...swappedOut];
+
   // Group the squad by position line, carrying a running slot number (01–11).
   let slot = 0;
   const playerGroups = POSITION_GROUPS.map((g) => ({
@@ -163,7 +172,7 @@ export default async function ManagerPage({
 
         <div className="grid gap-6 lg:grid-cols-[minmax(0,22rem)_1fr]">
           <div className="lg:sticky lg:top-20 lg:self-start">
-            <PitchFormation players={m.players} bench={m.bench} />
+            <PitchFormation players={m.players} bench={benchAll} />
             <p className="mt-2 px-1 text-center text-xs text-faint">
               Numbers show each player&apos;s points. Tap to jump to their card.
             </p>
@@ -200,7 +209,7 @@ export default async function ManagerPage({
       </section>
 
       {/* ── Bench ──────────────────────────────────────────────────────── */}
-      {m.bench.length > 0 && (
+      {benchAll.length > 0 && (
         <section className="mt-12">
           <SectionTitle
             eyebrow="Subs"
@@ -208,13 +217,17 @@ export default async function ManagerPage({
             icon={<StarIcon size={24} />}
             right={
               <span className="hidden text-xs text-faint sm:block">
-                For the bit — doesn&apos;t count toward the total
+                Bench picks don&apos;t score · swapped-out players&apos; points are
+                banked in their replacement
               </span>
             }
           />
           <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
             {m.bench.map((ps) => (
               <PlayerCard key={ps.player.name} ps={ps} rank={0} slotLabel="SUB" />
+            ))}
+            {swappedOut.map((ps) => (
+              <PlayerCard key={ps.player.name} ps={ps} rank={0} slotLabel="OUT" />
             ))}
           </div>
         </section>

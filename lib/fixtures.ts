@@ -6,7 +6,7 @@
 
 import fixturesData from "@/data/fixtures.json";
 import { league } from "@/data/league";
-import type { TeamMatch } from "./types";
+import type { Player, Position, TeamMatch } from "./types";
 import { countryCode } from "./flags";
 
 export interface Fixture {
@@ -54,6 +54,32 @@ function sideOf(country: string, f: Fixture): "home" | "away" | null {
   return null;
 }
 
+/** Each occupant of a squad slot, windowed to the stint they held it. A normal
+ *  slot yields one occupant spanning all time; a replaced slot yields the
+ *  outgoing player (until the cutoff) then the incoming one (from the cutoff on),
+ *  each under their OWN nation — so a fixture shows whoever held the slot then. */
+interface SlotOccupant {
+  name: string;
+  position: Position;
+  country: string;
+  /** [fromMs, toMs) the occupant held the slot; ±Infinity at the open ends. */
+  fromMs: number;
+  toMs: number;
+}
+function slotOccupants(p: Player): SlotOccupant[] {
+  const out: SlotOccupant[] = [];
+  let cur: Player | undefined = p;
+  let from = -Infinity;
+  while (cur) {
+    const cutoff =
+      cur.replacedBy && cur.replacedOn ? Date.parse(cur.replacedOn) : Infinity;
+    out.push({ name: cur.name, position: cur.position, country: cur.country, fromMs: from, toMs: cutoff });
+    from = cutoff;
+    cur = cur.replacedBy;
+  }
+  return out;
+}
+
 /**
  * Finished matches for a country, as TeamMatch[] for the scoring engine — so a
  * drafted team's points compute automatically from real results. The API's
@@ -88,19 +114,33 @@ export function getEnrichedFixtures(): EnrichedFixture[] {
   return fixtures
     .map((f) => {
       const assets: InvolvedAsset[] = [];
+      const fMs = Date.parse(f.utcDate ?? f.date);
       for (const m of league.managers) {
-        for (const p of m.players) {
-          const side = sideOf(p.country, f);
-          if (side)
+        for (const slot of m.players) {
+          // Expand replaced slots into their occupants so the swapped-IN player
+          // (a different nation) surfaces for their own matches, and each shows
+          // only for fixtures inside their stint.
+          for (const occ of slotOccupants(slot)) {
+            const side = sideOf(occ.country, f);
+            if (!side) continue;
+            const windowed = occ.fromMs !== -Infinity || occ.toMs !== Infinity;
+            if (
+              windowed &&
+              !(Number.isNaN(fMs)
+                ? occ.fromMs === -Infinity
+                : fMs >= occ.fromMs && fMs < occ.toMs)
+            )
+              continue;
             assets.push({
               managerId: m.id,
               managerName: m.name,
               kind: "player",
-              name: p.name,
-              position: p.position,
-              country: p.country,
+              name: occ.name,
+              position: occ.position,
+              country: occ.country,
               side,
             });
+          }
         }
         for (const t of m.teams) {
           const side = sideOf(t.country, f);

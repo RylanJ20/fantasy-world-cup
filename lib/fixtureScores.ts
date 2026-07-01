@@ -71,12 +71,25 @@ export function getScoredFixtures(): ScoredFixture[] {
       const ms = byManager.get(a.managerId);
 
       // Player and team scores share a shape: a `perMatch` list whose entries
-      // carry an opponent label, the match points, and the itemised lines.
+      // carry an opponent label, the match points, and the itemised lines. For a
+      // replaced slot, the current occupant matches the top-level player; the
+      // swapped-OUT occupant is scored under `replaced.previousScore`.
+      const playerPerMatch = () => {
+        const players = ms?.players ?? [];
+        const cur = players.find(
+          (p) => p.player.name === a.name && p.player.country === a.country,
+        );
+        if (cur) return cur.perMatch;
+        const prev = players.find(
+          (p) =>
+            p.replaced?.previous.name === a.name &&
+            p.replaced.previous.country === a.country,
+        );
+        return prev?.replaced?.previousScore.perMatch;
+      };
       const perMatch =
         a.kind === "player"
-          ? ms?.players.find(
-              (p) => p.player.name === a.name && p.player.country === a.country,
-            )?.perMatch
+          ? playerPerMatch()
           : ms?.teams.find((t) => t.team.country === a.country)?.perMatch;
 
       const key =
