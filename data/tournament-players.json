@@ -2597,6 +2597,22 @@
     ]
   },
   {
+    "name": "Diego Moreira",
+    "country": "Belgium",
+    "position": "",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Senegal",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
     "name": "Dodi Lukébakio",
     "country": "Belgium",
     "position": "",
