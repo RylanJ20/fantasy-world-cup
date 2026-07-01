@@ -1337,6 +1337,15 @@
         "shotsOnGoal": 0,
         "goalsConceded": 1,
         "result": "W"
+      },
+      {
+        "fixtureId": 760491,
+        "opponent": "Mexico",
+        "date": "2026-07-01T02:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -1373,6 +1382,15 @@
         "shotsOnGoal": 0,
         "goalsConceded": 1,
         "result": "W"
+      },
+      {
+        "fixtureId": 760491,
+        "opponent": "Mexico",
+        "date": "2026-07-01T02:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "goalsConceded": 0
       }
     ]
   },
