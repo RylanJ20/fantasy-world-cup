@@ -8804,6 +8804,14 @@
         "saves": 0,
         "goalsConceded": 0,
         "result": "W"
+      },
+      {
+        "opponent": "Mexico",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -9093,7 +9101,7 @@
   {
     "name": "Kevin Rodríguez",
     "country": "Ecuador",
-    "position": "DEF",
+    "position": "FWD",
     "managers": [],
     "matches": [
       {
@@ -9373,6 +9381,22 @@
         "shotsOnGoal": 0,
         "saves": 0,
         "goalsConceded": 2
+      }
+    ]
+  },
+  {
+    "name": "Yaimar Medina",
+    "country": "Ecuador",
+    "position": "",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Mexico",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },

@@ -946,7 +946,7 @@
     "stage": "Round of 32",
     "home": "Mexico",
     "away": "Ecuador",
-    "status": "PAUSED",
+    "status": "IN_PLAY",
     "homeScore": 2,
     "awayScore": 0,
     "winner": null
