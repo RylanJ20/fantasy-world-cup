@@ -958,7 +958,7 @@
     "stage": "Round of 32",
     "home": "England",
     "away": "Congo DR",
-    "status": "IN_PLAY",
+    "status": "PAUSED",
     "homeScore": 0,
     "awayScore": 1,
     "winner": null
