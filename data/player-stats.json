@@ -1820,7 +1820,8 @@
         "date": "2026-07-01T20:00Z",
         "goals": 0,
         "assists": 0,
-        "shotsOnGoal": 0
+        "shotsOnGoal": 0,
+        "result": "W"
       }
     ]
   },
@@ -1861,7 +1862,8 @@
         "date": "2026-07-01T20:00Z",
         "goals": 2,
         "assists": 0,
-        "shotsOnGoal": 2
+        "shotsOnGoal": 2,
+        "result": "W"
       }
     ]
   },
@@ -1910,7 +1912,8 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 3,
-        "goalsConceded": 2
+        "goalsConceded": 2,
+        "result": "W"
       }
     ]
   },
