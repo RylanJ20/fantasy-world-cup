@@ -1,7 +1,7 @@
 {
   "summary": {
-    "total": 33,
-    "scored": 20,
+    "total": 34,
+    "scored": 21,
     "saved": 6,
     "missed": 7,
     "unknown": 0,
@@ -439,6 +439,19 @@
       "keeper": null,
       "keeperTeam": null,
       "text": ""
+    },
+    {
+      "fixtureId": 760493,
+      "match": "Senegal at Belgium",
+      "date": "2026-07-01T20:00Z",
+      "minute": "120'+5'",
+      "shootout": false,
+      "kind": "scored",
+      "taker": "Youri Tielemans",
+      "takerTeam": "Belgium",
+      "keeper": null,
+      "keeperTeam": null,
+      "text": "Goal! Belgium 3, Senegal 2. Youri Tielemans (Belgium) converts the penalty with a right footed shot to the top right corner."
     }
   ]
 }
