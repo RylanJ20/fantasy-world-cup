@@ -1497,6 +1497,14 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "result": "W"
+      },
+      {
+        "fixtureId": 760497,
+        "opponent": "Austria",
+        "date": "2026-07-02T19:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0
       }
     ]
   },
@@ -1530,6 +1538,14 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "result": "W"
+      },
+      {
+        "fixtureId": 760497,
+        "opponent": "Austria",
+        "date": "2026-07-02T19:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0
       }
     ]
   },
@@ -1566,6 +1582,15 @@
         "shotsOnGoal": 0,
         "goalsConceded": 0,
         "result": "W"
+      },
+      {
+        "fixtureId": 760497,
+        "opponent": "Austria",
+        "date": "2026-07-02T19:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -1668,6 +1693,15 @@
         "shotsOnGoal": 0,
         "goalsConceded": 0,
         "result": "W"
+      },
+      {
+        "fixtureId": 760497,
+        "opponent": "Austria",
+        "date": "2026-07-02T19:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -1704,6 +1738,15 @@
         "shotsOnGoal": 0,
         "goalsConceded": 0,
         "result": "W"
+      },
+      {
+        "fixtureId": 760497,
+        "opponent": "Austria",
+        "date": "2026-07-02T19:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -1737,6 +1780,14 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "result": "W"
+      },
+      {
+        "fixtureId": 760497,
+        "opponent": "Austria",
+        "date": "2026-07-02T19:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 1
       }
     ]
   },
@@ -1776,6 +1827,16 @@
         "saves": 2,
         "goalsConceded": 0,
         "result": "W"
+      },
+      {
+        "fixtureId": 760497,
+        "opponent": "Austria",
+        "date": "2026-07-02T19:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -1809,6 +1870,14 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "result": "W"
+      },
+      {
+        "fixtureId": 760497,
+        "opponent": "Austria",
+        "date": "2026-07-02T19:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0
       }
     ]
   },
@@ -2639,6 +2708,14 @@
         "assists": 0,
         "shotsOnGoal": 1,
         "result": "D"
+      },
+      {
+        "fixtureId": 760497,
+        "opponent": "Spain",
+        "date": "2026-07-02T19:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0
       }
     ]
   },
