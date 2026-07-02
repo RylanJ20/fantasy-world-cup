@@ -994,8 +994,8 @@
     "stage": "Round of 32",
     "home": "Spain",
     "away": "Austria",
-    "status": "PAUSED",
-    "homeScore": 1,
+    "status": "IN_PLAY",
+    "homeScore": 2,
     "awayScore": 0,
     "winner": null
   },
