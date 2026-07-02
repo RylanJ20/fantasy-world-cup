@@ -56,6 +56,18 @@
       "managers": []
     },
     {
+      "name": "Mikel Oyarzabal",
+      "country": "Spain",
+      "position": "FWD",
+      "value": 4,
+      "managers": [
+        {
+          "id": "rylan",
+          "name": "Rylan"
+        }
+      ]
+    },
+    {
       "name": "Ousmane Dembélé",
       "country": "France",
       "position": "MID",
@@ -109,13 +121,6 @@
       "name": "Elijah Just",
       "country": "New Zealand",
       "position": "MID",
-      "value": 3,
-      "managers": []
-    },
-    {
-      "name": "Folarin Balogun",
-      "country": "United States",
-      "position": "FWD",
       "value": 3,
       "managers": []
     }

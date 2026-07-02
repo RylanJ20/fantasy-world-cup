@@ -1900,7 +1900,7 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 6,
-        "goalsConceded": 2
+        "goalsConceded": 3
       }
     ]
   },
@@ -27051,6 +27051,14 @@
         "saves": 0,
         "goalsConceded": 0,
         "result": "W"
+      },
+      {
+        "opponent": "Austria",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -27224,6 +27232,22 @@
     ]
   },
   {
+    "name": "Marc Pubill",
+    "country": "Spain",
+    "position": "",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Austria",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
     "name": "Marcos Llorente",
     "country": "Spain",
     "position": "DEF",
@@ -27332,9 +27356,9 @@
       },
       {
         "opponent": "Austria",
-        "goals": 1,
+        "goals": 2,
         "assists": 0,
-        "shotsOnGoal": 3,
+        "shotsOnGoal": 4,
         "saves": 0,
         "goalsConceded": 0
       }
