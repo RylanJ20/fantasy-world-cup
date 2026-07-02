@@ -324,6 +324,18 @@
   ],
   "cleanSheets": [
     {
+      "name": "Aymeric Laporte",
+      "country": "Spain",
+      "position": "DEF",
+      "value": 4,
+      "managers": [
+        {
+          "id": "rylan",
+          "name": "Rylan"
+        }
+      ]
+    },
+    {
       "name": "Israel Reyes",
       "country": "Mexico",
       "position": "DEF",
@@ -338,14 +350,26 @@
       "managers": []
     },
     {
-      "name": "Aymeric Laporte",
+      "name": "Marc Cucurella",
       "country": "Spain",
       "position": "DEF",
-      "value": 3,
+      "value": 4,
       "managers": [
         {
-          "id": "rylan",
-          "name": "Rylan"
+          "id": "zach",
+          "name": "Zach"
+        }
+      ]
+    },
+    {
+      "name": "Pau Cubarsí",
+      "country": "Spain",
+      "position": "DEF",
+      "value": 4,
+      "managers": [
+        {
+          "id": "zach",
+          "name": "Zach"
         }
       ]
     },
@@ -376,30 +400,6 @@
       "position": "DEF",
       "value": 3,
       "managers": []
-    },
-    {
-      "name": "Marc Cucurella",
-      "country": "Spain",
-      "position": "DEF",
-      "value": 3,
-      "managers": [
-        {
-          "id": "zach",
-          "name": "Zach"
-        }
-      ]
-    },
-    {
-      "name": "Pau Cubarsí",
-      "country": "Spain",
-      "position": "DEF",
-      "value": 3,
-      "managers": [
-        {
-          "id": "zach",
-          "name": "Zach"
-        }
-      ]
     },
     {
       "name": "Alessandro Circati",
