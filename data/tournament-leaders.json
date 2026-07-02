@@ -404,15 +404,20 @@
       "managers": []
     },
     {
-      "name": "Alexandro Maidana",
-      "country": "Paraguay",
+      "name": "Alex Freeman",
+      "country": "United States",
       "position": "DEF",
       "value": 2,
-      "managers": []
+      "managers": [
+        {
+          "id": "grayson",
+          "name": "Grayson"
+        }
+      ]
     },
     {
-      "name": "Alistair Johnston",
-      "country": "Canada",
+      "name": "Alexandro Maidana",
+      "country": "Paraguay",
       "position": "DEF",
       "value": 2,
       "managers": []
