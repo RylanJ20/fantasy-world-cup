@@ -1850,6 +1850,14 @@
         "saves": 0,
         "goalsConceded": 1,
         "result": "L"
+      },
+      {
+        "opponent": "Spain",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -27108,6 +27116,14 @@
         "saves": 0,
         "goalsConceded": 0,
         "result": "D"
+      },
+      {
+        "opponent": "Austria",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -27153,7 +27169,7 @@
         "opponent": "Austria",
         "goals": 0,
         "assists": 0,
-        "shotsOnGoal": 3,
+        "shotsOnGoal": 4,
         "saves": 0,
         "goalsConceded": 0
       }
