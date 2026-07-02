@@ -982,10 +982,10 @@
     "stage": "Round of 32",
     "home": "United States",
     "away": "Bosnia-Herzegovina",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "homeScore": 2,
     "awayScore": 0,
-    "winner": null
+    "winner": "HOME_TEAM"
   },
   {
     "n": 760497,
@@ -1124,7 +1124,7 @@
     "date": "2026-07-07",
     "utcDate": "2026-07-07T00:00:00Z",
     "stage": "Round of 16",
-    "home": "Round of 32 9 Winner",
+    "home": "United States",
     "away": "Belgium",
     "status": "TIMED",
     "homeScore": null,
