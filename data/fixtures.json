@@ -994,10 +994,10 @@
     "stage": "Round of 32",
     "home": "Spain",
     "away": "Austria",
-    "status": "FINISHED",
+    "status": "IN_PLAY",
     "homeScore": 3,
     "awayScore": 0,
-    "winner": "HOME_TEAM"
+    "winner": null
   },
   {
     "n": 760496,
@@ -1113,7 +1113,7 @@
     "utcDate": "2026-07-06T19:00:00Z",
     "stage": "Round of 16",
     "home": "Round of 32 11 Winner",
-    "away": "Spain",
+    "away": "Round of 32 12 Winner",
     "status": "TIMED",
     "homeScore": null,
     "awayScore": null,
