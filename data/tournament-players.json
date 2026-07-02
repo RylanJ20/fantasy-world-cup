@@ -1919,6 +1919,14 @@
         "saves": 0,
         "goalsConceded": 1,
         "result": "L"
+      },
+      {
+        "opponent": "Spain",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -1979,6 +1987,14 @@
         "saves": 0,
         "goalsConceded": 2,
         "result": "D"
+      },
+      {
+        "opponent": "Spain",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
