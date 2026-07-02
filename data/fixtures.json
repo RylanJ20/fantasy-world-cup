@@ -1006,9 +1006,9 @@
     "stage": "Round of 32",
     "home": "Portugal",
     "away": "Croatia",
-    "status": "IN_PLAY",
-    "homeScore": 0,
-    "awayScore": 0,
+    "status": "TIMED",
+    "homeScore": null,
+    "awayScore": null,
     "winner": null
   },
   {
