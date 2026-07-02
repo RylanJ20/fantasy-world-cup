@@ -89,6 +89,14 @@
         "assists": 0,
         "shotsOnGoal": 2,
         "result": "L"
+      },
+      {
+        "fixtureId": 760494,
+        "opponent": "Bosnia-Herzegovina",
+        "date": "2026-07-02T00:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0
       }
     ]
   },
@@ -125,6 +133,15 @@
         "shotsOnGoal": 0,
         "goalsConceded": 3,
         "result": "L"
+      },
+      {
+        "fixtureId": 760494,
+        "opponent": "Bosnia-Herzegovina",
+        "date": "2026-07-02T00:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -161,6 +178,15 @@
         "shotsOnGoal": 0,
         "goalsConceded": 1,
         "result": "L"
+      },
+      {
+        "fixtureId": 760494,
+        "opponent": "Bosnia-Herzegovina",
+        "date": "2026-07-02T00:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "goalsConceded": 0
       }
     ]
   },
