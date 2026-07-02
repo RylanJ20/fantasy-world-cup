@@ -1891,7 +1891,7 @@
         "goals": 0,
         "assists": 0,
         "shotsOnGoal": 0,
-        "saves": 5,
+        "saves": 6,
         "goalsConceded": 1
       }
     ]
@@ -27286,7 +27286,7 @@
         "opponent": "Austria",
         "goals": 1,
         "assists": 0,
-        "shotsOnGoal": 2,
+        "shotsOnGoal": 3,
         "saves": 0,
         "goalsConceded": 0
       }
