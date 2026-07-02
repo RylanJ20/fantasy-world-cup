@@ -1502,9 +1502,9 @@
         "fixtureId": 760497,
         "opponent": "Austria",
         "date": "2026-07-02T19:00Z",
-        "goals": 0,
+        "goals": 1,
         "assists": 0,
-        "shotsOnGoal": 1
+        "shotsOnGoal": 2
       }
     ]
   },
@@ -1744,7 +1744,7 @@
         "opponent": "Austria",
         "date": "2026-07-02T19:00Z",
         "goals": 0,
-        "assists": 0,
+        "assists": 1,
         "shotsOnGoal": 0,
         "goalsConceded": 0
       }
@@ -1787,7 +1787,7 @@
         "date": "2026-07-02T19:00Z",
         "goals": 0,
         "assists": 0,
-        "shotsOnGoal": 2
+        "shotsOnGoal": 3
       }
     ]
   },

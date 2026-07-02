@@ -284,6 +284,13 @@
       "managers": []
     },
     {
+      "name": "Alexander Schlager",
+      "country": "Austria",
+      "position": "GK",
+      "value": 11,
+      "managers": []
+    },
+    {
       "name": "Alisson Becker",
       "country": "Brazil",
       "position": "GK",
@@ -305,13 +312,6 @@
     {
       "name": "Jacob Widell Zetterström",
       "country": "Sweden",
-      "position": "GK",
-      "value": 11,
-      "managers": []
-    },
-    {
-      "name": "Johny Placide",
-      "country": "Haiti",
       "position": "GK",
       "value": 11,
       "managers": []
