@@ -2488,6 +2488,14 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "result": "W"
+      },
+      {
+        "fixtureId": 760500,
+        "opponent": "Cabo Verde",
+        "date": "2026-07-03T22:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0
       }
     ]
   },
@@ -2521,6 +2529,14 @@
         "assists": 0,
         "shotsOnGoal": 1,
         "result": "W"
+      },
+      {
+        "fixtureId": 760500,
+        "opponent": "Cabo Verde",
+        "date": "2026-07-03T22:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0
       }
     ]
   },
@@ -2554,6 +2570,14 @@
         "assists": 0,
         "shotsOnGoal": 1,
         "result": "W"
+      },
+      {
+        "fixtureId": 760500,
+        "opponent": "Cabo Verde",
+        "date": "2026-07-03T22:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0
       }
     ]
   },
@@ -2626,6 +2650,16 @@
         "saves": 0,
         "goalsConceded": 1,
         "result": "W"
+      },
+      {
+        "fixtureId": 760500,
+        "opponent": "Cabo Verde",
+        "date": "2026-07-03T22:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -2659,6 +2693,14 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "result": "W"
+      },
+      {
+        "fixtureId": 760500,
+        "opponent": "Cabo Verde",
+        "date": "2026-07-03T22:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0
       }
     ]
   },
@@ -2685,6 +2727,15 @@
         "shotsOnGoal": 0,
         "goalsConceded": 0,
         "result": "W"
+      },
+      {
+        "fixtureId": 760500,
+        "opponent": "Cabo Verde",
+        "date": "2026-07-03T22:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -2711,6 +2762,15 @@
         "shotsOnGoal": 0,
         "goalsConceded": 0,
         "result": "W"
+      },
+      {
+        "fixtureId": 760500,
+        "opponent": "Cabo Verde",
+        "date": "2026-07-03T22:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "goalsConceded": 0
       }
     ]
   },
