@@ -1072,6 +1072,14 @@
         "saves": 0,
         "goalsConceded": 1,
         "result": "W"
+      },
+      {
+        "opponent": "Cabo Verde",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -1191,7 +1199,7 @@
         "opponent": "Cabo Verde",
         "goals": 1,
         "assists": 0,
-        "shotsOnGoal": 2,
+        "shotsOnGoal": 3,
         "saves": 0,
         "goalsConceded": 1
       }
@@ -1310,6 +1318,14 @@
         "saves": 0,
         "goalsConceded": 0,
         "result": "W"
+      },
+      {
+        "opponent": "Cabo Verde",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -5759,7 +5775,7 @@
       {
         "opponent": "Argentina",
         "goals": 0,
-        "assists": 0,
+        "assists": 1,
         "shotsOnGoal": 0,
         "saves": 0,
         "goalsConceded": 1
@@ -5907,7 +5923,7 @@
         "goals": 0,
         "assists": 0,
         "shotsOnGoal": 0,
-        "saves": 2,
+        "saves": 3,
         "goalsConceded": 1
       }
     ]
