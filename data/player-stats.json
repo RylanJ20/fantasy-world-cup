@@ -2782,7 +2782,7 @@
         "opponent": "Croatia",
         "date": "2026-07-02T23:00Z",
         "goals": 0,
-        "assists": 0,
+        "assists": 1,
         "shotsOnGoal": 0
       }
     ]
@@ -3436,6 +3436,15 @@
         "shotsOnGoal": 0,
         "goalsConceded": 0,
         "result": "W"
+      },
+      {
+        "fixtureId": 760496,
+        "opponent": "Portugal",
+        "date": "2026-07-02T23:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "goalsConceded": 1
       }
     ]
   },
