@@ -299,6 +299,13 @@
       "managers": []
     },
     {
+      "name": "Gregor Kobel",
+      "country": "Switzerland",
+      "position": "GK",
+      "value": 12,
+      "managers": []
+    },
+    {
       "name": "Mahmoud Abunada",
       "country": "Qatar",
       "position": "GK",
@@ -323,13 +330,6 @@
           "name": "Marc"
         }
       ]
-    },
-    {
-      "name": "Gregor Kobel",
-      "country": "Switzerland",
-      "position": "GK",
-      "value": 11,
-      "managers": []
     }
   ],
   "cleanSheets": [
