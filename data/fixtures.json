@@ -1044,7 +1044,7 @@
     "stage": "Round of 32",
     "home": "Argentina",
     "away": "Cabo Verde",
-    "status": "IN_PLAY",
+    "status": "PAUSED",
     "homeScore": 1,
     "awayScore": 0,
     "winner": null
