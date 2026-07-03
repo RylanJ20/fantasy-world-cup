@@ -273,6 +273,18 @@
       "managers": []
     },
     {
+      "name": "Diogo Costa",
+      "country": "Portugal",
+      "position": "GK",
+      "value": 14,
+      "managers": [
+        {
+          "id": "terrick",
+          "name": "Terrick"
+        }
+      ]
+    },
+    {
       "name": "Lionel Mpasi",
       "country": "Congo DR",
       "position": "GK",
@@ -309,18 +321,6 @@
         {
           "id": "marc",
           "name": "Marc"
-        }
-      ]
-    },
-    {
-      "name": "Diogo Costa",
-      "country": "Portugal",
-      "position": "GK",
-      "value": 11,
-      "managers": [
-        {
-          "id": "terrick",
-          "name": "Terrick"
         }
       ]
     },
