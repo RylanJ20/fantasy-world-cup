@@ -10511,6 +10511,22 @@
     ]
   },
   {
+    "name": "Haissem Hassan",
+    "country": "Egypt",
+    "position": "",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Australia",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
     "name": "Hamdy Fathy",
     "country": "Egypt",
     "position": "DEF",
@@ -10593,6 +10609,14 @@
         "saves": 0,
         "goalsConceded": 0,
         "result": "W"
+      },
+      {
+        "opponent": "Australia",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
