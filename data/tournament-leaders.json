@@ -273,6 +273,13 @@
       "managers": []
     },
     {
+      "name": "Vozinha",
+      "country": "Cabo Verde",
+      "position": "GK",
+      "value": 15,
+      "managers": []
+    },
+    {
       "name": "Diogo Costa",
       "country": "Portugal",
       "position": "GK",
@@ -294,13 +301,6 @@
     {
       "name": "Patrick Beach",
       "country": "Australia",
-      "position": "GK",
-      "value": 14,
-      "managers": []
-    },
-    {
-      "name": "Vozinha",
-      "country": "Cabo Verde",
       "position": "GK",
       "value": 14,
       "managers": []
