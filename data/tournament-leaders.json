@@ -292,6 +292,13 @@
       "managers": []
     },
     {
+      "name": "Patrick Beach",
+      "country": "Australia",
+      "position": "GK",
+      "value": 14,
+      "managers": []
+    },
+    {
       "name": "Alexander Schlager",
       "country": "Austria",
       "position": "GK",
@@ -301,13 +308,6 @@
     {
       "name": "Gregor Kobel",
       "country": "Switzerland",
-      "position": "GK",
-      "value": 13,
-      "managers": []
-    },
-    {
-      "name": "Patrick Beach",
-      "country": "Australia",
       "position": "GK",
       "value": 13,
       "managers": []
