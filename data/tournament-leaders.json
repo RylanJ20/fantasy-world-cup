@@ -313,23 +313,18 @@
       "managers": []
     },
     {
-      "name": "Zion Suzuki",
-      "country": "Japan",
+      "name": "Patrick Beach",
+      "country": "Australia",
       "position": "GK",
       "value": 12,
       "managers": []
     },
     {
-      "name": "Alisson Becker",
-      "country": "Brazil",
+      "name": "Zion Suzuki",
+      "country": "Japan",
       "position": "GK",
-      "value": 11,
-      "managers": [
-        {
-          "id": "marc",
-          "name": "Marc"
-        }
-      ]
+      "value": 12,
+      "managers": []
     }
   ],
   "cleanSheets": [
