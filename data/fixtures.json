@@ -1030,10 +1030,12 @@
     "stage": "Round of 32",
     "home": "Australia",
     "away": "Egypt",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "homeScore": 1,
     "awayScore": 1,
-    "winner": null
+    "homeShootout": 2,
+    "awayShootout": 4,
+    "winner": "AWAY_TEAM"
   },
   {
     "n": 760500,
@@ -1137,7 +1139,7 @@
     "utcDate": "2026-07-07T16:00:00Z",
     "stage": "Round of 16",
     "home": "Round of 32 14 Winner",
-    "away": "Round of 32 16 Winner",
+    "away": "Egypt",
     "status": "TIMED",
     "homeScore": null,
     "awayScore": null,
