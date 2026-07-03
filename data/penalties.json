@@ -1,7 +1,7 @@
 {
   "summary": {
-    "total": 34,
-    "scored": 21,
+    "total": 35,
+    "scored": 22,
     "saved": 6,
     "missed": 7,
     "unknown": 0,
@@ -452,6 +452,19 @@
       "keeper": null,
       "keeperTeam": null,
       "text": "Goal! Belgium 3, Senegal 2. Youri Tielemans (Belgium) converts the penalty with a right footed shot to the top right corner."
+    },
+    {
+      "fixtureId": 760496,
+      "match": "Croatia at Portugal",
+      "date": "2026-07-02T23:00Z",
+      "minute": "68'",
+      "shootout": false,
+      "kind": "scored",
+      "taker": "Cristiano Ronaldo",
+      "takerTeam": "Portugal",
+      "keeper": null,
+      "keeperTeam": null,
+      "text": "Goal! Portugal 1, Croatia 1. Cristiano Ronaldo (Portugal) converts the penalty with a right footed shot to the centre of the goal."
     }
   ]
 }

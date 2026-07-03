@@ -111,16 +111,21 @@
       ]
     },
     {
+      "name": "Cristiano Ronaldo",
+      "country": "Portugal",
+      "position": "FWD",
+      "value": 3,
+      "managers": [
+        {
+          "id": "ben",
+          "name": "Ben"
+        }
+      ]
+    },
+    {
       "name": "Deniz Undav",
       "country": "Germany",
       "position": "FWD",
-      "value": 3,
-      "managers": []
-    },
-    {
-      "name": "Elijah Just",
-      "country": "New Zealand",
-      "position": "MID",
       "value": 3,
       "managers": []
     }
