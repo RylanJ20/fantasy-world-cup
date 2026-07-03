@@ -1030,7 +1030,7 @@
     "stage": "Round of 32",
     "home": "Australia",
     "away": "Egypt",
-    "status": "PAUSED",
+    "status": "IN_PLAY",
     "homeScore": 0,
     "awayScore": 1,
     "winner": null

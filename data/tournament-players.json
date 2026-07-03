@@ -1828,6 +1828,22 @@
     ]
   },
   {
+    "name": "Kai Trewin",
+    "country": "Australia",
+    "position": "",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Egypt",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
     "name": "Lucas Herrington",
     "country": "Australia",
     "position": "DEF",
