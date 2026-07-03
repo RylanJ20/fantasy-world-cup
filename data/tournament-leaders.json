@@ -308,15 +308,20 @@
       ]
     },
     {
-      "name": "Gregor Kobel",
-      "country": "Switzerland",
+      "name": "Diogo Costa",
+      "country": "Portugal",
       "position": "GK",
       "value": 11,
-      "managers": []
+      "managers": [
+        {
+          "id": "terrick",
+          "name": "Terrick"
+        }
+      ]
     },
     {
-      "name": "Jacob Widell Zetterström",
-      "country": "Sweden",
+      "name": "Gregor Kobel",
+      "country": "Switzerland",
       "position": "GK",
       "value": 11,
       "managers": []
