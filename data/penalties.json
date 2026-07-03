@@ -1,9 +1,9 @@
 {
   "summary": {
-    "total": 35,
-    "scored": 22,
+    "total": 43,
+    "scored": 28,
     "saved": 6,
-    "missed": 7,
+    "missed": 9,
     "unknown": 0,
     "inPlaySaves": 2,
     "shootoutSaves": 4
@@ -465,6 +465,110 @@
       "keeper": null,
       "keeperTeam": null,
       "text": "Goal! Portugal 1, Croatia 1. Cristiano Ronaldo (Portugal) converts the penalty with a right footed shot to the centre of the goal."
+    },
+    {
+      "fixtureId": 760499,
+      "match": "Egypt at Australia",
+      "date": "2026-07-03T18:00Z",
+      "minute": "",
+      "shootout": true,
+      "kind": "missed",
+      "taker": "Harry Souttar",
+      "takerTeam": "Australia",
+      "keeper": null,
+      "keeperTeam": null,
+      "text": ""
+    },
+    {
+      "fixtureId": 760499,
+      "match": "Egypt at Australia",
+      "date": "2026-07-03T18:00Z",
+      "minute": "",
+      "shootout": true,
+      "kind": "scored",
+      "taker": "Jackson Irvine",
+      "takerTeam": "Australia",
+      "keeper": null,
+      "keeperTeam": null,
+      "text": ""
+    },
+    {
+      "fixtureId": 760499,
+      "match": "Egypt at Australia",
+      "date": "2026-07-03T18:00Z",
+      "minute": "",
+      "shootout": true,
+      "kind": "scored",
+      "taker": "Awer Mabil",
+      "takerTeam": "Australia",
+      "keeper": null,
+      "keeperTeam": null,
+      "text": ""
+    },
+    {
+      "fixtureId": 760499,
+      "match": "Egypt at Australia",
+      "date": "2026-07-03T18:00Z",
+      "minute": "",
+      "shootout": true,
+      "kind": "missed",
+      "taker": "Lucas Herrington",
+      "takerTeam": "Australia",
+      "keeper": null,
+      "keeperTeam": null,
+      "text": ""
+    },
+    {
+      "fixtureId": 760499,
+      "match": "Egypt at Australia",
+      "date": "2026-07-03T18:00Z",
+      "minute": "",
+      "shootout": true,
+      "kind": "scored",
+      "taker": "Mahmoud Saber",
+      "takerTeam": "Egypt",
+      "keeper": null,
+      "keeperTeam": null,
+      "text": ""
+    },
+    {
+      "fixtureId": 760499,
+      "match": "Egypt at Australia",
+      "date": "2026-07-03T18:00Z",
+      "minute": "",
+      "shootout": true,
+      "kind": "scored",
+      "taker": "Ramy Rabia",
+      "takerTeam": "Egypt",
+      "keeper": null,
+      "keeperTeam": null,
+      "text": ""
+    },
+    {
+      "fixtureId": 760499,
+      "match": "Egypt at Australia",
+      "date": "2026-07-03T18:00Z",
+      "minute": "",
+      "shootout": true,
+      "kind": "scored",
+      "taker": "Mohamed Salah",
+      "takerTeam": "Egypt",
+      "keeper": null,
+      "keeperTeam": null,
+      "text": ""
+    },
+    {
+      "fixtureId": 760499,
+      "match": "Egypt at Australia",
+      "date": "2026-07-03T18:00Z",
+      "minute": "",
+      "shootout": true,
+      "kind": "scored",
+      "taker": "Hossam Abdelmaguid",
+      "takerTeam": "Egypt",
+      "keeper": null,
+      "keeperTeam": null,
+      "text": ""
     }
   ]
 }
