@@ -1006,10 +1006,10 @@
     "stage": "Round of 32",
     "home": "Portugal",
     "away": "Croatia",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "homeScore": 2,
-    "awayScore": 2,
-    "winner": null
+    "awayScore": 1,
+    "winner": "HOME_TEAM"
   },
   {
     "n": 760498,
@@ -1112,7 +1112,7 @@
     "date": "2026-07-06",
     "utcDate": "2026-07-06T19:00:00Z",
     "stage": "Round of 16",
-    "home": "Round of 32 11 Winner",
+    "home": "Portugal",
     "away": "Spain",
     "status": "TIMED",
     "homeScore": null,
