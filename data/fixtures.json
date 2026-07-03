@@ -1018,7 +1018,7 @@
     "stage": "Round of 32",
     "home": "Switzerland",
     "away": "Algeria",
-    "status": "IN_PLAY",
+    "status": "PAUSED",
     "homeScore": 1,
     "awayScore": 0,
     "winner": null
