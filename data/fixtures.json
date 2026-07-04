@@ -1044,10 +1044,10 @@
     "stage": "Round of 32",
     "home": "Argentina",
     "away": "Cabo Verde",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "homeScore": 3,
     "awayScore": 2,
-    "winner": null
+    "winner": "HOME_TEAM"
   },
   {
     "n": 760501,
@@ -1138,7 +1138,7 @@
     "date": "2026-07-07",
     "utcDate": "2026-07-07T16:00:00Z",
     "stage": "Round of 16",
-    "home": "Round of 32 14 Winner",
+    "home": "Argentina",
     "away": "Egypt",
     "status": "TIMED",
     "homeScore": null,
