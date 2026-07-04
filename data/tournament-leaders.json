@@ -1,6 +1,18 @@
 {
   "goals": [
     {
+      "name": "Kylian Mbappé",
+      "country": "France",
+      "position": "FWD",
+      "value": 7,
+      "managers": [
+        {
+          "id": "alejandro",
+          "name": "Alejandro"
+        }
+      ]
+    },
+    {
       "name": "Lionel Messi",
       "country": "Argentina",
       "position": "FWD",
@@ -9,18 +21,6 @@
         {
           "id": "zach",
           "name": "Zach"
-        }
-      ]
-    },
-    {
-      "name": "Kylian Mbappé",
-      "country": "France",
-      "position": "FWD",
-      "value": 6,
-      "managers": [
-        {
-          "id": "alejandro",
-          "name": "Alejandro"
         }
       ]
     },

@@ -1,7 +1,7 @@
 {
   "summary": {
-    "total": 43,
-    "scored": 28,
+    "total": 44,
+    "scored": 29,
     "saved": 6,
     "missed": 9,
     "unknown": 0,
@@ -569,6 +569,19 @@
       "keeper": null,
       "keeperTeam": null,
       "text": ""
+    },
+    {
+      "fixtureId": 760503,
+      "match": "France at Paraguay",
+      "date": "2026-07-04T21:00Z",
+      "minute": "70'",
+      "shootout": false,
+      "kind": "scored",
+      "taker": "Kylian Mbappé",
+      "takerTeam": "France",
+      "keeper": null,
+      "keeperTeam": null,
+      "text": "Goal! Paraguay 0, France 1. Kylian Mbappé (France) converts the penalty with a right footed shot to the bottom right corner."
     }
   ]
 }
