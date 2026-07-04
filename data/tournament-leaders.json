@@ -189,6 +189,18 @@
       "managers": []
     },
     {
+      "name": "Achraf Hakimi",
+      "country": "Morocco",
+      "position": "DEF",
+      "value": 2,
+      "managers": [
+        {
+          "id": "travis",
+          "name": "Travis"
+        }
+      ]
+    },
+    {
       "name": "Anthony Gordon",
       "country": "England",
       "position": "MID",
@@ -224,13 +236,6 @@
     {
       "name": "Chris Wood",
       "country": "New Zealand",
-      "position": "FWD",
-      "value": 2,
-      "managers": []
-    },
-    {
-      "name": "Crysencio Summerville",
-      "country": "Netherlands",
       "position": "FWD",
       "value": 2,
       "managers": []
