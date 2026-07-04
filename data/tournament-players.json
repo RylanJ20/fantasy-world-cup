@@ -7416,7 +7416,7 @@
         "opponent": "Ghana",
         "goals": 0,
         "assists": 0,
-        "shotsOnGoal": 1,
+        "shotsOnGoal": 2,
         "saves": 0,
         "goalsConceded": 0
       }
@@ -14276,6 +14276,14 @@
         "saves": 0,
         "goalsConceded": 1,
         "result": "L"
+      },
+      {
+        "opponent": "Colombia",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -14574,7 +14582,7 @@
         "goals": 0,
         "assists": 0,
         "shotsOnGoal": 0,
-        "saves": 3,
+        "saves": 4,
         "goalsConceded": 1
       }
     ]
