@@ -7203,9 +7203,9 @@
       },
       {
         "opponent": "Ghana",
-        "goals": 0,
+        "goals": 1,
         "assists": 0,
-        "shotsOnGoal": 0,
+        "shotsOnGoal": 1,
         "saves": 0,
         "goalsConceded": 0
       }
@@ -13975,6 +13975,22 @@
     ]
   },
   {
+    "name": "Alidu Seidu",
+    "country": "Ghana",
+    "position": "",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Colombia",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 1
+      }
+    ]
+  },
+  {
     "name": "Antoine Semenyo",
     "country": "Ghana",
     "position": "FWD",
@@ -14018,7 +14034,7 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 0
+        "goalsConceded": 1
       }
     ]
   },
@@ -14139,7 +14155,7 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 0
+        "goalsConceded": 1
       }
     ]
   },
@@ -14164,7 +14180,7 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 0
+        "goalsConceded": 1
       }
     ]
   },
@@ -14294,7 +14310,7 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 0
+        "goalsConceded": 1
       }
     ]
   },
@@ -14319,7 +14335,7 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 0
+        "goalsConceded": 1
       }
     ]
   },
@@ -14353,7 +14369,7 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 0
+        "goalsConceded": 1
       }
     ]
   },
@@ -14431,7 +14447,7 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 0
+        "goalsConceded": 1
       }
     ]
   },
@@ -14526,7 +14542,7 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 0
+        "goalsConceded": 1
       }
     ]
   },
@@ -14551,7 +14567,7 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 0
+        "goalsConceded": 1
       }
     ]
   },
@@ -14654,7 +14670,7 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 0
+        "goalsConceded": 1
       }
     ]
   },
