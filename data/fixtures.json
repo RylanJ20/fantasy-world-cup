@@ -1068,10 +1068,10 @@
     "stage": "Round of 16",
     "home": "Canada",
     "away": "Morocco",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "homeScore": 0,
-    "awayScore": 2,
-    "winner": null
+    "awayScore": 3,
+    "winner": "AWAY_TEAM"
   },
   {
     "n": 760503,
@@ -1163,7 +1163,7 @@
     "utcDate": "2026-07-09T20:00:00Z",
     "stage": "Quarter-final",
     "home": "Round of 16 1 Winner",
-    "away": "Round of 16 2 Winner",
+    "away": "Morocco",
     "status": "TIMED",
     "homeScore": null,
     "awayScore": null,

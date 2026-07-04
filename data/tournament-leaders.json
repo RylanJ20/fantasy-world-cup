@@ -144,6 +144,13 @@
       ]
     },
     {
+      "name": "Brahim Díaz",
+      "country": "Morocco",
+      "position": "MID",
+      "value": 4,
+      "managers": []
+    },
+    {
       "name": "Bruno Guimarães",
       "country": "Brazil",
       "position": "MID",
@@ -154,13 +161,6 @@
       "name": "Alexander Isak",
       "country": "Sweden",
       "position": "FWD",
-      "value": 3,
-      "managers": []
-    },
-    {
-      "name": "Brahim Díaz",
-      "country": "Morocco",
-      "position": "MID",
       "value": 3,
       "managers": []
     },
