@@ -386,8 +386,34 @@
       "managers": []
     },
     {
+      "name": "Daniel Muñoz",
+      "country": "Colombia",
+      "position": "DEF",
+      "value": 3,
+      "managers": [
+        {
+          "id": "rylan",
+          "name": "Rylan"
+        }
+      ]
+    },
+    {
+      "name": "Davinson Sánchez",
+      "country": "Colombia",
+      "position": "DEF",
+      "value": 3,
+      "managers": []
+    },
+    {
       "name": "Edson Álvarez",
       "country": "Mexico",
+      "position": "DEF",
+      "value": 3,
+      "managers": []
+    },
+    {
+      "name": "Jhon Lucumí",
+      "country": "Colombia",
       "position": "DEF",
       "value": 3,
       "managers": []
@@ -404,32 +430,6 @@
       "country": "Mexico",
       "position": "DEF",
       "value": 3,
-      "managers": []
-    },
-    {
-      "name": "Alessandro Circati",
-      "country": "Australia",
-      "position": "DEF",
-      "value": 2,
-      "managers": []
-    },
-    {
-      "name": "Alex Freeman",
-      "country": "United States",
-      "position": "DEF",
-      "value": 2,
-      "managers": [
-        {
-          "id": "grayson",
-          "name": "Grayson"
-        }
-      ]
-    },
-    {
-      "name": "Alexandro Maidana",
-      "country": "Paraguay",
-      "position": "DEF",
-      "value": 2,
       "managers": []
     }
   ]

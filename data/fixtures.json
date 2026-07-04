@@ -1056,10 +1056,10 @@
     "stage": "Round of 32",
     "home": "Colombia",
     "away": "Ghana",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "homeScore": 1,
     "awayScore": 0,
-    "winner": null
+    "winner": "HOME_TEAM"
   },
   {
     "n": 760502,
