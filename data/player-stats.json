@@ -3574,6 +3574,14 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "result": "L"
+      },
+      {
+        "fixtureId": 760501,
+        "opponent": "Colombia",
+        "date": "2026-07-04T01:30Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0
       }
     ]
   },
@@ -3607,6 +3615,14 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "result": "D"
+      },
+      {
+        "fixtureId": 760501,
+        "opponent": "Ghana",
+        "date": "2026-07-04T01:30Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0
       }
     ]
   },
@@ -3643,6 +3659,15 @@
         "shotsOnGoal": 0,
         "goalsConceded": 0,
         "result": "D"
+      },
+      {
+        "fixtureId": 760501,
+        "opponent": "Ghana",
+        "date": "2026-07-04T01:30Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "goalsConceded": 0
       }
     ]
   },
