@@ -1080,10 +1080,10 @@
     "stage": "Round of 16",
     "home": "Paraguay",
     "away": "France",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "homeScore": 0,
     "awayScore": 1,
-    "winner": null
+    "winner": "AWAY_TEAM"
   },
   {
     "n": 760504,

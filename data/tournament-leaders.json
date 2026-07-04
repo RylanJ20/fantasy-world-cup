@@ -246,7 +246,7 @@
       "name": "Orlando Gill",
       "country": "Paraguay",
       "position": "GK",
-      "value": 21,
+      "value": 23,
       "managers": []
     },
     {
@@ -410,6 +410,13 @@
       "managers": []
     },
     {
+      "name": "Dayot Upamecano",
+      "country": "France",
+      "position": "DEF",
+      "value": 3,
+      "managers": []
+    },
+    {
       "name": "Edson Álvarez",
       "country": "Mexico",
       "position": "DEF",
@@ -425,13 +432,6 @@
     },
     {
       "name": "Johan Vásquez",
-      "country": "Mexico",
-      "position": "DEF",
-      "value": 3,
-      "managers": []
-    },
-    {
-      "name": "Jorge Sánchez",
       "country": "Mexico",
       "position": "DEF",
       "value": 3,
