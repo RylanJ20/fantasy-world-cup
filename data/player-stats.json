@@ -582,7 +582,8 @@
         "goals": 0,
         "assists": 1,
         "shotsOnGoal": 0,
-        "goalsConceded": 0
+        "goalsConceded": 0,
+        "result": "W"
       }
     ]
   },
