@@ -6371,6 +6371,22 @@
     ]
   },
   {
+    "name": "Jayden Nelson",
+    "country": "Canada",
+    "position": "",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Morocco",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
     "name": "Jonathan David",
     "country": "Canada",
     "position": "FWD",
@@ -6436,6 +6452,14 @@
         "saves": 0,
         "goalsConceded": 0,
         "result": "D"
+      },
+      {
+        "opponent": "Morocco",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -20059,6 +20083,22 @@
     ]
   },
   {
+    "name": "Marwane Saadane",
+    "country": "Morocco",
+    "position": "",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Canada",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
     "name": "Neil El Aynaoui",
     "country": "Morocco",
     "position": "MID",
@@ -20228,6 +20268,14 @@
         "saves": 0,
         "goalsConceded": 0,
         "result": "W"
+      },
+      {
+        "opponent": "Canada",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
