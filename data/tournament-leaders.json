@@ -252,6 +252,13 @@
       "managers": []
     },
     {
+      "name": "Vozinha",
+      "country": "Cabo Verde",
+      "position": "GK",
+      "value": 17,
+      "managers": []
+    },
+    {
       "name": "Bart Verbruggen",
       "country": "Netherlands",
       "position": "GK",
@@ -268,13 +275,6 @@
     {
       "name": "Alireza Beiranvand",
       "country": "Iran",
-      "position": "GK",
-      "value": 15,
-      "managers": []
-    },
-    {
-      "name": "Vozinha",
-      "country": "Cabo Verde",
       "position": "GK",
       "value": 15,
       "managers": []

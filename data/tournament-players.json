@@ -910,7 +910,7 @@
         "opponent": "Cabo Verde",
         "goals": 0,
         "assists": 0,
-        "shotsOnGoal": 1,
+        "shotsOnGoal": 2,
         "saves": 0,
         "goalsConceded": 1
       }
@@ -1207,7 +1207,7 @@
         "opponent": "Cabo Verde",
         "goals": 1,
         "assists": 0,
-        "shotsOnGoal": 4,
+        "shotsOnGoal": 5,
         "saves": 0,
         "goalsConceded": 1
       }
@@ -5963,7 +5963,7 @@
         "goals": 0,
         "assists": 0,
         "shotsOnGoal": 0,
-        "saves": 5,
+        "saves": 7,
         "goalsConceded": 1
       }
     ]
