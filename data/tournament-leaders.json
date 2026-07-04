@@ -158,6 +158,13 @@
       "managers": []
     },
     {
+      "name": "Brahim Díaz",
+      "country": "Morocco",
+      "position": "MID",
+      "value": 3,
+      "managers": []
+    },
+    {
       "name": "Florian Wirtz",
       "country": "Germany",
       "position": "MID",
@@ -203,13 +210,6 @@
     {
       "name": "Anthony Gordon",
       "country": "England",
-      "position": "MID",
-      "value": 2,
-      "managers": []
-    },
-    {
-      "name": "Brahim Díaz",
-      "country": "Morocco",
       "position": "MID",
       "value": 2,
       "managers": []
