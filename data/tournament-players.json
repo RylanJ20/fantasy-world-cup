@@ -4632,7 +4632,8 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 3,
-        "goalsConceded": 2
+        "goalsConceded": 2,
+        "result": "L"
       }
     ]
   },
@@ -4684,7 +4685,8 @@
         "assists": 0,
         "shotsOnGoal": 1,
         "saves": 0,
-        "goalsConceded": 0
+        "goalsConceded": 0,
+        "result": "L"
       }
     ]
   },
@@ -4741,7 +4743,8 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 2
+        "goalsConceded": 2,
+        "result": "L"
       }
     ]
   },
@@ -4793,7 +4796,8 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 2
+        "goalsConceded": 2,
+        "result": "L"
       }
     ]
   },
@@ -4836,7 +4840,8 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 2
+        "goalsConceded": 2,
+        "result": "L"
       }
     ]
   },
@@ -4888,7 +4893,8 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 2
+        "goalsConceded": 2,
+        "result": "L"
       }
     ]
   },
@@ -4913,7 +4919,8 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 2
+        "goalsConceded": 2,
+        "result": "L"
       }
     ]
   },
@@ -4956,7 +4963,8 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 2
+        "goalsConceded": 2,
+        "result": "L"
       }
     ]
   },
@@ -5048,7 +5056,8 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 2
+        "goalsConceded": 2,
+        "result": "L"
       }
     ]
   },
@@ -5091,7 +5100,8 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 0
+        "goalsConceded": 0,
+        "result": "L"
       }
     ]
   },
@@ -5231,7 +5241,8 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 2
+        "goalsConceded": 2,
+        "result": "L"
       }
     ]
   },
@@ -5283,14 +5294,15 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 0
+        "goalsConceded": 0,
+        "result": "L"
       }
     ]
   },
   {
     "name": "Neymar",
     "country": "Brazil",
-    "position": "",
+    "position": "FWD",
     "managers": [],
     "matches": [
       {
@@ -5304,11 +5316,12 @@
       },
       {
         "opponent": "Norway",
-        "goals": 0,
+        "goals": 1,
         "assists": 0,
-        "shotsOnGoal": 0,
+        "shotsOnGoal": 1,
         "saves": 0,
-        "goalsConceded": 2
+        "goalsConceded": 2,
+        "result": "L"
       }
     ]
   },
@@ -5382,7 +5395,8 @@
         "assists": 0,
         "shotsOnGoal": 1,
         "saves": 0,
-        "goalsConceded": 0
+        "goalsConceded": 0,
+        "result": "L"
       }
     ]
   },
@@ -5456,7 +5470,8 @@
         "assists": 0,
         "shotsOnGoal": 1,
         "saves": 0,
-        "goalsConceded": 2
+        "goalsConceded": 2,
+        "result": "L"
       }
     ]
   },
@@ -22085,7 +22100,8 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 0
+        "goalsConceded": 0,
+        "result": "W"
       }
     ]
   },
@@ -22137,7 +22153,8 @@
         "assists": 2,
         "shotsOnGoal": 1,
         "saves": 0,
-        "goalsConceded": 0
+        "goalsConceded": 1,
+        "result": "W"
       }
     ]
   },
@@ -22189,7 +22206,8 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 0
+        "goalsConceded": 0,
+        "result": "W"
       }
     ]
   },
@@ -22232,7 +22250,8 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 0
+        "goalsConceded": 0,
+        "result": "W"
       }
     ]
   },
@@ -22297,7 +22316,8 @@
         "assists": 0,
         "shotsOnGoal": 3,
         "saves": 0,
-        "goalsConceded": 0
+        "goalsConceded": 1,
+        "result": "W"
       }
     ]
   },
@@ -22366,7 +22386,8 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 0
+        "goalsConceded": 1,
+        "result": "W"
       }
     ]
   },
@@ -22456,7 +22477,8 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 0
+        "goalsConceded": 0,
+        "result": "W"
       }
     ]
   },
@@ -22525,7 +22547,8 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 0
+        "goalsConceded": 1,
+        "result": "W"
       }
     ]
   },
@@ -22568,7 +22591,8 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 0
+        "goalsConceded": 1,
+        "result": "W"
       }
     ]
   },
@@ -22651,7 +22675,8 @@
         "assists": 0,
         "shotsOnGoal": 1,
         "saves": 0,
-        "goalsConceded": 0
+        "goalsConceded": 1,
+        "result": "W"
       }
     ]
   },
@@ -22711,7 +22736,8 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 4,
-        "goalsConceded": 0
+        "goalsConceded": 1,
+        "result": "W"
       }
     ]
   },
@@ -22763,7 +22789,8 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 0
+        "goalsConceded": 1,
+        "result": "W"
       }
     ]
   },
@@ -22815,7 +22842,8 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 0
+        "goalsConceded": 1,
+        "result": "W"
       }
     ]
   },
@@ -22858,7 +22886,8 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 0
+        "goalsConceded": 1,
+        "result": "W"
       }
     ]
   },
@@ -22935,7 +22964,8 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 0
+        "goalsConceded": 1,
+        "result": "W"
       }
     ]
   },

@@ -1,7 +1,7 @@
 {
   "summary": {
-    "total": 45,
-    "scored": 29,
+    "total": 46,
+    "scored": 30,
     "saved": 7,
     "missed": 9,
     "unknown": 0,
@@ -595,6 +595,19 @@
       "keeper": "Ørjan Nyland",
       "keeperTeam": "Norway",
       "text": "Penalty saved. Bruno Guimarães (Brazil) right footed shot saved in the bottom right corner by Ørjan Nyland (Norway)."
+    },
+    {
+      "fixtureId": 760504,
+      "match": "Norway at Brazil",
+      "date": "2026-07-05T20:00Z",
+      "minute": "90'+10'",
+      "shootout": false,
+      "kind": "scored",
+      "taker": "Neymar",
+      "takerTeam": "Brazil",
+      "keeper": null,
+      "keeperTeam": null,
+      "text": "Goal! Brazil 1, Norway 2. Neymar (Brazil) converts the penalty with a right footed shot to the bottom right corner."
     }
   ]
 }
