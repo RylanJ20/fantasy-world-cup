@@ -4631,7 +4631,7 @@
         "goals": 0,
         "assists": 0,
         "shotsOnGoal": 0,
-        "saves": 2,
+        "saves": 3,
         "goalsConceded": 0
       }
     ]
@@ -22127,7 +22127,7 @@
         "opponent": "Brazil",
         "goals": 0,
         "assists": 0,
-        "shotsOnGoal": 0,
+        "shotsOnGoal": 1,
         "saves": 0,
         "goalsConceded": 0
       }
