@@ -1092,7 +1092,7 @@
     "stage": "Round of 16",
     "home": "Brazil",
     "away": "Norway",
-    "status": "PAUSED",
+    "status": "IN_PLAY",
     "homeScore": 0,
     "awayScore": 0,
     "winner": null
