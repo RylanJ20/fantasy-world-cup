@@ -28,7 +28,7 @@
       "name": "Erling Haaland",
       "country": "Norway",
       "position": "FWD",
-      "value": 5,
+      "value": 6,
       "managers": [
         {
           "id": "marc",
@@ -208,6 +208,13 @@
       ]
     },
     {
+      "name": "Andreas Schjelderup",
+      "country": "Norway",
+      "position": "FWD",
+      "value": 2,
+      "managers": []
+    },
+    {
       "name": "Anthony Gordon",
       "country": "England",
       "position": "MID",
@@ -232,13 +239,6 @@
           "name": "Marc"
         }
       ]
-    },
-    {
-      "name": "Chris Wood",
-      "country": "New Zealand",
-      "position": "FWD",
-      "value": 2,
-      "managers": []
     }
   ],
   "saves": [
