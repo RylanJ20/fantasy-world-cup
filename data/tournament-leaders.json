@@ -325,11 +325,16 @@
       "managers": []
     },
     {
-      "name": "Mahmoud Abunada",
-      "country": "Qatar",
+      "name": "Alisson Becker",
+      "country": "Brazil",
       "position": "GK",
       "value": 12,
-      "managers": []
+      "managers": [
+        {
+          "id": "marc",
+          "name": "Marc"
+        }
+      ]
     }
   ],
   "cleanSheets": [
