@@ -1,11 +1,11 @@
 {
   "summary": {
-    "total": 44,
+    "total": 45,
     "scored": 29,
-    "saved": 6,
+    "saved": 7,
     "missed": 9,
     "unknown": 0,
-    "inPlaySaves": 2,
+    "inPlaySaves": 3,
     "shootoutSaves": 4
   },
   "events": [
@@ -582,6 +582,19 @@
       "keeper": null,
       "keeperTeam": null,
       "text": "Goal! Paraguay 0, France 1. Kylian Mbappé (France) converts the penalty with a right footed shot to the bottom right corner."
+    },
+    {
+      "fixtureId": 760504,
+      "match": "Norway at Brazil",
+      "date": "2026-07-05T20:00Z",
+      "minute": "14'",
+      "shootout": false,
+      "kind": "saved",
+      "taker": "Bruno Guimarães",
+      "takerTeam": "Brazil",
+      "keeper": null,
+      "keeperTeam": null,
+      "text": "Penalty saved. Bruno Guimarães (Brazil) right footed shot saved."
     }
   ]
 }
