@@ -318,23 +318,23 @@
       "managers": []
     },
     {
-      "name": "Gregor Kobel",
-      "country": "Switzerland",
-      "position": "GK",
-      "value": 13,
-      "managers": []
-    },
-    {
       "name": "Alisson Becker",
       "country": "Brazil",
       "position": "GK",
-      "value": 12,
+      "value": 13,
       "managers": [
         {
           "id": "marc",
           "name": "Marc"
         }
       ]
+    },
+    {
+      "name": "Gregor Kobel",
+      "country": "Switzerland",
+      "position": "GK",
+      "value": 13,
+      "managers": []
     }
   ],
   "cleanSheets": [
