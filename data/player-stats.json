@@ -290,7 +290,7 @@
         "goals": 0,
         "assists": 0,
         "shotsOnGoal": 0,
-        "goalsConceded": 1
+        "goalsConceded": 2
       }
     ]
   },
@@ -350,7 +350,7 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 3,
-        "goalsConceded": 1
+        "goalsConceded": 2
       }
     ]
   },
@@ -479,7 +479,7 @@
         "goals": 0,
         "assists": 0,
         "shotsOnGoal": 0,
-        "goalsConceded": 1
+        "goalsConceded": 2
       }
     ]
   },
@@ -2521,9 +2521,9 @@
         "fixtureId": 760504,
         "opponent": "Brazil",
         "date": "2026-07-05T20:00Z",
-        "goals": 1,
+        "goals": 2,
         "assists": 0,
-        "shotsOnGoal": 2
+        "shotsOnGoal": 3
       }
     ]
   },

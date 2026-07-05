@@ -1,6 +1,18 @@
 {
   "goals": [
     {
+      "name": "Erling Haaland",
+      "country": "Norway",
+      "position": "FWD",
+      "value": 7,
+      "managers": [
+        {
+          "id": "marc",
+          "name": "Marc"
+        }
+      ]
+    },
+    {
       "name": "Kylian Mbappé",
       "country": "France",
       "position": "FWD",
@@ -21,18 +33,6 @@
         {
           "id": "zach",
           "name": "Zach"
-        }
-      ]
-    },
-    {
-      "name": "Erling Haaland",
-      "country": "Norway",
-      "position": "FWD",
-      "value": 6,
-      "managers": [
-        {
-          "id": "marc",
-          "name": "Marc"
         }
       ]
     },
@@ -165,6 +165,13 @@
       "managers": []
     },
     {
+      "name": "Andreas Schjelderup",
+      "country": "Norway",
+      "position": "FWD",
+      "value": 3,
+      "managers": []
+    },
+    {
       "name": "Florian Wirtz",
       "country": "Germany",
       "position": "MID",
@@ -206,13 +213,6 @@
           "name": "Travis"
         }
       ]
-    },
-    {
-      "name": "Andreas Schjelderup",
-      "country": "Norway",
-      "position": "FWD",
-      "value": 2,
-      "managers": []
     },
     {
       "name": "Anthony Gordon",
