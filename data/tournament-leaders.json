@@ -68,6 +68,13 @@
       ]
     },
     {
+      "name": "Julián Quiñones",
+      "country": "Mexico",
+      "position": "MID",
+      "value": 4,
+      "managers": []
+    },
+    {
       "name": "Mikel Oyarzabal",
       "country": "Spain",
       "position": "FWD",
@@ -119,18 +126,6 @@
         {
           "id": "rylan",
           "name": "Rylan"
-        }
-      ]
-    },
-    {
-      "name": "Cristiano Ronaldo",
-      "country": "Portugal",
-      "position": "FWD",
-      "value": 3,
-      "managers": [
-        {
-          "id": "ben",
-          "name": "Ben"
         }
       ]
     }
