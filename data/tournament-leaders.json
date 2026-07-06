@@ -56,6 +56,18 @@
       "managers": []
     },
     {
+      "name": "Jude Bellingham",
+      "country": "England",
+      "position": "MID",
+      "value": 4,
+      "managers": [
+        {
+          "id": "grayson",
+          "name": "Grayson"
+        }
+      ]
+    },
+    {
       "name": "Mikel Oyarzabal",
       "country": "Spain",
       "position": "FWD",
@@ -121,13 +133,6 @@
           "name": "Ben"
         }
       ]
-    },
-    {
-      "name": "Deniz Undav",
-      "country": "Germany",
-      "position": "FWD",
-      "value": 3,
-      "managers": []
     }
   ],
   "assists": [
@@ -170,6 +175,18 @@
       "position": "FWD",
       "value": 3,
       "managers": []
+    },
+    {
+      "name": "Bukayo Saka",
+      "country": "England",
+      "position": "MID",
+      "value": 3,
+      "managers": [
+        {
+          "id": "marc",
+          "name": "Marc"
+        }
+      ]
     },
     {
       "name": "Florian Wirtz",
@@ -227,18 +244,6 @@
       "position": "FWD",
       "value": 2,
       "managers": []
-    },
-    {
-      "name": "Bukayo Saka",
-      "country": "England",
-      "position": "MID",
-      "value": 2,
-      "managers": [
-        {
-          "id": "marc",
-          "name": "Marc"
-        }
-      ]
     }
   ],
   "saves": [

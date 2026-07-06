@@ -3466,7 +3466,7 @@
         "opponent": "Mexico",
         "date": "2026-07-06T01:00Z",
         "goals": 0,
-        "assists": 0,
+        "assists": 1,
         "shotsOnGoal": 0
       }
     ]
@@ -3516,7 +3516,7 @@
         "opponent": "Mexico",
         "date": "2026-07-06T01:00Z",
         "goals": 0,
-        "assists": 0,
+        "assists": 1,
         "shotsOnGoal": 0
       }
     ]
@@ -3591,9 +3591,9 @@
         "fixtureId": 760505,
         "opponent": "Mexico",
         "date": "2026-07-06T01:00Z",
-        "goals": 0,
+        "goals": 2,
         "assists": 0,
-        "shotsOnGoal": 0
+        "shotsOnGoal": 2
       }
     ]
   },
