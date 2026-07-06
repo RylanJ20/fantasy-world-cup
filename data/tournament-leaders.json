@@ -285,6 +285,18 @@
       "managers": []
     },
     {
+      "name": "Diogo Costa",
+      "country": "Portugal",
+      "position": "GK",
+      "value": 15,
+      "managers": [
+        {
+          "id": "terrick",
+          "name": "Terrick"
+        }
+      ]
+    },
+    {
       "name": "Alisson Becker",
       "country": "Brazil",
       "position": "GK",
@@ -293,18 +305,6 @@
         {
           "id": "marc",
           "name": "Marc"
-        }
-      ]
-    },
-    {
-      "name": "Diogo Costa",
-      "country": "Portugal",
-      "position": "GK",
-      "value": 14,
-      "managers": [
-        {
-          "id": "terrick",
-          "name": "Terrick"
         }
       ]
     },
