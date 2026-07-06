@@ -1,7 +1,7 @@
 {
   "summary": {
-    "total": 47,
-    "scored": 31,
+    "total": 48,
+    "scored": 32,
     "saved": 7,
     "missed": 9,
     "unknown": 0,
@@ -621,6 +621,19 @@
       "keeper": null,
       "keeperTeam": null,
       "text": "Goal! Mexico 1, England 3. Harry Kane (England) converts the penalty with a right footed shot to the bottom left corner."
+    },
+    {
+      "fixtureId": 760505,
+      "match": "England at Mexico",
+      "date": "2026-07-06T01:00Z",
+      "minute": "69'",
+      "shootout": false,
+      "kind": "scored",
+      "taker": "Raúl Jiménez",
+      "takerTeam": "Mexico",
+      "keeper": null,
+      "keeperTeam": null,
+      "text": "Goal! Mexico 2, England 3. Raúl Jiménez (Mexico) converts the penalty with a right footed shot to the bottom left corner."
     }
   ]
 }
