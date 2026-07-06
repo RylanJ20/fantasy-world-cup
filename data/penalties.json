@@ -1,7 +1,7 @@
 {
   "summary": {
-    "total": 46,
-    "scored": 30,
+    "total": 47,
+    "scored": 31,
     "saved": 7,
     "missed": 9,
     "unknown": 0,
@@ -608,6 +608,19 @@
       "keeper": null,
       "keeperTeam": null,
       "text": "Goal! Brazil 1, Norway 2. Neymar (Brazil) converts the penalty with a right footed shot to the bottom right corner."
+    },
+    {
+      "fixtureId": 760505,
+      "match": "England at Mexico",
+      "date": "2026-07-06T01:00Z",
+      "minute": "60'",
+      "shootout": false,
+      "kind": "scored",
+      "taker": "Harry Kane",
+      "takerTeam": "England",
+      "keeper": null,
+      "keeperTeam": null,
+      "text": "Goal! Mexico 1, England 3. Harry Kane (England) converts the penalty with a right footed shot to the bottom left corner."
     }
   ]
 }
