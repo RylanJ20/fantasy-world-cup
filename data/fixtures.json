@@ -1104,10 +1104,10 @@
     "stage": "Round of 16",
     "home": "Mexico",
     "away": "England",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "homeScore": 2,
     "awayScore": 3,
-    "winner": null
+    "winner": "AWAY_TEAM"
   },
   {
     "n": 760506,
@@ -1187,7 +1187,7 @@
     "utcDate": "2026-07-11T21:00:00Z",
     "stage": "Quarter-final",
     "home": "Norway",
-    "away": "Round of 16 4 Winner",
+    "away": "England",
     "status": "TIMED",
     "homeScore": null,
     "awayScore": null,
