@@ -257,23 +257,23 @@
       "managers": []
     },
     {
-      "name": "Vozinha",
-      "country": "Cabo Verde",
-      "position": "GK",
-      "value": 18,
-      "managers": []
-    },
-    {
       "name": "Diogo Costa",
       "country": "Portugal",
       "position": "GK",
-      "value": 17,
+      "value": 18,
       "managers": [
         {
           "id": "terrick",
           "name": "Terrick"
         }
       ]
+    },
+    {
+      "name": "Vozinha",
+      "country": "Cabo Verde",
+      "position": "GK",
+      "value": 18,
+      "managers": []
     },
     {
       "name": "Bart Verbruggen",
