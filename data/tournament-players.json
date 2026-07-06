@@ -25138,7 +25138,7 @@
         "opponent": "Spain",
         "goals": 0,
         "assists": 0,
-        "shotsOnGoal": 1,
+        "shotsOnGoal": 0,
         "saves": 0,
         "goalsConceded": 0
       }
@@ -30263,7 +30263,7 @@
         "goals": 0,
         "assists": 0,
         "shotsOnGoal": 0,
-        "saves": 3,
+        "saves": 2,
         "goalsConceded": 0
       }
     ]
