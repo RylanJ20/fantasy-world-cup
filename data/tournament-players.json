@@ -12078,6 +12078,22 @@
     ]
   },
   {
+    "name": "Dan Burn",
+    "country": "England",
+    "position": "",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Mexico",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
     "name": "Declan Rice",
     "country": "England",
     "position": "MID",
@@ -12166,6 +12182,14 @@
         "saves": 0,
         "goalsConceded": 1,
         "result": "W"
+      },
+      {
+        "opponent": "Mexico",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
