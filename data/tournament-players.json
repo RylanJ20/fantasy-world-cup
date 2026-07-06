@@ -24786,7 +24786,8 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 1
+        "goalsConceded": 1,
+        "result": "L"
       }
     ]
   },
@@ -24843,7 +24844,8 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 1
+        "goalsConceded": 1,
+        "result": "L"
       }
     ]
   },
@@ -24900,7 +24902,8 @@
         "assists": 0,
         "shotsOnGoal": 2,
         "saves": 0,
-        "goalsConceded": 1
+        "goalsConceded": 1,
+        "result": "L"
       }
     ]
   },
@@ -24957,7 +24960,8 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 5,
-        "goalsConceded": 1
+        "goalsConceded": 1,
+        "result": "L"
       }
     ]
   },
@@ -24982,7 +24986,8 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 1
+        "goalsConceded": 1,
+        "result": "L"
       }
     ]
   },
@@ -25025,7 +25030,8 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 1
+        "goalsConceded": 1,
+        "result": "L"
       }
     ]
   },
@@ -25125,7 +25131,8 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 0
+        "goalsConceded": 0,
+        "result": "L"
       }
     ]
   },
@@ -25164,7 +25171,8 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 0
+        "goalsConceded": 0,
+        "result": "L"
       }
     ]
   },
@@ -25221,7 +25229,8 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 1
+        "goalsConceded": 1,
+        "result": "L"
       }
     ]
   },
@@ -25281,7 +25290,8 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 1
+        "goalsConceded": 1,
+        "result": "L"
       }
     ]
   },
@@ -25338,7 +25348,8 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 0
+        "goalsConceded": 0,
+        "result": "L"
       }
     ]
   },
@@ -25390,7 +25401,8 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 0
+        "goalsConceded": 0,
+        "result": "L"
       }
     ]
   },
@@ -25447,7 +25459,8 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 1
+        "goalsConceded": 1,
+        "result": "L"
       }
     ]
   },
@@ -25499,7 +25512,8 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 1
+        "goalsConceded": 1,
+        "result": "L"
       }
     ]
   },
@@ -25547,7 +25561,8 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 1
+        "goalsConceded": 1,
+        "result": "L"
       }
     ]
   },
@@ -25664,7 +25679,8 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 0
+        "goalsConceded": 0,
+        "result": "L"
       }
     ]
   },
@@ -29516,7 +29532,8 @@
         "assists": 0,
         "shotsOnGoal": 2,
         "saves": 0,
-        "goalsConceded": 0
+        "goalsConceded": 0,
+        "result": "W"
       }
     ]
   },
@@ -29573,7 +29590,8 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 0
+        "goalsConceded": 0,
+        "result": "W"
       }
     ]
   },
@@ -29589,7 +29607,8 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 0
+        "goalsConceded": 0,
+        "result": "W"
       }
     ]
   },
@@ -29646,7 +29665,8 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 0
+        "goalsConceded": 0,
+        "result": "W"
       }
     ]
   },
@@ -29703,7 +29723,8 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 0
+        "goalsConceded": 0,
+        "result": "W"
       }
     ]
   },
@@ -29760,7 +29781,8 @@
         "assists": 1,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 0
+        "goalsConceded": 0,
+        "result": "W"
       }
     ]
   },
@@ -29843,7 +29865,8 @@
         "assists": 0,
         "shotsOnGoal": 2,
         "saves": 0,
-        "goalsConceded": 0
+        "goalsConceded": 0,
+        "result": "W"
       }
     ]
   },
@@ -29900,7 +29923,8 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 0
+        "goalsConceded": 0,
+        "result": "W"
       }
     ]
   },
@@ -29995,7 +30019,8 @@
         "assists": 0,
         "shotsOnGoal": 1,
         "saves": 0,
-        "goalsConceded": 0
+        "goalsConceded": 0,
+        "result": "W"
       }
     ]
   },
@@ -30052,7 +30077,8 @@
         "assists": 0,
         "shotsOnGoal": 1,
         "saves": 0,
-        "goalsConceded": 0
+        "goalsConceded": 0,
+        "result": "W"
       }
     ]
   },
@@ -30144,7 +30170,8 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 0
+        "goalsConceded": 0,
+        "result": "W"
       }
     ]
   },
@@ -30201,7 +30228,8 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 0
+        "goalsConceded": 0,
+        "result": "W"
       }
     ]
   },
@@ -30235,7 +30263,8 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 0
+        "goalsConceded": 0,
+        "result": "W"
       }
     ]
   },
@@ -30287,7 +30316,8 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 0
+        "goalsConceded": 0,
+        "result": "W"
       }
     ]
   },
@@ -30344,7 +30374,8 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 2,
-        "goalsConceded": 0
+        "goalsConceded": 0,
+        "result": "W"
       }
     ]
   },

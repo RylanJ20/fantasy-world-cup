@@ -342,11 +342,35 @@
       "name": "Aymeric Laporte",
       "country": "Spain",
       "position": "DEF",
-      "value": 4,
+      "value": 5,
       "managers": [
         {
           "id": "rylan",
           "name": "Rylan"
+        }
+      ]
+    },
+    {
+      "name": "Marc Cucurella",
+      "country": "Spain",
+      "position": "DEF",
+      "value": 5,
+      "managers": [
+        {
+          "id": "zach",
+          "name": "Zach"
+        }
+      ]
+    },
+    {
+      "name": "Pau Cubarsí",
+      "country": "Spain",
+      "position": "DEF",
+      "value": 5,
+      "managers": [
+        {
+          "id": "zach",
+          "name": "Zach"
         }
       ]
     },
@@ -363,30 +387,6 @@
       "position": "DEF",
       "value": 4,
       "managers": []
-    },
-    {
-      "name": "Marc Cucurella",
-      "country": "Spain",
-      "position": "DEF",
-      "value": 4,
-      "managers": [
-        {
-          "id": "zach",
-          "name": "Zach"
-        }
-      ]
-    },
-    {
-      "name": "Pau Cubarsí",
-      "country": "Spain",
-      "position": "DEF",
-      "value": 4,
-      "managers": [
-        {
-          "id": "zach",
-          "name": "Zach"
-        }
-      ]
     },
     {
       "name": "César Montes",
