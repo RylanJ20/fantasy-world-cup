@@ -29578,6 +29578,22 @@
     ]
   },
   {
+    "name": "Borja Iglesias",
+    "country": "Spain",
+    "position": "",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Portugal",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
     "name": "Dani Olmo",
     "country": "Spain",
     "position": "MID",
