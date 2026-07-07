@@ -1,9 +1,9 @@
 {
   "summary": {
-    "total": 49,
-    "scored": 32,
+    "total": 53,
+    "scored": 35,
     "saved": 8,
-    "missed": 9,
+    "missed": 10,
     "unknown": 0,
     "inPlaySaves": 4,
     "shootoutSaves": 4
@@ -647,6 +647,58 @@
       "keeper": "Mostafa Shobeir",
       "keeperTeam": "Egypt",
       "text": "Penalty saved. Lionel Messi (Argentina) left footed shot saved in the bottom right corner by Mostafa Shobeir (Egypt)."
+    },
+    {
+      "fixtureId": 760508,
+      "match": "Colombia at Switzerland",
+      "date": "2026-07-07T20:00Z",
+      "minute": "",
+      "shootout": true,
+      "kind": "scored",
+      "taker": "Juan Fernando Quintero",
+      "takerTeam": "Colombia",
+      "keeper": null,
+      "keeperTeam": null,
+      "text": ""
+    },
+    {
+      "fixtureId": 760508,
+      "match": "Colombia at Switzerland",
+      "date": "2026-07-07T20:00Z",
+      "minute": "",
+      "shootout": true,
+      "kind": "missed",
+      "taker": "Davinson Sánchez",
+      "takerTeam": "Colombia",
+      "keeper": null,
+      "keeperTeam": null,
+      "text": ""
+    },
+    {
+      "fixtureId": 760508,
+      "match": "Colombia at Switzerland",
+      "date": "2026-07-07T20:00Z",
+      "minute": "",
+      "shootout": true,
+      "kind": "scored",
+      "taker": "Granit Xhaka",
+      "takerTeam": "Switzerland",
+      "keeper": null,
+      "keeperTeam": null,
+      "text": ""
+    },
+    {
+      "fixtureId": 760508,
+      "match": "Colombia at Switzerland",
+      "date": "2026-07-07T20:00Z",
+      "minute": "",
+      "shootout": true,
+      "kind": "scored",
+      "taker": "Zeki Amdouni",
+      "takerTeam": "Switzerland",
+      "keeper": null,
+      "keeperTeam": null,
+      "text": ""
     }
   ]
 }

@@ -1155,6 +1155,8 @@
     "status": "IN_PLAY",
     "homeScore": 0,
     "awayScore": 0,
+    "homeShootout": 1,
+    "awayShootout": 1,
     "winner": null
   },
   {
