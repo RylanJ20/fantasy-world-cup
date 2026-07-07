@@ -297,6 +297,13 @@
       "managers": []
     },
     {
+      "name": "Gregor Kobel",
+      "country": "Switzerland",
+      "position": "GK",
+      "value": 15,
+      "managers": []
+    },
+    {
       "name": "Alisson Becker",
       "country": "Brazil",
       "position": "GK",
@@ -307,13 +314,6 @@
           "name": "Marc"
         }
       ]
-    },
-    {
-      "name": "Gregor Kobel",
-      "country": "Switzerland",
-      "position": "GK",
-      "value": 14,
-      "managers": []
     },
     {
       "name": "Lionel Mpasi",
