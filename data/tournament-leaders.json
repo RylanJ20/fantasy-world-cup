@@ -309,6 +309,13 @@
       ]
     },
     {
+      "name": "Gregor Kobel",
+      "country": "Switzerland",
+      "position": "GK",
+      "value": 14,
+      "managers": []
+    },
+    {
       "name": "Lionel Mpasi",
       "country": "Congo DR",
       "position": "GK",
@@ -327,13 +334,6 @@
       "country": "Australia",
       "position": "GK",
       "value": 14,
-      "managers": []
-    },
-    {
-      "name": "Alexander Schlager",
-      "country": "Austria",
-      "position": "GK",
-      "value": 13,
       "managers": []
     }
   ],
