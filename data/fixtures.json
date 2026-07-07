@@ -1128,10 +1128,10 @@
     "stage": "Round of 16",
     "home": "United States",
     "away": "Belgium",
-    "status": "FINISHED",
+    "status": "IN_PLAY",
     "homeScore": 1,
-    "awayScore": 4,
-    "winner": "AWAY_TEAM"
+    "awayScore": 3,
+    "winner": null
   },
   {
     "n": 760509,
@@ -1175,7 +1175,7 @@
     "utcDate": "2026-07-10T19:00:00Z",
     "stage": "Quarter-final",
     "home": "Spain",
-    "away": "Belgium",
+    "away": "Round of 16 6 Winner",
     "status": "TIMED",
     "homeScore": null,
     "awayScore": null,
