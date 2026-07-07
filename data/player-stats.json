@@ -98,6 +98,14 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "result": "W"
+      },
+      {
+        "fixtureId": 760507,
+        "opponent": "Belgium",
+        "date": "2026-07-07T00:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0
       }
     ]
   },
@@ -144,6 +152,15 @@
         "shotsOnGoal": 0,
         "goalsConceded": 0,
         "result": "W"
+      },
+      {
+        "fixtureId": 760507,
+        "opponent": "Belgium",
+        "date": "2026-07-07T00:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -190,6 +207,15 @@
         "shotsOnGoal": 0,
         "goalsConceded": 0,
         "result": "W"
+      },
+      {
+        "fixtureId": 760507,
+        "opponent": "Belgium",
+        "date": "2026-07-07T00:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -2152,6 +2178,14 @@
         "assists": 0,
         "shotsOnGoal": 2,
         "result": "W"
+      },
+      {
+        "fixtureId": 760507,
+        "opponent": "United States",
+        "date": "2026-07-07T00:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0
       }
     ]
   },
@@ -2202,6 +2236,16 @@
         "saves": 3,
         "goalsConceded": 2,
         "result": "W"
+      },
+      {
+        "fixtureId": 760507,
+        "opponent": "United States",
+        "date": "2026-07-07T00:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
