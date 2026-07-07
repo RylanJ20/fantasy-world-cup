@@ -49,6 +49,12 @@ const RESULT =
 /** Drop any parenthetical (e.g. a "(4-2)" penalty annotation) from a team name. */
 const cleanTeam = (s: string) => s.replace(/\(.*?\)/g, "").trim();
 
+/** Strip FIFA's knockout-stage "Match NN – " line prefix. Group-stage rows are
+ *  bare ("Mexico 2-0 South Africa - …") but from the Round of 32 on FIFA prefixes
+ *  each row with "Match 73 – …", which otherwise folds into team1 ("Match 73 –
+ *  South Africa"), fails to map, and silently drops every knockout award. */
+const stripMatchNo = (s: string) => s.replace(/^Match\s+\d+\s*[–-]\s*/i, "");
+
 /** Unordered flag-code key for a fixture's two teams ("cz|kr"), or null. */
 function pairKey(a: string, b: string): string | null {
   const ca = countryCode(a);
@@ -116,7 +122,8 @@ async function main() {
   const warnings: string[] = [];
   let resolved = 0;
 
-  for (const line of lines) {
+  for (const rawLine of lines) {
+    const line = stripMatchNo(rawLine);
     const mt = RESULT.exec(line);
     if (!mt) continue;
     const team1 = cleanTeam(mt[1]);
