@@ -1,6 +1,18 @@
 {
   "goals": [
     {
+      "name": "Lionel Messi",
+      "country": "Argentina",
+      "position": "FWD",
+      "value": 8,
+      "managers": [
+        {
+          "id": "zach",
+          "name": "Zach"
+        }
+      ]
+    },
+    {
       "name": "Erling Haaland",
       "country": "Norway",
       "position": "FWD",
@@ -21,18 +33,6 @@
         {
           "id": "alejandro",
           "name": "Alejandro"
-        }
-      ]
-    },
-    {
-      "name": "Lionel Messi",
-      "country": "Argentina",
-      "position": "FWD",
-      "value": 7,
-      "managers": [
-        {
-          "id": "zach",
-          "name": "Zach"
         }
       ]
     },
