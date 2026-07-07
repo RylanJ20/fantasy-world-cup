@@ -105,7 +105,8 @@
         "date": "2026-07-07T00:00Z",
         "goals": 0,
         "assists": 0,
-        "shotsOnGoal": 0
+        "shotsOnGoal": 0,
+        "result": "L"
       }
     ]
   },
@@ -160,7 +161,8 @@
         "goals": 0,
         "assists": 0,
         "shotsOnGoal": 0,
-        "goalsConceded": 3
+        "goalsConceded": 3,
+        "result": "L"
       }
     ]
   },
@@ -215,7 +217,8 @@
         "goals": 0,
         "assists": 0,
         "shotsOnGoal": 0,
-        "goalsConceded": 3
+        "goalsConceded": 4,
+        "result": "L"
       }
     ]
   },
@@ -2185,7 +2188,8 @@
         "date": "2026-07-07T00:00Z",
         "goals": 0,
         "assists": 0,
-        "shotsOnGoal": 0
+        "shotsOnGoal": 0,
+        "result": "W"
       }
     ]
   },
@@ -2245,7 +2249,8 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 1,
-        "goalsConceded": 1
+        "goalsConceded": 1,
+        "result": "W"
       }
     ]
   },
