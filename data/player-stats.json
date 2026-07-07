@@ -265,6 +265,15 @@
         "shotsOnGoal": 0,
         "goalsConceded": 0,
         "result": "W"
+      },
+      {
+        "fixtureId": 760508,
+        "opponent": "Colombia",
+        "date": "2026-07-07T20:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "goalsConceded": 0
       }
     ]
   },
@@ -4131,6 +4140,14 @@
         "assists": 0,
         "shotsOnGoal": 2,
         "result": "W"
+      },
+      {
+        "fixtureId": 760508,
+        "opponent": "Switzerland",
+        "date": "2026-07-07T20:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0
       }
     ]
   },
@@ -4177,6 +4194,15 @@
         "shotsOnGoal": 0,
         "goalsConceded": 0,
         "result": "W"
+      },
+      {
+        "fixtureId": 760508,
+        "opponent": "Switzerland",
+        "date": "2026-07-07T20:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "goalsConceded": 0
       }
     ]
   },
