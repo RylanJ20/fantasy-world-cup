@@ -3234,7 +3234,7 @@
       {
         "opponent": "United States",
         "goals": 2,
-        "assists": 0,
+        "assists": 1,
         "shotsOnGoal": 3,
         "saves": 0,
         "goalsConceded": 1
@@ -33853,6 +33853,14 @@
         "saves": 0,
         "goalsConceded": 0,
         "result": "W"
+      },
+      {
+        "opponent": "Belgium",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
