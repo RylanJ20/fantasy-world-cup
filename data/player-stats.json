@@ -273,8 +273,7 @@
         "goals": 0,
         "assists": 0,
         "shotsOnGoal": 0,
-        "goalsConceded": 0,
-        "result": "W"
+        "goalsConceded": 0
       }
     ]
   },
@@ -4148,8 +4147,7 @@
         "date": "2026-07-07T20:00Z",
         "goals": 0,
         "assists": 0,
-        "shotsOnGoal": 1,
-        "result": "L"
+        "shotsOnGoal": 1
       }
     ]
   },
@@ -4204,8 +4202,7 @@
         "goals": 0,
         "assists": 0,
         "shotsOnGoal": 0,
-        "goalsConceded": 0,
-        "result": "L"
+        "goalsConceded": 0
       }
     ]
   },
