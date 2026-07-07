@@ -1140,10 +1140,10 @@
     "stage": "Round of 16",
     "home": "Argentina",
     "away": "Egypt",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "homeScore": 3,
     "awayScore": 2,
-    "winner": null
+    "winner": "HOME_TEAM"
   },
   {
     "n": 760508,
