@@ -25,6 +25,16 @@
     "opponent": "Austria"
   },
   {
+    "player": "Lionel Messi",
+    "country": "Argentina",
+    "opponent": "Cabo Verde"
+  },
+  {
+    "player": "Lionel Messi",
+    "country": "Argentina",
+    "opponent": "Egypt"
+  },
+  {
     "player": "Aiden O'Neill",
     "country": "Australia",
     "opponent": "Paraguay"
@@ -35,14 +45,29 @@
     "opponent": "Türkiye"
   },
   {
+    "player": "Charles De Ketelaere",
+    "country": "Belgium",
+    "opponent": "United States"
+  },
+  {
     "player": "Leandro Trossard",
     "country": "Belgium",
     "opponent": "New Zealand"
   },
   {
+    "player": "Youri Tielemans",
+    "country": "Belgium",
+    "opponent": "Senegal"
+  },
+  {
     "player": "Kerim Alajbegovic",
     "country": "Bosnia-Herzegovina",
     "opponent": "Qatar"
+  },
+  {
+    "player": "Casemiro",
+    "country": "Brazil",
+    "opponent": "Japan"
   },
   {
     "player": "Vinicius Jr",
@@ -85,6 +110,11 @@
     "opponent": "Qatar"
   },
   {
+    "player": "Stephen Eustáquio",
+    "country": "Canada",
+    "opponent": "South Africa"
+  },
+  {
     "player": "Daniel Muñoz",
     "country": "Colombia",
     "opponent": "Congo DR"
@@ -93,6 +123,11 @@
     "player": "Luis Díaz",
     "country": "Colombia",
     "opponent": "Uzbekistan"
+  },
+  {
+    "player": "Luis Díaz",
+    "country": "Colombia",
+    "opponent": "Ghana"
   },
   {
     "player": "Yoane Wissa",
@@ -130,9 +165,19 @@
     "opponent": "New Zealand"
   },
   {
+    "player": "Mohamed Salah",
+    "country": "Egypt",
+    "opponent": "Australia"
+  },
+  {
     "player": "Harry Kane",
     "country": "England",
     "opponent": "Croatia"
+  },
+  {
+    "player": "Harry Kane",
+    "country": "England",
+    "opponent": "Congo DR"
   },
   {
     "player": "Jude Bellingham",
@@ -145,9 +190,19 @@
     "opponent": "Panama"
   },
   {
+    "player": "Jude Bellingham",
+    "country": "England",
+    "opponent": "Mexico"
+  },
+  {
     "player": "Kylian Mbappé",
     "country": "France",
     "opponent": "Iraq"
+  },
+  {
+    "player": "Kylian Mbappé",
+    "country": "France",
+    "opponent": "Sweden"
   },
   {
     "player": "Michael Olise",
@@ -215,6 +270,11 @@
     "opponent": "South Africa"
   },
   {
+    "player": "Julián Quiñones",
+    "country": "Mexico",
+    "opponent": "Ecuador"
+  },
+  {
     "player": "Luis Romo",
     "country": "Mexico",
     "opponent": "South Korea"
@@ -230,9 +290,19 @@
     "opponent": "Haiti"
   },
   {
+    "player": "Azzedine Ounahi",
+    "country": "Morocco",
+    "opponent": "Canada"
+  },
+  {
     "player": "Ismael Saibari",
     "country": "Morocco",
     "opponent": "Scotland"
+  },
+  {
+    "player": "Issa Diop",
+    "country": "Morocco",
+    "opponent": "Netherlands"
   },
   {
     "player": "Brian Brobbey",
@@ -250,6 +320,11 @@
     "opponent": "Japan"
   },
   {
+    "player": "Antonio Nusa",
+    "country": "Norway",
+    "opponent": "Ivory Coast"
+  },
+  {
     "player": "Erling Haaland",
     "country": "Norway",
     "opponent": "Iraq"
@@ -258,6 +333,11 @@
     "player": "Erling Haaland",
     "country": "Norway",
     "opponent": "Senegal"
+  },
+  {
+    "player": "Erling Haaland",
+    "country": "Norway",
+    "opponent": "Brazil"
   },
   {
     "player": "Cristian Martínez",
@@ -270,9 +350,24 @@
     "opponent": "Türkiye"
   },
   {
+    "player": "Orlando Gill",
+    "country": "Paraguay",
+    "opponent": "Germany"
+  },
+  {
+    "player": "Orlando Gill",
+    "country": "Paraguay",
+    "opponent": "France"
+  },
+  {
     "player": "Cristiano Ronaldo",
     "country": "Portugal",
     "opponent": "Uzbekistan"
+  },
+  {
+    "player": "Cristiano Ronaldo",
+    "country": "Portugal",
+    "opponent": "Croatia"
   },
   {
     "player": "Diogo Costa",
@@ -315,9 +410,19 @@
     "opponent": "Uruguay"
   },
   {
+    "player": "Lamine Yamal",
+    "country": "Spain",
+    "opponent": "Austria"
+  },
+  {
     "player": "Mikel Oyarzabal",
     "country": "Spain",
     "opponent": "Saudi Arabia"
+  },
+  {
+    "player": "Rodri",
+    "country": "Spain",
+    "opponent": "Portugal"
   },
   {
     "player": "Alexander Isak",
@@ -328,6 +433,11 @@
     "player": "Anthony Elanga",
     "country": "Sweden",
     "opponent": "Japan"
+  },
+  {
+    "player": "Breel Embolo",
+    "country": "Switzerland",
+    "opponent": "Algeria"
   },
   {
     "player": "Johan Manzambi",
@@ -353,6 +463,11 @@
     "player": "Folarin Balogun",
     "country": "United States",
     "opponent": "Australia"
+  },
+  {
+    "player": "Malik Tillman",
+    "country": "United States",
+    "opponent": "Bosnia-Herzegovina"
   },
   {
     "player": "Federico Valverde",
