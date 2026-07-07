@@ -13,7 +13,8 @@
     "import:stats": "tsx scripts/import-stats.ts",
     "import:penalties": "tsx scripts/import-penalties.ts",
     "import:motm": "tsx scripts/import-motm.ts",
-    "import:all": "npm run import:fixtures && npm run import:groups && npm run import:stats && npm run import:penalties && npm run import:motm"
+    "import:photos": "tsx scripts/import-photos.ts",
+    "import:all": "npm run import:fixtures && npm run import:groups && npm run import:stats && npm run import:penalties && npm run import:motm && npm run import:photos"
   },
   "dependencies": {
     "flag-icons": "^7.5.0",

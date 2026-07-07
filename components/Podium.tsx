@@ -41,7 +41,13 @@ function PodiumColumn({ row, seed }: { row: StandingRow; seed: number }) {
       <div className="flex flex-col items-center gap-2">
         {isChamp && <CrownIcon size={26} className={`${s.medal} drop-shadow`} />}
         <div className={`rounded-full ${s.ring} ${s.glow} transition-transform group-hover:-translate-y-1`}>
-          <Avatar name={row.manager.name} size={isChamp ? 64 : 52} seed={seed} />
+          <Avatar
+            name={row.manager.name}
+            size={isChamp ? 64 : 52}
+            seed={seed}
+            photo={row.topPhoto}
+            photoTitle={row.topPlayer}
+          />
         </div>
         <div className="text-center">
           <p className="font-display text-base tracking-wide text-chalk sm:text-lg">

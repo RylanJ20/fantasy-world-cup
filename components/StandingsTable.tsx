@@ -48,7 +48,13 @@ export function StandingsTable({ rows }: { rows: StandingRow[] }) {
               </span>
 
               <span className="flex min-w-0 items-center gap-3">
-                <Avatar name={row.manager.name} size={40} seed={i} />
+                <Avatar
+                  name={row.manager.name}
+                  size={40}
+                  seed={i}
+                  photo={row.topPhoto}
+                  photoTitle={row.topPlayer}
+                />
                 <span className="min-w-0">
                   <span className="flex items-center gap-1.5 font-display text-lg leading-tight tracking-wide text-chalk">
                     <span className="truncate">{row.manager.name}</span>

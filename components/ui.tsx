@@ -173,12 +173,37 @@ export function Avatar({
   name,
   size = 40,
   seed = 0,
+  photo,
+  photoTitle,
 }: {
   name: string;
   size?: number;
   seed?: number;
+  /** When set, shows this photo (e.g. the team's best performer) in place of
+   *  the initials. Falls back to initials automatically when absent. */
+  photo?: string;
+  /** Hover title for the photo — typically the pictured player's name. */
+  photoTitle?: string;
 }) {
   const tone = AVATAR_TONES[seed % AVATAR_TONES.length];
+  if (photo) {
+    return (
+      // Tiny remote avatar — next/image would need per-host remotePatterns and
+      // buys nothing at this size; a plain <img> with lazy loading is right here.
+      // eslint-disable-next-line @next/next/no-img-element
+      <img
+        src={photo}
+        alt=""
+        title={photoTitle}
+        width={size}
+        height={size}
+        loading="lazy"
+        className="shrink-0 rounded-full border border-line-strong object-cover"
+        style={{ width: size, height: size, objectPosition: "50% 20%" }}
+        aria-hidden
+      />
+    );
+  }
   return (
     <span
       className={`grid shrink-0 place-items-center rounded-full border border-line-strong bg-gradient-to-br font-display tracking-wide ${tone}`}

@@ -11,6 +11,7 @@ import { tournamentLeader, tournamentLeaders } from "./tournamentLeaders";
 import { undraftedPlayerScores, tournamentPosition } from "./tournamentPlayers";
 import { motmLeaders } from "./motm";
 import { playerKey } from "./names";
+import { playerPhoto } from "./teamPhotos";
 import {
   scoreManager,
   type ManagerScore,
@@ -121,6 +122,11 @@ export interface StandingRow extends ManagerScore {
   rank: number;
   /** True when this row shares its rank with the row above (tie). */
   tied: boolean;
+  /** Best-performing player's photo, shown as the manager avatar (undefined
+   *  until someone on the squad has scored and a photo has been resolved). */
+  topPhoto?: string;
+  /** Name of that best performer — used as the avatar's hover title / alt. */
+  topPlayer?: string;
 }
 
 /** Standings with competition ranking (ties share a rank: 1, 2, 2, 4…). */
@@ -133,7 +139,20 @@ export function getStandings(): StandingRow[] {
     const rank = tied ? lastRank : i + 1;
     lastTotal = s.total;
     lastRank = rank;
-    return { ...s, rank, tied };
+    // The manager's avatar becomes their top scorer's face once they've banked
+    // points and a photo exists — otherwise the initials avatar stands.
+    const top = s.players[0];
+    const topPhoto =
+      top && top.total > 0
+        ? playerPhoto(top.player.country, top.player.name)
+        : undefined;
+    return {
+      ...s,
+      rank,
+      tied,
+      topPhoto,
+      topPlayer: topPhoto ? top.player.name : undefined,
+    };
   });
 }
 

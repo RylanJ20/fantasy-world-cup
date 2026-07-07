@@ -102,7 +102,13 @@ export default async function ManagerPage({
                   : ""
               }
             >
-              <Avatar name={m.manager.name} size={72} seed={seed < 0 ? 0 : seed} />
+              <Avatar
+                name={m.manager.name}
+                size={72}
+                seed={seed < 0 ? 0 : seed}
+                photo={m.topPhoto}
+                photoTitle={m.topPlayer}
+              />
             </div>
             <div>
               <div className="mb-1 flex items-center gap-2">
