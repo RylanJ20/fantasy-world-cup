@@ -16775,23 +16775,6 @@
     ]
   },
   {
-    "name": "Ali Yousif",
-    "country": "Iraq",
-    "position": "",
-    "managers": [],
-    "matches": [
-      {
-        "opponent": "Senegal",
-        "goals": 0,
-        "assists": 0,
-        "shotsOnGoal": 0,
-        "saves": 0,
-        "goalsConceded": 3,
-        "result": "L"
-      }
-    ]
-  },
-  {
     "name": "Amir Al-Ammari",
     "country": "Iraq",
     "position": "MID",
@@ -16865,6 +16848,23 @@
         "shotsOnGoal": 0,
         "saves": 0,
         "goalsConceded": 5,
+        "result": "L"
+      }
+    ]
+  },
+  {
+    "name": "Hashim Ali",
+    "country": "Iraq",
+    "position": "",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Senegal",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 3,
         "result": "L"
       }
     ]
