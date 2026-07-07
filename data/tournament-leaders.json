@@ -316,6 +316,13 @@
       "managers": []
     },
     {
+      "name": "Mostafa Shoubir",
+      "country": "Egypt",
+      "position": "GK",
+      "value": 14,
+      "managers": []
+    },
+    {
       "name": "Patrick Beach",
       "country": "Australia",
       "position": "GK",
@@ -325,13 +332,6 @@
     {
       "name": "Alexander Schlager",
       "country": "Austria",
-      "position": "GK",
-      "value": 13,
-      "managers": []
-    },
-    {
-      "name": "Gregor Kobel",
-      "country": "Switzerland",
       "position": "GK",
       "value": 13,
       "managers": []
