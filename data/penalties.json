@@ -1,11 +1,11 @@
 {
   "summary": {
-    "total": 48,
+    "total": 49,
     "scored": 32,
-    "saved": 7,
+    "saved": 8,
     "missed": 9,
     "unknown": 0,
-    "inPlaySaves": 3,
+    "inPlaySaves": 4,
     "shootoutSaves": 4
   },
   "events": [
@@ -634,6 +634,19 @@
       "keeper": null,
       "keeperTeam": null,
       "text": "Goal! Mexico 2, England 3. Raúl Jiménez (Mexico) converts the penalty with a right footed shot to the bottom left corner."
+    },
+    {
+      "fixtureId": 760509,
+      "match": "Egypt at Argentina",
+      "date": "2026-07-07T16:00Z",
+      "minute": "21'",
+      "shootout": false,
+      "kind": "saved",
+      "taker": "Lionel Messi",
+      "takerTeam": "Argentina",
+      "keeper": "Mostafa Shobeir",
+      "keeperTeam": "Egypt",
+      "text": "Penalty saved. Lionel Messi (Argentina) left footed shot saved in the bottom right corner by Mostafa Shobeir (Egypt)."
     }
   ]
 }
