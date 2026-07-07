@@ -1,7 +1,7 @@
 {
   "summary": {
-    "total": 58,
-    "scored": 38,
+    "total": 59,
+    "scored": 39,
     "saved": 9,
     "missed": 11,
     "unknown": 0,
@@ -760,6 +760,19 @@
       "shootout": true,
       "kind": "scored",
       "taker": "Cedric Itten",
+      "takerTeam": "Switzerland",
+      "keeper": null,
+      "keeperTeam": null,
+      "text": ""
+    },
+    {
+      "fixtureId": 760508,
+      "match": "Colombia at Switzerland",
+      "date": "2026-07-07T20:00Z",
+      "minute": "",
+      "shootout": true,
+      "kind": "scored",
+      "taker": "Rubén Vargas",
       "takerTeam": "Switzerland",
       "keeper": null,
       "keeperTeam": null,
