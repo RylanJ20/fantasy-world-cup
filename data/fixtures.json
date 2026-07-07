@@ -1128,7 +1128,7 @@
     "stage": "Round of 16",
     "home": "United States",
     "away": "Belgium",
-    "status": "PAUSED",
+    "status": "IN_PLAY",
     "homeScore": 1,
     "awayScore": 2,
     "winner": null
