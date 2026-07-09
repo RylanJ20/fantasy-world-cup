@@ -13506,6 +13506,15 @@
         "saves": 0,
         "goalsConceded": 0,
         "result": "W"
+      },
+      {
+        "opponent": "Morocco",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0,
+        "result": "W"
       }
     ]
   },
@@ -13594,6 +13603,15 @@
         "saves": 0,
         "goalsConceded": 0,
         "result": "W"
+      },
+      {
+        "opponent": "Morocco",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 1,
+        "saves": 0,
+        "goalsConceded": 0,
+        "result": "W"
       }
     ]
   },
@@ -13644,6 +13662,15 @@
         "goals": 0,
         "assists": 0,
         "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0,
+        "result": "W"
+      },
+      {
+        "opponent": "Morocco",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 1,
         "saves": 0,
         "goalsConceded": 0,
         "result": "W"
@@ -13700,6 +13727,15 @@
         "saves": 0,
         "goalsConceded": 0,
         "result": "W"
+      },
+      {
+        "opponent": "Morocco",
+        "goals": 0,
+        "assists": 1,
+        "shotsOnGoal": 2,
+        "saves": 0,
+        "goalsConceded": 0,
+        "result": "W"
       }
     ]
   },
@@ -13740,6 +13776,15 @@
         "goals": 0,
         "assists": 0,
         "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0,
+        "result": "W"
+      },
+      {
+        "opponent": "Morocco",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 1,
         "saves": 0,
         "goalsConceded": 0,
         "result": "W"
@@ -13790,6 +13835,15 @@
       },
       {
         "opponent": "Paraguay",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0,
+        "result": "W"
+      },
+      {
+        "opponent": "Morocco",
         "goals": 0,
         "assists": 0,
         "shotsOnGoal": 0,
@@ -13854,6 +13908,15 @@
         "saves": 0,
         "goalsConceded": 0,
         "result": "W"
+      },
+      {
+        "opponent": "Morocco",
+        "goals": 1,
+        "assists": 1,
+        "shotsOnGoal": 2,
+        "saves": 0,
+        "goalsConceded": 0,
+        "result": "W"
       }
     ]
   },
@@ -13883,6 +13946,15 @@
       },
       {
         "opponent": "Paraguay",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0,
+        "result": "W"
+      },
+      {
+        "opponent": "Morocco",
         "goals": 0,
         "assists": 0,
         "shotsOnGoal": 0,
@@ -13941,6 +14013,15 @@
         "saves": 0,
         "goalsConceded": 0,
         "result": "W"
+      },
+      {
+        "opponent": "Morocco",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0,
+        "result": "W"
       }
     ]
   },
@@ -13973,6 +14054,15 @@
         "goals": 0,
         "assists": 0,
         "shotsOnGoal": 1,
+        "saves": 0,
+        "goalsConceded": 0,
+        "result": "W"
+      },
+      {
+        "opponent": "Morocco",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
         "saves": 0,
         "goalsConceded": 0,
         "result": "W"
@@ -14068,6 +14158,15 @@
         "saves": 0,
         "goalsConceded": 0,
         "result": "W"
+      },
+      {
+        "opponent": "Morocco",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0,
+        "result": "W"
       }
     ]
   },
@@ -14126,6 +14225,15 @@
         "saves": 0,
         "goalsConceded": 0,
         "result": "W"
+      },
+      {
+        "opponent": "Morocco",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 1,
+        "goalsConceded": 0,
+        "result": "W"
       }
     ]
   },
@@ -14181,6 +14289,15 @@
         "goals": 0,
         "assists": 0,
         "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0,
+        "result": "W"
+      },
+      {
+        "opponent": "Morocco",
+        "goals": 1,
+        "assists": 0,
+        "shotsOnGoal": 1,
         "saves": 0,
         "goalsConceded": 0,
         "result": "W"
@@ -14286,6 +14403,23 @@
     ]
   },
   {
+    "name": "Warren Zaïre-Emery",
+    "country": "France",
+    "position": "",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Morocco",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0,
+        "result": "W"
+      }
+    ]
+  },
+  {
     "name": "William Saliba",
     "country": "France",
     "position": "DEF",
@@ -14325,6 +14459,15 @@
       },
       {
         "opponent": "Paraguay",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0,
+        "result": "W"
+      },
+      {
+        "opponent": "Morocco",
         "goals": 0,
         "assists": 0,
         "shotsOnGoal": 0,
@@ -20733,6 +20876,32 @@
         "saves": 0,
         "goalsConceded": 0,
         "result": "W"
+      },
+      {
+        "opponent": "France",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 2,
+        "result": "L"
+      }
+    ]
+  },
+  {
+    "name": "Amine Sbaï",
+    "country": "Morocco",
+    "position": "",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "France",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0,
+        "result": "L"
       }
     ]
   },
@@ -20768,6 +20937,15 @@
         "saves": 0,
         "goalsConceded": 0,
         "result": "W"
+      },
+      {
+        "opponent": "France",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 2,
+        "result": "L"
       }
     ]
   },
@@ -20855,6 +21033,15 @@
         "saves": 0,
         "goalsConceded": 0,
         "result": "W"
+      },
+      {
+        "opponent": "France",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 1,
+        "result": "L"
       }
     ]
   },
@@ -20908,6 +21095,15 @@
         "saves": 0,
         "goalsConceded": 0,
         "result": "W"
+      },
+      {
+        "opponent": "France",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 1,
+        "saves": 0,
+        "goalsConceded": 2,
+        "result": "L"
       }
     ]
   },
@@ -20961,6 +21157,15 @@
         "saves": 0,
         "goalsConceded": 0,
         "result": "W"
+      },
+      {
+        "opponent": "France",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 1,
+        "result": "L"
       }
     ]
   },
@@ -21014,6 +21219,15 @@
         "saves": 0,
         "goalsConceded": 0,
         "result": "W"
+      },
+      {
+        "opponent": "France",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 2,
+        "result": "L"
       }
     ]
   },
@@ -21064,7 +21278,7 @@
   {
     "name": "Chemsdine Talbi",
     "country": "Morocco",
-    "position": "FWD",
+    "position": "MID",
     "managers": [],
     "matches": [
       {
@@ -21102,6 +21316,15 @@
         "saves": 0,
         "goalsConceded": 0,
         "result": "W"
+      },
+      {
+        "opponent": "France",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 2,
+        "result": "L"
       }
     ]
   },
@@ -21128,6 +21351,15 @@
         "saves": 0,
         "goalsConceded": 0,
         "result": "W"
+      },
+      {
+        "opponent": "France",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0,
+        "result": "L"
       }
     ]
   },
@@ -21225,6 +21457,15 @@
         "saves": 0,
         "goalsConceded": 0,
         "result": "W"
+      },
+      {
+        "opponent": "France",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 2,
+        "result": "L"
       }
     ]
   },
@@ -21295,6 +21536,15 @@
         "saves": 0,
         "goalsConceded": 0,
         "result": "W"
+      },
+      {
+        "opponent": "France",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 2,
+        "result": "L"
       }
     ]
   },
@@ -21348,6 +21598,15 @@
         "saves": 0,
         "goalsConceded": 0,
         "result": "W"
+      },
+      {
+        "opponent": "France",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 2,
+        "result": "L"
       }
     ]
   },
@@ -21453,6 +21712,15 @@
         "saves": 0,
         "goalsConceded": 0,
         "result": "W"
+      },
+      {
+        "opponent": "France",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 1,
+        "result": "L"
       }
     ]
   },
@@ -21506,6 +21774,15 @@
         "saves": 0,
         "goalsConceded": 0,
         "result": "W"
+      },
+      {
+        "opponent": "France",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 1,
+        "result": "L"
       }
     ]
   },
@@ -21559,6 +21836,32 @@
         "saves": 3,
         "goalsConceded": 0,
         "result": "W"
+      },
+      {
+        "opponent": "France",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 6,
+        "goalsConceded": 2,
+        "result": "L"
+      }
+    ]
+  },
+  {
+    "name": "Zakaria El Ouahdi",
+    "country": "Morocco",
+    "position": "",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "France",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0,
+        "result": "L"
       }
     ]
   },

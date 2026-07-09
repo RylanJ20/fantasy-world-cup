@@ -1,6 +1,18 @@
 {
   "goals": [
     {
+      "name": "Kylian Mbappé",
+      "country": "France",
+      "position": "FWD",
+      "value": 8,
+      "managers": [
+        {
+          "id": "alejandro",
+          "name": "Alejandro"
+        }
+      ]
+    },
+    {
       "name": "Lionel Messi",
       "country": "Argentina",
       "position": "FWD",
@@ -25,18 +37,6 @@
       ]
     },
     {
-      "name": "Kylian Mbappé",
-      "country": "France",
-      "position": "FWD",
-      "value": 7,
-      "managers": [
-        {
-          "id": "alejandro",
-          "name": "Alejandro"
-        }
-      ]
-    },
-    {
       "name": "Harry Kane",
       "country": "England",
       "position": "FWD",
@@ -45,6 +45,18 @@
         {
           "id": "ben",
           "name": "Ben"
+        }
+      ]
+    },
+    {
+      "name": "Ousmane Dembélé",
+      "country": "France",
+      "position": "MID",
+      "value": 5,
+      "managers": [
+        {
+          "id": "alejandro",
+          "name": "Alejandro"
         }
       ]
     },
@@ -83,18 +95,6 @@
         {
           "id": "rylan",
           "name": "Rylan"
-        }
-      ]
-    },
-    {
-      "name": "Ousmane Dembélé",
-      "country": "France",
-      "position": "MID",
-      "value": 4,
-      "managers": [
-        {
-          "id": "alejandro",
-          "name": "Alejandro"
         }
       ]
     },
@@ -196,6 +196,18 @@
       ]
     },
     {
+      "name": "Kylian Mbappé",
+      "country": "France",
+      "position": "FWD",
+      "value": 3,
+      "managers": [
+        {
+          "id": "alejandro",
+          "name": "Alejandro"
+        }
+      ]
+    },
+    {
       "name": "Martin Ødegaard",
       "country": "Norway",
       "position": "MID",
@@ -230,13 +242,6 @@
       "name": "Anthony Gordon",
       "country": "England",
       "position": "MID",
-      "value": 2,
-      "managers": []
-    },
-    {
-      "name": "Breel Embolo",
-      "country": "Switzerland",
-      "position": "FWD",
       "value": 2,
       "managers": []
     }
@@ -304,6 +309,13 @@
       "managers": []
     },
     {
+      "name": "Yassine Bounou",
+      "country": "Morocco",
+      "position": "GK",
+      "value": 15,
+      "managers": []
+    },
+    {
       "name": "Alisson Becker",
       "country": "Brazil",
       "position": "GK",
@@ -325,13 +337,6 @@
     {
       "name": "Mostafa Shoubir",
       "country": "Egypt",
-      "position": "GK",
-      "value": 14,
-      "managers": []
-    },
-    {
-      "name": "Patrick Beach",
-      "country": "Australia",
       "position": "GK",
       "value": 14,
       "managers": []
@@ -394,6 +399,13 @@
       "managers": []
     },
     {
+      "name": "Dayot Upamecano",
+      "country": "France",
+      "position": "DEF",
+      "value": 4,
+      "managers": []
+    },
+    {
       "name": "Israel Reyes",
       "country": "Mexico",
       "position": "DEF",
@@ -415,32 +427,30 @@
       "managers": []
     },
     {
-      "name": "César Montes",
-      "country": "Mexico",
-      "position": "DEF",
-      "value": 3,
-      "managers": []
-    },
-    {
-      "name": "Dayot Upamecano",
+      "name": "Jules Koundé",
       "country": "France",
       "position": "DEF",
-      "value": 3,
+      "value": 4,
       "managers": []
     },
     {
-      "name": "Edson Álvarez",
-      "country": "Mexico",
+      "name": "Lucas Digne",
+      "country": "France",
       "position": "DEF",
-      "value": 3,
+      "value": 4,
       "managers": []
     },
     {
-      "name": "Johan Mojica",
-      "country": "Colombia",
+      "name": "William Saliba",
+      "country": "France",
       "position": "DEF",
-      "value": 3,
-      "managers": []
+      "value": 4,
+      "managers": [
+        {
+          "id": "travis",
+          "name": "Travis"
+        }
+      ]
     }
   ]
 }

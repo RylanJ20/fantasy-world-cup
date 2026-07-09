@@ -672,6 +672,16 @@
         "shotsOnGoal": 0,
         "goalsConceded": 0,
         "result": "W"
+      },
+      {
+        "fixtureId": 760510,
+        "opponent": "France",
+        "date": "2026-07-09T20:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "goalsConceded": 2,
+        "result": "L"
       }
     ]
   },
@@ -2443,6 +2453,17 @@
         "saves": 0,
         "goalsConceded": 0,
         "result": "W"
+      },
+      {
+        "fixtureId": 760510,
+        "opponent": "Morocco",
+        "date": "2026-07-09T20:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 1,
+        "goalsConceded": 0,
+        "result": "W"
       }
     ]
   },
@@ -2494,6 +2515,15 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "result": "W"
+      },
+      {
+        "fixtureId": 760510,
+        "opponent": "Morocco",
+        "date": "2026-07-09T20:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "result": "W"
       }
     ]
   },
@@ -2535,6 +2565,16 @@
         "fixtureId": 760503,
         "opponent": "Paraguay",
         "date": "2026-07-04T21:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "goalsConceded": 0,
+        "result": "W"
+      },
+      {
+        "fixtureId": 760510,
+        "opponent": "Morocco",
+        "date": "2026-07-09T20:00Z",
         "goals": 0,
         "assists": 0,
         "shotsOnGoal": 0,
@@ -2591,6 +2631,15 @@
         "assists": 0,
         "shotsOnGoal": 4,
         "result": "W"
+      },
+      {
+        "fixtureId": 760510,
+        "opponent": "Morocco",
+        "date": "2026-07-09T20:00Z",
+        "goals": 1,
+        "assists": 1,
+        "shotsOnGoal": 2,
+        "result": "W"
       }
     ]
   },
@@ -2641,6 +2690,15 @@
         "goals": 0,
         "assists": 0,
         "shotsOnGoal": 0,
+        "result": "W"
+      },
+      {
+        "fixtureId": 760510,
+        "opponent": "Morocco",
+        "date": "2026-07-09T20:00Z",
+        "goals": 1,
+        "assists": 0,
+        "shotsOnGoal": 1,
         "result": "W"
       }
     ]

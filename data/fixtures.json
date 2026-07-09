@@ -1166,10 +1166,10 @@
     "stage": "Quarter-final",
     "home": "France",
     "away": "Morocco",
-    "status": "TIMED",
-    "homeScore": null,
-    "awayScore": null,
-    "winner": null
+    "status": "FINISHED",
+    "homeScore": 2,
+    "awayScore": 0,
+    "winner": "HOME_TEAM"
   },
   {
     "n": 760511,
@@ -1212,7 +1212,7 @@
     "date": "2026-07-14",
     "utcDate": "2026-07-14T19:00:00Z",
     "stage": "Semi-final",
-    "home": "Quarterfinal 1 Winner",
+    "home": "France",
     "away": "Quarterfinal 2 Winner",
     "status": "TIMED",
     "homeScore": null,

@@ -1,11 +1,11 @@
 {
   "summary": {
-    "total": 59,
+    "total": 60,
     "scored": 39,
-    "saved": 9,
+    "saved": 10,
     "missed": 11,
     "unknown": 0,
-    "inPlaySaves": 4,
+    "inPlaySaves": 5,
     "shootoutSaves": 5
   },
   "events": [
@@ -777,6 +777,19 @@
       "keeper": null,
       "keeperTeam": null,
       "text": ""
+    },
+    {
+      "fixtureId": 760510,
+      "match": "Morocco at France",
+      "date": "2026-07-09T20:00Z",
+      "minute": "28'",
+      "shootout": false,
+      "kind": "saved",
+      "taker": "Kylian Mbappé",
+      "takerTeam": "France",
+      "keeper": "Yassine Bounou",
+      "keeperTeam": "Morocco",
+      "text": "Penalty saved. Kylian Mbappé (France) right footed shot saved in the bottom right corner by Yassine Bounou (Morocco)."
     }
   ]
 }
