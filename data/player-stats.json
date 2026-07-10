@@ -1633,6 +1633,15 @@
         "assists": 0,
         "shotsOnGoal": 1,
         "result": "W"
+      },
+      {
+        "fixtureId": 760511,
+        "opponent": "Belgium",
+        "date": "2026-07-10T19:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 1,
+        "result": "W"
       }
     ]
   },
@@ -1683,6 +1692,15 @@
         "goals": 0,
         "assists": 0,
         "shotsOnGoal": 0,
+        "result": "W"
+      },
+      {
+        "fixtureId": 760511,
+        "opponent": "Belgium",
+        "date": "2026-07-10T19:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 1,
         "result": "W"
       }
     ]
@@ -1740,6 +1758,16 @@
         "shotsOnGoal": 0,
         "goalsConceded": 0,
         "result": "W"
+      },
+      {
+        "fixtureId": 760511,
+        "opponent": "Belgium",
+        "date": "2026-07-10T19:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "goalsConceded": 1,
+        "result": "W"
       }
     ]
   },
@@ -1789,6 +1817,15 @@
         "date": "2026-07-06T19:00Z",
         "goals": 0,
         "assists": 1,
+        "shotsOnGoal": 0,
+        "result": "W"
+      },
+      {
+        "fixtureId": 760511,
+        "opponent": "Belgium",
+        "date": "2026-07-10T19:00Z",
+        "goals": 0,
+        "assists": 0,
         "shotsOnGoal": 0,
         "result": "W"
       }
@@ -1841,6 +1878,15 @@
         "goals": 0,
         "assists": 0,
         "shotsOnGoal": 0,
+        "result": "W"
+      },
+      {
+        "fixtureId": 760511,
+        "opponent": "Belgium",
+        "date": "2026-07-10T19:00Z",
+        "goals": 1,
+        "assists": 0,
+        "shotsOnGoal": 1,
         "result": "W"
       }
     ]
@@ -1898,6 +1944,16 @@
         "shotsOnGoal": 0,
         "goalsConceded": 0,
         "result": "W"
+      },
+      {
+        "fixtureId": 760511,
+        "opponent": "Belgium",
+        "date": "2026-07-10T19:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 1,
+        "goalsConceded": 1,
+        "result": "W"
       }
     ]
   },
@@ -1954,6 +2010,16 @@
         "shotsOnGoal": 0,
         "goalsConceded": 0,
         "result": "W"
+      },
+      {
+        "fixtureId": 760511,
+        "opponent": "Belgium",
+        "date": "2026-07-10T19:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 1,
+        "goalsConceded": 1,
+        "result": "W"
       }
     ]
   },
@@ -2001,6 +2067,15 @@
         "fixtureId": 760506,
         "opponent": "Portugal",
         "date": "2026-07-06T19:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 2,
+        "result": "W"
+      },
+      {
+        "fixtureId": 760511,
+        "opponent": "Belgium",
+        "date": "2026-07-10T19:00Z",
         "goals": 0,
         "assists": 0,
         "shotsOnGoal": 2,
@@ -2066,6 +2141,17 @@
         "saves": 2,
         "goalsConceded": 0,
         "result": "W"
+      },
+      {
+        "fixtureId": 760511,
+        "opponent": "Belgium",
+        "date": "2026-07-10T19:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 1,
+        "goalsConceded": 1,
+        "result": "W"
       }
     ]
   },
@@ -2117,6 +2203,15 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "result": "W"
+      },
+      {
+        "fixtureId": 760511,
+        "opponent": "Belgium",
+        "date": "2026-07-10T19:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "result": "W"
       }
     ]
   },
@@ -2159,6 +2254,15 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "result": "W"
+      },
+      {
+        "fixtureId": 760511,
+        "opponent": "Spain",
+        "date": "2026-07-10T19:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 1,
+        "result": "L"
       }
     ]
   },
@@ -2271,6 +2375,17 @@
         "saves": 1,
         "goalsConceded": 1,
         "result": "W"
+      },
+      {
+        "fixtureId": 760511,
+        "opponent": "Spain",
+        "date": "2026-07-10T19:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 4,
+        "goalsConceded": 1,
+        "result": "L"
       }
     ]
   },

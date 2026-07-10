@@ -47,8 +47,18 @@ jobs:
           node-version: 24
           cache: npm
       - run: npm ci
-      - name: Import fixtures, standings, player/tournament stats (ESPN) + MOTM (FIFA) + best-player photos (Wikipedia)
+      - name: Import fixtures, standings, player/tournament stats (ESPN) + MOTM (FIFA)
         run: npm run import:all
+      # Best-player avatar photos (Wikipedia) run OUTSIDE import:all as a bounded,
+      # best-effort step: Wikipedia throttles CI IPs, and a slow run must never
+      # delay or block the fast core-data commit (an unbounded run once stalled
+      # the whole workflow past its 5-min window and stranded live scores). The
+      # importer times out every request and, thanks to a freshness cache, does
+      # ~zero network work unless a manager's top performer actually changed.
+      - name: Refresh best-player photos (Wikipedia) — best-effort, never blocks the commit
+        run: npm run import:photos
+        continue-on-error: true
+        timeout-minutes: 3
       - name: Commit & push if anything changed
         run: |
           FILES="data/fixtures.json data/groups.json data/player-stats.json data/tournament-leaders.json data/tournament-players.json data/penalties.json data/motm.json data/player-photos.json"

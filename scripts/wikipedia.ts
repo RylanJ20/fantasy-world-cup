@@ -24,6 +24,12 @@ const UA =
 
 const HEADERS = { "User-Agent": UA };
 
+// Hard per-request timeout. Wikipedia throttles shared CI IPs, and Node's fetch
+// has no default timeout — without this a slow response can hang the request
+// indefinitely, which once stalled the whole auto-import workflow. Every fetch
+// below is bounded by this and can only ever resolve to null on trouble.
+const TIMEOUT_MS = 6000;
+
 /** A resolved footballer photo. `source` is always "wikipedia" for now. */
 export interface PlayerPhoto {
   /** Direct Wikimedia Commons thumbnail URL (already sized for an avatar). */
@@ -38,9 +44,17 @@ const looksLikeFootballer = (text: string): boolean =>
   /footbal|midfielder|forward|defender|goalkeeper|winger|striker/i.test(text);
 
 async function getJson(url: string): Promise<any | null> {
-  const res = await fetch(url, { headers: HEADERS });
-  if (!res.ok) return null;
-  return res.json();
+  try {
+    const res = await fetch(url, {
+      headers: HEADERS,
+      signal: AbortSignal.timeout(TIMEOUT_MS),
+    });
+    if (!res.ok) return null;
+    return await res.json();
+  } catch {
+    // Timeout, network error, or bad JSON — treat as "no photo", never throw.
+    return null;
+  }
 }
 
 /** Canonical article for the exact name (follows redirects). */
@@ -85,7 +99,11 @@ async function viaSearch(name: string, country: string): Promise<PlayerPhoto | n
 /** True if the URL is live (HEAD 200) — never store a dead photo link. */
 async function isLive(url: string): Promise<boolean> {
   try {
-    const res = await fetch(url, { method: "HEAD", headers: HEADERS });
+    const res = await fetch(url, {
+      method: "HEAD",
+      headers: HEADERS,
+      signal: AbortSignal.timeout(TIMEOUT_MS),
+    });
     return res.ok;
   } catch {
     return false;

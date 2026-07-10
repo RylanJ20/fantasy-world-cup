@@ -1178,10 +1178,10 @@
     "stage": "Quarter-final",
     "home": "Spain",
     "away": "Belgium",
-    "status": "TIMED",
-    "homeScore": null,
-    "awayScore": null,
-    "winner": null
+    "status": "FINISHED",
+    "homeScore": 2,
+    "awayScore": 1,
+    "winner": "HOME_TEAM"
   },
   {
     "n": 760512,
@@ -1213,7 +1213,7 @@
     "utcDate": "2026-07-14T19:00:00Z",
     "stage": "Semi-final",
     "home": "France",
-    "away": "Quarterfinal 2 Winner",
+    "away": "Spain",
     "status": "TIMED",
     "homeScore": null,
     "awayScore": null,

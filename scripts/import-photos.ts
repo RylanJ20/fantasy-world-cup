@@ -20,6 +20,11 @@ import { resolvePlayerPhoto } from "./wikipedia";
 
 const FILE = "data/player-photos.json";
 
+// A cached photo younger than this is reused without re-fetching. Long, because
+// a player's photo rarely changes — and a new top performer is a cache miss, so
+// leader changes are picked up regardless of this window.
+const FRESH_MS = 24 * 60 * 60 * 1000;
+
 interface PhotoEntry {
   name: string;
   country: string;
@@ -47,7 +52,7 @@ async function main() {
     manager: string;
     player: string;
     country: string;
-    outcome: "resolved" | "kept" | "failed" | "skipped";
+    outcome: "resolved" | "fresh" | "kept" | "failed" | "skipped";
   }[] = [];
 
   for (const m of getManagerScores()) {
@@ -60,6 +65,18 @@ async function main() {
 
     const { name, country } = top.player;
     const key = playerKey(country, name);
+
+    // Steady-state fast path: this top performer already has a recent photo, so
+    // skip the network entirely. Photos change far more slowly than scores, and
+    // a NEW top performer is always a cache miss (fetched below), so leaders are
+    // still picked up promptly. This keeps the every-run cost near zero and off
+    // Wikipedia — the whole reason the photo step can ride along hands-free.
+    const existing = cache[key];
+    if (existing && Date.parse(existing.updatedAt) > Date.now() - FRESH_MS) {
+      rows.push({ manager: m.manager.name, player: name, country, outcome: "fresh" });
+      continue;
+    }
+
     const photo = await resolvePlayerPhoto(name, country);
 
     if (photo) {
@@ -87,14 +104,23 @@ async function main() {
   writeFileSync(FILE, JSON.stringify(sorted, null, 2) + "\n");
 
   const resolved = rows.filter((r) => r.outcome === "resolved").length;
+  const fresh = rows.filter((r) => r.outcome === "fresh").length;
   const kept = rows.filter((r) => r.outcome === "kept").length;
   const failed = rows.filter((r) => r.outcome === "failed").length;
   console.log(
-    `✅ photos: ${resolved} resolved · ${kept} kept from cache · ${failed} unresolved · ${Object.keys(sorted).length} total in cache.`,
+    `✅ photos: ${resolved} resolved · ${fresh} already fresh · ${kept} kept from cache · ${failed} unresolved · ${Object.keys(sorted).length} total in cache.`,
   );
   for (const r of rows) {
     const mark =
-      r.outcome === "resolved" ? "✓" : r.outcome === "kept" ? "•" : r.outcome === "failed" ? "✗" : "–";
+      r.outcome === "resolved"
+        ? "✓"
+        : r.outcome === "fresh"
+          ? "="
+          : r.outcome === "kept"
+            ? "•"
+            : r.outcome === "failed"
+              ? "✗"
+              : "–";
     console.log(
       `   ${mark} ${r.manager.padEnd(12)} ${r.player}${r.country ? ` (${r.country})` : ""}`,
     );

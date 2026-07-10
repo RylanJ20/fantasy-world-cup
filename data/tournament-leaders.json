@@ -118,16 +118,11 @@
       "managers": []
     },
     {
-      "name": "Cody Gakpo",
-      "country": "Netherlands",
+      "name": "Charles De Ketelaere",
+      "country": "Belgium",
       "position": "FWD",
       "value": 3,
-      "managers": [
-        {
-          "id": "rylan",
-          "name": "Rylan"
-        }
-      ]
+      "managers": []
     }
   ],
   "assists": [
