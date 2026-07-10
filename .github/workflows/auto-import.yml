@@ -40,6 +40,11 @@ concurrency:
 jobs:
   import:
     runs-on: ubuntu-latest
+    # Belt-and-suspenders: never let a single run hold the concurrency slot for
+    # GitHub's 6h default. A stuck run (e.g. a hung network call) that outlives
+    # this is killed, so the next run can proceed instead of the queue jamming
+    # and cancelling every subsequent run. A healthy run finishes in ~1 min.
+    timeout-minutes: 10
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
