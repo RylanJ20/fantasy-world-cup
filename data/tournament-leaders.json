@@ -297,6 +297,13 @@
       "managers": []
     },
     {
+      "name": "Ørjan Nyland",
+      "country": "Norway",
+      "position": "GK",
+      "value": 16,
+      "managers": []
+    },
+    {
       "name": "Alireza Beiranvand",
       "country": "Iran",
       "position": "GK",
@@ -325,13 +332,6 @@
     {
       "name": "Lionel Mpasi",
       "country": "Congo DR",
-      "position": "GK",
-      "value": 14,
-      "managers": []
-    },
-    {
-      "name": "Mostafa Shoubir",
-      "country": "Egypt",
       "position": "GK",
       "value": 14,
       "managers": []
