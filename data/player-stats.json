@@ -2857,14 +2857,6 @@
         "assists": 0,
         "shotsOnGoal": 3,
         "result": "W"
-      },
-      {
-        "fixtureId": 760512,
-        "opponent": "England",
-        "date": "2026-07-11T21:00Z",
-        "goals": 0,
-        "assists": 0,
-        "shotsOnGoal": 0
       }
     ]
   },
@@ -2907,14 +2899,6 @@
         "assists": 0,
         "shotsOnGoal": 1,
         "result": "W"
-      },
-      {
-        "fixtureId": 760512,
-        "opponent": "England",
-        "date": "2026-07-11T21:00Z",
-        "goals": 0,
-        "assists": 0,
-        "shotsOnGoal": 0
       }
     ]
   },
@@ -2951,15 +2935,6 @@
         "shotsOnGoal": 0,
         "goalsConceded": 0,
         "result": "W"
-      },
-      {
-        "fixtureId": 760512,
-        "opponent": "England",
-        "date": "2026-07-11T21:00Z",
-        "goals": 0,
-        "assists": 0,
-        "shotsOnGoal": 0,
-        "goalsConceded": 0
       }
     ]
   },
@@ -3932,16 +3907,6 @@
         "saves": 3,
         "goalsConceded": 2,
         "result": "W"
-      },
-      {
-        "fixtureId": 760512,
-        "opponent": "Norway",
-        "date": "2026-07-11T21:00Z",
-        "goals": 0,
-        "assists": 0,
-        "shotsOnGoal": 0,
-        "saves": 0,
-        "goalsConceded": 0
       }
     ]
   },
@@ -4044,14 +4009,6 @@
         "assists": 1,
         "shotsOnGoal": 1,
         "result": "W"
-      },
-      {
-        "fixtureId": 760512,
-        "opponent": "Norway",
-        "date": "2026-07-11T21:00Z",
-        "goals": 0,
-        "assists": 0,
-        "shotsOnGoal": 0
       }
     ]
   },
@@ -4129,14 +4086,6 @@
         "assists": 0,
         "shotsOnGoal": 3,
         "result": "W"
-      },
-      {
-        "fixtureId": 760512,
-        "opponent": "Norway",
-        "date": "2026-07-11T21:00Z",
-        "goals": 0,
-        "assists": 0,
-        "shotsOnGoal": 0
       }
     ]
   },
@@ -4179,14 +4128,6 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "result": "W"
-      },
-      {
-        "fixtureId": 760512,
-        "opponent": "Norway",
-        "date": "2026-07-11T21:00Z",
-        "goals": 0,
-        "assists": 0,
-        "shotsOnGoal": 0
       }
     ]
   },
@@ -4243,15 +4184,6 @@
         "shotsOnGoal": 0,
         "goalsConceded": 2,
         "result": "W"
-      },
-      {
-        "fixtureId": 760512,
-        "opponent": "Norway",
-        "date": "2026-07-11T21:00Z",
-        "goals": 0,
-        "assists": 0,
-        "shotsOnGoal": 0,
-        "goalsConceded": 0
       }
     ]
   },
