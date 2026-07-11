@@ -49,6 +49,18 @@
       ]
     },
     {
+      "name": "Jude Bellingham",
+      "country": "England",
+      "position": "MID",
+      "value": 5,
+      "managers": [
+        {
+          "id": "grayson",
+          "name": "Grayson"
+        }
+      ]
+    },
+    {
       "name": "Ousmane Dembélé",
       "country": "France",
       "position": "MID",
@@ -66,18 +78,6 @@
       "position": "MID",
       "value": 4,
       "managers": []
-    },
-    {
-      "name": "Jude Bellingham",
-      "country": "England",
-      "position": "MID",
-      "value": 4,
-      "managers": [
-        {
-          "id": "grayson",
-          "name": "Grayson"
-        }
-      ]
     },
     {
       "name": "Julián Quiñones",
@@ -179,6 +179,13 @@
       "managers": []
     },
     {
+      "name": "Anthony Gordon",
+      "country": "England",
+      "position": "MID",
+      "value": 3,
+      "managers": []
+    },
+    {
       "name": "Bukayo Saka",
       "country": "England",
       "position": "MID",
@@ -232,13 +239,6 @@
           "name": "Travis"
         }
       ]
-    },
-    {
-      "name": "Anthony Gordon",
-      "country": "England",
-      "position": "MID",
-      "value": 2,
-      "managers": []
     }
   ],
   "saves": [
