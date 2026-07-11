@@ -1190,7 +1190,7 @@
     "stage": "Quarter-final",
     "home": "Norway",
     "away": "England",
-    "status": "PAUSED",
+    "status": "IN_PLAY",
     "homeScore": 1,
     "awayScore": 1,
     "winner": null
