@@ -2914,7 +2914,7 @@
         "date": "2026-07-11T21:00Z",
         "goals": 0,
         "assists": 1,
-        "shotsOnGoal": 0
+        "shotsOnGoal": 1
       }
     ]
   },
@@ -3940,7 +3940,7 @@
         "goals": 0,
         "assists": 0,
         "shotsOnGoal": 0,
-        "saves": 1,
+        "saves": 2,
         "goalsConceded": 1
       }
     ]
