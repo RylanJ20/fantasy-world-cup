@@ -153,6 +153,18 @@
       "managers": []
     },
     {
+      "name": "Martin Ødegaard",
+      "country": "Norway",
+      "position": "MID",
+      "value": 4,
+      "managers": [
+        {
+          "id": "terrick",
+          "name": "Terrick"
+        }
+      ]
+    },
+    {
       "name": "Alexander Isak",
       "country": "Sweden",
       "position": "FWD",
@@ -199,18 +211,6 @@
         {
           "id": "alejandro",
           "name": "Alejandro"
-        }
-      ]
-    },
-    {
-      "name": "Martin Ødegaard",
-      "country": "Norway",
-      "position": "MID",
-      "value": 3,
-      "managers": [
-        {
-          "id": "terrick",
-          "name": "Terrick"
         }
       ]
     },
