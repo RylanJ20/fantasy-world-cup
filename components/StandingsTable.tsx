@@ -1,6 +1,6 @@
 import Link from "next/link";
 import type { StandingRow } from "@/lib/league";
-import { Avatar, Pts } from "./ui";
+import { Avatar, Pts, SurvivorPills } from "./ui";
 import { ChevronRight, CrownIcon } from "./icons";
 
 function RankMark({ rank }: { rank: number }) {
@@ -62,10 +62,19 @@ export function StandingsTable({ rows }: { rows: StandingRow[] }) {
                       <CrownIcon size={16} className="shrink-0 text-gold-bright" />
                     )}
                   </span>
-                  {/* mobile breakdown + leader bar */}
+                  {/* still-alive counters — where the manager should look */}
+                  <span className="mt-1.5 flex">
+                    <SurvivorPills
+                      players={row.alive.players}
+                      playersTotal={row.alive.playersTotal}
+                      teams={row.alive.teams}
+                      teamsTotal={row.alive.teamsTotal}
+                    />
+                  </span>
+                  {/* mobile points breakdown + desktop leader bar */}
                   <span className="mt-1 block sm:hidden">
                     <span className="font-mono text-xs text-faint">
-                      {row.playersTotal} players · {row.teamsTotal} teams
+                      {row.playersTotal} pts players · {row.teamsTotal} pts teams
                     </span>
                   </span>
                   <span className="mt-1.5 hidden h-1 w-32 overflow-hidden rounded-full bg-bg-2 sm:block">

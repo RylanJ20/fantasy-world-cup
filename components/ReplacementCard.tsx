@@ -3,7 +3,8 @@
 import { useState } from "react";
 import type { PlayerScore } from "@/lib/scoring";
 import { shirtName } from "@/lib/shirtNames";
-import { Flag, Pts, PositionBadge, ScoreLines, StatPill } from "./ui";
+import { isEliminated } from "@/lib/elimination";
+import { EliminatedBadge, Flag, Pts, PositionBadge, ScoreLines, StatPill } from "./ui";
 import { statPills } from "./playerPills";
 import { MatchLog } from "./MatchLog";
 import { playerAnchor } from "./PitchFormation";
@@ -32,6 +33,8 @@ export function ReplacementCard({
   const prev = rep.previousScore;
   const curr = rep.currentScore;
   const [view, setView] = useState<View>("both");
+  // The slot now belongs to the incoming player — grey it out on THEIR nation.
+  const out = isEliminated(ps.player.country);
 
   const views: Record<
     View,
@@ -76,7 +79,7 @@ export function ReplacementCard({
   return (
     <article
       id={playerAnchor(ps.player.name)}
-      className="player-card panel scroll-mt-24 p-4 transition-colors"
+      className={`player-card panel scroll-mt-24 p-4 transition-colors ${out ? "is-out" : ""}`}
     >
       <header className="flex items-start justify-between gap-3">
         <div className="flex min-w-0 items-start gap-3">
@@ -87,6 +90,7 @@ export function ReplacementCard({
             <div className="mb-1 flex flex-wrap items-center gap-2">
               <PositionBadge position={ps.player.position} />
               <span className="badge border-amber/40 text-amber">Replacement</span>
+              {out && <EliminatedBadge />}
             </div>
             {/* transfer: outgoing → incoming, each with their own nation's flag */}
             <h3 className="flex flex-wrap items-center gap-1.5 font-display text-xl leading-tight tracking-wide text-chalk">

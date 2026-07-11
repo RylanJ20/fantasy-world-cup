@@ -10,7 +10,7 @@ import {
 import { PitchFormation } from "@/components/PitchFormation";
 import { PlayerCard } from "@/components/PlayerCard";
 import { TeamCard } from "@/components/TeamCard";
-import { Avatar, Pts, SectionTitle } from "@/components/ui";
+import { Avatar, Pts, SectionTitle, SurvivorPills } from "@/components/ui";
 import {
   ArrowLeft,
   BootIcon,
@@ -111,7 +111,7 @@ export default async function ManagerPage({
               />
             </div>
             <div>
-              <div className="mb-1 flex items-center gap-2">
+              <div className="mb-1 flex flex-wrap items-center gap-2">
                 <span
                   className={`badge ${
                     m.rank === 1
@@ -122,6 +122,12 @@ export default async function ManagerPage({
                   {m.rank === 1 && <CrownIcon size={14} />}
                   {ORDINAL[m.rank] ?? `${m.rank}th`} of {fieldSize}
                 </span>
+                <SurvivorPills
+                  players={m.alive.players}
+                  playersTotal={m.alive.playersTotal}
+                  teams={m.alive.teams}
+                  teamsTotal={m.alive.teamsTotal}
+                />
               </div>
               <h1 className="font-display text-4xl leading-none tracking-wide text-chalk sm:text-5xl">
                 {m.manager.name}

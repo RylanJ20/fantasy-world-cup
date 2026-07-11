@@ -2,6 +2,7 @@ import type { ReactNode } from "react";
 import type { Position } from "@/lib/types";
 import type { ScoreLine } from "@/lib/scoring";
 import { countryCode } from "@/lib/flags";
+import { BootIcon, ShieldIcon } from "./icons";
 
 /**
  * Country flag (crisp SVG via flag-icons — renders on every platform, unlike
@@ -62,6 +63,56 @@ export function Pts({
   return (
     <span className={`font-mono tnum tabular-nums ${className}`}>
       {showSign ? signed(value) : value}
+    </span>
+  );
+}
+
+/**
+ * Compact "still alive" counters — how many of a manager's players and teams
+ * remain in the tournament. Shown on the standings rows and the manager header.
+ */
+export function SurvivorPills({
+  players,
+  playersTotal,
+  teams,
+  teamsTotal,
+  className = "",
+}: {
+  players: number;
+  playersTotal: number;
+  teams: number;
+  teamsTotal: number;
+  className?: string;
+}) {
+  const pill = (icon: ReactNode, alive: number, total: number, noun: string) => (
+    <span
+      className="inline-flex items-center gap-1 rounded-md border border-line bg-bg-2/60 px-1.5 py-0.5"
+      title={`${alive} of ${total} ${noun} still in the World Cup`}
+    >
+      <span className={alive > 0 ? "text-turf-bright" : "text-faint"}>{icon}</span>
+      <span className="font-mono tnum text-[0.7rem] font-bold leading-none">
+        <span className={alive > 0 ? "text-chalk" : "text-faint"}>{alive}</span>
+        <span className="text-faint">/{total}</span>
+      </span>
+    </span>
+  );
+  if (playersTotal === 0 && teamsTotal === 0) return null;
+  return (
+    <span className={`inline-flex items-center gap-1.5 ${className}`}>
+      {playersTotal > 0 && pill(<BootIcon size={12} />, players, playersTotal, "players")}
+      {teamsTotal > 0 && pill(<ShieldIcon size={12} />, teams, teamsTotal, "teams")}
+    </span>
+  );
+}
+
+/** Marks a player/team whose nation is out of the World Cup. */
+export function EliminatedBadge({ className = "" }: { className?: string }) {
+  return (
+    <span
+      className={`badge border-red/40 bg-red/10 text-red ${className}`}
+      title="Eliminated — this nation is out of the World Cup"
+    >
+      Out
     </span>
   );
 }

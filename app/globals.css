@@ -233,6 +233,19 @@ details[open] .chev {
   transform: rotate(90deg);
 }
 
+/* Eliminated player/team — dimmed & desaturated so alive assets stand out.
+   Hover lifts the veil a little so the card stays readable. */
+.is-out {
+  opacity: 0.5;
+  filter: saturate(0.55);
+  transition: opacity 0.18s ease, filter 0.18s ease;
+}
+.is-out:hover,
+.is-out:focus-within {
+  opacity: 0.8;
+  filter: saturate(0.8);
+}
+
 /* Highlight a player card when jumped to from the pitch */
 .player-card:target {
   border-color: rgba(46, 227, 111, 0.55);

@@ -1,5 +1,6 @@
 import type { TeamScore } from "@/lib/scoring";
-import { Flag, Pts, RecordBadges, ScoreLines, signed } from "./ui";
+import { isEliminated } from "@/lib/elimination";
+import { EliminatedBadge, Flag, Pts, RecordBadges, ScoreLines, signed } from "./ui";
 import { ChevronRight } from "./icons";
 
 function resultTone(r: "W" | "D" | "L"): string {
@@ -8,16 +9,20 @@ function resultTone(r: "W" | "D" | "L"): string {
 
 export function TeamCard({ ts }: { ts: TeamScore }) {
   const { team, record } = ts;
+  const out = isEliminated(team.country);
 
   return (
-    <article className="panel p-4">
+    <article className={`panel p-4 ${out ? "is-out" : ""}`}>
       <header className="flex items-start justify-between gap-3">
         <div className="flex items-start gap-3">
           <Flag country={team.country} size={30} className="mt-1" />
           <div>
-            <h3 className="font-display text-xl leading-tight tracking-wide text-chalk">
-              {team.country}
-            </h3>
+            <div className="flex items-center gap-2">
+              <h3 className="font-display text-xl leading-tight tracking-wide text-chalk">
+                {team.country}
+              </h3>
+              {out && <EliminatedBadge />}
+            </div>
             <div className="mt-1.5 flex items-center gap-2">
               <RecordBadges w={record.w} d={record.d} l={record.l} />
             </div>

@@ -1,6 +1,7 @@
 import type { ReactNode } from "react";
 import type { PlayerScore } from "@/lib/scoring";
 import { shirtName } from "@/lib/shirtNames";
+import { isEliminated } from "@/lib/elimination";
 import type { Position } from "@/lib/types";
 
 export function playerAnchor(name: string): string {
@@ -18,15 +19,16 @@ const NODE_TONE: Record<Position, string> = {
 
 function PlayerNode({ ps }: { ps: PlayerScore }) {
   const { player } = ps;
+  const out = isEliminated(player.country);
   return (
     <a
       href={`#${playerAnchor(player.name)}`}
       // Flexible width so any row (incl. a 4-defender back line) always fits.
-      className="group flex min-w-0 max-w-[4.5rem] flex-1 flex-col items-center gap-1"
+      className={`group flex min-w-0 max-w-[4.5rem] flex-1 flex-col items-center gap-1 ${out ? "is-out" : ""}`}
       title={
-        ps.replaced
+        (ps.replaced
           ? `${player.name} (in for ${ps.replaced.previous.name}) — ${ps.total} pts`
-          : `${player.name} — ${ps.total} pts`
+          : `${player.name} — ${ps.total} pts`) + (out ? " · eliminated" : "")
       }
     >
       <span className="relative">
@@ -62,11 +64,12 @@ function PlayerNode({ ps }: { ps: PlayerScore }) {
 /** A substitute standing in the technical area beside the pitch. */
 function BenchNode({ ps }: { ps: PlayerScore }) {
   const { player } = ps;
+  const out = isEliminated(player.country);
   return (
     <a
       href={`#${playerAnchor(player.name)}`}
-      className="group flex w-full min-w-0 flex-col items-center gap-1"
-      title={`${player.name} — substitute`}
+      className={`group flex w-full min-w-0 flex-col items-center gap-1 ${out ? "is-out" : ""}`}
+      title={`${player.name} — substitute${out ? " · eliminated" : ""}`}
     >
       <span
         className={`grid h-10 w-10 place-items-center rounded-full border-2 border-dashed bg-bg/85 font-mono text-xs font-bold shadow-lg backdrop-blur transition-transform group-hover:-translate-y-1 sm:h-11 sm:w-11 sm:text-sm ${NODE_TONE[player.position]}`}

@@ -1,5 +1,6 @@
 import type { PlayerScore } from "@/lib/scoring";
-import { Flag, Pts, PositionBadge, ScoreLines, StatPill } from "./ui";
+import { isEliminated } from "@/lib/elimination";
+import { EliminatedBadge, Flag, Pts, PositionBadge, ScoreLines, StatPill } from "./ui";
 import { statPills } from "./playerPills";
 import { MatchLog } from "./MatchLog";
 import { ReplacementCard } from "./ReplacementCard";
@@ -22,11 +23,12 @@ export function PlayerCard({
 
   const { player } = ps;
   const pills = statPills(ps);
+  const out = isEliminated(player.country);
 
   return (
     <article
       id={playerAnchor(player.name)}
-      className="player-card panel scroll-mt-24 p-4 transition-colors"
+      className={`player-card panel scroll-mt-24 p-4 transition-colors ${out ? "is-out" : ""}`}
     >
       <header className="flex items-start justify-between gap-3">
         <div className="flex min-w-0 items-start gap-3">
@@ -40,6 +42,7 @@ export function PlayerCard({
                 <Flag country={player.country} size={13} />
                 {player.country}
               </span>
+              {out && <EliminatedBadge />}
             </div>
             <h3 className="truncate font-display text-xl leading-tight tracking-wide text-chalk">
               {player.name}

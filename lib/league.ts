@@ -6,6 +6,7 @@
 import { league } from "@/data/league";
 import type { Manager, Player, PlayerMatch } from "./types";
 import { fixtures, resultsForCountry } from "./fixtures";
+import { isEliminated } from "./elimination";
 import { mergedPlayerMatches } from "./playerStats";
 import { tournamentLeader, tournamentLeaders } from "./tournamentLeaders";
 import { undraftedPlayerScores, tournamentPosition } from "./tournamentPlayers";
@@ -118,6 +119,18 @@ export function getManagerScores(): ManagerScore[] {
     .sort((a, b) => b.total - a.total || a.manager.name.localeCompare(b.manager.name));
 }
 
+/** How many of a manager's players / teams are still alive in the tournament. */
+export interface SurvivorCount {
+  /** Squad slots whose nation is still in the World Cup. */
+  players: number;
+  /** Total squad slots (players still in + eliminated). */
+  playersTotal: number;
+  /** Drafted nations still in the World Cup. */
+  teams: number;
+  /** Total drafted nations. */
+  teamsTotal: number;
+}
+
 export interface StandingRow extends ManagerScore {
   rank: number;
   /** True when this row shares its rank with the row above (tie). */
@@ -127,6 +140,19 @@ export interface StandingRow extends ManagerScore {
   topPhoto?: string;
   /** Name of that best performer — used as the avatar's hover title / alt. */
   topPlayer?: string;
+  /** Players / teams still alive vs. eliminated — drives the survivor counters. */
+  alive: SurvivorCount;
+}
+
+/** Tally a manager's still-alive players and teams (current occupant's nation
+ *  for a replaced slot). */
+export function survivorCount(m: ManagerScore): SurvivorCount {
+  return {
+    players: m.players.filter((p) => !isEliminated(p.player.country)).length,
+    playersTotal: m.players.length,
+    teams: m.teams.filter((t) => !isEliminated(t.team.country)).length,
+    teamsTotal: m.teams.length,
+  };
 }
 
 /** Standings with competition ranking (ties share a rank: 1, 2, 2, 4…). */
@@ -152,6 +178,7 @@ export function getStandings(): StandingRow[] {
       tied,
       topPhoto,
       topPlayer: topPhoto ? top.player.name : undefined,
+      alive: survivorCount(s),
     };
   });
 }
