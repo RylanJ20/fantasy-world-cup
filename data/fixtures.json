@@ -1190,10 +1190,10 @@
     "stage": "Quarter-final",
     "home": "Norway",
     "away": "England",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "homeScore": 1,
     "awayScore": 2,
-    "winner": null
+    "winner": "AWAY_TEAM"
   },
   {
     "n": 760513,
@@ -1224,7 +1224,7 @@
     "date": "2026-07-15",
     "utcDate": "2026-07-15T19:00:00Z",
     "stage": "Semi-final",
-    "home": "Quarterfinal 3 Winner",
+    "home": "England",
     "away": "Quarterfinal 4 Winner",
     "status": "TIMED",
     "homeScore": null,
