@@ -4086,6 +4086,15 @@
         "shotsOnGoal": 0,
         "goalsConceded": 0,
         "result": "D"
+      },
+      {
+        "fixtureId": 760512,
+        "opponent": "Norway",
+        "date": "2026-07-11T21:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "goalsConceded": 0
       }
     ]
   },
