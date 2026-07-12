@@ -15,6 +15,11 @@
     "opponent": "Jordan"
   },
   {
+    "player": "Julián Álvarez",
+    "country": "Argentina",
+    "opponent": "Switzerland"
+  },
+  {
     "player": "Lionel Messi",
     "country": "Argentina",
     "opponent": "Algeria"
@@ -193,6 +198,11 @@
     "player": "Jude Bellingham",
     "country": "England",
     "opponent": "Mexico"
+  },
+  {
+    "player": "Jude Bellingham",
+    "country": "England",
+    "opponent": "Norway"
   },
   {
     "player": "Kylian Mbappé",
