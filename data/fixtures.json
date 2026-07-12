@@ -1202,10 +1202,10 @@
     "stage": "Quarter-final",
     "home": "Argentina",
     "away": "Switzerland",
-    "status": "FINISHED",
-    "homeScore": 3,
+    "status": "IN_PLAY",
+    "homeScore": 1,
     "awayScore": 1,
-    "winner": "HOME_TEAM"
+    "winner": null
   },
   {
     "n": 760514,
