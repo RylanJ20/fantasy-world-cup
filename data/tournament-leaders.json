@@ -257,6 +257,13 @@
       "managers": []
     },
     {
+      "name": "Gregor Kobel",
+      "country": "Switzerland",
+      "position": "GK",
+      "value": 20,
+      "managers": []
+    },
+    {
       "name": "Diogo Costa",
       "country": "Portugal",
       "position": "GK",
@@ -267,13 +274,6 @@
           "name": "Terrick"
         }
       ]
-    },
-    {
-      "name": "Gregor Kobel",
-      "country": "Switzerland",
-      "position": "GK",
-      "value": 19,
-      "managers": []
     },
     {
       "name": "Vozinha",

@@ -283,7 +283,8 @@
         "goals": 0,
         "assists": 0,
         "shotsOnGoal": 0,
-        "goalsConceded": 2
+        "goalsConceded": 3,
+        "result": "L"
       }
     ]
   },
@@ -3021,7 +3022,8 @@
         "date": "2026-07-12T01:00Z",
         "goals": 0,
         "assists": 0,
-        "shotsOnGoal": 0
+        "shotsOnGoal": 0,
+        "result": "W"
       }
     ]
   },
@@ -3080,7 +3082,8 @@
         "date": "2026-07-12T01:00Z",
         "goals": 0,
         "assists": 1,
-        "shotsOnGoal": 1
+        "shotsOnGoal": 1,
+        "result": "W"
       }
     ]
   },
@@ -3137,9 +3140,10 @@
         "fixtureId": 760513,
         "opponent": "Switzerland",
         "date": "2026-07-12T01:00Z",
-        "goals": 0,
+        "goals": 1,
         "assists": 0,
-        "shotsOnGoal": 0
+        "shotsOnGoal": 1,
+        "result": "W"
       }
     ]
   },
@@ -3198,7 +3202,8 @@
         "date": "2026-07-12T01:00Z",
         "goals": 1,
         "assists": 0,
-        "shotsOnGoal": 1
+        "shotsOnGoal": 1,
+        "result": "W"
       }
     ]
   },
@@ -3269,7 +3274,8 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 4,
-        "goalsConceded": 1
+        "goalsConceded": 1,
+        "result": "W"
       }
     ]
   },
@@ -3328,7 +3334,8 @@
         "date": "2026-07-12T01:00Z",
         "goals": 1,
         "assists": 0,
-        "shotsOnGoal": 1
+        "shotsOnGoal": 1,
+        "result": "W"
       }
     ]
   },
@@ -3383,7 +3390,8 @@
         "goals": 0,
         "assists": 0,
         "shotsOnGoal": 0,
-        "goalsConceded": 1
+        "goalsConceded": 1,
+        "result": "W"
       }
     ]
   },
@@ -3438,7 +3446,8 @@
         "goals": 0,
         "assists": 0,
         "shotsOnGoal": 0,
-        "goalsConceded": 1
+        "goalsConceded": 1,
+        "result": "W"
       }
     ]
   },
