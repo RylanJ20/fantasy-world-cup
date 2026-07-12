@@ -1202,7 +1202,7 @@
     "stage": "Quarter-final",
     "home": "Argentina",
     "away": "Switzerland",
-    "status": "IN_PLAY",
+    "status": "PAUSED",
     "homeScore": 1,
     "awayScore": 0,
     "winner": null
