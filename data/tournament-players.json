@@ -33048,6 +33048,22 @@
     ]
   },
   {
+    "name": "Eray Cömert",
+    "country": "Switzerland",
+    "position": "",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Argentina",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
     "name": "Fabian Rieder",
     "country": "Switzerland",
     "position": "MID",
@@ -33216,7 +33232,7 @@
         "goals": 0,
         "assists": 0,
         "shotsOnGoal": 0,
-        "saves": 0,
+        "saves": 1,
         "goalsConceded": 1
       }
     ]
