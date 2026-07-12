@@ -1202,10 +1202,10 @@
     "stage": "Quarter-final",
     "home": "Argentina",
     "away": "Switzerland",
-    "status": "IN_PLAY",
-    "homeScore": 1,
+    "status": "FINISHED",
+    "homeScore": 3,
     "awayScore": 1,
-    "winner": null
+    "winner": "HOME_TEAM"
   },
   {
     "n": 760514,
@@ -1225,7 +1225,7 @@
     "utcDate": "2026-07-15T19:00:00Z",
     "stage": "Semi-final",
     "home": "England",
-    "away": "Quarterfinal 4 Winner",
+    "away": "Argentina",
     "status": "TIMED",
     "homeScore": null,
     "awayScore": null,
