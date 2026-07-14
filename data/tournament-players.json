@@ -23203,9 +23203,9 @@
         "opponent": "Egypt",
         "goals": 0,
         "assists": 0,
-        "shotsOnGoal": 2,
+        "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 1,
+        "goalsConceded": 0,
         "result": "L"
       },
       {
@@ -23546,7 +23546,7 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "saves": 0,
-        "goalsConceded": 3,
+        "goalsConceded": 0,
         "result": "L"
       },
       {
