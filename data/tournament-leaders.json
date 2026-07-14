@@ -342,7 +342,7 @@
       "name": "Aymeric Laporte",
       "country": "Spain",
       "position": "DEF",
-      "value": 5,
+      "value": 6,
       "managers": [
         {
           "id": "rylan",
@@ -354,7 +354,7 @@
       "name": "Marc Cucurella",
       "country": "Spain",
       "position": "DEF",
-      "value": 5,
+      "value": 6,
       "managers": [
         {
           "id": "zach",
@@ -366,7 +366,7 @@
       "name": "Pau Cubarsí",
       "country": "Spain",
       "position": "DEF",
-      "value": 5,
+      "value": 6,
       "managers": [
         {
           "id": "zach",
@@ -436,16 +436,11 @@
       "managers": []
     },
     {
-      "name": "William Saliba",
-      "country": "France",
+      "name": "Pedro Porro",
+      "country": "Spain",
       "position": "DEF",
       "value": 4,
-      "managers": [
-        {
-          "id": "travis",
-          "name": "Travis"
-        }
-      ]
+      "managers": []
     }
   ]
 }
