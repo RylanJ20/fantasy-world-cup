@@ -1214,10 +1214,10 @@
     "stage": "Semi-final",
     "home": "France",
     "away": "Spain",
-    "status": "FINISHED",
+    "status": "IN_PLAY",
     "homeScore": 0,
     "awayScore": 2,
-    "winner": "AWAY_TEAM"
+    "winner": null
   },
   {
     "n": 760515,
