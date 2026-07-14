@@ -1,7 +1,7 @@
 {
   "summary": {
-    "total": 60,
-    "scored": 39,
+    "total": 61,
+    "scored": 40,
     "saved": 10,
     "missed": 11,
     "unknown": 0,
@@ -790,6 +790,19 @@
       "keeper": "Yassine Bounou",
       "keeperTeam": "Morocco",
       "text": "Penalty saved. Kylian Mbappé (France) right footed shot saved in the bottom right corner by Yassine Bounou (Morocco)."
+    },
+    {
+      "fixtureId": 760514,
+      "match": "Spain at France",
+      "date": "2026-07-14T19:00Z",
+      "minute": "22'",
+      "shootout": false,
+      "kind": "scored",
+      "taker": "Mikel Oyarzabal",
+      "takerTeam": "Spain",
+      "keeper": null,
+      "keeperTeam": null,
+      "text": "Goal! France 0, Spain 1. Mikel Oyarzabal (Spain) converts the penalty with a left footed shot to the top right corner."
     }
   ]
 }
