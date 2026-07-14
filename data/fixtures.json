@@ -1214,9 +1214,9 @@
     "stage": "Semi-final",
     "home": "France",
     "away": "Spain",
-    "status": "IN_PLAY",
+    "status": "PAUSED",
     "homeScore": 0,
-    "awayScore": 0,
+    "awayScore": 1,
     "winner": null
   },
   {
