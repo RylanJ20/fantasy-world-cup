@@ -222,23 +222,23 @@
       ]
     },
     {
+      "name": "Lionel Messi",
+      "country": "Argentina",
+      "position": "FWD",
+      "value": 3,
+      "managers": [
+        {
+          "id": "zach",
+          "name": "Zach"
+        }
+      ]
+    },
+    {
       "name": "Roberto Alvarado",
       "country": "Mexico",
       "position": "MID",
       "value": 3,
       "managers": []
-    },
-    {
-      "name": "Achraf Hakimi",
-      "country": "Morocco",
-      "position": "DEF",
-      "value": 2,
-      "managers": [
-        {
-          "id": "travis",
-          "name": "Travis"
-        }
-      ]
     }
   ],
   "saves": [
