@@ -1226,8 +1226,8 @@
     "stage": "Semi-final",
     "home": "England",
     "away": "Argentina",
-    "status": "PAUSED",
-    "homeScore": 0,
+    "status": "IN_PLAY",
+    "homeScore": 1,
     "awayScore": 0,
     "winner": null
   },
