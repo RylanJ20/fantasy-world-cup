@@ -311,6 +311,18 @@
       "managers": []
     },
     {
+      "name": "Jordan Pickford",
+      "country": "England",
+      "position": "GK",
+      "value": 15,
+      "managers": [
+        {
+          "id": "rylan",
+          "name": "Rylan"
+        }
+      ]
+    },
+    {
       "name": "Yassine Bounou",
       "country": "Morocco",
       "position": "GK",
@@ -328,13 +340,6 @@
           "name": "Marc"
         }
       ]
-    },
-    {
-      "name": "Lionel Mpasi",
-      "country": "Congo DR",
-      "position": "GK",
-      "value": 14,
-      "managers": []
     }
   ],
   "cleanSheets": [
