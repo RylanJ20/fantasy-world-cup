@@ -3322,6 +3322,14 @@
         "assists": 0,
         "shotsOnGoal": 1,
         "result": "W"
+      },
+      {
+        "fixtureId": 760515,
+        "opponent": "England",
+        "date": "2026-07-15T19:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0
       }
     ]
   },
