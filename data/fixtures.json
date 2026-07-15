@@ -1226,10 +1226,10 @@
     "stage": "Semi-final",
     "home": "England",
     "away": "Argentina",
-    "status": "FINISHED",
+    "status": "IN_PLAY",
     "homeScore": 1,
     "awayScore": 2,
-    "winner": "AWAY_TEAM"
+    "winner": null
   },
   {
     "n": 760516,
@@ -1237,7 +1237,7 @@
     "utcDate": "2026-07-18T21:00:00Z",
     "stage": "Third place",
     "home": "France",
-    "away": "England",
+    "away": "Semifinal 2 Loser",
     "status": "TIMED",
     "homeScore": null,
     "awayScore": null,
@@ -1249,7 +1249,7 @@
     "utcDate": "2026-07-19T19:00:00Z",
     "stage": "Final",
     "home": "Spain",
-    "away": "Argentina",
+    "away": "Semifinal 2 Winner",
     "status": "TIMED",
     "homeScore": null,
     "awayScore": null,
