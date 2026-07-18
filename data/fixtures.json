@@ -1238,7 +1238,7 @@
     "stage": "Third place",
     "home": "France",
     "away": "England",
-    "status": "PAUSED",
+    "status": "IN_PLAY",
     "homeScore": 0,
     "awayScore": 4,
     "winner": null
