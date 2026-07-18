@@ -1238,10 +1238,10 @@
     "stage": "Third place",
     "home": "France",
     "away": "England",
-    "status": "FINISHED",
-    "homeScore": 4,
-    "awayScore": 6,
-    "winner": "AWAY_TEAM"
+    "status": "IN_PLAY",
+    "homeScore": 3,
+    "awayScore": 5,
+    "winner": null
   },
   {
     "n": 760517,
