@@ -4,7 +4,7 @@
       "name": "Kylian Mbappé",
       "country": "France",
       "position": "FWD",
-      "value": 9,
+      "value": 10,
       "managers": [
         {
           "id": "alejandro",
@@ -130,7 +130,7 @@
       "name": "Michael Olise",
       "country": "France",
       "position": "MID",
-      "value": 6,
+      "value": 7,
       "managers": [
         {
           "id": "travis",
