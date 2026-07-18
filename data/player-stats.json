@@ -2739,7 +2739,7 @@
         "goals": 0,
         "assists": 0,
         "shotsOnGoal": 0,
-        "saves": 3,
+        "saves": 4,
         "goalsConceded": 4
       }
     ]
@@ -4584,6 +4584,14 @@
         "assists": 0,
         "shotsOnGoal": 0,
         "result": "L"
+      },
+      {
+        "fixtureId": 760516,
+        "opponent": "France",
+        "date": "2026-07-18T21:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 1
       }
     ]
   },
