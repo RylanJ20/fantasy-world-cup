@@ -1,7 +1,7 @@
 {
   "summary": {
-    "total": 61,
-    "scored": 40,
+    "total": 62,
+    "scored": 41,
     "saved": 10,
     "missed": 11,
     "unknown": 0,
@@ -803,6 +803,19 @@
       "keeper": null,
       "keeperTeam": null,
       "text": "Goal! France 0, Spain 1. Mikel Oyarzabal (Spain) converts the penalty with a left footed shot to the top right corner."
+    },
+    {
+      "fixtureId": 760516,
+      "match": "England at France",
+      "date": "2026-07-18T21:00Z",
+      "minute": "87'",
+      "shootout": false,
+      "kind": "scored",
+      "taker": "Bukayo Saka",
+      "takerTeam": "England",
+      "keeper": null,
+      "keeperTeam": null,
+      "text": "Goal! France 3, England 5. Bukayo Saka (England) converts the penalty with a left footed shot to the bottom right corner."
     }
   ]
 }
