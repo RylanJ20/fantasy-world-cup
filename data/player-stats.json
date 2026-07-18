@@ -2739,7 +2739,7 @@
         "goals": 0,
         "assists": 0,
         "shotsOnGoal": 0,
-        "saves": 0,
+        "saves": 1,
         "goalsConceded": 2
       }
     ]
@@ -2960,7 +2960,7 @@
         "date": "2026-07-18T21:00Z",
         "goals": 0,
         "assists": 0,
-        "shotsOnGoal": 0
+        "shotsOnGoal": 1
       }
     ]
   },
