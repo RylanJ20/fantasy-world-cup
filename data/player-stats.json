@@ -3035,9 +3035,9 @@
         "fixtureId": 760516,
         "opponent": "England",
         "date": "2026-07-18T21:00Z",
-        "goals": 0,
+        "goals": 1,
         "assists": 0,
-        "shotsOnGoal": 1
+        "shotsOnGoal": 2
       }
     ]
   },
@@ -4523,7 +4523,7 @@
         "goals": 0,
         "assists": 0,
         "shotsOnGoal": 0,
-        "goalsConceded": 0
+        "goalsConceded": 1
       }
     ]
   },

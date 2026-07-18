@@ -61,6 +61,18 @@
       ]
     },
     {
+      "name": "Ousmane Dembélé",
+      "country": "France",
+      "position": "MID",
+      "value": 6,
+      "managers": [
+        {
+          "id": "alejandro",
+          "name": "Alejandro"
+        }
+      ]
+    },
+    {
       "name": "Mikel Oyarzabal",
       "country": "Spain",
       "position": "FWD",
@@ -69,18 +81,6 @@
         {
           "id": "rylan",
           "name": "Rylan"
-        }
-      ]
-    },
-    {
-      "name": "Ousmane Dembélé",
-      "country": "France",
-      "position": "MID",
-      "value": 5,
-      "managers": [
-        {
-          "id": "alejandro",
-          "name": "Alejandro"
         }
       ]
     },
