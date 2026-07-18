@@ -1239,7 +1239,7 @@
     "home": "France",
     "away": "England",
     "status": "IN_PLAY",
-    "homeScore": 0,
+    "homeScore": 1,
     "awayScore": 4,
     "winner": null
   },

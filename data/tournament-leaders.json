@@ -111,15 +111,15 @@
       ]
     },
     {
-      "name": "Brian Brobbey",
-      "country": "Netherlands",
-      "position": "FWD",
+      "name": "Bradley Barcola",
+      "country": "France",
+      "position": "MID",
       "value": 3,
       "managers": []
     },
     {
-      "name": "Charles De Ketelaere",
-      "country": "Belgium",
+      "name": "Brian Brobbey",
+      "country": "Netherlands",
       "position": "FWD",
       "value": 3,
       "managers": []
@@ -151,6 +151,18 @@
       "position": "MID",
       "value": 4,
       "managers": []
+    },
+    {
+      "name": "Kylian Mbappé",
+      "country": "France",
+      "position": "FWD",
+      "value": 4,
+      "managers": [
+        {
+          "id": "alejandro",
+          "name": "Alejandro"
+        }
+      ]
     },
     {
       "name": "Lionel Messi",
@@ -218,18 +230,6 @@
         {
           "id": "marc",
           "name": "Marc"
-        }
-      ]
-    },
-    {
-      "name": "Kylian Mbappé",
-      "country": "France",
-      "position": "FWD",
-      "value": 3,
-      "managers": [
-        {
-          "id": "alejandro",
-          "name": "Alejandro"
         }
       ]
     },
