@@ -276,23 +276,23 @@
       ]
     },
     {
-      "name": "Vozinha",
-      "country": "Cabo Verde",
-      "position": "GK",
-      "value": 18,
-      "managers": []
-    },
-    {
       "name": "Emiliano Martínez",
       "country": "Argentina",
       "position": "GK",
-      "value": 17,
+      "value": 18,
       "managers": [
         {
           "id": "travis",
           "name": "Travis"
         }
       ]
+    },
+    {
+      "name": "Vozinha",
+      "country": "Cabo Verde",
+      "position": "GK",
+      "value": 18,
+      "managers": []
     },
     {
       "name": "Bart Verbruggen",
