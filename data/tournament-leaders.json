@@ -257,6 +257,18 @@
       "managers": []
     },
     {
+      "name": "Emiliano Martínez",
+      "country": "Argentina",
+      "position": "GK",
+      "value": 20,
+      "managers": [
+        {
+          "id": "travis",
+          "name": "Travis"
+        }
+      ]
+    },
+    {
       "name": "Gregor Kobel",
       "country": "Switzerland",
       "position": "GK",
@@ -272,18 +284,6 @@
         {
           "id": "terrick",
           "name": "Terrick"
-        }
-      ]
-    },
-    {
-      "name": "Emiliano Martínez",
-      "country": "Argentina",
-      "position": "GK",
-      "value": 19,
-      "managers": [
-        {
-          "id": "travis",
-          "name": "Travis"
         }
       ]
     },
