@@ -1133,7 +1133,8 @@
         "shotsOnGoal": 0,
         "saves": 2,
         "goalsConceded": 1,
-        "result": "L"
+        "result": "L",
+        "shootoutSaves": 1
       }
     ]
   },
