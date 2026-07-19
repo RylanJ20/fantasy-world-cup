@@ -32126,6 +32126,22 @@
     ]
   },
   {
+    "name": "Eric García",
+    "country": "Spain",
+    "position": "",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Argentina",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
+      }
+    ]
+  },
+  {
     "name": "Fabián Ruiz",
     "country": "Spain",
     "position": "MID",
@@ -32536,6 +32552,22 @@
         "saves": 0,
         "goalsConceded": 0,
         "result": "W"
+      }
+    ]
+  },
+  {
+    "name": "Martín Zubimendi",
+    "country": "Spain",
+    "position": "",
+    "managers": [],
+    "matches": [
+      {
+        "opponent": "Argentina",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "saves": 0,
+        "goalsConceded": 0
       }
     ]
   },
