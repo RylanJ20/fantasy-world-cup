@@ -3788,6 +3788,15 @@
         "shotsOnGoal": 0,
         "goalsConceded": 1,
         "result": "W"
+      },
+      {
+        "fixtureId": 760517,
+        "opponent": "Spain",
+        "date": "2026-07-19T19:00Z",
+        "goals": 0,
+        "assists": 0,
+        "shotsOnGoal": 0,
+        "goalsConceded": 0
       }
     ]
   },
