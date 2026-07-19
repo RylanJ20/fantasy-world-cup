@@ -290,6 +290,18 @@
       "managers": []
     },
     {
+      "name": "Emiliano Martínez",
+      "country": "Argentina",
+      "position": "GK",
+      "value": 16,
+      "managers": [
+        {
+          "id": "travis",
+          "name": "Travis"
+        }
+      ]
+    },
+    {
       "name": "Mohammed Al-Owais",
       "country": "Saudi Arabia",
       "position": "GK",
@@ -328,18 +340,6 @@
       "position": "GK",
       "value": 15,
       "managers": []
-    },
-    {
-      "name": "Alisson Becker",
-      "country": "Brazil",
-      "position": "GK",
-      "value": 14,
-      "managers": [
-        {
-          "id": "marc",
-          "name": "Marc"
-        }
-      ]
     }
   ],
   "cleanSheets": [
