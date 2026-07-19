@@ -283,23 +283,23 @@
       "managers": []
     },
     {
-      "name": "Bart Verbruggen",
-      "country": "Netherlands",
-      "position": "GK",
-      "value": 16,
-      "managers": []
-    },
-    {
       "name": "Emiliano Martínez",
       "country": "Argentina",
       "position": "GK",
-      "value": 16,
+      "value": 17,
       "managers": [
         {
           "id": "travis",
           "name": "Travis"
         }
       ]
+    },
+    {
+      "name": "Bart Verbruggen",
+      "country": "Netherlands",
+      "position": "GK",
+      "value": 16,
+      "managers": []
     },
     {
       "name": "Mohammed Al-Owais",

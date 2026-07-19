@@ -980,7 +980,7 @@
         "goals": 0,
         "assists": 0,
         "shotsOnGoal": 0,
-        "saves": 7,
+        "saves": 8,
         "goalsConceded": 0
       }
     ]
@@ -32018,7 +32018,7 @@
         "opponent": "Argentina",
         "goals": 0,
         "assists": 0,
-        "shotsOnGoal": 0,
+        "shotsOnGoal": 1,
         "saves": 0,
         "goalsConceded": 0
       }
