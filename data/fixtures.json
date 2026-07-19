@@ -1250,9 +1250,9 @@
     "stage": "Final",
     "home": "Spain",
     "away": "Argentina",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "homeScore": 1,
     "awayScore": 0,
-    "winner": null
+    "winner": "HOME_TEAM"
   }
 ]
